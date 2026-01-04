@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Agricola Card Tier Tooltip",
+  "version": "1.0.0",
+  "description": "Adds tier information and tooltips to Agricola cards",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["cards.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
+
