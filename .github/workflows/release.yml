@@ -32,9 +32,9 @@ jobs:
 
       - name: Create plugin zip
         run: |
-          cd ag-tier/plugin
-          zip -r ../../ag-tier-plugin-${{ steps.set_version.outputs.version }}.zip .
-          cd ../..
+          cd plugin
+          zip -r ../ag-tier-plugin-${{ steps.set_version.outputs.version }}.zip .
+          cd ..
           ls -lh ag-tier-plugin-*.zip
 
       - name: Create Release
