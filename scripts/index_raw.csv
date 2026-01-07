@@ -1,66 +1,66 @@
 no,cnName,enName,baituTier,enTier,chenTier,effect,baituDesc,enDesc,chenDesc
-E011,,Field,,3,,"When you play this card, immediately Plow 1 field.",,"This is such a nice deal that it's often a bad deal. If you play this card remotely early, you can pretty much count on your left hand opponent using it to take SP later. Like Corn Sheaf, you need some way to break the inherent symmetry of the card for this to be worth playing. If you plan on actually using the field to grow crops, then it's usually a good deal to play the card early. Otherwise, try to wait until the later rounds to play it, as this will hopefully minimize the number of players that will be able to use it after you.",
-E012,,Fishing Rod,,3,,"Whenever you use the ""Fishing"" Action space, you receive 1 additional Food. From Round 8, you receive 2 additional Food.",,"Clearly worse than the Fish Trap, as you'd much rather be getting food as a bonus from reed (something that you usually want anyway) than on fishing, which is both unreliable and gives no benefit other than food. Still, this will probably give a comparable amount of food over time.",
-E013,,Axe,,4,,"Whenever you add a room to your Wooden hut, you only pay 2 Wood and 2 Reed.",,"The Axe's power varies wildly depending on the number of players. In 2-p, it can be very awkward, since usually you have to wait for the stone spot to appear in stage 2 before you can play it. In 3-p, it's somewhat easier to play (you can just rawdog the crappy wildcard resource spot), but the benefit it gives is reduced by the crushingly small amount of reed available. In 4-p the card becomes very powerful because of the RSF spot, and in 5-p it becomes an unquestionable 5 star card due to the 1S1W + R spot. In any case, the Axe is fantastic once you get it out; you will usually be able to get to 4+ rooms with it. If you build 3 wooden rooms, you are saving 8W. That's obscene.",
-E014,,Baker's Oven,,4,,"Whenever you use the ""Bake bread"" action, you can use the Baker's Oven to convert up to 2 Grain into 5 Food each. When you play this card, you can also take the ""Bake bread"" Action.",,"Obviously the best of the three Bakers improvements. You know whats better than 2VP for 2 stone? 1VP for no stone! Unlike the other two cards, this is a genuine incentive to go baking, as you will always be able to play this easily, ensuring you crucial bake actions at godly efficiency.",
-E015,,Baking Tray,,4,,"Clay Ovens and Stone Ovens are Minor Improvements for you. Clay, Stone and Wood-fired Ovens cost you 1 building resource (of your choice) less.",,"Baking Tray Baking Tray In 2-p and 3-p this card is amazing, and sometimes enough incentive for me to go baking all by itself. Saving you the early stone you need to get the Clay Oven is crucial, and being able to buy the oven with SP is fantastic as well. Since no one is likely to compete with you for the oven in 2-p and 3-p, you can plan around it. In 4-p and 5-p the value drops a bit, since getting the early stone is less crucial. Moreover, you are more likely to have competition for the clay oven, which makes the baking tray a riskier play (since it tips your hand). However, in any case it is a solid improvement that's usually worth the 1W if you plan on baking.",
-E016,荆棘围栏,Building Material,,3,,You receive either 1 Wood or 1 Clay when you play this card.,,"Even though this looks extremely weak, it's actually a fine card. Sometimes you really need SP and have nothing else to play. The flexibility of whether you get a clay or a wood is also nice. Also, the fact that it looks looks so bad means that the person you pass it to is less likely to take SP with it any time in the near future. Like all the 'pass to the left' cards, however, this can be a bit pointless in 2-p. Sometimes your opponent will simply retake SP with it and get pretty much an identical benefit, leaving you about where you started.",
-E017,,Windmill,,1,,"At any time, you can convert Grain to 2 Food (without having to Bake bread.)",,"Early game, being able to convert 1G to 2F is too inefficient to be worth the substantial cost. Late game, there are more efficient ways to convert resources to points. You pretty much always have something better to do with the three wood.",
+E011,,Field,,C,,"When you play this card, immediately Plow 1 field.",,"This is such a nice deal that it's often a bad deal. If you play this card remotely early, you can pretty much count on your left hand opponent using it to take SP later. Like Corn Sheaf, you need some way to break the inherent symmetry of the card for this to be worth playing. If you plan on actually using the field to grow crops, then it's usually a good deal to play the card early. Otherwise, try to wait until the later rounds to play it, as this will hopefully minimize the number of players that will be able to use it after you.",
+E012,,Fishing Rod,,C,,"Whenever you use the ""Fishing"" Action space, you receive 1 additional Food. From Round 8, you receive 2 additional Food.",,"Clearly worse than the Fish Trap, as you'd much rather be getting food as a bonus from reed (something that you usually want anyway) than on fishing, which is both unreliable and gives no benefit other than food. Still, this will probably give a comparable amount of food over time.",
+E013,,Axe,,B,,"Whenever you add a room to your Wooden hut, you only pay 2 Wood and 2 Reed.",,"The Axe's power varies wildly depending on the number of players. In 2-p, it can be very awkward, since usually you have to wait for the stone spot to appear in stage 2 before you can play it. In 3-p, it's somewhat easier to play (you can just rawdog the crappy wildcard resource spot), but the benefit it gives is reduced by the crushingly small amount of reed available. In 4-p the card becomes very powerful because of the RSF spot, and in 5-p it becomes an unquestionable 5 star card due to the 1S1W + R spot. In any case, the Axe is fantastic once you get it out; you will usually be able to get to 4+ rooms with it. If you build 3 wooden rooms, you are saving 8W. That's obscene.",
+E014,,Baker's Oven,,B,,"Whenever you use the ""Bake bread"" action, you can use the Baker's Oven to convert up to 2 Grain into 5 Food each. When you play this card, you can also take the ""Bake bread"" Action.",,"Obviously the best of the three Bakers improvements. You know whats better than 2VP for 2 stone? 1VP for no stone! Unlike the other two cards, this is a genuine incentive to go baking, as you will always be able to play this easily, ensuring you crucial bake actions at godly efficiency.",
+E015,,Baking Tray,,B,,"Clay Ovens and Stone Ovens are Minor Improvements for you. Clay, Stone and Wood-fired Ovens cost you 1 building resource (of your choice) less.",,"Baking Tray Baking Tray In 2-p and 3-p this card is amazing, and sometimes enough incentive for me to go baking all by itself. Saving you the early stone you need to get the Clay Oven is crucial, and being able to buy the oven with SP is fantastic as well. Since no one is likely to compete with you for the oven in 2-p and 3-p, you can plan around it. In 4-p and 5-p the value drops a bit, since getting the early stone is less crucial. Moreover, you are more likely to have competition for the clay oven, which makes the baking tray a riskier play (since it tips your hand). However, in any case it is a solid improvement that's usually worth the 1W if you plan on baking.",
+E016,荆棘围栏,Building Material,,C,,You receive either 1 Wood or 1 Clay when you play this card.,,"Even though this looks extremely weak, it's actually a fine card. Sometimes you really need SP and have nothing else to play. The flexibility of whether you get a clay or a wood is also nice. Also, the fact that it looks looks so bad means that the person you pass it to is less likely to take SP with it any time in the near future. Like all the 'pass to the left' cards, however, this can be a bit pointless in 2-p. Sometimes your opponent will simply retake SP with it and get pretty much an identical benefit, leaving you about where you started.",
+E017,,Windmill,,E,,"At any time, you can convert Grain to 2 Food (without having to Bake bread.)",,"Early game, being able to convert 1G to 2F is too inefficient to be worth the substantial cost. Late game, there are more efficient ways to convert resources to points. You pretty much always have something better to do with the three wood.",
 E018,种子年鉴,Bean Field,,,,"When you Sow, you can plant Vegetables on this card as though it were a field. (This card does not count as a field when scoring.)",,,
 E019,牛角尖,Gypsy's Crock,,,,"Whenever you convert any 2 goods to Food at one time using a Fireplace, Cooking Hearth or Cooking Corner, you receive 1 additional Food.",,,
-E020,,Simple Fireplace,,4,,"At any time, you may convert goods to Food as follows: Vegetables: 2 Food Sheep: 1 Food Wild Boar: 2 Food Cattle: 3 Food Whenever you use the ""Bake bread"" action, you may convert: Grain: 2 Food.",,"Simple Fireplace Simple Fireplace This is another card that can ruin the early fireplace. If you take SP with it for the final round of actions, you will be able to eat the sheep (albeit inefficiently) and hose the fireplace buyer that was letting them accumulate. After that, the free upgrade to a Cooking Hearth should be able to get you a decent long-term feeding strategy. Particularly in advanced games, when your opponents understand the importance of the first fireplace, this can be an excellent offensive tactical card. It can also be a reasonably cheap way to get a Cooking Hearth.",
+E020,,Simple Fireplace,,B,,"At any time, you may convert goods to Food as follows: Vegetables: 2 Food Sheep: 1 Food Wild Boar: 2 Food Cattle: 3 Food Whenever you use the ""Bake bread"" action, you may convert: Grain: 2 Food.",,"Simple Fireplace Simple Fireplace This is another card that can ruin the early fireplace. If you take SP with it for the final round of actions, you will be able to eat the sheep (albeit inefficiently) and hose the fireplace buyer that was letting them accumulate. After that, the free upgrade to a Cooking Hearth should be able to get you a decent long-term feeding strategy. Particularly in advanced games, when your opponents understand the importance of the first fireplace, this can be an excellent offensive tactical card. It can also be a reasonably cheap way to get a Cooking Hearth.",
 E021,羊地毯,Half-timbered House,,,,"At the end of the game you receive 1 Bonus point for each room in your Stone house. (In total, you receive 3 points instead of 2 per room.)(If you have played the Mansion, you do not score extra points for having the Half-timbered House.)",,,
-E022,客房,Raft,,3,,"Whenever you use the ""Fishing"" Action space, you receive an additional 1 Food or 1 Reed.",,This can be a nice out if reed is tight. The VP makes it just about worth the price if you plan on fishing twice.,
+E022,客房,Raft,,C,,"Whenever you use the ""Fishing"" Action space, you receive an additional 1 Food or 1 Reed.",,This can be a nice out if reed is tight. The VP makes it just about worth the price if you plan on fishing twice.,
 E023,养蜂场,Manger,,,,"At the end of the game, if your pastures occupy 6/7/8/9+ farmyard spaces, you receive 1/2/3/4 Bonus points.",,,
-E024,,Animal Pen,,3,,"Place 2 Food on each remaining Round space. At the start of each round, you receive the Food.",,"Animal Pen Animal Pen I've seen this card hang a lot of newer players who try to get this thing out as early as possible, no matter what their hand is. Don't be that guy. If you have to play 2 occupations you didn't really want to get out, it's probably not worth it because it neglects family growth. On the other hand, if you're lucky enough to have 3 - 4 early game occupations that you wanted to get out anyway, this play can be a backbreaker. The card gets much stronger if you are doing some sort of drafting, as it combos almost unfairly well with the Patron, Academic and Perpetual Student. With drafting you're also more likely to have four early game occupations that you actually want to play.",
-E025,,Spices,,3,,"Whenever you convert Vegetables to Food using a Fireplace, Cooking Hearth or Cooking Corner, you receive 1 additional Food.",,"Well, it's free, and you can't argue with that. Still, most of the time you don't end up eating vegetables, as they're too valuable in terms of points and come at an awkward stage in the game. Clearly if you plan on eating vegetables, this is a must-play. If you're not sure one way or the other, the fact that it's free means that either way it won't be too big of a mistake.",
-E026,日晷,Plane,,1,,"Whenever you turn 1 Wood into Food using the Joinery, Sawmill or Cabinetmaker, you receive 1 additional Food. You can choose instead to turn a second Wood into exactly 2 Food.",,"First off, almost no one buys a Joinery, making a card that enhances it automatically dubious in value. Second, even if you have the Joinery somehow, the card costs 1W! Since each wood is worth 2 food, you won't actually be profiting from the card until you use the Joinery 3 times. If you actually plan on using the Joinery 3 times, the question becomes: where are you getting all this extra wood, and why are you not using it for room extension/fencing?",
-E027,,Wood-Fired Oven,,2,,"Whenever you use the ""Bake bread"" action, you can use the Wood-fired Oven to turn any number of Grain into 3 Food each. When you play this card, you can also take the ""Bake bread"" action.",,"Wood-fired Oven Wood-fired Oven A little better than the Windmill, but is bad for
+E024,,Animal Pen,,C,,"Place 2 Food on each remaining Round space. At the start of each round, you receive the Food.",,"Animal Pen Animal Pen I've seen this card hang a lot of newer players who try to get this thing out as early as possible, no matter what their hand is. Don't be that guy. If you have to play 2 occupations you didn't really want to get out, it's probably not worth it because it neglects family growth. On the other hand, if you're lucky enough to have 3 - 4 early game occupations that you wanted to get out anyway, this play can be a backbreaker. The card gets much stronger if you are doing some sort of drafting, as it combos almost unfairly well with the Patron, Academic and Perpetual Student. With drafting you're also more likely to have four early game occupations that you actually want to play.",
+E025,,Spices,,C,,"Whenever you convert Vegetables to Food using a Fireplace, Cooking Hearth or Cooking Corner, you receive 1 additional Food.",,"Well, it's free, and you can't argue with that. Still, most of the time you don't end up eating vegetables, as they're too valuable in terms of points and come at an awkward stage in the game. Clearly if you plan on eating vegetables, this is a must-play. If you're not sure one way or the other, the fact that it's free means that either way it won't be too big of a mistake.",
+E026,日晷,Plane,,E,,"Whenever you turn 1 Wood into Food using the Joinery, Sawmill or Cabinetmaker, you receive 1 additional Food. You can choose instead to turn a second Wood into exactly 2 Food.",,"First off, almost no one buys a Joinery, making a card that enhances it automatically dubious in value. Second, even if you have the Joinery somehow, the card costs 1W! Since each wood is worth 2 food, you won't actually be profiting from the card until you use the Joinery 3 times. If you actually plan on using the Joinery 3 times, the question becomes: where are you getting all this extra wood, and why are you not using it for room extension/fencing?",
+E027,,Wood-Fired Oven,,D,,"Whenever you use the ""Bake bread"" action, you can use the Wood-fired Oven to turn any number of Grain into 3 Food each. When you play this card, you can also take the ""Bake bread"" action.",,"Wood-fired Oven Wood-fired Oven A little better than the Windmill, but is bad for
 the same reasons. It's not efficient enough to be a food engine on its own, and
 its not enough points to justify the resource cost. Still, this has some use as
 a way to get another bake action in the mid to late game. It can also be
 returned for one of the three super ovens.",
-E028,书签,Clogs,,4,,"At the end of the game, you receive 1 Bonus point for a Clay hut or 2 Bonus points for a Stone house.",,"Paying 1W for 1VP is already decent, and paying 1W for 2VP is even better. You were were planning on renovating, weren't you?",
-E029,,Shepherd's Pipe,,2,,You can hold up to 2 additional Sheep in each of the pastures where you keep Sheep. You can keep up to 2 Sheep in each unfenced stable.,,"There's a bit of a chicken and egg problem here. Before you can get room for sheep, you have to have sheep! The optimal use for the card is to build a stable, get exactly two sheep, and use this to make room for your lamb in the next harvest. However, putting this narrow plan into action is difficult, as you won't always have time to play a minor improvement in the tiny window between getting the two sheep and going to harvest.",
+E028,书签,Clogs,,B,,"At the end of the game, you receive 1 Bonus point for a Clay hut or 2 Bonus points for a Stone house.",,"Paying 1W for 1VP is already decent, and paying 1W for 2VP is even better. You were were planning on renovating, weren't you?",
+E029,,Shepherd's Pipe,,D,,You can hold up to 2 additional Sheep in each of the pastures where you keep Sheep. You can keep up to 2 Sheep in each unfenced stable.,,"There's a bit of a chicken and egg problem here. Before you can get room for sheep, you have to have sheep! The optimal use for the card is to build a stable, get exactly two sheep, and use this to make room for your lamb in the next harvest. However, putting this narrow plan into action is difficult, as you won't always have time to play a minor improvement in the tiny window between getting the two sheep and going to harvest.",
 E030,,Canoe,,,,"Whenever you use the ""Fishing"" Action space, you receive an additional 1 Food and 1 Reed.",,,
-E031,,Carp Pond,,5,,"Place 1 Food on each remaining odd-numbered Round space. At the start of these rounds, you receive the Food.",,"The prerequisites should be trivially easy to meet by the midgame, and free 1VP minors that give some small benefit are alwa
+E031,,Carp Pond,,A,,"Place 1 Food on each remaining odd-numbered Round space. At the start of these rounds, you receive the Food.",,"The prerequisites should be trivially easy to meet by the midgame, and free 1VP minors that give some small benefit are alwa
 ys worth playing. You should probably get used to me saying that, because this isn't the last time you're going to hear it.",
-E032,教堂中殿,Potato Dibber,,4,,"Whenever you Sow fields with Vegetables, place 1 additional Vegetable on each field that you Sow.",,"If you sow a single vegetable once, this card is worth 1VP - that's already a decent deal for 1W. If you plan on sowing vegetables more than once, it becomes worth 2 or more points and a great deal. Since nearly every good endgame strategy involves sowing vegetables at least once, this is usually worth playing. Don't get me started on how silly this card becomes if you have an occupation that provides early vegetables. The card is interesting to compare to the Planter's Box. On one hand the Planter's Box is clearly a stronger and cheaper card. However, Potato Dibber can be played in the early game, and being able to play Dibber to set up an early 2R grab can be crucial. The fact that the two improvements are roughly equal in my book speaks volumes for how much timing affects the value of minor improvements.",
-E033,,Ceramics,,3,,"When you play this card, you receive 2 Food. From now, the Pottery is a Minor Improvement for you and costs you nothing.",,"This is a pet favorite. One clay for 2 food isn't even that bad a deal by itself (see: the Potter), and then later you can retake SP with a free 2VP improvement to go with it. Not only is this a must-play if you have an oven, it should actually be a small incentive to go baking.",
+E032,教堂中殿,Potato Dibber,,B,,"Whenever you Sow fields with Vegetables, place 1 additional Vegetable on each field that you Sow.",,"If you sow a single vegetable once, this card is worth 1VP - that's already a decent deal for 1W. If you plan on sowing vegetables more than once, it becomes worth 2 or more points and a great deal. Since nearly every good endgame strategy involves sowing vegetables at least once, this is usually worth playing. Don't get me started on how silly this card becomes if you have an occupation that provides early vegetables. The card is interesting to compare to the Planter's Box. On one hand the Planter's Box is clearly a stronger and cheaper card. However, Potato Dibber can be played in the early game, and being able to play Dibber to set up an early 2R grab can be crucial. The fact that the two improvements are roughly equal in my book speaks volumes for how much timing affects the value of minor improvements.",
+E033,,Ceramics,,C,,"When you play this card, you receive 2 Food. From now, the Pottery is a Minor Improvement for you and costs you nothing.",,"This is a pet favorite. One clay for 2 food isn't even that bad a deal by itself (see: the Potter), and then later you can retake SP with a free 2VP improvement to go with it. Not only is this a must-play if you have an oven, it should actually be a small incentive to go baking.",
 E034,,Basket,,,,"Whenever you use a person's action to take Wood from an Action space, you can leave 2 of the Wood on the Action space and receive 3 Food in exchange.",,,
 E035,,Corn Scoop,,,,"Whenever you use the ""Take 1 Grain"" Action, you receive 1 additional Grain.",,,
-E036,,Clay Roof,,5,,You can replace 1 or 2 Reed with the same amount of Clay whenever you extend or renovate your home.,,"I'm not sure how this card was ever perceived as fair in development. Free 1VP occupations with inconsequential prerequisites are pretty much always worth playing, but in this case the extra ability is quite powerful. The only caveat is that you should be careful that you're not giving your opponents easy access to reed. For instance, if you're in a 3-p game and have a choice between 3C and 2R, you should consider taking the 2R to deny your opponents. As long as you're playing smartly, however, this card is borderline overpowered and a must play whenever you draw it.",
+E036,,Clay Roof,,A,,You can replace 1 or 2 Reed with the same amount of Clay whenever you extend or renovate your home.,,"I'm not sure how this card was ever perceived as fair in development. Free 1VP occupations with inconsequential prerequisites are pretty much always worth playing, but in this case the extra ability is quite powerful. The only caveat is that you should be careful that you're not giving your opponents easy access to reed. For instance, if you're in a 3-p game and have a choice between 3C and 2R, you should consider taking the 2R to deny your opponents. As long as you're playing smartly, however, this card is borderline overpowered and a must play whenever you draw it.",
 E037,,Clay Supports,,,,"Whenever you add a room to your Clay hut, you can pay 2 Clay, 1 Wood and 1 Reed instead of 5 Clay and 2 Reed.",,,
-E038,,Madonna Statue,,2,,The Madonna Statue has no effect. (You must remove Improvements that are on the table in front of you. You may not discard cards from your hand. It is irrelevant whether you remove Major or Minor Improvements.),,"The best cards in the deck are ones that give VP for no cost. Ironically, this means that the Madonna Statue is pretty bad, despite being a card that gives VP for no cost! Most of the time, you simply won't have two improvements that aren't worth VP sitting around. Instead, you'll usually have to chuck a 1VP improvement along with a no VP improvement, and with no additional benefit this usually isn't a good deal.",
+E038,,Madonna Statue,,D,,The Madonna Statue has no effect. (You must remove Improvements that are on the table in front of you. You may not discard cards from your hand. It is irrelevant whether you remove Major or Minor Improvements.),,"The best cards in the deck are ones that give VP for no cost. Ironically, this means that the Madonna Statue is pretty bad, despite being a card that gives VP for no cost! Most of the time, you simply won't have two improvements that aren't worth VP sitting around. Instead, you'll usually have to chuck a 1VP improvement along with a no VP improvement, and with no additional benefit this usually isn't a good deal.",
 E039,,Market Stall,,,,"When you play this card, you receive 1 Vegetable.",,,
 E040,,Mini Pasture,,,,"When you play this card, immediately Fence one space in your farmyard. (You do not need to pay Wood for the fences.)",,,
-E041,muddy waters,Millstone,,4,,"Whenever you Bake 1 or more Grain into bread, you receive 2 additional Food.",,"I love this card with the clay oven. 7 food for 1G is absurdly efficient, and you should have no problem feeding your family with even a modest grain engine. By the end of the game, this will probably have given you 6 or 8 food. That's pretty sick for 1S.",
-E042,井,Helpful Neighbors,,2,,"When you play this card, you receive either 1 Stone or 1 Reed.",,"Helpful Neighbors Helpful Neighbors Building Materials gives you something for nothing, while this forces you to pay a different resource. The reduced flexibility makes this a generally worse card, as it requires you to have an extra resource lying around that you have no other use for.",
-E043,谷仓里的猫,Fruit Tree,,4,,"Place 1 Food on each remaining Round space for rounds 8 to 14. At the start of these rounds, you receive the Food.",,"Getting three occs out before round 8 is tough, so you won't be getting the full food bonus a lot of the time. Still, even if you only get 3-4 food out of this, it's always worth playing. There's enough of a potential reward here that it can even be worth rushing out in the midgame. While most 3 occ improvements are conditional on you having good occupations, this gets the extra star simply because its effect is usually tempting enough to get it out even if one of my occupations is a subpar action. A potential 7 food for no cost is very strong.",
+E041,muddy waters,Millstone,,B,,"Whenever you Bake 1 or more Grain into bread, you receive 2 additional Food.",,"I love this card with the clay oven. 7 food for 1G is absurdly efficient, and you should have no problem feeding your family with even a modest grain engine. By the end of the game, this will probably have given you 6 or 8 food. That's pretty sick for 1S.",
+E042,井,Helpful Neighbors,,D,,"When you play this card, you receive either 1 Stone or 1 Reed.",,"Helpful Neighbors Helpful Neighbors Building Materials gives you something for nothing, while this forces you to pay a different resource. The reduced flexibility makes this a generally worse card, as it requires you to have an extra resource lying around that you have no other use for.",
+E043,谷仓里的猫,Fruit Tree,,B,,"Place 1 Food on each remaining Round space for rounds 8 to 14. At the start of these rounds, you receive the Food.",,"Getting three occs out before round 8 is tough, so you won't be getting the full food bonus a lot of the time. Still, even if you only get 3-4 food out of this, it's always worth playing. There's enough of a potential reward here that it can even be worth rushing out in the midgame. While most 3 occ improvements are conditional on you having good occupations, this gets the extra star simply because its effect is usually tempting enough to get it out even if one of my occupations is a subpar action. A potential 7 food for no cost is very strong.",
 E044,,Outhouse,,,,The Outhouse has no effect. You can only build it if at least one other player has fewer than 2 Occupations. (It is irrelevant how many Occupations you have played.),,"I hate this card. Just compare this to the Horse, which is free and has a much easier prerequisite. Usually by the time you're willing to trade wood and clay for straight-up VPs, your opponent's will have played out two occupations anyway. This probably would have been fairly costed at 1C.",
 E045,,Private Forest,,,,"Place 1 Wood on each remaining even-numbered Round space. At the start of these rounds, you receive the Wood.",,,
-E046,睡莲池,Sack Cart,,3,,"Place 1 Grain each on the spaces for rounds 5,8,11 and 14. At the start of these rounds, you receive the Grain.",,"Sack Cart Sack Cart By the time you have 2 occupations out, it's
+E046,睡莲池,Sack Cart,,C,,"Place 1 Grain each on the spaces for rounds 5,8,11 and 14. At the start of these rounds, you receive the Grain.",,"Sack Cart Sack Cart By the time you have 2 occupations out, it's
 usually past round 5 anyway, but even then 2W for an eventual 3G is a decent
 deal. This card can have a lot of value for supporting a baking strategy that
 doesn't sow early grain. Having to sow one or two fields of grain is a
 traditional weakness of baking, since it delays FG. The Sack Cart can help
 offset this.",
-E047,,Lettuce Patch,,3,,"On this card, you can plant Vegetables as you would on a field. Vegetables on this field can be converted to 4 Food when harvested. (This card does not count as a field when scoring.)",,"Lettuce Patch Lettuce Patch Compared to the Beanfield, the minor upgrade
+E047,,Lettuce Patch,,C,,"On this card, you can plant Vegetables as you would on a field. Vegetables on this field can be converted to 4 Food when harvested. (This card does not count as a field when scoring.)",,"Lettuce Patch Lettuce Patch Compared to the Beanfield, the minor upgrade
 doesn't quite make up for the increased Occupation requirement. It's still a
 must play if you've been playing an occupation heavy game, but probably isn't
 worth the effort if you only have 1 or 2 good occupations in your hand (which
 is often the case).",
-E048,,Reed Pond,,4,,"Place 1 Reed each on the next 3 Round spaces. At the start of each round, you receive the Reed.",,"Reed Pond Reed Pond In 3-p, this card can engineer blowouts. While the
+E048,,Reed Pond,,B,,"Place 1 Reed each on the next 3 Round spaces. At the start of each round, you receive the Reed.",,"Reed Pond Reed Pond In 3-p, this card can engineer blowouts. While the
 other players are scrambling for the reed, you can just play out occupations
 and then this, avoiding the fight altogether. In other modes, playing this late
 will sometimes save you a full action, as you won't have to make a reed grab
 for renovation. While three occupations is a lot, this has a strong enough
 effect to usually be worth prioritizing.",
-E049,鹤嘴斧,Writing Desk,,2,,"Whenever you use an ""Occupation"" Action, you may play 2 Occupations one after another. The second Occupation costs you 2 Food.",,"Writing Desk Writing Desk Since this has a two Occ requirement, chances are
+E049,鹤嘴斧,Writing Desk,,D,,"Whenever you use an ""Occupation"" Action, you may play 2 Occupations one after another. The second Occupation costs you 2 Food.",,"Writing Desk Writing Desk Since this has a two Occ requirement, chances are
 you will never use the ability. Your fourth occ is probably not going to be
 worth 2 food, barring crazy Patron-esque combos. Very rarely, I play this just because I don't have
 anything better, and 1W for 1VP is an ok deal.",
-E050,,Builder's Trowel,,3,,"You can Renovate your Wooden hut to a Clay hut at any time without using the ""Renovate"" action. (You must still pay for the Renovation.)",,"Builder's Trowel Builder's Trowel I find myself skipping this a lot of the time. I
+E050,,Builder's Trowel,,C,,"You can Renovate your Wooden hut to a Clay hut at any time without using the ""Renovate"" action. (You must still pay for the Renovation.)",,"Builder's Trowel Builder's Trowel I find myself skipping this a lot of the time. I
 don't like paying 1W for something I could have done for free, and the fact
 that you can't play a major improvement along the way further reduces the
 card's efficiency. Sometimes you'll look at your hand after you FG and have
@@ -69,45 +69,45 @@ your hand. The value of the card goes up, however, if you
 plan on playing an occupation that requires you to renovate to clay quickly.
 It's also slightly better in larger games, where getting blocked from
 renovation becomes more of an issue.",
-E051,,Spindle,,3,,"Whenever you have 3/5 Sheep during the Field phase of a Harvest, you receive 1/2 additional Food.",,"Spindle Spindle If you plan on herding sheep, this is worth
+E051,,Spindle,,C,,"Whenever you have 3/5 Sheep during the Field phase of a Harvest, you receive 1/2 additional Food.",,"Spindle Spindle If you plan on herding sheep, this is worth
 bringing out every time. Once you get to 3 sheep you will essentially be
 getting 3 food every harvest, since you can get 1 food in the field phase, then
 slaughter a sheep to make room for the lamb. All told, the Spindle should be a
 no mess 3-5 food, depending on how early you get your sheep.",
-E052,小储藏间,Stable,,3,,"When you play this card, immediately build 1 stable. (The stable does not cost anything, but you must pay the cost shown to play this card.)",,"Stable Stable One stable at half off is a pretty minor effect,
+E052,小储藏间,Stable,,C,,"When you play this card, immediately build 1 stable. (The stable does not cost anything, but you must pay the cost shown to play this card.)",,"Stable Stable One stable at half off is a pretty minor effect,
 since you will always have the option to buy full priced stables later, when
 you build rooms. As always, the immediate utility of this pass-card is
 diminished by the fact that your left-hand opponent will probably be playing it
 himself. Still, you take what you can get, and often you
 won't have anything better to play.",
-E053,,Butter Churn,,2,,"Whenever you have Sheep during the Field phase of a Harvest, you receive 1 Food for each third Sheep. Whenever you have Cattle during the Field phase, you receive 1 Food for each second Cattle.",,"Butter Churn Butter Churn 2W is a little too much for what this does. It's
+E053,,Butter Churn,,D,,"Whenever you have Sheep during the Field phase of a Harvest, you receive 1 Food for each third Sheep. Whenever you have Cattle during the Field phase, you receive 1 Food for each second Cattle.",,"Butter Churn Butter Churn 2W is a little too much for what this does. It's
 pretty rare to be lucky enough to have a bunch of cattle AND sheep, so most of
 the time this will play like an overcosted spindle.",
-E054,走私货,Quarry,,3,,"Whenever you use the ""Day Laborer"" Action, you receive an additional 3 Stone.",,"Quarry Quarry Better than the Animal Pen, because you have much
+E054,走私货,Quarry,,C,,"Whenever you use the ""Day Laborer"" Action, you receive an additional 3 Stone.",,"Quarry Quarry Better than the Animal Pen, because you have much
 more time to get the necessary 4 occs out. Even if you wait to play this until
 round 12, the 6 or 9 stone you'll be able to get will easily be enough for
 whatever you were planning to do.",
-E055,,Stone House Extension,,2,,"When you play this card, immediately extend your Stone house by 1 room. (The room does not cost anything, but you must pay the cost shown to play this card.)",,"Stone House Extension Stone House Extension The value of the card is lessened by the simple
+E055,,Stone House Extension,,D,,"When you play this card, immediately extend your Stone house by 1 room. (The room does not cost anything, but you must pay the cost shown to play this card.)",,"Stone House Extension Stone House Extension The value of the card is lessened by the simple
 existence of the Family Growth without Room spot. The more likely you are to
 get the spot, the less likely it is that this late-game card is going to help
 you grow your family. Viewed strictly as a 3 point play, the card is fairly
 underwhelming; both the Well and the Stone Oven are better with comparable
 cost. The fact that this is a minor isn't too relevant, since renovating to
 stone implies at least one chance to get a major.",
-E056,,Stone Tongs,,4,,"Whenever you use one of the ""Stone"" Action spaces that become available in Stage 2 and Stage 4, you receive 1 additional Stone.",,"Stone Tongs Stone Tongs This is fantastic and compares very favorably to
+E056,,Stone Tongs,,B,,"Whenever you use one of the ""Stone"" Action spaces that become available in Stage 2 and Stage 4, you receive 1 additional Stone.",,"Stone Tongs Stone Tongs This is fantastic and compares very favorably to
 cards like Stone Cart and Stone Exchange. Not only does it encourage you to
 deny your opponents stone, but it also gives the stone up front, so that you
 can use it immediately.",
-E057,芝士火锅,Dovecote,,3,,"Place 1 Food each on the spaces for rounds 10 to 14. At the start of these rounds, you receive the Food.",,"Dovecote Dovecote Two VPs for two stone is pretty much par, and the
+E057,芝士火锅,Dovecote,,C,,"Place 1 Food each on the spaces for rounds 10 to 14. At the start of these rounds, you receive the Food.",,"Dovecote Dovecote Two VPs for two stone is pretty much par, and the
 food you get can be a nice boost. Nonetheless, when you play this card, you
 need to make sure that you're not blowing your chance at a stone renovation.
 Consider this card a luxury - if you have plenty of rocks then you might as
 well, but you're not losing too much value just leaving this in your hand.",
-E058,,Animal Yard,,5,,On this card you can hold up to 2 animals of you choice. They need not be the same type of animal. (This card does not count as a pasture for scoring.)(This card does not give you animals.),,"Animal Yard Animal Yard Along with being a half cost pasture, the SP
+E058,,Animal Yard,,A,,On this card you can hold up to 2 animals of you choice. They need not be the same type of animal. (This card does not count as a pasture for scoring.)(This card does not give you animals.),,"Animal Yard Animal Yard Along with being a half cost pasture, the SP
 attached lets you snipe a breeding pair of animals from your opponents. With a
 trivial prerequisite and a cheap cost, I play this every time I get it. It's
 easily one of the best improvements in the deck.",
-E059,垄作苗床,Drinking Trough,,3,,Each pasture (with or without a stable) can hold up to 2 more animals.,,"Drinking Trough Drinking Trough It's important to note that a stable is superior
+E059,垄作苗床,Drinking Trough,,C,,Each pasture (with or without a stable) can hold up to 2 more animals.,,"Drinking Trough Drinking Trough It's important to note that a stable is superior
 to a Drinking Trough until you have at least 2 pastures. This is a significant
 weakness, since early pastures are usually a bad deal. The reason for this is
 that if you compare a single pasture to 2 stables, you can hold the same amount
@@ -116,7 +116,7 @@ build rooms. The pasture, on the other hand, requires a full action on its own. 
 efficient at increasing your animal capacity once you have a couple of small
 pastures up. While the improvement is often a mistake to play early, it can be
 a nice play in the mid to late game if you haven't built stables yet.",
-E060,,Cattle Market,,1,,"When you play this card, return 1 Sheep to the supply and take 1 Cattle.",,"Cattle Market Cattle Market This is almost never worth playing. Obviously the
+E060,,Cattle Market,,E,,"When you play this card, return 1 Sheep to the supply and take 1 Cattle.",,"Cattle Market Cattle Market This is almost never worth playing. Obviously the
 temptation here is to try to get early cattle with this, but if you have a
 sheep to give to this, it's probably more efficient to just breed the sheep you
 spent an action taking (you didn't just take ONE sheep, did you?). Yes, I'm
@@ -125,7 +125,7 @@ a cow, and then taking a cow just seems like a waste of time. Why don't you
 just take 1 cow twice? The only use this card tends to have is as a bad,
 highly conditional horse. If you have some awkward number of sheep near the end
 of the game and haven't managed to get cattle, go ahead and play it.",
-E061,,Riding Plow,,3,,"Twice during the game, when you use either the ""Plow 1 field"" or ""Plow 1 field and/or Sow"" action, you can Plow 3 fields instead of 1.",,"Riding Plow Riding Plow While its power is undeniable, this is my least
+E061,,Riding Plow,,C,,"Twice during the game, when you use either the ""Plow 1 field"" or ""Plow 1 field and/or Sow"" action, you can Plow 3 fields instead of 1.",,"Riding Plow Riding Plow While its power is undeniable, this is my least
 favorite plow. For one, the 4W, 3 Occ price tag is extremely steep. Second,
 since every field after the 5th is generally unnecessary, maximizing the plow's
 value requires that you don't plow a single field before you play the card out.
@@ -133,27 +133,27 @@ Even then, you still get an almost useless 6th field. Many times I've seen playe
 card out, only to be disappointed in their final score. A lot of the time, the
 exorbitant cost on the card (coupled with the hidden cost of not being able to
 plow for almost the entire game) make it more trouble than it's worth.",
-E062,,Turnwrest Plow,,4,,"Once during the game, when you use either ""Plow 1 field"" or ""Plow 1 field and/or Sow"" action, you can Plow 3 fields instead of 1.",,"Turnwrest Plow Turnwrest Plow Compared to the Crooked Plow, the ability to use
+E062,,Turnwrest Plow,,B,,"Once during the game, when you use either ""Plow 1 field"" or ""Plow 1 field and/or Sow"" action, you can Plow 3 fields instead of 1.",,"Turnwrest Plow Turnwrest Plow Compared to the Crooked Plow, the ability to use
 this with your plow and/or sow doesn't quite make up for the increased
 occupation requirement. Nonetheless, this is still an excellent card that I
 almost always try to get out.",
-E147,,Land Agent,,3,,"Whenever you use the ""Take 1 Vegetable"" Action space, you also receive 1 Grain. When you play this card, you receive 1 Vegetable from the supply.",,"Land Agent This is the worst early vegetable card. When you get the early vegetable,
+E147,,Land Agent,,C,,"Whenever you use the ""Take 1 Vegetable"" Action space, you also receive 1 Grain. When you play this card, you receive 1 Vegetable from the supply.",,"Land Agent This is the worst early vegetable card. When you get the early vegetable,
 you're going to want to sow it. However, sowing just 1 vegetable is usually a
 bad deal, so you'll probably take a grain and plow 2 fields before you sow.
 Then, when the 'Take one Vegetable' space appears, you'll look at your 4
 vegetables and your sown grain and wonder why you would ever want 1 more of
 either. Has some use in that sometimes you just need to get your 4th occ, and paying
 1F1A for an early vegetable is only somewhat of a raw deal.",
-E148,,Academic,,2,,"This card counts as 2 Occupations for Minor Improvements and when scoring the ""Reeve"" Occupation card.",,"Academic This card's sole use is as a stepping stone to the minor improvements that
+E148,,Academic,,D,,"This card counts as 2 Occupations for Minor Improvements and when scoring the ""Reeve"" Occupation card.",,"Academic This card's sole use is as a stepping stone to the minor improvements that
 require 3 or 4 occupations, and is fine (but not spectacular) in that narrow
 role. At best he is saving you 1F1A to just play another Occ. Usually, the
 benefit will be less than that due to the fact that playing 2 different occs
 would give you at least some sort of beneficial effect.",
-E149,,Master Baker,,1,,"Whenever another player Bakes bread, you can Bake bread if you have a Baking Improvement with the bread symbol. If you take a Bake action yourself (not using this card), you receive 1 additional Food.",,"Master Baker It's actually pretty rare for a game to have more than one baker, since there
+E149,,Master Baker,,E,,"Whenever another player Bakes bread, you can Bake bread if you have a Baking Improvement with the bread symbol. If you take a Bake action yourself (not using this card), you receive 1 additional Food.",,"Master Baker It's actually pretty rare for a game to have more than one baker, since there
 is only one clay oven. Moreover, the extra bakes are usually going to be too
 random to be very useful. The extra 4 or so food he gives over time isn't
 particularly impressive, either.",
-E150,,Baker,,4,,"During each Harvest, you may Bake bread at the start of the Feeding phase if you have an Improvement with the bread symbol. When you play this card, you may Bake bread as an additional action.",,"Baker True to his name, this is one of the best occupations for Baking in the game.
+E150,,Baker,,B,,"During each Harvest, you may Bake bread at the start of the Feeding phase if you have an Improvement with the bread symbol. When you play this card, you may Bake bread as an additional action.",,"Baker True to his name, this is one of the best occupations for Baking in the game.
 Assuming you play him with an oven and two grain fields, you should never go
 hungry. The strength of this Occ varies depending on the number of players in the game.
 In a 2-p game, baking strategies are horrible. For one thing, there is no early
@@ -162,10 +162,10 @@ only want them for yourself, but want to prevent your opponent from having all
 of them! In a 3-p, baking is still pretty bad due to the lack of early stone,
 but often the Baker is powerful enough to merit playing him anyway. In 4-p and 5-p, baking is viable enough to make the Baker a strong incentive to
 bake.",
-E151,护士,Master Builder,,2,,"Once during the game, at any time after your home reaches at least 5 rooms, you may extend it by 1 room at no cost.",,"Master Builder If you can somehow get to 5 stone rooms, he'll be worth it as a 3 point play.
+E151,护士,Master Builder,,D,,"Once during the game, at any time after your home reaches at least 5 rooms, you may extend it by 1 room at no cost.",,"Master Builder If you can somehow get to 5 stone rooms, he'll be worth it as a 3 point play.
 However, this is usually a pretty difficult task to accomplish, and three
 points isn't enough of an incentive to actively try to get this guy out.",
-E152,,Berry Picker,,3,,"Whenever you use a Family member's action to take Wood, you receive an additional 1 Food.",,"Berry Picker An extremely annoying card - I've taken to calling myself 'berry-picked' in
+E152,,Berry Picker,,C,,"Whenever you use a Family member's action to take Wood, you receive an additional 1 Food.",,"Berry Picker An extremely annoying card - I've taken to calling myself 'berry-picked' in
 games where someone plays this or the Mushroom Collector and spends every round
 taking wood. However, this card is not quite as strong as it seems. Ultimately, it's worth
 about 5 or 6 food by the end (assuming they take wood 6 or 7 times), which is
@@ -173,7 +173,7 @@ only passable given that the food is delivered over time. What makes the card
 seem stronger than it actually is is that it causes newer players to value the
 wood spots correctly. In 5-p, the Berry Picker can be used to spam the WSR spot, giving it added
 utility.",
-E153,,Mendicant,,1,,"At the end of the game, you can discard up to 2 Begging card without losing points for them.",,"Mendicant I still think that the only time that the mendicant gives any sort of
+E153,,Mendicant,,E,,"At the end of the game, you can discard up to 2 Begging card without losing points for them.",,"Mendicant I still think that the only time that the mendicant gives any sort of
 substantial benefit is if the action you take as an alternative allows you to
 take an accrued resource, get family growth a turn earlier, or provides some
 benefit not usually available. The idea behind the Mendicant, it is being proposed, is that it will
@@ -244,7 +244,7 @@ itself. Moreover, a smart player is going to see you take those 2 begging cards
 and immediately know that you plan on Mendicant'ing your way out. Especially if
 you're in 2-p, she might then try to block the occupation square in the last
 round to blow you out",
-E154,,Master Brewer,,3,,"In the Feeding phase of each Harvest, the Master Brewer can convert up to 1 Grain to 3 Food.",,"Master Brewer Being able to convert 1 grain to 3 food every harvest without taking a bake
+E154,,Master Brewer,,C,,"In the Feeding phase of each Harvest, the Master Brewer can convert up to 1 Grain to 3 Food.",,"Master Brewer Being able to convert 1 grain to 3 food every harvest without taking a bake
 action is a very good deal. While this can't be your main source of food, a
 single sowed grain field can be a nice secondary food source to tide you over
 while you set yourself up for family growth and a more robust food engine. His usefulness is limited, however, by the fact that you need to be sowing
@@ -252,13 +252,13 @@ grain in the early game to use him. This isn't always the best path to go, as
 the Master Brewer on his own isn't quite a good enough reason to prioritize
 grain sowing over FG and early fireplace (which, barring cards, are the
 superior lines of play).",
-E155,,Bread Seller,,2,,"You receive 1 Food for the supply for each Grain that is baked whenever any player (including you) Bakes bread. (To Bake, you need a Baking Improvement with the bread symbol.)",,"Bread Seller Pretty much worthless if only one person is baking bread, and given the
+E155,,Bread Seller,,D,,"You receive 1 Food for the supply for each Grain that is baked whenever any player (including you) Bakes bread. (To Bake, you need a Baking Improvement with the bread symbol.)",,"Bread Seller Pretty much worthless if only one person is baking bread, and given the
 difficulty in acquiring the stone oven, this is almost always the case. One argument I've heard for him is that it turns your Cooking Hearth into an
 unlimited Stone Oven. The main problem with this line of thought is that you
 are going to need to be baking a LOT before the food bonus this guy gives
 becomes worth the 1F1A. How often do you actually find yourself baking 6+
 grain?",
-E156,土矿主人,Brush Maker,,1,,"Whenever you convert Wild boar to Food, you can choose to place the boar on this card. At the end of the game, you receive 1/2/3 Bonus points for 2/3/4 slaughtered Wild boar.",,"Brush Maker If you only get 2 bonus points from this guy, he is a wasted action. You would
+E156,土矿主人,Brush Maker,,E,,"Whenever you convert Wild boar to Food, you can choose to place the boar on this card. At the end of the game, you receive 1/2/3 Bonus points for 2/3/4 slaughtered Wild boar.",,"Brush Maker If you only get 2 bonus points from this guy, he is a wasted action. You would
 have been better off plowing a field! So if you play this guy, you are looking
 to get the max VPs. Slaughtering 4 wild boar is a lot - you're never going to max boar if you
 slaughter 4 of them. What this means is that, by sacrificing the boar to the
@@ -270,14 +270,14 @@ and an action? Furthermore, cards you need to play early that eventually grant V
 fundamentally weak in Agricola. They need to be played when you need actions
 the most and then give you nothing until the end of the game - not a good idea
 when your actions are supposed to have a snowballing effect.",
-E157,,Thatcher,,3,,"Pay 1 Reed less to Build each room, for each Renovation, and for each of the Water Mill, Half-timbered House, Chicken Coop, Holiday Home, Mansion and Corn Storehouse.",,"Thatcher The Thatcher is usually worse than the Reed Collector, since you still have to
+E157,,Thatcher,,C,,"Pay 1 Reed less to Build each room, for each Renovation, and for each of the Water Mill, Half-timbered House, Chicken Coop, Holiday Home, Mansion and Corn Storehouse.",,"Thatcher The Thatcher is usually worse than the Reed Collector, since you still have to
 spend another action collecting reed to build your first room. Note that the
 minor improvements he reduces doesn't include the Landing Net or Reed Hut
 (which would be great with him) and does include the Holiday House, Corn
 Storehouse and Water Mill (which are close to unplayable). Still, in games
 where reed is tight, he can be a nice boost.",
-E158,,Turner,,1,,"At any time, you can use the Turner to convert any number of Wood to 1 Food each.",,"Turner Another terrible conversion occ. In fact, this is one of the worst ones.",
-E159,,Head of the Family,,4,,"You can use any Build room(s) or Family growth Action space, even if another player has already placed a person on it.",,"Head of the Family In 4-p games, Head of the Family is amazing. With 4 players competing for the
+E158,,Turner,,E,,"At any time, you can use the Turner to convert any number of Wood to 1 Food each.",,"Turner Another terrible conversion occ. In fact, this is one of the worst ones.",
+E159,,Head of the Family,,B,,"You can use any Build room(s) or Family growth Action space, even if another player has already placed a person on it.",,"Head of the Family In 4-p games, Head of the Family is amazing. With 4 players competing for the
 Build Room(s) and FG spots, people get edged out a good deal. Oftentimes
 someone will take SP just to ensure an early FG in the next round. Combined
 with the ability to take FG w/o room as your last action one or two times in
@@ -287,12 +287,12 @@ you are once again unlikely to get blocked. While he does help you get the
 random minor improvement isn't usually that essential. A key weakness of this occ is that while you won't ever get blocked from the
 relevant spots, you also will tend to refrain from blocking anyone else. The
 result is often higher scores for everyone, not just yourself.",
-E160,,Farmer,,1,,"The next time you build fences, take 1 Wild boar. Each time you build at least 1 fence after that, take 1 Cattle.",,"Farmer I don't think I've ever seen this guy used well. People seldom build fences
+E160,,Farmer,,E,,"The next time you build fences, take 1 Wild boar. Each time you build at least 1 fence after that, take 1 Cattle.",,"Farmer I don't think I've ever seen this guy used well. People seldom build fences
 more than one or two times. The fact that it gives you a boar at the beginning
 means that you have to build fences three three times
 before you can get a breeding pair of cattle. That's far too much trouble to
 ever be worth it.",
-E161,,Fisherman,,3,,"Whenever you use the ""Fishing"" Action space, you can choose to take twice as much Food as is on the space. If you do this, you must give 1 Food each to the Fishing Rod, Raft, Canoe, Fish Trap and Landing Net.",,"Fisherman Assuming you're playing with all of the decks, the various fisherman
+E161,,Fisherman,,C,,"Whenever you use the ""Fishing"" Action space, you can choose to take twice as much Food as is on the space. If you do this, you must give 1 Food each to the Fishing Rod, Raft, Canoe, Fish Trap and Landing Net.",,"Fisherman Assuming you're playing with all of the decks, the various fisherman
 improvements should be fairly rare. Even if one gets played, it's not too bad
 because that player is less likely to take the Fishing spot from you to deny
 you food. As a whole, this card works best when played with semi-experienced players.
@@ -305,10 +305,10 @@ their family reasonably well without resorting to fishing, but aren't too
 concerned with what you're doing. That said, the ability to get 6 or even 8 food with a single action is amazing,
 especially if this happens early. Just make sure you don't get too greedy;
 players will eventually deny you the food if you let the spot pile too high.",
-E162,,Meat Seller,,3,,"If you have an Oven, you can change your animals into Food an any time. Take 2 Food for each Sheep, 3 for each Wild boar and 4 for each Cattle.",,"Meat Seller A 1 food cooking hearth is a decent deal. This lets you get in on eating
+E162,,Meat Seller,,C,,"If you have an Oven, you can change your animals into Food an any time. Take 2 Food for each Sheep, 3 for each Wild boar and 4 for each Cattle.",,"Meat Seller A 1 food cooking hearth is a decent deal. This lets you get in on eating
 accumulated animals without having to muck around collecting clay. This guy's
 worth is highly conditional, but he's a fine play when the conditions are met.",
-E163,,Field Warden,,3,,"You can use the ""Take 1 Vegetable"", ""Plow 1 field"" and ""Plow 1 field and/or Sow"" action even if another player has placed a person on the space.",,"Field Warden Guaranteeing you 'Take 1 Vegetable' is almost irrelevant, since that square is
+E163,,Field Warden,,C,,"You can use the ""Take 1 Vegetable"", ""Plow 1 field"" and ""Plow 1 field and/or Sow"" action even if another player has placed a person on the space.",,"Field Warden Guaranteeing you 'Take 1 Vegetable' is almost irrelevant, since that square is
 usually unpopular enough that you can take it if you really want to. The real
 draw of this card is the 'Plow and Sow' part. You can get 2 or 3 guaranteed
 'Plow and Sow' actions, which is an undeniably strong spot. However, he's even
@@ -316,149 +316,149 @@ stronger than that. In the final round of the game, he ensures that you can
 plow before before you plow and sow. This is always the
 optimal order to do the two actions, and the Field Warden is one of the only
 ways to enable this play.",
-E164,,Master Forester,,2,,"Include the ""2 Wood"" Action card from the 3-player game as an additional forest. At the start of each round, place 2 Wood on the card. Any player who uses this action must pay you 2 Food.",,"Master Forester The lower barrier to take the wood means you won't be able to get away with
+E164,,Master Forester,,D,,"Include the ""2 Wood"" Action card from the 3-player game as an additional forest. At the start of each round, place 2 Wood on the card. Any player who uses this action must pay you 2 Food.",,"Master Forester The lower barrier to take the wood means you won't be able to get away with
 letting it get to 8W - at that stage someone is probably going to grab it, and
 feeding your opponents that much wood is never a good idea. On the other hand,
 being able to get repeatedly get 6W basically unmolested can be a huge boon.
 However, you have to consider that the action you're using taking it could be
 taking wood off the board from your opponents.",
-E165,狩猎大师,Yeoman Farmer,,2,,"At the end of the game, you only lose points for Unused spaces and Begging cards.",,"Yeoman Farmer If you're playing decently, he shouldn't be worth more than 2 points. That's a
+E165,狩猎大师,Yeoman Farmer,,D,,"At the end of the game, you only lose points for Unused spaces and Begging cards.",,"Yeoman Farmer If you're playing decently, he shouldn't be worth more than 2 points. That's a
 bad deal.",
-E166,,Undergardener,,4,,"Whenever you use the ""Day Laborer"" Action space, you also receive 1 Vegetable.",,"Undergardener The Undergardener isn't quite as good as the Seasonal Worker, but he's still
+E166,,Undergardener,,B,,"Whenever you use the ""Day Laborer"" Action space, you also receive 1 Vegetable.",,"Undergardener The Undergardener isn't quite as good as the Seasonal Worker, but he's still
 amazing. The power of early vegetables can't be denied, and the 2 food that
 comes with each of them gives you enough time to get them into the ground.
 After that, it's just a matter of getting a hold of a cooking hearth, and
 you're set on food for the rest of the game. This guy comes out pretty much every time someone draws him.",
-E167,,Conjurer,,3,,"Whenever you use the ""Traveling Players"" action on an Action space, you receive 1 Grain in addition to the Food.",,"Conjurer This is obviously worse than the seasonal worker, but not much more so. Playing
+E167,,Conjurer,,C,,"Whenever you use the ""Traveling Players"" action on an Action space, you receive 1 Grain in addition to the Food.",,"Conjurer This is obviously worse than the seasonal worker, but not much more so. Playing
 it turn 1 and then taking TP on rounds 2 and 4 is an ok way to get a grain
 engine started.",
-E168,,Greengrocer,,4,,"Whenever you use the ""Take 1 Grain"" Action space, you also receive 1 Vegetable.",,"Greengrocer Very good. Plow two fields, take a grain and a veggie, and sow away. He suffers
+E168,,Greengrocer,,B,,"Whenever you use the ""Take 1 Grain"" Action space, you also receive 1 Vegetable.",,"Greengrocer Very good. Plow two fields, take a grain and a veggie, and sow away. He suffers
 a bit from splitting you two ways - a part of you wants to use the early
 veggies for food with a cooking hearth, while the grain he forces you to take
 leans you toward baking. This prevents him from being a 5 star card, but he is
 still great.",
-E169,,Storyteller,,3,,"Whenever you use the ""Traveling Players"" action on an Action space, you can leave 1 Food on the space and take 1 Vegetable instead.",,"Storyteller This guy is pretty obviously inferior to the Undergardener, but early
+E169,,Storyteller,,C,,"Whenever you use the ""Traveling Players"" action on an Action space, you can leave 1 Food on the space and take 1 Vegetable instead.",,"Storyteller This guy is pretty obviously inferior to the Undergardener, but early
 vegetables are early vegetables. He can also be used by ranchers to set up a
 couple of 6 or 7 food plays later on. Obviously this decreases in value if
 someone else has already played a TP card.",
-E170,,Estate Manager,,1,,"At the end of a 3/4/5 player game, if no player has more animals of any type than you, you receive 2/3/4 Bonus points.",,"Estate Manager In 3-p, this is obviously bad. A conditional 2 VPs for 1F1A? Really? Just plow
+E170,,Estate Manager,,E,,"At the end of a 3/4/5 player game, if no player has more animals of any type than you, you receive 2/3/4 Bonus points.",,"Estate Manager In 3-p, this is obviously bad. A conditional 2 VPs for 1F1A? Really? Just plow
 a field instead. In 4-p and 5-p, his conditions become too difficult to
 actually achieve.",
-E171,,Dock Worker,,2,,"At any time, you can use the Dock Worker to convert 3 Wood to either 1 Clay, 1 Reed or 1 Stone, or to convert 2 Clay, 2 Reed or 2 Stone to 1 other building resource.",,"Dock Worker This is the most inefficient conversion Occ in the game, but can have limited
+E171,,Dock Worker,,D,,"At any time, you can use the Dock Worker to convert 3 Wood to either 1 Clay, 1 Reed or 1 Stone, or to convert 2 Clay, 2 Reed or 2 Stone to 1 other building resource.",,"Dock Worker This is the most inefficient conversion Occ in the game, but can have limited
 use solely because of his versatility. You will almost never want to use him
 simply because you're getting such a raw deal, but if the game is somehow
 flooded with a particular resource (for instance, you have the Clay Mixer), he
 can give you a resource that's comparatively scarce.",
-E172,,Chief,,3,,"At the end of the game, you receive 1 Bonus point for each room in your Stone house. (In total, you receive 3 points per room instead of 2.) Playing this card costs an additional 2 Food.",,"Chief: Extra cost: 2 food The extra food shouldn't be too much of a hassle in the final round, and this
+E172,,Chief,,C,,"At the end of the game, you receive 1 Bonus point for each room in your Stone house. (In total, you receive 3 points per room instead of 2.) Playing this card costs an additional 2 Food.",,"Chief: Extra cost: 2 food The extra food shouldn't be too much of a hassle in the final round, and this
 guy will usually be worth 4 VPs - a great deal for one action. If you have the
 stone house and plenty of food, he's always worth it.",
-E173,,Chief's Daughter,,3,,"If another player plays the ""Chief"" card, you can play this card immediately at no cost. (You can also play it using an Action space in the usual way.) At the end of the game, you receive 3 Bonus points if you have a Stone house, 1 if you have a Clay hut.",,"Chief's Daughter: 1F1A for 3 VP is a solid deal, but hardly a game-breaking one. Since I mix the
+E173,,Chief's Daughter,,C,,"If another player plays the ""Chief"" card, you can play this card immediately at no cost. (You can also play it using an Action space in the usual way.) At the end of the game, you receive 3 Bonus points if you have a Stone house, 1 if you have a Clay hut.",,"Chief's Daughter: 1F1A for 3 VP is a solid deal, but hardly a game-breaking one. Since I mix the
 decks together, I've never seen the Daughter come out for free.",
-E174,,Tutor,,1,,"At the end of the game, you receive 1 Bonus point for each Occupation that you play after this one.",,"Tutor This card requires you to play him early when actions matter the most, and then
+E174,,Tutor,,E,,"At the end of the game, you receive 1 Bonus point for each Occupation that you play after this one.",,"Tutor This card requires you to play him early when actions matter the most, and then
 does nothing until the very end of the game. That's not a recipe for a good
 card. That said, he and the Perpetual Student are an amazing combo. Often, you will
 be able to play out your entire hand of occupations, making him a 6 point play.
 Nice!",
-E175,,Hedge Keeper,,3,,"Whenever you build at least 1 fence, you can build 3 additional fences without paying any additional Wood. (You can only place fences if they enclose a complete pasture.)",,"Hedge Keeper If you build fences twice, this is worth 6 wood. Not a bad deal if you want a
+E175,,Hedge Keeper,,C,,"Whenever you build at least 1 fence, you can build 3 additional fences without paying any additional Wood. (You can only place fences if they enclose a complete pasture.)",,"Hedge Keeper If you build fences twice, this is worth 6 wood. Not a bad deal if you want a
 lot of fences.",
-E176,,Woodcutter,,3,,You receive 1 additional Wood whenever you use a Family member's action to take Wood.,,"Woodcutter If you're taking wood as much as you should be, he'll probably be worth about 5
+E176,,Woodcutter,,C,,You receive 1 additional Wood whenever you use a Family member's action to take Wood.,,"Woodcutter If you're taking wood as much as you should be, he'll probably be worth about 5
 wood by the end of the game, and most of that wood will come early. That's a
 reasonably good deal, but the fact that you have to play him before you take
 any wood hurts.",
-E177,,Wooden Hut Builder,,3,,"At the end of the game, you receive 1 bonus point for each room in your Wooden hut.",,"Wooden Hut Builder An interesting alternative to renovating. If you can get to stone then you
+E177,,Wooden Hut Builder,,C,,"At the end of the game, you receive 1 bonus point for each room in your Wooden hut.",,"Wooden Hut Builder An interesting alternative to renovating. If you can get to stone then you
 probably want to go ahead and do that, but if you think you're going to get
 stuck at clay, it might be worth it to just play this guy instead. The fact
 that you don't have to waste time grabbing clay sometimes means that you can
 focus on getting to a 5 room wood house, which in turn let's you get FG without
 having to resort to the 'FG even w/o room' space.",
-E178,,Hut Builder,,4,,"Play this card during Stage 1. At the start of Round 11, you can extend you hut by 1 room at no cost, as long as you have not yet renovated to a Stone house.",,"Hut Builder Being forced to play him in Stage 1 is rough, but the 2 reed, 5 wood/clay and
+E178,,Hut Builder,,B,,"Play this card during Stage 1. At the start of Round 11, you can extend you hut by 1 room at no cost, as long as you have not yet renovated to a Stone house.",,"Hut Builder Being forced to play him in Stage 1 is rough, but the 2 reed, 5 wood/clay and
 build room action he eventually saves is well worth it. You never want to
 renovate to stone before round 11 anyway, so the restriction is almost
 irrelevant. Just make sure you're not blocked from family growth on round 11,
 and consider renovating to clay a bit early to save 1 clay.",
-E179,,Merchant,,1,,"Whenever you use the ""Minor Improvement"" or ""Minor or Major Improvement"" action, you can pay 1 Food to use the action a second time.",,"Merchant Unlike the Businessman and the Traveling Salesman, this doesn't have utility in
+E179,,Merchant,,E,,"Whenever you use the ""Minor Improvement"" or ""Minor or Major Improvement"" action, you can pay 1 Food to use the action a second time.",,"Merchant Unlike the Businessman and the Traveling Salesman, this doesn't have utility in
 securing you an early fireplace. Instead, it gives you the same almost
 irrelevant ability playing two minor improvements, which effectively reduces
 the number of times you can take SP. This time, however, you have to pay food
 just to do it! The only added utility that the Merchant has is being able to buy two Major
 improvements at once. This is also an almost useless ability. If you have that
 many resources lying around, you should be renovating!",
-E180,,Hobby Farmer,,4,,"When you play this card, take 1 Vegetable that you may Sow immediately if you have an empty plowed field. (You can Sow just this one Vegetable with this extra action.)",,"Hobby Farmer Early veggies are nice, but 1 veggie isn't quite enough to make a dedicated
+E180,,Hobby Farmer,,B,,"When you play this card, take 1 Vegetable that you may Sow immediately if you have an empty plowed field. (You can Sow just this one Vegetable with this extra action.)",,"Hobby Farmer Early veggies are nice, but 1 veggie isn't quite enough to make a dedicated
 vegetable feeding engine. You'll have to combine him with something else like
 the Potato Dibber before you can start eating vegetables reliably. In that
 sense, he's a well named Occ: you should view those vegetables as a hobby, not
 as your main source of food. Nonetheless, this guy is usually worth playing simply because the free sow is
 usually worth 1 food, and you were going to spend an action taking a vegetable
 anyway.",
-E181,,Cook,,3,,"In the Feeding phase of each Harvest, only 2 of your people eat 2 Food each; all others are satisfied with only 1 Food.",,"Cook Assuming you can grow your family once before the second harvest and again
+E181,,Cook,,C,,"In the Feeding phase of each Harvest, only 2 of your people eat 2 Food each; all others are satisfied with only 1 Food.",,"Cook Assuming you can grow your family once before the second harvest and again
 before the third, he can save you about 8 food over time. That's not a bad
 deal, even considering the fact that he costs an early action.",
-E182,,Charcoal Burner,,4,,You receive 1 Food and 1 Wood whenever any player (including you) builds a Baking Improvement with a bread symbol.,,"Charcoal Burner: In 4-p, this is awesome: pretty much everyone will buy some sort of cookery,
+E182,,Charcoal Burner,,B,,You receive 1 Food and 1 Wood whenever any player (including you) builds a Baking Improvement with a bread symbol.,,"Charcoal Burner: In 4-p, this is awesome: pretty much everyone will buy some sort of cookery,
 and some will buy one twice when they upgrade their fireplace to a cooking
 hearth or take a Stone Oven for another free bake action. It will be worth at
 least 4 food and 4 wood, a far better deal than perfectly playable cards like
 the Reeve. Less playable in 3-p.",
-E183,,Basketmaker,,2,,"In each Harvest, the Basketmaker can convert up to 1 Reed to 3 Food.",,"Basketmaker Why are you eating your reed? That was supposed to be used for your house! Has
+E183,,Basketmaker,,D,,"In each Harvest, the Basketmaker can convert up to 1 Reed to 3 Food.",,"Basketmaker Why are you eating your reed? That was supposed to be used for your house! Has
 some utility in 5 player if the other players let the 2 reed square stack for
 you (i.e. they are undervaluing reed), but in 4 player, reed is usually far too
 scarce to bother with the card.",
-E184,,Grocer,,4,,"Pile (from bottom to top) 1 Vegetable, Reed, Clay, Wood, Vegetable, Stone, Grain, Reed on this card. At any time, you may buy the top item for 1 Food.",,"Grocer Once you get the grain and the veggie, he's already paid for himself in actions
+E184,,Grocer,,B,,"Pile (from bottom to top) 1 Vegetable, Reed, Clay, Wood, Vegetable, Stone, Grain, Reed on this card. At any time, you may buy the top item for 1 Food.",,"Grocer Once you get the grain and the veggie, he's already paid for himself in actions
 since normally you have to use a full action to take either. The resources you
 get along the way are gravy. That said, you're going to need a good food engine to support him. I've seen at
 least a couple of times where someone plays him and then is forced to leave him
 unused as they scramble to feed their family. However, provided you are able to support him, he is extremely powerful.",
-E185,,Clay Firer,,2,,You can use the Clay Firer at any time to convert 2/3 Clay to 1/2 Stone.,,"Clay Firer Cards that convert one resource to another usually aren't good because the
+E185,,Clay Firer,,D,,You can use the Clay Firer at any time to convert 2/3 Clay to 1/2 Stone.,,"Clay Firer Cards that convert one resource to another usually aren't good because the
 deals they give are only marginally beneficial. If you're going to be spending
 1F1A, you want to be getting good deals, not OK ones. This is one of the better conversion Occs, however, because 3 clay for 2 stone
 can be a pretty good deal in games where people are valuing stone correctly.
 However, the fact that you need to waste one action playing this card and then
 another action collecting the clay when you could have just taken 2 or 3 stone
 directly still makes this a fringe play.",
-E186,,Clay Seller,,1,,"You can use the Clay Seller an any time to convert: 2 Clay to 1 Sheep or 1 Reed, 3 Clay to 1 Wild boar or 1 Stone, and/or 4 Clay to 1 Cattle.",,"Clay Seller Another bad conversion Occ. Rather than take the 4 clay and convert it into 2
+E186,,Clay Seller,,E,,"You can use the Clay Seller an any time to convert: 2 Clay to 1 Sheep or 1 Reed, 3 Clay to 1 Wild boar or 1 Stone, and/or 4 Clay to 1 Cattle.",,"Clay Seller Another bad conversion Occ. Rather than take the 4 clay and convert it into 2
 sheep, why don't you just take 2 sheep? This doesn't even have utility for
 early cattle, as 4 clay is usually a highly contested spot in the early game.",
-E187,,Clay Deliveryman,,3,,"Place 1 Clay on each of the spaces for rounds 6 to 14. At the start of these rounds, you receive the Clay.",,"Clay Deliveryman This guy has the most utility in 2-p, where clay can be very scarce. With more
+E187,,Clay Deliveryman,,C,,"Place 1 Clay on each of the spaces for rounds 6 to 14. At the start of these rounds, you receive the Clay.",,"Clay Deliveryman This guy has the most utility in 2-p, where clay can be very scarce. With more
 players the card becomes more of a conditional play, since clay should already
 be plentiful after round 6. If you play him, it should be with the intention of
 using massive amounts of clay (clay rooms, pottery, etc.). This should
 hopefully prevent clay from being too easy to get for your opponents.",
-E188,,Clay Mixer,,4,,"Whenever one of your people's actions gives you only Clay, you receive 2 additional Clay.",,"Clay Mixer A strong card - usually worth about 6 clay, and you'll get most of that clay
+E188,,Clay Mixer,,B,,"Whenever one of your people's actions gives you only Clay, you receive 2 additional Clay.",,"Clay Mixer A strong card - usually worth about 6 clay, and you'll get most of that clay
 early, when you need it most.",
-E189,,Lord of the Manor,,3,,"At the end of the game, you receive 1 bonus point for each scoring category where you have scored the maximum 4 points. (The bonus point is also awarded for 4 fenced stables.)",,"Lord of the Manor Keep in mind that Agricola tends to reward people who don't focus on maxing
+E189,,Lord of the Manor,,C,,"At the end of the game, you receive 1 bonus point for each scoring category where you have scored the maximum 4 points. (The bonus point is also awarded for 4 fenced stables.)",,"Lord of the Manor Keep in mind that Agricola tends to reward people who don't focus on maxing
 specific areas, and instead rewards last-minute diversification. As a result
 you generally won't have much incentive for maxing areas with the intention of
 getting points on this guy, because you could probably be getting just as many
 points by filling in negatives. That said, you only really need 3 areas maxed for him to be worth the action.
 This is most easily done with Fields, Grain, and Veggies, for obvious reasons.
 If you've been able to do this, by all means play him.",
-E190,,Maid,,2,,"Once you have built a Clay hut, place 1 Food on each remaining Round space. At the start of these rounds, you receive the Food. (If you already have a Clay hut or a Stone house when you play this card, place the Food immediately)",,"Maid I've said this countless times, but early renovations are usually not worth it,
+E190,,Maid,,D,,"Once you have built a Clay hut, place 1 Food on each remaining Round space. At the start of these rounds, you receive the Food. (If you already have a Clay hut or a Stone house when you play this card, place the Food immediately)",,"Maid I've said this countless times, but early renovations are usually not worth it,
 particularly in games where clay is tight enough to make clay rooms unfeasible.
 1 food a round is nice, but you're never going to be able to abuse this card
 too much. Once you get to 3 rooms, you might want to go for a renovation in
 stage 3. If you play her by the end of round 9, she'll be worth 4 food (5 food
 minus the one you took to play him). That's ok, but not worth the effort of
 jumping through the necessary hoops.",
-E191,,Mason,,3,,"Once during the game, at any time after your Stone house reaches at least 4 rooms, you may extend it by 1 room at no cost.",,"Mason You'll usually play this guy at the end of the game for an extra 3 points.
+E191,,Mason,,C,,"Once during the game, at any time after your Stone house reaches at least 4 rooms, you may extend it by 1 room at no cost.",,"Mason You'll usually play this guy at the end of the game for an extra 3 points.
 That's a good deal by itself, even if you don't use the extra room for another
 Family Growth. Getting to a 4 room stone house can be hard sometimes, however.",
-E192,,Patron,,3,,"In the future, whenever you play an Occupation, you receive 2 Food before you pay the costs of the Occupation.",,"Patron You're going to need to look at your hand before you decide to play this guy,
+E192,,Patron,,C,,"In the future, whenever you play an Occupation, you receive 2 Food before you pay the costs of the Occupation.",,"Patron You're going to need to look at your hand before you decide to play this guy,
 as he only begins to become worth it if you're playing 3 occupations after him.
 If you are, then go ahead and run him out there. Otherwise, he stays behind.
 Along with Perpetual Student, this is probably the best way to rush the Animal
 Yard/Quarry.",
-E193,,Pastor,,2,,"If, when you play this card or later in the game, you are the last player to have only 2 rooms in your home, you receive 3 Wood, 2 Clay, 1 Reed and 1 Stone.",,"Pastor Like the Maid, the Pastor is a card that you have no business playing if you
+E193,,Pastor,,D,,"If, when you play this card or later in the game, you are the last player to have only 2 rooms in your home, you receive 3 Wood, 2 Clay, 1 Reed and 1 Stone.",,"Pastor Like the Maid, the Pastor is a card that you have no business playing if you
 consider yourself one of the better players in your group. However, if I found
 myself at a tough table, I could see myself working on my food engine in the
 early rounds and then using this guy to catch up. Random note: this is a
 hilarious combo with the Lover.",
-E194,,Plow Driver,,1,,"Once you have a Stone house, you can pay 1 Food at the start of each round to Plow (at most) 1 field.",,"Plow Driver This is another card that asks you to get a stone renovation unreasonably
+E194,,Plow Driver,,E,,"Once you have a Stone house, you can pay 1 Food at the start of each round to Plow (at most) 1 field.",,"Plow Driver This is another card that asks you to get a stone renovation unreasonably
 early. He compares unfavorably to the Plow Maker, which isn't even a good card.",
-E195,,Plow Maker,,2,,"Whenever you use either the ""Plow 1 field"" or ""Plow 1 field and/or Sow"" Action spaces, you can pay 1 Food to Plow 1 additional field.",,"Plow Maker This is another trap card - he looks much stronger than he actually is. Let's assume that you play this guy with the intention of maxing fields. To get
+E195,,Plow Maker,,D,,"Whenever you use either the ""Plow 1 field"" or ""Plow 1 field and/or Sow"" Action spaces, you can pay 1 Food to Plow 1 additional field.",,"Plow Maker This is another trap card - he looks much stronger than he actually is. Let's assume that you play this guy with the intention of maxing fields. To get
 5 fields, you're going to need 4 actions (1 to play the Occ, 3 to plow) and 3
 food (1 to play the Occ, 2 to plow). This is not appreciably better than just
 plowing a field 5 times, since the 3 food he costs will probably take another
 action anyway.",
-E196,,Mushroom Collector,,4,,"Whenever you use a Family member's action to take Wood from an Action space, you can leave 1 of the Wood on the space and take 2 Food in exchange.",,"Mushroom Collector Amazingly strong. He's basically a Cabinetmaker that gets to use his ability
+E196,,Mushroom Collector,,B,,"Whenever you use a Family member's action to take Wood from an Action space, you can leave 1 of the Wood on the space and take 2 Food in exchange.",,"Mushroom Collector Amazingly strong. He's basically a Cabinetmaker that gets to use his ability
 every time you take wood. If you play him, you're pretty much taking wood every
 time you can. In that time, he generates an absurd amount of food - usually
 enough for the first two harvests. He also gives you plenty of wood, of course.
@@ -466,7 +466,7 @@ Since you have such a large incentive to take wood, you're taking it much more
 often than usual, which balances out the wood you have to leave behind. Mushroom Collector can be risky in 2-p. Because he leaves behind a wood, your
 opponent will usually want to take the 4W (a very strong spot for 2-p) and deny
 you the food.",
-E197,,Braggart,,4,,"At the end of the game, you receive 1/3/5/7/9 Bonus points for having 5/6/7/8/9+ Improvements in front of you.",,"Braggart 9 points? NINE POINTS! This card can easily win you the game by itself, and is the most common way
+E197,,Braggart,,B,,"At the end of the game, you receive 1/3/5/7/9 Bonus points for having 5/6/7/8/9+ Improvements in front of you.",,"Braggart 9 points? NINE POINTS! This card can easily win you the game by itself, and is the most common way
 I've seen players score higher than 60 points. Harnessing the Occ's power is no
 cakewalk, but when correctly played with the right combination of cards, this
 is pretty much unstoppable. I admit my rating scale breaks down a bit here - if you only look at the
@@ -474,7 +474,7 @@ percentage of time he is playable, he is probably a three star card. However, I
 give the extra star simply because of his raw power - he's engineered more flat
 out blowouts and unreal comebacks than any other card I can think of. The card is also easily a 5 star card in draft, where you can tailor your hand
 to include many cheap improvements.",
-E198,,Ratcatcher,,3,,"In rounds 10 and 12, all other players may not place 1 of their family's Offspring* (if they have any).(You yourself may place all your Family members.)This card may only be played until the end of Round 9. (*) Offspring are a player's 3rd, 4th, and 5th Family members.",,"Ratcatcher On the surface, you're trading 1 food and 1 action for 2 actions from your
+E198,,Ratcatcher,,C,,"In rounds 10 and 12, all other players may not place 1 of their family's Offspring* (if they have any).(You yourself may place all your Family members.)This card may only be played until the end of Round 9. (*) Offspring are a player's 3rd, 4th, and 5th Family members.",,"Ratcatcher On the surface, you're trading 1 food and 1 action for 2 actions from your
 opponents. That's ok. However, the card is actually much subtler than that. For
 one, the action you spend to play him comes before the actions that your
 opponents lose. Since actions are more valuable in the early rounds than the
@@ -483,11 +483,11 @@ have more appealing spots as the game progresses, removing 3 or 4 actions from
 a given round will mean that the quality of your final actions in that round
 will be much higher than usual. As a whole, this is a card that I get out if I have the time, but don't sweat
 too much if I need to use my actions in round 9 to develop my own board.",
-E199,,Renovator,,2,,"Pay 2 less Clay to renovate to a Clay hut, and pay 2 less Stone to renovate to a Stone house.",,"Renovator Obviously you can't play this unless you're sure you'll be able to renovate
+E199,,Renovator,,D,,"Pay 2 less Clay to renovate to a Clay hut, and pay 2 less Stone to renovate to a Stone house.",,"Renovator Obviously you can't play this unless you're sure you'll be able to renovate
 twice by the time the game is over. In that case, paying 1F1A for two stone and
 two clay is an OK deal, but often you're better off just taking those resources
 directly to deny your opponents.",
-E200,,Conservator,,5,,You can renovate your Wooden hut to a Stone house without first needing to renovate it to a Clay hut.,,"Conservator Obviously redonkulous. This saves youâ€š what? 1 reed, 3-5 clay, and 1 renovation
+E200,,Conservator,,A,,You can renovate your Wooden hut to a Stone house without first needing to renovate it to a Clay hut.,,"Conservator Obviously redonkulous. This saves youâ€š what? 1 reed, 3-5 clay, and 1 renovation
 action? Absurd. One supposed weakness to the occ is that you don't get to play a free
 Major/Minor Improvement. However, this isn't a valid concern. Let's compare
 someone who renovates fairly and someone who uses the Conservator and then
@@ -503,26 +503,26 @@ sure I've never made a mistake in doing so. In competitive games where
 resources are tight, he has singlehandedly won me the game by ensuring me a
 stone renovation that otherwise would have been impossible. That's a good sign
 of a five star card.",
-E201,,Cattle Whisperer,,2,,"Add 5 and 9 to the current round. Place 1 Cattle on the corresponding Round spaces. At the start of these rounds, you receive the Cattle.",,"Cattle Whisperer: We have a house rule that whenever someone plays this card, they have to put
+E201,,Cattle Whisperer,,D,,"Add 5 and 9 to the current round. Place 1 Cattle on the corresponding Round spaces. At the start of these rounds, you receive the Cattle.",,"Cattle Whisperer: We have a house rule that whenever someone plays this card, they have to put
 their finger on their mouth and say, 'Shhhhhhh!' His value is slightly worse than the Cattle Breeder, since you have to play him
 earlier.",
-E202,,Seasonal Worker,,5,,"Whenever you use the ""Day Laborer"" Action space, you receive 1 additional Grain. From Round 6, you can choose to receive 1 Vegetable instead.",,"Seasonal Worker This guy would be worth playing even without the vegetable clause. As is, he's
+E202,,Seasonal Worker,,A,,"Whenever you use the ""Day Laborer"" Action space, you receive 1 additional Grain. From Round 6, you can choose to receive 1 Vegetable instead.",,"Seasonal Worker This guy would be worth playing even without the vegetable clause. As is, he's
 simply amazing. He generates a ton of food early as you get your grain engine
 set up, and then gives you early veggies (plus more food!) in stage 2. This is
 a pet favorite of many people at BGG, and with good reason.",
-E203,,Shepherd,,1,,"During each Harvest, if you have at least 4 Sheep during the Breeding phase, you receive 2 lambs instead of 1 as long as you have room for them.",,"Shepherd I gave the Sheep Whisperer one star, and this is even worse than that. There's
+E203,,Shepherd,,E,,"During each Harvest, if you have at least 4 Sheep during the Breeding phase, you receive 2 lambs instead of 1 as long as you have room for them.",,"Shepherd I gave the Sheep Whisperer one star, and this is even worse than that. There's
 simply no way you're going to be able to get 4 sheep and room for two more
 before the second harvest, so you're only going to get a maximum of 4 extra
 sheep from him. The Sheep Whisperer gives the same amount of food, and doesn't
 force you to already have sheep just to get more sheep. Like all things in
 Agricola, sheep have diminishing returns - if you already have 4 sheep, there
 isn't much value in getting 4 more.",
-E204,,Master Shepherd,,2,,"Place 1 Sheep on each of the next 3 Round spaces. At the start of these rounds, you receive the Sheep.",,"Master Shepherd Deceptively weak. The problem is that he tempts you into building early fences,
+E204,,Master Shepherd,,D,,"Place 1 Sheep on each of the next 3 Round spaces. At the start of these rounds, you receive the Sheep.",,"Master Shepherd Deceptively weak. The problem is that he tempts you into building early fences,
 when that wood should really be going toward building rooms for future family
 growth. If you wait until after FG to use him, then the 3 sheep over time is
 not even that appealing, since the sheep square will have been piling up for
 some time.",
-E205,,Reed Collector,,3,,"Place 1 Reed on each of the next 4 Round spaces. At the start of these rounds, you receive the Reed.",,"Reed Collector This is amazingly strong in 3-p, where reed is extremely tight. However, in 4-p
+E205,,Reed Collector,,C,,"Place 1 Reed on each of the next 4 Round spaces. At the start of these rounds, you receive the Reed.",,"Reed Collector This is amazingly strong in 3-p, where reed is extremely tight. However, in 4-p
 and 5-p reed becomes more plentiful, making him substantially worse. Still, in
 any case he will tend to save you a full action, since 4 reed usually takes 2
 actions to get. I don't buy the 'this gives your opponents more reed' argument that
@@ -531,51 +531,51 @@ order to build rooms, people need both reed AND wood. The action that the Reed
 Collector saves you lets you take wood instead, setting you up for a potential
 2 room play and denying your opponents from rooms just as surely as if you had
 taken the reed.",
-E206,,Swineherd,,2,,"Whenever you use the ""Take 1 Wild boar"" Action space, you receive 1 additional Wild Boar from the supply. (The ""Take 1 Wild Boar"" Action is added in Stage 3.)",,"Swineherd This is much, much worse than either the cowherd or the sheep farmer. The
+E206,,Swineherd,,D,,"Whenever you use the ""Take 1 Wild boar"" Action space, you receive 1 additional Wild Boar from the supply. (The ""Take 1 Wild Boar"" Action is added in Stage 3.)",,"Swineherd This is much, much worse than either the cowherd or the sheep farmer. The
 cowherd has a more powerful effect and lets you spam the cow spot at 1 until
 the end of the game - no one cares enough about boar for that to really be
 worth doing on the boar spot. Moreover, the sheep spot comes out much earlier
 (allowing you to take it more often), and the sheep farmer has a nice clause
 that lets you convert your excess sheep into cattle and boar in the mid to late
 game.",
-E207,,Stablehand,,1,,"Whenever you build at least 1 fence, you also receive 1 stable which you must build immediately. (This may be built inside or outside the fenced area.)(You do not need to pay any Wood for the stable.)",,"Stablehand Another card that is unplayable due to the low number of times that you
+E207,,Stablehand,,E,,"Whenever you build at least 1 fence, you also receive 1 stable which you must build immediately. (This may be built inside or outside the fenced area.)(You do not need to pay any Wood for the stable.)",,"Stablehand Another card that is unplayable due to the low number of times that you
 actually want to fence. Since you can build stables whenever you build rooms,
 this is not even saving an action when it activates - just a couple of wood.
 Garbage.",
-E208,,Stablemaster,,3,,One (and only one) of your unfenced stables may hold up to 3 animals of the same type.,,"Stablemaster This card is a little embarrassing when compared to the mini-pasture. That
+E208,,Stablemaster,,C,,One (and only one) of your unfenced stables may hold up to 3 animals of the same type.,,"Stablemaster This card is a little embarrassing when compared to the mini-pasture. That
 said, he's still fine for what he does: give you enough room to breed early
 sheep while you save wood for rooms.",
-E209,,Quarryman,,1,,"You can use the Quarryman at any time to convert Stone to Food. For each Stone you convert, take 2 Food.",,"Quarryman Stone is usually far too valuable to spend on a measly 2 food. The only time I
+E209,,Quarryman,,E,,"You can use the Quarryman at any time to convert Stone to Food. For each Stone you convert, take 2 Food.",,"Quarryman Stone is usually far too valuable to spend on a measly 2 food. The only time I
 could ever see this occ being played is as part of a goofy combo with the
 Quarry. 8 food for one action is pretty good, I hear.",
-E210,,Stone Carrier,,2,,"Whenever you take Stone with an action, you can also take 1 additional Stone. If you also receive other building resources, this costs you 1 Food.",,"Stone Carrier You don't take stone from the '1 stone spot' enough for him to give more than 1
+E210,,Stone Carrier,,D,,"Whenever you take Stone with an action, you can also take 1 additional Stone. If you also receive other building resources, this costs you 1 Food.",,"Stone Carrier You don't take stone from the '1 stone spot' enough for him to give more than 1
 or 2, so if play him, it's with the intention of using the RSF spot for 1 reed,
 2 stone. That doesn't seem like an impressive enough play to be worth the 1F1A,
 unless you have minor improvements that require stone.",
-E211,,Stonecutter,,3,,"All Improvements, Rooms and Renovations cost 1 Stone less.",,"Stone Cutter Worth it if you plan on buying a clay oven, since this guy can save you a full
+E211,,Stonecutter,,C,,"All Improvements, Rooms and Renovations cost 1 Stone less.",,"Stone Cutter Worth it if you plan on buying a clay oven, since this guy can save you a full
 action in that case. He can also be a good play if you have some random 1 stone
 minor improvements in your hand.",
-E212,,Dancer,,3,,"Whenever you use the ""Traveling Players"" action on an Action space, you receive at least 4 Food. (If there are 1 to 3 Food are on the space, take Food from the general supply until you total 4 Food.)",,"Dancer Can generate a decent amount of food in the early game, but gets progressively
+E212,,Dancer,,C,,"Whenever you use the ""Traveling Players"" action on an Action space, you receive at least 4 Food. (If there are 1 to 3 Food are on the space, take Food from the general supply until you total 4 Food.)",,"Dancer Can generate a decent amount of food in the early game, but gets progressively
 less useful as food becomes more plentiful. Generally, this needs to be played
 early to be worth it. The card is helped by more TP cards - either for you or
 your opponent. If you have them then you can sometimes set up a nice combo
 where you are using TP every turn with some sort of bonus. If your opponent has
 them you can use the Dancer to block the TP square in the early game, stunting
 their development.",
-E213,,Stockman,,2,,"You receive 1 Cattle when you build your second stable, 1 Wild boar when you build your third and 1 Sheep when you build your fourth. (If you build several stables at once, you may be entitled to take several animals as well.)",,"Stockman One of my favorite plays as a baker is to play the Stockman super late game
+E213,,Stockman,,D,,"You receive 1 Cattle when you build your second stable, 1 Wild boar when you build your third and 1 Sheep when you build your fourth. (If you build several stables at once, you may be entitled to take several animals as well.)",,"Stockman One of my favorite plays as a baker is to play the Stockman super late game
 with no animals, and then use the 'build room(s)' space to build 3 stables.
 POW! 9 points. The other use for him is to use him to get an early breeding pair of cattle.
 All you need are 2 stables and something like the Cattle Whisperer; the fences
 can come later. Most of the time, however, the lack of a way to breed the singleton animals
 makes him too awkward to bother with.",
-E214,,Potter,,1,,"In each Harvest, the Potter can convert up to 1 Clay to 2 Food.",,"Potter In 4-p and 5-p clay becomes so plentiful that it's almost worthless. In that
+E214,,Potter,,E,,"In each Harvest, the Potter can convert up to 1 Clay to 2 Food.",,"Potter In 4-p and 5-p clay becomes so plentiful that it's almost worthless. In that
 situation, the Potter is at its best, but is still generally underwhelming. if !supportLineBreakNewLine endif",
-E215,,Tenant Farmer,,1,,"You immediately receive a loan of one of each type of animal. Before scoring, return the 3 animals. For each animal that you cannot or do not want to return, you lose 1 point.",,"Tenant Farmer The Tenant Farmer seems to be much better than he actually is. The main problem
+E215,,Tenant Farmer,,E,,"You immediately receive a loan of one of each type of animal. Before scoring, return the 3 animals. For each animal that you cannot or do not want to return, you lose 1 point.",,"Tenant Farmer The Tenant Farmer seems to be much better than he actually is. The main problem
 with the Tenant Farmer is having room to hold 3 animals of a different type.
 Eating them is usually not a good solution because of the 'payback' clause he
 has. Obviously it gets easier to hold them as the game progresses, but as the game
 progresses the benefit he gives becomes minimal.",
-E216,,Animal Keeper,,1,,"You can keep Sheep, Wild boar, and Cattle in the same pasture. This applies to all your pastures (except the Forest Pasture).",,"Animal Keeper The best case scenario is if you craft a single large 2x2 pasture with a stable
+E216,,Animal Keeper,,E,,"You can keep Sheep, Wild boar, and Cattle in the same pasture. This applies to all your pastures (except the Forest Pasture).",,"Animal Keeper The best case scenario is if you craft a single large 2x2 pasture with a stable
 in it. Then you'll be able to house all the animals you could ever want. In
 this outstanding case, what has he saved you? About 2 wood! Let me explain. It is very rare to have more than 4 of each animal. Even in a
 game where a person is able to achieve a lot of animals, pressures for food
@@ -586,13 +586,13 @@ taking up the space in your house. Sure, you might lose a few sheep by having
 to eat them early, but this will usually only cost about a point in scoring: a
 point that is regained by the extra pasture you'll have at the end of scoring. Obviously 1F1A in exchange for 2 wood is a terrible deal. This occupation is
 never playable - you're better off just taking 3 more wood.",
-E217,,Reeve,,3,,"Take 1/2/3/4 Wood if there are still 1/3/6/9 rounds to play. At the end of the game, all players with the most played Occupation cards receive 3 Bonus points each.",,"Reeve This is another nice 4/3/2/1 play. Since the Reeve is an occupation himself, he
+E217,,Reeve,,C,,"Take 1/2/3/4 Wood if there are still 1/3/6/9 rounds to play. At the end of the game, all players with the most played Occupation cards receive 3 Bonus points each.",,"Reeve This is another nice 4/3/2/1 play. Since the Reeve is an occupation himself, he
 gives you a boost towards eventually getting the bonus. However, a key problem
 with the Reeve is that he's an early game occ. Usually in games where I want to
 play a lot of Occs, it's because I have a lot of good early game Occs. When I
 have a lot of early game Occs, I tend to prioritize getting them out before the
 Reeve, and often the opportunity to get 4 wood has passed by at that point. Nonetheless, he is definitely one of the stronger 4/3/2/1 occs.",
-E218,,Carpenter,,2,,"To extend your home, you need only 3 of the appropriate building resource and 2 Reed for each new room. (For example, if you live in a Wooden hut, you need 3 Wood and 2 Reed.)",,"Carpenter If you build 3 rooms before renovating, he's worth 6 conditional wood - an OK
+E218,,Carpenter,,D,,"To extend your home, you need only 3 of the appropriate building resource and 2 Reed for each new room. (For example, if you live in a Wooden hut, you need 3 Wood and 2 Reed.)",,"Carpenter If you build 3 rooms before renovating, he's worth 6 conditional wood - an OK
 but not fantastic deal given that the wood is delivered over time and that
 you're forced to use it on a specific thing. Given how rarely people actually
 build 3 rooms in the first place (usually reed is too scarce), this won't come
@@ -609,7 +609,7 @@ corner case - most rooms are wood, a few are clay, and almost none are stone
 (the Well tends to be a much more efficient way to get points). Moreover, in
 cases where you actually want to build clay rooms, clay is probably common enough
 that 2 clay and 2 wood isn't much better than 4 wood.",
-E338,,Feed Pellets,,2,,"During the Feeding Phase of each Harvest, you may trade 1 Vegetable for 1 of any type of Animal that you already have in your farmyard.",,"Feed Pellets Feed Pellets I hate ragging on completely free improvements,
+E338,,Feed Pellets,,D,,"During the Feeding Phase of each Harvest, you may trade 1 Vegetable for 1 of any type of Animal that you already have in your farmyard.",,"Feed Pellets Feed Pellets I hate ragging on completely free improvements,
 but this is definitely a niche ability. Veggies are worth 1 VP each, and
 animals after your first one are always less than 1 VP. This means that a lot
 of the time this is just not a good deal. There's also the awkwardness involved
@@ -621,7 +621,7 @@ probably going to easily max veggies, it can be nice to convert your excess
 crops into some extra victory points. The card can also be a clunky way to get
 a breeding pair of cattle - just take cattle at 1 and then trade in your veggie. Usually, this will have a marginal benefit, at
 best. Still, it's hard to argue with the price-tag.",
-E341,,Guildmaster,,2,,"You receive 4 Wood when you acquire the Joinery or play the Cabinetmaker. When you acquire the Pottery or play the Potter, you receive 4 Clay. When you acquire the Basketmaker's Workshop or play the Basketmaker, you receive 3 Reed. If you have already played any of these cards when you play the Guildmaster, you receive 2 building resources of the appropriate type for each existing card.",,"Guildmaster Ridiculous when combined with the right cards (manufacturer), but otherwise
+E341,,Guildmaster,,D,,"You receive 4 Wood when you acquire the Joinery or play the Cabinetmaker. When you acquire the Pottery or play the Potter, you receive 4 Clay. When you acquire the Basketmaker's Workshop or play the Basketmaker, you receive 3 Reed. If you have already played any of these cards when you play the Guildmaster, you receive 2 building resources of the appropriate type for each existing card.",,"Guildmaster Ridiculous when combined with the right cards (manufacturer), but otherwise
 awkward. Without something to help him, you're going to need 4 stone to get two
 of the three things on his list - stone that probably would have been better
 used on either a renovation or a well.",
@@ -667,7 +667,7 @@ D171,,Senior Teacher,,,,"Each time another player pays food on a ""Lessons"" act
 D172,,Putcher Maker,,,,"At any time, you can exchange 1 reed for 2 food.",,,
 D173,,Town Clerk,,,,"Each time a major improvement is built, place 1 food on this card. Once this game, you can turn this card face down to get the food on it.",,,
 D174,,Loess Gardener,,,,"Each time you use the ""Clay Pit"" accumulation space, you can also buy 1 vegetable for 1 food.",,,
-D175,,Countryman,,2,,"Each time any player (including you) takes a ""Renovation"" action on an action space, you can sow crops in exactly 1 field.",,"Countryman In bigger games the sow and bake bread space tends to be overcrowded, making
+D175,,Countryman,,D,,"Each time any player (including you) takes a ""Renovation"" action on an action space, you can sow crops in exactly 1 field.",,"Countryman In bigger games the sow and bake bread space tends to be overcrowded, making
 this guy's utility extremely unreliable. It's not like you should really be
 giving your opponents an excuse to deny you a sow action. If for some reason
 your opponents all inexplicably avoid growing crops, he can help save you an
@@ -954,7 +954,7 @@ A009,牲畜市场,Young Animal Market,T3,,,"You immediately get 1 cattle. (Effec
 强度：跟市场摊位同理，用繁殖后的羊换繁殖 前的牛，最大收益1.5分，但是比市场摊位更容 易达到最大收益。
 难度：2/5
 用法：四五季或更早围，抓至少2 羊，然后繁 殖1 羊，或者不繁殖直接抢先换牛，补牛的2 分。 搭配：早围圈羊流",,
-A012,饮水槽,Drinking Trough,T4,3,,Each of your pastures (with or without a stable) can hold up to 2 more animals.,"费用：1c
+A012,饮水槽,Drinking Trough,T4,C,,Each of your pastures (with or without a stable) can hold up to 2 more animals.,"费用：1c
 效果：你的每个圈地的饲养空间+2（无论有无 马厩）
 强度：饲养空间如果提供了繁殖空间，每繁殖 一次就获得了0.5-1 分，考虑到0.5 分成本，因 此如果触发繁殖就有正收益
 难度：2/5
@@ -976,14 +976,14 @@ A019,手推犁,Handplow,T2,,,"Add 5 to the current round and place 1 field tile 
 强度：要注意一下，只有建筑资源、食物、动 物、植物算物品，田、房子、人口不算物品， 因此不能触发道德宣传员。此外，这张卡用1w 换2+分，标准的1 分卡，但是考虑到田的播种 重要性，因此放到比T3 略高的位置上。
 难度：1/5
 用法：别拖到第10 回合再打就行，尽量1-8 回 合打出，这样第五季也能播上 搭配：农业卡",,
-A024,打谷板,Threshing Board,T3,3,,"Each time you use the ""Farmland"" or ""Cultivation"" action space, you get an additional ""Bake Bread"" action.","条件：2 职业 费用：1w
+A024,打谷板,Threshing Board,T3,C,,"Each time you use the ""Farmland"" or ""Cultivation"" action space, you get an additional ""Bake Bread"" action.","条件：2 职业 费用：1w
 效果：1 分，每次踩犁田或者犁播行动格时，获 得一次烤面包行动
 强度：跟上个面包托铲一样，本身无收益，面 包流才能有效果。
 难度：1/5
 用法：没配合的话就后期打一下就好","Threshing Board Threshing Board Pretty comparable to the Flail, really, but a
 little worse since you're less likely to want to spend 2W in the early game,
 even with a VP attached.",
-A026,卧室,Sleeping Corner,T2,3,,"You can use any ""Wish for Children"" action space even if it is occupied by one other player's person.","条件：2 麦田 费用：1w
+A026,卧室,Sleeping Corner,T2,C,,"You can use any ""Wish for Children"" action space even if it is occupied by one other player's person.","条件：2 麦田 费用：1w
 效果：1 分，如果生或求子心切行动格只有1 个 人，对你来说未被占据。
 强度：如果强化两次末动变生，就是1 分换3+ 分两次，总收益4+。
 难度：4/5
@@ -1068,7 +1068,7 @@ A078,独木舟,Canoe,T3,,,"Each time you use the ""Fishing"" accumulation space,
 强度：本身亏1 分，但是每次触发都赚1 分左 右，无配合的话全局触发两次可以净赚1 分， 有配合触发5 次可以净赚4 分左右。
 难度：3/5
 用法：第一季准备好配合、扩屋资源、额外2 木，第二季生娃打出钓鱼，然后三四季抢一下 芦苇工坊。 搭配：钓鱼套",,
-A080,采石钳,Stone Tongs,T4,4,,"Each time you use a stone accumulation space, you get 1 additional stone.","费用：1w
+A080,采石钳,Stone Tongs,T4,B,,"Each time you use a stone accumulation space, you get 1 additional stone.","费用：1w
 效果：每当你踩石头积累行动格时，额外获得 一个石头
 强度：可以看作1w换0-2s，也就是-1 到1 之 间的收益。
 难度：1/5
@@ -1076,7 +1076,7 @@ A080,采石钳,Stone Tongs,T4,4,,"Each time you use a stone accumulation space, 
 cards like Stone Cart and Stone Exchange. Not only does it encourage you to
 deny your opponents stone, but it also gives the stone up front, so that you
 can use it immediately.",
-A083,牧羊杖,Shepherd's Crook,T3,3,,"Each time you fence a new pasture covering at least 4 farmyard spaces, you immediately get 2 sheep on this pasture.","费用：1w
+A083,牧羊杖,Shepherd's Crook,T3,C,,"Each time you fence a new pasture covering at least 4 farmyard spaces, you immediately get 2 sheep on this pasture.","费用：1w
 效果：每当你围出一个面积不少于4 的圈地 时，在这个圈地内放2 羊（一个行动内可以多 次触发）
 强度：正常的5 屋2田8 围或者4 屋3 田8围 等流派，可以吃到4 羊收益，基本上有3-5 分 价值，现在看来有T2 或者强T3 的水准。
 难度：2/5
@@ -1086,7 +1086,7 @@ being useful in the early game. If you're planning on using sheep for early
 food, you probably have better options. However, for someone who's found a way
 to eat early without sheep, you can't beat this efficiency as part of a mid to
 late game fence play.",
-A086,驯兽师,Animal Tamer,T3,3,,"When you play this card, you immediately get your choice of 1 wood or 1 grain. Instead of just 1 animal total, you can keep any 1 animal in each room of your house.","效果：打出时获得1麦或1木，然后你的每个房子都可以养殖一个动物，而不是只能养殖一个。
+A086,驯兽师,Animal Tamer,T3,C,,"When you play this card, you immediately get your choice of 1 wood or 1 grain. Instead of just 1 animal total, you can keep any 1 animal in each room of your house.","效果：打出时获得1麦或1木，然后你的每个房子都可以养殖一个动物，而不是只能养殖一个。
 强度：中期的饲养空间每3个价值1分，为什么这么说呢？因为三个空间就可以让一类动物繁殖而不用仍了，那么，在四房时打出驯兽师，本身就有着1分红利，此外，麦子也有着2分，可见稳定收益就有3分，十分稳健值得打出。而且，他还能够提高游戏末的饲养空间上限，让动物多的玩家不需要打马厩，也省了木头和行动。
 难度：3/5
 用法：前中期扩到3后就可以打出，最好第二季或者第三季开始养2羊，然后每季煮了吃。或者可以等扩到5时打出，拿两种动物顺便补围。配合：15石屋套","Animal Tamer Playing him immediately gives you an extra stable and quickly becomes an extra
@@ -1094,7 +1094,7 @@ pasture after that (sans VPs). Usually worth it if you plan to get to 4 rooms
 or more, since it lets you avoid spending precious wood and actions on early
 fences/stables. Instead, you get to do what you want to do anyway - build more
 rooms!",
-A087,管理员,Conservator,T2,5,,You can renovate your wooden house directly to stone without renovating it to clay first.,"效果：木屋翻修可以翻石屋强度：这卡就算没有任何配合，也可以省下 4 砖 1 芦1 优质动，前者加起来至少有 5 分。而你损失的只有一次主发机会。大部分情况下，主发打一次就用光石头了，所以不用担心，你只损失了一次次发机会。这样看来收益至少 4 分。他真正强在两点：大家抢翻修时你可以不抢也能翻修到石屋。另外，你可以很早打出石屋卡，就算你是四房。主要你后几手抓到学者B097*，御犁 A090*等，这把游戏将十分快乐。
+A087,管理员,Conservator,T2,A,,You can renovate your wooden house directly to stone without renovating it to clay first.,"效果：木屋翻修可以翻石屋强度：这卡就算没有任何配合，也可以省下 4 砖 1 芦1 优质动，前者加起来至少有 5 分。而你损失的只有一次主发机会。大部分情况下，主发打一次就用光石头了，所以不用担心，你只损失了一次次发机会。这样看来收益至少 4 分。他真正强在两点：大家抢翻修时你可以不抢也能翻修到石屋。另外，你可以很早打出石屋卡，就算你是四房。主要你后几手抓到学者B097*，御犁 A090*等，这把游戏将十分快乐。
 难度：2/5
 用法：有配合四房翻修，没配合第五季出。
 搭配：石屋套
@@ -1115,19 +1115,19 @@ sure I've never made a mistake in doing so. In competitive games where
 resources are tight, he has singlehandedly won me the game by ensuring me a
 stone renovation that otherwise would have been impossible. That's a good sign
 of a five star card.",
-A088,篱笆护理员,Hedge Keeper,T4,3,,"Each time you take a ""Build Fences"" action, you do not have to pay wood for 3 of the fences you build.","效果：每次执行修栅栏行动时，可以省3木
+A088,篱笆护理员,Hedge Keeper,T4,C,,"Each time you take a ""Build Fences"" action, you do not have to pay wood for 3 of the fences you build.","效果：每次执行修栅栏行动时，可以省3木
 强度：早围卡，这张卡应当是有T3强度的，当时低估了放到T4。这张卡打出来就是要围2-3次的，围第二次和第三次都是拿不到3木，只能拿到2木的强化弱动，只有第一次围是货真价实的3w收益，因此3w+1w或3w+1w+1w收益，也就是3-5收益。
 难度：2/5
 用法：这张卡应该在第四季甚至更早围第一次，然后动物放不下时及时围第二次补充。轮抽时如果有别的篱笆卡就会很舒服，如木材贸易商。
 变体：密友B093 篱笆，强势组合，省12w+1动，比T0卡密友、线人都要强势","Hedge Keeper If you build fences twice, this is worth 6 wood. Not a bad deal if you want a
 lot of fences.",
-A090,御犁者,Plow Driver,T2,1,,"Once you live in a stone house, at the start of each round, you can pay 1 food to plow 1 field.","效果：如果你住在石屋，每回合开始可以花1f犁1田
+A090,御犁者,Plow Driver,T2,E,,"Once you live in a stone house, at the start of each round, you can pay 1 food to plow 1 field.","效果：如果你住在石屋，每回合开始可以花1f犁1田
 强度：每触发一次收益1.5分，满收益可以达到8以上，石屋套都不可小觑
 难度：3/5
 用法：和学者B097类似，但是不那么着急，第四季甚至第五季出都行，不一定需要配合，三石屋开始犁就好。搭配：石屋套
 变体：学者御，学者打出御的当前回合就可以犁田","Plow Driver This is another card that asks you to get a stone renovation unreasonably
 early. He compares unfavorably to the Plow Maker, which isn't even a good card.",
-A092,养父母,Adoptive Parents,T3,1,,"For 1 food, you can take an action with offspring in the same round you get it. If you do, the offspring does not count as ""newborn"".","效果：你在版图上有未长大的孩子时，可以花费1f让他变成长大的孩子，回到房间里，本回合可以使用他。若如此做，喂食阶段，他视为成人。
+A092,养父母,Adoptive Parents,T3,E,,"For 1 food, you can take an action with offspring in the same round you get it. If you do, the offspring does not count as ""newborn"".","效果：你在版图上有未长大的孩子时，可以花费1f让他变成长大的孩子，回到房间里，本回合可以使用他。若如此做，喂食阶段，他视为成人。
 强度：表面上看是3f换3动，4.5-的收益。但是实际上，如果你每在收获阶段也就是奇数回合生娃使用养父母，都会亏损1f作为喂养。也就是3-4.5的长反馈收益。但是如果你能高效获取食物，又能保障在偶数回合生娃，这张卡收益拉满甚至接近6。
 难度：4/5
 用法：考验技巧的卡，没有早扩且早食物的话，可能会入不敷出。推荐有扩屋卡+前期食物引擎时使用。如果要使用，请在前六回合打出，不要影响生娃节奏。搭配：扩屋卡，海外援助
@@ -1137,7 +1137,7 @@ A098,马厩艺术家,Stable Architect,T3,,,"During scoring, you get 1 bonus poin
 强度：圈地外的马厩是有用的，因为可以早期养动物，也可以4马厩，后期围4。适合早养动物，后期2/3田的流派。而且是马厩流的提上限卡。超短反馈4分。
 难度：2/5
 用法：1到4季第一次扩屋时先造几个马厩养动物，第二次扩屋再补到3-4马厩，然后第4-5季可以拿一次1动物吃低保。第5-6季围12木4格，拿最后一种动物，打马厩艺术家。搭配：泥耙等马厩流卡牌不搭：3田以上的犁田卡",,
-A102,杂货商,Grocer,T1,4,,"Pile the following goods on this card (wood, grain, reed, stone, vegetable, clay, reed, vegetable). At any time, you can buy the top good for 1 food.","效果：把木麦卢石菜砖卢菜从上到下放到卡牌上，随时可以用1饭换最上面的资源。
+A102,杂货商,Grocer,T1,B,,"Pile the following goods on this card (wood, grain, reed, stone, vegetable, clay, reed, vegetable). At any time, you can buy the top good for 1 food.","效果：把木麦卢石菜砖卢菜从上到下放到卡牌上，随时可以用1饭换最上面的资源。
 强度：最强的食物换分卡，8饭换5建筑材料+1麦+2菜。也就是4分换3.5分+6分，收益可以达到5.5分。一张卡把农业打满分。
 难度：4/5
 用法：这张卡有两大难度，一是你要在犁播前至少有2田+足够食物供给换到菜。甚至3田+1麦+足够食物；又或者4田+2麦+足够食物，才能把农业打满。另一点难度是不浪费建筑材料，这涉及到两点，一是他的砖出的很晚，你要在翻修砖屋时解决食物问题才能不浪费，但也不能太贪，自己翻修不上才是血亏。另一点送两个芦苇让芦苇很容易浪费，后期尽量谨慎拿rsf（卢石饭）。搭配：犁田卡，食物卡（如烘培陶瓷，书柜烈酒）不搭：其他废食物卡
@@ -1146,7 +1146,7 @@ since normally you have to use a full action to take either. The resources you
 get along the way are gravy. That said, you're going to need a good food engine to support him. I've seen at
 least a couple of times where someone plays him and then is forced to leave him
 unused as they scramble to feed their family. However, provided you are able to support him, he is extremely powerful.",
-A108,采菇人,Mushroom Collector,T2,4,,"Immediately after each time you use a wood accumulation space, you can exchange 1 wood for 2 food. If you do, place the wood on the accumulation space.","效果：去木头积累格可以返还一w到该格，获得2f
+A108,采菇人,Mushroom Collector,T2,B,,"Immediately after each time you use a wood accumulation space, you can exchange 1 wood for 2 food. If you do, place the wood on the accumulation space.","效果：去木头积累格可以返还一w到该格，获得2f
 强度：这张卡本身近乎无收益，全局1w都接近2f的价值。但他有几个优点，首先第一季不用踩钓鱼卖艺，然后可以多踩木头，让木头贬值，那这张卡本身就获得了价值。最终也是最重要的，打这张卡也在赌木头套装，但凡有个伐木就很舒服，因为伐木和这张卡的触发都会很多次，还能解决食物。
 难度：1/5
 用法：第一回合打出，然后踩一次2w，两次3w，甚至4w，攒够扩的资源。要注意优先rsf或者2r。搭配：木头套不搭：零工套 其他用木头的卡如造纸 鱼叉猎手这张卡和伐木工都介于弱T2-强T3之间，本质上是赌配合，其实更接近T3","Mushroom Collector Amazingly strong. He's basically a Cabinetmaker that gets to use his ability
@@ -1166,7 +1166,7 @@ A112,镰刀工,Scythe Worker,T4,,,"When you play this card, you immediately get 
 强度：几乎没有实用性，不产生额外价值，可以看作是1麦的2分卡
 难度：1/5
 用法：如果早期用农巡套做麦田的话，可以用来提高麦田的迭代效率。或者R13/14补一个麦子，又或者打职业套顺手得1麦。配合：职业套，农巡套",,
-A114,季节工,Seasonal Worker,T2,5,,"Each time you use the ""Day Laborer"" action space, you get 1 additional grain. From round 6 on, you can choose to get 1 vegetable instead.","效果：踩零工给1麦，第六回合起可以选择一菜代替一麦
+A114,季节工,Seasonal Worker,T2,A,,"Each time you use the ""Day Laborer"" action space, you get 1 additional grain. From round 6 on, you can choose to get 1 vegetable instead.","效果：踩零工给1麦，第六回合起可以选择一菜代替一麦
 强度：理论上有10饭强度，因为3麦2菜是播种必需品，但是往往有别的种子获取手段，且犁5田才能播下去，所以往往到不了5分强度
 难度：1/5
 用法：R1/2出强化弱动，拿烤炉。或者第三四季出 踩四五次一播种搭配：其他零工套，犁田卡，胡萝卜D079不搭：2田流","Seasonal Worker This guy would be worth playing even without the vegetable clause. As is, he's
@@ -1183,7 +1183,7 @@ A119,捡木人,Firewood Collector,T3,,,"Each time you use the ""Farmland"", ""Gr
 难度：2/5
 用法：开始发展农业前打出即可，基本上走先农后牧的套路，畜牧的发展会受限制。搭配：早期麦子扩生套不搭：减轻农业行动数量的卡，要求早围的卡
 变体：早期麦子扩生套，比如捡木人+干草叉+茅草+卧室，可以踩3田1麦1播，得5木，然后干草叉茅草卧室生娃。农巡、新卡麦田里的床等也可以配合。",,
-A120,粘土小屋建造者,Clay Hut Builder,T3,3,,"Once you no longer live in a wooden house, place 2 clay on each of the next 5 round spaces. At the start of these rounds, you get the clay.","效果：一旦你不住在木屋，往之后五个回合各摆2c，每回合开始获得
+A120,粘土小屋建造者,Clay Hut Builder,T3,C,,"Once you no longer live in a wooden house, place 2 clay on each of the next 5 round spaces. At the start of these rounds, you get the clay.","效果：一旦你不住在木屋，往之后五个回合各摆2c，每回合开始获得
 强度：开局多的玩家都知道，粘土会在四五季进行一次贬值，贬值前只比木头廉价一点点，贬值后基本相当于半个木头的价值。但这个贬值的关键变化点在哪里呢？在于大多数玩家不再发愁翻砖屋和炉子。也就是说，同样多的砖，砖在早期来买炉子和翻修是更高效的，砖用来扩屋和打砖工是更低效的。因此，粘土小屋建造者给的10c中，基本都是低效的，粘土小屋建造者总收益大概5分+。
 难度：3/5
 用法：用法在于早翻石屋，这样子你可以早出砖工或者炉子，把低效砖变成高效砖。
@@ -1191,7 +1191,7 @@ A120,粘土小屋建造者,Clay Hut Builder,T3,3,,"Once you no longer live in a 
 nothing but VPs, you prefer to renovate later in the game. Still, it's hard to
 deny the card's power. The 10 clay this gives you is enough to build two clay
 rooms all on its own, making the occ often worth it.",
-A123,架梁工,Frame Builder,T3,1,,"Each time you build a room/renovate, but only once per room/action, you can replace exactly 2 clay or 2 stone with 1 wood.","效果：翻修和造每间房子时，可以用1w代替2c或者2s。
+A123,架梁工,Frame Builder,T3,E,,"Each time you build a room/renovate, but only once per room/action, you can replace exactly 2 clay or 2 stone with 1 wood.","效果：翻修和造每间房子时，可以用1w代替2c或者2s。
 强度：可以当做低配砌砖工用，也可以直接扩石屋，更可以翻修时省2c2s，灵活用。如果只是翻修时用，价值差不多短反馈2分。
 难度：3/5
 用法：主要是配合支柱、木匠、泥土修补、黏土小屋建造、共济会等砖扩，石扩卡。偶尔也可以翻修时用到，在卷砖、卷石、木头富裕的局有着不亏的价值。","Frame Builder Clearly you need to be building clay and/or stone rooms to make this Occupation
@@ -1204,7 +1204,7 @@ A125,神父,Priest,T4,,,"When you play this card, if you live in a clay house wi
 强度：2屋流和砖扩的中流砥柱卡，代价是末生。强度可以到5.5-7之间。
 难度：4/5
 用法：你能早生就老老实实扩一间木屋再翻扩砖屋也不迟，如果不能生再考虑翻修打这张。比如说5生局上家抢先了，你就老老实实扩间木屋，5翻局或者有早翻卡再打这张。",,
-A133,吹牛大王,Braggart,T0,4,,"During the scoring, you get 2/3/4/5/7/9 bonus points for having at least 5/6/7/8/9/10 improvements in front of you.","效果：游戏结束时面前有6/7/8/9/10张发展卡时，获得1/3/5/7/9分 。
+A133,吹牛大王,Braggart,T0,B,,"During the scoring, you get 2/3/4/5/7/9 bonus points for having at least 5/6/7/8/9/10 improvements in front of you.","效果：游戏结束时面前有6/7/8/9/10张发展卡时，获得1/3/5/7/9分 。
 强度：5-9分
 难度：4/5
 用法：这张卡虽然强，但是打出上限还是比较难的（注意，这里的上限指的是这局游戏获得的分数，而不是通过这张卡获得的分数）。轮抽时多拿一些便宜次发，或者是便于抢主发的卡。这张卡由于要打2-4张主发，打满次发，因此缺动，需要有高效补分手段。因此，千万不要拿强化弱动的组合，因为你动本来就少，比如钓鱼套、零工套等。搭配：瓦匠B095，蓝图C027，商人C096，切石A143，锯木厂，垃圾房，贫农D132等。
@@ -1221,14 +1221,14 @@ A138,鱼叉猎手,Harpooner,T1,,,"Each time you use the ""Fishing"" accumulation
 难度：2/5
 用法：如上，第三四季至少三人口时打出。或者没有别的前期职业在第一季打出赚芦苇。搭配：独木舟，水上工人D144等钓鱼卡，套索、蓝图C027等用芦苇卡，而且要人口多才强，适合抢生卡比如木斧小屋，鸟巢不搭：任何需求木头量打的卡，任何产食物多的卡（要保证资源均衡）典型的是造纸人B109。由于是强化弱动，跟零工套很不搭配，也和早翻修的套不搭配，因为生的慢
 变体：第一季打出时，要注意不要过早踩钓鱼，三到四饭去踩比较理想，而且尽早拿石头控到芦苇工坊，不然芦苇会飞速贬值，平时多拿木头",,
-A143,切石工,Stonecutter,T2,3,,"Every improvement, room, and renovation costs you 1 stone less.","效果：造房子 发展卡 翻修省1s
+A143,切石工,Stonecutter,T2,C,,"Every improvement, room, and renovation costs you 1 stone less.","效果：造房子 发展卡 翻修省1s
 强度：翻修省一次，发展卡省2-3次，就有3-4分水平了，单卡也是能看的
 难度：3/5
 用法：这张卡比较考验游戏理解，什么时候打出，什么时候翻修，什么时候控制哪些主要发展卡。搭配：蓝图C027 商人C096 吹牛大王等控主发卡锯木厂等关键石头次发不搭：瓦匠B095等
 变体：切石蓝图C027，前三季打出，搬空工坊，要注意控制好木砖卢的数量","Stone Cutter Worth it if you plan on buying a clay oven, since this guy can save you a full
 action in that case. He can also be a good play if you have some random 1 stone
 minor improvements in your hand.",
-A147,牲畜交易官,Animal Dealer,T3,4,,"Each time you use the ""Sheep Market"", ""Pig Market"", ""or ""Cattle Market"" accumulation space, you can buy 1 additional animal of the respective type for 1 food.","效果：每次踩动物积累格前，可以花1f买一个相应动物。
+A147,牲畜交易官,Animal Dealer,T3,B,,"Each time you use the ""Sheep Market"", ""Pig Market"", ""or ""Cattle Market"" accumulation space, you can buy 1 additional animal of the respective type for 1 food.","效果：每次踩动物积累格前，可以花1f买一个相应动物。
 强度：除非食物极度充裕，否则这张卡拿到2个以上的动物一般是烤了吃。一般有壁炉用得起，踩一次牛赚3f，踩一次猪赚2f，一次羊赚1f的，各踩一次就有短反馈6f了，适合多踩动物的流派。
 难度：2/5
 用法：注意事项就是踩之前要有食物，不能拿了动物再烤了再买。搭配：套索，宠物爱好者
@@ -1238,7 +1238,7 @@ given that the food is given over time. However, this guy is much stronger than 
 to get 2 of an animal, which is especially important if an animal card comes up
 the turn before a harvest. He also allows you to spam the animal spots for
 food, denying other players from getting the animals they need. Superb.",
-A155,杂耍艺人,Conjurer,T3,3,,"Each time you use the ""traveling Players"" accumulation space, you get an additional 1 wood and 1 grain.","效果：卖艺时可以额外获得1木1麦
+A155,杂耍艺人,Conjurer,T3,C,,"Each time you use the ""traveling Players"" accumulation space, you get an additional 1 wood and 1 grain.","效果：卖艺时可以额外获得1木1麦
 强度：不贪的话收益可观，常驻卖艺的话，第一季3f吃卖艺，第二季4f吃卖艺，然后再吃两次卖艺，一共吃4次，虽然损失了2-4饭左右，但是获得了4木4麦，单卡价值6-7分的下限收益。缺点是前期打出和要有规划，毕竟要在特定的回合踩卖艺，但凡损失了一次卖艺被人踩了，就是少了2分左右的收益，
 难度：4/5
 用法：新手推荐在R3/4，R7，R10/11，R13/14踩，老手可以R3/4、R8/9，R13/14踩。关键点在于判断场上食物的充裕程度。与一般人对战还要考虑心理因素，一般玩家往往会在收获回合优先解决吃饭问题，因此可以在非吃饭回合用末动去踩卖艺，错峰田忌赛马，用劣动取得优势。搭配：新卡卖艺套不搭：琵琶演奏A160，木偶等哄骗别人卖艺套","Conjurer This is obviously worse than the seasonal worker, but not much more so. Playing
@@ -1248,7 +1248,7 @@ A160,琵琶演奏家,Lutenist,T3,,,"Each time another player uses the ""Travelin
 强度：和木偶艺人一致，全局大致3-4次卖艺，一共3w3f，并且买菜相当于1收益，相当于长反馈5.5+收益。
 难度：2/5
 用法：和木偶类似，R3/4打出，并且要注意踩住第一季的钓鱼。注意不要抓太多前期卡。",,
-A165,喂猪人,Pig Breeder,T3,1,,"When you play this card, you immediately get 1 wild boar. Your wild boar breed at the end of round 12 (if there is room for the new wild boar).","效果：打出时立即获得1猪，你的猪可以在12回合结束时生育（仍然需要父母和饲养空间，且这不是繁殖行动）
+A165,喂猪人,Pig Breeder,T3,E,,"When you play this card, you immediately get 1 wild boar. Your wild boar breed at the end of round 12 (if there is room for the new wild boar).","效果：打出时立即获得1猪，你的猪可以在12回合结束时生育（仍然需要父母和饲养空间，且这不是繁殖行动）
 强度：分类讨论，如果你打出这张卡不拿猪，你只能获得1猪，超短反馈2收益。如果你打出这张卡拿了1-2猪，你获得了2额外猪，但是此时猪对你已经贬值了，2猪要么作为1分，要么作为6饭，顶多是短反馈3收益。
 难度：2/5
 用法：提前想好要不要12回合繁殖猪，不要想繁殖所以11回合打出，但是没繁殖成功，这样白白亏了，不如14回合打出。轮抽时拿了主要是作为2分卡，用来补猪。","Pig Breeder 1 boar? What are you going to do with one boar? This is basically the same card
@@ -1280,7 +1280,7 @@ B016,采矿锤,Mining Hammer,T2,,,"When you play this card, you immediately get 
 强度：1w换1f 小亏，2 马厩是2+分，而且还 有一个前期饲养空间的收益，因此收益在3+左 右，简单强力。
 难度：1/5
 用法：打出时间可以晚一点，在翻修前打出就 行，但是如果饿的话或者没有别的卡要打或者 要养动物可以早打。2 马厩推荐贴着房子竖着 放，也就是第二列的第三行和第四行。 搭配：马厩流卡牌，百搭卡",,
-B019,板犁,Moldboard Plow,T1,4,,"Place 2 field tiles on this card. Twice this game, when you use the ""Farmland"" action space, you can also plow 1 field from this card.","条件：1 职业 费用：2w
+B019,板犁,Moldboard Plow,T1,B,,"Place 2 field tiles on this card. Twice this game, when you use the ""Farmland"" action space, you can also plow 1 field from this card.","条件：1 职业 费用：2w
 效果：这张卡放2 田，每次使用犁田时，可以 用至多两张这张卡上的田地犁1 田
 强度：白得2 田，纸面收益2 分+农业价值，但 是没有摇摆步犁强势，也没有转犁灵活，属于 弱T1 卡。
 难度：2/5
@@ -1297,7 +1297,7 @@ sometimes make it worth the effect. If you get two extra fields, the card become
 fantastic, and better than the crooked plow. You're probably going to be
 plowing twice during the game anyway, so at a bare minimum you are paying 2W
 for 4 VPs.",
-B024,套索,Lasso,T3,3,,"You can place exactly two people immediately after one another if at least one of them uses the ""Sheep Market"", ""Pig Market"", or ""Cattle Market"" accumulation space.","费用：1r
+B024,套索,Lasso,T3,C,,"You can place exactly two people immediately after one another if at least one of them uses the ""Sheep Market"", ""Pig Market"", or ""Cattle Market"" accumulation space.","费用：1r
 效果：你可以连续放置两个家庭成员，只要其 中至少一个家庭成员放到“羊”，“猪”或 “牛”累积行动格
 强度：套索对每个人平均压制0.5-2 分，大概1 分，每名玩家少一种动物，但是可以多拿1 菜，亏1 分。套索每次触发，可以理解为多拿1 个动物，收益大概0.5分，考虑触发R11-14四 次，是2 分，减去1 芦苇的1 分成本，收益大 概2 分。
 难度：2/5
@@ -1308,7 +1308,7 @@ additional action to acquire it. However, in 4-p and 5-p, when animals are much
 scarcer per player, the animal spot is often a great spot. Moreover, reed is
 easier to get. In these games, the Lasso is amazingly strong and arguably one
 of the best improvements you could hope to draw.",
-B025,面包托铲,Bread Paddle,T3,2,,"When you play this card, you immediately get 1 food. For each occupation you play, you get an additional ""Bake Bread"" action.","费用：1w
+B025,面包托铲,Bread Paddle,T3,D,,"When you play this card, you immediately get 1 food. For each occupation you play, you get an additional ""Bake Bread"" action.","费用：1w
 效果：1f，每打出一张职业牌后，获得一次烤面 包行动。
 强度：1w换1f 基本上是-0.5 到0 分收益，但是 烤面包往往是1 分以上的收益，一般吃满的话 收益可以到3-5，主要看自己有没有产麦子的 卡。
 难度：1/5
@@ -1329,7 +1329,7 @@ B036,瓶瓶罐罐,Bottles,T4,,,"For each person you have, you must pay an additi
 强度：从面板上看，几乎无强度，前期2 娃时 打出的话，2c2f 本身就接近4 分，后期3-4 娃 时打出，4c4f 又太贵了。基本是只有2 房流和 3 房流可以利用。2 房流在第四五季打出，大概 是2 分收益，3 房流大概是1 分收益。
 难度：2/5
 用法：2-4 房流最晚R11 抢先打出，等超生。 可以更早打，如果资源足够。",,
-B039,织布机,Loom,T2,3,,"In the field phase of each harvest, if you have at least 1/4/7 sheep, you get 1/2/3 food. During scoring, you get 1 bonus point for every 3 sheep.","条件：2 职业 费用：2w
+B039,织布机,Loom,T2,C,,"In the field phase of each harvest, if you have at least 1/4/7 sheep, you get 1/2/3 food. During scoring, you get 1 bonus point for every 3 sheep.","条件：2 职业 费用：2w
 效果：1 分，每次收获阶段开始时如果你有 1/4/7 羊，得1/2/3f；游戏结束时，每有3 羊得 1 分
 强度：这张卡基本要拿到终局6 羊的两分，要 想有6 羊，你的五六季肯定是吃了4f，一般三 四季可以吃2f，因此总价值是4 分左右，当然 你拿到这么多羊也需要付出一定代价，比如早 打2 马厩等等。
 难度：3/5
@@ -1340,7 +1340,7 @@ Still, this isn't quite as strong as the Milking Stool simply because it costs
 2W and not 1. Since fencing for early sheep already requires a lot of early
 wood, the cost can be surprisingly tight when combined with the 5W you need for
 early family growth.",
-B045,草莓园,Strawberry Patch,T3,3,,"Place 1 food on each of the next 3 round spaces. At the start of these rounds, you get the food.","条件：2 菜田 费用：1w
+B045,草莓园,Strawberry Patch,T3,C,,"Place 1 food on each of the next 3 round spaces. At the start of these rounds, you get the food.","条件：2 菜田 费用：1w
 效果：2 分，并给之后的三个回合铺1f，回合开 始获得
 强度：本身净收益1 分的卡，缺点在于条件苛 刻，导致基本在R12-14 才方便打出，每早一回 合打出可以多拿0.5 分的饭收益，如果在R14 打出只能作为2 分补分卡
 难度：3/5
@@ -1353,7 +1353,7 @@ B047,烹鱼锅,Herring Pot,T3,,,"Each time you use the ""Fishing"" accumulation 
 强度：强化弱动钓鱼，全局触发一次的话就是2 收益左右，触发两次可以到3-4 收益。考虑到 成本1c，收益在1-3之间。
 难度：1/5
 用法：中期打出即可，基本上没有钓鱼配合不 太考虑打出，容易被立即卡钓鱼",,
-B050,黄油桶,Butter Churn,T3,2,,"In the field phase of each harvest, you get 1 food for every 3 sheep and 1 food for every 2 cattle you have.","条件：不超过3 职业 费用：1w
+B050,黄油桶,Butter Churn,T3,D,,"In the field phase of each harvest, you get 1 food for every 3 sheep and 1 food for every 2 cattle you have.","条件：不超过3 职业 费用：1w
 效果：1 分 丰收阶段开始时，你每有3 羊得 1f，每有2 牛得1f
 强度：基本上就是换1 分，外带0-3f，可以算1 分收益
 难度：2/5
@@ -1380,7 +1380,7 @@ B062,干草叉,Pitchfork,T3,,,"Each time you use the ""Grain Seeds"" action spac
 强度：没配合情况下，最多踩两次小麦，也就 是6f 收益，净收益2分左右，但是降低了部分 送麦子的卡的价值如杂货商。有配合情况下， 收益很容易达到三四分以上，很可观。
 难度：2/5
 用法：轮抽时看过一圈没有送麦子的卡，再考 虑抓这个，中后期四五季可以拿6f，再抢犁田 播种播种下去。 搭配：谷物勺，私人教师，农巡，菜贩，街头 叫卖等中后期麦子流卡牌 不搭：流浪汉等前中期麦子流卡牌，合作犁田 工",,
-B066,运粮推车,Sack Cart,T3,3,,"Place 1 grain each on the remaining spaces for rounds 5, 8, 11, and 14. At the start of these rounds, you get the grain.","条件：2 职业 费用：2w
+B066,运粮推车,Sack Cart,T3,C,,"Place 1 grain each on the remaining spaces for rounds 5, 8, 11, and 14. At the start of these rounds, you get the grain.","条件：2 职业 费用：2w
 效果：在第5,8,11,14回合各放1 麦，回合开始 获得
 强度：吃R5 的麦子是亏的，用2w 2.5 分换3 麦5 分，收益可以达到1.5-2.5，但是也是要在 R7 及之前打出才行，如果在R11 前打出，收益 在1-2 之间，取决于R14 能不能播到。
 难度：3/5
@@ -1390,7 +1390,7 @@ deal. This card can have a lot of value for supporting a baking strategy that
 doesn't sow early grain. Having to sow one or two fields of grain is a
 traditional weakness of baking, since it delays FG. The Sack Cart can help
 offset this.",
-B068,豆田,Beanfield,T3,4,,This card is a field that can only grow vegetables.,"条件：2 职业 费用：1f
+B068,豆田,Beanfield,T3,B,,This card is a field that can only grow vegetables.,"条件：2 职业 费用：1f
 效果：1 分，这张卡视为可以种蔬菜的田地
 强度：本身1 分，每次播种可以有1 收益，每 次收割可以有0.5 收益，是十分不错的百搭卡
 难度：1/5
@@ -1424,7 +1424,7 @@ B087,佃农,Cottager,T2,,,"Each time you use the ""Day Laborer"" action space, y
 难度：3/5
 用法：一般的用法就是一动抢先，然后别人就没法卡你建房子，还可以得2饭。
 变体：有时你明明可以去临时工建房或者翻修，你还可以去常规的建房和翻修，卡住竞争对手。",,
-B089,马夫,Groom,T4,1,,"When you play this card, you immediately get 1 wood. Once you live in a stone house, at the start of each round, you can build exactly 1 stable for 1 wood.","效果：打出时立即得1w，如果你住在石屋，每回合开始可以用1w换1马厩
+B089,马夫,Groom,T4,E,,"When you play this card, you immediately get 1 wood. Once you live in a stone house, at the start of each round, you can build exactly 1 stable for 1 wood.","效果：打出时立即得1w，如果你住在石屋，每回合开始可以用1w换1马厩
 强度：如果效果拉满，相当于3w换4马厩，收益主要在于提供了额外的饲养空间，以及用额外资源换到了4分的上限，不缺木头的话是4收益，缺木头的话是2收益左右。
 难度：2/5
 用法：石屋套一般在R11前打出这张卡 拉高上限，因为石屋套本来就缺上限，本来就只有2-4石屋，但是仍然是最弱石屋卡之一。","Groom Stone houses are extremely difficult to reach, and usually you can only get to
@@ -1440,7 +1440,7 @@ B095,瓦匠,Master Bricklayer,T2,,,"Each time you build a major improvement, red
 强度：假如你有4间房屋 打两个高费主发就是4收益了，如果有五间房屋打个井或者石烤，很容易达到5收益
 难度：3/5
 用法：这张卡推荐翻修前打出，然后翻修打主发抢井，再快速翻石屋再打一张主发，不要让别人发现你能抢主发。然后可以在最后一两回合再踩发展卡格子捡个工坊这种补分，打出上限。难点在于准备翻修材料，和有足够的动去抢主发，以及抢主发和拿其他分数的平衡。搭配：蓝图C027，商人C096，家具供应商D096不搭：灯笼屋C035等要求你多打次发的卡",,
-B097,学者,Scholar,T2,2,,"Once you live in a stone house, at the start of each round, you can play an occupation for an occupation cost of 1 food, or a minor improvement (by paying its cost).","效果：如果你住在石屋 每回合开始可以打一次发或花 1f 打一职业
+B097,学者,Scholar,T2,D,,"Once you live in a stone house, at the start of each round, you can play an occupation for an occupation cost of 1 food, or a minor improvement (by paying its cost).","效果：如果你住在石屋 每回合开始可以打一次发或花 1f 打一职业
 强度：石屋流的鼻祖 恐怖的卡牌。如果你 R7 翻修到石屋 他会给你省下 7 动，上限有 10 余分，没别的好卡且一抓还看到了马夫 B089*御犁 A090*共济会 C123*这种小弟很值得抓
 难度：4/5
 用法：最大的难度在于何时翻修 几动翻修。第二三季你基本要翻修到石屋，而这个时候翻修是比较卷的，因为有人要砖扩，尤其是你见过支柱时，一定要一动翻修，可以 2/3/4 房翻石屋，如果不会玩最好三房翻修稳妥。
@@ -1454,7 +1454,7 @@ occasionally desirable), this can save you 2 or 3 actions, provided you have
 some late game improvements/occupations that you'd like to play. In the rare
 instances that you will be able to use him properly, he can seem overwhelmingly
 powerful.",
-B098,有机农,Organic Farmer,T3,2,,"During the scoring, you get 1 bonus point for each pasture containing at least 1 animal while having unused capacity for at least three more animals.","效果：你每个有着至少一个动物，且至少有三个空余空间的圈地，给你带来一分。
+B098,有机农,Organic Farmer,T3,D,,"During the scoring, you get 1 bonus point for each pasture containing at least 1 animal while having unused capacity for at least three more animals.","效果：你每个有着至少一个动物，且至少有三个空余空间的圈地，给你带来一分。
 强度：这里再引入一个游戏意识，上限卡往往比下限卡更有用。下限卡往往指节省行动的卡，典型的是乞丐学徒，降低3分的得分上限，省掉很多行动。或者是给资源尤其是可计分资源的卡，比如给麦菜田动物的。而上限卡是帮你在计分表之外额外得分的卡，包括送分的卡，抢主要发展卡的卡等等。有机农本身如果建立马厩，可以拿到稳定的2-4分，但这2-4分提高的是上限，而不是资源，在终局竞争上可能比5木更有利，因为大家如果玩得好，都不缺围，那这样木头价值就贬值了，但是上限卡给的是实打实的分数，不会贬值。
 难度：3/5
 用法：这张卡有着两个内在矛盾，一是圈地完整度与马厩量的矛盾，因为木头就这么多，你很难造满15圈地和4马厩，就算你能造满，有时因为你没田往往要围八格，难以有效发挥有机农的4分。最优解是围6格，造4马厩，但是木头和田很难这么全拿到。另一个矛盾是动物数量和有机农得分的矛盾，如果你拿了动物的分数会降低有机农的分数，那么这些动物就不用拿了，因为有机农也会给你分，因此对局时可以降低拿动物的优先级，但也要各种动物都抓至少一次拿低保，如果按照上面说的围6造4马厩，或者有些养动物的卡（比如动物保护区），甚至还能养一两种动物。搭配：小麦饲养员，动物保护区等养动物卡，采矿锤，新卡皇家木头等马厩","Organic Farmer Is this hideous card subtle commentary on the futility of organic farming? This
@@ -1464,7 +1464,7 @@ it's usually better to use the action to get more animals to fill your empty
 pastures. Still, there are times when all you'll want (and get!) will be 2 points. In
 crowded games, where animals are scarce, this can be an OK play if you meet the
 requirements.",
-B099,家庭教师,Tutor,T2,1,,"During scoring, you get 1 bonus point for each occupation played after this one.","效果：这张卡之后打出的职业得1分
+B099,家庭教师,Tutor,T2,E,,"During scoring, you get 1 bonus point for each occupation played after this one.","效果：这张卡之后打出的职业得1分
 强度：如果你本来就要打满职业 这张卡可以长反馈6分
 难度：5/5
 用法：打满职业对于节奏的影响是极大的，少了7动，你一定要不让这些影响到扩屋和其他分数，并且有两三张以上鼓励打职业的卡。搭配：鼓励打职业的卡如供应商D152书柜C068教育奖励D042不搭：强化弱动
@@ -1482,7 +1482,7 @@ B104,牧羊人,Sheep Walker,T3,,,"At any time, you can exchange 1 sheep for eith
 难度：4/5
 用法：第一次扩或者第二次扩时打至少2马厩，养羊。或者用牧羊杖、召羊人养羊。等四五季及时再获得一个饲养空间养猪。
 变体：配合新卡挖掘铲，可以第二季末拿到3猪，然后每次踩木头都获得3饭以上，全局不饿。",,
-B107,男仆,Manservant,T3,3,,"Once you live in a stone house, place 3 food on each remaining round space. At the start of these rounds, you get the food.","效果：一旦你住在石屋，往之后的每回合摆3f，这些回合开始获得。
+B107,男仆,Manservant,T3,C,,"Once you live in a stone house, place 3 food on each remaining round space. At the start of these rounds, you get the food.","效果：一旦你住在石屋，往之后的每回合摆3f，这些回合开始获得。
 强度：石屋套的上限都很高，但是如果没有提前翻修卡，也就R8翻到石屋，最多收益6回合，18f，9分+的上限。
 难度：3/5
 用法：7生局是石屋套强势的局，为什么呢？因为石屋走早翻修才赚，也就是3房翻修。那样子如果5生，到R11就一共有7生，自己拿到1生，剩下每人2生太亏了。但如果是7生局，三个人都是1生，只有一个人2生，大家还需要抢生漏资源，石屋套就有了优势。拿了男仆也可以灵活应对，如果前期出生，就扩到4再翻石屋，如果前期不出，3房就得翻修","Manservant Due to the lack of relevant resources in 2-p and 3-p, it is usually very
@@ -1519,7 +1519,7 @@ B123,屋顶压载员,Roof Ballaster,T2,,,"When you play this card, you can immed
 强度：稳定翻石屋，后期补工坊甚至井的卡。四房时3.5分收益，五房时4.5分收益，总是不亏的。
 难度：1/5
 用法：两点吧 第一 尽量不要浪费石头，第二 扩好了就打，方便翻砖屋时打井搭配：烟囱清洁工 保障翻修 而且可以吃石屋泛滥的红利 石匠C087不搭：瓦匠B095等省石头卡 石头会贬值",,
-B126,木匠,Carpenter,T3,2,,"Every new room only costs you 3 of the appropriate building resource and 2 reed (e.g. if you live in a wooden house, 3 wood and 2 reed).","效果：你扩木/砖/石屋时，每间花费 2r+3w/c/s。
+B126,木匠,Carpenter,T3,D,,"Every new room only costs you 3 of the appropriate building resource and 2 reed (e.g. if you live in a wooden house, 3 wood and 2 reed).","效果：你扩木/砖/石屋时，每间花费 2r+3w/c/s。
 强度：大部分情况下是扩木屋时用，全局长反馈6木，6收益。但是注意，扩到5往往不是一个好选择，会亏掉田和围的节奏，因此收益往往不到 5。
 难度：2/5
 用法：如果没有更好的扩屋卡可以抓，旧卡环境下几乎是最弱扩屋，但是扩屋卡都是好的。
@@ -1541,12 +1541,12 @@ corner case - most rooms are wood, a few are clay, and almost none are stone
 (the Well tends to be a much more efficient way to get points). Moreover, in
 cases where you actually want to build clay rooms, clay is probably common enough
 that 2 clay and 2 wood isn't much better than 4 wood.",
-B136,房屋管理员,House Steward,T3,3,,"If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 wood. During scoring, each player with the most rooms gets 3 bonus points.","效果：还剩下9/6/3/1个完整回合时，获得4/3/2/1木。游戏结束时房屋最多的几个玩家获得3分。
+B136,房屋管理员,House Steward,T3,C,,"If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 wood. During scoring, each player with the most rooms gets 3 bonus points.","效果：还剩下9/6/3/1个完整回合时，获得4/3/2/1木。游戏结束时房屋最多的几个玩家获得3分。
 强度：典型的4木+红利卡。但是这张卡这类卡中最不适合新手玩的。我见过一半的局，打这张卡的人都没有拿到房管的3分奖励。跟别人分摊奖励的局更是数不胜数。为什么呢？因为你拿木头是要扩木屋啊，但是扩木屋的人往往没有扩砖屋和石屋的人扩的房子多，你是扩得过学者共济会，还是扩得过砌砖支柱呢？而且很多人轮抽时看见房管的话，会拿建筑大师或者石匠，然后把房管放给下家让别人打。我们只能不评价他的红利效果。当成前期超短反馈4w用。
 难度：5/5
 用法：轮抽时看好了再打搭配：支柱，建筑大师，石匠C087，木扩，斧头，木匠，资源循环利用者。
 变体：R14打房管补分",House Steward The best of the 1/2/3/4 wood cycle. Wood helps you build rooms!,
-B142,菜贩,Greengrocer,T4,4,,"Each time you use the ""Grain Seeds"" action space, you also get 1 vegetable.","效果：踩小麦行动格时得1菜
+B142,菜贩,Greengrocer,T4,B,,"Each time you use the ""Grain Seeds"" action space, you also get 1 vegetable.","效果：踩小麦行动格时得1菜
 强度：一般是踩两次，得2菜，看起来是4分左右收益，但是你往往有更高效的得麦或菜手段，因此适用范围较小。
 难度：1/5
 用法：踩两次，一播种","Greengrocer Very good. Plow two fields, take a grain and a veggie, and sow away. He suffers
@@ -1554,21 +1554,21 @@ a bit from splitting you two ways - a part of you wants to use the early
 veggies for food with a cooking hearth, while the grain he forces you to take
 leans you toward baking. This prevents him from being a 5 star card, but he is
 still great.",
-B145,拾柴工,Brushwood Collector,T2,3,,"Each time you renovate or build a room, you can replace the required 1 or 2 reed with a total of 1 wood.","效果：翻修或扩建每间房屋时，可以用1w减免使用时的1/2r
+B145,拾柴工,Brushwood Collector,T2,C,,"Each time you renovate or build a room, you can replace the required 1 or 2 reed with a total of 1 wood.","效果：翻修或扩建每间房屋时，可以用1w减免使用时的1/2r
 强度：前期芦苇价值比木头高，1w换2r有1.5左右收益，但是你用多了芦苇也就贬值了，全局大概有3-4分收益。
 难度：2/5
 用法：第一季拿两次3w 然后6w扩
 变体：斧头拾柴，3w扩1间","Brushwood Collector This guy is unreal strong in 3-p, when reed is extremely tight. He gets weaker
 with more players as reed gets progressively easy to obtain, but will still
 have a place if you are able to find a way to get some extra wood.",
-B156,仓库管理员,Storehouse Keeper,T2,4,,"Each time you use the ""resource Market"" action space, you also get your choice of 1 clay or 1 grain.","效果：踩rsf时得1c/1麦
+B156,仓库管理员,Storehouse Keeper,T2,B,,"Each time you use the ""resource Market"" action space, you also get your choice of 1 clay or 1 grain.","效果：踩rsf时得1c/1麦
 强度：全局三四麦没问题，长反馈5分水平。
 难度：1/5
 用法：第一回合打出 理想情况第二回合就扣上rsf。如果有面包卡，注意控第二季或者第三季的烤炉。搭配：面包卡","Storehouse Keeper He pays himself off if you were planning on getting 2 grain anyway. Moreover,
 the RSF spot is usually fairly strong to begin with. Giving yourself an excuse
 to spam it is never a bad thing. Should be worth about 3 grain for 1F1A - that
 is an excellent deal.",
-B163,牧师,Pastor,T3,2,,"Once you are the only player to live in a house with only 2 rooms, you immediately get 3 wood, 2 clay, 1 reed, and 1 stone (only once).","效果：一旦你是场上唯一2房玩家，立即获得3w+2c+1r+1s。
+B163,牧师,Pastor,T3,D,,"Once you are the only player to live in a house with only 2 rooms, you immediately get 3 wood, 2 clay, 1 reed, and 1 stone (only once).","效果：一旦你是场上唯一2房玩家，立即获得3w+2c+1r+1s。
 强度：条件较为简单的2房流卡牌，但是几乎只适用于第二季下家抢先的情况，而且没有其他走2房翻修的玩家。这张卡只能雪中送炭，补足自己尾生的劣势，如果成功打出有着超短反馈7+收益。
 难度：5/5
 用法：如果你想正常扩木屋，而且下家第二季抢先，可以用这张卡止损，一下子扩2间木屋甚至三间。但是千万不要在对家甚至上家抢先时用这张卡，早生一两回合收益更大。如果你想翻扩砖屋，这张卡也适合你。最稳妥的玩法还是全程2木屋或者2石屋，这张卡打起来最不看别人脸色。搭配：支柱，木扩，2屋流","Pastor Like the Maid, the Pastor is a card that you have no business playing if you
@@ -1576,7 +1576,7 @@ consider yourself one of the better players in your group. However, if I found
 myself at a tough table, I could see myself working on my food engine in the
 early rounds and then using this guy to catch up. Random note: this is a
 hilarious combo with the Lover.",
-B164,召羊人,Sheep Whisperer,T4,1,,"Add 2, 5, 8, and 10 to the current round and place 1 sheep on each corresponding round space. At the start of these rounds, you get the sheep.","效果：在当前回合+2/5/8/10,各放 1 羊，回合开始获得。
+B164,召羊人,Sheep Whisperer,T4,E,,"Add 2, 5, 8, and 10 to the current round and place 1 sheep on each corresponding round space. At the start of these rounds, you get the sheep.","效果：在当前回合+2/5/8/10,各放 1 羊，回合开始获得。
 强度：一般来说，可以看作 2 分+6 饭，长反馈接近 5分。但是有两个问题，一个是你要么早围，要么早锅，如果你有这些手段，可能踩地图上的羊都会有 4+个，不需要打这张卡影响前期节奏。
 难度：3/5
 用法：配合用羊卡如织布机等可以考虑","Sheep Whisperer The best part about this card is the picture, which shows a dude using a
@@ -1594,7 +1594,7 @@ C016,田园篱笆,Field Fences,T1,,,"You can immediately take a ""Build Fences""
 强度：2f 换一动，并且省2-5 木，相当于 3-6 收益，很稳健的卡，还不怕卡围。
 难度：3/5
 用法：我这里说两种情况，剩下的读者自己思 考，有问题随时回复。这张卡限制了你的犁田 位置，比如说5 房 4 田6 围，总应该从中间一列开始往下犁，这样 犁田的好处是，如果你没有新田这张卡，你最 多省3 木，如果从右侧犁，你需要犁满4 格才 能省3 木，从中间犁可以后期补田。再比如说4 房5 田6 围，此时你有2 种选择，从右侧犁田 或者中间犁田，中间犁田的好处还是3 田就可 以省3 木，但是右侧犁田虽然3 田只能省2 木，但是5 田时可以省4 木，看你规划什么时 候围，各有利弊。 配合：犁田卡",,
-C026,连枷,Flail,T3,3,,"When you play this card, you immediately get 2 food. Each time you use the ""Farmland"" or ""Cultivation"" action space, you can also take a ""Bake Bread"" action.","费用：1w
+C026,连枷,Flail,T3,C,,"When you play this card, you immediately get 2 food. Each time you use the ""Farmland"" or ""Cultivation"" action space, you can also take a ""Bake Bread"" action.","费用：1w
 效果：2f，每次踩犁田或者犁播行动格时，获得 一次烤面包行动
 强度：这张卡与刚刚的面包托铲和打谷板不 同，他自己是有价值的，前期1f 接近1 分的价 值，而1 木只是略大于1 分的价值，这张卡本 身可以创造0.5 分的收益，因此轮抽时比打谷板 和面包托铲更适合抓。
 难度：1/5
@@ -1613,7 +1613,7 @@ C041,农场仓库,Farm Store,T2,,,"After the feeding phase of each harvest, you 
 强度：一般我们会在四五六季买3 菜，然后在 第六季播种2 菜吃1 菜，也就是说终局有4 菜，花3 饭得3 饭。一般第一季打出会很大程 度影响节奏，因此我们用第二季打出来计算。 第二季花4 建材打出来，二三季花2 饭拿2 任 意建材，勉强回本。因此净收益只有变出来的4 菜，也就是不超过4-5 分。
 难度：4/5
 用法：两种打法，第一季打出或者第二季打 出，注意晚于第二季就不要打了，不然就亏本 了。第一季打出尽量不要扣2c打，要扣第2-4 回合的4c去打比较赚，然后注意第一季结束可 以是4w1r，R4 抢先打农仓，R5 正好扩。如果 是第二季打，提前攒好4c/6c以及木头，排队生 打。 搭配：蓝图 不搭：高费前期卡，如木头推车，链式犁 EthanHuang: 补充搭配：农仓这张卡否定了一 些前期卡，因此他适合前期能快速回本的卡， 比如森林审查员，家具商；此外农仓有着给菜 的特点，适合蔬菜刨刀，胡萝卜",,
-C065,谷仓,Granary,T3,2,,"Place 1 grain each on the remaining spaces for rounds 8, 10, and 12. At the start of these rounds, you get the grain.","费用：3w或3c
+C065,谷仓,Granary,T3,D,,"Place 1 grain each on the remaining spaces for rounds 8, 10, and 12. At the start of these rounds, you get the grain.","费用：3w或3c
 效果：1 分，往没开始的第8,10,12 回合放1 麦，回合开始获得
 强度：考虑3c换3 麦，相当于2-2.5 分换5 分，强度可观。本身又有1 分，相当于3.5 分 收益。如果用木头做谷仓，会亏掉1 分。如果 亏了一个麦子，又会亏了1 分，但是砖贬值可 能会便宜0.5 分。
 难度：3/5
@@ -1622,7 +1622,7 @@ Due to its low VP efficiency, grain is something best acquired early or not at
 all. Unless you're playing some funky baking strategy that's light on grain
 fields, you will probably always have something better to do in the early game
 with your 3 wood/clay.",
-C076,木头推车,Wood Cart,T2,2,,"Each time you use a wood accumulation space, you get 2 additional wood.","条件：3 职业费用：3w
+C076,木头推车,Wood Cart,T2,D,,"Each time you use a wood accumulation space, you get 2 additional wood.","条件：3 职业费用：3w
 效果：每次踩木头累计行动格时，额外获得2w
 强度：一般来讲，打出这张卡时，第一间房子与本卡无关，因此你还需要准备两个房子10木+围满15 木，每次拿3 木的话要拿4-5 次，如果要造马厩，会多1-2次，如果打木工坊，又会多1-2次，那么，每次踩木头都省2木，剩下两房子和围的每木价值1分，一共得到8-10价值。打出时的3w和3 职业时机比较早，付出了5+分，因此总价值是3-5 分。
 难度：3/5
@@ -1631,7 +1631,7 @@ twice. With a three occ requirement, you often won't have time to take wood
 much more than that. Still, if you can get it out fairly early, it can be a
 decent long-term investment. The fact that it prevents you from being blocked
 from wood (even a lowly 1W can become 3W) is a nice bonus.",
-C079,石头推车,Stone Cart,T2,3,,"Place 1 stone on each remaining even-numbered round space. At the start of these rounds, you get the stone.","条件：2 职业 费用：2w
+C079,石头推车,Stone Cart,T2,C,,"Place 1 stone on each remaining even-numbered round space. At the start of these rounds, you get the stone.","条件：2 职业 费用：2w
 效果：在之后的偶数回合放s，回合开始获得
 强度：这张卡2 职业基本要R5 左右打出，R5 想要扩生正好打出比较难，因此2w算3 分的成 本，换来了6、8、10、12、14 的5s，前四个 s的价值接近1 分，第五个s几乎无价值，因此 在1 分收益左右，而且条件苛刻，现在看来不 应该在T2 水准，考虑下调到T3，实战中出这 张卡也较少。
 难度：3/5
@@ -1641,7 +1641,7 @@ you can play it early, it will deliver a hefty amount of stone - sometimes two
 actions worth. Stone is probably the best resource to have
 delivered over time. Since it's primarily a late-game resource, you don't mind
 waiting for it.",
-C090,农场巡视员,Field Watchman,T1,5,,"Each time you use the ""Grain Seeds"" action space, you can also plow 1 field.","效果：踩小麦种子行动格时可以犁一块田
+C090,农场巡视员,Field Watchman,T1,A,,"Each time you use the ""Grain Seeds"" action space, you can also plow 1 field.","效果：踩小麦种子行动格时可以犁一块田
 强度：就算不考虑配合，也不考虑踩麦子比踩田容易，只考虑额外收益。拿5田是近乎必然的，相当于白得5麦，播种时分配3田种麦子，相当于白得11麦。麦子拿满分5分收益+3麦用于吃，可见至少有7分的水平。
 难度：3/5
 用法：毕竟是体系卡，难度不会低的。两种打法，第一季打或者第四季打。有麦子换分手段比如茅草卧室家酿啤酒烘焙之类的可以第一季打，播3麦田。第四季打就每回合最后一动踩麦子。搭配：茅草屋顶、卧室、家庭酿酒师、新卡一堆啤酒套装、烘焙师、栽培师不搭：任何犁田卡
@@ -1649,7 +1649,7 @@ C090,农场巡视员,Field Watchman,T1,5,,"Each time you use the ""Grain Seeds""
 brother likes to joke that Field Watchman is a one-card combo, since plowing
 and taking a grain are so obviously synergistic. This guy feels dirty every time I bring him out (the Field Watchman, not my
 brother).",
-C096,贸易人,Merchant,T4,1,,"Immediately after each time you take a ""Major or Minor Improvement"" or ""Minor Improvement"" action, you can pay 1 food to take the action a second time.","效果：每次打出次发或主发行动时，你可以支付1f再使用一次。
+C096,贸易人,Merchant,T4,E,,"Immediately after each time you take a ""Major or Minor Improvement"" or ""Minor Improvement"" action, you can pay 1 food to take the action a second time.","效果：每次打出次发或主发行动时，你可以支付1f再使用一次。
 强度：次发溢出或者需要抢主发的局可以使用，如瓦匠、吹牛这种主发卡，休闲木这种不抢先的卡，鸟巢针线这种不踩生次格子的卡。考虑到标准的次发有2-3饭的水平，每次多打次发的边际净得分在0.5，多打主发的净得分可以到1.5，但你要有足够的食物和建筑材料，考验规划水平，全局无配合可以到1.5-3得分。
 难度：4/5
 用法：算好这张牌可不可以让你前期速出次发拿到2动的收益，或者是可以省下你踩2-3次抢先的格子，那就是赚的。总体上没有新卡的任务型工匠、装备者等打次发的卡牌厉害。搭配：鼓励次发的主发的卡，如运木、杂物房不搭：其他帮忙次发的卡
@@ -1664,7 +1664,7 @@ C098,木块雕工,Cube Cutter,T4,,,"When you play this card, you immediately get
 强度：这张卡净得分不超过2，在1-2之间，基本上不会使用到，只有职业流木头溢出的局可以拿1-2分。
 难度：2/5
 用法：前四季不要用这张卡，用效果就不如不用，食物木头都比较少，后期如果五六季送的木头用不上，也不缺食物，可以再打这张卡。",,
-C108,懒汉,Layabout,T2,4,,"When you play this card, you must skip the next harvest. (You also do not have to feed your family that harvest.)","效果：跳过下一个收获阶段
+C108,懒汉,Layabout,T2,B,,"When you play this card, you must skip the next harvest. (You also do not have to feed your family that harvest.)","效果：跳过下一个收获阶段
 强度：这里不得不引入一个概念，从三齿鱼叉等卡牌可以分析出，第六季初的食物价值0.5分，每往前一季，食物价值提高0.05分。具体分析过程以后可能在攻略贴详细讨论。也就是说，如果我们用懒汉跳过第三季末的收获，将会有3.6左右的收益。如果用来跳过第五季末的收获，会有4以上的收益。但是第五季我们往往有动物和工坊，也一并跳过了。所以强度稳定在3.5-4左右。
 难度：2/5
 用法：生完一波孩子后用懒汉缓冲 解决食物危机，如果预计下一季要养动物，请这一季使用懒汉，省的浪费动物。搭配：扩屋套不搭：工坊套 早动物套 乞丐 新版卡牌收获套 比如树农 篮子搬运工","Layabout Clearly this is a card that you will usually want to play in round 13. In that
@@ -1688,7 +1688,7 @@ D015,砖造支柱,Clay Supports,T1,,,"Each time you build a clay room, you can p
 强度：这张卡有两种打法，扩1 翻扩，或者是 直接翻扩，前者不影响生首娃，所以用前者计 算强度更为精确。在扩1 翻扩下，后期往往是 扩2 屋，那么你从10w4r变成了2w4c2r。我们 考虑这些资源中期的价值，前者大概15 分，后 者大概10 分，考虑到打出花费2w，总共省下 来3 分的收益。
 难度：4/5
 用法：没有配合的情况下推荐前期正常扩屋， 生一个再翻扩。有配合如砌砖工、尊贵之人、 翻修公司、佃农等卡，推荐快速翻修，然后攒 够资源、食物扩屋连生，用资源优势补贴晚生 的劣势。 搭配：砖屋流核心卡牌，搭配砖屋流小弟",,
-D049,书架,Bookshelf,T2,2,,"Immediately before each time you play an occupation (even before paying the occupation cost), you get 3 food.","条件：3 职业 费用：1w
+D049,书架,Bookshelf,T2,D,,"Immediately before each time you play an occupation (even before paying the occupation cost), you get 3 food.","条件：3 职业 费用：1w
 效果：1 分，每打出一张职业，得3f
 强度：在8 抽7 等较弱环境下，这张卡接近强 T2，在10 抽7 这种高强度环境下，这张卡接近 T1，因为他很需要多打职业。本身1w换1 分 不亏，每打一张职业，净赚1.5 收益，拉满6 收益。
 难度：2/5
@@ -1706,7 +1706,7 @@ D118,冥顽之人,Bonehead,T2,,,"When you play this card, immediately place 6 wo
 难度：2/5
 用法：一般来讲，应当在第一季打这张卡，因为第二季是抢先高峰，如果你有充足的打职业需要，那你可以更晚打这张卡。但是千万不要打完这张卡就疯狂抢先，落入陷阱。
 变体：冥顽之人写字台D028，可以三到五季打出冥顽之人",,
-D122,售土商,Clay Seller,T4,1,,"When you play this card, you immediately get 2 clay. At any time, but only once per round, you can buy 2 clay for 2 food.","效果：打出时立即获得2c，之后每回合限一次，用2f买2c。
+D122,售土商,Clay Seller,T4,E,,"When you play this card, you immediately get 2 clay. At any time, but only once per round, you can buy 2 clay for 2 food.","效果：打出时立即获得2c，之后每回合限一次，用2f买2c。
 强度：打出时的2c价值2分，前两次买2c的价值较高，每c一分，之后的c不值钱。因此正常情况下，4分卡。食物溢出的缺砖局更强。
 难度：3/5
 用法：有强力耗砖卡和强力食物引擎再打，如泥潭。早期可以抢个炉子，烤炉之类的。搭配：铸钟售土，前期可以每回合1f，后期食物溢出甚至是每回合用2f换1分。
@@ -1727,7 +1727,7 @@ D158,锱铢必较者,Bean Counter,T4,,,"Each time you use an action space on rou
 强度：我们可以分析下，第一季是栅栏 羊 主发 播种，基本上是每个踩一次，第二季是生娃 翻修 石头，加起来大概有4次，第三季的猪 菜和第四次的牛石，加起来有3次就不错了，也就是说，总共顶天了有11饭。而且是超长期的反馈，每次还会有延迟。
 难度：3/5
 用法：轮抽时基本不考虑这张卡，除非实在没什么前期卡了，而且又小饿时可以考虑，当作12饭卡用，其实比砌墙工、室内设计师更强，因为这个12饭给的更不亏。游戏过程中，基本上R5前打出来就不会漏饭。配合：新卡的踩主发的流派，宠物爱好者、栅栏护理员这些反复踩1-8回合的卡，职业套供给饭不搭：自动翻修、自动生娃、自动动物、白给石头的套路，减少了踩1-8回合，以及前期卡",,
-D168,牲畜饲养员,Stockman,T3,2,,"When you build your 2nd/3rd/4th stable, you immediately get 1 cattle/wild boar/sheep, even if built on the same turn (but not retroactively).","效果：一旦你建造第2/3/4马厩，立即获得1牛/猪/羊
+D168,牲畜饲养员,Stockman,T3,D,,"When you build your 2nd/3rd/4th stable, you immediately get 1 cattle/wild boar/sheep, even if built on the same turn (but not retroactively).","效果：一旦你建造第2/3/4马厩，立即获得1牛/猪/羊
 强度：短反馈6分卡，但是条件苛刻，而且有马厩的话动物会贬值，所以大概是短反馈3-6分。
 难度：3/5
 用法：打马厩前打出，一般是扩生完一次，拿到6w，准备扩第二次前打出。然后白嫖三只动物，之后晚围，围了后再拿一次2羊、2猪或2牛就行，养其中一种动物，这样子把牲畜饲养员价值发挥到4.5分左右。但是单这张卡不值得出马厩，要再来至少一张。搭配：马厩卡，尤其是泥耙，有机农
@@ -1737,7 +1737,7 @@ POW! 9 points. The other use for him is to use him to get an early breeding pair
 All you need are 2 stables and something like the Cattle Whisperer; the fences
 can come later. Most of the time, however, the lack of a way to breed the singleton animals
 makes him too awkward to bother with.",
-C002,小马厩,Stable,T3,3,,"Immediately build 1 stable. (The stable costs you nothing, but you must pay the cost shown on this card.)","费用：1w
+C002,小马厩,Stable,T3,C,,"Immediately build 1 stable. (The stable costs you nothing, but you must pay the cost shown on this card.)","费用：1w
 效果：传递卡，建造一个马厩
 强度：如果你缺乏饲养空间，这张卡造的马厩 就是你本身必须要造的，相当于1w换2w，净 收益1 分左右。如果你不缺乏饲养空间，这张 卡只是增加了木头的平滑性，本身几乎不具备 收益。因此，这张卡强化了畜牧大户1 分。
 难度：1/5
@@ -1747,12 +1747,12 @@ you build rooms. As always, the immediate utility of this pass-card is
 diminished by the fact that your left-hand opponent will probably be playing it
 himself. Still, you take what you can get, and often you
 won't have anything better to play.",
-C044,,Chicken Coop,,5,,"Place 1 food on each of the next 8 round spaces. At the start of these rounds, you get the food.",,"Chicken Coop Chicken Coop With no prerequisite and a flexible cost, it's
+C044,,Chicken Coop,,A,,"Place 1 food on each of the next 8 round spaces. At the start of these rounds, you get the food.",,"Chicken Coop Chicken Coop With no prerequisite and a flexible cost, it's
 usually pretty easy to get this out for the full 8 food. That's an amazing deal
 when you factor in the 1 VP. The only time this isn't an absolute must-play is
 in 3-p, where sometimes you won't be able to spare the reed. For every other
 mode, this is one of the best improvements in the game.",
-C070,莴苣地,Lettuce Patch,T3,3,,This card is a field that can only grow vegetables. You can immediately turn each vegetable you harvested from this card into 4 food.,"条件：3 职业
+C070,莴苣地,Lettuce Patch,T3,C,,This card is a field that can only grow vegetables. You can immediately turn each vegetable you harvested from this card into 4 food.,"条件：3 职业
 效果：这张卡视为可以种蔬菜的田地，在收割 时，可以把这张卡收获的菜立即转化为4f
 强度：本身1 分，每次播种可以有1 收益，每 次收割可以有0.5 收益，如果播种一次，很容易 吃到3 的总收益，是十分不错的百搭卡，但是 需要有额外的菜才会发挥作用
 难度：1/5
@@ -1761,14 +1761,14 @@ doesn't quite make up for the increased Occupation requirement. It's still a
 must play if you've been playing an occupation heavy game, but probably isn't
 worth the effort if you only have 1 or 2 good occupations in your hand (which
 is often the case).",
-C087,石匠,Mason,T2,3,,"Place a stone room on this card. Once you have a stone house with at least 4 rooms, at any time, you can add that room without paying any building resources.","效果：如果你有4石屋 可以随时扩1屋
+C087,石匠,Mason,T2,C,,"Place a stone room on this card. Once you have a stone house with at least 4 rooms, at any time, you can add that room without paying any building resources.","效果：如果你有4石屋 可以随时扩1屋
 强度：卡面价值就有3分，而且提供一居住空间，可以不用抢超生，只用扣生次。不抢超生可能就能把犁田变成犁播，再加上次发的收益，总收益得有5分左右。
 难度：3/5
 用法：四屋并且第五季前尽早翻修是有难度的，但是石匠值得你围绕他这么打。
 变体：石匠有着抢夺房管的能力，如果你在轮抽时看到房管，应该更积极地拿石匠，此时石匠至少有T1的抓位","Mason You'll usually play this guy at the end of the game for an extra 3 points.
 That's a good deal by itself, even if you don't use the extra room for another
 Family Growth. Getting to a 4 room stone house can be hard sometimes, however.",
-C107,烘焙师,Baker,T3,4,,"When you play this card and at the start of each feeding phase, you can take a ""Bake Bread"" action.","效果：打出此卡时送一次烤面包行动，每次收获阶段喂养前，送一次烤面包行动。
+C107,烘焙师,Baker,T3,B,,"When you play this card and at the start of each feeding phase, you can take a ""Bake Bread"" action.","效果：打出此卡时送一次烤面包行动，每次收获阶段喂养前，送一次烤面包行动。
 强度：只要你有足量麦子+烤炉。每次烤面包相当于把价值 2f 的小麦强化为了 5f，收益是 2.5。就算第五季打出，也有 7.5 收益。如果前期打出收益爆炸。旧卡中面包流最强势的下限食物卡。
 难度：2/5
 用法：一般在播种好麦田后的下一季打烤炉烤一次，然后再打烘焙再烤两次。
@@ -1788,7 +1788,7 @@ C116,家具匠,Furniture Maker,T2,,,"When you play this card, you immediately ge
 难度：5/5
 用法：跟供应商一样，要在关键职业卡提前两回合打出家具匠，并且想办法尽早构建食物引擎。多拿rsf少拿w。搭配：造纸B109 供应商D152写字台D028等不搭：木偶C152乞丐
 变体：学者B097家具 每次也能获得1w",,
-C122,砌砖工,Bricklayer,T2,3,,Each improvement and each renovation cost you 1 clay less. Each room costs you 2 clay less.,"效果：打发展卡或者翻修时-1砖，造每间房子-2砖
+C122,砌砖工,Bricklayer,T2,C,,Each improvement and each renovation cost you 1 clay less. Each room costs you 2 clay less.,"效果：打发展卡或者翻修时-1砖，造每间房子-2砖
 强度：单卡几乎没有强度 可以省2-4砖，不到2分的收益。强在可以在别的卡减砖屋费用上叠加，抓到墙土修补工D121，木匠B126，支柱，架梁工A123等就起飞，是砖扩核心卡
 难度：5/5
 用法：砖扩很考验技术。两种打法，扩1翻或者翻完扩，要审时度势，看第二季先开翻修还是生人。搭配：砖扩卡，无子嗣蓬车鸟巢马车等保生卡，屋顶半木造等依赖于房子多的卡不搭：木扩卡
@@ -1800,7 +1800,7 @@ in 2-p, this is reasonably valuable. In 3-p and 4-p, the Bricklayer is very bad
 you could want. In 5-p, the value rises again - there is so much clay in the
 game that clay rooms become a real possibility. In such a situation, the occ
 could be worth as much as 8-9 clay over time. That's a good deal.",
-C142,街头叫卖佬,Market Crier,T4,1,,"Each time you use the ""Grain Seeds"" action space, you can get an additional 1 grain and 1 vegetable. If you do, each other player gets 1 grain from the general supply.","效果：每次你踩小麦种子格时，可以多拿1麦1菜，然后其他玩家每人获得1麦
+C142,街头叫卖佬,Market Crier,T4,E,,"Each time you use the ""Grain Seeds"" action space, you can get an additional 1 grain and 1 vegetable. If you do, each other player gets 1 grain from the general supply.","效果：每次你踩小麦种子格时，可以多拿1麦1菜，然后其他玩家每人获得1麦
 强度：每次用效果可以看作多1菜，收益在1-1.5之间，但这张卡是用来打需要早麦早菜的特殊配合的，一般情况下记住打了就亏就行，不如手拿麦子手拿菜。
 难度：3/5
 用法：一般情况下打了就亏，胡萝卜早田套可以用，或者魅惑、啤酒套等特殊的需要早农的配合。配合：先农后牧","Market Crier A powerful effect, but you pretty much save each of your opponents one action
@@ -1815,7 +1815,7 @@ C153,样板工,Pattern Maker,T4,,,"Each time another player renovates, you can e
 强度：特殊情况下有用的后期卡，如果你缺乏麦子手段，又是先牧后农，每次都是2分换3.5分，木头不短缺的话，别人翻修3-6次就是3.5分，因为前两个麦子是2分，第三个麦子是1分，后三个麦子就只有0.5分了。如果你的木头溢出，大概2w只有1分的成本（按马厩换算），那么别人翻修3-6次就是6.5-9.5分。因此木头溢出局是有价值的，不像另一张T4卡骰子雕刻工。
 难度：3/5
 用法：先牧后农，木头要足够充足再用，先保障好围，然后四五季抢田，第五六季把麦子播种下去。配合：先牧后农卡或者农牧俱全卡，如大农庄",,
-D020,转犁,Turnwrest Plow,T1,4,,"Place 2 field tiles on this card. Each time you use the ""Farmland"" or ""Cultivation"" action space, you can also plow up to 2 fields from this card.","条件：2 职业 费用：3w
+D020,转犁,Turnwrest Plow,T1,B,,"Place 2 field tiles on this card. Each time you use the ""Farmland"" or ""Cultivation"" action space, you can also plow up to 2 fields from this card.","条件：2 职业 费用：3w
 效果：这张卡放2 田，每次使用犁田/犁播时， 可以用至多两张这张卡上的田地犁2 田
 强度：白得2 田，纸面收益1 分+农业价值，比 摇摆步灵活在可以晚出晚犁，适配犁播，但是 缺木局不太好用，属于弱T1 卡。
 难度：2/5
@@ -1840,7 +1840,7 @@ D079,胡萝卜博物馆,Carrot Museum,T1,,,"At the end of rounds 8, 10, and 12, 
 难度：3/5
 用法：有早菜配合打配合，没配合8-10 回合末 动手拿菜。 搭配：早菜卡
 变体：冬管胡萝卜前面冬管职业应该讲了，可 以翻翻",,
-D084,颗粒饲料,Feed Pellets,T2,2,,"When you play this card, you immediately get 1 sheep. In the feeding phase of each harvest, you can exchange exactly 1 vegetable for 1 animal of a type you already have.","效果：得1 羊，之后的每个丰收阶段收割后， 你可以用1 菜换1 种已有动物
+D084,颗粒饲料,Feed Pellets,T2,D,,"When you play this card, you immediately get 1 sheep. In the feeding phase of each harvest, you can exchange exactly 1 vegetable for 1 animal of a type you already have.","效果：得1 羊，之后的每个丰收阶段收割后， 你可以用1 菜换1 种已有动物
 强度：2 分+卡，百搭适用性强，后期可以用多 余的菜补动物分，适合动物记分流如庄园领 主、饲料室、织布机挤奶凳牧牛贵族。
 难度：1/5
 用法：任何时候有空打就行，可以晚点打，前 期也可以当2f 用 搭配：动物记分卡，早农早牧卡，多菜卡 不搭：挤奶处，不让房子养动物","Feed Pellets Feed Pellets I hate ragging on completely free improvements,
@@ -1914,13 +1914,13 @@ C112,打谷者,Thresher,T4,,,"Immediately before each time you use the ""Grain U
 强度：低配农巡，仍然是前三麦是2，2，1收益，之后的麦子都是0.5收益。那就是说最多有1.5，1.5，0.5收益，3.5收益。但是考虑到出烤炉的消耗的边际麦子价值2.5，因此总收益大概是3.5-7.5。
 难度：3/5
 用法：其实是相对低效的麦子手段，没有别的麦子手段可以用，食物不缺的话是早麦田强卡。搭配：啤酒套，茅草套",,
-C135,警官,Constable,T3,3,,"If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 wood. During scoring, each player with no negative points gets 3 bonus points.","效果：获得4w 游戏结束时“没有任何扣分项”的玩家，就可以获得3分
+C135,警官,Constable,T3,C,,"If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 wood. During scoring, each player with no negative points gets 3 bonus points.","效果：获得4w 游戏结束时“没有任何扣分项”的玩家，就可以获得3分
 强度：比房管稳健有力，可以制裁同局的乞丐 灯笼 啤酒池等强势卡牌。自己如果抓了这张牌，其他抓牌 基本都会保障自己不扣分，所以自己基本是稳吃这三 分的。超短反馈4w+潜在的3分差。 难度：3/5 用法：如果没有犁田手段 可以考虑早点拿木头围8/9 格牧场，早拿动物和种子，以及2田，早点稳定好各 项低保，别在 R14 被竞争对手卡住。 
 变体：R14打警官逮捕竞争对手。","Constable If someone besides you gets the 5 VPs for having no negative points, you
 probably would have lost to them anyway. This makes the VP ability pretty much
 a neutral EV move, although it can be risky if your opponent has either the
 Yeoman Farmer or the Hide Farmer.",
-C147,牧牛人,Cowherd,T4,3,,"Each time you use the ""Cattle Market"" accumulation space (introduced in round 10 or 11), you get 1 additional cattle.","效果：每次拿牛累计行动时多拿1牛
+C147,牧牛人,Cowherd,T4,C,,"Each time you use the ""Cattle Market"" accumulation space (introduced in round 10 or 11), you get 1 additional cattle.","效果：每次拿牛累计行动时多拿1牛
 强度：牛在R10/11出的话，全局只有4-5次拿牛的机会，而一头牛的价值是0.5-2分，所以就算每回合踩牛，也只有2-10分的收益。但是考虑到，牛达到2分是壁炉烤了吃的成果，而烤壁炉的人基本不会每回合拿1牛，所以不现实。因此，这张卡的正确用法是第四季拿一次牛，用于生育，可以看作变出来2牛。然后第5-6季再拿1-2次。总共变出来3-4牛，可以到1.5分上限-8分下限。上限提升很小，而且是短反馈，除非很饿，基本不考虑。
 难度：2/5
 用法：R10或者R11打出，拿次牛养起来搭配：挤奶凳、牧牛贵族等牛积分卡","Cowherd If you play this, it should be with the intention of taking the '1 cow' space
@@ -1942,7 +1942,7 @@ D075,木头地,Wood Field,T3,,,"You can plant wood on this card as though it wer
 强度：大多数情况只能作为0.5 分补分卡
 难度：1/5
 用法：补分，除非你是第四季或更早播种的先 农后牧流，第五季播种的话要考虑影不影响第 五季围栅栏，以及能不能终局收割木头拿到收 益。",,
-D078,芦苇池塘,Reed Pond,T2,4,,"Place 1 reed on each of the next 3 round spaces. At the start of these rounds, you get the reed.","条件：3 职业
+D078,芦苇池塘,Reed Pond,T2,B,,"Place 1 reed on each of the next 3 round spaces. At the start of these rounds, you get the reed.","条件：3 职业
 效果：接下来的3 回合各摆1r，回合开始获得
 强度：白送3r，时机上看大概是3 收益，便于 扩生
 难度：2/5
@@ -1952,7 +1952,7 @@ and then this, avoiding the fight altogether. In other modes, playing this late
 will sometimes save you a full action, as you won't have to make a reed grab
 for renovation. While three occupations is a lot, this has a strong enough
 effect to usually be worth prioritizing.",
-D087,建筑大师,Master Builder,T3,2,,"Once your house has at least 5 rooms, at any time, but only once this game, you can add another room at no cost.","效果：如果你住在不少于5间屋子，你可以随时免费扩1间。
+D087,建筑大师,Master Builder,T3,D,,"Once your house has at least 5 rooms, at any time, but only once this game, you can add another room at no cost.","效果：如果你住在不少于5间屋子，你可以随时免费扩1间。
 强度：低配石匠C087，超短反馈3收益，还压制了农牧发展，也就有房管B136时比较赚。
 难度：1/5
 用法：R13/14打出即可。","Master Builder If you can somehow get to 5 stone rooms, he'll be worth it as a 3 point play.
@@ -1968,7 +1968,7 @@ D119,木材贸易商,Wood Barterer,T2,,,"Each time before you use an action spac
 难度：1/5
 用法：不要被这张卡的表面蒙蔽，第一季的r比w更值得你去拿，因为你一旦w换了r，就损失一次2w，所以不用着急拿木头，多拿rsf或者2r吧，一次3w就够你扩屋的了，能扩早扩，尽量R3/4扩。搭配：栅栏套 马厩套不搭：佃农B087
 变体：木贸+栅栏修理员A088，每踩一次修栅栏可以省5木，较为强势的早围组合。",,
-D120,运土工,Clay Deliveryman,T2,3,,"Place 1 clay on each remaining space for rounds 6 to 14. At the start of these rounds, you get the clay.","效果：摆R6-14各一个c，在这些回合开始获得。
+D120,运土工,Clay Deliveryman,T2,C,,"Place 1 clay on each remaining space for rounds 6 to 14. At the start of these rounds, you get the clay.","效果：摆R6-14各一个c，在这些回合开始获得。
 强度：9c就有长反馈4.5分了，况且早期的大量砖的价值不止0.5分，因为可以扣壁炉烤炉 早翻解决吃饭。大约有长反馈5分的价值，但是最后几个c容易浪费掉。
 难度：2/5
 用法：R4/5二动打出，注意砖工坊，基本上要在三四季翻修打主发建立优势搭配：铸钟工 D107
@@ -1977,7 +1977,7 @@ players the card becomes more of a conditional play, since clay should already
 be plentiful after round 6. If you play him, it should be with the intention of
 using massive amounts of clay (clay rooms, pottery, etc.). This should
 hopefully prevent clay from being too easy to get for your opponents.",
-D152,供应商,Patron,T2,3,,"Immediately before each time you play an occupation after this one (even before paying the occupation cost), you get 2 food.","白嫖打职业。或者因为花1f买了职业而踩临时工，或
+D152,供应商,Patron,T2,C,,"Immediately before each time you play an occupation after this one (even before paying the occupation cost), you get 2 food.","白嫖打职业。或者因为花1f买了职业而踩临时工，或
 效果：打出其他职业甚至支付费用前，获得2f
 强度：这让打满职业更顺畅 职业套核心卡 甚至比家教重要 因为你打职业本身食物就会变得稀缺，这张卡的食物手段一定要多。如果你明明把陶瓷、鱼叉之类
 获得稀缺资源，收益是大于6的。但是有时7抽7 的放出去，或者烈酒放出去没回来时就要警惕，谨慎
@@ -1989,7 +1989,7 @@ as he only begins to become worth it if you're playing 3 occupations after him.
 If you are, then go ahead and run him out there. Otherwise, he stays behind.
 Along with Perpetual Student, this is probably the best way to rush the Animal
 Yard/Quarry.",
-C011,野生保护区,Wildlife Reserve,T3,4,,"This card can hold up to 1 sheep, 1 wild boar, and 1 cattle.","条件：2 职业 费用：2w
+C011,野生保护区,Wildlife Reserve,T3,B,,"This card can hold up to 1 sheep, 1 wild boar, and 1 cattle.","条件：2 职业 费用：2w
 效果：1 分，这张卡提供了1 羊、1 猪和1 牛的 饲养空间
 强度：这张卡的模型较为复杂，这里需要说明 繁殖空间的概念，繁殖空间是指可以让一种动 物繁殖并不丢弃的3 个饲养空间。也就是说，2 马厩和房屋构成了一个繁殖空间。1 圈地和房屋 构成了一个繁殖空间。1 马厩、2 圈地、房屋构 成了两个繁殖空间。围6 格的1122 圈地，构成 了3 个繁殖空间。此卡本身不提供繁殖空间， 但是可以强化2 只的饲养空间为繁殖空间。举 个例子，这张卡+1 马厩+房屋，是一个繁殖空 间的。这张卡+2 马厩+1 圈地+房屋是两个繁殖 空间。如果不构成繁殖空间，这张卡的饲养空 间价值大概1 分，加上本身1 分，2w换2 分近 乎不亏不赚。但是如果我们利用了这张卡的繁 殖空间，就可以净赚一分。
 难度：4/5
@@ -2020,7 +2020,7 @@ C121,粘土揉捏工,Clay Kneader,T4,,,"When you play this card, you immediately
 强度：基本上是1w4c到1w6c的短反馈收益，缺c局且没有种子手段可以用，但是再次强调下，手拿种子本身就是低效的，亏本的。
 难度：2/5
 用法：这张卡适合快速打出砖发展卡，如第一回合的餐具室、垃圾房、火炉。如果你没有种子手段，可以抓，中后期踩种子攒砖头，翻修打主发。搭配：餐具室、垃圾房、胡萝卜、新卡中的砖发展卡",,
-C137,煤炭工,Charcoal Burner,T1,4,,"Each time any player (including you) plays or builds a baking improvement, you get 1 wood and 1 food.","效果：每当有人打火炉或壁炉或烤炉时，得1木1饭。
+C137,煤炭工,Charcoal Burner,T1,B,,"Each time any player (including you) plays or builds a baking improvement, you get 1 wood and 1 food.","效果：每当有人打火炉或壁炉或烤炉时，得1木1饭。
 强度：相对前面的栽培较弱，基本上是长反馈5木5饭
 难度：2/5
 用法：唯一的难度在于找时机，观察别人是否会打炉子。三四回合的一动打出，或者第二季打出，蹭到首炉或者次炉。自己可以拿火炉 翻修时换壁炉刷触发搭配：家具供应商D096 面包流卡牌 瓦匠B095不搭：其他前期卡","Charcoal Burner: In 4-p, this is awesome: pretty much everyone will buy some sort of cookery,
@@ -2042,7 +2042,7 @@ D007,三齿鱼叉,Trident,T2,,,"If you play this card in round 3/6/9/12, you imm
 强度：我们以12 回合为标准的话，就是1 分换 3 分，净收益在2 分左右，但是强在给饭量巨 大，前期也可以打出顶饿
 难度：2/5
 用法：两种用法，前期顶饿，或者是12 回合打 出。除非是真的饿的受不了，否则不建议在 3/6/9 回合打出，因为你的下家在12 回合打出 的话，会给你较为致命的打击。如果你传给了 下家，记得12 回合早点抢先。 搭配：斧头等速生卡，百搭",,
-D028,写字台,Writing Desk,T1,2,,"Each time you use a ""Lessons"" action space, you can play 1 additional occupation for an occupation cost of 2 food.","条件：2 职业 费用：1w
+D028,写字台,Writing Desk,T1,D,,"Each time you use a ""Lessons"" action space, you can play 1 additional occupation for an occupation cost of 2 food.","条件：2 职业 费用：1w
 效果：1 分，每次踩职业培训行动格时，可以花 2f 额外打出1 张职业
 强度：职业套唯一省动卡，1w换1 分本身不 亏，花费2f 省2 动的话是1 分换4 分，相当于 一张3 分卡，在次发卡中算得上T1 水准。如果 只触发一次，4 职业也有1.5 收益，因此是万金 油。
 难度：2/5
@@ -2066,7 +2066,7 @@ D066,陶瓷器皿,Potter Ceramics,T1,,,"Each time before you take a ""Bake Bread
 难度：4/5
 用法：第一季优先走2rsf建房，拿一次4c，时机成熟就把烤炉扣了，如果是早羊局可以先扣火炉，如果有烤面包卡配合要早扣烤炉尽量r4-7扣出，观察别人有没有3c1s1麦，如果有就尽早抢。陶瓷器这张卡可以用于r1抢先，或者在第二季抢生、抢烤炉前一回合打出，各有利弊。早打可能被卡rsf或4c。配合：烘培 炉火 蒸汽机 连枷 打谷等烤面包卡，售土 运土这种给c卡不搭：宠物爱好者这种需求火炉又给麦子的卡，烧砖工这种用砖卡",,
 D082,,Hunting Trophy,,,,"Improvements built on ""House Redevelopment"" cost you 1 building resource of your choice less. Fences built on ""Farm Redevelopment"" cost you a total of 3 wood less.",,,
-D091,犁田工,Plowman,T2,3,,"Add 4, 7, and 10 to the current round and place a field tile on each corresponding round space. At the start of these rounds, you can plow the field for 1 food.","效果：当前回合+4/7/10，放1田 那回合开始用1f买1田
+D091,犁田工,Plowman,T2,C,,"Add 4, 7, and 10 to the current round and place a field tile on each corresponding round space. At the start of these rounds, you can plow the field for 1 food.","效果：当前回合+4/7/10，放1田 那回合开始用1f买1田
 强度：3f买3田，净收益4.5分 而且不止，田是生产资料，赋子了种子更高的价值，唯一的缺点是长反 馈，必须第一季出 难度：2/5 用法：难度2是因为要提前找好食物，然后四五季尽 量不犁田 准备好种子犁播 搭配：种子卡 不搭：犁田卡 前期卡 变体：如果你第一季有特别强的组合，可以把犁田工 放到第二季出，犁田工犁两田也不亏。","Plowman This is by far the best 'Plow' occ. He essentially gives 3 actions for the
 price of 2 (1 to play him, 1 to collect the 3 food), which is an obviously good
 deal. His utility is limited a bit by the fact that you sometimes can't afford
@@ -2078,7 +2078,7 @@ D117,木材专家,Wood Expert,T2,,,"When you play this card, you immediately get
 用法：第一季打出，第二季省木头
 变体：木专书柜 天胡开局",,
 D128,,Building Tycoon,,,,"Each time after another player builds 1 or more rooms, you can give them 1 food to build exactly 1 room yourself. (You must pay the building cost of the room.)",,,
-D162,烧砖工,Clay Firer,T3,2,,"When you play this card, you immediately get 2 clay. At any time, you can turn clay into stone: you get 1 stone for 2 clay, and 2 stone for 3 clay.","效果：打出时立即获得2c，并且可以随时用3c换2s，2c换1s
+D162,烧砖工,Clay Firer,T3,D,,"When you play this card, you immediately get 2 clay. At any time, you can turn clay into stone: you get 1 stone for 2 clay, and 2 stone for 3 clay.","效果：打出时立即获得2c，并且可以随时用3c换2s，2c换1s
 强度：没有配合的话，本身只有早期高价值砖的2收益，但是考虑到有一些大量获取砖的手段，烧砖工可以在那些场景发挥较高的价值。比如有运土工的话，9砖的收入可以转化为6s，运土的5收益就提高到了6收益。
 难度：3/5
 用法：一般会在翻修前打出，出其不意翻修或出其不意抢主发，甚至达到卡住翻修、井等效果，让对手浪费大量建筑材料，打出超额收益。搭配：得砖手段，比如搬运工","Clay Firer Cards that convert one resource to another usually aren't good because the
@@ -2093,7 +2093,7 @@ C025,蒸汽机,Steam Machine,T4,,,"Each work phase, if the last action space you
 强度：本身亏1 分，触发一次效果就回本的套 路牌
 难度：2/5
 用法：没配合就当一张上限卡，收益等同马 厩，木头溢出才有用。有配合陶瓷或者尤其是 手推车会很强。 搭配：陶瓷，手推车",,
-C030,半木造,Half-Timbered House,T1,2,,"During scoring, you get 1 bonus point for each stone room you have. You can only use one card to get bonus points for your stone house.","费用：1w1c2s1r
+C030,半木造,Half-Timbered House,T1,D,,"During scoring, you get 1 bonus point for each stone room you have. You can only use one card to get bonus points for your stone house.","费用：1w1c2s1r
 效果：每个石屋计1分，最多有1张卡给石屋计分
 强度：在新卡中有一种新的流派叫6 屋流，以温馨，男管，旅馆，建师，房管B136为核心，偶尔会穿插石匠C087，鹰塔，扩屋卡。因此半木造的使用场景是4-6 屋流，或者是15 石流。收益是4-6 或10+。成本的话，在终局1w大概1分，1c2s1r不超过2分，因此成本不超过3，收益是1-3 或10+。
 难度：2/5
@@ -2121,7 +2121,7 @@ C113,冬季管理员,Winter Caretaker,T2,,,"When you play this card, you immedia
 难度：4/5
 用法：第四季打出，四季末和五季末得1菜，然后第六季一播种，标准用法。但是要提前准备好食物。然后第六季末烤一菜买一菜，净赚一饭。搭配：胡萝卜D079 犁田套
 变体：冬管胡萝卜，极难组合，第一季打出冬管，控住首炉但是不吃，吃钓鱼或者卖艺+两次rsf，买1菜。第二季吃掉5-7羊，然后再买一菜，第三季打出胡萝卜乱杀。",,
-C118,拾木工,Wood Collector,T2,3,,"Place 1 wood on each of the next 5 round spaces. At the start of these rounds, you get the wood.","效果：往后摆5w，每回合开始获得
+C118,拾木工,Wood Collector,T2,C,,"Place 1 wood on each of the next 5 round spaces. At the start of these rounds, you get the wood.","效果：往后摆5w，每回合开始获得
 强度：稳健的短反馈5w卡，木头全局保值，第一季到第三季打都不亏。
 难度：1/5
 用法：有别的前期卡就二三季打，没有别的前期卡就第一季打。","Wood Collector I don't need to tell you how important wood is, and this occ gives you 5 of it
@@ -2135,7 +2135,7 @@ C128,木屋扩建工,Wooden Hut Extender,T1,,,"Wood rooms now cost you 1 reed, a
 难度：2/5
 用法：难度在于把控扩房和生娃的节奏。不要早扩了生不到，也不要为了贪1木头晚扩亏一回合生。一般R1-5出，最好第一季就扩第一间，早期拿一次rsf。搭配：食物卡，小户农民，瓦匠，送砖卡保障翻修不搭：其他扩屋卡，除了木贸D119
 变体：第一季不扩 直接R6扩2不过有末生的可能，需要对游戏理解较深再尝试",,
-C152,木偶艺人,Puppeteer,T2,2,,"Each time another player uses the ""Traveling Players"" accumulation space, you can pay them 1 food to immediately play an occupation without paying an occupation cost.","效果：别人踩卖艺时，可以给他一 f，然后自己打一个职业
+C152,木偶艺人,Puppeteer,T2,D,,"Each time another player uses the ""Traveling Players"" accumulation space, you can pay them 1 food to immediately play an occupation without paying an occupation cost.","效果：别人踩卖艺时，可以给他一 f，然后自己打一个职业
 强度：理论上来说，三次触发 3 饭打 3 职业，相当于白送 3 动 有 6 分收益。但考虑到三饭给别人，而且自己不能踩卖艺，最高不超过 5.5 收益。而且有时只能打 2 职业，长反馈 3.5 收益，勉强回本。
 难度：5/5
 用法：这张卡是新手噩梦，往往出现 7 饭卖艺没人踩，甚至 14f 没人踩。有时你甚至用麦子换食物就为了白嫖打职业。或者因为花 1f 买了职业而踩临时工，或者因为扩屋卡迟迟不出则末生。我的建议是你要在轮抽时要观察，场上其他人的食物手段一定要少，自己的食物手段一定要多。如果你明明把陶瓷、鱼叉之类的放出去，或者烈酒放出去没回来时就要警惕，谨慎打木偶。木偶往往要 R3/4 打出，然后第一季踩 2/3 次 rsf 或者 4 饭钓鱼。尽量不要扣别的前期卡。
@@ -2149,7 +2149,7 @@ VP occ that you don't care about when it comes out (Chief's Daughter,
 Mendicant, etc.). Still, since TP is usually taken 3-4 times in a game, this can straight up save
 you 2-3 actions. His value increases even more if someone plays a TP occ, since
 that usually means the spot will be taken more often.",
-C166,召牛人,Cattle Whisperer,T4,2,,"Add 5 and 8 to the current round and place 1 cattle on each corresponding round space. At the start of these rounds, you get the cattle.","效果：在当前回合+5/8各放1牛，回合开始获得。
+C166,召牛人,Cattle Whisperer,T4,D,,"Add 5 and 8 to the current round and place 1 cattle on each corresponding round space. At the start of these rounds, you get the cattle.","效果：在当前回合+5/8各放1牛，回合开始获得。
 强度：这张卡基本上是要吃4牛或者6牛的收益，如果要6牛，那么需要在11回合拿到2牛，也就是R3及之前打出，吃满5分，但是反馈过慢还要准备饲养空间。吃到4牛的4分需要在R5前打出，一般不考虑。
 难度：2/5
 用法：如上，尽量在奇数回合打出，R1打是5分+4饭，每往后2回合少1分，需要提前准备饲养空间。配合：牛计分卡，如挤奶凳 牧牛贵族不搭：前期卡","Cattle Whisperer: We have a house rule that whenever someone plays this card, they have to put
@@ -2160,7 +2160,7 @@ D004,横切木,Cross-Cut Wood,T1,,,You immediately get a number of wood equal to
 强度：如果你攒够了翻修和一张主发的石头，大概有7-8 石，然后横切木一下拿7-8 木，是很恐怖的，净收益7-8，所付出的只是晚打主发只能挑别人剩下的，而且晚围拿不到太多动物。
 难度：3/5
 用法：前期rsf的优先级提高，中期不要打井，3s的优先级接近6 木。搭配：先农后牧卡",,
-D038,挤奶凳,Milking Stool,T2,4,,"In the field phase of each harvest, if you have at least 1/3/5 cattle, you get 1/2/3 food. During scoring, you get 1 bonus point for every 2 cattle you have.","条件：2 职业 费用：1w
+D038,挤奶凳,Milking Stool,T2,B,,"In the field phase of each harvest, if you have at least 1/3/5 cattle, you get 1/2/3 food. During scoring, you get 1 bonus point for every 2 cattle you have.","条件：2 职业 费用：1w
 效果：每个收获阶段开始时，如果你有1/3/5 牛，得1/2/3f；游戏结束时，你每有2 牛就获得 1 分
 强度：跟织布机在伯仲之间，织布机更需要前 期的锅和马厩，这张卡更需要后期的高质量动 充足，可以多拿牛。量化的话，终局吃2 分， 第六季吃2 饭，第四五季吃1 饭，分数在3 分 左右，但是打出时机可以比织布机晚。
 难度：3/5
@@ -2179,7 +2179,7 @@ D043,兔笼,Hutch,T3,,,"Place 0, 1, 2, and 3 food in this order on the next 4 ro
 强度：1w换1 分，然后1r换6f，本身是2+的 收益，但是打出门槛较高收益较慢，稍微有点 卡手。
 难度：3/5
 用法：注意最好在2-4 季扩生时打出，算好r、 w和s的储备，别耽误了扩屋或翻修。",,
-D090,制犁工,Plow Maker,T2,2,,"Each time you use the ""Farmland"" or ""Cultivation"" action space, you can pay 1 food to plow 1 additional field.","效果：每次踩犁田或者犁播时，可以花 1f 多犁一块地。
+D090,制犁工,Plow Maker,T2,D,,"Each time you use the ""Farmland"" or ""Cultivation"" action space, you can pay 1 food to plow 1 additional field.","效果：每次踩犁田或者犁播时，可以花 1f 多犁一块地。
 强度：前两次犁田收益至少 1.5 分，第三次犁田至少 0.5 分。为什么是至少呢？因为田是生产资料，可以发展农业。所以总收益至少 3.5 分。由于可以发展农业，其实收益应该在短反馈四五分左右。
 难度：2/5
 用法：三四季打出，早犁，避免卷。","Plow Maker This is another trap card - he looks much stronger than he actually is. Let's assume that you play this guy with the intention of maxing fields. To get
@@ -2188,7 +2188,7 @@ food (1 to play the Occ, 2 to plow). This is not appreciably better than just
 plowing a field 5 times, since the 3 food he costs will probably take another
 action anyway.",
 D107,,Bellfounder,,,,"In the returning home phase of each round, if you have at least 1 clay, you can use this card to discard all of your clay and get your choice of 3 food or 1 bonus point.",,,
-D121,墙土修补工,Clay Plasterer,T3,2,,Renovating to clay only costs you exactly 1 clay and 1 reed. Each clay room only costs you 3 clay and 2 reed to build.,"效果：你翻修成砖屋改成1r+1c，你扩的每间砖屋改成2r+3c
+D121,墙土修补工,Clay Plasterer,T3,D,,Renovating to clay only costs you exactly 1 clay and 1 reed. Each clay room only costs you 3 clay and 2 reed to build.,"效果：你翻修成砖屋改成1r+1c，你扩的每间砖屋改成2r+3c
 强度：没配合的情况下可以省4c，超短反馈4收益。有配合的话可以和砌砖，架梁一次使用，扩砖屋。
 难度：2/5
 用法：可以搭配5房流，省4c，可能还能再c短缺的回合拿到关键主发。三四房就不要用了。","Clay Plasterer In 2-p, this can occasionally be worth it for the reduced renovation cost
@@ -2196,7 +2196,7 @@ alone, since it can save you 3 or 4 clay. In other player modes, you're going
 to need to build clay rooms to make this work. This is usually an awkward
 proposition, since it forces you to spend an early action on renovation - see
 the Clay Hut Builder.",
-D132,贫农,Hide Farmer,T3,3,,"During scoring, you can pay 1 food each for any number of unused farmyard spaces. If you do, you do not lose points for these spaces.","效果：游戏结束时，你可以为你每个空地支付1f，以让这些空地不扣分。
+D132,贫农,Hide Farmer,T3,C,,"During scoring, you can pay 1 food each for any number of unused farmyard spaces. If you do, you do not lose points for these spaces.","效果：游戏结束时，你可以为你每个空地支付1f，以让这些空地不扣分。
 强度：下限卡。考虑三房2田2围的情况，贫农可以获得8分，是4收益。贫农基本上会有1-4收益。但是，大量的空地本身就限制了农牧发展，只有在有大量食物获取手段，且不需要农牧这些生产资料时较强。
 难度：5/5
 用法：这张卡本身限制了农牧，你必须在少量的生产资料的条件下获取大量可计分资源，比如卡牌的饲养空间，或者卡牌的田地。此外，你还需要用省下的行动去换取更多分数，比如用蓝图抢大量主发，或者家教灯笼吹牛等提高上限的卡。
@@ -2214,7 +2214,7 @@ C003,马车之旅,Carriage Trip,T2,,,"If you play this card in the work phase, y
 强度：基本上价值等于一个3 木变6 木，也就 是3-4 分的收益
 难度：3/5
 用法：这张卡是bga 禁卡，特点是可以抢 1 生，如果你下家打出这张牌抢生，下下家可能 继续抢生，下下下家继续，然后自己的首生变 末生，是十分难受的。抢生的用法是抢先然后 另一个家庭成员扩屋，然后下回合直接生。另 一种用法是生娃时打出这张卡抢一些关键资 源，或者再次抢先（也就是扩2 间连生） 搭配：扩2 连生、晚扩抢生等流派",,
-C019,摇摆步犁,Swing Plow,T1,3,,"Place 4 field tiles on this card. Each time you use the ""Farmland"" action space, you can also plow up to 2 fields from this card.","条件：3 职业 费用：3w
+C019,摇摆步犁,Swing Plow,T1,C,,"Place 4 field tiles on this card. Each time you use the ""Farmland"" action space, you can also plow up to 2 fields from this card.","条件：3 职业 费用：3w
 效果：这张卡上放4 田，每次使用农田时，可 以用至多两张这张卡上的田地犁2 田
 强度：白得4 田，一共7 分+促进了农业发展， 但是限制了畜牧发展，并且要早犁田而且拿不 起犁播。本身3 木，纸面收益有4 分+为种子提 供了价值。
 难度：2/5
@@ -2274,7 +2274,7 @@ D069,小温室,Small Greenhouse,T3,,,"Add 4 and 7 to the current round and place
 D088,石墨建造工,Millwright,T4,,,"You immediately get 1 grain. Each time you build fences, stables, and rooms, or renovate your house, you can replace up to 2 building resources of any type with 1 grain each.","效果：打出时得1麦 之后建造房屋 围栅栏 翻修时可以用最多2麦代替建材
 强度：近乎无强度 麦子换建材是亏的
 用法：不用搭配：麦田流",,
-D089,马厩工,Stablehand,T4,1,,"Each time you build at least 1 fence, you can also build a stable without paying wood for the stable.","效果：每次建栅栏时，得1马厩
+D089,马厩工,Stablehand,T4,E,,"Each time you build at least 1 fence, you can also build a stable without paying wood for the stable.","效果：每次建栅栏时，得1马厩
 强度：正常情况下是1-2马厩的收益，1-3分收益，如果搭配栅栏修理员这种多踩栅栏的流派，会很棒。
 难度：1/5
 用法：必须要有鼓励栅栏行动的卡才可以当添头，最好还要有马厩流","Stablehand Another card that is unplayable due to the low number of times that you
@@ -2290,13 +2290,13 @@ D101,焦糖烘培师,Sugar Baker,T4,,,"Each time after you use the ""Grain Utili
 强度：近乎没有强度，每次踩播烤得0.5分，期望收益接近0，就算是农巡陶瓷等卡牌也刷不了几分。想到的唯一场景就是手推麦车+全职农夫可能会全局多踩几次播烤，但也最多刷五六分，期望收益近乎0的卡。
 难度：1/5
 用法：不用搭配：手推车 全职农夫",,
-D108,石雕工,Stone Carver,T4,3,,"Each harvest, you can use this card to turn exactly 1 stone into 3 food.","效果：每个收获阶段，可以把1s转化为3f。
+D108,石雕工,Stone Carver,T4,C,,"Each harvest, you can use this card to turn exactly 1 stone into 3 food.","效果：每个收获阶段，可以把1s转化为3f。
 强度：每触发一次大概0.5收益，拉满也就3收益，基本任何情况都是亏的。
 难度：1/5
 用法：只有强力产石手段的饿卡组可以用，比如贸易导师、采石钳、共济会、护林员、五金等","Stone Carver I actually like him in 2-p where stone is very easy to get in the mid and late
 game. In the other modes, however, stone is usually too rare to be able to
 consistently want to get food from this guy.",
-D141,小麦商贩,Seed Seller,T3,3,,"When you play this card, you immediately get 1 grain. Each time you use the ""Grain Seeds"" action space, you get 1 additional grain.","效果：立即获得1麦，每次踩小麦时，额外获得1麦
+D141,小麦商贩,Seed Seller,T3,C,,"When you play this card, you immediately get 1 grain. Each time you use the ""Grain Seeds"" action space, you get 1 additional grain.","效果：立即获得1麦，每次踩小麦时，额外获得1麦
 强度：基本上是踩1-2次麦子，踩一次的话，就是单纯的1麦，也就是2收益。如果是踩2次，相当于1分+6饭的收益，可以到4收益，当然前提是有烤炉。如果没有烤炉，只有壁炉，相当于1分+4饭收益，3收益也可以接受。
 难度：2/5
 用法：基本上有麦子的配合才会考虑用。配合：菜贩，农巡，养牛妇，谷物勺，街头叫卖等","Seed Seller If you are going to want 2 grain to sow into 2 fields, he is always worth it.
@@ -2457,7 +2457,7 @@ C031,写作室,Writing Chamber,T1,,,"During scoring, you get a number of bonus p
 C032,凸肚窗,Abort Oriel,T3,,,You can no longer play this card when any player (including you) has 5 or more cards in front of them.,,,
 C033,绿化工程,Greening Plan,T2,,,"During scoring, if you then have at least 2/4/5/6 unplanted fields, you get 1/2/3/5 bonus points.",,,
 C034,象草种植,Elephantgrass Plant,T4,,,"Immediately after each harvest, you can use this card to exchange exactly 1 reed for 1 bonus point.",,,
-C036,粘土种植床,Clay Deposit,T3,1,,"Immediately after each time you use a clay accumulation space, you can exchange 1 clay for 1 bonus point. If you do, place the clay on the accumulation space.",,"Clay Deposit Clay Deposit 1F is often well worth 5 clay, so you need to be
+C036,粘土种植床,Clay Deposit,T3,E,,"Immediately after each time you use a clay accumulation space, you can exchange 1 clay for 1 bonus point. If you do, place the clay on the accumulation space.",,"Clay Deposit Clay Deposit 1F is often well worth 5 clay, so you need to be
 careful about when, if ever, you play this card. You don't want to be giving
 your opponents options! Moreover, the benefit this gives you is just about as
 dubious - even if you want clay, if you spend an action to play it and an
@@ -2521,7 +2521,7 @@ C117,跑腿工,Legworker,T1,,,"Each time you use an action space that is orthogo
 C120,务农工人,Agricultural Labourer,T3,,,"Place 8 clay on this card. For each grain you obtain, you also get 1 clay from this card.",,,
 C124,石头进口商,Stone Importer,T3,,,"In the breeding phase of the 1st/2nd/3rd/4th/5th/6th harvest, you can use this card to buy exactly 2 stone for 2/2/3/3/4/1 food.",,,
 C125,夜班工人,Nightworker,T1,,,"Before the start of each work phase, you can place a person on an accumulation space of a building resource not in your supply. (Then proceed with the start player.)",,,
-C127,情圣,Lover,T1,5,,"When you play this card, immediately pay an amount of food equal to the number of complete rounds left to play to take a ""Family Growth Even without Room"" action.",,"Lover Extra cost: 4 food Ah, the infamous lover. Certainly, in reports like this tournament thread tournament thread ,
+C127,情圣,Lover,T1,A,,"When you play this card, immediately pay an amount of food equal to the number of complete rounds left to play to take a ""Family Growth Even without Room"" action.",,"Lover Extra cost: 4 food Ah, the infamous lover. Certainly, in reports like this tournament thread tournament thread ,
 he seems to be unfair. In the game, a player plays turn 2 lover and is able to
 seemingly coast to victory. Without a doubt, the Lover is one of the best
 occupations in the game. But is he broken? Playing the lover is pretty much impossible on round 1, so by 'early lover
@@ -2562,7 +2562,7 @@ C138,动物喂养员,Animal Feeder,T3,,,"On the ""Day Laborer"" action space, yo
 C139,边筐工妻子,Basketmaker's Wife,T2,,,"When you play this card, you immediately get 1 reed and 1 food. At any time, you can turn 1 reed into 2 food.",,,
 C140,包装艺术家,Packaging Artist,T3,,,"When you play this card, you immediately get 1 grain. Each time you get a ""Minor Improvement"" action, you can take a ""Bake Bread"" action instead.",,,
 C141,羊只供应商,Sheep Provider,T2,,,"Each time any player (including you) uses the ""Sheep Market"" accumulation space, you get 1 grain.",,,
-C143,石头采购商,Stone Buyer,T3,2,,"When you play this card, you can immediately buy exactly 2 stone for 1 food. From the next round on, one per round, you can buy 1 stone for 2 food.",,"Stone Buyer This is the most tempting resource buyer to play, simply because stone is the
+C143,石头采购商,Stone Buyer,T3,D,,"When you play this card, you can immediately buy exactly 2 stone for 1 food. From the next round on, one per round, you can buy 1 stone for 2 food.",,"Stone Buyer This is the most tempting resource buyer to play, simply because stone is the
 most valuable resource in the game. Still, in order for him to be worth it,
 you're going to need a good early source of food to take advantage of the
 people using the RSF spot. You're also going to need a way to use that stone in
@@ -2578,7 +2578,7 @@ C156,牛蹄护理工,Hoof Caregiver,T3,,,"Immediately add 1 cattle from the gene
 C157,原料分析师,Resource Analyzer,T4,,,"Before the start of each round, if you have more building resources than all other players of at least two types, you get 1 food.",,,
 C158,森林宣传员,Forest Campaigner,T3,,,"Each time before you place a person, if there are at least 8 wood total on accumulation spaces, you get 1 food.",,,
 C159,渔夫之友,Fisherman's Friend,T2,,,"At the start of each round, if there is more food on the ""Traveling Players"" than on the ""Fishing"" accumulation space, you get the difference from the general supply.",,,
-C160,先驱者,Outrider,T4,3,,"Each time before you use the action space on the most recently revealed action space card (after it has been placed on the round space), you get 1 grain.",,"Outrider In my opinion this is one of the coolest occupations in the deck, even if he's
+C160,先驱者,Outrider,T4,C,,"Each time before you use the action space on the most recently revealed action space card (after it has been placed on the round space), you get 1 grain.",,"Outrider In my opinion this is one of the coolest occupations in the deck, even if he's
 nowhere near the most powerful. If you're planning on baking, you can use him
 to give you nice bonuses with the grain that you were otherwise going to spend
 an action on. Later, when you (hopefully) are taking Family Growth, Family
@@ -2658,7 +2658,7 @@ D093,羊群巡查员,Sheep Inspector,T2,,,"Once per work phase, after you comple
 D094,怕老婆的丈夫,Henpecked Husband,T2,,,"Each time you take a ""Build Rooms"" action with the second person you place, return the first person you placed home, unless it is on the ""Meeting Place"" action space.",,,
 D095,站点管理员,Site Manager,T2,,,"When you play this card, immediately build a major improvement. When paying its cost, you can replace up to 1 building resource of each type with 1 food each.",,,
 D099,陶器制作工,Earthenware Potter,T3,,,"If you play this card in round 4 or before, after the final harvest, you get 1 bonus point for each person for which you then pay 1 clay.",,,
-D100,庄园领主,Lord of the Manor,T2,3,,"During scoring, you get 1 bonus point for each scoring category in which you score the maximum 4 points. (The bonus point is also awarded for 4 fenced stables.)",,"Lord of the Manor Keep in mind that Agricola tends to reward people who don't focus on maxing
+D100,庄园领主,Lord of the Manor,T2,C,,"During scoring, you get 1 bonus point for each scoring category in which you score the maximum 4 points. (The bonus point is also awarded for 4 fenced stables.)",,"Lord of the Manor Keep in mind that Agricola tends to reward people who don't focus on maxing
 specific areas, and instead rewards last-minute diversification. As a result
 you generally won't have much incentive for maxing areas with the intention of
 getting points on this guy, because you could probably be getting just as many
@@ -2701,7 +2701,7 @@ D155,,Ebonist,,,,"Each harvest, you can use this card to turn exactly 1 wood int
 D156,零售商,Retail Dealer,T2,,,"Place 3 grain and 3 food on this card. Each time you use the ""Resource Market"" action space, you also get 1 grain and 1 food from this card.",,,
 D157,派对组织者,Party Organizer,T2,,,"As soon as the next player but you gains their 5th person, you immediately get 8 food (not retroactively). During scoring, if only you have 5 people, you get 3 bonus points.",,,
 D159,芦苇销售商,Reed Seller,T3,,,"At any time, you can turn 1 reed into 3 food. Any other player can prevent this by buying the reed for 2 food from you. If multiple players are interested, choose one.",,,
-D160,助产士,Midwife,T2,1,,"Each time another player uses the first person they place in a round to take a ""Family Growth"" action, you get 1 grain from the general supply.",,"Midwife If you are in a position where you are going to get a lot of food from the
+D160,助产士,Midwife,T2,E,,"Each time another player uses the first person they place in a round to take a ""Family Growth"" action, you get 1 grain from the general supply.",,"Midwife If you are in a position where you are going to get a lot of food from the
 Midwife, you are not going to win.",
 D161,卷心菜采购商,Cabbage Buyer,T2,,,"Each time any player (including you) renovates and the builds no/ 1 minor/ 1 major improvement, you can buy 1 vegetable for 3/2/1 food.",,,
 D163,熟练砌墙工,Journeyman Bricklayer,T3,,,"When you play this card, you immediately get 2 stone. Each time another player renovates to stone or builds a stone room, you get 1 stone.",,,
@@ -2782,7 +2782,7 @@ E122,苏格兰农民,Cottar,,,,"Each time you play or build an improvement, you 
 E123,,Resource Hoarder,,,,"Pile resources as depicted on this card. (stone, clay, stone, reed, wood, clay) You can use the top item(s) when building a room, playing/building an improvement, or renovating.",,,
 E124,,Mayor Candidate,,,,"You immediately get 2 wood and 2 stone. During scoring, you get 1 negative point for each wood and each stone in your supply. You can no longer discard wood or stone.",,,
 E125,,Delayed Wayfarer,,,,"When you play this card, you immediately get 1 building resource of your choice and, once all people have been placed this round, you can place a person from your supply.",,,
-E126,,Tax Collector,,4,,"Once you live in a stone house, at the start of each round, you get your choice of 2 wood, 2 clay, 1 reed, or 1 stone.",," In a big game, Tax collector might bring in 5 or 6 free resources, plus whatever you buy. Slightly awkward in that it gives you resources when others build improvements, but those resources are often most useful for buying the Majors yourself. Still, very high upside. Should be banned in FotM. ",
+E126,,Tax Collector,,B,,"Once you live in a stone house, at the start of each round, you get your choice of 2 wood, 2 clay, 1 reed, or 1 stone.",," In a big game, Tax collector might bring in 5 or 6 free resources, plus whatever you buy. Slightly awkward in that it gives you resources when others build improvements, but those resources are often most useful for buying the Majors yourself. Still, very high upside. Should be banned in FotM. ",
 E127,,Diligent Farmer,,,,"When you play this card, if you would score the maximum 4 points in 3 scoring categories (including fenced stables), you can extend your house by 1 room at no cost.",,,
 E128,马具工匠,Saddler,,,,"Each time after you build a major improvement, you can pay 1 food to plow 1 field.",,,
 E129,,Imitator,,,,"If you have a person on the ""Day Laborer"" action space, you can use non-accumulating round 1-9 action spaces even if they are occupied.",,,

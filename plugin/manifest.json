@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Agricola Card Tier",
-  "version": "1.0.4",
-  "description": "Adds tier information and tooltips to Agricola cards. Original tier comes from Huang_Yuxiao.",
+  "version": "0.0.1",
+  "description": "Adds tier information and tooltips to Agricola cards. Original tier comes from Baitu, Chen233, Mark Hartnady.",
   "permissions": [
     "activeTab"
   ],
@@ -16,7 +16,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["cards.json"],
+      "resources": ["cards.json", "authors.json"],
       "matches": ["<all_urls>"]
     }
   ]

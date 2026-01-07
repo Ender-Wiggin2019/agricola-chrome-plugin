@@ -155,6 +155,26 @@ def step3_match_e_csv(pk_data):
     print(f"Matched {matched_count} entries from e.csv")
     return pk_data
 
+def convert_rating_to_tier(rating):
+    """Convert rating number to tier letter
+    1 -> E, 2 -> D, 3 -> C, 4 -> B, 5 -> A, 0 or other -> empty string
+    """
+    rating_map = {
+        1: 'E',
+        2: 'D',
+        3: 'C',
+        4: 'B',
+        5: 'A'
+    }
+
+    try:
+        rating_int = int(rating)
+        if rating_int == 0:
+            return ''
+        return rating_map.get(rating_int, '')
+    except (ValueError, TypeError):
+        return ''
+
 def step4_match_en_json(pk_data):
     """Step 4: Match en.json"""
     print("Step 4: Matching en.json...")
@@ -166,9 +186,10 @@ def step4_match_en_json(pk_data):
     for item in en_data:
         card_title = item.get('card_title', '').strip()
         if card_title:
+            rating = item.get('rating', 0)
             en_map[card_title] = {
                 'enDesc': item.get('insight', ''),
-                'enTier': str(item.get('rating', '')) if item.get('rating') else ''
+                'enTier': convert_rating_to_tier(rating)
             }
 
     # Match with pk_data by enName
@@ -239,9 +260,50 @@ def generate_index_csv(pk_data):
 
     return filtered_rows
 
-def step7_generate_card_all_json():
-    """Step 7: Generate card_all.json from index.csv"""
-    print("Step 7: Generating card_all.json from index.csv...")
+def step7_match_set_o_json():
+    """Step 7: Match set_o.json and update chenTier and chenDesc in index.csv"""
+    print("Step 7: Matching set_o.json...")
+
+    # Read set_o.json
+    set_o_data = read_json_file('set_o.json')
+
+    # Create mapping from name to tier and desc
+    set_o_map = {}
+    for item in set_o_data:
+        name = item.get('name', '').strip()
+        if name:
+            set_o_map[name] = {
+                'chenTier': item.get('tier', '').strip(),
+                'chenDesc': item.get('desc', '').strip()
+            }
+
+    # Read index.csv and update rows
+    columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
+    updated_rows = []
+    matched_count = 0
+
+    with open('index.csv', 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            cn_name = row.get('cnName', '').strip()
+            if cn_name and cn_name in set_o_map:
+                # Update chenTier and chenDesc
+                row['chenTier'] = set_o_map[cn_name]['chenTier']
+                row['chenDesc'] = set_o_map[cn_name]['chenDesc']
+                matched_count += 1
+            updated_rows.append(row)
+
+    # Write updated index.csv
+    with open('index.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=columns)
+        writer.writeheader()
+        writer.writerows(updated_rows)
+
+    print(f"Matched {matched_count} entries from set_o.json and updated index.csv")
+
+def step8_generate_card_all_json():
+    """Step 8: Generate card_all.json from index.csv"""
+    print("Step 8: Generating card_all.json from index.csv...")
 
     cards = []
     with open('index.csv', 'r', encoding='utf-8') as f:
@@ -254,7 +316,7 @@ def step7_generate_card_all_json():
                 'baituTier': row.get('baituTier', ''),
                 'enTier': row.get('enTier', ''),
                 'chenTier': row.get('chenTier', ''),
-                'effect': row.get('effect', ''),
+                # 'effect': row.get('effect', ''),
                 'baituDesc': row.get('baituDesc', ''),
                 'enDesc': row.get('enDesc', ''),
                 'chenDesc': row.get('chenDesc', '')
@@ -265,9 +327,9 @@ def step7_generate_card_all_json():
 
     print(f"Generated card_all.json with {len(cards)} entries")
 
-def step8_generate_index_missing():
-    """Step 8: Generate index_missing.csv with rows where cnName is empty"""
-    print("Step 8: Generating index_missing.csv...")
+def step9_generate_index_missing():
+    """Step 9: Generate index_missing.csv with rows where cnName is empty"""
+    print("Step 9: Generating index_missing.csv...")
 
     missing_rows = []
     columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
@@ -302,11 +364,14 @@ def main():
     # Step 5: Generate index_raw.csv and filtered index.csv
     generate_index_csv(pk_data)
 
-    # Step 7: Generate card_all.json from index.csv
-    step7_generate_card_all_json()
+    # Step 7: Match set_o.json and update index.csv
+    step7_match_set_o_json()
 
-    # Step 8: Generate index_missing.csv with rows where cnName is empty
-    step8_generate_index_missing()
+    # Step 8: Generate card_all.json from index.csv
+    step8_generate_card_all_json()
+
+    # Step 9: Generate index_missing.csv with rows where cnName is empty
+    step9_generate_index_missing()
 
     print("\nDone! Generated index_raw.csv, index.csv, card_all.json, and index_missing.csv")
 

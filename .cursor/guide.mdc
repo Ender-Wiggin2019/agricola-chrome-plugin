@@ -57,11 +57,22 @@ alwaysApply: true
       "vps": ""
     },
 ```
-英文基于card_title匹配enName，insight匹配enDesc，rating匹配enTier。
+英文基于card_title匹配enName，insight匹配enDesc，rating匹配enTier。注意，rating匹配规则如下：12345对应EDCBA，0的话设为空。
 
 5. **生成一个索引的csv `index_raw.csv`，包含 no,cnName,enName,baituTier,enTier,chenTier,effect,baituDesc,enDesc,chenDesc 这些列。**
-6.然后，对于baituTier,enTier,chenTier,baituDesc,enDesc,chenDesc这些全都为空的情况，移除这一行，生成`index.csv`
+6. 然后，对于baituTier,enTier,chenTier,baituDesc,enDesc,chenDesc这些全都为空的情况，移除这一行，生成`index.csv`
 
-7.最终基于`index.csv`生成一个`card_all.json`，把csv转成json。
+7. 把set_o.json里面的name，和cnName匹配一下。tier作为chenTier，desc作为chenTier。匹配不上的忽略
 
-8. 基于 index.csv，生成一个 index_missing.csv，包含所有cnName为空的行。
+```
+    {
+        "time": "0:1:37",
+        "name": "绩效导师",
+        "tier": "A",
+        "desc": "弱A，理论收益虽然很高，但这张卡并不能够使你打出很多的攻防，非常依赖于其他的卡能给你提供配合，单卡强度其实还算有限"
+    },
+```
+
+8.最终基于`index.csv`生成一个`card_all.json`，把csv转成json。
+
+1. 基于 index.csv，生成一个 index_missing.csv，包含所有cnName为空的行。

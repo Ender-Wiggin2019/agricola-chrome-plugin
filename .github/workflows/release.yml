@@ -1,0 +1,91 @@
+name: Build and Release Plugin
+
+on:
+  push:
+    tags:
+      - 'v*'  # 当推送以 v 开头的 tag 时触发，例如 v1.0.0
+  workflow_dispatch:  # 允许手动触发
+    inputs:
+      version:
+        description: 'Version tag (e.g., v1.0.5)'
+        required: true
+        type: string
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set version from tag or input
+        id: set_version
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            VERSION="${GITHUB_REF#refs/tags/}"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION"
+
+      - name: Create plugin zip
+        run: |
+          cd ag-tier/plugin
+          zip -r ../../ag-tier-plugin-${{ steps.set_version.outputs.version }}.zip .
+          cd ../..
+          ls -lh ag-tier-plugin-*.zip
+
+      - name: Create Release
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.set_version.outputs.version }}
+          name: Release ${{ steps.set_version.outputs.version }}
+          body: |
+            ## Agricola Card Tier Plugin ${{ steps.set_version.outputs.version }}
+
+            ### 安装说明
+            1. 下载 `ag-tier-plugin-${{ steps.set_version.outputs.version }}.zip`
+            2. 解压文件
+            3. 在 Chrome/Edge 浏览器中打开 `chrome://extensions/`
+            4. 开启"开发者模式"
+            5. 点击"加载已解压的扩展程序"
+            6. 选择解压后的文件夹
+
+            ### 更新内容
+            - 查看 [提交历史](https://github.com/${{ github.repository }}/compare/${{ github.event.before }}...${{ github.sha }})
+          files: |
+            ag-tier-plugin-${{ steps.set_version.outputs.version }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release (Manual)
+        if: github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.set_version.outputs.version }}
+          name: Release ${{ steps.set_version.outputs.version }}
+          body: |
+            ## Agricola Card Tier Plugin ${{ steps.set_version.outputs.version }}
+
+            ### 安装说明
+            1. 下载 `ag-tier-plugin-${{ steps.set_version.outputs.version }}.zip`
+            2. 解压文件
+            3. 在 Chrome/Edge 浏览器中打开 `chrome://extensions/`
+            4. 开启"开发者模式"
+            5. 点击"加载已解压的扩展程序"
+            6. 选择解压后的文件夹
+          files: |
+            ag-tier-plugin-${{ steps.set_version.outputs.version }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-zip
+          path: ag-tier-plugin-${{ steps.set_version.outputs.version }}.zip
+          retention-days: 30
+

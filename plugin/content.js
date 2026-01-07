@@ -1,19 +1,26 @@
 // Load cards data
 let cardsData = null;
+let authorsData = null;
 
-// Load cards.json
+// Load cards.json and authors.json
 async function loadCardsData() {
   try {
-    const response = await fetch(chrome.runtime.getURL('cards.json'));
-    cardsData = await response.json();
+    const cardsResponse = await fetch(chrome.runtime.getURL('cards.json'));
+    cardsData = await cardsResponse.json();
     console.log('Cards data loaded:', cardsData.length, 'cards');
+
+    const authorsResponse = await fetch(chrome.runtime.getURL('authors.json'));
+    authorsData = await authorsResponse.json();
+    console.log('Authors data loaded:', authorsData);
+
     processCards();
+    initSearchFeature();
   } catch (error) {
-    console.error('Error loading cards.json:', error);
+    console.error('Error loading data:', error);
   }
 }
 
-// Find card by numbering (no field) first, then by name (fuzzy matching for Chinese characters)
+// Find card by numbering (no field) first, then by cnName, then by enName
 function findCard(cardContainer) {
   if (!cardsData) return null;
 
@@ -25,50 +32,242 @@ function findCard(cardContainer) {
     if (card) return card;
   }
 
-  // If no match by numbering, try to match by name
+  // If no match by numbering, try to match by cnName
   const titleElement = cardContainer.querySelector('.card-title');
   if (!titleElement) return null;
 
   const cardName = titleElement.textContent.trim();
 
-  // Exact match first
-  let card = cardsData.find(c => c.name === cardName);
+  // Exact match first with cnName
+  let card = cardsData.find(c => c.cnName === cardName);
   if (card) return card;
 
-  // Try removing common whitespace/formatting differences
+  // Try removing common whitespace/formatting differences for cnName
   const normalizedName = cardName.replace(/\s+/g, '');
-  card = cardsData.find(c => c.name.replace(/\s+/g, '') === normalizedName);
+  card = cardsData.find(c => c.cnName && c.cnName.replace(/\s+/g, '') === normalizedName);
+  if (card) return card;
+
+  // Fallback to enName
+  card = cardsData.find(c => c.enName === cardName);
+  if (card) return card;
+
+  // Try removing whitespace for enName
+  card = cardsData.find(c => c.enName && c.enName.replace(/\s+/g, '') === normalizedName);
   if (card) return card;
 
   return null;
 }
 
-// Get tier color based on tier level
-function getTierColor(tier) {
-  if (tier === 'T0' || tier === 'T1') {
-    return '#4caf50'; // Green
-  } else if (tier === 'T2') {
-    return '#d4af37'; // Darker yellow/gold
-  } else if (tier === 'T3') {
-    return '#ff9800'; // Orange
-  } else if (tier === 'T4') {
-    return '#f44336'; // Red
+// Get tier color based on tier level and type
+function getTierColor(tier, tierType) {
+  // Return gray for N/A or empty tier
+  if (!tier || tier === 'N/A' || (typeof tier === 'string' && tier.trim() === '')) {
+    return '#9e9e9e'; // Gray
   }
-  return '#9e9e9e'; // Default gray
+
+  // For baituTier (T0-T4)
+  if (tierType === 'baitu') {
+    if (tier === 'T0' || tier === 'T1') {
+      return '#4caf50'; // Green
+    } else if (tier === 'T2') {
+      return '#d4af37'; // Darker yellow/gold
+    } else if (tier === 'T3') {
+      return '#ff9800'; // Orange
+    } else if (tier === 'T4') {
+      return '#f44336'; // Red
+    }
+  }
+
+  // For enTier and chenTier (A-F): green to yellow to red gradient
+  if (tierType === 'en' || tierType === 'chen') {
+    const tierUpper = String(tier).toUpperCase().trim();
+    if (tierUpper === 'A') {
+      return '#4caf50'; // Green
+    } else if (tierUpper === 'B') {
+      return '#8bc34a'; // Light green
+    } else if (tierUpper === 'C') {
+      return '#cddc39'; // Lime
+    } else if (tierUpper === 'D') {
+      return '#ffeb3b'; // Yellow
+    } else if (tierUpper === 'E') {
+      return '#ff9800'; // Orange
+    } else if (tierUpper === 'F') {
+      return '#f44336'; // Red
+    }
+  }
+
+  return '#9e9e9e'; // Default gray (for unknown values)
 }
 
-// Create tooltip element
-function createTooltip(desc, tier) {
+// Create tooltip element with author information
+function createTooltip(desc, tier, tierType) {
   const tooltip = document.createElement('div');
   tooltip.className = 'ag-card-tooltip';
-  const tierColor = getTierColor(tier);
+  const tierColor = getTierColor(tier, tierType);
+
+  // Get author information
+  let authorHeader = '';
+  if (authorsData && authorsData[tierType]) {
+    const author = authorsData[tierType];
+    const authorName = author.name || tierType;
+    const avatar = author.avatar;
+
+    if (avatar && avatar.trim() !== '') {
+      // Create header with avatar and name
+      authorHeader = `
+        <div class="ag-tooltip-author">
+          <img src="${avatar}" alt="${authorName}" class="ag-author-avatar" />
+          <span class="ag-author-name">${authorName}</span>:
+        </div>
+      `;
+    } else {
+      // Create header with name only
+      authorHeader = `
+        <div class="ag-tooltip-author">
+          <span class="ag-author-name">${authorName}</span>:
+        </div>
+      `;
+    }
+  }
+
   tooltip.innerHTML = `
     <div class="ag-tooltip-content">
+      ${authorHeader}
       <div class="ag-tooltip-body">${desc.replace(/\n/g, '<br>')}</div>
     </div>
   `;
   tooltip.style.borderColor = tierColor;
   return tooltip;
+}
+
+// Create a single tier badge with tooltip
+// Returns null if tier is missing (don't show N/A)
+function createTierBadge(tier, desc, tierType, tierLabel) {
+  // If tier is missing or empty, don't create badge
+  const hasTier = tier && tier.trim() !== '';
+  if (!hasTier) {
+    return null;
+  }
+
+  const hasDesc = desc && desc.trim() !== '';
+  const displayTier = tier;
+  const tierColor = getTierColor(displayTier, tierType);
+
+  // Create wrapper for tier badge
+  const tierWrapper = document.createElement('div');
+  tierWrapper.className = 'ag-tier-wrapper';
+  tierWrapper.style.backgroundColor = tierColor;
+  tierWrapper.dataset.tierType = tierType;
+
+  // Create tier badge
+  const tierBadge = document.createElement('span');
+  tierBadge.className = 'ag-tier-badge';
+  tierBadge.textContent = displayTier;
+
+  // Add "+" indicator if has desc
+  if (hasDesc) {
+    const descIndicator = document.createElement('span');
+    descIndicator.className = 'ag-desc-indicator';
+    descIndicator.textContent = '+';
+    tierBadge.appendChild(descIndicator);
+  }
+
+  // Create tooltip if has desc
+  if (hasDesc) {
+    const tooltip = createTooltip(desc, displayTier, tierType);
+    tooltip.className = 'ag-card-tooltip ag-tooltip-hover';
+    tooltip.style.display = 'none';
+
+    let tooltipTimeout = null;
+
+    // Show tooltip on tier badge hover
+    tierWrapper.addEventListener('mouseenter', (e) => {
+      e.stopPropagation();
+
+      if (tooltipTimeout) {
+        clearTimeout(tooltipTimeout);
+        tooltipTimeout = null;
+      }
+
+      // Remove other tooltips
+      document.querySelectorAll('.ag-card-tooltip').forEach(t => {
+        if (t !== tooltip) {
+          t.style.display = 'none';
+          t.remove();
+        }
+      });
+
+      if (!document.body.contains(tooltip)) {
+        document.body.appendChild(tooltip);
+      }
+
+      tooltip.style.display = 'flex';
+
+      // Position tooltip below the tier badge
+      const tierRect = tierWrapper.getBoundingClientRect();
+      tooltip.style.top = `${tierRect.bottom + 10}px`;
+      tooltip.style.left = `${tierRect.left + (tierRect.width / 2)}px`;
+      tooltip.style.transform = 'translate(-50%, 0)';
+
+      // Adjust if tooltip goes off screen
+      setTimeout(() => {
+        const tooltipRect = tooltip.getBoundingClientRect();
+        // Adjust horizontal position if goes off screen
+        if (tooltipRect.left < 10) {
+          tooltip.style.left = `${tierRect.left + 10}px`;
+          tooltip.style.transform = 'translate(0, 0)';
+        }
+        if (tooltipRect.right > window.innerWidth - 10) {
+          tooltip.style.left = `${tierRect.right - 10}px`;
+          tooltip.style.transform = 'translate(-100%, 0)';
+        }
+        // If tooltip goes off bottom of screen, show above instead
+        if (tooltipRect.bottom > window.innerHeight - 10) {
+          tooltip.style.top = `${tierRect.top - 10}px`;
+          tooltip.style.transform = 'translate(-50%, -100%)';
+          // Re-adjust horizontal if needed when showing above
+          const tooltipRectAbove = tooltip.getBoundingClientRect();
+          if (tooltipRectAbove.left < 10) {
+            tooltip.style.left = `${tierRect.left + 10}px`;
+            tooltip.style.transform = 'translate(0, -100%)';
+          }
+          if (tooltipRectAbove.right > window.innerWidth - 10) {
+            tooltip.style.left = `${tierRect.right - 10}px`;
+            tooltip.style.transform = 'translate(-100%, -100%)';
+          }
+        }
+      }, 0);
+    });
+
+    // Hide tooltip when leaving tier badge
+    tierWrapper.addEventListener('mouseleave', () => {
+      tooltipTimeout = setTimeout(() => {
+        if (tooltip && tooltip.parentElement) {
+          tooltip.style.display = 'none';
+          tooltip.remove();
+        }
+      }, 200);
+    });
+
+    // Keep tooltip visible when hovering over it
+    tooltip.addEventListener('mouseenter', () => {
+      if (tooltipTimeout) {
+        clearTimeout(tooltipTimeout);
+        tooltipTimeout = null;
+      }
+    });
+
+    // Hide tooltip when leaving it
+    tooltip.addEventListener('mouseleave', () => {
+      if (tooltip && tooltip.parentElement) {
+        tooltip.style.display = 'none';
+        tooltip.remove();
+      }
+    });
+  }
+
+  tierWrapper.appendChild(tierBadge);
+  return tierWrapper;
 }
 
 // Process all player-card-inner elements on the page
@@ -88,122 +287,56 @@ function processCards() {
       // Mark as processed
       cardContainer.dataset.processed = 'true';
 
-      // Get tier color
-      const tierColor = getTierColor(card.tier);
+      // Get primary tier color for border (use baituTier if available, otherwise first available)
+      let primaryTierColor = '#9e9e9e';
+      if (card.baituTier && card.baituTier.trim() !== '') {
+        primaryTierColor = getTierColor(card.baituTier, 'baitu');
+      } else if (card.enTier && card.enTier.trim() !== '') {
+        primaryTierColor = getTierColor(card.enTier, 'en');
+      } else if (card.chenTier && card.chenTier.trim() !== '') {
+        primaryTierColor = getTierColor(card.chenTier, 'chen');
+      }
 
       // Add border and rounded corners to the card container with tier color
       cardContainer.classList.add('ag-card-enhanced');
-      cardContainer.style.borderColor = tierColor;
+      cardContainer.style.borderColor = primaryTierColor;
 
-      // Create wrapper for tier badge and tooltip
-      const tierWrapper = document.createElement('div');
-      tierWrapper.className = 'ag-tier-wrapper';
-      tierWrapper.style.backgroundColor = tierColor;
+      // Create container for three tier badges (side by side, centered)
+      const tierContainer = document.createElement('div');
+      tierContainer.className = 'ag-tier-container';
+      tierContainer.style.display = 'flex';
+      tierContainer.style.gap = '8px';
+      tierContainer.style.justifyContent = 'center';
+      tierContainer.style.alignItems = 'center';
+      tierContainer.style.flexWrap = 'nowrap';
 
-      // Create tier badge
-      const tierBadge = document.createElement('span');
-      tierBadge.className = 'ag-tier-badge';
-      tierBadge.textContent = card.tier;
+      // Create three tier badges: baitu, en, chen (only if tier exists)
+      const baituBadge = createTierBadge(
+        card.baituTier,
+        card.baituDesc,
+        'baitu',
+        'baitu'
+      );
+      const enBadge = createTierBadge(
+        card.enTier,
+        card.enDesc,
+        'en',
+        'en'
+      );
+      const chenBadge = createTierBadge(
+        card.chenTier,
+        card.chenDesc,
+        'chen',
+        'chen'
+      );
 
-      // Create tooltip only if desc exists and is not empty
-      const hasDesc = card.desc && card.desc.trim() !== '';
+      // Only append badges that exist (not null)
+      if (baituBadge) tierContainer.appendChild(baituBadge);
+      if (enBadge) tierContainer.appendChild(enBadge);
+      if (chenBadge) tierContainer.appendChild(chenBadge);
 
-      // Add "+" indicator if has desc
-      if (hasDesc) {
-        const descIndicator = document.createElement('span');
-        descIndicator.className = 'ag-desc-indicator';
-        descIndicator.textContent = '+';
-        tierBadge.appendChild(descIndicator);
-      }
-
-      if (hasDesc) {
-        const tooltip = createTooltip(card.desc, card.tier);
-        tooltip.className = 'ag-card-tooltip ag-tooltip-hover';
-        tooltip.style.display = 'none'; // Initially hidden
-
-        let tooltipTimeout = null;
-
-        // Show tooltip on tier badge hover
-        tierWrapper.addEventListener('mouseenter', (e) => {
-          e.stopPropagation();
-
-          // Clear any pending timeout
-          if (tooltipTimeout) {
-            clearTimeout(tooltipTimeout);
-            tooltipTimeout = null;
-          }
-
-          // Remove other tooltips
-          document.querySelectorAll('.ag-card-tooltip').forEach(t => {
-            if (t !== tooltip) {
-              t.style.display = 'none';
-              t.remove();
-            }
-          });
-
-          // Add tooltip to body if not already there
-          if (!document.body.contains(tooltip)) {
-            document.body.appendChild(tooltip);
-          }
-
-          // Show tooltip
-          tooltip.style.display = 'flex';
-
-          // Position tooltip above the tier badge
-          const tierRect = tierWrapper.getBoundingClientRect();
-          tooltip.style.top = `${tierRect.top - 10}px`;
-          tooltip.style.left = `${tierRect.left + (tierRect.width / 2)}px`;
-          tooltip.style.transform = 'translate(-50%, -100%)';
-
-          // Adjust if tooltip goes off screen
-          setTimeout(() => {
-            const tooltipRect = tooltip.getBoundingClientRect();
-            if (tooltipRect.left < 10) {
-              tooltip.style.left = `${tierRect.left + 10}px`;
-              tooltip.style.transform = 'translate(0, -100%)';
-            }
-            if (tooltipRect.right > window.innerWidth - 10) {
-              tooltip.style.left = `${tierRect.right - 10}px`;
-              tooltip.style.transform = 'translate(-100%, -100%)';
-            }
-            if (tooltipRect.top < 10) {
-              tooltip.style.top = `${tierRect.bottom + 10}px`;
-              tooltip.style.transform = 'translate(-50%, 0)';
-            }
-          }, 0);
-        });
-
-        // Hide tooltip when leaving tier badge
-        tierWrapper.addEventListener('mouseleave', () => {
-          // Small delay to allow moving to tooltip
-          tooltipTimeout = setTimeout(() => {
-            if (tooltip && tooltip.parentElement) {
-              tooltip.style.display = 'none';
-              tooltip.remove();
-            }
-          }, 200);
-        });
-
-        // Keep tooltip visible when hovering over it
-        tooltip.addEventListener('mouseenter', () => {
-          // Cancel timeout when entering tooltip
-          if (tooltipTimeout) {
-            clearTimeout(tooltipTimeout);
-            tooltipTimeout = null;
-          }
-        });
-
-        // Hide tooltip when leaving it
-        tooltip.addEventListener('mouseleave', () => {
-          if (tooltip && tooltip.parentElement) {
-            tooltip.style.display = 'none';
-            tooltip.remove();
-          }
-        });
-      }
-
-      // Add badge to wrapper
-      tierWrapper.appendChild(tierBadge);
+      // Only insert container if it has at least one badge
+      if (tierContainer.children.length > 0) {
 
       // Insert wrapper - check if already wrapped
       const parent = cardContainer.parentElement;
@@ -223,8 +356,9 @@ function processCards() {
         cardOuterWrapper.appendChild(cardContainer);
       }
 
-      // Insert tier wrapper at the top center
-      cardOuterWrapper.insertBefore(tierWrapper, cardOuterWrapper.firstChild);
+        // Insert tier container at the top center
+        cardOuterWrapper.insertBefore(tierContainer, cardOuterWrapper.firstChild);
+      }
     }
   });
 }
@@ -263,4 +397,298 @@ observer.observe(document.body, {
   childList: true,
   subtree: true
 });
+
+// Search feature
+function initSearchFeature() {
+  // Wait for player_config_row to be available
+  const checkAndInsertButton = () => {
+    const configRow = document.getElementById('player_config_row');
+    if (configRow && !document.getElementById('ag-search-btn')) {
+      createSearchButton(configRow);
+    } else if (!configRow) {
+      setTimeout(checkAndInsertButton, 100);
+    }
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', checkAndInsertButton);
+  } else {
+    checkAndInsertButton();
+  }
+}
+
+function createSearchButton(configRow) {
+  // Find and replace uwe-help div
+  const uweHelp = document.getElementById('uwe-help');
+
+  // Create search button with magnifying glass icon
+  const searchBtn = document.createElement('button');
+  searchBtn.id = 'ag-search-btn';
+  searchBtn.className = 'ag-search-button';
+  searchBtn.innerHTML = `
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11.5 10.5L9.5 8.5M10.5 6.5C10.5 8.70914 8.70914 10.5 6.5 10.5C4.29086 10.5 2.5 8.70914 2.5 6.5C2.5 4.29086 4.29086 2.5 6.5 2.5C8.70914 2.5 10.5 4.29086 10.5 6.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  `;
+  searchBtn.setAttribute('aria-label', 'Search');
+  searchBtn.addEventListener('click', () => {
+    showSearchModal();
+  });
+
+  // Replace uwe-help div with search button
+  if (uweHelp) {
+    uweHelp.replaceWith(searchBtn);
+  } else {
+    // Fallback: insert button into config row
+    configRow.appendChild(searchBtn);
+  }
+
+  // Create modal
+  createSearchModal();
+}
+
+function createSearchModal() {
+  // Create modal overlay
+  const modal = document.createElement('div');
+  modal.id = 'ag-search-modal';
+  modal.className = 'ag-search-modal';
+  modal.style.display = 'none';
+
+  modal.innerHTML = `
+    <div class="ag-search-modal-content">
+      <div class="ag-search-modal-header">
+        <h3>Search Cards</h3>
+        <button class="ag-search-close-btn" id="ag-search-close">×</button>
+      </div>
+      <div class="ag-search-modal-body">
+        <input type="text" id="ag-search-input" class="ag-search-input" placeholder="Search by No, CN Name, or EN Name..." />
+        <div id="ag-search-results" class="ag-search-results"></div>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+
+  // Close button handler
+  const closeBtn = modal.querySelector('#ag-search-close');
+  closeBtn.addEventListener('click', () => {
+    hideSearchModal();
+  });
+
+  // Close on overlay click
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      hideSearchModal();
+    }
+  });
+
+  // Search input handler
+  const searchInput = modal.querySelector('#ag-search-input');
+  let searchTimeout = null;
+  searchInput.addEventListener('input', (e) => {
+    clearTimeout(searchTimeout);
+    const query = e.target.value.trim();
+
+    if (query.length === 0) {
+      clearSearchResults();
+      return;
+    }
+
+    searchTimeout = setTimeout(() => {
+      performSearch(query);
+    }, 300);
+  });
+
+  // Handle Enter key
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const query = e.target.value.trim();
+      if (query.length > 0) {
+        performSearch(query);
+      }
+    }
+  });
+}
+
+function showSearchModal() {
+  const modal = document.getElementById('ag-search-modal');
+  if (modal) {
+    modal.style.display = 'flex';
+    const searchInput = modal.querySelector('#ag-search-input');
+    if (searchInput) {
+      searchInput.focus();
+    }
+  }
+}
+
+function hideSearchModal() {
+  const modal = document.getElementById('ag-search-modal');
+  if (modal) {
+    modal.style.display = 'none';
+    const searchInput = modal.querySelector('#ag-search-input');
+    if (searchInput) {
+      searchInput.value = '';
+    }
+    clearSearchResults();
+  }
+}
+
+function performSearch(query) {
+  if (!cardsData) return;
+
+  const results = [];
+  const queryLower = query.toLowerCase().trim();
+
+  for (const card of cardsData) {
+    if (results.length >= 3) break;
+
+    // Search by no
+    if (card.no && card.no.toLowerCase().includes(queryLower)) {
+      results.push(card);
+      continue;
+    }
+
+    // Search by cnName
+    if (card.cnName && card.cnName.toLowerCase().includes(queryLower)) {
+      results.push(card);
+      continue;
+    }
+
+    // Search by enName
+    if (card.enName && card.enName.toLowerCase().includes(queryLower)) {
+      results.push(card);
+      continue;
+    }
+  }
+
+  displaySearchResults(results);
+}
+
+function displaySearchResults(results) {
+  const resultsContainer = document.getElementById('ag-search-results');
+  if (!resultsContainer) return;
+
+  resultsContainer.innerHTML = '';
+
+  if (results.length === 0) {
+    resultsContainer.innerHTML = '<div class="ag-search-no-results">No results found</div>';
+    return;
+  }
+
+  results.forEach(card => {
+    const cardElement = createSearchResultCard(card);
+    resultsContainer.appendChild(cardElement);
+  });
+}
+
+function createSearchResultCard(card) {
+  const cardDiv = document.createElement('div');
+  cardDiv.className = 'ag-search-result-card';
+
+  // Header: No cnName enName
+  const header = document.createElement('div');
+  header.className = 'ag-search-result-header';
+
+  const noSpan = document.createElement('span');
+  noSpan.className = 'ag-search-result-no';
+  noSpan.textContent = card.no || 'N/A';
+
+  const cnNameSpan = document.createElement('span');
+  cnNameSpan.className = 'ag-search-result-cnname';
+  cnNameSpan.textContent = card.cnName || '';
+
+  const enNameSpan = document.createElement('span');
+  enNameSpan.className = 'ag-search-result-enname';
+  enNameSpan.textContent = card.enName || '';
+
+  header.appendChild(noSpan);
+  if (card.cnName) header.appendChild(cnNameSpan);
+  if (card.enName) header.appendChild(enNameSpan);
+
+  // Badges and descriptions container
+  const badgesContainer = document.createElement('div');
+  badgesContainer.className = 'ag-search-result-badges-container';
+
+  // Create badges and descriptions for each tier
+  if (card.baituTier && card.baituTier.trim() !== '') {
+    const badgeItem = createSearchTierBadgeWithDesc(card.baituTier, card.baituDesc, 'baitu');
+    badgesContainer.appendChild(badgeItem);
+  }
+
+  if (card.enTier && card.enTier.trim() !== '') {
+    const badgeItem = createSearchTierBadgeWithDesc(card.enTier, card.enDesc, 'en');
+    badgesContainer.appendChild(badgeItem);
+  }
+
+  if (card.chenTier && card.chenTier.trim() !== '') {
+    const badgeItem = createSearchTierBadgeWithDesc(card.chenTier, card.chenDesc, 'chen');
+    badgesContainer.appendChild(badgeItem);
+  }
+
+  cardDiv.appendChild(header);
+  cardDiv.appendChild(badgesContainer);
+
+  return cardDiv;
+}
+
+function createSearchTierBadgeWithDesc(tier, desc, tierType) {
+  // Create container for badge and description
+  const container = document.createElement('div');
+  container.className = 'ag-search-tier-item';
+
+  // Create badge
+  const badge = document.createElement('div');
+  badge.className = 'ag-search-tier-badge';
+  const tierColor = getTierColor(tier, tierType);
+  badge.style.backgroundColor = tierColor;
+  badge.textContent = tier;
+
+  container.appendChild(badge);
+
+  // Add description if exists
+  if (desc && desc.trim() !== '') {
+    const descDiv = document.createElement('div');
+    descDiv.className = 'ag-search-tier-desc';
+
+    // Get author information
+    let authorHeader = '';
+    if (authorsData && authorsData[tierType]) {
+      const author = authorsData[tierType];
+      const authorName = author.name || tierType;
+      const avatar = author.avatar;
+
+      if (avatar && avatar.trim() !== '') {
+        authorHeader = `
+          <div class="ag-search-desc-author">
+            <img src="${avatar}" alt="${authorName}" class="ag-search-author-avatar" />
+            <span class="ag-search-author-name">${authorName}</span>:
+          </div>
+        `;
+      } else {
+        authorHeader = `
+          <div class="ag-search-desc-author">
+            <span class="ag-search-author-name">${authorName}</span>:
+          </div>
+        `;
+      }
+    }
+
+    descDiv.innerHTML = `
+      ${authorHeader}
+      <div class="ag-search-desc-content">${desc.replace(/\n/g, '<br>')}</div>
+    `;
+
+    container.appendChild(descDiv);
+  }
+
+  return container;
+}
+
+function clearSearchResults() {
+  const resultsContainer = document.getElementById('ag-search-results');
+  if (resultsContainer) {
+    resultsContainer.innerHTML = '';
+  }
+}
 
