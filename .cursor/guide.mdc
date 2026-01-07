@@ -1,0 +1,67 @@
+---
+alwaysApply: true
+---
+
+我希望你可以结合当前目录中的几个文件进行处理。由于文件都非常大，你不应该直接读取完整文件，可以选择查看前面几行。
+
+- cards.json: 结构化文件
+- en.json: 英文结构化文件
+- Agricola Database - Database.csv
+- Agricola Database - Database (in progress).csv
+- en.json
+
+你需要执行如下步骤：
+
+1. 首先no和enName从`Agricola Database - Database.csv`和`Agricola Database - Database (in progress).csv`获取。
+列名字如下，你需要把`Deck`和`Number`拼接成一个no(注意，Number需要先补全到3位，如1 -> 001)。然后合并这两个文件，生成一个`pk.json`文件，包含no和enName(从Name获取),effect(从Text获取)。
+移除所有Deck不属于ABCDE或者Deck为空的行。
+
+`Edition,Publisher,Base/Expansion,Deck,Number,Type,Player(s),Name,Cost,VPs,Prerequisites,Passing Left,Card Category (Revised only),Text`
+
+1. 然后尝试匹配中文内容，用no匹配。
+
+`cards.json` 结构形如：
+
+```
+  {
+  {
+    "name": "吹牛大王",
+    "tier": "T0",
+    "no": "A133",
+    "desc": "xxx"
+  }
+```
+
+匹配后，name对应cnName,tier对应baituTier，desc对应baituDesc。
+
+3. 匹配 e.csv。
+
+这个文件只有 `no,name`，匹配为 cnName。
+
+4. 匹配英文。
+
+使用en.json，结构类似：
+
+```
+    {
+      "base_expansion": "Base",
+      "card_title": "Academic",
+      "category": "",
+      "cost": "",
+      "improvement_complement": "Improvements that trigger additional benefits when multiple Occupations are played, or improvements that reward high numbers of Occupations.",
+      "insight": "xxx",
+      "players": "3+",
+      "rating": 2,
+      "text": "This card counts as 2 Occupations for Minor Improvements and when scoring the \"Reeve\" Occupation card.",
+      "type": "Occupation",
+      "vps": ""
+    },
+```
+英文基于card_title匹配enName，insight匹配enDesc，rating匹配enTier。
+
+5. **生成一个索引的csv `index_raw.csv`，包含 no,cnName,enName,baituTier,enTier,chenTier,effect,baituDesc,enDesc,chenDesc 这些列。**
+6.然后，对于baituTier,enTier,chenTier,baituDesc,enDesc,chenDesc这些全都为空的情况，移除这一行，生成`index.csv`
+
+7.最终基于`index.csv`生成一个`card_all.json`，把csv转成json。
+
+8. 基于 index.csv，生成一个 index_missing.csv，包含所有cnName为空的行。

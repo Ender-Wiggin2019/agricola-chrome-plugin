@@ -1,0 +1,568 @@
+no,cnName,enName,baituTier,enTier,chenTier,effect,baituDesc,enDesc,chenDesc
+E011,,Field,,3,,"When you play this card, immediately Plow 1 field.",,"This is such a nice deal that it's often a bad deal. If you play this card remotely early, you can pretty much count on your left hand opponent using it to take SP later. Like Corn Sheaf, you need some way to break the inherent symmetry of the card for this to be worth playing. If you plan on actually using the field to grow crops, then it's usually a good deal to play the card early. Otherwise, try to wait until the later rounds to play it, as this will hopefully minimize the number of players that will be able to use it after you.",
+E012,,Fishing Rod,,3,,"Whenever you use the ""Fishing"" Action space, you receive 1 additional Food. From Round 8, you receive 2 additional Food.",,"Clearly worse than the Fish Trap, as you'd much rather be getting food as a bonus from reed (something that you usually want anyway) than on fishing, which is both unreliable and gives no benefit other than food. Still, this will probably give a comparable amount of food over time.",
+E013,,Axe,,4,,"Whenever you add a room to your Wooden hut, you only pay 2 Wood and 2 Reed.",,"The Axe's power varies wildly depending on the number of players. In 2-p, it can be very awkward, since usually you have to wait for the stone spot to appear in stage 2 before you can play it. In 3-p, it's somewhat easier to play (you can just rawdog the crappy wildcard resource spot), but the benefit it gives is reduced by the crushingly small amount of reed available. In 4-p the card becomes very powerful because of the RSF spot, and in 5-p it becomes an unquestionable 5 star card due to the 1S1W + R spot. In any case, the Axe is fantastic once you get it out; you will usually be able to get to 4+ rooms with it. If you build 3 wooden rooms, you are saving 8W. That's obscene.",
+E014,,Baker's Oven,,4,,"Whenever you use the ""Bake bread"" action, you can use the Baker's Oven to convert up to 2 Grain into 5 Food each. When you play this card, you can also take the ""Bake bread"" Action.",,"Obviously the best of the three Bakers improvements. You know whats better than 2VP for 2 stone? 1VP for no stone! Unlike the other two cards, this is a genuine incentive to go baking, as you will always be able to play this easily, ensuring you crucial bake actions at godly efficiency.",
+E015,,Baking Tray,,4,,"Clay Ovens and Stone Ovens are Minor Improvements for you. Clay, Stone and Wood-fired Ovens cost you 1 building resource (of your choice) less.",,"Baking Tray Baking Tray In 2-p and 3-p this card is amazing, and sometimes enough incentive for me to go baking all by itself. Saving you the early stone you need to get the Clay Oven is crucial, and being able to buy the oven with SP is fantastic as well. Since no one is likely to compete with you for the oven in 2-p and 3-p, you can plan around it. In 4-p and 5-p the value drops a bit, since getting the early stone is less crucial. Moreover, you are more likely to have competition for the clay oven, which makes the baking tray a riskier play (since it tips your hand). However, in any case it is a solid improvement that's usually worth the 1W if you plan on baking.",
+E017,,Windmill,,1,,"At any time, you can convert Grain to 2 Food (without having to Bake bread.)",,"Early game, being able to convert 1G to 2F is too inefficient to be worth the substantial cost. Late game, there are more efficient ways to convert resources to points. You pretty much always have something better to do with the three wood.",
+E020,,Simple Fireplace,,4,,"At any time, you may convert goods to Food as follows: Vegetables: 2 Food Sheep: 1 Food Wild Boar: 2 Food Cattle: 3 Food Whenever you use the ""Bake bread"" action, you may convert: Grain: 2 Food.",,"Simple Fireplace Simple Fireplace This is another card that can ruin the early fireplace. If you take SP with it for the final round of actions, you will be able to eat the sheep (albeit inefficiently) and hose the fireplace buyer that was letting them accumulate. After that, the free upgrade to a Cooking Hearth should be able to get you a decent long-term feeding strategy. Particularly in advanced games, when your opponents understand the importance of the first fireplace, this can be an excellent offensive tactical card. It can also be a reasonably cheap way to get a Cooking Hearth.",
+E024,,Animal Pen,,3,,"Place 2 Food on each remaining Round space. At the start of each round, you receive the Food.",,"Animal Pen Animal Pen I've seen this card hang a lot of newer players who try to get this thing out as early as possible, no matter what their hand is. Don't be that guy. If you have to play 2 occupations you didn't really want to get out, it's probably not worth it because it neglects family growth. On the other hand, if you're lucky enough to have 3 - 4 early game occupations that you wanted to get out anyway, this play can be a backbreaker. The card gets much stronger if you are doing some sort of drafting, as it combos almost unfairly well with the Patron, Academic and Perpetual Student. With drafting you're also more likely to have four early game occupations that you actually want to play.",
+E025,,Spices,,3,,"Whenever you convert Vegetables to Food using a Fireplace, Cooking Hearth or Cooking Corner, you receive 1 additional Food.",,"Well, it's free, and you can't argue with that. Still, most of the time you don't end up eating vegetables, as they're too valuable in terms of points and come at an awkward stage in the game. Clearly if you plan on eating vegetables, this is a must-play. If you're not sure one way or the other, the fact that it's free means that either way it won't be too big of a mistake.",
+E027,,Wood-Fired Oven,,2,,"Whenever you use the ""Bake bread"" action, you can use the Wood-fired Oven to turn any number of Grain into 3 Food each. When you play this card, you can also take the ""Bake bread"" action.",,"Wood-fired Oven Wood-fired Oven A little better than the Windmill, but is bad for
+the same reasons. It's not efficient enough to be a food engine on its own, and
+its not enough points to justify the resource cost. Still, this has some use as
+a way to get another bake action in the mid to late game. It can also be
+returned for one of the three super ovens.",
+E029,,Shepherd's Pipe,,2,,You can hold up to 2 additional Sheep in each of the pastures where you keep Sheep. You can keep up to 2 Sheep in each unfenced stable.,,"There's a bit of a chicken and egg problem here. Before you can get room for sheep, you have to have sheep! The optimal use for the card is to build a stable, get exactly two sheep, and use this to make room for your lamb in the next harvest. However, putting this narrow plan into action is difficult, as you won't always have time to play a minor improvement in the tiny window between getting the two sheep and going to harvest.",
+E031,,Carp Pond,,5,,"Place 1 Food on each remaining odd-numbered Round space. At the start of these rounds, you receive the Food.",,"The prerequisites should be trivially easy to meet by the midgame, and free 1VP minors that give some small benefit are alwa
+ys worth playing. You should probably get used to me saying that, because this isn't the last time you're going to hear it.",
+E033,,Ceramics,,3,,"When you play this card, you receive 2 Food. From now, the Pottery is a Minor Improvement for you and costs you nothing.",,"This is a pet favorite. One clay for 2 food isn't even that bad a deal by itself (see: the Potter), and then later you can retake SP with a free 2VP improvement to go with it. Not only is this a must-play if you have an oven, it should actually be a small incentive to go baking.",
+E036,,Clay Roof,,5,,You can replace 1 or 2 Reed with the same amount of Clay whenever you extend or renovate your home.,,"I'm not sure how this card was ever perceived as fair in development. Free 1VP occupations with inconsequential prerequisites are pretty much always worth playing, but in this case the extra ability is quite powerful. The only caveat is that you should be careful that you're not giving your opponents easy access to reed. For instance, if you're in a 3-p game and have a choice between 3C and 2R, you should consider taking the 2R to deny your opponents. As long as you're playing smartly, however, this card is borderline overpowered and a must play whenever you draw it.",
+E038,,Madonna Statue,,2,,The Madonna Statue has no effect. (You must remove Improvements that are on the table in front of you. You may not discard cards from your hand. It is irrelevant whether you remove Major or Minor Improvements.),,"The best cards in the deck are ones that give VP for no cost. Ironically, this means that the Madonna Statue is pretty bad, despite being a card that gives VP for no cost! Most of the time, you simply won't have two improvements that aren't worth VP sitting around. Instead, you'll usually have to chuck a 1VP improvement along with a no VP improvement, and with no additional benefit this usually isn't a good deal.",
+E044,,Outhouse,,,,The Outhouse has no effect. You can only build it if at least one other player has fewer than 2 Occupations. (It is irrelevant how many Occupations you have played.),,"I hate this card. Just compare this to the Horse, which is free and has a much easier prerequisite. Usually by the time you're willing to trade wood and clay for straight-up VPs, your opponent's will have played out two occupations anyway. This probably would have been fairly costed at 1C.",
+E047,,Lettuce Patch,,3,,"On this card, you can plant Vegetables as you would on a field. Vegetables on this field can be converted to 4 Food when harvested. (This card does not count as a field when scoring.)",,"Lettuce Patch Lettuce Patch Compared to the Beanfield, the minor upgrade
+doesn't quite make up for the increased Occupation requirement. It's still a
+must play if you've been playing an occupation heavy game, but probably isn't
+worth the effort if you only have 1 or 2 good occupations in your hand (which
+is often the case).",
+E048,,Reed Pond,,4,,"Place 1 Reed each on the next 3 Round spaces. At the start of each round, you receive the Reed.",,"Reed Pond Reed Pond In 3-p, this card can engineer blowouts. While the
+other players are scrambling for the reed, you can just play out occupations
+and then this, avoiding the fight altogether. In other modes, playing this late
+will sometimes save you a full action, as you won't have to make a reed grab
+for renovation. While three occupations is a lot, this has a strong enough
+effect to usually be worth prioritizing.",
+E050,,Builder's Trowel,,3,,"You can Renovate your Wooden hut to a Clay hut at any time without using the ""Renovate"" action. (You must still pay for the Renovation.)",,"Builder's Trowel Builder's Trowel I find myself skipping this a lot of the time. I
+don't like paying 1W for something I could have done for free, and the fact
+that you can't play a major improvement along the way further reduces the
+card's efficiency. Sometimes you'll look at your hand after you FG and have
+nothing better to play, but you're not losing much value by just keeping it in
+your hand. The value of the card goes up, however, if you
+plan on playing an occupation that requires you to renovate to clay quickly.
+It's also slightly better in larger games, where getting blocked from
+renovation becomes more of an issue.",
+E051,,Spindle,,3,,"Whenever you have 3/5 Sheep during the Field phase of a Harvest, you receive 1/2 additional Food.",,"Spindle Spindle If you plan on herding sheep, this is worth
+bringing out every time. Once you get to 3 sheep you will essentially be
+getting 3 food every harvest, since you can get 1 food in the field phase, then
+slaughter a sheep to make room for the lamb. All told, the Spindle should be a
+no mess 3-5 food, depending on how early you get your sheep.",
+E053,,Butter Churn,,2,,"Whenever you have Sheep during the Field phase of a Harvest, you receive 1 Food for each third Sheep. Whenever you have Cattle during the Field phase, you receive 1 Food for each second Cattle.",,"Butter Churn Butter Churn 2W is a little too much for what this does. It's
+pretty rare to be lucky enough to have a bunch of cattle AND sheep, so most of
+the time this will play like an overcosted spindle.",
+E055,,Stone House Extension,,2,,"When you play this card, immediately extend your Stone house by 1 room. (The room does not cost anything, but you must pay the cost shown to play this card.)",,"Stone House Extension Stone House Extension The value of the card is lessened by the simple
+existence of the Family Growth without Room spot. The more likely you are to
+get the spot, the less likely it is that this late-game card is going to help
+you grow your family. Viewed strictly as a 3 point play, the card is fairly
+underwhelming; both the Well and the Stone Oven are better with comparable
+cost. The fact that this is a minor isn't too relevant, since renovating to
+stone implies at least one chance to get a major.",
+E056,,Stone Tongs,,4,,"Whenever you use one of the ""Stone"" Action spaces that become available in Stage 2 and Stage 4, you receive 1 additional Stone.",,"Stone Tongs Stone Tongs This is fantastic and compares very favorably to
+cards like Stone Cart and Stone Exchange. Not only does it encourage you to
+deny your opponents stone, but it also gives the stone up front, so that you
+can use it immediately.",
+E058,,Animal Yard,,5,,On this card you can hold up to 2 animals of you choice. They need not be the same type of animal. (This card does not count as a pasture for scoring.)(This card does not give you animals.),,"Animal Yard Animal Yard Along with being a half cost pasture, the SP
+attached lets you snipe a breeding pair of animals from your opponents. With a
+trivial prerequisite and a cheap cost, I play this every time I get it. It's
+easily one of the best improvements in the deck.",
+E060,,Cattle Market,,1,,"When you play this card, return 1 Sheep to the supply and take 1 Cattle.",,"Cattle Market Cattle Market This is almost never worth playing. Obviously the
+temptation here is to try to get early cattle with this, but if you have a
+sheep to give to this, it's probably more efficient to just breed the sheep you
+spent an action taking (you didn't just take ONE sheep, did you?). Yes, I'm
+aware of the animal spot in 5-p. Even then, taking 1 sheep, then trading it for
+a cow, and then taking a cow just seems like a waste of time. Why don't you
+just take 1 cow twice? The only use this card tends to have is as a bad,
+highly conditional horse. If you have some awkward number of sheep near the end
+of the game and haven't managed to get cattle, go ahead and play it.",
+E061,,Riding Plow,,3,,"Twice during the game, when you use either the ""Plow 1 field"" or ""Plow 1 field and/or Sow"" action, you can Plow 3 fields instead of 1.",,"Riding Plow Riding Plow While its power is undeniable, this is my least
+favorite plow. For one, the 4W, 3 Occ price tag is extremely steep. Second,
+since every field after the 5th is generally unnecessary, maximizing the plow's
+value requires that you don't plow a single field before you play the card out.
+Even then, you still get an almost useless 6th field. Many times I've seen players excitedly play this
+card out, only to be disappointed in their final score. A lot of the time, the
+exorbitant cost on the card (coupled with the hidden cost of not being able to
+plow for almost the entire game) make it more trouble than it's worth.",
+E062,,Turnwrest Plow,,4,,"Once during the game, when you use either ""Plow 1 field"" or ""Plow 1 field and/or Sow"" action, you can Plow 3 fields instead of 1.",,"Turnwrest Plow Turnwrest Plow Compared to the Crooked Plow, the ability to use
+this with your plow and/or sow doesn't quite make up for the increased
+occupation requirement. Nonetheless, this is still an excellent card that I
+almost always try to get out.",
+E147,,Land Agent,,3,,"Whenever you use the ""Take 1 Vegetable"" Action space, you also receive 1 Grain. When you play this card, you receive 1 Vegetable from the supply.",,"Land Agent This is the worst early vegetable card. When you get the early vegetable,
+you're going to want to sow it. However, sowing just 1 vegetable is usually a
+bad deal, so you'll probably take a grain and plow 2 fields before you sow.
+Then, when the 'Take one Vegetable' space appears, you'll look at your 4
+vegetables and your sown grain and wonder why you would ever want 1 more of
+either. Has some use in that sometimes you just need to get your 4th occ, and paying
+1F1A for an early vegetable is only somewhat of a raw deal.",
+E148,,Academic,,2,,"This card counts as 2 Occupations for Minor Improvements and when scoring the ""Reeve"" Occupation card.",,"Academic This card's sole use is as a stepping stone to the minor improvements that
+require 3 or 4 occupations, and is fine (but not spectacular) in that narrow
+role. At best he is saving you 1F1A to just play another Occ. Usually, the
+benefit will be less than that due to the fact that playing 2 different occs
+would give you at least some sort of beneficial effect.",
+E149,,Master Baker,,1,,"Whenever another player Bakes bread, you can Bake bread if you have a Baking Improvement with the bread symbol. If you take a Bake action yourself (not using this card), you receive 1 additional Food.",,"Master Baker It's actually pretty rare for a game to have more than one baker, since there
+is only one clay oven. Moreover, the extra bakes are usually going to be too
+random to be very useful. The extra 4 or so food he gives over time isn't
+particularly impressive, either.",
+E150,,Baker,,4,,"During each Harvest, you may Bake bread at the start of the Feeding phase if you have an Improvement with the bread symbol. When you play this card, you may Bake bread as an additional action.",,"Baker True to his name, this is one of the best occupations for Baking in the game.
+Assuming you play him with an oven and two grain fields, you should never go
+hungry. The strength of this Occ varies depending on the number of players in the game.
+In a 2-p game, baking strategies are horrible. For one thing, there is no early
+way to get stone. For another, there are so many animals in a 2er that you not
+only want them for yourself, but want to prevent your opponent from having all
+of them! In a 3-p, baking is still pretty bad due to the lack of early stone,
+but often the Baker is powerful enough to merit playing him anyway. In 4-p and 5-p, baking is viable enough to make the Baker a strong incentive to
+bake.",
+E152,,Berry Picker,,3,,"Whenever you use a Family member's action to take Wood, you receive an additional 1 Food.",,"Berry Picker An extremely annoying card - I've taken to calling myself 'berry-picked' in
+games where someone plays this or the Mushroom Collector and spends every round
+taking wood. However, this card is not quite as strong as it seems. Ultimately, it's worth
+about 5 or 6 food by the end (assuming they take wood 6 or 7 times), which is
+only passable given that the food is delivered over time. What makes the card
+seem stronger than it actually is is that it causes newer players to value the
+wood spots correctly. In 5-p, the Berry Picker can be used to spam the WSR spot, giving it added
+utility.",
+E153,,Mendicant,,1,,"At the end of the game, you can discard up to 2 Begging card without losing points for them.",,"Mendicant I still think that the only time that the mendicant gives any sort of
+substantial benefit is if the action you take as an alternative allows you to
+take an accrued resource, get family growth a turn earlier, or provides some
+benefit not usually available. The idea behind the Mendicant, it is being proposed, is that it will
+give not only one, but likely all of these things, simply by merit of the fact
+that it allows one to advance play by an entire action and, thus, an entire
+round. The disconnect between this proposed concept and your interpretation
+thereof seems to be a disjoin between the abstract and the demonstrable. Usually, when speaking of choices in this game, it's practical, or at least
+feasible, to reference what's been gained based on a choice. Building early
+stables, for example, lets you breed sheep for food. Double plow and sow before
+the first harvest can get an early grain engine going. And so forth. In this
+situation, however, it's counterintuitive to be specific when speaking about
+the Mendicant and what benefit, direct or indirect, it may or may not offer if
+its 'food loan' is exercised. The Mendicant's loan does not offer sheep or
+family growth, per say. Instead, abstractly, it offers pace pace . Pace is the most precious resource in Agricola. It is amorphous, undefined. Yet
+it undeniably exists, and exerts its influence upon every round, upon every
+action, from start of game to end. Pace largely (though not entirely!)
+determines who gets their food engine going sooner, who gets their house
+enlarged sooner, who gets their family grown sooner. It determines who has time
+to spare to gather particular, specific resources and who does not. It
+determines who has time to fiddle with Start Player due to a surplus of pace;
+or, it determines who is compelled to fiddle with Start Player to accommodate
+for a lack of it. In a passive-interaction, economic competition game, pace is
+king. The Mendicant is unique insofar as it offers an opportunity that no other card
+does. It gives the player a choice, a meta-game choice, to decide to gain gain early game pace at the expense of
+(presumably) late-game pace. It offers this power just by merit of sitting in
+the owner's hand; the option is exercised first, the cost (i.e., putting out
+the card) is paid later. In your observation, you critique the player for choosing not to eat his grain
+and vegetable, by merit of the supposition that he could simply replace them in
+the next round. The counterpoint is that by exercising the Mendicant option, he
+didn't have to take the time to replace the grain and vegetable. Instead, he
+immediately went on to the next step in his plan, which was to use these
+resources to launch his food engine. He advanced along his intended strategic
+path, rather than repeating or, worse, regressing upon it. He gained pace.
+Perhaps in fact he merely gained a single action. But this single action can be
+crucial, critical. Surely you have played often enough to have a fireplace
+snatched from your fingertips, to have animals slaughtered in someone else's
+kitchen rather than your own, to be ready to enlarge your home or grow your
+family only to see yourself unable to do so for want of a single, extra action
+ahead of an opponent's. Now instead think upon the games wherein your position
+was well enough laid out, your pace ever so slightly ahead of the pack, that it
+was you, and not them, who got that first family growth, forcing them to wait
+another round to grow theirs whilst you enjoyed the fruits of your labor. The
+Mendicant in your hand helps you to ensure the latter to occur more often than
+the former. And the effective is cumulative, arguably. The Mendicant saves us an action,
+inherently -- the action of collecting two food. Instead, that action is spent
+on something more beneficial to short-term strategy, such as collecting reed or
+wood for building a home extension. This in turn could lead us to growing our
+family one round earlier than we would have otherwise been able to. By growing
+our family one round early, we've now gained *another* action. That action,
+too, sets our pace forward more rapidly, eventually letting us again expand our
+home and grow our family earlier, netting us still yet another action. Pace is
+self-perpetuating; it is exponential in its rewards. And the earlier the seed,
+the more bountiful the harvest. And all of this pace acceleration has a strong, I would even argue devastating,
+effect on the rest of the players. The extra action(s) you gained can be used
+to gather pace-related resources. More resources for you means less for them;
+even snatching a simple stack of 3 wood is enough to ruin another player's
+plans of family growth for who knows how long. Whereas, the players who have to
+scrounge around on the Day Laborer space are simply leaving those resources
+around for others to take. That's an enormous swing in the early game. Indeed: it was just this sort of swing that spawned the discussion from which
+this thread emerged. Someone expended their 'extra' Mendicant action to take
+the sheep away from another player. That player's game was devastated. That
+player (a) had to waste his last action; (b) still took a horrid amount of
+begging negatives; and (c) now *still* has to scrounge around for sheep to get
+his food engine going for the next harvest. His pace was shredded. The
+Mendicant holder's pace was hardly affected. That's an amazing boon. That said, the Mendicant is hardly a powerhouse. You're not going to
+want to play this every time - just when a very juicy opportunity presents
+itself. Moreover, a smart player is going to see you take those 2 begging cards
+and immediately know that you plan on Mendicant'ing your way out. Especially if
+you're in 2-p, she might then try to block the occupation square in the last
+round to blow you out",
+E154,,Master Brewer,,3,,"In the Feeding phase of each Harvest, the Master Brewer can convert up to 1 Grain to 3 Food.",,"Master Brewer Being able to convert 1 grain to 3 food every harvest without taking a bake
+action is a very good deal. While this can't be your main source of food, a
+single sowed grain field can be a nice secondary food source to tide you over
+while you set yourself up for family growth and a more robust food engine. His usefulness is limited, however, by the fact that you need to be sowing
+grain in the early game to use him. This isn't always the best path to go, as
+the Master Brewer on his own isn't quite a good enough reason to prioritize
+grain sowing over FG and early fireplace (which, barring cards, are the
+superior lines of play).",
+E155,,Bread Seller,,2,,"You receive 1 Food for the supply for each Grain that is baked whenever any player (including you) Bakes bread. (To Bake, you need a Baking Improvement with the bread symbol.)",,"Bread Seller Pretty much worthless if only one person is baking bread, and given the
+difficulty in acquiring the stone oven, this is almost always the case. One argument I've heard for him is that it turns your Cooking Hearth into an
+unlimited Stone Oven. The main problem with this line of thought is that you
+are going to need to be baking a LOT before the food bonus this guy gives
+becomes worth the 1F1A. How often do you actually find yourself baking 6+
+grain?",
+E157,,Thatcher,,3,,"Pay 1 Reed less to Build each room, for each Renovation, and for each of the Water Mill, Half-timbered House, Chicken Coop, Holiday Home, Mansion and Corn Storehouse.",,"Thatcher The Thatcher is usually worse than the Reed Collector, since you still have to
+spend another action collecting reed to build your first room. Note that the
+minor improvements he reduces doesn't include the Landing Net or Reed Hut
+(which would be great with him) and does include the Holiday House, Corn
+Storehouse and Water Mill (which are close to unplayable). Still, in games
+where reed is tight, he can be a nice boost.",
+E158,,Turner,,1,,"At any time, you can use the Turner to convert any number of Wood to 1 Food each.",,"Turner Another terrible conversion occ. In fact, this is one of the worst ones.",
+E159,,Head of the Family,,4,,"You can use any Build room(s) or Family growth Action space, even if another player has already placed a person on it.",,"Head of the Family In 4-p games, Head of the Family is amazing. With 4 players competing for the
+Build Room(s) and FG spots, people get edged out a good deal. Oftentimes
+someone will take SP just to ensure an early FG in the next round. Combined
+with the ability to take FG w/o room as your last action one or two times in
+the end game, he is almost a must play regardless of the rest of your hand. In 5-p games, his utility decreases - with 2 FG spots and 2 build room spots,
+you are once again unlikely to get blocked. While he does help you get the
+'good' Build Room and FG spots, the chance to buy a stable or some
+random minor improvement isn't usually that essential. A key weakness of this occ is that while you won't ever get blocked from the
+relevant spots, you also will tend to refrain from blocking anyone else. The
+result is often higher scores for everyone, not just yourself.",
+E160,,Farmer,,1,,"The next time you build fences, take 1 Wild boar. Each time you build at least 1 fence after that, take 1 Cattle.",,"Farmer I don't think I've ever seen this guy used well. People seldom build fences
+more than one or two times. The fact that it gives you a boar at the beginning
+means that you have to build fences three three times
+before you can get a breeding pair of cattle. That's far too much trouble to
+ever be worth it.",
+E161,,Fisherman,,3,,"Whenever you use the ""Fishing"" Action space, you can choose to take twice as much Food as is on the space. If you do this, you must give 1 Food each to the Fishing Rod, Raft, Canoe, Fish Trap and Landing Net.",,"Fisherman Assuming you're playing with all of the decks, the various fisherman
+improvements should be fairly rare. Even if one gets played, it's not too bad
+because that player is less likely to take the Fishing spot from you to deny
+you food. As a whole, this card works best when played with semi-experienced players.
+Good players tend to avoid the fishing spot unless it gets to 4 or even more,
+but will adjust to deny you the food if you let the spot get too high. Newer
+players that struggle with feeding their family will take it when it's at 3 or
+even 2. As a result, the presence of even one newbie can hurt this occ a lot.
+The sweet spot is a group of players who are right in between: they can feed
+their family reasonably well without resorting to fishing, but aren't too
+concerned with what you're doing. That said, the ability to get 6 or even 8 food with a single action is amazing,
+especially if this happens early. Just make sure you don't get too greedy;
+players will eventually deny you the food if you let the spot pile too high.",
+E162,,Meat Seller,,3,,"If you have an Oven, you can change your animals into Food an any time. Take 2 Food for each Sheep, 3 for each Wild boar and 4 for each Cattle.",,"Meat Seller A 1 food cooking hearth is a decent deal. This lets you get in on eating
+accumulated animals without having to muck around collecting clay. This guy's
+worth is highly conditional, but he's a fine play when the conditions are met.",
+E163,,Field Warden,,3,,"You can use the ""Take 1 Vegetable"", ""Plow 1 field"" and ""Plow 1 field and/or Sow"" action even if another player has placed a person on the space.",,"Field Warden Guaranteeing you 'Take 1 Vegetable' is almost irrelevant, since that square is
+usually unpopular enough that you can take it if you really want to. The real
+draw of this card is the 'Plow and Sow' part. You can get 2 or 3 guaranteed
+'Plow and Sow' actions, which is an undeniably strong spot. However, he's even
+stronger than that. In the final round of the game, he ensures that you can
+plow before before you plow and sow. This is always the
+optimal order to do the two actions, and the Field Warden is one of the only
+ways to enable this play.",
+E164,,Master Forester,,2,,"Include the ""2 Wood"" Action card from the 3-player game as an additional forest. At the start of each round, place 2 Wood on the card. Any player who uses this action must pay you 2 Food.",,"Master Forester The lower barrier to take the wood means you won't be able to get away with
+letting it get to 8W - at that stage someone is probably going to grab it, and
+feeding your opponents that much wood is never a good idea. On the other hand,
+being able to get repeatedly get 6W basically unmolested can be a huge boon.
+However, you have to consider that the action you're using taking it could be
+taking wood off the board from your opponents.",
+E166,,Undergardener,,4,,"Whenever you use the ""Day Laborer"" Action space, you also receive 1 Vegetable.",,"Undergardener The Undergardener isn't quite as good as the Seasonal Worker, but he's still
+amazing. The power of early vegetables can't be denied, and the 2 food that
+comes with each of them gives you enough time to get them into the ground.
+After that, it's just a matter of getting a hold of a cooking hearth, and
+you're set on food for the rest of the game. This guy comes out pretty much every time someone draws him.",
+E167,,Conjurer,,3,,"Whenever you use the ""Traveling Players"" action on an Action space, you receive 1 Grain in addition to the Food.",,"Conjurer This is obviously worse than the seasonal worker, but not much more so. Playing
+it turn 1 and then taking TP on rounds 2 and 4 is an ok way to get a grain
+engine started.",
+E168,,Greengrocer,,4,,"Whenever you use the ""Take 1 Grain"" Action space, you also receive 1 Vegetable.",,"Greengrocer Very good. Plow two fields, take a grain and a veggie, and sow away. He suffers
+a bit from splitting you two ways - a part of you wants to use the early
+veggies for food with a cooking hearth, while the grain he forces you to take
+leans you toward baking. This prevents him from being a 5 star card, but he is
+still great.",
+E169,,Storyteller,,3,,"Whenever you use the ""Traveling Players"" action on an Action space, you can leave 1 Food on the space and take 1 Vegetable instead.",,"Storyteller This guy is pretty obviously inferior to the Undergardener, but early
+vegetables are early vegetables. He can also be used by ranchers to set up a
+couple of 6 or 7 food plays later on. Obviously this decreases in value if
+someone else has already played a TP card.",
+E170,,Estate Manager,,1,,"At the end of a 3/4/5 player game, if no player has more animals of any type than you, you receive 2/3/4 Bonus points.",,"Estate Manager In 3-p, this is obviously bad. A conditional 2 VPs for 1F1A? Really? Just plow
+a field instead. In 4-p and 5-p, his conditions become too difficult to
+actually achieve.",
+E171,,Dock Worker,,2,,"At any time, you can use the Dock Worker to convert 3 Wood to either 1 Clay, 1 Reed or 1 Stone, or to convert 2 Clay, 2 Reed or 2 Stone to 1 other building resource.",,"Dock Worker This is the most inefficient conversion Occ in the game, but can have limited
+use solely because of his versatility. You will almost never want to use him
+simply because you're getting such a raw deal, but if the game is somehow
+flooded with a particular resource (for instance, you have the Clay Mixer), he
+can give you a resource that's comparatively scarce.",
+E172,,Chief,,3,,"At the end of the game, you receive 1 Bonus point for each room in your Stone house. (In total, you receive 3 points per room instead of 2.) Playing this card costs an additional 2 Food.",,"Chief: Extra cost: 2 food The extra food shouldn't be too much of a hassle in the final round, and this
+guy will usually be worth 4 VPs - a great deal for one action. If you have the
+stone house and plenty of food, he's always worth it.",
+E173,,Chief's Daughter,,3,,"If another player plays the ""Chief"" card, you can play this card immediately at no cost. (You can also play it using an Action space in the usual way.) At the end of the game, you receive 3 Bonus points if you have a Stone house, 1 if you have a Clay hut.",,"Chief's Daughter: 1F1A for 3 VP is a solid deal, but hardly a game-breaking one. Since I mix the
+decks together, I've never seen the Daughter come out for free.",
+E174,,Tutor,,1,,"At the end of the game, you receive 1 Bonus point for each Occupation that you play after this one.",,"Tutor This card requires you to play him early when actions matter the most, and then
+does nothing until the very end of the game. That's not a recipe for a good
+card. That said, he and the Perpetual Student are an amazing combo. Often, you will
+be able to play out your entire hand of occupations, making him a 6 point play.
+Nice!",
+E175,,Hedge Keeper,,3,,"Whenever you build at least 1 fence, you can build 3 additional fences without paying any additional Wood. (You can only place fences if they enclose a complete pasture.)",,"Hedge Keeper If you build fences twice, this is worth 6 wood. Not a bad deal if you want a
+lot of fences.",
+E176,,Woodcutter,,3,,You receive 1 additional Wood whenever you use a Family member's action to take Wood.,,"Woodcutter If you're taking wood as much as you should be, he'll probably be worth about 5
+wood by the end of the game, and most of that wood will come early. That's a
+reasonably good deal, but the fact that you have to play him before you take
+any wood hurts.",
+E177,,Wooden Hut Builder,,3,,"At the end of the game, you receive 1 bonus point for each room in your Wooden hut.",,"Wooden Hut Builder An interesting alternative to renovating. If you can get to stone then you
+probably want to go ahead and do that, but if you think you're going to get
+stuck at clay, it might be worth it to just play this guy instead. The fact
+that you don't have to waste time grabbing clay sometimes means that you can
+focus on getting to a 5 room wood house, which in turn let's you get FG without
+having to resort to the 'FG even w/o room' space.",
+E178,,Hut Builder,,4,,"Play this card during Stage 1. At the start of Round 11, you can extend you hut by 1 room at no cost, as long as you have not yet renovated to a Stone house.",,"Hut Builder Being forced to play him in Stage 1 is rough, but the 2 reed, 5 wood/clay and
+build room action he eventually saves is well worth it. You never want to
+renovate to stone before round 11 anyway, so the restriction is almost
+irrelevant. Just make sure you're not blocked from family growth on round 11,
+and consider renovating to clay a bit early to save 1 clay.",
+E179,,Merchant,,1,,"Whenever you use the ""Minor Improvement"" or ""Minor or Major Improvement"" action, you can pay 1 Food to use the action a second time.",,"Merchant Unlike the Businessman and the Traveling Salesman, this doesn't have utility in
+securing you an early fireplace. Instead, it gives you the same almost
+irrelevant ability playing two minor improvements, which effectively reduces
+the number of times you can take SP. This time, however, you have to pay food
+just to do it! The only added utility that the Merchant has is being able to buy two Major
+improvements at once. This is also an almost useless ability. If you have that
+many resources lying around, you should be renovating!",
+E180,,Hobby Farmer,,4,,"When you play this card, take 1 Vegetable that you may Sow immediately if you have an empty plowed field. (You can Sow just this one Vegetable with this extra action.)",,"Hobby Farmer Early veggies are nice, but 1 veggie isn't quite enough to make a dedicated
+vegetable feeding engine. You'll have to combine him with something else like
+the Potato Dibber before you can start eating vegetables reliably. In that
+sense, he's a well named Occ: you should view those vegetables as a hobby, not
+as your main source of food. Nonetheless, this guy is usually worth playing simply because the free sow is
+usually worth 1 food, and you were going to spend an action taking a vegetable
+anyway.",
+E181,,Cook,,3,,"In the Feeding phase of each Harvest, only 2 of your people eat 2 Food each; all others are satisfied with only 1 Food.",,"Cook Assuming you can grow your family once before the second harvest and again
+before the third, he can save you about 8 food over time. That's not a bad
+deal, even considering the fact that he costs an early action.",
+E182,,Charcoal Burner,,4,,You receive 1 Food and 1 Wood whenever any player (including you) builds a Baking Improvement with a bread symbol.,,"Charcoal Burner: In 4-p, this is awesome: pretty much everyone will buy some sort of cookery,
+and some will buy one twice when they upgrade their fireplace to a cooking
+hearth or take a Stone Oven for another free bake action. It will be worth at
+least 4 food and 4 wood, a far better deal than perfectly playable cards like
+the Reeve. Less playable in 3-p.",
+E183,,Basketmaker,,2,,"In each Harvest, the Basketmaker can convert up to 1 Reed to 3 Food.",,"Basketmaker Why are you eating your reed? That was supposed to be used for your house! Has
+some utility in 5 player if the other players let the 2 reed square stack for
+you (i.e. they are undervaluing reed), but in 4 player, reed is usually far too
+scarce to bother with the card.",
+E184,,Grocer,,4,,"Pile (from bottom to top) 1 Vegetable, Reed, Clay, Wood, Vegetable, Stone, Grain, Reed on this card. At any time, you may buy the top item for 1 Food.",,"Grocer Once you get the grain and the veggie, he's already paid for himself in actions
+since normally you have to use a full action to take either. The resources you
+get along the way are gravy. That said, you're going to need a good food engine to support him. I've seen at
+least a couple of times where someone plays him and then is forced to leave him
+unused as they scramble to feed their family. However, provided you are able to support him, he is extremely powerful.",
+E185,,Clay Firer,,2,,You can use the Clay Firer at any time to convert 2/3 Clay to 1/2 Stone.,,"Clay Firer Cards that convert one resource to another usually aren't good because the
+deals they give are only marginally beneficial. If you're going to be spending
+1F1A, you want to be getting good deals, not OK ones. This is one of the better conversion Occs, however, because 3 clay for 2 stone
+can be a pretty good deal in games where people are valuing stone correctly.
+However, the fact that you need to waste one action playing this card and then
+another action collecting the clay when you could have just taken 2 or 3 stone
+directly still makes this a fringe play.",
+E186,,Clay Seller,,1,,"You can use the Clay Seller an any time to convert: 2 Clay to 1 Sheep or 1 Reed, 3 Clay to 1 Wild boar or 1 Stone, and/or 4 Clay to 1 Cattle.",,"Clay Seller Another bad conversion Occ. Rather than take the 4 clay and convert it into 2
+sheep, why don't you just take 2 sheep? This doesn't even have utility for
+early cattle, as 4 clay is usually a highly contested spot in the early game.",
+E187,,Clay Deliveryman,,3,,"Place 1 Clay on each of the spaces for rounds 6 to 14. At the start of these rounds, you receive the Clay.",,"Clay Deliveryman This guy has the most utility in 2-p, where clay can be very scarce. With more
+players the card becomes more of a conditional play, since clay should already
+be plentiful after round 6. If you play him, it should be with the intention of
+using massive amounts of clay (clay rooms, pottery, etc.). This should
+hopefully prevent clay from being too easy to get for your opponents.",
+E188,,Clay Mixer,,4,,"Whenever one of your people's actions gives you only Clay, you receive 2 additional Clay.",,"Clay Mixer A strong card - usually worth about 6 clay, and you'll get most of that clay
+early, when you need it most.",
+E189,,Lord of the Manor,,3,,"At the end of the game, you receive 1 bonus point for each scoring category where you have scored the maximum 4 points. (The bonus point is also awarded for 4 fenced stables.)",,"Lord of the Manor Keep in mind that Agricola tends to reward people who don't focus on maxing
+specific areas, and instead rewards last-minute diversification. As a result
+you generally won't have much incentive for maxing areas with the intention of
+getting points on this guy, because you could probably be getting just as many
+points by filling in negatives. That said, you only really need 3 areas maxed for him to be worth the action.
+This is most easily done with Fields, Grain, and Veggies, for obvious reasons.
+If you've been able to do this, by all means play him.",
+E190,,Maid,,2,,"Once you have built a Clay hut, place 1 Food on each remaining Round space. At the start of these rounds, you receive the Food. (If you already have a Clay hut or a Stone house when you play this card, place the Food immediately)",,"Maid I've said this countless times, but early renovations are usually not worth it,
+particularly in games where clay is tight enough to make clay rooms unfeasible.
+1 food a round is nice, but you're never going to be able to abuse this card
+too much. Once you get to 3 rooms, you might want to go for a renovation in
+stage 3. If you play her by the end of round 9, she'll be worth 4 food (5 food
+minus the one you took to play him). That's ok, but not worth the effort of
+jumping through the necessary hoops.",
+E191,,Mason,,3,,"Once during the game, at any time after your Stone house reaches at least 4 rooms, you may extend it by 1 room at no cost.",,"Mason You'll usually play this guy at the end of the game for an extra 3 points.
+That's a good deal by itself, even if you don't use the extra room for another
+Family Growth. Getting to a 4 room stone house can be hard sometimes, however.",
+E192,,Patron,,3,,"In the future, whenever you play an Occupation, you receive 2 Food before you pay the costs of the Occupation.",,"Patron You're going to need to look at your hand before you decide to play this guy,
+as he only begins to become worth it if you're playing 3 occupations after him.
+If you are, then go ahead and run him out there. Otherwise, he stays behind.
+Along with Perpetual Student, this is probably the best way to rush the Animal
+Yard/Quarry.",
+E193,,Pastor,,2,,"If, when you play this card or later in the game, you are the last player to have only 2 rooms in your home, you receive 3 Wood, 2 Clay, 1 Reed and 1 Stone.",,"Pastor Like the Maid, the Pastor is a card that you have no business playing if you
+consider yourself one of the better players in your group. However, if I found
+myself at a tough table, I could see myself working on my food engine in the
+early rounds and then using this guy to catch up. Random note: this is a
+hilarious combo with the Lover.",
+E194,,Plow Driver,,1,,"Once you have a Stone house, you can pay 1 Food at the start of each round to Plow (at most) 1 field.",,"Plow Driver This is another card that asks you to get a stone renovation unreasonably
+early. He compares unfavorably to the Plow Maker, which isn't even a good card.",
+E195,,Plow Maker,,2,,"Whenever you use either the ""Plow 1 field"" or ""Plow 1 field and/or Sow"" Action spaces, you can pay 1 Food to Plow 1 additional field.",,"Plow Maker This is another trap card - he looks much stronger than he actually is. Let's assume that you play this guy with the intention of maxing fields. To get
+5 fields, you're going to need 4 actions (1 to play the Occ, 3 to plow) and 3
+food (1 to play the Occ, 2 to plow). This is not appreciably better than just
+plowing a field 5 times, since the 3 food he costs will probably take another
+action anyway.",
+E196,,Mushroom Collector,,4,,"Whenever you use a Family member's action to take Wood from an Action space, you can leave 1 of the Wood on the space and take 2 Food in exchange.",,"Mushroom Collector Amazingly strong. He's basically a Cabinetmaker that gets to use his ability
+every time you take wood. If you play him, you're pretty much taking wood every
+time you can. In that time, he generates an absurd amount of food - usually
+enough for the first two harvests. He also gives you plenty of wood, of course.
+Since you have such a large incentive to take wood, you're taking it much more
+often than usual, which balances out the wood you have to leave behind. Mushroom Collector can be risky in 2-p. Because he leaves behind a wood, your
+opponent will usually want to take the 4W (a very strong spot for 2-p) and deny
+you the food.",
+E197,,Braggart,,4,,"At the end of the game, you receive 1/3/5/7/9 Bonus points for having 5/6/7/8/9+ Improvements in front of you.",,"Braggart 9 points? NINE POINTS! This card can easily win you the game by itself, and is the most common way
+I've seen players score higher than 60 points. Harnessing the Occ's power is no
+cakewalk, but when correctly played with the right combination of cards, this
+is pretty much unstoppable. I admit my rating scale breaks down a bit here - if you only look at the
+percentage of time he is playable, he is probably a three star card. However, I
+give the extra star simply because of his raw power - he's engineered more flat
+out blowouts and unreal comebacks than any other card I can think of. The card is also easily a 5 star card in draft, where you can tailor your hand
+to include many cheap improvements.",
+E198,,Ratcatcher,,3,,"In rounds 10 and 12, all other players may not place 1 of their family's Offspring* (if they have any).(You yourself may place all your Family members.)This card may only be played until the end of Round 9. (*) Offspring are a player's 3rd, 4th, and 5th Family members.",,"Ratcatcher On the surface, you're trading 1 food and 1 action for 2 actions from your
+opponents. That's ok. However, the card is actually much subtler than that. For
+one, the action you spend to play him comes before the actions that your
+opponents lose. Since actions are more valuable in the early rounds than the
+later ones, this makes him a worse deal than he seems. But it's actually even more complex than that. Because the game is designed to
+have more appealing spots as the game progresses, removing 3 or 4 actions from
+a given round will mean that the quality of your final actions in that round
+will be much higher than usual. As a whole, this is a card that I get out if I have the time, but don't sweat
+too much if I need to use my actions in round 9 to develop my own board.",
+E199,,Renovator,,2,,"Pay 2 less Clay to renovate to a Clay hut, and pay 2 less Stone to renovate to a Stone house.",,"Renovator Obviously you can't play this unless you're sure you'll be able to renovate
+twice by the time the game is over. In that case, paying 1F1A for two stone and
+two clay is an OK deal, but often you're better off just taking those resources
+directly to deny your opponents.",
+E200,,Conservator,,5,,You can renovate your Wooden hut to a Stone house without first needing to renovate it to a Clay hut.,,"Conservator Obviously redonkulous. This saves youâ€š what? 1 reed, 3-5 clay, and 1 renovation
+action? Absurd. One supposed weakness to the occ is that you don't get to play a free
+Major/Minor Improvement. However, this isn't a valid concern. Let's compare
+someone who renovates fairly and someone who uses the Conservator and then
+spends an action on the Major/Minor Improvement space. The 'fair' player: Spends 2 actions renovating Spends about 1 action collecting 3-5 clay Spends about 1/2 of an action collecting 1 reed The Conservator: Spends 1 action playing the Conservator Spends 1 action renovating Spends 1 action playing major/minor improvement Even in this case the Conservator is better (he saves about half an action).
+However, the Conservator has 2 additional benefits on top of that: 1) You don't have to buy the Major improvement if there is a more efficient way
+of gaining points. For instance, rather than spending 1A on 3 stone and 1A on
+Major/Minor to get a well, you can just plow 2 fields. 2) You can wait until much later to renovate. Because of the limited number of
+renovation spots, the 'fair' player needs to renovate to clay fairly
+early if he wants to get to stone. That means he also has to collect clay and
+reed fairly early. The Conservator can just wait until the last possible
+moment. I have played this card literally every time I've gotten him, and I'm pretty
+sure I've never made a mistake in doing so. In competitive games where
+resources are tight, he has singlehandedly won me the game by ensuring me a
+stone renovation that otherwise would have been impossible. That's a good sign
+of a five star card.",
+E201,,Cattle Whisperer,,2,,"Add 5 and 9 to the current round. Place 1 Cattle on the corresponding Round spaces. At the start of these rounds, you receive the Cattle.",,"Cattle Whisperer: We have a house rule that whenever someone plays this card, they have to put
+their finger on their mouth and say, 'Shhhhhhh!' His value is slightly worse than the Cattle Breeder, since you have to play him
+earlier.",
+E202,,Seasonal Worker,,5,,"Whenever you use the ""Day Laborer"" Action space, you receive 1 additional Grain. From Round 6, you can choose to receive 1 Vegetable instead.",,"Seasonal Worker This guy would be worth playing even without the vegetable clause. As is, he's
+simply amazing. He generates a ton of food early as you get your grain engine
+set up, and then gives you early veggies (plus more food!) in stage 2. This is
+a pet favorite of many people at BGG, and with good reason.",
+E203,,Shepherd,,1,,"During each Harvest, if you have at least 4 Sheep during the Breeding phase, you receive 2 lambs instead of 1 as long as you have room for them.",,"Shepherd I gave the Sheep Whisperer one star, and this is even worse than that. There's
+simply no way you're going to be able to get 4 sheep and room for two more
+before the second harvest, so you're only going to get a maximum of 4 extra
+sheep from him. The Sheep Whisperer gives the same amount of food, and doesn't
+force you to already have sheep just to get more sheep. Like all things in
+Agricola, sheep have diminishing returns - if you already have 4 sheep, there
+isn't much value in getting 4 more.",
+E204,,Master Shepherd,,2,,"Place 1 Sheep on each of the next 3 Round spaces. At the start of these rounds, you receive the Sheep.",,"Master Shepherd Deceptively weak. The problem is that he tempts you into building early fences,
+when that wood should really be going toward building rooms for future family
+growth. If you wait until after FG to use him, then the 3 sheep over time is
+not even that appealing, since the sheep square will have been piling up for
+some time.",
+E205,,Reed Collector,,3,,"Place 1 Reed on each of the next 4 Round spaces. At the start of these rounds, you receive the Reed.",,"Reed Collector This is amazingly strong in 3-p, where reed is extremely tight. However, in 4-p
+and 5-p reed becomes more plentiful, making him substantially worse. Still, in
+any case he will tend to save you a full action, since 4 reed usually takes 2
+actions to get. I don't buy the 'this gives your opponents more reed' argument that
+WhiteKong uses in his 'Complex Strategies for Agricola' article. In
+order to build rooms, people need both reed AND wood. The action that the Reed
+Collector saves you lets you take wood instead, setting you up for a potential
+2 room play and denying your opponents from rooms just as surely as if you had
+taken the reed.",
+E206,,Swineherd,,2,,"Whenever you use the ""Take 1 Wild boar"" Action space, you receive 1 additional Wild Boar from the supply. (The ""Take 1 Wild Boar"" Action is added in Stage 3.)",,"Swineherd This is much, much worse than either the cowherd or the sheep farmer. The
+cowherd has a more powerful effect and lets you spam the cow spot at 1 until
+the end of the game - no one cares enough about boar for that to really be
+worth doing on the boar spot. Moreover, the sheep spot comes out much earlier
+(allowing you to take it more often), and the sheep farmer has a nice clause
+that lets you convert your excess sheep into cattle and boar in the mid to late
+game.",
+E207,,Stablehand,,1,,"Whenever you build at least 1 fence, you also receive 1 stable which you must build immediately. (This may be built inside or outside the fenced area.)(You do not need to pay any Wood for the stable.)",,"Stablehand Another card that is unplayable due to the low number of times that you
+actually want to fence. Since you can build stables whenever you build rooms,
+this is not even saving an action when it activates - just a couple of wood.
+Garbage.",
+E208,,Stablemaster,,3,,One (and only one) of your unfenced stables may hold up to 3 animals of the same type.,,"Stablemaster This card is a little embarrassing when compared to the mini-pasture. That
+said, he's still fine for what he does: give you enough room to breed early
+sheep while you save wood for rooms.",
+E209,,Quarryman,,1,,"You can use the Quarryman at any time to convert Stone to Food. For each Stone you convert, take 2 Food.",,"Quarryman Stone is usually far too valuable to spend on a measly 2 food. The only time I
+could ever see this occ being played is as part of a goofy combo with the
+Quarry. 8 food for one action is pretty good, I hear.",
+E210,,Stone Carrier,,2,,"Whenever you take Stone with an action, you can also take 1 additional Stone. If you also receive other building resources, this costs you 1 Food.",,"Stone Carrier You don't take stone from the '1 stone spot' enough for him to give more than 1
+or 2, so if play him, it's with the intention of using the RSF spot for 1 reed,
+2 stone. That doesn't seem like an impressive enough play to be worth the 1F1A,
+unless you have minor improvements that require stone.",
+E211,,Stonecutter,,3,,"All Improvements, Rooms and Renovations cost 1 Stone less.",,"Stone Cutter Worth it if you plan on buying a clay oven, since this guy can save you a full
+action in that case. He can also be a good play if you have some random 1 stone
+minor improvements in your hand.",
+E212,,Dancer,,3,,"Whenever you use the ""Traveling Players"" action on an Action space, you receive at least 4 Food. (If there are 1 to 3 Food are on the space, take Food from the general supply until you total 4 Food.)",,"Dancer Can generate a decent amount of food in the early game, but gets progressively
+less useful as food becomes more plentiful. Generally, this needs to be played
+early to be worth it. The card is helped by more TP cards - either for you or
+your opponent. If you have them then you can sometimes set up a nice combo
+where you are using TP every turn with some sort of bonus. If your opponent has
+them you can use the Dancer to block the TP square in the early game, stunting
+their development.",
+E213,,Stockman,,2,,"You receive 1 Cattle when you build your second stable, 1 Wild boar when you build your third and 1 Sheep when you build your fourth. (If you build several stables at once, you may be entitled to take several animals as well.)",,"Stockman One of my favorite plays as a baker is to play the Stockman super late game
+with no animals, and then use the 'build room(s)' space to build 3 stables.
+POW! 9 points. The other use for him is to use him to get an early breeding pair of cattle.
+All you need are 2 stables and something like the Cattle Whisperer; the fences
+can come later. Most of the time, however, the lack of a way to breed the singleton animals
+makes him too awkward to bother with.",
+E214,,Potter,,1,,"In each Harvest, the Potter can convert up to 1 Clay to 2 Food.",,"Potter In 4-p and 5-p clay becomes so plentiful that it's almost worthless. In that
+situation, the Potter is at its best, but is still generally underwhelming. if !supportLineBreakNewLine endif",
+E215,,Tenant Farmer,,1,,"You immediately receive a loan of one of each type of animal. Before scoring, return the 3 animals. For each animal that you cannot or do not want to return, you lose 1 point.",,"Tenant Farmer The Tenant Farmer seems to be much better than he actually is. The main problem
+with the Tenant Farmer is having room to hold 3 animals of a different type.
+Eating them is usually not a good solution because of the 'payback' clause he
+has. Obviously it gets easier to hold them as the game progresses, but as the game
+progresses the benefit he gives becomes minimal.",
+E216,,Animal Keeper,,1,,"You can keep Sheep, Wild boar, and Cattle in the same pasture. This applies to all your pastures (except the Forest Pasture).",,"Animal Keeper The best case scenario is if you craft a single large 2x2 pasture with a stable
+in it. Then you'll be able to house all the animals you could ever want. In
+this outstanding case, what has he saved you? About 2 wood! Let me explain. It is very rare to have more than 4 of each animal. Even in a
+game where a person is able to achieve a lot of animals, pressures for food
+will cause them to eat quite a few. As a result, you could have just used 2
+wood to split the megapasture down the middle. This should allow you to keep a
+fair amount of 2 different animals, with a single one of the third animal
+taking up the space in your house. Sure, you might lose a few sheep by having
+to eat them early, but this will usually only cost about a point in scoring: a
+point that is regained by the extra pasture you'll have at the end of scoring. Obviously 1F1A in exchange for 2 wood is a terrible deal. This occupation is
+never playable - you're better off just taking 3 more wood.",
+E217,,Reeve,,3,,"Take 1/2/3/4 Wood if there are still 1/3/6/9 rounds to play. At the end of the game, all players with the most played Occupation cards receive 3 Bonus points each.",,"Reeve This is another nice 4/3/2/1 play. Since the Reeve is an occupation himself, he
+gives you a boost towards eventually getting the bonus. However, a key problem
+with the Reeve is that he's an early game occ. Usually in games where I want to
+play a lot of Occs, it's because I have a lot of good early game Occs. When I
+have a lot of early game Occs, I tend to prioritize getting them out before the
+Reeve, and often the opportunity to get 4 wood has passed by at that point. Nonetheless, he is definitely one of the stronger 4/3/2/1 occs.",
+E218,,Carpenter,,2,,"To extend your home, you need only 3 of the appropriate building resource and 2 Reed for each new room. (For example, if you live in a Wooden hut, you need 3 Wood and 2 Reed.)",,"Carpenter If you build 3 rooms before renovating, he's worth 6 conditional wood - an OK
+but not fantastic deal given that the wood is delivered over time and that
+you're forced to use it on a specific thing. Given how rarely people actually
+build 3 rooms in the first place (usually reed is too scarce), this won't come
+up too often. If you only build two rooms, 4 wood for 1F1A is ok, I guess. However, the
+4/3/2/1 wood occupations all give 4 wood the moment you play them, not just
+when you build your 4th room (which, depending on how the game is going, might
+take a while). Furthermore, the wood those occs give is no strings attached -
+you're not required to use it to build rooms. In my experience all of the
+4/3/2/1 occs are playable, but they're by no means must-plays. Since the
+Carpenter is almost strictly worse if you're only building 2 rooms, he's
+probably not worth it in that case. It's true that he can be used to reduce the cost of clay rooms and stone rooms
+as well as Wooden Rooms. However, I think clay and stone rooms are mostly a
+corner case - most rooms are wood, a few are clay, and almost none are stone
+(the Well tends to be a much more efficient way to get points). Moreover, in
+cases where you actually want to build clay rooms, clay is probably common enough
+that 2 clay and 2 wood isn't much better than 4 wood.",
+E338,,Feed Pellets,,2,,"During the Feeding Phase of each Harvest, you may trade 1 Vegetable for 1 of any type of Animal that you already have in your farmyard.",,"Feed Pellets Feed Pellets I hate ragging on completely free improvements,
+but this is definitely a niche ability. Veggies are worth 1 VP each, and
+animals after your first one are always less than 1 VP. This means that a lot
+of the time this is just not a good deal. There's also the awkwardness involved
+with having plentiful veggies AND fences with animals in them (but not too many
+animals!) - an uncommon situation to find yourself in, barring unusual
+circumstances. The best use of this improvement is when an
+occupation like the Undergardener has given you a ton of veggies. Since you're
+probably going to easily max veggies, it can be nice to convert your excess
+crops into some extra victory points. The card can also be a clunky way to get
+a breeding pair of cattle - just take cattle at 1 and then trade in your veggie. Usually, this will have a marginal benefit, at
+best. Still, it's hard to argue with the price-tag.",
+E341,,Guildmaster,,2,,"You receive 4 Wood when you acquire the Joinery or play the Cabinetmaker. When you acquire the Pottery or play the Potter, you receive 4 Clay. When you acquire the Basketmaker's Workshop or play the Basketmaker, you receive 3 Reed. If you have already played any of these cards when you play the Guildmaster, you receive 2 building resources of the appropriate type for each existing card.",,"Guildmaster Ridiculous when combined with the right cards (manufacturer), but otherwise
+awkward. Without something to help him, you're going to need 4 stone to get two
+of the three things on his list - stone that probably would have been better
+used on either a renovation or a well.",
+D175,,Countryman,,2,,"Each time any player (including you) takes a ""Renovation"" action on an action space, you can sow crops in exactly 1 field.",,"Countryman In bigger games the sow and bake bread space tends to be overcrowded, making
+this guy's utility extremely unreliable. It's not like you should really be
+giving your opponents an excuse to deny you a sow action. If for some reason
+your opponents all inexplicably avoid growing crops, he can help save you an
+action or two.",
+C044,,Chicken Coop,,5,,"Place 1 food on each of the next 8 round spaces. At the start of these rounds, you get the food.",,"Chicken Coop Chicken Coop With no prerequisite and a flexible cost, it's
+usually pretty easy to get this out for the full 8 food. That's an amazing deal
+when you factor in the 1 VP. The only time this isn't an absolute must-play is
+in 3-p, where sometimes you won't be able to spare the reed. For every other
+mode, this is one of the best improvements in the game.",
+E126,,Tax Collector,,4,,"Once you live in a stone house, at the start of each round, you get your choice of 2 wood, 2 clay, 1 reed, or 1 stone.",," In a big game, Tax collector might bring in 5 or 6 free resources, plus whatever you buy. Slightly awkward in that it gives you resources when others build improvements, but those resources are often most useful for buying the Majors yourself. Still, very high upside. Should be banned in FotM. ",
