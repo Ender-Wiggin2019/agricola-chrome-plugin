@@ -252,6 +252,18 @@
   overflow: hidden;
 }
 
+.ag-search-modal-footer {
+  padding: 12px 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ag-search-modal-credits {
+  color: #999;
+  font-size: 11px;
+  line-height: 1.6;
+  text-align: left;
+}
+
 .ag-search-input {
   width: 100%;
   padding: 12px 16px;
@@ -379,5 +391,117 @@
   font-size: 13px;
   line-height: 1.6;
   white-space: pre-wrap;
+}
+
+/* Search stats badge styling */
+.ag-search-stats-badge {
+  flex-shrink: 0;
+}
+
+.ag-search-stats-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ag-search-stats-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.ag-search-stats-label {
+  font-weight: 600;
+  color: #666;
+  font-size: 13px;
+}
+
+.ag-search-stats-value {
+  font-weight: 700;
+  color: #333;
+  font-size: 13px;
+}
+
+/* Stats badge styling */
+.ag-stats-wrapper {
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  flex-shrink: 0;
+}
+
+.ag-stats-wrapper:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3), 0 2px 6px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.ag-stats-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  user-select: none;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 1px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.2px;
+}
+
+/* Stats tooltip styling */
+.ag-stats-tooltip {
+  position: fixed;
+  z-index: 10001;
+  background-color: white;
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 12px;
+  min-width: 180px;
+  pointer-events: auto;
+}
+
+.ag-stats-tooltip-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 8px;
+}
+
+.ag-stats-header-text {
+  font-weight: 700;
+  font-size: 15px;
+  color: #333;
+}
+
+.ag-stats-tooltip-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ag-stats-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.ag-stats-label {
+  font-weight: 600;
+  color: #666;
+  font-size: 13px;
+}
+
+.ag-stats-value {
+  font-weight: 700;
+  color: #333;
+  font-size: 14px;
 }
 

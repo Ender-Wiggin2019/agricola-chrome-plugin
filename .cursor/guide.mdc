@@ -4,11 +4,6 @@ alwaysApply: true
 
 我希望你可以结合当前目录中的几个文件进行处理。由于文件都非常大，你不应该直接读取完整文件，可以选择查看前面几行。
 
-- cards.json: 结构化文件
-- en.json: 英文结构化文件
-- Agricola Database - Database.csv
-- Agricola Database - Database (in progress).csv
-- en.json
 
 你需要执行如下步骤：
 
@@ -73,6 +68,37 @@ alwaysApply: true
     },
 ```
 
-8.最终基于`index.csv`生成一个`card_all.json`，把csv转成json。
+8. 我有两个文件在scripts/4p_de.tsv和4p_nb.tsv。
+你可以查卡一下这两个文件的前几行了解数据结构，但不要一次性完全读取。
+你需要处理这两个文件，
 
-1. 基于 index.csv，生成一个 index_missing.csv，包含所有cnName为空的行。
+我希望你做的是：
+解析这两个文件，然后获取其中的统计数据(pwr,adp, drawPlayRate(use plays / drafted))。然后按照 Card Name 作为索引，和enName匹配。4p_de的字段加上de前缀，nb加上nb前缀。
+```
+Rank Card Name	PWR	ADP	APR	Deals	Drafted	Plays	W-Hand	W-Play	WtdPWR	Elo/Play
+```
+
+实现一个数据处理脚本，可以把这些数据整理合并，
+
+
+9.最终基于`index.csv`生成一个`card_all.json`，把csv转成json。
+注意，对于统计数据，我希望你能生成的是这样一个字段：
+
+```
+{
+  "stats": {
+    "default": {
+      "pwr": xxx,
+      "adp": xxx,
+      "apr": xxx,
+      "drawPlayRate": xxx,
+    },
+    "nb": {
+      // ... same
+    }
+  }
+}
+
+```
+
+9. 基于 index.csv，生成一个 index_missing.csv，包含所有cnName为空的行。

@@ -301,35 +301,157 @@ def step7_match_set_o_json():
 
     print(f"Matched {matched_count} entries from set_o.json and updated index.csv")
 
-def step8_generate_card_all_json():
-    """Step 8: Generate card_all.json from index.csv"""
-    print("Step 8: Generating card_all.json from index.csv...")
+def parse_tsv_stats(filepath):
+    """Parse TSV file and extract statistics (pwr, adp, drawPlayRate)
+    Returns a dictionary mapping Card Name to stats
+    """
+    stats_map = {}
+
+    with open(filepath, 'r', encoding='utf-8') as f:
+        # TSV files use tab separator
+        reader = csv.DictReader(f, delimiter='\t')
+
+        # Find the actual column names (they may have leading/trailing spaces)
+        fieldnames = reader.fieldnames
+        card_name_col = None
+        pwr_col = None
+        adp_col = None
+        apr_col = None
+        plays_col = None
+        drafted_col = None
+
+        for col in fieldnames:
+            col_stripped = col.strip()
+            if 'Card Name' in col_stripped or col_stripped == 'Card Name':
+                card_name_col = col
+            elif col_stripped == 'PWR':
+                pwr_col = col
+            elif col_stripped == 'ADP':
+                adp_col = col
+            elif col_stripped == 'APR':
+                apr_col = col
+            elif col_stripped == 'Plays':
+                plays_col = col
+            elif col_stripped == 'Drafted':
+                drafted_col = col
+
+        if not card_name_col:
+            print(f"Warning: Could not find 'Card Name' column in {filepath}")
+            return stats_map
+
+        for row in reader:
+            card_name = row.get(card_name_col, '').strip()
+            if not card_name:
+                continue
+
+            # Extract PWR and ADP
+            try:
+                pwr_val = row.get(pwr_col, '') if pwr_col else ''
+                pwr = float(pwr_val.strip()) if pwr_val and pwr_val.strip() else None
+            except (ValueError, TypeError):
+                pwr = None
+
+            try:
+                adp_val = row.get(adp_col, '') if adp_col else ''
+                adp = float(adp_val.strip()) if adp_val and adp_val.strip() else None
+            except (ValueError, TypeError):
+                adp = None
+
+            try:
+                apr_val = row.get(apr_col, '') if apr_col else ''
+                apr = float(apr_val.strip()) if apr_val and apr_val.strip() else None
+            except (ValueError, TypeError):
+                apr = None
+
+            # Calculate drawPlayRate = Plays / Drafted
+            try:
+                plays_val = row.get(plays_col, '') if plays_col else ''
+                drafted_val = row.get(drafted_col, '') if drafted_col else ''
+                plays = float(plays_val.strip()) if plays_val and plays_val.strip() else 0
+                drafted = float(drafted_val.strip()) if drafted_val and drafted_val.strip() else 0
+                draw_play_rate = plays / drafted if drafted > 0 else None
+            except (ValueError, TypeError, ZeroDivisionError):
+                draw_play_rate = None
+
+            stats_map[card_name] = {
+                'pwr': pwr,
+                'adp': adp,
+                'apr': apr,
+                'drawPlayRate': draw_play_rate
+            }
+
+    return stats_map
+
+def step8_load_statistics():
+    """Step 8: Load statistics from TSV files"""
+    print("Step 8: Loading statistics from TSV files...")
+
+    # Parse both TSV files
+    de_stats = parse_tsv_stats('4p_de.tsv')
+    nb_stats = parse_tsv_stats('4p_nb.tsv')
+
+    print(f"Loaded {len(de_stats)} entries from 4p_de.tsv")
+    print(f"Loaded {len(nb_stats)} entries from 4p_nb.tsv")
+
+    return {
+        'default': de_stats,  # 4p_de corresponds to default
+        'nb': nb_stats        # 4p_nb corresponds to nb
+    }
+
+def step9_generate_card_all_json(stats_data):
+    """Step 9: Generate card_all.json from index.csv with statistics"""
+    print("Step 9: Generating card_all.json from index.csv...")
 
     cards = []
+    matched_default = 0
+    matched_nb = 0
+
     with open('index.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            cards.append({
+            card = {
                 'no': row.get('no', ''),
                 'cnName': row.get('cnName', ''),
                 'enName': row.get('enName', ''),
                 'baituTier': row.get('baituTier', ''),
                 'enTier': row.get('enTier', ''),
                 'chenTier': row.get('chenTier', ''),
-                # 'effect': row.get('effect', ''),
                 'baituDesc': row.get('baituDesc', ''),
                 'enDesc': row.get('enDesc', ''),
                 'chenDesc': row.get('chenDesc', '')
-            })
+            }
+
+            # Match statistics by enName
+            en_name = row.get('enName', '').strip()
+            stats = {}
+
+            if en_name:
+                # Match default stats (from 4p_de)
+                if en_name in stats_data['default']:
+                    stats['default'] = stats_data['default'][en_name]
+                    matched_default += 1
+
+                # Match nb stats (from 4p_nb)
+                if en_name in stats_data['nb']:
+                    stats['nb'] = stats_data['nb'][en_name]
+                    matched_nb += 1
+
+            # Only add stats if we have at least one match
+            if stats:
+                card['stats'] = stats
+
+            cards.append(card)
 
     with open('card_all.json', 'w', encoding='utf-8') as f:
         json.dump(cards, f, ensure_ascii=False, indent=2)
 
     print(f"Generated card_all.json with {len(cards)} entries")
+    print(f"Matched {matched_default} entries with default stats (4p_de)")
+    print(f"Matched {matched_nb} entries with nb stats (4p_nb)")
 
-def step9_generate_index_missing():
-    """Step 9: Generate index_missing.csv with rows where cnName is empty"""
-    print("Step 9: Generating index_missing.csv...")
+def step10_generate_index_missing():
+    """Step 10: Generate index_missing.csv with rows where cnName is empty"""
+    print("Step 10: Generating index_missing.csv...")
 
     missing_rows = []
     columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
@@ -367,11 +489,14 @@ def main():
     # Step 7: Match set_o.json and update index.csv
     step7_match_set_o_json()
 
-    # Step 8: Generate card_all.json from index.csv
-    step8_generate_card_all_json()
+    # Step 8: Load statistics from TSV files
+    stats_data = step8_load_statistics()
 
-    # Step 9: Generate index_missing.csv with rows where cnName is empty
-    step9_generate_index_missing()
+    # Step 9: Generate card_all.json from index.csv with statistics
+    step9_generate_card_all_json(stats_data)
+
+    # Step 10: Generate index_missing.csv with rows where cnName is empty
+    step10_generate_index_missing()
 
     print("\nDone! Generated index_raw.csv, index.csv, card_all.json, and index_missing.csv")
 

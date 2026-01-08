@@ -88,7 +88,7 @@ function getTierColor(tier, tierType) {
     } else if (tierUpper === 'C') {
       return '#cddc39'; // Lime
     } else if (tierUpper === 'D') {
-      return '#ffeb3b'; // Yellow
+      return '#f9a825'; // Darker yellow
     } else if (tierUpper === 'E') {
       return '#ff9800'; // Orange
     } else if (tierUpper === 'F') {
@@ -97,6 +97,49 @@ function getTierColor(tier, tierType) {
   }
 
   return '#9e9e9e'; // Default gray (for unknown values)
+}
+
+// Stats labels mapping for easy maintenance
+const STATS_LABELS = {
+  pwr: 'PWR',
+  adp: 'ADP',
+  apr: 'APR',
+  drawPlayRate: 'Draw Play Rate'
+};
+
+// Get stats data (prioritize default, fallback to nb)
+function getStatsData(card) {
+  if (!card || !card.stats) return null;
+
+  if (card.stats.default) {
+    return card.stats.default;
+  } else if (card.stats.nb) {
+    return card.stats.nb;
+  }
+
+  return null;
+}
+
+// Get ADP color based on value
+function getAdpColor(adp) {
+  if (adp < 2) {
+    return '#4caf50'; // Green
+  } else if (adp <= 4.5) {
+    return '#f9a825'; // Darker yellow
+  } else {
+    return '#f44336'; // Red
+  }
+}
+
+// Get drawPlayRate color based on value
+function getDrawPlayRateColor(rate) {
+  if (rate > 0.9) {
+    return '#4caf50'; // Green
+  } else if (rate > 0.7) {
+    return '#f9a825'; // Darker yellow
+  } else {
+    return '#f44336'; // Red
+  }
 }
 
 // Create tooltip element with author information
@@ -270,6 +313,198 @@ function createTierBadge(tier, desc, tierType, tierLabel) {
   return tierWrapper;
 }
 
+// Create stats tooltip element
+function createStatsTooltip(statsData) {
+  const tooltip = document.createElement('div');
+  tooltip.className = 'ag-card-tooltip ag-stats-tooltip';
+
+  const adpColor = getAdpColor(statsData.adp);
+  const drawPlayRateColor = getDrawPlayRateColor(statsData.drawPlayRate);
+  const drawPlayRatePercent = Math.round(statsData.drawPlayRate * 100);
+
+  // Build stats items dynamically
+  const statsItems = [];
+
+  // PWR
+  if (statsData.pwr !== undefined) {
+    statsItems.push(`
+      <div class="ag-stats-item">
+        <span class="ag-stats-label">${STATS_LABELS.pwr}:</span>
+        <span class="ag-stats-value">${statsData.pwr.toFixed(2)}</span>
+      </div>
+    `);
+  }
+
+  // ADP
+  if (statsData.adp !== undefined) {
+    statsItems.push(`
+      <div class="ag-stats-item">
+        <span class="ag-stats-label">${STATS_LABELS.adp}:</span>
+        <span class="ag-stats-value" style="color: ${adpColor}">${statsData.adp.toFixed(2)}</span>
+      </div>
+    `);
+  }
+
+  // APR
+  if (statsData.apr !== undefined) {
+    statsItems.push(`
+      <div class="ag-stats-item">
+        <span class="ag-stats-label">${STATS_LABELS.apr}:</span>
+        <span class="ag-stats-value" style="color: #000">${statsData.apr.toFixed(2)}</span>
+      </div>
+    `);
+  }
+
+  // Draw Play Rate
+  if (statsData.drawPlayRate !== undefined) {
+    statsItems.push(`
+      <div class="ag-stats-item">
+        <span class="ag-stats-label">${STATS_LABELS.drawPlayRate}:</span>
+        <span class="ag-stats-value" style="color: ${drawPlayRateColor}">${drawPlayRatePercent}%</span>
+      </div>
+    `);
+  }
+
+  tooltip.innerHTML = `
+    <div class="ag-tooltip-content">
+      <div class="ag-stats-tooltip-header">
+        <span class="ag-stats-header-text">Stats From Lumin</span>
+      </div>
+      <div class="ag-stats-tooltip-body">
+        ${statsItems.join('')}
+      </div>
+    </div>
+  `;
+
+  return tooltip;
+}
+
+// Create stats badge (circle badge showing ADP)
+function createStatsBadge(card) {
+  const statsData = getStatsData(card);
+  if (!statsData || statsData.adp === undefined) {
+    return null;
+  }
+
+  const adp = statsData.adp;
+  const adpColor = getAdpColor(adp);
+
+  // Create wrapper for stats badge
+  const statsWrapper = document.createElement('div');
+  statsWrapper.className = 'ag-stats-wrapper';
+  statsWrapper.style.backgroundColor = adpColor;
+  statsWrapper.style.borderRadius = '50%';
+  statsWrapper.style.width = '32px';
+  statsWrapper.style.height = '32px';
+  statsWrapper.style.display = 'flex';
+  statsWrapper.style.alignItems = 'center';
+  statsWrapper.style.justifyContent = 'center';
+  statsWrapper.style.cursor = 'pointer';
+
+  // Create stats badge
+  const statsBadge = document.createElement('span');
+  statsBadge.className = 'ag-stats-badge';
+  statsBadge.textContent = adp.toFixed(1);
+  statsBadge.style.color = '#fff';
+  statsBadge.style.fontSize = '12px';
+  statsBadge.style.fontWeight = 'bold';
+
+  statsWrapper.appendChild(statsBadge);
+
+  // Create tooltip
+  const tooltip = createStatsTooltip(statsData);
+  tooltip.style.display = 'none';
+
+  let tooltipTimeout = null;
+
+  // Show tooltip on stats badge hover
+  statsWrapper.addEventListener('mouseenter', (e) => {
+    e.stopPropagation();
+
+    if (tooltipTimeout) {
+      clearTimeout(tooltipTimeout);
+      tooltipTimeout = null;
+    }
+
+    // Remove other tooltips
+    document.querySelectorAll('.ag-card-tooltip').forEach(t => {
+      if (t !== tooltip) {
+        t.style.display = 'none';
+        t.remove();
+      }
+    });
+
+    if (!document.body.contains(tooltip)) {
+      document.body.appendChild(tooltip);
+    }
+
+    tooltip.style.display = 'flex';
+
+    // Position tooltip below the stats badge
+    const statsRect = statsWrapper.getBoundingClientRect();
+    tooltip.style.top = `${statsRect.bottom + 10}px`;
+    tooltip.style.left = `${statsRect.left + (statsRect.width / 2)}px`;
+    tooltip.style.transform = 'translate(-50%, 0)';
+
+    // Adjust if tooltip goes off screen
+    setTimeout(() => {
+      const tooltipRect = tooltip.getBoundingClientRect();
+      // Adjust horizontal position if goes off screen
+      if (tooltipRect.left < 10) {
+        tooltip.style.left = `${statsRect.left + 10}px`;
+        tooltip.style.transform = 'translate(0, 0)';
+      }
+      if (tooltipRect.right > window.innerWidth - 10) {
+        tooltip.style.left = `${statsRect.right - 10}px`;
+        tooltip.style.transform = 'translate(-100%, 0)';
+      }
+      // If tooltip goes off bottom of screen, show above instead
+      if (tooltipRect.bottom > window.innerHeight - 10) {
+        tooltip.style.top = `${statsRect.top - 10}px`;
+        tooltip.style.transform = 'translate(-50%, -100%)';
+        // Re-adjust horizontal if needed when showing above
+        const tooltipRectAbove = tooltip.getBoundingClientRect();
+        if (tooltipRectAbove.left < 10) {
+          tooltip.style.left = `${statsRect.left + 10}px`;
+          tooltip.style.transform = 'translate(0, -100%)';
+        }
+        if (tooltipRectAbove.right > window.innerWidth - 10) {
+          tooltip.style.left = `${statsRect.right - 10}px`;
+          tooltip.style.transform = 'translate(-100%, -100%)';
+        }
+      }
+    }, 0);
+  });
+
+  // Hide tooltip when leaving stats badge
+  statsWrapper.addEventListener('mouseleave', () => {
+    tooltipTimeout = setTimeout(() => {
+      if (tooltip && tooltip.parentElement) {
+        tooltip.style.display = 'none';
+        tooltip.remove();
+      }
+    }, 200);
+  });
+
+  // Keep tooltip visible when hovering over it
+  tooltip.addEventListener('mouseenter', () => {
+    if (tooltipTimeout) {
+      clearTimeout(tooltipTimeout);
+      tooltipTimeout = null;
+    }
+  });
+
+  // Hide tooltip when leaving it
+  tooltip.addEventListener('mouseleave', () => {
+    if (tooltip && tooltip.parentElement) {
+      tooltip.style.display = 'none';
+      tooltip.remove();
+    }
+  });
+
+  return statsWrapper;
+}
+
 // Process all player-card-inner elements on the page
 function processCards() {
   const cardContainers = document.querySelectorAll('.player-card-inner');
@@ -334,6 +569,10 @@ function processCards() {
       if (baituBadge) tierContainer.appendChild(baituBadge);
       if (enBadge) tierContainer.appendChild(enBadge);
       if (chenBadge) tierContainer.appendChild(chenBadge);
+
+      // Add stats badge at the end
+      const statsBadge = createStatsBadge(card);
+      if (statsBadge) tierContainer.appendChild(statsBadge);
 
       // Only insert container if it has at least one badge
       if (tierContainer.children.length > 0) {
@@ -463,6 +702,13 @@ function createSearchModal() {
       <div class="ag-search-modal-body">
         <input type="text" id="ag-search-input" class="ag-search-input" placeholder="Search by No, CN Name, or EN Name..." />
         <div id="ag-search-results" class="ag-search-results"></div>
+      </div>
+      <div class="ag-search-modal-footer">
+        <div class="ag-search-modal-credits">
+          Plugin creator: Ender<br>
+          Statistics: Lumin<br>
+          Tier and comments providers: Yuxiao_Huang, Chen233, Mark Hartnady
+        </div>
       </div>
     </div>
   `;
@@ -626,6 +872,10 @@ function createSearchResultCard(card) {
     badgesContainer.appendChild(badgeItem);
   }
 
+  // Add stats badge with description
+  const statsItem = createSearchStatsBadgeWithDesc(card);
+  if (statsItem) badgesContainer.appendChild(statsItem);
+
   cardDiv.appendChild(header);
   cardDiv.appendChild(badgesContainer);
 
@@ -679,6 +929,97 @@ function createSearchTierBadgeWithDesc(tier, desc, tierType) {
       <div class="ag-search-desc-content">${desc.replace(/\n/g, '<br>')}</div>
     `;
 
+    container.appendChild(descDiv);
+  }
+
+  return container;
+}
+
+function createSearchStatsBadgeWithDesc(card) {
+  const statsData = getStatsData(card);
+  if (!statsData) return null;
+
+  // Create container for badge and stats info
+  const container = document.createElement('div');
+  container.className = 'ag-search-tier-item';
+
+  // Create stats badge (circle badge showing ADP)
+  const adp = statsData.adp;
+  if (adp === undefined) return null;
+
+  const adpColor = getAdpColor(adp);
+  const badge = document.createElement('div');
+  badge.className = 'ag-search-stats-badge';
+  badge.style.backgroundColor = adpColor;
+  badge.style.borderRadius = '50%';
+  badge.style.width = '32px';
+  badge.style.height = '32px';
+  badge.style.display = 'flex';
+  badge.style.alignItems = 'center';
+  badge.style.justifyContent = 'center';
+  badge.style.color = '#fff';
+  badge.style.fontSize = '12px';
+  badge.style.fontWeight = 'bold';
+  badge.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.15)';
+  badge.textContent = adp.toFixed(1);
+
+  container.appendChild(badge);
+
+  // Create stats description div
+  const descDiv = document.createElement('div');
+  descDiv.className = 'ag-search-tier-desc';
+
+  // Build stats items
+  const statsItems = [];
+  const drawPlayRateColor = statsData.drawPlayRate !== undefined ? getDrawPlayRateColor(statsData.drawPlayRate) : null;
+  const drawPlayRatePercent = statsData.drawPlayRate !== undefined ? Math.round(statsData.drawPlayRate * 100) : null;
+
+  // PWR
+  if (statsData.pwr !== undefined) {
+    statsItems.push(`
+      <div class="ag-search-stats-item">
+        <span class="ag-search-stats-label">${STATS_LABELS.pwr}:</span>
+        <span class="ag-search-stats-value">${statsData.pwr.toFixed(2)}</span>
+      </div>
+    `);
+  }
+
+  // ADP
+  if (statsData.adp !== undefined) {
+    statsItems.push(`
+      <div class="ag-search-stats-item">
+        <span class="ag-search-stats-label">${STATS_LABELS.adp}:</span>
+        <span class="ag-search-stats-value" style="color: ${adpColor}">${statsData.adp.toFixed(2)}</span>
+      </div>
+    `);
+  }
+
+  // APR
+  if (statsData.apr !== undefined) {
+    statsItems.push(`
+      <div class="ag-search-stats-item">
+        <span class="ag-search-stats-label">${STATS_LABELS.apr}:</span>
+        <span class="ag-search-stats-value" style="color: #000">${statsData.apr.toFixed(2)}</span>
+      </div>
+    `);
+  }
+
+  // Draw Play Rate
+  if (statsData.drawPlayRate !== undefined) {
+    statsItems.push(`
+      <div class="ag-search-stats-item">
+        <span class="ag-search-stats-label">${STATS_LABELS.drawPlayRate}:</span>
+        <span class="ag-search-stats-value" style="color: ${drawPlayRateColor}">${drawPlayRatePercent}%</span>
+      </div>
+    `);
+  }
+
+  if (statsItems.length > 0) {
+    descDiv.innerHTML = `
+      <div class="ag-search-stats-content">
+        ${statsItems.join('')}
+      </div>
+    `;
     container.appendChild(descDiv);
   }
 
