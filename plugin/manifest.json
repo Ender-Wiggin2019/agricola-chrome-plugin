@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Agricola Card Tier",
-  "version": "0.0.1",
-  "description": "Adds tier information and tooltips to Agricola cards. Original tier comes from Baitu, Chen233, Mark Hartnady.",
+  "version": "0.0.2",
+  "description": "Adds tier information and statistics to Agricola cards. Original tier comes from Baitu, Chen233, Mark Hartnady, Lumin",
   "permissions": [
     "activeTab"
   ],

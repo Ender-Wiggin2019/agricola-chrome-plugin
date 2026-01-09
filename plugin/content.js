@@ -707,7 +707,8 @@ function createSearchModal() {
         <div class="ag-search-modal-credits">
           Plugin creator: Ender<br>
           Statistics: Lumin<br>
-          Tier and comments providers: Yuxiao_Huang, Chen233, Mark Hartnady
+          Tier and comments providers: Yuxiao_Huang, Chen233, Mark Hartnady<br>
+          Special thanks: Henry
         </div>
       </div>
     </div>
