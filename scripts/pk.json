@@ -1,635 +1,5 @@
 [
   {
-    "no": "E011",
-    "enName": "Field",
-    "effect": "When you play this card, immediately Plow 1 field."
-  },
-  {
-    "no": "E012",
-    "enName": "Fishing Rod",
-    "effect": "Whenever you use the \"Fishing\" Action space, you receive 1 additional Food. From Round 8, you receive 2 additional Food."
-  },
-  {
-    "no": "E013",
-    "enName": "Axe",
-    "effect": "Whenever you add a room to your Wooden hut, you only pay 2 Wood and 2 Reed."
-  },
-  {
-    "no": "E014",
-    "enName": "Baker's Oven",
-    "effect": "Whenever you use the \"Bake bread\" action, you can use the Baker's Oven to convert up to 2 Grain into 5 Food each. When you play this card, you can also take the \"Bake bread\" Action."
-  },
-  {
-    "no": "E015",
-    "enName": "Baking Tray",
-    "effect": "Clay Ovens and Stone Ovens are Minor Improvements for you. Clay, Stone and Wood-fired Ovens cost you 1 building resource (of your choice) less."
-  },
-  {
-    "no": "E016",
-    "enName": "Building Material",
-    "effect": "You receive either 1 Wood or 1 Clay when you play this card."
-  },
-  {
-    "no": "E017",
-    "enName": "Windmill",
-    "effect": "At any time, you can convert Grain to 2 Food (without having to Bake bread.)"
-  },
-  {
-    "no": "E018",
-    "enName": "Bean Field",
-    "effect": "When you Sow, you can plant Vegetables on this card as though it were a field. (This card does not count as a field when scoring.)"
-  },
-  {
-    "no": "E019",
-    "enName": "Gypsy's Crock",
-    "effect": "Whenever you convert any 2 goods to Food at one time using a Fireplace, Cooking Hearth or Cooking Corner, you receive 1 additional Food."
-  },
-  {
-    "no": "E020",
-    "enName": "Simple Fireplace",
-    "effect": "At any time, you may convert goods to Food as follows: Vegetables: 2 Food Sheep: 1 Food Wild Boar: 2 Food Cattle: 3 Food Whenever you use the \"Bake bread\" action, you may convert: Grain: 2 Food."
-  },
-  {
-    "no": "E021",
-    "enName": "Half-timbered House",
-    "effect": "At the end of the game you receive 1 Bonus point for each room in your Stone house. (In total, you receive 3 points instead of 2 per room.)(If you have played the Mansion, you do not score extra points for having the Half-timbered House.)"
-  },
-  {
-    "no": "E022",
-    "enName": "Raft",
-    "effect": "Whenever you use the \"Fishing\" Action space, you receive an additional 1 Food or 1 Reed."
-  },
-  {
-    "no": "E023",
-    "enName": "Manger",
-    "effect": "At the end of the game, if your pastures occupy 6/7/8/9+ farmyard spaces, you receive 1/2/3/4 Bonus points."
-  },
-  {
-    "no": "E024",
-    "enName": "Animal Pen",
-    "effect": "Place 2 Food on each remaining Round space. At the start of each round, you receive the Food."
-  },
-  {
-    "no": "E025",
-    "enName": "Spices",
-    "effect": "Whenever you convert Vegetables to Food using a Fireplace, Cooking Hearth or Cooking Corner, you receive 1 additional Food."
-  },
-  {
-    "no": "E026",
-    "enName": "Plane",
-    "effect": "Whenever you turn 1 Wood into Food using the Joinery, Sawmill or Cabinetmaker, you receive 1 additional Food. You can choose instead to turn a second Wood into exactly 2 Food."
-  },
-  {
-    "no": "E027",
-    "enName": "Wood-Fired Oven",
-    "effect": "Whenever you use the \"Bake bread\" action, you can use the Wood-fired Oven to turn any number of Grain into 3 Food each. When you play this card, you can also take the \"Bake bread\" action."
-  },
-  {
-    "no": "E028",
-    "enName": "Clogs",
-    "effect": "At the end of the game, you receive 1 Bonus point for a Clay hut or 2 Bonus points for a Stone house."
-  },
-  {
-    "no": "E029",
-    "enName": "Shepherd's Pipe",
-    "effect": "You can hold up to 2 additional Sheep in each of the pastures where you keep Sheep. You can keep up to 2 Sheep in each unfenced stable."
-  },
-  {
-    "no": "E030",
-    "enName": "Canoe",
-    "effect": "Whenever you use the \"Fishing\" Action space, you receive an additional 1 Food and 1 Reed."
-  },
-  {
-    "no": "E031",
-    "enName": "Carp Pond",
-    "effect": "Place 1 Food on each remaining odd-numbered Round space. At the start of these rounds, you receive the Food."
-  },
-  {
-    "no": "E032",
-    "enName": "Potato Dibber",
-    "effect": "Whenever you Sow fields with Vegetables, place 1 additional Vegetable on each field that you Sow."
-  },
-  {
-    "no": "E033",
-    "enName": "Ceramics",
-    "effect": "When you play this card, you receive 2 Food. From now, the Pottery is a Minor Improvement for you and costs you nothing."
-  },
-  {
-    "no": "E034",
-    "enName": "Basket",
-    "effect": "Whenever you use a person's action to take Wood from an Action space, you can leave 2 of the Wood on the Action space and receive 3 Food in exchange."
-  },
-  {
-    "no": "E035",
-    "enName": "Corn Scoop",
-    "effect": "Whenever you use the \"Take 1 Grain\" Action, you receive 1 additional Grain."
-  },
-  {
-    "no": "E036",
-    "enName": "Clay Roof",
-    "effect": "You can replace 1 or 2 Reed with the same amount of Clay whenever you extend or renovate your home."
-  },
-  {
-    "no": "E037",
-    "enName": "Clay Supports",
-    "effect": "Whenever you add a room to your Clay hut, you can pay 2 Clay, 1 Wood and 1 Reed instead of 5 Clay and 2 Reed."
-  },
-  {
-    "no": "E038",
-    "enName": "Madonna Statue",
-    "effect": "The Madonna Statue has no effect. (You must remove Improvements that are on the table in front of you. You may not discard cards from your hand. It is irrelevant whether you remove Major or Minor Improvements.)"
-  },
-  {
-    "no": "E039",
-    "enName": "Market Stall",
-    "effect": "When you play this card, you receive 1 Vegetable."
-  },
-  {
-    "no": "E040",
-    "enName": "Mini Pasture",
-    "effect": "When you play this card, immediately Fence one space in your farmyard. (You do not need to pay Wood for the fences.)"
-  },
-  {
-    "no": "E041",
-    "enName": "Millstone",
-    "effect": "Whenever you Bake 1 or more Grain into bread, you receive 2 additional Food."
-  },
-  {
-    "no": "E042",
-    "enName": "Helpful Neighbors",
-    "effect": "When you play this card, you receive either 1 Stone or 1 Reed."
-  },
-  {
-    "no": "E043",
-    "enName": "Fruit Tree",
-    "effect": "Place 1 Food on each remaining Round space for rounds 8 to 14. At the start of these rounds, you receive the Food."
-  },
-  {
-    "no": "E044",
-    "enName": "Outhouse",
-    "effect": "The Outhouse has no effect. You can only build it if at least one other player has fewer than 2 Occupations. (It is irrelevant how many Occupations you have played.)"
-  },
-  {
-    "no": "E045",
-    "enName": "Private Forest",
-    "effect": "Place 1 Wood on each remaining even-numbered Round space. At the start of these rounds, you receive the Wood."
-  },
-  {
-    "no": "E046",
-    "enName": "Sack Cart",
-    "effect": "Place 1 Grain each on the spaces for rounds 5,8,11 and 14. At the start of these rounds, you receive the Grain."
-  },
-  {
-    "no": "E047",
-    "enName": "Lettuce Patch",
-    "effect": "On this card, you can plant Vegetables as you would on a field. Vegetables on this field can be converted to 4 Food when harvested. (This card does not count as a field when scoring.)"
-  },
-  {
-    "no": "E048",
-    "enName": "Reed Pond",
-    "effect": "Place 1 Reed each on the next 3 Round spaces. At the start of each round, you receive the Reed."
-  },
-  {
-    "no": "E049",
-    "enName": "Writing Desk",
-    "effect": "Whenever you use an \"Occupation\" Action, you may play 2 Occupations one after another. The second Occupation costs you 2 Food."
-  },
-  {
-    "no": "E050",
-    "enName": "Builder's Trowel",
-    "effect": "You can Renovate your Wooden hut to a Clay hut at any time without using the \"Renovate\" action. (You must still pay for the Renovation.)"
-  },
-  {
-    "no": "E051",
-    "enName": "Spindle",
-    "effect": "Whenever you have 3/5 Sheep during the Field phase of a Harvest, you receive 1/2 additional Food."
-  },
-  {
-    "no": "E052",
-    "enName": "Stable",
-    "effect": "When you play this card, immediately build 1 stable. (The stable does not cost anything, but you must pay the cost shown to play this card.)"
-  },
-  {
-    "no": "E053",
-    "enName": "Butter Churn",
-    "effect": "Whenever you have Sheep during the Field phase of a Harvest, you receive 1 Food for each third Sheep. Whenever you have Cattle during the Field phase, you receive 1 Food for each second Cattle."
-  },
-  {
-    "no": "E054",
-    "enName": "Quarry",
-    "effect": "Whenever you use the \"Day Laborer\" Action, you receive an additional 3 Stone."
-  },
-  {
-    "no": "E055",
-    "enName": "Stone House Extension",
-    "effect": "When you play this card, immediately extend your Stone house by 1 room. (The room does not cost anything, but you must pay the cost shown to play this card.)"
-  },
-  {
-    "no": "E056",
-    "enName": "Stone Tongs",
-    "effect": "Whenever you use one of the \"Stone\" Action spaces that become available in Stage 2 and Stage 4, you receive 1 additional Stone."
-  },
-  {
-    "no": "E057",
-    "enName": "Dovecote",
-    "effect": "Place 1 Food each on the spaces for rounds 10 to 14. At the start of these rounds, you receive the Food."
-  },
-  {
-    "no": "E058",
-    "enName": "Animal Yard",
-    "effect": "On this card you can hold up to 2 animals of you choice. They need not be the same type of animal. (This card does not count as a pasture for scoring.)(This card does not give you animals.)"
-  },
-  {
-    "no": "E059",
-    "enName": "Drinking Trough",
-    "effect": "Each pasture (with or without a stable) can hold up to 2 more animals."
-  },
-  {
-    "no": "E060",
-    "enName": "Cattle Market",
-    "effect": "When you play this card, return 1 Sheep to the supply and take 1 Cattle."
-  },
-  {
-    "no": "E061",
-    "enName": "Riding Plow",
-    "effect": "Twice during the game, when you use either the \"Plow 1 field\" or \"Plow 1 field and/or Sow\" action, you can Plow 3 fields instead of 1."
-  },
-  {
-    "no": "E062",
-    "enName": "Turnwrest Plow",
-    "effect": "Once during the game, when you use either \"Plow 1 field\" or \"Plow 1 field and/or Sow\" action, you can Plow 3 fields instead of 1."
-  },
-  {
-    "no": "E147",
-    "enName": "Land Agent",
-    "effect": "Whenever you use the \"Take 1 Vegetable\" Action space, you also receive 1 Grain. When you play this card, you receive 1 Vegetable from the supply."
-  },
-  {
-    "no": "E148",
-    "enName": "Academic",
-    "effect": "This card counts as 2 Occupations for Minor Improvements and when scoring the \"Reeve\" Occupation card."
-  },
-  {
-    "no": "E149",
-    "enName": "Master Baker",
-    "effect": "Whenever another player Bakes bread, you can Bake bread if you have a Baking Improvement with the bread symbol. If you take a Bake action yourself (not using this card), you receive 1 additional Food."
-  },
-  {
-    "no": "E150",
-    "enName": "Baker",
-    "effect": "During each Harvest, you may Bake bread at the start of the Feeding phase if you have an Improvement with the bread symbol. When you play this card, you may Bake bread as an additional action."
-  },
-  {
-    "no": "E151",
-    "enName": "Master Builder",
-    "effect": "Once during the game, at any time after your home reaches at least 5 rooms, you may extend it by 1 room at no cost."
-  },
-  {
-    "no": "E152",
-    "enName": "Berry Picker",
-    "effect": "Whenever you use a Family member's action to take Wood, you receive an additional 1 Food."
-  },
-  {
-    "no": "E153",
-    "enName": "Mendicant",
-    "effect": "At the end of the game, you can discard up to 2 Begging card without losing points for them."
-  },
-  {
-    "no": "E154",
-    "enName": "Master Brewer",
-    "effect": "In the Feeding phase of each Harvest, the Master Brewer can convert up to 1 Grain to 3 Food."
-  },
-  {
-    "no": "E155",
-    "enName": "Bread Seller",
-    "effect": "You receive 1 Food for the supply for each Grain that is baked whenever any player (including you) Bakes bread. (To Bake, you need a Baking Improvement with the bread symbol.)"
-  },
-  {
-    "no": "E156",
-    "enName": "Brush Maker",
-    "effect": "Whenever you convert Wild boar to Food, you can choose to place the boar on this card. At the end of the game, you receive 1/2/3 Bonus points for 2/3/4 slaughtered Wild boar."
-  },
-  {
-    "no": "E157",
-    "enName": "Thatcher",
-    "effect": "Pay 1 Reed less to Build each room, for each Renovation, and for each of the Water Mill, Half-timbered House, Chicken Coop, Holiday Home, Mansion and Corn Storehouse."
-  },
-  {
-    "no": "E158",
-    "enName": "Turner",
-    "effect": "At any time, you can use the Turner to convert any number of Wood to 1 Food each."
-  },
-  {
-    "no": "E159",
-    "enName": "Head of the Family",
-    "effect": "You can use any Build room(s) or Family growth Action space, even if another player has already placed a person on it."
-  },
-  {
-    "no": "E160",
-    "enName": "Farmer",
-    "effect": "The next time you build fences, take 1 Wild boar. Each time you build at least 1 fence after that, take 1 Cattle."
-  },
-  {
-    "no": "E161",
-    "enName": "Fisherman",
-    "effect": "Whenever you use the \"Fishing\" Action space, you can choose to take twice as much Food as is on the space. If you do this, you must give 1 Food each to the Fishing Rod, Raft, Canoe, Fish Trap and Landing Net."
-  },
-  {
-    "no": "E162",
-    "enName": "Meat Seller",
-    "effect": "If you have an Oven, you can change your animals into Food an any time. Take 2 Food for each Sheep, 3 for each Wild boar and 4 for each Cattle."
-  },
-  {
-    "no": "E163",
-    "enName": "Field Warden",
-    "effect": "You can use the \"Take 1 Vegetable\", \"Plow 1 field\" and \"Plow 1 field and/or Sow\" action even if another player has placed a person on the space."
-  },
-  {
-    "no": "E164",
-    "enName": "Master Forester",
-    "effect": "Include the \"2 Wood\" Action card from the 3-player game as an additional forest. At the start of each round, place 2 Wood on the card. Any player who uses this action must pay you 2 Food."
-  },
-  {
-    "no": "E165",
-    "enName": "Yeoman Farmer",
-    "effect": "At the end of the game, you only lose points for Unused spaces and Begging cards."
-  },
-  {
-    "no": "E166",
-    "enName": "Undergardener",
-    "effect": "Whenever you use the \"Day Laborer\" Action space, you also receive 1 Vegetable."
-  },
-  {
-    "no": "E167",
-    "enName": "Conjurer",
-    "effect": "Whenever you use the \"Traveling Players\" action on an Action space, you receive 1 Grain in addition to the Food."
-  },
-  {
-    "no": "E168",
-    "enName": "Greengrocer",
-    "effect": "Whenever you use the \"Take 1 Grain\" Action space, you also receive 1 Vegetable."
-  },
-  {
-    "no": "E169",
-    "enName": "Storyteller",
-    "effect": "Whenever you use the \"Traveling Players\" action on an Action space, you can leave 1 Food on the space and take 1 Vegetable instead."
-  },
-  {
-    "no": "E170",
-    "enName": "Estate Manager",
-    "effect": "At the end of a 3/4/5 player game, if no player has more animals of any type than you, you receive 2/3/4 Bonus points."
-  },
-  {
-    "no": "E171",
-    "enName": "Dock Worker",
-    "effect": "At any time, you can use the Dock Worker to convert 3 Wood to either 1 Clay, 1 Reed or 1 Stone, or to convert 2 Clay, 2 Reed or 2 Stone to 1 other building resource."
-  },
-  {
-    "no": "E172",
-    "enName": "Chief",
-    "effect": "At the end of the game, you receive 1 Bonus point for each room in your Stone house. (In total, you receive 3 points per room instead of 2.) Playing this card costs an additional 2 Food."
-  },
-  {
-    "no": "E173",
-    "enName": "Chief's Daughter",
-    "effect": "If another player plays the \"Chief\" card, you can play this card immediately at no cost. (You can also play it using an Action space in the usual way.) At the end of the game, you receive 3 Bonus points if you have a Stone house, 1 if you have a Clay hut."
-  },
-  {
-    "no": "E174",
-    "enName": "Tutor",
-    "effect": "At the end of the game, you receive 1 Bonus point for each Occupation that you play after this one."
-  },
-  {
-    "no": "E175",
-    "enName": "Hedge Keeper",
-    "effect": "Whenever you build at least 1 fence, you can build 3 additional fences without paying any additional Wood. (You can only place fences if they enclose a complete pasture.)"
-  },
-  {
-    "no": "E176",
-    "enName": "Woodcutter",
-    "effect": "You receive 1 additional Wood whenever you use a Family member's action to take Wood."
-  },
-  {
-    "no": "E177",
-    "enName": "Wooden Hut Builder",
-    "effect": "At the end of the game, you receive 1 bonus point for each room in your Wooden hut."
-  },
-  {
-    "no": "E178",
-    "enName": "Hut Builder",
-    "effect": "Play this card during Stage 1. At the start of Round 11, you can extend you hut by 1 room at no cost, as long as you have not yet renovated to a Stone house."
-  },
-  {
-    "no": "E179",
-    "enName": "Merchant",
-    "effect": "Whenever you use the \"Minor Improvement\" or \"Minor or Major Improvement\" action, you can pay 1 Food to use the action a second time."
-  },
-  {
-    "no": "E180",
-    "enName": "Hobby Farmer",
-    "effect": "When you play this card, take 1 Vegetable that you may Sow immediately if you have an empty plowed field. (You can Sow just this one Vegetable with this extra action.)"
-  },
-  {
-    "no": "E181",
-    "enName": "Cook",
-    "effect": "In the Feeding phase of each Harvest, only 2 of your people eat 2 Food each; all others are satisfied with only 1 Food."
-  },
-  {
-    "no": "E182",
-    "enName": "Charcoal Burner",
-    "effect": "You receive 1 Food and 1 Wood whenever any player (including you) builds a Baking Improvement with a bread symbol."
-  },
-  {
-    "no": "E183",
-    "enName": "Basketmaker",
-    "effect": "In each Harvest, the Basketmaker can convert up to 1 Reed to 3 Food."
-  },
-  {
-    "no": "E184",
-    "enName": "Grocer",
-    "effect": "Pile (from bottom to top) 1 Vegetable, Reed, Clay, Wood, Vegetable, Stone, Grain, Reed on this card. At any time, you may buy the top item for 1 Food."
-  },
-  {
-    "no": "E185",
-    "enName": "Clay Firer",
-    "effect": "You can use the Clay Firer at any time to convert 2/3 Clay to 1/2 Stone."
-  },
-  {
-    "no": "E186",
-    "enName": "Clay Seller",
-    "effect": "You can use the Clay Seller an any time to convert: 2 Clay to 1 Sheep or 1 Reed, 3 Clay to 1 Wild boar or 1 Stone, and/or 4 Clay to 1 Cattle."
-  },
-  {
-    "no": "E187",
-    "enName": "Clay Deliveryman",
-    "effect": "Place 1 Clay on each of the spaces for rounds 6 to 14. At the start of these rounds, you receive the Clay."
-  },
-  {
-    "no": "E188",
-    "enName": "Clay Mixer",
-    "effect": "Whenever one of your people's actions gives you only Clay, you receive 2 additional Clay."
-  },
-  {
-    "no": "E189",
-    "enName": "Lord of the Manor",
-    "effect": "At the end of the game, you receive 1 bonus point for each scoring category where you have scored the maximum 4 points. (The bonus point is also awarded for 4 fenced stables.)"
-  },
-  {
-    "no": "E190",
-    "enName": "Maid",
-    "effect": "Once you have built a Clay hut, place 1 Food on each remaining Round space. At the start of these rounds, you receive the Food. (If you already have a Clay hut or a Stone house when you play this card, place the Food immediately)"
-  },
-  {
-    "no": "E191",
-    "enName": "Mason",
-    "effect": "Once during the game, at any time after your Stone house reaches at least 4 rooms, you may extend it by 1 room at no cost."
-  },
-  {
-    "no": "E192",
-    "enName": "Patron",
-    "effect": "In the future, whenever you play an Occupation, you receive 2 Food before you pay the costs of the Occupation."
-  },
-  {
-    "no": "E193",
-    "enName": "Pastor",
-    "effect": "If, when you play this card or later in the game, you are the last player to have only 2 rooms in your home, you receive 3 Wood, 2 Clay, 1 Reed and 1 Stone."
-  },
-  {
-    "no": "E194",
-    "enName": "Plow Driver",
-    "effect": "Once you have a Stone house, you can pay 1 Food at the start of each round to Plow (at most) 1 field."
-  },
-  {
-    "no": "E195",
-    "enName": "Plow Maker",
-    "effect": "Whenever you use either the \"Plow 1 field\" or \"Plow 1 field and/or Sow\" Action spaces, you can pay 1 Food to Plow 1 additional field."
-  },
-  {
-    "no": "E196",
-    "enName": "Mushroom Collector",
-    "effect": "Whenever you use a Family member's action to take Wood from an Action space, you can leave 1 of the Wood on the space and take 2 Food in exchange."
-  },
-  {
-    "no": "E197",
-    "enName": "Braggart",
-    "effect": "At the end of the game, you receive 1/3/5/7/9 Bonus points for having 5/6/7/8/9+ Improvements in front of you."
-  },
-  {
-    "no": "E198",
-    "enName": "Ratcatcher",
-    "effect": "In rounds 10 and 12, all other players may not place 1 of their family's Offspring* (if they have any).(You yourself may place all your Family members.)This card may only be played until the end of Round 9. (*) Offspring are a player's 3rd, 4th, and 5th Family members."
-  },
-  {
-    "no": "E199",
-    "enName": "Renovator",
-    "effect": "Pay 2 less Clay to renovate to a Clay hut, and pay 2 less Stone to renovate to a Stone house."
-  },
-  {
-    "no": "E200",
-    "enName": "Conservator",
-    "effect": "You can renovate your Wooden hut to a Stone house without first needing to renovate it to a Clay hut."
-  },
-  {
-    "no": "E201",
-    "enName": "Cattle Whisperer",
-    "effect": "Add 5 and 9 to the current round. Place 1 Cattle on the corresponding Round spaces. At the start of these rounds, you receive the Cattle."
-  },
-  {
-    "no": "E202",
-    "enName": "Seasonal Worker",
-    "effect": "Whenever you use the \"Day Laborer\" Action space, you receive 1 additional Grain. From Round 6, you can choose to receive 1 Vegetable instead."
-  },
-  {
-    "no": "E203",
-    "enName": "Shepherd",
-    "effect": "During each Harvest, if you have at least 4 Sheep during the Breeding phase, you receive 2 lambs instead of 1 as long as you have room for them."
-  },
-  {
-    "no": "E204",
-    "enName": "Master Shepherd",
-    "effect": "Place 1 Sheep on each of the next 3 Round spaces. At the start of these rounds, you receive the Sheep."
-  },
-  {
-    "no": "E205",
-    "enName": "Reed Collector",
-    "effect": "Place 1 Reed on each of the next 4 Round spaces. At the start of these rounds, you receive the Reed."
-  },
-  {
-    "no": "E206",
-    "enName": "Swineherd",
-    "effect": "Whenever you use the \"Take 1 Wild boar\" Action space, you receive 1 additional Wild Boar from the supply. (The \"Take 1 Wild Boar\" Action is added in Stage 3.)"
-  },
-  {
-    "no": "E207",
-    "enName": "Stablehand",
-    "effect": "Whenever you build at least 1 fence, you also receive 1 stable which you must build immediately. (This may be built inside or outside the fenced area.)(You do not need to pay any Wood for the stable.)"
-  },
-  {
-    "no": "E208",
-    "enName": "Stablemaster",
-    "effect": "One (and only one) of your unfenced stables may hold up to 3 animals of the same type."
-  },
-  {
-    "no": "E209",
-    "enName": "Quarryman",
-    "effect": "You can use the Quarryman at any time to convert Stone to Food. For each Stone you convert, take 2 Food."
-  },
-  {
-    "no": "E210",
-    "enName": "Stone Carrier",
-    "effect": "Whenever you take Stone with an action, you can also take 1 additional Stone. If you also receive other building resources, this costs you 1 Food."
-  },
-  {
-    "no": "E211",
-    "enName": "Stonecutter",
-    "effect": "All Improvements, Rooms and Renovations cost 1 Stone less."
-  },
-  {
-    "no": "E212",
-    "enName": "Dancer",
-    "effect": "Whenever you use the \"Traveling Players\" action on an Action space, you receive at least 4 Food. (If there are 1 to 3 Food are on the space, take Food from the general supply until you total 4 Food.)"
-  },
-  {
-    "no": "E213",
-    "enName": "Stockman",
-    "effect": "You receive 1 Cattle when you build your second stable, 1 Wild boar when you build your third and 1 Sheep when you build your fourth. (If you build several stables at once, you may be entitled to take several animals as well.)"
-  },
-  {
-    "no": "E214",
-    "enName": "Potter",
-    "effect": "In each Harvest, the Potter can convert up to 1 Clay to 2 Food."
-  },
-  {
-    "no": "E215",
-    "enName": "Tenant Farmer",
-    "effect": "You immediately receive a loan of one of each type of animal. Before scoring, return the 3 animals. For each animal that you cannot or do not want to return, you lose 1 point."
-  },
-  {
-    "no": "E216",
-    "enName": "Animal Keeper",
-    "effect": "You can keep Sheep, Wild boar, and Cattle in the same pasture. This applies to all your pastures (except the Forest Pasture)."
-  },
-  {
-    "no": "E217",
-    "enName": "Reeve",
-    "effect": "Take 1/2/3/4 Wood if there are still 1/3/6/9 rounds to play. At the end of the game, all players with the most played Occupation cards receive 3 Bonus points each."
-  },
-  {
-    "no": "E218",
-    "enName": "Carpenter",
-    "effect": "To extend your home, you need only 3 of the appropriate building resource and 2 Reed for each new room. (For example, if you live in a Wooden hut, you need 3 Wood and 2 Reed.)"
-  },
-  {
-    "no": "E338",
-    "enName": "Feed Pellets",
-    "effect": "During the Feeding Phase of each Harvest, you may trade 1 Vegetable for 1 of any type of Animal that you already have in your farmyard."
-  },
-  {
-    "no": "E341",
-    "enName": "Guildmaster",
-    "effect": "You receive 4 Wood when you acquire the Joinery or play the Cabinetmaker. When you acquire the Pottery or play the Potter, you receive 4 Clay. When you acquire the Basketmaker's Workshop or play the Basketmaker, you receive 3 Reed. If you have already played any of these cards when you play the Guildmaster, you receive 2 building resources of the appropriate type for each existing card."
-  },
-  {
     "no": "A169",
     "enName": "Off-Siter",
     "effect": "Once the total printed building cost of all the major improvements you have is at least 9 building resources, this card provides room for 1 person for the rest of the game."
@@ -4280,6 +3650,266 @@
     "effect": "At the end of the work phases of rounds 3 and 6, you can move your person from the \"Farmland\" action space to an unoccupied action space and take that action, or get 1 food."
   },
   {
+    "no": "E011",
+    "enName": "Petting Zoo",
+    "effect": "As long as you have a pasture orthogonally adjacent to your house, you can keep animals of any type on this card, up to the number of rooms in your house."
+  },
+  {
+    "no": "E012",
+    "enName": "Animal Bedding",
+    "effect": "You can keep 1 additional animal (of the same type) in each of your unfenced stables, and 2 additional animals (of the same type) in each pasture with stable."
+  },
+  {
+    "no": "E013",
+    "enName": "Stone House Reconstruction",
+    "effect": "At any time, you can renovate your clay house to a stone house without placing a person. (You must pay the normal renovation cost.)"
+  },
+  {
+    "no": "E014",
+    "enName": "Wood Saw",
+    "effect": "Each time all other players have more people than you, you can take a \"Build Rooms\" action without placing a person."
+  },
+  {
+    "no": "E015",
+    "enName": "Nail Basket",
+    "effect": "Each time after you use a wood accumulation space, you can place 1 stone from your supply on that space (for the next visitor) to take a “Build Fences” action."
+  },
+  {
+    "no": "E016",
+    "enName": "Briar Hedge",
+    "effect": "You do not need to pay wood for fences that you build on the edge of your farmyard board."
+  },
+  {
+    "no": "E017",
+    "enName": "Skimmer Plow",
+    "effect": "Each time you use the \"Farmland\" or \"Cultivation\" action space, you can plow 2 fields instead of 1. Each time you sow, you must place 1 fewer good on each field you sow."
+  },
+  {
+    "no": "E018",
+    "enName": "Seed Almanac",
+    "effect": "Each time after you play a minor improvement after this one, you can pay 1 food to plow 1 field."
+  },
+  {
+    "no": "E019",
+    "enName": "Ox Goad",
+    "effect": "Each time after you use the \"Cattle Market\" accumulation space, you can pay 2 food to plow 1 field."
+  },
+  {
+    "no": "E020",
+    "enName": "Iron Hoe",
+    "effect": "At the end of each work phase, if you occupy both the \"Grain Seeds\" and \"Vegetable Seeds\" action spaces, you can plow 1 field."
+  },
+  {
+    "no": "E021",
+    "enName": "Sheep Rug",
+    "effect": "You can use any \"Wish for Children\" action space, even if it is occupied by another player's person."
+  },
+  {
+    "no": "E022",
+    "enName": "Guest Room",
+    "effect": "Immediately place any amount of food from your supply on this card. Once per round, you can discard 1 food from this card to place a person from your supply in that round."
+  },
+  {
+    "no": "E023",
+    "enName": "Apiary",
+    "effect": "At the end of each work phase, you can sow exactly 1 crop on 1 field."
+  },
+  {
+    "no": "E024",
+    "enName": "Ambition",
+    "effect": "Each time you get a \"Minor Improvement\" action on an action space, you can build a major improvement instead of playing a minor one."
+  },
+  {
+    "no": "E025",
+    "enName": "Bumper Crop",
+    "effect": "When you play this card, immediately play the field phase of the harvest on your farmyard only."
+  },
+  {
+    "no": "E026",
+    "enName": "Sundial",
+    "effect": "At the end of the work phases in rounds 7 and 9, you can take a \"Sow\" action without placing a person."
+  },
+  {
+    "no": "E027",
+    "enName": "Piggy Bank",
+    "effect": "At the end of each work phase, you can place 1 food on this card, irretrievably. At any time, you can discard 6 food from this card to build a major improvement at no cost."
+  },
+  {
+    "no": "E028",
+    "enName": "Bookmark",
+    "effect": "Add 3 to the current round and mark the corresponding round space. At the start of that round, you can play 1 occupation without paying an occupation cost."
+  },
+  {
+    "no": "E029",
+    "enName": "Heirloom",
+    "effect": "(This card has no additional effect.)"
+  },
+  {
+    "no": "E030",
+    "enName": "Child's Toy",
+    "effect": "During the feeding phase of each harvest, your newborns require 2 food (instead of 1)."
+  },
+  {
+    "no": "E031",
+    "enName": "Upholstery",
+    "effect": "Each time you build or play an improvement after this one, you can place 1 reed on this card, irretrievably, to get 1 bonus point, up to the number of rooms in your house."
+  },
+  {
+    "no": "E032",
+    "enName": "Nave",
+    "effect": "During scoring, you get 1 bonus point for each of the 5 columns of your farmyard board containing at least one room."
+  },
+  {
+    "no": "E033",
+    "enName": "Beaver Colony",
+    "effect": "From now on, one of your pastures with stable cannot hold animals. Each time you get reed from an action space, you get 1 bonus point."
+  },
+  {
+    "no": "E034",
+    "enName": "Land Register",
+    "effect": "During scoring, if your farm has no unused spaces, you get 2 bonus points."
+  },
+  {
+    "no": "E035",
+    "enName": "Misanthropy",
+    "effect": "During scoring, if you have exactly 4/3/2 people, you get 2/3/5 bonus points."
+  },
+  {
+    "no": "E036",
+    "enName": "Herbal Garden",
+    "effect": "From now on, at least one of your pastures must contain no animals."
+  },
+  {
+    "no": "E037",
+    "enName": "Ox Skull",
+    "effect": "When you play this card, you immediately get 1 food. During scoring, if you have no cattle, you get 3 bonus points."
+  },
+  {
+    "no": "E038",
+    "enName": "Rod Collection",
+    "effect": "Each time you use \"Fishing\", you can place up to 2 wood on this card, irretrievably. During scoring, each such wood is worth 1 bonus point, except the 1st, 4th, 7th, and 10th."
+  },
+  {
+    "no": "E039",
+    "enName": "Paintbrush",
+    "effect": "Each harvest, you can exchange exactly 1 clay for your choice of 2 food or 1 bonus point."
+  },
+  {
+    "no": "E040",
+    "enName": "Bee Statue",
+    "effect": "Pile (from bottom to top) 1 vegetable, 1 stone, 1 grain, 1 stone, 1 grain on this card. Each time you use the \"Day Laborer\" action space, you get the top good."
+  },
+  {
+    "no": "E041",
+    "enName": "Muddy Waters",
+    "effect": "Alternate placing 1 food and 1 clay on each remaining even-numbered round space, starting with food. At the start of these rounds, you get the respective good."
+  },
+  {
+    "no": "E042",
+    "enName": "Water Gully",
+    "effect": "Place 1 cattle, 1 grain, and 1 cattle on the next 3 round spaces (in that order). At the start of these rounds, you get the respective good."
+  },
+  {
+    "no": "E043",
+    "enName": "Barn Cats",
+    "effect": "If you have 1/2/3/4 stables, place 1 food on each of the next 2/3/4/5 round spaces. At the start of these rounds, you get the food."
+  },
+  {
+    "no": "E044",
+    "enName": "Fodder Beets",
+    "effect": "Place 1 food on each remaining odd-numbered round space. At the start of these rounds, you get the food."
+  },
+  {
+    "no": "E045",
+    "enName": "Fruit Ladder",
+    "effect": "Place 1 food on each remaining even-numbered round space. At the start of these rounds, you get the food."
+  },
+  {
+    "no": "E046",
+    "enName": "Waterlily Pond",
+    "effect": "Place 1 food on each of the next 2 round spaces. At the start of these rounds, you get the food."
+  },
+  {
+    "no": "E047",
+    "enName": "Syrup Tap",
+    "effect": "Each time you get at least 1 wood from an action space, place 1 food on the next round space. At the start of that round, you get the food."
+  },
+  {
+    "no": "E048",
+    "enName": "Town Hall",
+    "effect": "In the feeding phase of each harvest, if you live in a clay or stone house, you get 1 or 2 food, respectively."
+  },
+  {
+    "no": "E049",
+    "enName": "Twibil",
+    "effect": "Each time after any player (including you) builds at least 1 wood room, you get 1 food."
+  },
+  {
+    "no": "E050",
+    "enName": "Wild Greens",
+    "effect": "Each time you sow, you get 1 food for every different type of good that you sow."
+  },
+  {
+    "no": "E051",
+    "enName": "Whale Oil",
+    "effect": "Each time you use \"Fishing\", place 1 food from the general supply on this card. Each time before you play an occupation, you get food equal to the amount on this card."
+  },
+  {
+    "no": "E052",
+    "enName": "Cubbyhole",
+    "effect": "For each room that you add to your house, place 1 food from the general supply on this card. At the start of each feeding phase, you get food equal to the amount on this card."
+  },
+  {
+    "no": "E053",
+    "enName": "Boar Spear",
+    "effect": "Each time you get at least 1 wild boar outside of the breeding phase of a harvest, you can immediately turn them into 4 food each."
+  },
+  {
+    "no": "E054",
+    "enName": "Contraband",
+    "effect": "Each time you play or build an improvement after this, you can pay 1 additional building resource of a type in the printed cost to get 3 food."
+  },
+  {
+    "no": "E055",
+    "enName": "Stone Weir",
+    "effect": "Each time you use the \"Fishing\" accumulation space, if there are 0/1/2/3 food on the space, you get an additional 4/3/2/1 food from the general supply."
+  },
+  {
+    "no": "E056",
+    "enName": "Roman Pot",
+    "effect": "Place 4 food from the general supply on this card. At the start of each work phase, if you are the last player in turn order, move 1 food from this card to your supply."
+  },
+  {
+    "no": "E057",
+    "enName": "Cheese Fondue",
+    "effect": "Each time you bake at least 1 grain into bread, you get 1 additional food if you have at least 1 sheep and (another) 1 additional food if you have at least 1 cattle."
+  },
+  {
+    "no": "E058",
+    "enName": "Lunchtime Beer",
+    "effect": "At the start of each harvest, you can choose to skip the field and breeding phase of that harvest and get exactly 1 food instead."
+  },
+  {
+    "no": "E059",
+    "enName": "Comb and Cutter",
+    "effect": "Each time you use the \"Day Laborer\" action space, you get 1 additional food for each sheep on the \"Sheep Market\" accumulation space, up to a maximum of 4 additional food."
+  },
+  {
+    "no": "E060",
+    "enName": "Working Gloves",
+    "effect": "When you play this card, you get 1 food. Each time you pay an occupation cost, you can pay 1 building resource of your choice in place of (up to) 2 food."
+  },
+  {
+    "no": "E061",
+    "enName": "Raised Bed",
+    "effect": "At the start of each harvest, you get 4 food."
+  },
+  {
+    "no": "E062",
+    "enName": "Sour Dough",
+    "effect": "Once per round, if all players have at least 1 person left to place, you can skip placing a person and take a \"Bake Bread\" action instead."
+  },
+  {
     "no": "E063",
     "enName": "Iron Oven",
     "effect": "\"Bake Bread\" action: At most 1 time Grain → 6 Food When you play this card, you can immediately take a \"Bake Bread\" action."
@@ -4698,5 +4328,115 @@
     "no": "E146",
     "enName": "Reseller",
     "effect": "Once this game, immediately after playing or building an improvement, you can choose to get its printed cost from the general supply."
+  },
+  {
+    "no": "E147",
+    "enName": "Animal Driver",
+    "effect": "At the start of each harvest, if you have 1/2/3+ fenced stables, you get 1 sheep/wild boar/cattle."
+  },
+  {
+    "no": "E148",
+    "enName": "Lazybones",
+    "effect": "Place (up to) 1 stable each on \"Grain Seeds\", \"Farmland\", \"Day Laborer\", and \"Farm Expansion\". Build the stable at no cost when another player uses that action space."
+  },
+  {
+    "no": "E149",
+    "enName": "Midnight Fencer",
+    "effect": "At the start of the last harvest, you can take up to 2 of each other player's unbuilt fences and build them on your farm at no cost. (Your farm can then have over 15 fences.)"
+  },
+  {
+    "no": "E150",
+    "enName": "Rock Beater",
+    "effect": "You can use an action space providing both stone and a different building resource even if it is occupied by another player. Stone rooms cost you 2 stone less each."
+  },
+  {
+    "no": "E151",
+    "enName": "Delivery Nurse",
+    "effect": "Once this game, if you have all types of animals, use any \"Family Growth\" action space even without room."
+  },
+  {
+    "no": "E152",
+    "enName": "Bargain Hunter",
+    "effect": "At the start of each round, you can place 1 food from your supply on the \"Traveling Players\" accumulation space to play a minor improvement by paying its cost."
+  },
+  {
+    "no": "E153",
+    "enName": "Stone Sculptor",
+    "effect": "Each harvest, you can use this card to exchange exactly 1 stone for 1 bonus point and 1 food."
+  },
+  {
+    "no": "E154",
+    "enName": "Margrave",
+    "effect": "Once you live in a stone house, you get 2 food each time any player renovates and, during scoring, 1 bonus point for each wood house and clay house."
+  },
+  {
+    "no": "E155",
+    "enName": "Visionary",
+    "effect": "If you play this card in round 4 or before, you get 1 stone, 1 vegetable, and 2 wild boar. You cannot grow your family until round 11, unless all other players already have."
+  },
+  {
+    "no": "E156",
+    "enName": "Claypit Owner",
+    "effect": "Each time another player plays or builds an improvement with a printed clay cost, you get 1 food and 1 clay."
+  },
+  {
+    "no": "E157",
+    "enName": "Usufructuary",
+    "effect": "When you play this card as your first occupation, you immediately get 1 food for every other occupation in play (by any player), up to a maximum of 7 food."
+  },
+  {
+    "no": "E158",
+    "enName": "Stone Custodian",
+    "effect": "At the end of each work phase, you get 1 food for each stone accumulation space with stone on it."
+  },
+  {
+    "no": "E159",
+    "enName": "Old Miser",
+    "effect": "In the feeding phase of each harvest, each of your people requires 1 less food. During scoring, your people are worth 2 points each instead of 3."
+  },
+  {
+    "no": "E160",
+    "enName": "Kelp Gatherer",
+    "effect": "Each time another player uses the \"Fishing\" accumulation space, they get 1 additional food and you get 1 vegetable."
+  },
+  {
+    "no": "E161",
+    "enName": "Elder Baker",
+    "effect": "This card is an action space for you only. When you use it, you get 3 grain. You can build the \"Stone Oven\" major improvement even when taking a \"Minor Improvement\" action."
+  },
+  {
+    "no": "E162",
+    "enName": "Entrepreneur",
+    "effect": "At the start of each round, you can move 1 food to this card or discard 1 food from it. If you do either, you get 1 building resource of a type you currently do not have."
+  },
+  {
+    "no": "E163",
+    "enName": "Patroness",
+    "effect": "Each time after you play an occupation after this one, you get 1 building resource of your choice."
+  },
+  {
+    "no": "E164",
+    "enName": "Mountain Plowman",
+    "effect": "Each time you plow at least 1 field tile, you get 1 sheep for each field tile that you just plowed."
+  },
+  {
+    "no": "E165",
+    "enName": "Master Huntsman",
+    "effect": "When you play this card and each time you build a major improvement, you get 1 wild boar."
+  },
+  {
+    "no": "E166",
+    "enName": "Roastmaster",
+    "effect": "Each time you use the \"Traveling Players\" or \"Fishing\" accumulation spaces, you can move exactly 1 food from that space to the other to get 1 cattle."
+  },
+  {
+    "no": "E167",
+    "enName": "Dairy Crier",
+    "effect": "When you play this card, each player (including you) can choose to get 2 sheep or 2 food; you also get 1 cattle."
+  },
+  {
+    "no": "E168",
+    "enName": "Animal Tamer's Apprentice",
+    "effect": "At the start of each round, you get 1 sheep/wild boar/cattle for each unoccupied wood/clay/stone room in your house."
   }
 ]

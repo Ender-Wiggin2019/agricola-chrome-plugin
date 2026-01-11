@@ -203,8 +203,84 @@ def step4_match_en_json(pk_data):
     print(f"Matched {matched_count} entries from en.json")
     return pk_data
 
-def generate_index_csv(pk_data):
-    """Generate index_raw.csv and filtered index.csv"""
+def step4_5_match_even_more_set(pk_data):
+    """Step 4.5: Match even_more_set_minor_improvements.json
+    First try to match by no, if not found, match by name to cnName
+    """
+    print("Step 4.5: Matching even_more_set_minor_improvements.json...")
+
+    even_more_data = read_json_file('even_more_set_minor_improvements.json')
+
+    # Track which items have even_more_set data
+    even_more_set_items = set()
+
+    # First pass: match by no
+    no_map = {}
+    for item in even_more_data:
+        no = item.get('no', '').strip()
+        if no:
+            # Store the data, keyed by no
+            no_map[no] = {
+                'name': item.get('name', '').strip(),
+                'chenTier': item.get('tier', '').strip(),
+                'chenDesc': item.get('desc', '').strip()
+            }
+
+    matched_by_no = 0
+    cn_name_set_count = 0
+    for pk_item in pk_data:
+        no = pk_item.get('no', '').strip()
+        if no and no in no_map:
+            # Update chenTier and chenDesc (may override existing values)
+            pk_item['chenTier'] = no_map[no]['chenTier']
+            pk_item['chenDesc'] = no_map[no]['chenDesc']
+
+            # If current entry has no cnName, use the name from even_more_set
+            if not pk_item.get('cnName', '').strip():
+                pk_item['cnName'] = no_map[no]['name']
+                cn_name_set_count += 1
+
+            even_more_set_items.add(no)
+            matched_by_no += 1
+
+    # Second pass: match by name to cnName (for items not matched by no)
+    name_map = {}
+    for item in even_more_data:
+        name = item.get('name', '').strip()
+        no = item.get('no', '').strip()
+        # Only add to name_map if this item wasn't matched by no
+        if name and (not no or no not in even_more_set_items):
+            name_map[name] = {
+                'chenTier': item.get('tier', '').strip(),
+                'chenDesc': item.get('desc', '').strip()
+            }
+
+    matched_by_name = 0
+    for pk_item in pk_data:
+        no = pk_item.get('no', '').strip()
+        # Only try name matching if not already matched by no
+        if no not in even_more_set_items:
+            cn_name = pk_item.get('cnName', '').strip()
+            if cn_name and cn_name in name_map:
+                # Update chenTier and chenDesc
+                pk_item['chenTier'] = name_map[cn_name]['chenTier']
+                pk_item['chenDesc'] = name_map[cn_name]['chenDesc']
+                even_more_set_items.add(no)
+                matched_by_name += 1
+
+    print(f"Matched {matched_by_no} entries by no, {matched_by_name} entries by name from even_more_set_minor_improvements.json")
+    if cn_name_set_count > 0:
+        print(f"  Set cnName for {cn_name_set_count} entries that had no cnName")
+
+    return pk_data, even_more_set_items
+
+def generate_index_csv(pk_data, even_more_set_items=None, stats_data=None):
+    """Generate index_raw.csv and filtered index.csv
+    Args:
+        pk_data: List of card data
+        even_more_set_items: Set of 'no' values that have even_more_set data
+        stats_data: Dictionary with statistics data (for checking 4p_de matches)
+    """
     print("Step 5: Generating index_raw.csv...")
 
     # Define columns
@@ -223,11 +299,11 @@ def generate_index_csv(pk_data):
                 'enName': item.get('enName', ''),
                 'baituTier': item.get('baituTier', ''),
                 'enTier': item.get('enTier', ''),
-                'chenTier': '',  # Not found in any source
+                'chenTier': item.get('chenTier', ''),  # From even_more_set_minor_improvements.json or set_o.json
                 'effect': item.get('effect', ''),
                 'baituDesc': item.get('baituDesc', ''),
                 'enDesc': item.get('enDesc', ''),
-                'chenDesc': ''  # Not found in any source
+                'chenDesc': item.get('chenDesc', '')  # From even_more_set_minor_improvements.json or set_o.json
             }
             all_rows.append(row)
             writer.writerow(row)
@@ -235,8 +311,15 @@ def generate_index_csv(pk_data):
     print(f"Generated index_raw.csv with {len(all_rows)} rows")
 
     # Filter rows: remove rows where all tier and desc fields are empty
+    # BUT keep rows if they have even_more_set data or match 4p_de.tsv
     print("Step 6: Filtering index.csv...")
     filtered_rows = []
+
+    # Create a set of enNames that match 4p_de.tsv
+    matched_4p_de = set()
+    if stats_data and 'default' in stats_data:
+        matched_4p_de = set(stats_data['default'].keys())
+
     for row in all_rows:
         # Check if all tier and desc fields are empty
         tier_fields = [row.get('baituTier', '').strip(),
@@ -246,8 +329,19 @@ def generate_index_csv(pk_data):
                       row.get('enDesc', '').strip(),
                       row.get('chenDesc', '').strip()]
 
-        # Keep row if at least one tier or desc field is not empty
-        if any(tier_fields) or any(desc_fields):
+        # Check if row has even_more_set data
+        no = row.get('no', '').strip()
+        has_even_more_set = even_more_set_items and no in even_more_set_items
+
+        # Check if row matches 4p_de.tsv
+        en_name = row.get('enName', '').strip()
+        matches_4p_de = en_name in matched_4p_de
+
+        # Keep row if:
+        # 1. At least one tier or desc field is not empty, OR
+        # 2. Has even_more_set data, OR
+        # 3. Matches 4p_de.tsv
+        if any(tier_fields) or any(desc_fields) or has_even_more_set or matches_4p_de:
             filtered_rows.append(row)
 
     # Generate final index.csv
@@ -483,14 +577,18 @@ def main():
     # Step 4: Match en.json
     pk_data = step4_match_en_json(pk_data)
 
+    # Step 4.5: Match even_more_set_minor_improvements.json
+    pk_data, even_more_set_items = step4_5_match_even_more_set(pk_data)
+
+    # Step 8: Load statistics from TSV files (needed before filtering)
+    stats_data = step8_load_statistics()
+
     # Step 5: Generate index_raw.csv and filtered index.csv
-    generate_index_csv(pk_data)
+    # Pass even_more_set_items and stats_data for filtering logic
+    generate_index_csv(pk_data, even_more_set_items, stats_data)
 
     # Step 7: Match set_o.json and update index.csv
     step7_match_set_o_json()
-
-    # Step 8: Load statistics from TSV files
-    stats_data = step8_load_statistics()
 
     # Step 9: Generate card_all.json from index.csv with statistics
     step9_generate_card_all_json(stats_data)

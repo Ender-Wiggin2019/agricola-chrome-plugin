@@ -1,1766 +1,28 @@
 [
   {
-    "no": "E011",
+    "no": "C174",
     "cnName": "",
-    "enName": "Field",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "This is such a nice deal that it's often a bad deal. If you play this card remotely early, you can pretty much count on your left hand opponent using it to take SP later. Like Corn Sheaf, you need some way to break the inherent symmetry of the card for this to be worth playing. If you plan on actually using the field to grow crops, then it's usually a good deal to play the card early. Otherwise, try to wait until the later rounds to play it, as this will hopefully minimize the number of players that will be able to use it after you.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E012",
-    "cnName": "",
-    "enName": "Fishing Rod",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Clearly worse than the Fish Trap, as you'd much rather be getting food as a bonus from reed (something that you usually want anyway) than on fishing, which is both unreliable and gives no benefit other than food. Still, this will probably give a comparable amount of food over time.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E013",
-    "cnName": "",
-    "enName": "Axe",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "The Axe's power varies wildly depending on the number of players. In 2-p, it can be very awkward, since usually you have to wait for the stone spot to appear in stage 2 before you can play it. In 3-p, it's somewhat easier to play (you can just rawdog the crappy wildcard resource spot), but the benefit it gives is reduced by the crushingly small amount of reed available. In 4-p the card becomes very powerful because of the RSF spot, and in 5-p it becomes an unquestionable 5 star card due to the 1S1W + R spot. In any case, the Axe is fantastic once you get it out; you will usually be able to get to 4+ rooms with it. If you build 3 wooden rooms, you are saving 8W. That's obscene.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E014",
-    "cnName": "",
-    "enName": "Baker's Oven",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Obviously the best of the three Bakers improvements. You know whats better than 2VP for 2 stone? 1VP for no stone! Unlike the other two cards, this is a genuine incentive to go baking, as you will always be able to play this easily, ensuring you crucial bake actions at godly efficiency.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E015",
-    "cnName": "",
-    "enName": "Baking Tray",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Baking Tray Baking Tray In 2-p and 3-p this card is amazing, and sometimes enough incentive for me to go baking all by itself. Saving you the early stone you need to get the Clay Oven is crucial, and being able to buy the oven with SP is fantastic as well. Since no one is likely to compete with you for the oven in 2-p and 3-p, you can plan around it. In 4-p and 5-p the value drops a bit, since getting the early stone is less crucial. Moreover, you are more likely to have competition for the clay oven, which makes the baking tray a riskier play (since it tips your hand). However, in any case it is a solid improvement that's usually worth the 1W if you plan on baking.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E016",
-    "cnName": "荆棘围栏",
-    "enName": "Building Material",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Even though this looks extremely weak, it's actually a fine card. Sometimes you really need SP and have nothing else to play. The flexibility of whether you get a clay or a wood is also nice. Also, the fact that it looks looks so bad means that the person you pass it to is less likely to take SP with it any time in the near future. Like all the 'pass to the left' cards, however, this can be a bit pointless in 2-p. Sometimes your opponent will simply retake SP with it and get pretty much an identical benefit, leaving you about where you started.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E017",
-    "cnName": "",
-    "enName": "Windmill",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Early game, being able to convert 1G to 2F is too inefficient to be worth the substantial cost. Late game, there are more efficient ways to convert resources to points. You pretty much always have something better to do with the three wood.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E020",
-    "cnName": "",
-    "enName": "Simple Fireplace",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Simple Fireplace Simple Fireplace This is another card that can ruin the early fireplace. If you take SP with it for the final round of actions, you will be able to eat the sheep (albeit inefficiently) and hose the fireplace buyer that was letting them accumulate. After that, the free upgrade to a Cooking Hearth should be able to get you a decent long-term feeding strategy. Particularly in advanced games, when your opponents understand the importance of the first fireplace, this can be an excellent offensive tactical card. It can also be a reasonably cheap way to get a Cooking Hearth.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E022",
-    "cnName": "客房",
-    "enName": "Raft",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "This can be a nice out if reed is tight. The VP makes it just about worth the price if you plan on fishing twice.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E024",
-    "cnName": "",
-    "enName": "Animal Pen",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Animal Pen Animal Pen I've seen this card hang a lot of newer players who try to get this thing out as early as possible, no matter what their hand is. Don't be that guy. If you have to play 2 occupations you didn't really want to get out, it's probably not worth it because it neglects family growth. On the other hand, if you're lucky enough to have 3 - 4 early game occupations that you wanted to get out anyway, this play can be a backbreaker. The card gets much stronger if you are doing some sort of drafting, as it combos almost unfairly well with the Patron, Academic and Perpetual Student. With drafting you're also more likely to have four early game occupations that you actually want to play.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E025",
-    "cnName": "",
-    "enName": "Spices",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Well, it's free, and you can't argue with that. Still, most of the time you don't end up eating vegetables, as they're too valuable in terms of points and come at an awkward stage in the game. Clearly if you plan on eating vegetables, this is a must-play. If you're not sure one way or the other, the fact that it's free means that either way it won't be too big of a mistake.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E026",
-    "cnName": "日晷",
-    "enName": "Plane",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "First off, almost no one buys a Joinery, making a card that enhances it automatically dubious in value. Second, even if you have the Joinery somehow, the card costs 1W! Since each wood is worth 2 food, you won't actually be profiting from the card until you use the Joinery 3 times. If you actually plan on using the Joinery 3 times, the question becomes: where are you getting all this extra wood, and why are you not using it for room extension/fencing?",
-    "chenDesc": ""
-  },
-  {
-    "no": "E027",
-    "cnName": "",
-    "enName": "Wood-Fired Oven",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Wood-fired Oven Wood-fired Oven A little better than the Windmill, but is bad for\nthe same reasons. It's not efficient enough to be a food engine on its own, and\nits not enough points to justify the resource cost. Still, this has some use as\na way to get another bake action in the mid to late game. It can also be\nreturned for one of the three super ovens.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E028",
-    "cnName": "书签",
-    "enName": "Clogs",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Paying 1W for 1VP is already decent, and paying 1W for 2VP is even better. You were were planning on renovating, weren't you?",
-    "chenDesc": ""
-  },
-  {
-    "no": "E029",
-    "cnName": "",
-    "enName": "Shepherd's Pipe",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "There's a bit of a chicken and egg problem here. Before you can get room for sheep, you have to have sheep! The optimal use for the card is to build a stable, get exactly two sheep, and use this to make room for your lamb in the next harvest. However, putting this narrow plan into action is difficult, as you won't always have time to play a minor improvement in the tiny window between getting the two sheep and going to harvest.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E031",
-    "cnName": "",
-    "enName": "Carp Pond",
-    "baituTier": "",
-    "enTier": "A",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "The prerequisites should be trivially easy to meet by the midgame, and free 1VP minors that give some small benefit are alwa\nys worth playing. You should probably get used to me saying that, because this isn't the last time you're going to hear it.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E032",
-    "cnName": "教堂中殿",
-    "enName": "Potato Dibber",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "If you sow a single vegetable once, this card is worth 1VP - that's already a decent deal for 1W. If you plan on sowing vegetables more than once, it becomes worth 2 or more points and a great deal. Since nearly every good endgame strategy involves sowing vegetables at least once, this is usually worth playing. Don't get me started on how silly this card becomes if you have an occupation that provides early vegetables. The card is interesting to compare to the Planter's Box. On one hand the Planter's Box is clearly a stronger and cheaper card. However, Potato Dibber can be played in the early game, and being able to play Dibber to set up an early 2R grab can be crucial. The fact that the two improvements are roughly equal in my book speaks volumes for how much timing affects the value of minor improvements.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E033",
-    "cnName": "",
-    "enName": "Ceramics",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "This is a pet favorite. One clay for 2 food isn't even that bad a deal by itself (see: the Potter), and then later you can retake SP with a free 2VP improvement to go with it. Not only is this a must-play if you have an oven, it should actually be a small incentive to go baking.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E036",
-    "cnName": "",
-    "enName": "Clay Roof",
-    "baituTier": "",
-    "enTier": "A",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "I'm not sure how this card was ever perceived as fair in development. Free 1VP occupations with inconsequential prerequisites are pretty much always worth playing, but in this case the extra ability is quite powerful. The only caveat is that you should be careful that you're not giving your opponents easy access to reed. For instance, if you're in a 3-p game and have a choice between 3C and 2R, you should consider taking the 2R to deny your opponents. As long as you're playing smartly, however, this card is borderline overpowered and a must play whenever you draw it.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E038",
-    "cnName": "",
-    "enName": "Madonna Statue",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "The best cards in the deck are ones that give VP for no cost. Ironically, this means that the Madonna Statue is pretty bad, despite being a card that gives VP for no cost! Most of the time, you simply won't have two improvements that aren't worth VP sitting around. Instead, you'll usually have to chuck a 1VP improvement along with a no VP improvement, and with no additional benefit this usually isn't a good deal.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E041",
-    "cnName": "muddy waters",
-    "enName": "Millstone",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "I love this card with the clay oven. 7 food for 1G is absurdly efficient, and you should have no problem feeding your family with even a modest grain engine. By the end of the game, this will probably have given you 6 or 8 food. That's pretty sick for 1S.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E042",
-    "cnName": "井",
-    "enName": "Helpful Neighbors",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Helpful Neighbors Helpful Neighbors Building Materials gives you something for nothing, while this forces you to pay a different resource. The reduced flexibility makes this a generally worse card, as it requires you to have an extra resource lying around that you have no other use for.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E043",
-    "cnName": "谷仓里的猫",
-    "enName": "Fruit Tree",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Getting three occs out before round 8 is tough, so you won't be getting the full food bonus a lot of the time. Still, even if you only get 3-4 food out of this, it's always worth playing. There's enough of a potential reward here that it can even be worth rushing out in the midgame. While most 3 occ improvements are conditional on you having good occupations, this gets the extra star simply because its effect is usually tempting enough to get it out even if one of my occupations is a subpar action. A potential 7 food for no cost is very strong.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E044",
-    "cnName": "",
-    "enName": "Outhouse",
+    "enName": "Stone Custodian",
     "baituTier": "",
     "enTier": "",
     "chenTier": "",
     "baituDesc": "",
-    "enDesc": "I hate this card. Just compare this to the Horse, which is free and has a much easier prerequisite. Usually by the time you're willing to trade wood and clay for straight-up VPs, your opponent's will have played out two occupations anyway. This probably would have been fairly costed at 1C.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E046",
-    "cnName": "睡莲池",
-    "enName": "Sack Cart",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Sack Cart Sack Cart By the time you have 2 occupations out, it's\nusually past round 5 anyway, but even then 2W for an eventual 3G is a decent\ndeal. This card can have a lot of value for supporting a baking strategy that\ndoesn't sow early grain. Having to sow one or two fields of grain is a\ntraditional weakness of baking, since it delays FG. The Sack Cart can help\noffset this.",
+    "enDesc": "",
     "chenDesc": "",
     "stats": {
       "default": {
-        "pwr": 2.03,
-        "adp": 3.86,
-        "apr": 6.28,
-        "drawPlayRate": 0.6756329113924051
+        "pwr": 0.95,
+        "adp": 5.25,
+        "apr": 7.94,
+        "drawPlayRate": 0.38778877887788776
       },
       "nb": {
-        "pwr": 1.67,
-        "adp": 4.16,
-        "apr": 6.8,
-        "drawPlayRate": 0.7111111111111111
+        "pwr": 0.7,
+        "adp": 5.66,
+        "apr": 7.49,
+        "drawPlayRate": 0.5051546391752577
       }
     }
-  },
-  {
-    "no": "E047",
-    "cnName": "",
-    "enName": "Lettuce Patch",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Lettuce Patch Lettuce Patch Compared to the Beanfield, the minor upgrade\ndoesn't quite make up for the increased Occupation requirement. It's still a\nmust play if you've been playing an occupation heavy game, but probably isn't\nworth the effort if you only have 1 or 2 good occupations in your hand (which\nis often the case).",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.4,
-        "adp": 3.04,
-        "apr": 10.01,
-        "drawPlayRate": 0.7997329773030708
-      },
-      "nb": {
-        "pwr": 3.95,
-        "adp": 3.62,
-        "apr": 9.93,
-        "drawPlayRate": 0.9011627906976745
-      }
-    }
-  },
-  {
-    "no": "E048",
-    "cnName": "",
-    "enName": "Reed Pond",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Reed Pond Reed Pond In 3-p, this card can engineer blowouts. While the\nother players are scrambling for the reed, you can just play out occupations\nand then this, avoiding the fight altogether. In other modes, playing this late\nwill sometimes save you a full action, as you won't have to make a reed grab\nfor renovation. While three occupations is a lot, this has a strong enough\neffect to usually be worth prioritizing.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.21,
-        "adp": 3.38,
-        "apr": 8.26,
-        "drawPlayRate": 0.7715404699738904
-      },
-      "nb": {
-        "pwr": 3.02,
-        "adp": 3.66,
-        "apr": 8.22,
-        "drawPlayRate": 0.7916666666666666
-      }
-    }
-  },
-  {
-    "no": "E049",
-    "cnName": "鹤嘴斧",
-    "enName": "Writing Desk",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Writing Desk Writing Desk Since this has a two Occ requirement, chances are\nyou will never use the ability. Your fourth occ is probably not going to be\nworth 2 food, barring crazy Patron-esque combos. Very rarely, I play this just because I don't have\nanything better, and 1W for 1VP is an ok deal.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.39,
-        "adp": 3.24,
-        "apr": 7.78,
-        "drawPlayRate": 0.8035230352303523
-      },
-      "nb": {
-        "pwr": 3.45,
-        "adp": 3.56,
-        "apr": 7.91,
-        "drawPlayRate": 0.8355263157894737
-      }
-    }
-  },
-  {
-    "no": "E050",
-    "cnName": "",
-    "enName": "Builder's Trowel",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Builder's Trowel Builder's Trowel I find myself skipping this a lot of the time. I\ndon't like paying 1W for something I could have done for free, and the fact\nthat you can't play a major improvement along the way further reduces the\ncard's efficiency. Sometimes you'll look at your hand after you FG and have\nnothing better to play, but you're not losing much value by just keeping it in\nyour hand. The value of the card goes up, however, if you\nplan on playing an occupation that requires you to renovate to clay quickly.\nIt's also slightly better in larger games, where getting blocked from\nrenovation becomes more of an issue.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E051",
-    "cnName": "",
-    "enName": "Spindle",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Spindle Spindle If you plan on herding sheep, this is worth\nbringing out every time. Once you get to 3 sheep you will essentially be\ngetting 3 food every harvest, since you can get 1 food in the field phase, then\nslaughter a sheep to make room for the lamb. All told, the Spindle should be a\nno mess 3-5 food, depending on how early you get your sheep.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E052",
-    "cnName": "小储藏间",
-    "enName": "Stable",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Stable Stable One stable at half off is a pretty minor effect,\nsince you will always have the option to buy full priced stables later, when\nyou build rooms. As always, the immediate utility of this pass-card is\ndiminished by the fact that your left-hand opponent will probably be playing it\nhimself. Still, you take what you can get, and often you\nwon't have anything better to play.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.18,
-        "adp": 5.15,
-        "apr": 8.92,
-        "drawPlayRate": 0.7757166947723441
-      },
-      "nb": {
-        "pwr": 1.77,
-        "adp": 5.5,
-        "apr": 9.7,
-        "drawPlayRate": 0.8303571428571429
-      }
-    }
-  },
-  {
-    "no": "E053",
-    "cnName": "",
-    "enName": "Butter Churn",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Butter Churn Butter Churn 2W is a little too much for what this does. It's\npretty rare to be lucky enough to have a bunch of cattle AND sheep, so most of\nthe time this will play like an overcosted spindle.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.54,
-        "adp": 3.86,
-        "apr": 7.09,
-        "drawPlayRate": 0.7991803278688525
-      },
-      "nb": {
-        "pwr": 1.94,
-        "adp": 4.53,
-        "apr": 7.05,
-        "drawPlayRate": 0.7305389221556886
-      }
-    }
-  },
-  {
-    "no": "E054",
-    "cnName": "走私货",
-    "enName": "Quarry",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Quarry Quarry Better than the Animal Pen, because you have much\nmore time to get the necessary 4 occs out. Even if you wait to play this until\nround 12, the 6 or 9 stone you'll be able to get will easily be enough for\nwhatever you were planning to do.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E055",
-    "cnName": "",
-    "enName": "Stone House Extension",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Stone House Extension Stone House Extension The value of the card is lessened by the simple\nexistence of the Family Growth without Room spot. The more likely you are to\nget the spot, the less likely it is that this late-game card is going to help\nyou grow your family. Viewed strictly as a 3 point play, the card is fairly\nunderwhelming; both the Well and the Stone Oven are better with comparable\ncost. The fact that this is a minor isn't too relevant, since renovating to\nstone implies at least one chance to get a major.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E056",
-    "cnName": "",
-    "enName": "Stone Tongs",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Stone Tongs Stone Tongs This is fantastic and compares very favorably to\ncards like Stone Cart and Stone Exchange. Not only does it encourage you to\ndeny your opponents stone, but it also gives the stone up front, so that you\ncan use it immediately.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.29,
-        "adp": 5.26,
-        "apr": 7.87,
-        "drawPlayRate": 0.5304054054054054
-      },
-      "nb": {
-        "pwr": 1.49,
-        "adp": 5.09,
-        "apr": 8.07,
-        "drawPlayRate": 0.5625
-      }
-    }
-  },
-  {
-    "no": "E057",
-    "cnName": "芝士火锅",
-    "enName": "Dovecote",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Dovecote Dovecote Two VPs for two stone is pretty much par, and the\nfood you get can be a nice boost. Nonetheless, when you play this card, you\nneed to make sure that you're not blowing your chance at a stone renovation.\nConsider this card a luxury - if you have plenty of rocks then you might as\nwell, but you're not losing too much value just leaving this in your hand.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E058",
-    "cnName": "",
-    "enName": "Animal Yard",
-    "baituTier": "",
-    "enTier": "A",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Animal Yard Animal Yard Along with being a half cost pasture, the SP\nattached lets you snipe a breeding pair of animals from your opponents. With a\ntrivial prerequisite and a cheap cost, I play this every time I get it. It's\neasily one of the best improvements in the deck.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E059",
-    "cnName": "垄作苗床",
-    "enName": "Drinking Trough",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Drinking Trough Drinking Trough It's important to note that a stable is superior\nto a Drinking Trough until you have at least 2 pastures. This is a significant\nweakness, since early pastures are usually a bad deal. The reason for this is\nthat if you compare a single pasture to 2 stables, you can hold the same amount\nof animals, but the stables can be built as a 'free' action when you\nbuild rooms. The pasture, on the other hand, requires a full action on its own. That said, the Drinking Trough is still very\nefficient at increasing your animal capacity once you have a couple of small\npastures up. While the improvement is often a mistake to play early, it can be\na nice play in the mid to late game if you haven't built stables yet.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.0,
-        "adp": 5.62,
-        "apr": 9.81,
-        "drawPlayRate": 0.4661016949152542
-      },
-      "nb": {
-        "pwr": 0.85,
-        "adp": 5.45,
-        "apr": 9.71,
-        "drawPlayRate": 0.5903614457831325
-      }
-    }
-  },
-  {
-    "no": "E060",
-    "cnName": "",
-    "enName": "Cattle Market",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Cattle Market Cattle Market This is almost never worth playing. Obviously the\ntemptation here is to try to get early cattle with this, but if you have a\nsheep to give to this, it's probably more efficient to just breed the sheep you\nspent an action taking (you didn't just take ONE sheep, did you?). Yes, I'm\naware of the animal spot in 5-p. Even then, taking 1 sheep, then trading it for\na cow, and then taking a cow just seems like a waste of time. Why don't you\njust take 1 cow twice? The only use this card tends to have is as a bad,\nhighly conditional horse. If you have some awkward number of sheep near the end\nof the game and haven't managed to get cattle, go ahead and play it.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E061",
-    "cnName": "",
-    "enName": "Riding Plow",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Riding Plow Riding Plow While its power is undeniable, this is my least\nfavorite plow. For one, the 4W, 3 Occ price tag is extremely steep. Second,\nsince every field after the 5th is generally unnecessary, maximizing the plow's\nvalue requires that you don't plow a single field before you play the card out.\nEven then, you still get an almost useless 6th field. Many times I've seen players excitedly play this\ncard out, only to be disappointed in their final score. A lot of the time, the\nexorbitant cost on the card (coupled with the hidden cost of not being able to\nplow for almost the entire game) make it more trouble than it's worth.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E062",
-    "cnName": "",
-    "enName": "Turnwrest Plow",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Turnwrest Plow Turnwrest Plow Compared to the Crooked Plow, the ability to use\nthis with your plow and/or sow doesn't quite make up for the increased\noccupation requirement. Nonetheless, this is still an excellent card that I\nalmost always try to get out.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.08,
-        "adp": 2.0,
-        "apr": 9.11,
-        "drawPlayRate": 0.871927554980595
-      },
-      "nb": {
-        "pwr": 2.65,
-        "adp": 2.24,
-        "apr": 9.22,
-        "drawPlayRate": 0.9254658385093167
-      }
-    }
-  },
-  {
-    "no": "E147",
-    "cnName": "",
-    "enName": "Land Agent",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Land Agent This is the worst early vegetable card. When you get the early vegetable,\nyou're going to want to sow it. However, sowing just 1 vegetable is usually a\nbad deal, so you'll probably take a grain and plow 2 fields before you sow.\nThen, when the 'Take one Vegetable' space appears, you'll look at your 4\nvegetables and your sown grain and wonder why you would ever want 1 more of\neither. Has some use in that sometimes you just need to get your 4th occ, and paying\n1F1A for an early vegetable is only somewhat of a raw deal.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E148",
-    "cnName": "",
-    "enName": "Academic",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Academic This card's sole use is as a stepping stone to the minor improvements that\nrequire 3 or 4 occupations, and is fine (but not spectacular) in that narrow\nrole. At best he is saving you 1F1A to just play another Occ. Usually, the\nbenefit will be less than that due to the fact that playing 2 different occs\nwould give you at least some sort of beneficial effect.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E149",
-    "cnName": "",
-    "enName": "Master Baker",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Master Baker It's actually pretty rare for a game to have more than one baker, since there\nis only one clay oven. Moreover, the extra bakes are usually going to be too\nrandom to be very useful. The extra 4 or so food he gives over time isn't\nparticularly impressive, either.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E150",
-    "cnName": "",
-    "enName": "Baker",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Baker True to his name, this is one of the best occupations for Baking in the game.\nAssuming you play him with an oven and two grain fields, you should never go\nhungry. The strength of this Occ varies depending on the number of players in the game.\nIn a 2-p game, baking strategies are horrible. For one thing, there is no early\nway to get stone. For another, there are so many animals in a 2er that you not\nonly want them for yourself, but want to prevent your opponent from having all\nof them! In a 3-p, baking is still pretty bad due to the lack of early stone,\nbut often the Baker is powerful enough to merit playing him anyway. In 4-p and 5-p, baking is viable enough to make the Baker a strong incentive to\nbake.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.35,
-        "adp": 4.16,
-        "apr": 10.3,
-        "drawPlayRate": 0.44363103953147875
-      },
-      "nb": {
-        "pwr": 2.23,
-        "adp": 4.47,
-        "apr": 8.89,
-        "drawPlayRate": 0.6287878787878788
-      }
-    }
-  },
-  {
-    "no": "E151",
-    "cnName": "护士",
-    "enName": "Master Builder",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Master Builder If you can somehow get to 5 stone rooms, he'll be worth it as a 3 point play.\nHowever, this is usually a pretty difficult task to accomplish, and three\npoints isn't enough of an incentive to actively try to get this guy out.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.14,
-        "adp": 4.81,
-        "apr": 13.19,
-        "drawPlayRate": 0.4842271293375394
-      },
-      "nb": {
-        "pwr": 2.23,
-        "adp": 4.47,
-        "apr": 13.05,
-        "drawPlayRate": 0.6666666666666666
-      }
-    }
-  },
-  {
-    "no": "E152",
-    "cnName": "",
-    "enName": "Berry Picker",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Berry Picker An extremely annoying card - I've taken to calling myself 'berry-picked' in\ngames where someone plays this or the Mushroom Collector and spends every round\ntaking wood. However, this card is not quite as strong as it seems. Ultimately, it's worth\nabout 5 or 6 food by the end (assuming they take wood 6 or 7 times), which is\nonly passable given that the food is delivered over time. What makes the card\nseem stronger than it actually is is that it causes newer players to value the\nwood spots correctly. In 5-p, the Berry Picker can be used to spam the WSR spot, giving it added\nutility.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E153",
-    "cnName": "",
-    "enName": "Mendicant",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Mendicant I still think that the only time that the mendicant gives any sort of\nsubstantial benefit is if the action you take as an alternative allows you to\ntake an accrued resource, get family growth a turn earlier, or provides some\nbenefit not usually available. The idea behind the Mendicant, it is being proposed, is that it will\ngive not only one, but likely all of these things, simply by merit of the fact\nthat it allows one to advance play by an entire action and, thus, an entire\nround. The disconnect between this proposed concept and your interpretation\nthereof seems to be a disjoin between the abstract and the demonstrable. Usually, when speaking of choices in this game, it's practical, or at least\nfeasible, to reference what's been gained based on a choice. Building early\nstables, for example, lets you breed sheep for food. Double plow and sow before\nthe first harvest can get an early grain engine going. And so forth. In this\nsituation, however, it's counterintuitive to be specific when speaking about\nthe Mendicant and what benefit, direct or indirect, it may or may not offer if\nits 'food loan' is exercised. The Mendicant's loan does not offer sheep or\nfamily growth, per say. Instead, abstractly, it offers pace pace . Pace is the most precious resource in Agricola. It is amorphous, undefined. Yet\nit undeniably exists, and exerts its influence upon every round, upon every\naction, from start of game to end. Pace largely (though not entirely!)\ndetermines who gets their food engine going sooner, who gets their house\nenlarged sooner, who gets their family grown sooner. It determines who has time\nto spare to gather particular, specific resources and who does not. It\ndetermines who has time to fiddle with Start Player due to a surplus of pace;\nor, it determines who is compelled to fiddle with Start Player to accommodate\nfor a lack of it. In a passive-interaction, economic competition game, pace is\nking. The Mendicant is unique insofar as it offers an opportunity that no other card\ndoes. It gives the player a choice, a meta-game choice, to decide to gain gain early game pace at the expense of\n(presumably) late-game pace. It offers this power just by merit of sitting in\nthe owner's hand; the option is exercised first, the cost (i.e., putting out\nthe card) is paid later. In your observation, you critique the player for choosing not to eat his grain\nand vegetable, by merit of the supposition that he could simply replace them in\nthe next round. The counterpoint is that by exercising the Mendicant option, he\ndidn't have to take the time to replace the grain and vegetable. Instead, he\nimmediately went on to the next step in his plan, which was to use these\nresources to launch his food engine. He advanced along his intended strategic\npath, rather than repeating or, worse, regressing upon it. He gained pace.\nPerhaps in fact he merely gained a single action. But this single action can be\ncrucial, critical. Surely you have played often enough to have a fireplace\nsnatched from your fingertips, to have animals slaughtered in someone else's\nkitchen rather than your own, to be ready to enlarge your home or grow your\nfamily only to see yourself unable to do so for want of a single, extra action\nahead of an opponent's. Now instead think upon the games wherein your position\nwas well enough laid out, your pace ever so slightly ahead of the pack, that it\nwas you, and not them, who got that first family growth, forcing them to wait\nanother round to grow theirs whilst you enjoyed the fruits of your labor. The\nMendicant in your hand helps you to ensure the latter to occur more often than\nthe former. And the effective is cumulative, arguably. The Mendicant saves us an action,\ninherently -- the action of collecting two food. Instead, that action is spent\non something more beneficial to short-term strategy, such as collecting reed or\nwood for building a home extension. This in turn could lead us to growing our\nfamily one round earlier than we would have otherwise been able to. By growing\nour family one round early, we've now gained *another* action. That action,\ntoo, sets our pace forward more rapidly, eventually letting us again expand our\nhome and grow our family earlier, netting us still yet another action. Pace is\nself-perpetuating; it is exponential in its rewards. And the earlier the seed,\nthe more bountiful the harvest. And all of this pace acceleration has a strong, I would even argue devastating,\neffect on the rest of the players. The extra action(s) you gained can be used\nto gather pace-related resources. More resources for you means less for them;\neven snatching a simple stack of 3 wood is enough to ruin another player's\nplans of family growth for who knows how long. Whereas, the players who have to\nscrounge around on the Day Laborer space are simply leaving those resources\naround for others to take. That's an enormous swing in the early game. Indeed: it was just this sort of swing that spawned the discussion from which\nthis thread emerged. Someone expended their 'extra' Mendicant action to take\nthe sheep away from another player. That player's game was devastated. That\nplayer (a) had to waste his last action; (b) still took a horrid amount of\nbegging negatives; and (c) now *still* has to scrounge around for sheep to get\nhis food engine going for the next harvest. His pace was shredded. The\nMendicant holder's pace was hardly affected. That's an amazing boon. That said, the Mendicant is hardly a powerhouse. You're not going to\nwant to play this every time - just when a very juicy opportunity presents\nitself. Moreover, a smart player is going to see you take those 2 begging cards\nand immediately know that you plan on Mendicant'ing your way out. Especially if\nyou're in 2-p, she might then try to block the occupation square in the last\nround to blow you out",
-    "chenDesc": ""
-  },
-  {
-    "no": "E154",
-    "cnName": "",
-    "enName": "Master Brewer",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Master Brewer Being able to convert 1 grain to 3 food every harvest without taking a bake\naction is a very good deal. While this can't be your main source of food, a\nsingle sowed grain field can be a nice secondary food source to tide you over\nwhile you set yourself up for family growth and a more robust food engine. His usefulness is limited, however, by the fact that you need to be sowing\ngrain in the early game to use him. This isn't always the best path to go, as\nthe Master Brewer on his own isn't quite a good enough reason to prioritize\ngrain sowing over FG and early fireplace (which, barring cards, are the\nsuperior lines of play).",
-    "chenDesc": ""
-  },
-  {
-    "no": "E155",
-    "cnName": "",
-    "enName": "Bread Seller",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Bread Seller Pretty much worthless if only one person is baking bread, and given the\ndifficulty in acquiring the stone oven, this is almost always the case. One argument I've heard for him is that it turns your Cooking Hearth into an\nunlimited Stone Oven. The main problem with this line of thought is that you\nare going to need to be baking a LOT before the food bonus this guy gives\nbecomes worth the 1F1A. How often do you actually find yourself baking 6+\ngrain?",
-    "chenDesc": ""
-  },
-  {
-    "no": "E156",
-    "cnName": "土矿主人",
-    "enName": "Brush Maker",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Brush Maker If you only get 2 bonus points from this guy, he is a wasted action. You would\nhave been better off plowing a field! So if you play this guy, you are looking\nto get the max VPs. Slaughtering 4 wild boar is a lot - you're never going to max boar if you\nslaughter 4 of them. What this means is that, by sacrificing the boar to the\nBrush Maker, you're not even really gaining points - you're going to lose\npoints for having fewer boar. Thus, the real purpose of this card is to be able\nto slaughter boar for food without having to worry about losing points for not\nhaving them. But if food is your priority, what are you doing wasting a food\nand an action? Furthermore, cards you need to play early that eventually grant VPs are\nfundamentally weak in Agricola. They need to be played when you need actions\nthe most and then give you nothing until the end of the game - not a good idea\nwhen your actions are supposed to have a snowballing effect.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E157",
-    "cnName": "",
-    "enName": "Thatcher",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Thatcher The Thatcher is usually worse than the Reed Collector, since you still have to\nspend another action collecting reed to build your first room. Note that the\nminor improvements he reduces doesn't include the Landing Net or Reed Hut\n(which would be great with him) and does include the Holiday House, Corn\nStorehouse and Water Mill (which are close to unplayable). Still, in games\nwhere reed is tight, he can be a nice boost.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E158",
-    "cnName": "",
-    "enName": "Turner",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Turner Another terrible conversion occ. In fact, this is one of the worst ones.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E159",
-    "cnName": "",
-    "enName": "Head of the Family",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Head of the Family In 4-p games, Head of the Family is amazing. With 4 players competing for the\nBuild Room(s) and FG spots, people get edged out a good deal. Oftentimes\nsomeone will take SP just to ensure an early FG in the next round. Combined\nwith the ability to take FG w/o room as your last action one or two times in\nthe end game, he is almost a must play regardless of the rest of your hand. In 5-p games, his utility decreases - with 2 FG spots and 2 build room spots,\nyou are once again unlikely to get blocked. While he does help you get the\n'good' Build Room and FG spots, the chance to buy a stable or some\nrandom minor improvement isn't usually that essential. A key weakness of this occ is that while you won't ever get blocked from the\nrelevant spots, you also will tend to refrain from blocking anyone else. The\nresult is often higher scores for everyone, not just yourself.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E160",
-    "cnName": "",
-    "enName": "Farmer",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Farmer I don't think I've ever seen this guy used well. People seldom build fences\nmore than one or two times. The fact that it gives you a boar at the beginning\nmeans that you have to build fences three three times\nbefore you can get a breeding pair of cattle. That's far too much trouble to\never be worth it.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E161",
-    "cnName": "",
-    "enName": "Fisherman",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Fisherman Assuming you're playing with all of the decks, the various fisherman\nimprovements should be fairly rare. Even if one gets played, it's not too bad\nbecause that player is less likely to take the Fishing spot from you to deny\nyou food. As a whole, this card works best when played with semi-experienced players.\nGood players tend to avoid the fishing spot unless it gets to 4 or even more,\nbut will adjust to deny you the food if you let the spot get too high. Newer\nplayers that struggle with feeding their family will take it when it's at 3 or\neven 2. As a result, the presence of even one newbie can hurt this occ a lot.\nThe sweet spot is a group of players who are right in between: they can feed\ntheir family reasonably well without resorting to fishing, but aren't too\nconcerned with what you're doing. That said, the ability to get 6 or even 8 food with a single action is amazing,\nespecially if this happens early. Just make sure you don't get too greedy;\nplayers will eventually deny you the food if you let the spot pile too high.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E162",
-    "cnName": "",
-    "enName": "Meat Seller",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Meat Seller A 1 food cooking hearth is a decent deal. This lets you get in on eating\naccumulated animals without having to muck around collecting clay. This guy's\nworth is highly conditional, but he's a fine play when the conditions are met.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E163",
-    "cnName": "",
-    "enName": "Field Warden",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Field Warden Guaranteeing you 'Take 1 Vegetable' is almost irrelevant, since that square is\nusually unpopular enough that you can take it if you really want to. The real\ndraw of this card is the 'Plow and Sow' part. You can get 2 or 3 guaranteed\n'Plow and Sow' actions, which is an undeniably strong spot. However, he's even\nstronger than that. In the final round of the game, he ensures that you can\nplow before before you plow and sow. This is always the\noptimal order to do the two actions, and the Field Warden is one of the only\nways to enable this play.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E164",
-    "cnName": "",
-    "enName": "Master Forester",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Master Forester The lower barrier to take the wood means you won't be able to get away with\nletting it get to 8W - at that stage someone is probably going to grab it, and\nfeeding your opponents that much wood is never a good idea. On the other hand,\nbeing able to get repeatedly get 6W basically unmolested can be a huge boon.\nHowever, you have to consider that the action you're using taking it could be\ntaking wood off the board from your opponents.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E165",
-    "cnName": "狩猎大师",
-    "enName": "Yeoman Farmer",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Yeoman Farmer If you're playing decently, he shouldn't be worth more than 2 points. That's a\nbad deal.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E166",
-    "cnName": "",
-    "enName": "Undergardener",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Undergardener The Undergardener isn't quite as good as the Seasonal Worker, but he's still\namazing. The power of early vegetables can't be denied, and the 2 food that\ncomes with each of them gives you enough time to get them into the ground.\nAfter that, it's just a matter of getting a hold of a cooking hearth, and\nyou're set on food for the rest of the game. This guy comes out pretty much every time someone draws him.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E167",
-    "cnName": "",
-    "enName": "Conjurer",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Conjurer This is obviously worse than the seasonal worker, but not much more so. Playing\nit turn 1 and then taking TP on rounds 2 and 4 is an ok way to get a grain\nengine started.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.05,
-        "adp": 3.46,
-        "apr": 3.3,
-        "drawPlayRate": 0.6354319180087847
-      },
-      "nb": {
-        "pwr": 1.07,
-        "adp": 3.55,
-        "apr": 4.32,
-        "drawPlayRate": 0.6259541984732825
-      }
-    }
-  },
-  {
-    "no": "E168",
-    "cnName": "",
-    "enName": "Greengrocer",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Greengrocer Very good. Plow two fields, take a grain and a veggie, and sow away. He suffers\na bit from splitting you two ways - a part of you wants to use the early\nveggies for food with a cooking hearth, while the grain he forces you to take\nleans you toward baking. This prevents him from being a 5 star card, but he is\nstill great.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.4,
-        "adp": 3.53,
-        "apr": 6.48,
-        "drawPlayRate": 0.65625
-      },
-      "nb": {
-        "pwr": 1.22,
-        "adp": 3.65,
-        "apr": 7.32,
-        "drawPlayRate": 0.7712418300653595
-      }
-    }
-  },
-  {
-    "no": "E169",
-    "cnName": "",
-    "enName": "Storyteller",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Storyteller This guy is pretty obviously inferior to the Undergardener, but early\nvegetables are early vegetables. He can also be used by ranchers to set up a\ncouple of 6 or 7 food plays later on. Obviously this decreases in value if\nsomeone else has already played a TP card.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E170",
-    "cnName": "",
-    "enName": "Estate Manager",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Estate Manager In 3-p, this is obviously bad. A conditional 2 VPs for 1F1A? Really? Just plow\na field instead. In 4-p and 5-p, his conditions become too difficult to\nactually achieve.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E171",
-    "cnName": "",
-    "enName": "Dock Worker",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Dock Worker This is the most inefficient conversion Occ in the game, but can have limited\nuse solely because of his versatility. You will almost never want to use him\nsimply because you're getting such a raw deal, but if the game is somehow\nflooded with a particular resource (for instance, you have the Clay Mixer), he\ncan give you a resource that's comparatively scarce.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E172",
-    "cnName": "",
-    "enName": "Chief",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Chief: Extra cost: 2 food The extra food shouldn't be too much of a hassle in the final round, and this\nguy will usually be worth 4 VPs - a great deal for one action. If you have the\nstone house and plenty of food, he's always worth it.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E173",
-    "cnName": "",
-    "enName": "Chief's Daughter",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Chief's Daughter: 1F1A for 3 VP is a solid deal, but hardly a game-breaking one. Since I mix the\ndecks together, I've never seen the Daughter come out for free.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E174",
-    "cnName": "",
-    "enName": "Tutor",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Tutor This card requires you to play him early when actions matter the most, and then\ndoes nothing until the very end of the game. That's not a recipe for a good\ncard. That said, he and the Perpetual Student are an amazing combo. Often, you will\nbe able to play out your entire hand of occupations, making him a 6 point play.\nNice!",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.05,
-        "adp": 4.6,
-        "apr": 2.75,
-        "drawPlayRate": 0.7151051625239006
-      },
-      "nb": {
-        "pwr": 2.44,
-        "adp": 4.39,
-        "apr": 3.14,
-        "drawPlayRate": 0.8235294117647058
-      }
-    }
-  },
-  {
-    "no": "E175",
-    "cnName": "",
-    "enName": "Hedge Keeper",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Hedge Keeper If you build fences twice, this is worth 6 wood. Not a bad deal if you want a\nlot of fences.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.05,
-        "adp": 3.21,
-        "apr": 8.25,
-        "drawPlayRate": 0.73046875
-      },
-      "nb": {
-        "pwr": 1.78,
-        "adp": 3.85,
-        "apr": 8.89,
-        "drawPlayRate": 0.6858638743455497
-      }
-    }
-  },
-  {
-    "no": "E176",
-    "cnName": "",
-    "enName": "Woodcutter",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Woodcutter If you're taking wood as much as you should be, he'll probably be worth about 5\nwood by the end of the game, and most of that wood will come early. That's a\nreasonably good deal, but the fact that you have to play him before you take\nany wood hurts.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E177",
-    "cnName": "",
-    "enName": "Wooden Hut Builder",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Wooden Hut Builder An interesting alternative to renovating. If you can get to stone then you\nprobably want to go ahead and do that, but if you think you're going to get\nstuck at clay, it might be worth it to just play this guy instead. The fact\nthat you don't have to waste time grabbing clay sometimes means that you can\nfocus on getting to a 5 room wood house, which in turn let's you get FG without\nhaving to resort to the 'FG even w/o room' space.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E178",
-    "cnName": "",
-    "enName": "Hut Builder",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Hut Builder Being forced to play him in Stage 1 is rough, but the 2 reed, 5 wood/clay and\nbuild room action he eventually saves is well worth it. You never want to\nrenovate to stone before round 11 anyway, so the restriction is almost\nirrelevant. Just make sure you're not blocked from family growth on round 11,\nand consider renovating to clay a bit early to save 1 clay.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E179",
-    "cnName": "",
-    "enName": "Merchant",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Merchant Unlike the Businessman and the Traveling Salesman, this doesn't have utility in\nsecuring you an early fireplace. Instead, it gives you the same almost\nirrelevant ability playing two minor improvements, which effectively reduces\nthe number of times you can take SP. This time, however, you have to pay food\njust to do it! The only added utility that the Merchant has is being able to buy two Major\nimprovements at once. This is also an almost useless ability. If you have that\nmany resources lying around, you should be renovating!",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 0.33,
-        "adp": 6.07,
-        "apr": 6.96,
-        "drawPlayRate": 0.24519230769230768
-      },
-      "nb": {
-        "pwr": 0.9,
-        "adp": 5.52,
-        "apr": 7.59,
-        "drawPlayRate": 0.4625
-      }
-    }
-  },
-  {
-    "no": "E180",
-    "cnName": "",
-    "enName": "Hobby Farmer",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Hobby Farmer Early veggies are nice, but 1 veggie isn't quite enough to make a dedicated\nvegetable feeding engine. You'll have to combine him with something else like\nthe Potato Dibber before you can start eating vegetables reliably. In that\nsense, he's a well named Occ: you should view those vegetables as a hobby, not\nas your main source of food. Nonetheless, this guy is usually worth playing simply because the free sow is\nusually worth 1 food, and you were going to spend an action taking a vegetable\nanyway.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E181",
-    "cnName": "",
-    "enName": "Cook",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Cook Assuming you can grow your family once before the second harvest and again\nbefore the third, he can save you about 8 food over time. That's not a bad\ndeal, even considering the fact that he costs an early action.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E182",
-    "cnName": "",
-    "enName": "Charcoal Burner",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Charcoal Burner: In 4-p, this is awesome: pretty much everyone will buy some sort of cookery,\nand some will buy one twice when they upgrade their fireplace to a cooking\nhearth or take a Stone Oven for another free bake action. It will be worth at\nleast 4 food and 4 wood, a far better deal than perfectly playable cards like\nthe Reeve. Less playable in 3-p.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.52,
-        "adp": 2.32,
-        "apr": 2.57,
-        "drawPlayRate": 0.9001297016861219
-      },
-      "nb": {
-        "pwr": 3.88,
-        "adp": 2.69,
-        "apr": 2.88,
-        "drawPlayRate": 0.8690476190476191
-      }
-    }
-  },
-  {
-    "no": "E183",
-    "cnName": "",
-    "enName": "Basketmaker",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Basketmaker Why are you eating your reed? That was supposed to be used for your house! Has\nsome utility in 5 player if the other players let the 2 reed square stack for\nyou (i.e. they are undervaluing reed), but in 4 player, reed is usually far too\nscarce to bother with the card.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E184",
-    "cnName": "",
-    "enName": "Grocer",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Grocer Once you get the grain and the veggie, he's already paid for himself in actions\nsince normally you have to use a full action to take either. The resources you\nget along the way are gravy. That said, you're going to need a good food engine to support him. I've seen at\nleast a couple of times where someone plays him and then is forced to leave him\nunused as they scramble to feed their family. However, provided you are able to support him, he is extremely powerful.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 4.53,
-        "adp": 1.66,
-        "apr": 8.31,
-        "drawPlayRate": 0.9425587467362925
-      },
-      "nb": {
-        "pwr": 5.27,
-        "adp": 1.87,
-        "apr": 8.05,
-        "drawPlayRate": 0.9463414634146341
-      }
-    }
-  },
-  {
-    "no": "E185",
-    "cnName": "",
-    "enName": "Clay Firer",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Clay Firer Cards that convert one resource to another usually aren't good because the\ndeals they give are only marginally beneficial. If you're going to be spending\n1F1A, you want to be getting good deals, not OK ones. This is one of the better conversion Occs, however, because 3 clay for 2 stone\ncan be a pretty good deal in games where people are valuing stone correctly.\nHowever, the fact that you need to waste one action playing this card and then\nanother action collecting the clay when you could have just taken 2 or 3 stone\ndirectly still makes this a fringe play.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.32,
-        "adp": 4.76,
-        "apr": 8.14,
-        "drawPlayRate": 0.44542772861356933
-      },
-      "nb": {
-        "pwr": 2.6,
-        "adp": 4.92,
-        "apr": 8.33,
-        "drawPlayRate": 0.6282051282051282
-      }
-    }
-  },
-  {
-    "no": "E186",
-    "cnName": "",
-    "enName": "Clay Seller",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Clay Seller Another bad conversion Occ. Rather than take the 4 clay and convert it into 2\nsheep, why don't you just take 2 sheep? This doesn't even have utility for\nearly cattle, as 4 clay is usually a highly contested spot in the early game.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E187",
-    "cnName": "",
-    "enName": "Clay Deliveryman",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Clay Deliveryman This guy has the most utility in 2-p, where clay can be very scarce. With more\nplayers the card becomes more of a conditional play, since clay should already\nbe plentiful after round 6. If you play him, it should be with the intention of\nusing massive amounts of clay (clay rooms, pottery, etc.). This should\nhopefully prevent clay from being too easy to get for your opponents.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.19,
-        "adp": 3.99,
-        "apr": 5.34,
-        "drawPlayRate": 0.5889487870619946
-      },
-      "nb": {
-        "pwr": 2.58,
-        "adp": 4.33,
-        "apr": 6.03,
-        "drawPlayRate": 0.6078431372549019
-      }
-    }
-  },
-  {
-    "no": "E188",
-    "cnName": "",
-    "enName": "Clay Mixer",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Clay Mixer A strong card - usually worth about 6 clay, and you'll get most of that clay\nearly, when you need it most.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E189",
-    "cnName": "",
-    "enName": "Lord of the Manor",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Lord of the Manor Keep in mind that Agricola tends to reward people who don't focus on maxing\nspecific areas, and instead rewards last-minute diversification. As a result\nyou generally won't have much incentive for maxing areas with the intention of\ngetting points on this guy, because you could probably be getting just as many\npoints by filling in negatives. That said, you only really need 3 areas maxed for him to be worth the action.\nThis is most easily done with Fields, Grain, and Veggies, for obvious reasons.\nIf you've been able to do this, by all means play him.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.48,
-        "adp": 2.87,
-        "apr": 13.31,
-        "drawPlayRate": 0.5690747782002535
-      },
-      "nb": {
-        "pwr": 2.94,
-        "adp": 3.21,
-        "apr": 12.86,
-        "drawPlayRate": 0.5730994152046783
-      }
-    }
-  },
-  {
-    "no": "E190",
-    "cnName": "",
-    "enName": "Maid",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Maid I've said this countless times, but early renovations are usually not worth it,\nparticularly in games where clay is tight enough to make clay rooms unfeasible.\n1 food a round is nice, but you're never going to be able to abuse this card\ntoo much. Once you get to 3 rooms, you might want to go for a renovation in\nstage 3. If you play her by the end of round 9, she'll be worth 4 food (5 food\nminus the one you took to play him). That's ok, but not worth the effort of\njumping through the necessary hoops.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E191",
-    "cnName": "",
-    "enName": "Mason",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Mason You'll usually play this guy at the end of the game for an extra 3 points.\nThat's a good deal by itself, even if you don't use the extra room for another\nFamily Growth. Getting to a 4 room stone house can be hard sometimes, however.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.64,
-        "adp": 2.35,
-        "apr": 12.56,
-        "drawPlayRate": 0.7187096774193549
-      },
-      "nb": {
-        "pwr": 3.12,
-        "adp": 2.93,
-        "apr": 12.34,
-        "drawPlayRate": 0.7514792899408284
-      }
-    }
-  },
-  {
-    "no": "E192",
-    "cnName": "",
-    "enName": "Patron",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Patron You're going to need to look at your hand before you decide to play this guy,\nas he only begins to become worth it if you're playing 3 occupations after him.\nIf you are, then go ahead and run him out there. Otherwise, he stays behind.\nAlong with Perpetual Student, this is probably the best way to rush the Animal\nYard/Quarry.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.1,
-        "adp": 3.02,
-        "apr": 1.95,
-        "drawPlayRate": 0.8740157480314961
-      },
-      "nb": {
-        "pwr": 3.11,
-        "adp": 3.25,
-        "apr": 1.94,
-        "drawPlayRate": 0.8994413407821229
-      }
-    }
-  },
-  {
-    "no": "E193",
-    "cnName": "",
-    "enName": "Pastor",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Pastor Like the Maid, the Pastor is a card that you have no business playing if you\nconsider yourself one of the better players in your group. However, if I found\nmyself at a tough table, I could see myself working on my food engine in the\nearly rounds and then using this guy to catch up. Random note: this is a\nhilarious combo with the Lover.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.73,
-        "adp": 4.92,
-        "apr": 7.08,
-        "drawPlayRate": 0.4806451612903226
-      },
-      "nb": {
-        "pwr": 1.98,
-        "adp": 4.74,
-        "apr": 7.44,
-        "drawPlayRate": 0.5413533834586466
-      }
-    }
-  },
-  {
-    "no": "E194",
-    "cnName": "",
-    "enName": "Plow Driver",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Plow Driver This is another card that asks you to get a stone renovation unreasonably\nearly. He compares unfavorably to the Plow Maker, which isn't even a good card.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.39,
-        "adp": 2.89,
-        "apr": 9.71,
-        "drawPlayRate": 0.7476255088195387
-      },
-      "nb": {
-        "pwr": 3.42,
-        "adp": 3.23,
-        "apr": 9.31,
-        "drawPlayRate": 0.76
-      }
-    }
-  },
-  {
-    "no": "E195",
-    "cnName": "",
-    "enName": "Plow Maker",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Plow Maker This is another trap card - he looks much stronger than he actually is. Let's assume that you play this guy with the intention of maxing fields. To get\n5 fields, you're going to need 4 actions (1 to play the Occ, 3 to plow) and 3\nfood (1 to play the Occ, 2 to plow). This is not appreciably better than just\nplowing a field 5 times, since the 3 food he costs will probably take another\naction anyway.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.02,
-        "adp": 2.67,
-        "apr": 7.89,
-        "drawPlayRate": 0.8660598179453837
-      },
-      "nb": {
-        "pwr": 3.0,
-        "adp": 3.0,
-        "apr": 8.46,
-        "drawPlayRate": 0.8736842105263158
-      }
-    }
-  },
-  {
-    "no": "E196",
-    "cnName": "",
-    "enName": "Mushroom Collector",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Mushroom Collector Amazingly strong. He's basically a Cabinetmaker that gets to use his ability\nevery time you take wood. If you play him, you're pretty much taking wood every\ntime you can. In that time, he generates an absurd amount of food - usually\nenough for the first two harvests. He also gives you plenty of wood, of course.\nSince you have such a large incentive to take wood, you're taking it much more\noften than usual, which balances out the wood you have to leave behind. Mushroom Collector can be risky in 2-p. Because he leaves behind a wood, your\nopponent will usually want to take the 4W (a very strong spot for 2-p) and deny\nyou the food.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 0.74,
-        "adp": 4.76,
-        "apr": 3.6,
-        "drawPlayRate": 0.48336594911937375
-      },
-      "nb": {
-        "pwr": 1.01,
-        "adp": 4.26,
-        "apr": 3.13,
-        "drawPlayRate": 0.5555555555555556
-      }
-    }
-  },
-  {
-    "no": "E197",
-    "cnName": "",
-    "enName": "Braggart",
-    "baituTier": "",
-    "enTier": "B",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Braggart 9 points? NINE POINTS! This card can easily win you the game by itself, and is the most common way\nI've seen players score higher than 60 points. Harnessing the Occ's power is no\ncakewalk, but when correctly played with the right combination of cards, this\nis pretty much unstoppable. I admit my rating scale breaks down a bit here - if you only look at the\npercentage of time he is playable, he is probably a three star card. However, I\ngive the extra star simply because of his raw power - he's engineered more flat\nout blowouts and unreal comebacks than any other card I can think of. The card is also easily a 5 star card in draft, where you can tailor your hand\nto include many cheap improvements.",
-    "chenDesc": "",
-    "stats": {
-      "nb": {
-        "pwr": 4.67,
-        "adp": 1.12,
-        "apr": 13.39,
-        "drawPlayRate": 0.9303482587064676
-      }
-    }
-  },
-  {
-    "no": "E198",
-    "cnName": "",
-    "enName": "Ratcatcher",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Ratcatcher On the surface, you're trading 1 food and 1 action for 2 actions from your\nopponents. That's ok. However, the card is actually much subtler than that. For\none, the action you spend to play him comes before the actions that your\nopponents lose. Since actions are more valuable in the early rounds than the\nlater ones, this makes him a worse deal than he seems. But it's actually even more complex than that. Because the game is designed to\nhave more appealing spots as the game progresses, removing 3 or 4 actions from\na given round will mean that the quality of your final actions in that round\nwill be much higher than usual. As a whole, this is a card that I get out if I have the time, but don't sweat\ntoo much if I need to use my actions in round 9 to develop my own board.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E199",
-    "cnName": "",
-    "enName": "Renovator",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Renovator Obviously you can't play this unless you're sure you'll be able to renovate\ntwice by the time the game is over. In that case, paying 1F1A for two stone and\ntwo clay is an OK deal, but often you're better off just taking those resources\ndirectly to deny your opponents.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E200",
-    "cnName": "",
-    "enName": "Conservator",
-    "baituTier": "",
-    "enTier": "A",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Conservator Obviously redonkulous. This saves youâ€š what? 1 reed, 3-5 clay, and 1 renovation\naction? Absurd. One supposed weakness to the occ is that you don't get to play a free\nMajor/Minor Improvement. However, this isn't a valid concern. Let's compare\nsomeone who renovates fairly and someone who uses the Conservator and then\nspends an action on the Major/Minor Improvement space. The 'fair' player: Spends 2 actions renovating Spends about 1 action collecting 3-5 clay Spends about 1/2 of an action collecting 1 reed The Conservator: Spends 1 action playing the Conservator Spends 1 action renovating Spends 1 action playing major/minor improvement Even in this case the Conservator is better (he saves about half an action).\nHowever, the Conservator has 2 additional benefits on top of that: 1) You don't have to buy the Major improvement if there is a more efficient way\nof gaining points. For instance, rather than spending 1A on 3 stone and 1A on\nMajor/Minor to get a well, you can just plow 2 fields. 2) You can wait until much later to renovate. Because of the limited number of\nrenovation spots, the 'fair' player needs to renovate to clay fairly\nearly if he wants to get to stone. That means he also has to collect clay and\nreed fairly early. The Conservator can just wait until the last possible\nmoment. I have played this card literally every time I've gotten him, and I'm pretty\nsure I've never made a mistake in doing so. In competitive games where\nresources are tight, he has singlehandedly won me the game by ensuring me a\nstone renovation that otherwise would have been impossible. That's a good sign\nof a five star card.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.31,
-        "adp": 3.51,
-        "apr": 11.09,
-        "drawPlayRate": 0.6635514018691588
-      },
-      "nb": {
-        "pwr": 2.74,
-        "adp": 3.69,
-        "apr": 11.07,
-        "drawPlayRate": 0.7388888888888889
-      }
-    }
-  },
-  {
-    "no": "E201",
-    "cnName": "",
-    "enName": "Cattle Whisperer",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Cattle Whisperer: We have a house rule that whenever someone plays this card, they have to put\ntheir finger on their mouth and say, 'Shhhhhhh!' His value is slightly worse than the Cattle Breeder, since you have to play him\nearlier.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 0.56,
-        "adp": 5.54,
-        "apr": 4.72,
-        "drawPlayRate": 0.3341404358353511
-      },
-      "nb": {
-        "pwr": 0.76,
-        "adp": 5.69,
-        "apr": 5.33,
-        "drawPlayRate": 0.46153846153846156
-      }
-    }
-  },
-  {
-    "no": "E202",
-    "cnName": "",
-    "enName": "Seasonal Worker",
-    "baituTier": "",
-    "enTier": "A",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Seasonal Worker This guy would be worth playing even without the vegetable clause. As is, he's\nsimply amazing. He generates a ton of food early as you get your grain engine\nset up, and then gives you early veggies (plus more food!) in stage 2. This is\na pet favorite of many people at BGG, and with good reason.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.17,
-        "adp": 2.57,
-        "apr": 4.3,
-        "drawPlayRate": 0.6865079365079365
-      },
-      "nb": {
-        "pwr": 2.01,
-        "adp": 2.74,
-        "apr": 4.35,
-        "drawPlayRate": 0.6894409937888198
-      }
-    }
-  },
-  {
-    "no": "E203",
-    "cnName": "",
-    "enName": "Shepherd",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Shepherd I gave the Sheep Whisperer one star, and this is even worse than that. There's\nsimply no way you're going to be able to get 4 sheep and room for two more\nbefore the second harvest, so you're only going to get a maximum of 4 extra\nsheep from him. The Sheep Whisperer gives the same amount of food, and doesn't\nforce you to already have sheep just to get more sheep. Like all things in\nAgricola, sheep have diminishing returns - if you already have 4 sheep, there\nisn't much value in getting 4 more.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E204",
-    "cnName": "",
-    "enName": "Master Shepherd",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Master Shepherd Deceptively weak. The problem is that he tempts you into building early fences,\nwhen that wood should really be going toward building rooms for future family\ngrowth. If you wait until after FG to use him, then the 3 sheep over time is\nnot even that appealing, since the sheep square will have been piling up for\nsome time.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E205",
-    "cnName": "",
-    "enName": "Reed Collector",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Reed Collector This is amazingly strong in 3-p, where reed is extremely tight. However, in 4-p\nand 5-p reed becomes more plentiful, making him substantially worse. Still, in\nany case he will tend to save you a full action, since 4 reed usually takes 2\nactions to get. I don't buy the 'this gives your opponents more reed' argument that\nWhiteKong uses in his 'Complex Strategies for Agricola' article. In\norder to build rooms, people need both reed AND wood. The action that the Reed\nCollector saves you lets you take wood instead, setting you up for a potential\n2 room play and denying your opponents from rooms just as surely as if you had\ntaken the reed.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E206",
-    "cnName": "",
-    "enName": "Swineherd",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Swineherd This is much, much worse than either the cowherd or the sheep farmer. The\ncowherd has a more powerful effect and lets you spam the cow spot at 1 until\nthe end of the game - no one cares enough about boar for that to really be\nworth doing on the boar spot. Moreover, the sheep spot comes out much earlier\n(allowing you to take it more often), and the sheep farmer has a nice clause\nthat lets you convert your excess sheep into cattle and boar in the mid to late\ngame.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E207",
-    "cnName": "",
-    "enName": "Stablehand",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Stablehand Another card that is unplayable due to the low number of times that you\nactually want to fence. Since you can build stables whenever you build rooms,\nthis is not even saving an action when it activates - just a couple of wood.\nGarbage.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.01,
-        "adp": 5.41,
-        "apr": 8.77,
-        "drawPlayRate": 0.40078585461689586
-      },
-      "nb": {
-        "pwr": 0.84,
-        "adp": 5.34,
-        "apr": 8.8,
-        "drawPlayRate": 0.5
-      }
-    }
-  },
-  {
-    "no": "E208",
-    "cnName": "",
-    "enName": "Stablemaster",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Stablemaster This card is a little embarrassing when compared to the mini-pasture. That\nsaid, he's still fine for what he does: give you enough room to breed early\nsheep while you save wood for rooms.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E209",
-    "cnName": "",
-    "enName": "Quarryman",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Quarryman Stone is usually far too valuable to spend on a measly 2 food. The only time I\ncould ever see this occ being played is as part of a goofy combo with the\nQuarry. 8 food for one action is pretty good, I hear.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E210",
-    "cnName": "",
-    "enName": "Stone Carrier",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Stone Carrier You don't take stone from the '1 stone spot' enough for him to give more than 1\nor 2, so if play him, it's with the intention of using the RSF spot for 1 reed,\n2 stone. That doesn't seem like an impressive enough play to be worth the 1F1A,\nunless you have minor improvements that require stone.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E211",
-    "cnName": "",
-    "enName": "Stonecutter",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Stone Cutter Worth it if you plan on buying a clay oven, since this guy can save you a full\naction in that case. He can also be a good play if you have some random 1 stone\nminor improvements in your hand.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.87,
-        "adp": 3.87,
-        "apr": 5.7,
-        "drawPlayRate": 0.575880758807588
-      },
-      "nb": {
-        "pwr": 1.76,
-        "adp": 3.81,
-        "apr": 5.75,
-        "drawPlayRate": 0.664804469273743
-      }
-    }
-  },
-  {
-    "no": "E212",
-    "cnName": "",
-    "enName": "Dancer",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Dancer Can generate a decent amount of food in the early game, but gets progressively\nless useful as food becomes more plentiful. Generally, this needs to be played\nearly to be worth it. The card is helped by more TP cards - either for you or\nyour opponent. If you have them then you can sometimes set up a nice combo\nwhere you are using TP every turn with some sort of bonus. If your opponent has\nthem you can use the Dancer to block the TP square in the early game, stunting\ntheir development.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E213",
-    "cnName": "",
-    "enName": "Stockman",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Stockman One of my favorite plays as a baker is to play the Stockman super late game\nwith no animals, and then use the 'build room(s)' space to build 3 stables.\nPOW! 9 points. The other use for him is to use him to get an early breeding pair of cattle.\nAll you need are 2 stables and something like the Cattle Whisperer; the fences\ncan come later. Most of the time, however, the lack of a way to breed the singleton animals\nmakes him too awkward to bother with.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 2.0,
-        "adp": 4.2,
-        "apr": 9.16,
-        "drawPlayRate": 0.5847797062750334
-      },
-      "nb": {
-        "pwr": 2.25,
-        "adp": 4.39,
-        "apr": 9.4,
-        "drawPlayRate": 0.6838709677419355
-      }
-    }
-  },
-  {
-    "no": "E214",
-    "cnName": "",
-    "enName": "Potter",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Potter In 4-p and 5-p clay becomes so plentiful that it's almost worthless. In that\nsituation, the Potter is at its best, but is still generally underwhelming. if !supportLineBreakNewLine endif",
-    "chenDesc": ""
-  },
-  {
-    "no": "E215",
-    "cnName": "",
-    "enName": "Tenant Farmer",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Tenant Farmer The Tenant Farmer seems to be much better than he actually is. The main problem\nwith the Tenant Farmer is having room to hold 3 animals of a different type.\nEating them is usually not a good solution because of the 'payback' clause he\nhas. Obviously it gets easier to hold them as the game progresses, but as the game\nprogresses the benefit he gives becomes minimal.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E216",
-    "cnName": "",
-    "enName": "Animal Keeper",
-    "baituTier": "",
-    "enTier": "E",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Animal Keeper The best case scenario is if you craft a single large 2x2 pasture with a stable\nin it. Then you'll be able to house all the animals you could ever want. In\nthis outstanding case, what has he saved you? About 2 wood! Let me explain. It is very rare to have more than 4 of each animal. Even in a\ngame where a person is able to achieve a lot of animals, pressures for food\nwill cause them to eat quite a few. As a result, you could have just used 2\nwood to split the megapasture down the middle. This should allow you to keep a\nfair amount of 2 different animals, with a single one of the third animal\ntaking up the space in your house. Sure, you might lose a few sheep by having\nto eat them early, but this will usually only cost about a point in scoring: a\npoint that is regained by the extra pasture you'll have at the end of scoring. Obviously 1F1A in exchange for 2 wood is a terrible deal. This occupation is\nnever playable - you're better off just taking 3 more wood.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E217",
-    "cnName": "",
-    "enName": "Reeve",
-    "baituTier": "",
-    "enTier": "C",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Reeve This is another nice 4/3/2/1 play. Since the Reeve is an occupation himself, he\ngives you a boost towards eventually getting the bonus. However, a key problem\nwith the Reeve is that he's an early game occ. Usually in games where I want to\nplay a lot of Occs, it's because I have a lot of good early game Occs. When I\nhave a lot of early game Occs, I tend to prioritize getting them out before the\nReeve, and often the opportunity to get 4 wood has passed by at that point. Nonetheless, he is definitely one of the stronger 4/3/2/1 occs.",
-    "chenDesc": ""
-  },
-  {
-    "no": "E218",
-    "cnName": "",
-    "enName": "Carpenter",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Carpenter If you build 3 rooms before renovating, he's worth 6 conditional wood - an OK\nbut not fantastic deal given that the wood is delivered over time and that\nyou're forced to use it on a specific thing. Given how rarely people actually\nbuild 3 rooms in the first place (usually reed is too scarce), this won't come\nup too often. If you only build two rooms, 4 wood for 1F1A is ok, I guess. However, the\n4/3/2/1 wood occupations all give 4 wood the moment you play them, not just\nwhen you build your 4th room (which, depending on how the game is going, might\ntake a while). Furthermore, the wood those occs give is no strings attached -\nyou're not required to use it to build rooms. In my experience all of the\n4/3/2/1 occs are playable, but they're by no means must-plays. Since the\nCarpenter is almost strictly worse if you're only building 2 rooms, he's\nprobably not worth it in that case. It's true that he can be used to reduce the cost of clay rooms and stone rooms\nas well as Wooden Rooms. However, I think clay and stone rooms are mostly a\ncorner case - most rooms are wood, a few are clay, and almost none are stone\n(the Well tends to be a much more efficient way to get points). Moreover, in\ncases where you actually want to build clay rooms, clay is probably common enough\nthat 2 clay and 2 wood isn't much better than 4 wood.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 1.93,
-        "adp": 3.25,
-        "apr": 4.31,
-        "drawPlayRate": 0.6770691994572592
-      },
-      "nb": {
-        "pwr": 2.05,
-        "adp": 3.1,
-        "apr": 4.6,
-        "drawPlayRate": 0.7554347826086957
-      }
-    }
-  },
-  {
-    "no": "E338",
-    "cnName": "",
-    "enName": "Feed Pellets",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Feed Pellets Feed Pellets I hate ragging on completely free improvements,\nbut this is definitely a niche ability. Veggies are worth 1 VP each, and\nanimals after your first one are always less than 1 VP. This means that a lot\nof the time this is just not a good deal. There's also the awkwardness involved\nwith having plentiful veggies AND fences with animals in them (but not too many\nanimals!) - an uncommon situation to find yourself in, barring unusual\ncircumstances. The best use of this improvement is when an\noccupation like the Undergardener has given you a ton of veggies. Since you're\nprobably going to easily max veggies, it can be nice to convert your excess\ncrops into some extra victory points. The card can also be a clunky way to get\na breeding pair of cattle - just take cattle at 1 and then trade in your veggie. Usually, this will have a marginal benefit, at\nbest. Still, it's hard to argue with the price-tag.",
-    "chenDesc": "",
-    "stats": {
-      "default": {
-        "pwr": 3.42,
-        "adp": 3.9,
-        "apr": 7.95,
-        "drawPlayRate": 0.8716216216216216
-      },
-      "nb": {
-        "pwr": 2.54,
-        "adp": 4.93,
-        "apr": 8.52,
-        "drawPlayRate": 0.9185185185185185
-      }
-    }
-  },
-  {
-    "no": "E341",
-    "cnName": "",
-    "enName": "Guildmaster",
-    "baituTier": "",
-    "enTier": "D",
-    "chenTier": "",
-    "baituDesc": "",
-    "enDesc": "Guildmaster Ridiculous when combined with the right cards (manufacturer), but otherwise\nawkward. Without something to help him, you're going to need 4 stone to get two\nof the three things on his list - stone that probably would have been better\nused on either a renovation or a well.",
-    "chenDesc": ""
   },
   {
     "no": "D175",
@@ -1779,10 +41,10 @@
     "enName": "Shelter",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "聊胜于无，复杂且收益低",
     "stats": {
       "default": {
         "pwr": 1.87,
@@ -1804,10 +66,10 @@
     "enName": "Paper Knife",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "在一动卡里算是比较弱的那一档。毕竟三选一的条件太苛刻了。一动卡你最希望一动卡做的一件事是在你需要打一张次发的时候也次发可以打，而非在你一个固定的时刻打出它。这个是通常不值得的。这个你前期可能你生娃的时候时间很仓促，什么也准备不好，你这时候有一张卡可以打，这时候你打一张拆信刀，很可能就会随机到一张你并不想打的卡。所以他的综合收益是比较差的动。",
     "stats": {
       "default": {
         "pwr": 2.89,
@@ -1929,10 +191,10 @@
     "enName": "Wooden Shed",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "A010",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "在大部分情况下，如果你房子少的话，你是希望拥有翻修的那个打卡行动的。如果你房子比较多的话，你是需要翻修的分数的。这张卡连上他本身少一个房子分，他的总亏损大概在三分左右。总收益是三个木头一个芦苇。如果在没有配合的卡组里是不赚的。但是在一些前期节奏比较紧张的卡组里面，简陋木屋可以为你提供就是相当于是一个前期行动。所以他算是价值一动的配件卡。",
     "stats": {
       "default": {
         "pwr": 1.63,
@@ -1954,10 +216,10 @@
     "enName": "Mud Patch",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "泥巴地就是很简单，没什么好评的。猪和它的饲养空间加起来刚好一动。",
     "stats": {
       "default": {
         "pwr": 3.53,
@@ -2004,10 +266,10 @@
     "enName": "Carpenter's Hammer",
     "baituTier": "T1",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "一个木头打出效果，然后换取4~6个资源。在做违建的时候，每花费一个行动，再额外送你4~6个资源。\n强度：这一部分效果大概是价值两动的，可以认为是一个价值两动的稳健卡。这个效果实际上发生的情况比较少。因为4~6个资源净赚也就是三个资源，不到两到三个资源，这个收益量实际上是不值得做违建的。可以理解为他为每个房子提供一个资源，这就是他违建的全部收益了。所以大部分情况下它是一个两动的稳健卡。",
     "stats": {
       "nb": {
         "pwr": 3.47,
@@ -2048,10 +310,10 @@
     "enName": "Reclamation Plow",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "稳健卡，给的很快",
     "stats": {
       "default": {
         "pwr": 2.91,
@@ -2134,10 +396,10 @@
     "enName": "Telegram",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "卡我超生了，滚！",
     "stats": {
       "default": {
         "pwr": 0.31,
@@ -2159,10 +421,10 @@
     "enName": "Stone Company",
     "baituTier": "T1",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "算是一张比较弱的核心卡牌。他其实没有啥收益，你拿它去打很多主发有时候也赢不了游戏。但是它是有能够消耗你卡组非常非常多多余行动的一张卡。就是如果你觉得你这个卡组的多余行动比较多，你可以用它们来围绕这个食材公司做构筑。他的行动还是有一个基本的行动价值的，可以算是一个弱化的礼拜堂吧。然后当你去频繁的踩石头的时候，别人大概率可以进行主发。所以也可以算是一张比较弱的核心卡。在卡组适合的时候抓，他是能够获得三倍以上的收益的。",
     "stats": {
       "default": {
         "pwr": 1.94,
@@ -2220,10 +482,10 @@
     "enName": "Forest School",
     "baituTier": "T4",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "没啥好评的",
     "stats": {
       "default": {
         "pwr": 0.97,
@@ -2320,10 +582,10 @@
     "enName": "Loppers",
     "baituTier": "T4",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "没啥好评的，发动了也只是回本",
     "stats": {
       "default": {
         "pwr": 0.59,
@@ -2420,10 +682,10 @@
     "enName": "Chapel",
     "baituTier": "T1",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "A",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "算是一张在A到S之间的卡牌。收益比较简单，可以理解为就是每回合打出来超额收益一分，此后每回合超额收益一分。它通常来讲是可以发动六次的，所以它有一个七分左右的总收益。同时你还可以围绕他去做一些构筑。你手抓获得他有信息差的情况下，只要不要倒霉的撞到啤酒池之类的卡，这张卡的收益还是很高的。算是一个强A到S之间的卡。",
     "stats": {
       "nb": {
         "pwr": 3.42,
@@ -2439,10 +701,10 @@
     "enName": "Potter's Yard",
     "baituTier": "T1",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "算是一张B到C之间的卡，放在C的最前面。这张卡理论收益是4饭，非常强大，可以说是和书架在一个级别的收益。它有一定的灵活性。它需要配合的卡就是比如木贸，你只要是七个空地，通常来讲就是说你需要占用八个空地的话，房子你只要起四个马厩的卡组都可以使用它。然后很早去犁到六块田的卡组也可以使用它。同时一些需要围两次的卡组也可以使用它。",
     "stats": {
       "default": {
         "pwr": 1.68,
@@ -2464,10 +726,10 @@
     "enName": "Vegetable Slicer",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "比较弱的一动卡。算是一个很弱的种子卡。看你需要一个菜的时候你可以抓他。但是有时候你如果过早的抓它，你后面不需要火炉就很尴尬。就是天时地利人和的情况下还是比较强的，通常情况下不是那么强大。这张卡基本基本没见有人能用出来过。唯一的操作可能就是配合畜牧教师加法救工人。太苛刻了，一般没啥用。",
     "stats": {
       "default": {
         "pwr": 1.28,
@@ -2514,10 +776,10 @@
     "enName": "Farmyard Manure",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这张卡基本基本没见有人能用出来过，唯一的操作可能就是配合畜牧教师加马厩工人吧，太苛刻了，一般没啥用",
     "stats": {
       "default": {
         "pwr": 1.11,
@@ -2614,10 +876,10 @@
     "enName": "Shaving Horse",
     "baituTier": "T0",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "A",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "价值大概是在一个A级里面比较弱的位置。它的价值完完全全的取决于就是你前期究竟要花多少饭。因为他的这个兑换效率放在后期来讲是不算很高的，一个木头兑换三口饭，这个效率在后期超额的有限。他主要的收益就是在前期，你究竟能够把多少根木头兑换成饭。因为在前期木头基本上相当于一半，你前期每使用一次刨工台你就相当于净赚了两饭收益。刨工台在前期是指在前三季，在前三季刨工台如果能够提供到六饭收益的话，他就是一个强B卡。如果能提供到八饭收益的话，他就是一个强A卡。如果能提供到12饭以上收益的话，那他有S卡的水平。但是12饭的收益基本上就意味着你是有多个木头的消食物的消耗卡，比如箩筐加树农这种比较少见的情况。通常情况下把它是一个B卡的水平，取一个平均放在A卡里面。",
     "stats": {
       "nb": {
         "pwr": 4.09,
@@ -2758,10 +1020,10 @@
     "enName": "Asparagus Knife",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "在有配合的情况下是一动。这也就是他全部的价值了，不是很高。他最多最多是在一个非常苛刻的条件下给你三个上限分。所以撑死两动，通常是不到2动的。还需要既有菜又要多次播种。",
     "stats": {
       "default": {
         "pwr": 1.24,
@@ -2808,10 +1070,10 @@
     "enName": "Oriental Fireplace",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "强度：算是一张核心的食物卡。你有它之后，你可以用羊获得大量的食物。你抓了它之后，你后面就可以考虑这些食物的用途了。前期围绕着它，你可以获得除了羊之外，包括菜和牛也有一些配合所在。你可以用它在全局收益到十个食物以上。然后只不过他需要的配合就是他和刨工台相比，他第一个是来的比刨工台慢，没办法配合特别早期的食物消耗。它需要配合第二季，他在第二季开始才有食物可供消耗。但是你在第二季以后，它可以提供通常可以提供十个以上的食物。所以他是算是一张B级的核心卡，能够提供大量食物的核心卡。",
     "stats": {
       "default": {
         "pwr": 2.52,
@@ -2869,10 +1131,10 @@
     "enName": "Barley Mill",
     "baituTier": "T4",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "低配垄作。他的麦子转化效率太低了，约等于每个麦子多给一口饭。这个效率实际上是在麦子转化卡里算是非常低的。可能只有那一张能把麦子当建筑资源用的不太强的卡能跟这张卡组配合。正常麦子本身就已经转换成饭了，意义不大。",
     "stats": {
       "default": {
         "pwr": 0.72,
@@ -2894,10 +1156,10 @@
     "enName": "Seed Pellets",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "D",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "小于一动。它要求太苛刻了，特别要求特别苛刻。大部分情况下也就给一个麦子，给两个麦子的情况下他才算是一张合格的卡。给一个麦子的话挺一般的。就是没有什么能抓的时候勉强能一抓。",
     "stats": {
       "default": {
         "pwr": 2.39,
@@ -2969,10 +1231,10 @@
     "enName": "Lifting Machine",
     "baituTier": "T4",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "基本没有用过，不知道它有什么用，非常奇怪。因为它一次只能收一块地，相当于每一季只能多收一块，这实在是太少了。所以只有在非常奇怪的情况下才可以用它。一般情况下是没啥使用空间的，被芦笋刀完爆。",
     "stats": {
       "default": {
         "pwr": 0.31,
@@ -3019,10 +1281,10 @@
     "enName": "Agricultural Fertilizers",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这张这张卡就是两马厩或者俩房子送你一次播种，这张卡的话中规中矩吧，因为毕竟播种这个东西，它的特点是很少需要连续去播种。大部分情况下，这个两次播种的间隔都是非常长的。这张卡通常就是认为有配合的情况下提供了资本，算是D和E中间吧，就是如果你能抓得起他那他算是一张能打的卡",
     "stats": {
       "default": {
         "pwr": 0.6,
@@ -3044,10 +1306,10 @@
     "enName": "Stable Tree",
     "baituTier": "T1",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这是一张在核心和这个有核心强度，也有单卡强度的一张卡。这张卡单卡强度一般认为是两根木头，算是一个可以接受的强度。同时或许还有卡马厩的一些操作。赌到配合的话，价值有四动。但是另一个角度呢就是这张卡它的强度高低非常依赖于你上家的玩法。就是说你上家如果是一个不喜欢扣卡的玩家的话，那他的强度还可以。如果你上家非常喜欢扣卡的话，那在234抓里看到的，他强度可以说几乎相当于零。竞技场环境下，这张卡在234抓的强度很少可以看得见。但是它本身的强度又不值得一抓。所以说综合来讲就很只有在很少的情况下你去抓其他卡才能够烂到让你去手抓一张这个卡。所以综合来讲的话，它的强度只能在C里面偏弱的强度，这是它的平均强度。",
     "stats": {
       "default": {
         "pwr": 2.41,
@@ -3188,10 +1450,10 @@
     "enName": "Silage",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这张卡一个麦子换一个动物根本赚，一个麦子比正常来讲比一个动物大，所以这张卡也不是太需要考虑的卡",
     "stats": {
       "default": {
         "pwr": 0.54,
@@ -5487,6 +3749,31 @@
     }
   },
   {
+    "no": "A111",
+    "cnName": "",
+    "enName": "Wall Builder",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.49,
+        "adp": 5.84,
+        "apr": 4.82,
+        "drawPlayRate": 0.35294117647058826
+      },
+      "nb": {
+        "pwr": 0.28,
+        "adp": 5.91,
+        "apr": 5.5,
+        "drawPlayRate": 0.391304347826087
+      }
+    }
+  },
+  {
     "no": "A112",
     "cnName": "镰刀工",
     "enName": "Scythe Worker",
@@ -6732,6 +5019,31 @@
         "adp": 2.24,
         "apr": 3.32,
         "drawPlayRate": 0.8563218390804598
+      }
+    }
+  },
+  {
+    "no": "B118",
+    "cnName": "",
+    "enName": "Small-scale Farmer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.75,
+        "adp": 3.77,
+        "apr": 1.29,
+        "drawPlayRate": 0.7664670658682635
+      },
+      "nb": {
+        "pwr": 2.22,
+        "adp": 3.39,
+        "apr": 1.52,
+        "drawPlayRate": 0.8560606060606061
       }
     }
   },
@@ -8566,6 +6878,31 @@
     }
   },
   {
+    "no": "C106",
+    "cnName": "",
+    "enName": "Potato Harvester",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.95,
+        "adp": 4.9,
+        "apr": 8.41,
+        "drawPlayRate": 0.5699558173784978
+      },
+      "nb": {
+        "pwr": 1.2,
+        "adp": 5.32,
+        "apr": 9.3,
+        "drawPlayRate": 0.7142857142857143
+      }
+    }
+  },
+  {
     "no": "C110",
     "cnName": "家庭酿酒师",
     "enName": "Home Brewer",
@@ -8841,6 +7178,31 @@
     }
   },
   {
+    "no": "D114",
+    "cnName": "",
+    "enName": "Seed Trader",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.93,
+        "adp": 4.91,
+        "apr": 10.33,
+        "drawPlayRate": 0.6040061633281972
+      },
+      "nb": {
+        "pwr": 2.17,
+        "adp": 5.09,
+        "apr": 10.29,
+        "drawPlayRate": 0.646551724137931
+      }
+    }
+  },
+  {
     "no": "D117",
     "cnName": "木材专家",
     "enName": "Wood Expert",
@@ -8862,6 +7224,31 @@
         "adp": 3.73,
         "apr": 4.69,
         "drawPlayRate": 0.782608695652174
+      }
+    }
+  },
+  {
+    "no": "D128",
+    "cnName": "",
+    "enName": "Building Tycoon",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.54,
+        "adp": 5.26,
+        "apr": 4.85,
+        "drawPlayRate": 0.26045627376425856
+      },
+      "nb": {
+        "pwr": 0.4,
+        "adp": 4.97,
+        "apr": 5.15,
+        "drawPlayRate": 0.3473684210526316
       }
     }
   },
@@ -8966,6 +7353,31 @@
     }
   },
   {
+    "no": "C077",
+    "cnName": "",
+    "enName": "Clay Supply",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.89,
+        "adp": 3.41,
+        "apr": 4.59,
+        "drawPlayRate": 0.8371467025572006
+      },
+      "nb": {
+        "pwr": 3.07,
+        "adp": 3.84,
+        "apr": 5.09,
+        "drawPlayRate": 0.869281045751634
+      }
+    }
+  },
+  {
     "no": "C078",
     "cnName": "苇帽蟾蜍",
     "enName": "Reed-Hatted Toad",
@@ -9062,6 +7474,31 @@
         "adp": 3.59,
         "apr": 4.29,
         "drawPlayRate": 0.7853107344632768
+      }
+    }
+  },
+  {
+    "no": "C126",
+    "cnName": "",
+    "enName": "Excavator",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.91,
+        "adp": 1.8,
+        "apr": 2.1,
+        "drawPlayRate": 0.7962466487935657
+      },
+      "nb": {
+        "pwr": 3.66,
+        "adp": 1.85,
+        "apr": 2.3,
+        "drawPlayRate": 0.8609625668449198
       }
     }
   },
@@ -9256,6 +7693,31 @@
         "adp": 3.0,
         "apr": 8.46,
         "drawPlayRate": 0.8736842105263158
+      }
+    }
+  },
+  {
+    "no": "D107",
+    "cnName": "",
+    "enName": "Bellfounder",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.66,
+        "adp": 4.32,
+        "apr": 5.27,
+        "drawPlayRate": 0.5008156606851549
+      },
+      "nb": {
+        "pwr": 1.62,
+        "adp": 4.2,
+        "apr": 5.32,
+        "drawPlayRate": 0.6165413533834586
       }
     }
   },
@@ -9754,6 +8216,31 @@
     }
   },
   {
+    "no": "D146",
+    "cnName": "",
+    "enName": "Porter",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.27,
+        "adp": 2.88,
+        "apr": 3.29,
+        "drawPlayRate": 0.7628571428571429
+      },
+      "nb": {
+        "pwr": 2.35,
+        "adp": 3.57,
+        "apr": 4.16,
+        "drawPlayRate": 0.7419354838709677
+      }
+    }
+  },
+  {
     "no": "D154",
     "cnName": "烟囱清理员",
     "enName": "Chimney Sweep",
@@ -10034,10 +8521,10 @@
     "enName": "Carpenter's Bench",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这张卡就是我觉得他是一张非常陷阱的卡。因为它看起来是赚三根木头和一动，但是第一他对栅栏的大小有要求。就是说你本身你在拿木头的时候，你栅栏只能往外围，而不能在中间插零碎的栅栏。所以拿木头的时候势必会有多余的木头，不会拿的那么整齐。第二的话，如果你是职业打的比较多的卡组的话，后期一定是会有从卡牌里获得了木头的，不会说所有木头都是从场上去获得。你在这种情况下，后期的木头其实没有第二个特别优秀的转化途径。一般来讲我觉得用这张卡大部分情况下，他可能只发动一次到两次，后期再去把剩下的木头围成栅栏结束这一把。它的真实的收益就是说提供一个比较早的饲养空间，然后木头上不赚不亏。他就可以相当于是一张免费的饲养空间卡，但是就是会亏一点前期节奏。后期使用第二次的时候多给一个木头，就是他全部的作用。一张零成本的饲养空间卡，这就是我对他的定义。",
     "stats": {
       "nb": {
         "pwr": 3.66,
@@ -10078,10 +8565,10 @@
     "enName": "Grassland Harrow",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这张卡垃圾啊，没用，把所有条件都去了才能用",
     "stats": {
       "default": {
         "pwr": 0.42,
@@ -10128,10 +8615,10 @@
     "enName": "Hayloft Barn",
     "baituTier": "T0",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "A",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "应该算是一个A级卡。从理论上来讲，它是应该符合一张S级卡的效果的。但是从实际上来讲，就是因为理论上来讲，它你其实在第九回合能够生出来的话，它都有一个S卡的价值。但是实际上就是你生他的过程是亏动的。三木和四麦子算底平的话，你再去生娃的过程中，你这个四个麦子，平均来讲在没有配合的情况下，或者说你在70%以上的情况下，这张卡都是要亏2动以上的。就是如果说你在你希望用他生第一个娃，这张卡通常会亏掉三动左右。如果你用他生第二个娃的话，通常是从卡里面获得两个麦子，在手中拿两个麦子，这时候你再第九季把它生出来，它相当于亏七动，但是你手中拿了两个麦子亏了一动，它的总体收益就是5~6个。所以它就是一个强A卡。就是相比于和这个七分的，这个就是和九回合打出来能够获得七分的礼拜堂来讲，这两张卡效果其实大差不差。然后也会有一些非常优质的配合，比如礼拜堂可以配合声卡强大的声卡，然后这张卡是可以配合一些就是能够快速给麦子的卡，还有一些农业上的卡，也各有一些配合。没有配合的情况下，这两张卡收益大差不差。",
     "stats": {
       "nb": {
         "pwr": 5.58,
@@ -10147,10 +8634,10 @@
     "enName": "Walking Boots",
     "baituTier": "T1",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：给一动和食物\n强度：就是一张很符合说的就是通用，然后给一动这个特征。两个饭多给了一点收益，但是他还有一个副作用。和这两口饭基本底线就是约等于送一动。不过考虑到有时候他这个送的这一动是一个非常大的一动，如果你在生娃阶段打出来的话，它其实是超过一动的。但是另一个角度讲，他在你在这个速一动的卡，还是前面那句话，速一动的卡大部分情况下，你是希望他是能够在任何在你没有次发可打的情况下去打他。所以就是一个普通的用，没有那么强。算是送一动里最强的那一档，但是他从强度来讲还是达不到送一动的水平。再加上他的这个副作用也不是每个卡组都能承受，所以大概就在这个位置。",
     "stats": {
       "nb": {
         "pwr": 2.84,
@@ -10166,10 +8653,10 @@
     "enName": "Final Scenario",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "我觉得效果很一般。就是你在什么时候会需要一次翻修。那就是在大部分情况下，你如果就是在最后一回合前凑够了木头，那通常直接去翻修了就好了。最后一回合你再拿一点资源，然后翻修去打一张卡，这样的话行动才用的比较充分。你在最后一回合前翻修的话，那你最后一回合都可以选，这个行动就比较尴尬了。你在最后一回合就没有一个稳定能够末端属于你的行动去拿的。通常情况下，你要是房子比较多的话，你最后最后一回合你有好几个人，你可以让他们去拿点资源再打个发展卡或者之类什么的。但是最终章你在前一回合这个操作的话，他可能只能就是适用于那种对于翻修特别紧张，比如秘书这种卡组是可以用最终章保一下翻修的。通常卡组的话，我觉得最终章这张卡约等于一张没条件的白板，就是没条件也没收益。",
     "stats": {
       "default": {
         "pwr": 1.77,
@@ -10216,10 +8703,10 @@
     "enName": "Toolbox",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "D",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "很简明的配件卡。就是如果你想打多个工坊，而且是打打出速度有要求的话，就是你想在后期第三季到第四季去打多个工坊，工具箱可以为你提供两动的收益。",
     "stats": {
       "default": {
         "pwr": 1.07,
@@ -10266,10 +8753,10 @@
     "enName": "Cookery Lesson",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "D",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "烹饪课程净收益其实还是蛮高的，他的净收益是可以达到3动的水平。但是这张卡呢，就是由于他的条件实在是太苛刻了。他首先你需要在很早的时候去打出来它，而且划掉宝贵的两饭。从这个角度的话，如果你在早期花掉两饭去打出来它，而且你的这个它本身的价值就已经降低到一个两动了，还不能算作一个三动的加减。然后你打出来它之后，你还需要满足你必须有锅，有动物，而且吃一口打一张烤炉。所以总体他的条件太苛刻了。理论上三动，实际上通常是两动。所以说只能放在一个D卡的水平。而且他也并没有什么普适性，大部分情况下这个卡甚至获得两分都很困难，获得两分都要有损失。因为有时候你在没有饲养空间的情况下，房间里那只宠物是不想吃的，吃了的话，你后期又要花一动去把宠物补回来，那是非常亏的。所以说他是在极特殊的卡组里才可以打出。",
     "stats": {
       "default": {
         "pwr": 0.51,
@@ -10302,10 +8789,10 @@
     "enName": "Pottery Yard",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这张卡我还是比较喜欢的。这张卡从收益来讲是两分，两个空地给一分，然后基础给一分，一共两分。一张两分的卡。然后打出条件的，说实话不算太苛刻。就是这个打出条件也不算很高，你有一个陶艺工坊就可以了。陶艺工坊也是相当于，你可以理解为你放弃争夺井的话，你通常是可以争夺到陶艺工坊的。损失大概在0.5分左右，相当于它的净收益还是有1.5分这个样子的。然后没有打出条件，所以这张卡就是没有打，不需要额外的资源，所以这张卡还是不错的。这张卡或提一分上限一分下限，而且能配合一些空地计分的东西。",
     "stats": {
       "default": {
         "pwr": 1.43,
@@ -10327,10 +8814,10 @@
     "enName": "Kettle",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "也算是一张麦子的核心卡。他给的饭非常多，你就有了釜加上麦子你就可以做，就是可以跟很多消耗食物的卡配合。从这个角度来讲还是比较强的。他和这个东方火炉都差不多，算是一档。它们都是能够用一张卡去解决掉很多食物问题。然后你强在他除了解决食物问题之外，它还可以送给你一些分数。但是釜的弱点在于打出条件太苛刻了。就是你首先要有一个砖头，其次你必须先播种完麦田才可以打福。这是一个非常难以达成的事情。你在最需要饭的时间里很难享受到釜给的饭，这是一件非常尴尬的事情。",
     "stats": {
       "default": {
         "pwr": 2.33,
@@ -10352,10 +8839,10 @@
     "enName": "Special Food",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "是极其优质的分数，两分是它的基本收益，大多数情况下这张卡是一个无条件两分，而且他可以有四分的梦想，有上限有下限，愿不愿意为绕着他做就看后面的发牌，后面你发一张饲养空间卡，直接用它做到四分五分都是可能的，所以说这张卡总体收益还是比较高的。但是嗯这个也是一张环境卡，就是看环境里大家吃动物的意愿，如果环境里吃动物的选手比较多，或者做饲养空间的选手比较多的话，可能要降到一个C档，但是在环境里面比较正常的环境下的话，它也是有一个B挡的强度的。",
     "stats": {
       "default": {
         "pwr": 3.62,
@@ -10397,15 +8884,40 @@
     }
   },
   {
-    "no": "B038",
-    "cnName": "未来建筑用地",
-    "enName": "Future Building Site",
-    "baituTier": "T3",
+    "no": "B037",
+    "cnName": "",
+    "enName": "Grange",
+    "baituTier": "",
     "enTier": "",
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
     "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.65,
+        "adp": 4.52,
+        "apr": 13.76,
+        "drawPlayRate": 0.3657331136738056
+      },
+      "nb": {
+        "pwr": 1.79,
+        "adp": 4.64,
+        "apr": 13.62,
+        "drawPlayRate": 0.3787878787878788
+      }
+    }
+  },
+  {
+    "no": "B038",
+    "cnName": "未来建筑用地",
+    "enName": "Future Building Site",
+    "baituTier": "T3",
+    "enTier": "",
+    "chenTier": "E",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "这张卡就非常简单，特殊配合的强度下值一动，就是说本身三分，起始花一动打出来它然后获得三分，，这就是一个就是也没有啥赚头的事情，，这个限制条件相当于对你无所谓的情况下它是不赚不亏的，不是太强",
     "stats": {
       "default": {
         "pwr": 0.59,
@@ -10543,6 +9055,31 @@
         "adp": 4.29,
         "apr": 6.15,
         "drawPlayRate": 0.8273381294964028
+      }
+    }
+  },
+  {
+    "no": "B046",
+    "cnName": "",
+    "enName": "Club House",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.5,
+        "adp": 3.6,
+        "apr": 6.75,
+        "drawPlayRate": 0.846820809248555
+      },
+      "nb": {
+        "pwr": 2.88,
+        "adp": 4.47,
+        "apr": 7.62,
+        "drawPlayRate": 0.8120300751879699
       }
     }
   },
@@ -10852,10 +9389,10 @@
     "enName": "Grain Depot",
     "baituTier": "T2",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "可能是一张比镰刀还要强的麦子卡。因为谷仓给的太快了，谷仓的麦子甚至可以用来做麦田的东西。它只需要三回合就可以，你拿两个砖打三回合就给你三个麦子。或许可以做麦田、做桶或者做茅草，这些都是可以的。所以谷仓的话，他可以认为是一张就是非常具有普适性的两份收益的卡。算是在B级里都算是比较强的。不过毕竟麦子卡有个问题是麦子卡是相互冲突的，所以通常不是一抓，二抓三抓还不错。",
     "stats": {
       "default": {
         "pwr": 3.91,
@@ -11013,10 +9550,10 @@
     "enName": "Wood Workshop",
     "baituTier": "T1",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "勉强算是梦想卡，然后你有一点基础收益虽然都不算很高。那这个收益就是通常情况下，通常情况下呢就是用一般打六个发展卡，然后他如果在第一个发展卡的位置打出来的话，他们可以获得五个。总算是一张中规中矩的卡牌。他的弱点是在于他需要打出来的时间特别早，把木头其实给的非常远。这个木头兑现速度实在太慢了，而收益也没有那么高。这张卡整体收益高，哪怕你在非常特殊的考试里，他也就是个九个木头左右，而且还会影响你前期的节奏。但是他这个卡超过一动这也是毫无疑问的，C卡里应该没有能够和这个卡一较高下。",
     "stats": {
       "default": {
         "pwr": 3.68,
@@ -11038,10 +9575,10 @@
     "enName": "Ceilings",
     "baituTier": "T1",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这是一张和木材车间比较像的卡。这张卡应该是要比木材车间是要更强一点的。就是天花板和木材车间相比的话，因为天花板给的快。虽然他这个限制条件也算是一个有条件，但是有时候有四个也未尝不可。你在打出来他的下一回合给一个木头这件事，其实是就是会让你在生娃打发展卡这件事情有更多的选择空间。收益和车间差不多，多一个限制条件但是给的快。大部分情况下应该比木材之间略强一点，但是总体上是一个级别的卡。",
     "stats": {
       "default": {
         "pwr": 3.44,
@@ -11113,10 +9650,10 @@
     "enName": "Handcart",
     "baituTier": "T3",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "大致情况下应该还是能够获得两次，但是要求打的时间太早，就导致一张非常的发展卡的话，能够拿两到三个资源不是很能令人满意。而且也是一个同样的问题，就是给的时间太拖，导致他基本上就变成了一张特殊的配合。不过你拿他和那张就是567的资源给木头砖头的那个职业相比的话，大家都没有配合情况下，还是手拉车要强一点。就是如果你没有其他想要打的前期发展卡的话，那你把手拉车打出来可能是要比一个一分白板的效果要好，这就是它的意义。",
     "stats": {
       "default": {
         "pwr": 1.73,
@@ -11166,7 +9703,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：优质一三白板\n强度：和这个和这个牛头骨差不多，俩都是优质一分版本。",
     "stats": {
       "default": {
         "pwr": 2.86,
@@ -12775,7 +11312,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：无条件预防\n强度：算是一张就是无条件预防，无条件一空间的卡。我觉得他相比这个比这个铁锤，上下铺比铁锤要更强一点。它比铁锤可以更晚打出来，然后在两个都是都是不违建，因为铁锤毕竟违建成可能性更高。东西没见的情况下，上下铺和水相比的就是少了一个法师的分数，但是上下普攻打出来的非常稳，而且具有稳定性，可以偷袭。第二资源还是少几个的，就综合这两点的话，它比铁锤应该是要强的，可以放在这个位置。",
     "stats": {
       "default": {
         "pwr": 2.37,
@@ -13235,7 +11772,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：优质前期卡\n强度：就是这个优质前期卡。帆布袋这张卡，他在这个前期，他和这个他这两个东西是收益差不多。这个东西多一分，然后这个东西后期资源稍微多一点，他俩收益差不多，算是同一个级别的。就是看你能拿到的是RSF还是三个。感觉相比来讲的话，这个的打出条件要比帆布袋要更低一点，毕竟帆布袋要求四职业。",
     "stats": {
       "default": {
         "pwr": 3.65,
@@ -13496,7 +12033,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：食物\n强度：这个卡我用的不多，但是他的兑换效率还是可以接受的。算是一张比较弱的方法，用的不多，我其实也不太好评价吧，就防着点。",
     "stats": {
       "default": {
         "pwr": 2.37,
@@ -13521,7 +12058,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：蔬菜\n强度：他这张卡变魔术的情况有点少啊，一般情况下就和这俩卡算是一个级别。",
     "stats": {
       "default": {
         "pwr": 3.65,
@@ -15928,7 +14465,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "就是二分卡，没啥好说的。比较优质的二分卡的。这个打打出来一定是后期打的，就是前期打出来获取食物的话，第二个往往会年轻人，我觉得损失是有点大的。你在二三期的话，第二个娃，然后就因为每一次开一个食物，其实都就只有一季的一个食物是价值比较高的。从第三集开始，这个食物肯定不值得你的第二个娃娃后一点，他就是当做一张两分传递的。",
     "stats": {
       "default": {
         "pwr": 3.01,
@@ -16328,7 +14865,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：更换作物\n强度：通常来讲收益在一分，很少有其他的效果。毕竟弃掉一个旧物，这个损失挺大的。一般就发作一次，发动四的话，你更换掉三个麦田，就是可以获得01:05分的收益，这就是它的效果。不过一般来讲是在单卡，基本上是当一份白板用。有国外的话，他就是还能额外这个抢一下那个园林、绿化之类的。都是绿化园林，还有菜最多之类的东西，你可以在最后一集做一个突袭。总体强度比浓度偏强，但是在一分白板的这个位置。",
     "stats": {
       "default": {
         "pwr": 1.41,
@@ -17449,6 +15986,31 @@
     }
   },
   {
+    "no": "D155",
+    "cnName": "",
+    "enName": "Ebonist",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.29,
+        "adp": 3.35,
+        "apr": 5.44,
+        "drawPlayRate": 0.7565337001375516
+      },
+      "nb": {
+        "pwr": 1.96,
+        "adp": 3.74,
+        "apr": 5.5,
+        "drawPlayRate": 0.7697841726618705
+      }
+    }
+  },
+  {
     "no": "D156",
     "cnName": "零售商",
     "enName": "Retail Dealer",
@@ -17671,6 +16233,2975 @@
     }
   },
   {
+    "no": "E001",
+    "cnName": "",
+    "enName": "Pole Barns",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.31,
+        "adp": 4.35,
+        "apr": 13.24,
+        "drawPlayRate": 0.5553914327917282
+      },
+      "nb": {
+        "pwr": 1.86,
+        "adp": 4.72,
+        "apr": 13.24,
+        "drawPlayRate": 0.5766423357664233
+      }
+    }
+  },
+  {
+    "no": "E002",
+    "cnName": "",
+    "enName": "Renovation Materials",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.46,
+        "adp": 5.04,
+        "apr": 10.54,
+        "drawPlayRate": 0.48282097649186256
+      },
+      "nb": {
+        "pwr": 0.82,
+        "adp": 5.21,
+        "apr": 10.36,
+        "drawPlayRate": 0.5185185185185185
+      }
+    }
+  },
+  {
+    "no": "E003",
+    "cnName": "",
+    "enName": "Tea Time",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.13,
+        "adp": 5.47,
+        "apr": 11.0,
+        "drawPlayRate": 0.3940520446096654
+      },
+      "nb": {
+        "pwr": 0.98,
+        "adp": 5.41,
+        "apr": 10.9,
+        "drawPlayRate": 0.5051546391752577
+      }
+    }
+  },
+  {
+    "no": "E004",
+    "cnName": "",
+    "enName": "Thunderbolt",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.88,
+        "adp": 5.02,
+        "apr": 11.28,
+        "drawPlayRate": 0.5419463087248322
+      },
+      "nb": {
+        "pwr": 1.36,
+        "adp": 5.11,
+        "apr": 11.4,
+        "drawPlayRate": 0.5
+      }
+    }
+  },
+  {
+    "no": "E005",
+    "cnName": "",
+    "enName": "Night Loot",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.14,
+        "adp": 5.09,
+        "apr": 8.64,
+        "drawPlayRate": 0.7088186356073212
+      },
+      "nb": {
+        "pwr": 1.14,
+        "adp": 5.42,
+        "apr": 9.12,
+        "drawPlayRate": 0.6938775510204082
+      }
+    }
+  },
+  {
+    "no": "E006",
+    "cnName": "",
+    "enName": "Recount",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.06,
+        "adp": 5.92,
+        "apr": 9.6,
+        "drawPlayRate": 0.5811965811965812
+      },
+      "nb": {
+        "pwr": 0.72,
+        "adp": 6.11,
+        "apr": 10.0,
+        "drawPlayRate": 0.5555555555555556
+      }
+    }
+  },
+  {
+    "no": "E007",
+    "cnName": "",
+    "enName": "Pumpernickel",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.69,
+        "adp": 5.36,
+        "apr": 8.83,
+        "drawPlayRate": 0.6258620689655172
+      },
+      "nb": {
+        "pwr": 0.67,
+        "adp": 5.62,
+        "apr": 8.88,
+        "drawPlayRate": 0.5842696629213483
+      }
+    }
+  },
+  {
+    "no": "E008",
+    "cnName": "",
+    "enName": "Farmers Market",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.0,
+        "adp": 5.23,
+        "apr": 10.16,
+        "drawPlayRate": 0.7053406998158379
+      },
+      "nb": {
+        "pwr": 1.41,
+        "adp": 5.43,
+        "apr": 9.97,
+        "drawPlayRate": 0.7021276595744681
+      }
+    }
+  },
+  {
+    "no": "E009",
+    "cnName": "",
+    "enName": "Bartering Hut",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.55,
+        "adp": 5.49,
+        "apr": 12.78,
+        "drawPlayRate": 0.5608365019011406
+      },
+      "nb": {
+        "pwr": 0.99,
+        "adp": 5.83,
+        "apr": 13.14,
+        "drawPlayRate": 0.5606060606060606
+      }
+    }
+  },
+  {
+    "no": "E010",
+    "cnName": "草帽",
+    "enName": "Straw Hat",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.14,
+        "adp": 2.73,
+        "apr": 2.34,
+        "drawPlayRate": 0.7604017216642754
+      },
+      "nb": {
+        "pwr": 2.49,
+        "adp": 2.81,
+        "apr": 2.45,
+        "drawPlayRate": 0.7853107344632768
+      }
+    }
+  },
+  {
+    "no": "E011",
+    "cnName": "宠物动物园",
+    "enName": "Petting Zoo",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "F",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "纯垃圾",
+    "stats": {
+      "default": {
+        "pwr": 0.96,
+        "adp": 5.23,
+        "apr": 8.99,
+        "drawPlayRate": 0.5320754716981132
+      },
+      "nb": {
+        "pwr": 0.4,
+        "adp": 5.07,
+        "apr": 9.43,
+        "drawPlayRate": 0.5697674418604651
+      }
+    }
+  },
+  {
+    "no": "E012",
+    "cnName": "",
+    "enName": "Animal Bedding",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.91,
+        "adp": 4.8,
+        "apr": 12.0,
+        "drawPlayRate": 0.5981308411214953
+      },
+      "nb": {
+        "pwr": 1.61,
+        "adp": 4.94,
+        "apr": 12.09,
+        "drawPlayRate": 0.6379310344827587
+      }
+    }
+  },
+  {
+    "no": "E013",
+    "cnName": "",
+    "enName": "Stone House Reconstruction",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.74,
+        "adp": 3.82,
+        "apr": 10.46,
+        "drawPlayRate": 0.7216494845360825
+      },
+      "nb": {
+        "pwr": 2.7,
+        "adp": 4.26,
+        "apr": 10.68,
+        "drawPlayRate": 0.7272727272727273
+      }
+    }
+  },
+  {
+    "no": "E014",
+    "cnName": "",
+    "enName": "Wood Saw",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.42,
+        "adp": 5.25,
+        "apr": 8.12,
+        "drawPlayRate": 0.3237885462555066
+      },
+      "nb": {
+        "pwr": 0.8,
+        "adp": 5.03,
+        "apr": 7.84,
+        "drawPlayRate": 0.38144329896907214
+      }
+    }
+  },
+  {
+    "no": "E015",
+    "cnName": "",
+    "enName": "Nail Basket",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.76,
+        "adp": 4.03,
+        "apr": 9.81,
+        "drawPlayRate": 0.7400275103163686
+      },
+      "nb": {
+        "pwr": 2.68,
+        "adp": 4.66,
+        "apr": 10.38,
+        "drawPlayRate": 0.7847222222222222
+      }
+    }
+  },
+  {
+    "no": "E016",
+    "cnName": "荆棘围栏",
+    "enName": "Briar Hedge",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.56,
+        "adp": 2.65,
+        "apr": 11.88,
+        "drawPlayRate": 0.7278820375335121
+      },
+      "nb": {
+        "pwr": 3.57,
+        "adp": 2.96,
+        "apr": 11.95,
+        "drawPlayRate": 0.7935483870967742
+      }
+    }
+  },
+  {
+    "no": "E017",
+    "cnName": "",
+    "enName": "Skimmer Plow",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.5,
+        "adp": 4.29,
+        "apr": 9.04,
+        "drawPlayRate": 0.7494824016563147
+      },
+      "nb": {
+        "pwr": 1.45,
+        "adp": 4.14,
+        "apr": 9.1,
+        "drawPlayRate": 0.81
+      }
+    }
+  },
+  {
+    "no": "E018",
+    "cnName": "种子年鉴",
+    "enName": "Seed Almanac",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "A",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "效果：五动核心卡\n强度：这是一个五动核心卡，超级大核心只值五动的超级大核心。他和他的理论收益升级，当然一芦苇的这个成本的话，也是算是一张四分卡。这个经济提高是一样的收益，但是比经济比钢要难做一点。因为他必须作为第一个发展，他就是至少是第二个方向，他打字也就意味着你要在生娃前打够四个职业。这个还是比较难凑的，通常普通话这个是要亏生娃的顺位的。但是你打出他的话，你后面可以直接转五动，也就是说你生完亏一圈都是值得的，只是一个赚多赚少的问题。肯定是一个A级别的卡。但是收益的真实收益的话，那平均就是说真实收益应该是在2~4度。",
+    "stats": {
+      "default": {
+        "pwr": 3.57,
+        "adp": 2.18,
+        "apr": 8.76,
+        "drawPlayRate": 0.7949080622347949
+      },
+      "nb": {
+        "pwr": 3.66,
+        "adp": 2.51,
+        "apr": 8.36,
+        "drawPlayRate": 0.8562874251497006
+      }
+    }
+  },
+  {
+    "no": "E019",
+    "cnName": "牛角尖",
+    "enName": "Ox Goad",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.48,
+        "adp": 2.54,
+        "apr": 10.31,
+        "drawPlayRate": 0.821664464993395
+      },
+      "nb": {
+        "pwr": 3.49,
+        "adp": 3.1,
+        "apr": 10.08,
+        "drawPlayRate": 0.88268156424581
+      }
+    }
+  },
+  {
+    "no": "E020",
+    "cnName": "",
+    "enName": "Iron Hoe",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.94,
+        "adp": 5.25,
+        "apr": 8.83,
+        "drawPlayRate": 0.6683291770573566
+      },
+      "nb": {
+        "pwr": 0.75,
+        "adp": 5.34,
+        "apr": 9.12,
+        "drawPlayRate": 0.676056338028169
+      }
+    }
+  },
+  {
+    "no": "E021",
+    "cnName": "羊地毯",
+    "enName": "Sheep Rug",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.36,
+        "adp": 3.43,
+        "apr": 10.3,
+        "drawPlayRate": 0.5898161244695899
+      },
+      "nb": {
+        "pwr": 2.41,
+        "adp": 4.02,
+        "apr": 10.58,
+        "drawPlayRate": 0.6712328767123288
+      }
+    }
+  },
+  {
+    "no": "E022",
+    "cnName": "客房",
+    "enName": "Guest Room",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "B",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "你抓他之后，就是你打客房就跟你家庭版拿一个首生这两件事收益是差不多的。但是家庭版的首生你不一定能拿到客房打出来一个是稳定性要好，你也不怕牺牲也不怕什么，稳定性要好。然后稳定拿到首生的话，基本上他的总体算是一个两动收益。所以他在B级里算是一张比较强的卡。你用它去获得一个娃，是要比你用一些不卡生的生卡去获得一个娃要来得更加方便的。",
+    "stats": {
+      "nb": {
+        "pwr": 4.08,
+        "adp": 1.69,
+        "apr": 6.04,
+        "drawPlayRate": 0.875
+      }
+    }
+  },
+  {
+    "no": "E023",
+    "cnName": "养蜂场",
+    "enName": "Apiary",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "C",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "一般来讲是赚两动，就是没有特殊配合的情况下。但是但是他这个四直接打出条件，前期想要完成，就是在第一个收完前想要完成同样还是有难度。但是完成的情况下给两动。总体来讲就是因为他要求比较高，所以就放在C级。那如果这个这个要求低一点的话呢，它是可以有B级的。正常情况下他打出来的时间是在第九回合左右，你可以挡住他，挡下了他之后，他就可以给你一个两边的收益。但是问题在于第九回合不一定想要去打一张发展卡。除非你有什么速度增加之类的东西，这张卡的梯度可以适当上移。",
+    "stats": {
+      "default": {
+        "pwr": 3.3,
+        "adp": 2.78,
+        "apr": 9.66,
+        "drawPlayRate": 0.7335092348284961
+      },
+      "nb": {
+        "pwr": 3.28,
+        "adp": 3.43,
+        "apr": 9.74,
+        "drawPlayRate": 0.7801047120418848
+      }
+    }
+  },
+  {
+    "no": "E024",
+    "cnName": "",
+    "enName": "Ambition",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.96,
+        "adp": 4.32,
+        "apr": 7.6,
+        "drawPlayRate": 0.75
+      },
+      "nb": {
+        "pwr": 2.08,
+        "adp": 4.49,
+        "apr": 7.85,
+        "drawPlayRate": 0.7669172932330827
+      }
+    }
+  },
+  {
+    "no": "E026",
+    "cnName": "日晷",
+    "enName": "Sundial",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.44,
+        "adp": 3.41,
+        "apr": 6.07,
+        "drawPlayRate": 0.6826086956521739
+      },
+      "nb": {
+        "pwr": 1.79,
+        "adp": 3.98,
+        "apr": 6.39,
+        "drawPlayRate": 0.6614173228346457
+      }
+    }
+  },
+  {
+    "no": "E027",
+    "cnName": "小猪存钱罐",
+    "enName": "Piggy Bank",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "B",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "这个东西就是六口饭换田。算是一张很好的核心卡了。他就是你只要前期饭多，你前期饭多你就可以相当于是一张四星卡。四星卡条件前期不缺饭，然后在大部分情况下都是可以拿的。甚至你围绕他去多拿点饭卡都可以。同时它在这个后期他还可以，就是你如果前期缺田的情况下，那你中期总不吃饭了吧。那你就用它去拿一些别人没人要的主发，从而你用这个东西去做出来一些奇怪的东西。比如比如最简单，它是可以配合那张柴火的，就是你在后期去打一些别人不要的烤炉。他主要是起到这个作品，就是有配合，而且单卡只要有饭他就能抓你。前期如果有一张爱宠或者什么之类的卡位，就直接毫不犹豫的可以把他抓下来。",
+    "stats": {
+      "default": {
+        "pwr": 2.06,
+        "adp": 4.29,
+        "apr": 3.57,
+        "drawPlayRate": 0.726962457337884
+      },
+      "nb": {
+        "pwr": 2.24,
+        "adp": 3.93,
+        "apr": 2.98,
+        "drawPlayRate": 0.78125
+      }
+    }
+  },
+  {
+    "no": "E028",
+    "cnName": "书签",
+    "enName": "Bookmark",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "E028",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "标准一动卡。在一动卡里算是稍强一点的位置，但是没有强太多。延迟三回合的限制并不小。",
+    "stats": {
+      "default": {
+        "pwr": 2.96,
+        "adp": 3.05,
+        "apr": 5.04,
+        "drawPlayRate": 0.8335607094133697
+      },
+      "nb": {
+        "pwr": 2.59,
+        "adp": 3.7,
+        "apr": 5.43,
+        "drawPlayRate": 0.8486486486486486
+      }
+    }
+  },
+  {
+    "no": "E029",
+    "cnName": "",
+    "enName": "Heirloom",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.34,
+        "adp": 5.1,
+        "apr": 10.73,
+        "drawPlayRate": 0.5055432372505543
+      },
+      "nb": {
+        "pwr": 0.81,
+        "adp": 5.17,
+        "apr": 10.16,
+        "drawPlayRate": 0.5352112676056338
+      }
+    }
+  },
+  {
+    "no": "E030",
+    "cnName": "",
+    "enName": "Child's Toy",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.11,
+        "adp": 4.18,
+        "apr": 6.51,
+        "drawPlayRate": 0.8260869565217391
+      },
+      "nb": {
+        "pwr": 1.17,
+        "adp": 4.76,
+        "apr": 6.28,
+        "drawPlayRate": 0.7692307692307693
+      }
+    }
+  },
+  {
+    "no": "E031",
+    "cnName": "",
+    "enName": "Upholstery",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.41,
+        "adp": 4.74,
+        "apr": 7.08,
+        "drawPlayRate": 0.8263665594855305
+      },
+      "nb": {
+        "pwr": 2.65,
+        "adp": 4.92,
+        "apr": 7.57,
+        "drawPlayRate": 0.8796992481203008
+      }
+    }
+  },
+  {
+    "no": "E032",
+    "cnName": "教堂中殿",
+    "enName": "Nave",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.71,
+        "adp": 3.34,
+        "apr": 12.61,
+        "drawPlayRate": 0.6208718626155878
+      },
+      "nb": {
+        "pwr": 3.53,
+        "adp": 3.43,
+        "apr": 12.76,
+        "drawPlayRate": 0.6761363636363636
+      }
+    }
+  },
+  {
+    "no": "E033",
+    "cnName": "",
+    "enName": "Beaver Colony",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.64,
+        "adp": 5.66,
+        "apr": 11.88,
+        "drawPlayRate": 0.2596401028277635
+      },
+      "nb": {
+        "pwr": 0.39,
+        "adp": 5.46,
+        "apr": 12.13,
+        "drawPlayRate": 0.2777777777777778
+      }
+    }
+  },
+  {
+    "no": "E034",
+    "cnName": "",
+    "enName": "Land Register",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.42,
+        "adp": 4.21,
+        "apr": 10.35,
+        "drawPlayRate": 0.6331994645247657
+      },
+      "nb": {
+        "pwr": 1.48,
+        "adp": 4.63,
+        "apr": 10.55,
+        "drawPlayRate": 0.6774193548387096
+      }
+    }
+  },
+  {
+    "no": "E035",
+    "cnName": "",
+    "enName": "Misanthropy",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.92,
+        "adp": 5.62,
+        "apr": 11.3,
+        "drawPlayRate": 0.5113924050632911
+      },
+      "nb": {
+        "pwr": 0.19,
+        "adp": 5.7,
+        "apr": 11.16,
+        "drawPlayRate": 0.40425531914893614
+      }
+    }
+  },
+  {
+    "no": "E036",
+    "cnName": "",
+    "enName": "Herbal Garden",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.48,
+        "adp": 5.51,
+        "apr": 13.05,
+        "drawPlayRate": 0.4573643410852713
+      },
+      "nb": {
+        "pwr": 1.08,
+        "adp": 5.65,
+        "apr": 12.86,
+        "drawPlayRate": 0.4943820224719101
+      }
+    }
+  },
+  {
+    "no": "E037",
+    "cnName": "",
+    "enName": "Ox Skull",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.64,
+        "adp": 6.04,
+        "apr": 12.82,
+        "drawPlayRate": 0.4197952218430034
+      },
+      "nb": {
+        "pwr": 0.35,
+        "adp": 5.49,
+        "apr": 12.27,
+        "drawPlayRate": 0.5365853658536586
+      }
+    }
+  },
+  {
+    "no": "E038",
+    "cnName": "",
+    "enName": "Rod Collection",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.25,
+        "adp": 4.91,
+        "apr": 10.73,
+        "drawPlayRate": 0.6864686468646864
+      },
+      "nb": {
+        "pwr": 2.81,
+        "adp": 5.32,
+        "apr": 10.83,
+        "drawPlayRate": 0.6884057971014492
+      }
+    }
+  },
+  {
+    "no": "E039",
+    "cnName": "",
+    "enName": "Paintbrush",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.07,
+        "adp": 4.41,
+        "apr": 10.17,
+        "drawPlayRate": 0.5261669024045261
+      },
+      "nb": {
+        "pwr": 2.09,
+        "adp": 5.18,
+        "apr": 10.34,
+        "drawPlayRate": 0.5588235294117647
+      }
+    }
+  },
+  {
+    "no": "E040",
+    "cnName": "",
+    "enName": "Bee Statue",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.63,
+        "adp": 3.66,
+        "apr": 6.2,
+        "drawPlayRate": 0.7215619694397284
+      },
+      "nb": {
+        "pwr": 1.67,
+        "adp": 3.52,
+        "apr": 6.85,
+        "drawPlayRate": 0.7047619047619048
+      }
+    }
+  },
+  {
+    "no": "E041",
+    "cnName": "muddy waters",
+    "enName": "Muddy Waters",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.69,
+        "adp": 3.68,
+        "apr": 9.18,
+        "drawPlayRate": 0.9158620689655173
+      },
+      "nb": {
+        "pwr": 3.25,
+        "adp": 4.26,
+        "apr": 8.85,
+        "drawPlayRate": 0.9308176100628931
+      }
+    }
+  },
+  {
+    "no": "E042",
+    "cnName": "井",
+    "enName": "Water Gully",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.59,
+        "adp": 3.64,
+        "apr": 9.81,
+        "drawPlayRate": 0.5365517241379311
+      },
+      "nb": {
+        "pwr": 1.69,
+        "adp": 4.77,
+        "apr": 10.33,
+        "drawPlayRate": 0.48091603053435117
+      }
+    }
+  },
+  {
+    "no": "E043",
+    "cnName": "谷仓里的猫",
+    "enName": "Barn Cats",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.28,
+        "adp": 4.12,
+        "apr": 9.24,
+        "drawPlayRate": 0.7482710926694329
+      },
+      "nb": {
+        "pwr": 1.89,
+        "adp": 5.01,
+        "apr": 9.83,
+        "drawPlayRate": 0.7647058823529411
+      }
+    }
+  },
+  {
+    "no": "E044",
+    "cnName": "",
+    "enName": "Fodder Beets",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.28,
+        "adp": 4.61,
+        "apr": 11.24,
+        "drawPlayRate": 0.6549618320610687
+      },
+      "nb": {
+        "pwr": 2.02,
+        "adp": 5.33,
+        "apr": 11.67,
+        "drawPlayRate": 0.6940298507462687
+      }
+    }
+  },
+  {
+    "no": "E045",
+    "cnName": "",
+    "enName": "Fruit Ladder",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.15,
+        "adp": 4.22,
+        "apr": 4.44,
+        "drawPlayRate": 0.7519623233908949
+      },
+      "nb": {
+        "pwr": 1.53,
+        "adp": 4.47,
+        "apr": 4.71,
+        "drawPlayRate": 0.819047619047619
+      }
+    }
+  },
+  {
+    "no": "E046",
+    "cnName": "睡莲池",
+    "enName": "Waterlily Pond",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.39,
+        "adp": 3.42,
+        "apr": 6.19,
+        "drawPlayRate": 0.8181818181818182
+      },
+      "nb": {
+        "pwr": 1.92,
+        "adp": 4.3,
+        "apr": 6.01,
+        "drawPlayRate": 0.7515527950310559
+      }
+    }
+  },
+  {
+    "no": "E047",
+    "cnName": "",
+    "enName": "Syrup Tap",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.02,
+        "adp": 3.84,
+        "apr": 6.87,
+        "drawPlayRate": 0.7189631650750341
+      },
+      "nb": {
+        "pwr": 1.77,
+        "adp": 4.44,
+        "apr": 8.17,
+        "drawPlayRate": 0.7423312883435583
+      }
+    }
+  },
+  {
+    "no": "E048",
+    "cnName": "",
+    "enName": "Town Hall",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.9,
+        "adp": 4.75,
+        "apr": 10.4,
+        "drawPlayRate": 0.5690184049079755
+      },
+      "nb": {
+        "pwr": 1.32,
+        "adp": 5.17,
+        "apr": 10.34,
+        "drawPlayRate": 0.5396825396825397
+      }
+    }
+  },
+  {
+    "no": "E049",
+    "cnName": "鹤嘴斧",
+    "enName": "Twibil",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.85,
+        "adp": 2.88,
+        "apr": 4.66,
+        "drawPlayRate": 0.8331332533013205
+      },
+      "nb": {
+        "pwr": 2.77,
+        "adp": 3.4,
+        "apr": 5.06,
+        "drawPlayRate": 0.813953488372093
+      }
+    }
+  },
+  {
+    "no": "E050",
+    "cnName": "",
+    "enName": "Wild Greens",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.39,
+        "adp": 4.52,
+        "apr": 7.6,
+        "drawPlayRate": 0.8477306002928258
+      },
+      "nb": {
+        "pwr": 2.61,
+        "adp": 5.02,
+        "apr": 7.28,
+        "drawPlayRate": 0.8481012658227848
+      }
+    }
+  },
+  {
+    "no": "E051",
+    "cnName": "",
+    "enName": "Whale Oil",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.85,
+        "adp": 4.4,
+        "apr": 3.62,
+        "drawPlayRate": 0.6192307692307693
+      },
+      "nb": {
+        "pwr": 1.25,
+        "adp": 4.25,
+        "apr": 4.23,
+        "drawPlayRate": 0.6947368421052632
+      }
+    }
+  },
+  {
+    "no": "E052",
+    "cnName": "小储藏间",
+    "enName": "Cubbyhole",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.66,
+        "adp": 3.64,
+        "apr": 5.61,
+        "drawPlayRate": 0.7132564841498559
+      },
+      "nb": {
+        "pwr": 2.56,
+        "adp": 4.02,
+        "apr": 5.47,
+        "drawPlayRate": 0.7777777777777778
+      }
+    }
+  },
+  {
+    "no": "E053",
+    "cnName": "",
+    "enName": "Boar Spear",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.08,
+        "adp": 3.81,
+        "apr": 8.06,
+        "drawPlayRate": 0.6882183908045977
+      },
+      "nb": {
+        "pwr": 2.18,
+        "adp": 3.74,
+        "apr": 7.36,
+        "drawPlayRate": 0.7338709677419355
+      }
+    }
+  },
+  {
+    "no": "E054",
+    "cnName": "走私货",
+    "enName": "Contraband",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "效果：发展卡相关\n强度：就是走私货这张卡发动几次战的。就是你早期外发动第一次差不多是不赚不亏，你发打出来，发动第二次之后才开始赚。那他就是按强度就取决于你能够多快的能够打出发展卡。如果你打这个走私货之后连着这个连打一堆发展的走势都挺强大的。但是在大部分无法做到这一点的卡组里，这个走私货效果是，就他不太是一张能够连发的卡。就是正常情况下，你很难连续打这么多张发量卡。走私货总体没有裸照强度，大概是放在这个位置。",
+    "stats": {
+      "default": {
+        "pwr": 2.97,
+        "adp": 3.28,
+        "apr": 3.97,
+        "drawPlayRate": 0.8164464023494861
+      },
+      "nb": {
+        "pwr": 3.3,
+        "adp": 3.63,
+        "apr": 4.18,
+        "drawPlayRate": 0.8455882352941176
+      }
+    }
+  },
+  {
+    "no": "E055",
+    "cnName": "",
+    "enName": "Stone Weir",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.02,
+        "adp": 3.81,
+        "apr": 8.62,
+        "drawPlayRate": 0.7691176470588236
+      },
+      "nb": {
+        "pwr": 2.17,
+        "adp": 4.28,
+        "apr": 8.69,
+        "drawPlayRate": 0.7631578947368421
+      }
+    }
+  },
+  {
+    "no": "E056",
+    "cnName": "",
+    "enName": "Roman Pot",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.29,
+        "adp": 5.08,
+        "apr": 8.64,
+        "drawPlayRate": 0.7395348837209302
+      },
+      "nb": {
+        "pwr": 2.43,
+        "adp": 5.22,
+        "apr": 9.04,
+        "drawPlayRate": 0.6923076923076923
+      }
+    }
+  },
+  {
+    "no": "E057",
+    "cnName": "芝士火锅",
+    "enName": "Cheese Fondue",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.78,
+        "adp": 5.22,
+        "apr": 10.2,
+        "drawPlayRate": 0.6409017713365539
+      },
+      "nb": {
+        "pwr": 1.37,
+        "adp": 5.66,
+        "apr": 10.97,
+        "drawPlayRate": 0.5980392156862745
+      }
+    }
+  },
+  {
+    "no": "E059",
+    "cnName": "垄作苗床",
+    "enName": "Comb and Cutter",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.7,
+        "adp": 3.63,
+        "apr": 5.08,
+        "drawPlayRate": 0.6825938566552902
+      },
+      "nb": {
+        "pwr": 1.36,
+        "adp": 3.66,
+        "apr": 5.13,
+        "drawPlayRate": 0.7593984962406015
+      }
+    }
+  },
+  {
+    "no": "E061",
+    "cnName": "",
+    "enName": "Raised Bed",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.33,
+        "adp": 3.33,
+        "apr": 10.03,
+        "drawPlayRate": 0.6289655172413793
+      },
+      "nb": {
+        "pwr": 2.57,
+        "adp": 3.66,
+        "apr": 9.93,
+        "drawPlayRate": 0.6233766233766234
+      }
+    }
+  },
+  {
+    "no": "E062",
+    "cnName": "",
+    "enName": "Sour Dough",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.99,
+        "adp": 3.9,
+        "apr": 10.91,
+        "drawPlayRate": 0.6633522727272727
+      },
+      "nb": {
+        "pwr": 2.51,
+        "adp": 4.23,
+        "apr": 11.15,
+        "drawPlayRate": 0.7466666666666667
+      }
+    }
+  },
+  {
+    "no": "E063",
+    "cnName": "铁制烤炉",
+    "enName": "Iron Oven",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.83,
+        "adp": 2.84,
+        "apr": 10.16,
+        "drawPlayRate": 0.6959459459459459
+      },
+      "nb": {
+        "pwr": 2.11,
+        "adp": 3.42,
+        "apr": 10.14,
+        "drawPlayRate": 0.740506329113924
+      }
+    }
+  },
+  {
+    "no": "E064",
+    "cnName": "",
+    "enName": "Simple Oven",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.97,
+        "adp": 4.67,
+        "apr": 10.48,
+        "drawPlayRate": 0.5698412698412698
+      },
+      "nb": {
+        "pwr": 1.03,
+        "adp": 4.96,
+        "apr": 10.28,
+        "drawPlayRate": 0.5954198473282443
+      }
+    }
+  },
+  {
+    "no": "E065",
+    "cnName": "",
+    "enName": "Almsbag",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.78,
+        "adp": 4.82,
+        "apr": 5.99,
+        "drawPlayRate": 0.5195729537366548
+      },
+      "nb": {
+        "pwr": 0.62,
+        "adp": 4.33,
+        "apr": 6.27,
+        "drawPlayRate": 0.5555555555555556
+      }
+    }
+  },
+  {
+    "no": "E066",
+    "cnName": "谷仓棚",
+    "enName": "Barn Shed",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.82,
+        "adp": 2.69,
+        "apr": 7.7,
+        "drawPlayRate": 0.7530864197530864
+      },
+      "nb": {
+        "pwr": 2.3,
+        "adp": 3.0,
+        "apr": 7.72,
+        "drawPlayRate": 0.7873563218390804
+      }
+    }
+  },
+  {
+    "no": "E067",
+    "cnName": "",
+    "enName": "Grain Bag",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.7,
+        "adp": 4.54,
+        "apr": 9.38,
+        "drawPlayRate": 0.6420722135007849
+      },
+      "nb": {
+        "pwr": 2.35,
+        "adp": 4.79,
+        "apr": 10.36,
+        "drawPlayRate": 0.7058823529411765
+      }
+    }
+  },
+  {
+    "no": "E068",
+    "cnName": "",
+    "enName": "Cherry Orchard",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.71,
+        "adp": 3.69,
+        "apr": 5.96,
+        "drawPlayRate": 0.8421052631578947
+      },
+      "nb": {
+        "pwr": 3.11,
+        "adp": 4.08,
+        "apr": 7.0,
+        "drawPlayRate": 0.8562091503267973
+      }
+    }
+  },
+  {
+    "no": "E069",
+    "cnName": "瓜田",
+    "enName": "Melon Patch",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 4.35,
+        "adp": 2.45,
+        "apr": 8.0,
+        "drawPlayRate": 0.9106217616580311
+      },
+      "nb": {
+        "pwr": 4.07,
+        "adp": 3.3,
+        "apr": 7.91,
+        "drawPlayRate": 0.9324324324324325
+      }
+    }
+  },
+  {
+    "no": "E070",
+    "cnName": "",
+    "enName": "Crop Rotation Field",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.81,
+        "adp": 3.96,
+        "apr": 7.2,
+        "drawPlayRate": 0.8775510204081632
+      },
+      "nb": {
+        "pwr": 2.31,
+        "adp": 4.45,
+        "apr": 7.88,
+        "drawPlayRate": 0.8795180722891566
+      }
+    }
+  },
+  {
+    "no": "E071",
+    "cnName": "",
+    "enName": "Cow Patty",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.69,
+        "adp": 3.96,
+        "apr": 12.2,
+        "drawPlayRate": 0.7152682255845942
+      },
+      "nb": {
+        "pwr": 3.28,
+        "adp": 4.51,
+        "apr": 12.24,
+        "drawPlayRate": 0.7469135802469136
+      }
+    }
+  },
+  {
+    "no": "E072",
+    "cnName": "朝鲜蓟田",
+    "enName": "Artichoke Field",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.37,
+        "adp": 3.36,
+        "apr": 8.94,
+        "drawPlayRate": 0.8173803526448362
+      },
+      "nb": {
+        "pwr": 2.91,
+        "adp": 4.2,
+        "apr": 9.12,
+        "drawPlayRate": 0.8496732026143791
+      }
+    }
+  },
+  {
+    "no": "E073",
+    "cnName": "",
+    "enName": "Scythe",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.17,
+        "adp": 4.18,
+        "apr": 8.13,
+        "drawPlayRate": 0.6597633136094675
+      },
+      "nb": {
+        "pwr": 2.29,
+        "adp": 4.53,
+        "apr": 8.6,
+        "drawPlayRate": 0.6948051948051948
+      }
+    }
+  },
+  {
+    "no": "E074",
+    "cnName": "白蜡树",
+    "enName": "Ash Trees",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.87,
+        "adp": 2.04,
+        "apr": 11.27,
+        "drawPlayRate": 0.8091603053435115
+      },
+      "nb": {
+        "pwr": 3.82,
+        "adp": 2.85,
+        "apr": 11.49,
+        "drawPlayRate": 0.782051282051282
+      }
+    }
+  },
+  {
+    "no": "E075",
+    "cnName": "石斧",
+    "enName": "Stone Axe",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "A",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "效果：石头资源\n强度：这张卡经常的对比对象是路推，但是这张卡应该他的上限和下限都是要远强于路推的。从上线而言的话，石斧你是可以解锁很多石头卡的装备的，你是比如企业家之类的卡，如果你配合上石斧，他会非常强大。你可以抓非常非常多的石头卡，然后来用来配合石斧，他是增大你的灵活性，而不是减少你的灵活性。第二点是，它的收益是在于前期，RSF是一个非常非常非常强大的行动格，这个行动格的价值是不是2R和三木能比的，这个行动格的竞价值太高了。他唯一的问题就是在于石头不见得能用出去。在这个前提下，石斧提供了一个本sf的石头运出去的解密方案，所以石斧是一张非常非常强大的卡。你从下线的角度的话，他打出的条件要远比例最简单。上线的角度他有更多的配合，而且灵活性也是更高的。总体来讲，石斧是一个非常强大的A级卡。然后他哪怕在后期打出来，他有时候都足够强大了。就是在后期打出来的话，石斧的净收益都可以达到6米这个水平。",
+    "stats": {
+      "default": {
+        "pwr": 3.09,
+        "adp": 2.32,
+        "apr": 8.36,
+        "drawPlayRate": 0.8076923076923077
+      },
+      "nb": {
+        "pwr": 3.49,
+        "adp": 2.54,
+        "apr": 8.26,
+        "drawPlayRate": 0.8947368421052632
+      }
+    }
+  },
+  {
+    "no": "E076",
+    "cnName": "",
+    "enName": "Lumber Pile",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.05,
+        "adp": 4.43,
+        "apr": 10.24,
+        "drawPlayRate": 0.6848381601362862
+      },
+      "nb": {
+        "pwr": 1.69,
+        "adp": 4.33,
+        "apr": 10.2,
+        "drawPlayRate": 0.7205882352941176
+      }
+    }
+  },
+  {
+    "no": "E077",
+    "cnName": "鹤嘴锄",
+    "enName": "Mattock",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.5,
+        "adp": 3.17,
+        "apr": 4.48,
+        "drawPlayRate": 0.7991913746630728
+      },
+      "nb": {
+        "pwr": 1.68,
+        "adp": 3.59,
+        "apr": 4.25,
+        "drawPlayRate": 0.7602339181286549
+      }
+    }
+  },
+  {
+    "no": "E078",
+    "cnName": "",
+    "enName": "Sleight of Hand",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.6,
+        "adp": 4.26,
+        "apr": 11.16,
+        "drawPlayRate": 0.6585034013605442
+      },
+      "nb": {
+        "pwr": 3.3,
+        "adp": 4.6,
+        "apr": 10.85,
+        "drawPlayRate": 0.7913669064748201
+      }
+    }
+  },
+  {
+    "no": "E079",
+    "cnName": "",
+    "enName": "Field Spade",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.43,
+        "adp": 5.15,
+        "apr": 7.96,
+        "drawPlayRate": 0.5229202037351444
+      },
+      "nb": {
+        "pwr": 0.97,
+        "adp": 5.19,
+        "apr": 8.38,
+        "drawPlayRate": 0.64
+      }
+    }
+  },
+  {
+    "no": "E081",
+    "cnName": "",
+    "enName": "Alchemists Lab",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.09,
+        "adp": 4.23,
+        "apr": 10.26,
+        "drawPlayRate": 0.7510259917920656
+      },
+      "nb": {
+        "pwr": 2.93,
+        "adp": 4.39,
+        "apr": 9.82,
+        "drawPlayRate": 0.8
+      }
+    }
+  },
+  {
+    "no": "E082",
+    "cnName": "",
+    "enName": "Profiteering",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.35,
+        "adp": 4.52,
+        "apr": 6.09,
+        "drawPlayRate": 0.8677685950413223
+      },
+      "nb": {
+        "pwr": 2.15,
+        "adp": 4.49,
+        "apr": 6.19,
+        "drawPlayRate": 0.9145299145299145
+      }
+    }
+  },
+  {
+    "no": "E083",
+    "cnName": "牧羊人口哨",
+    "enName": "Shepherd's Whistle",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.67,
+        "adp": 3.38,
+        "apr": 6.97,
+        "drawPlayRate": 0.7829787234042553
+      },
+      "nb": {
+        "pwr": 2.84,
+        "adp": 4.44,
+        "apr": 7.62,
+        "drawPlayRate": 0.8013245033112583
+      }
+    }
+  },
+  {
+    "no": "E084",
+    "cnName": "多莉羊",
+    "enName": "Dolly's Mother",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.42,
+        "adp": 2.59,
+        "apr": 8.9,
+        "drawPlayRate": 0.8528645833333334
+      },
+      "nb": {
+        "pwr": 2.75,
+        "adp": 3.41,
+        "apr": 9.45,
+        "drawPlayRate": 0.8700564971751412
+      }
+    }
+  },
+  {
+    "no": "E085",
+    "cnName": "",
+    "enName": "Master Tanner",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.74,
+        "adp": 3.71,
+        "apr": 7.73,
+        "drawPlayRate": 0.4730878186968839
+      },
+      "nb": {
+        "pwr": 2.02,
+        "adp": 3.72,
+        "apr": 7.45,
+        "drawPlayRate": 0.6226415094339622
+      }
+    }
+  },
+  {
+    "no": "E086",
+    "cnName": "",
+    "enName": "Pen Builder",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.02,
+        "adp": 4.73,
+        "apr": 6.31,
+        "drawPlayRate": 0.3655913978494624
+      },
+      "nb": {
+        "pwr": 0.51,
+        "adp": 5.03,
+        "apr": 7.0,
+        "drawPlayRate": 0.4485981308411215
+      }
+    }
+  },
+  {
+    "no": "E087",
+    "cnName": "",
+    "enName": "Master Renovator",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.36,
+        "adp": 5.44,
+        "apr": 6.33,
+        "drawPlayRate": 0.22541966426858512
+      },
+      "nb": {
+        "pwr": 0.62,
+        "adp": 5.47,
+        "apr": 8.12,
+        "drawPlayRate": 0.3404255319148936
+      }
+    }
+  },
+  {
+    "no": "E088",
+    "cnName": "",
+    "enName": "Master Fencer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.23,
+        "adp": 4.79,
+        "apr": 10.24,
+        "drawPlayRate": 0.4040066777963272
+      },
+      "nb": {
+        "pwr": 1.21,
+        "adp": 4.85,
+        "apr": 10.32,
+        "drawPlayRate": 0.5595238095238095
+      }
+    }
+  },
+  {
+    "no": "E089",
+    "cnName": "货摊工人",
+    "enName": "Stallwright",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.68,
+        "adp": 2.52,
+        "apr": 4.21,
+        "drawPlayRate": 0.9207920792079208
+      },
+      "nb": {
+        "pwr": 3.65,
+        "adp": 2.93,
+        "apr": 3.9,
+        "drawPlayRate": 0.9314285714285714
+      }
+    }
+  },
+  {
+    "no": "E090",
+    "cnName": "收粪人",
+    "enName": "Dung Collector",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.2,
+        "adp": 3.19,
+        "apr": 10.99,
+        "drawPlayRate": 0.6923076923076923
+      },
+      "nb": {
+        "pwr": 3.47,
+        "adp": 3.89,
+        "apr": 11.01,
+        "drawPlayRate": 0.722972972972973
+      }
+    }
+  },
+  {
+    "no": "E091",
+    "cnName": "架犁工",
+    "enName": "Plow Builder",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.24,
+        "adp": 2.68,
+        "apr": 7.75,
+        "drawPlayRate": 0.8151724137931035
+      },
+      "nb": {
+        "pwr": 3.11,
+        "adp": 2.58,
+        "apr": 7.16,
+        "drawPlayRate": 0.8389261744966443
+      }
+    }
+  },
+  {
+    "no": "E092",
+    "cnName": "田间医生",
+    "enName": "Field Doctor",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "A",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "它的收益是非常恐怖的，它就相当于平台提供了一个饲养空间，平台提供了一个居住空间，完全没有让你付出任何东西，因为李四块钱并不算是一个惩罚，只是只是几，他只是说就是让你前期不能和一些，你前期要打出很多行动去配合着看一起做了，但是如果说你没有其他事可做的话，你四块钱在前期并不亏，然后如果说你能用这四块钱去做出来，做出来一些东西获得分数的话，那这张卡就非常的强大，因为它相当于就是白送的，对于一个早田卡组非常珍贵的一间房子，正常早田发卡组要花整整四栋去获得这间房子，但是你打出了一个田间医生，就相当于你节省了整整三动，对于一个早田卡组的三洞可能就是十分的差距，这个并不夸张，尤其是一些嗯就是种子卡并不强势，他必须颤颤巍巍的在那个手动极限，他才可以在第二季或者第三季播种出来的，卡组的话，你有一个天降医生，东北2pl卡组焕发新的活力",
+    "stats": {
+      "default": {
+        "pwr": 3.77,
+        "adp": 2.36,
+        "apr": 5.64,
+        "drawPlayRate": 0.7965616045845272
+      },
+      "nb": {
+        "pwr": 3.97,
+        "adp": 2.45,
+        "apr": 6.19,
+        "drawPlayRate": 0.8373493975903614
+      }
+    }
+  },
+  {
+    "no": "E093",
+    "cnName": "",
+    "enName": "Motivator",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.47,
+        "adp": 5.7,
+        "apr": 10.01,
+        "drawPlayRate": 0.18527918781725888
+      },
+      "nb": {
+        "pwr": 1.34,
+        "adp": 4.87,
+        "apr": 8.56,
+        "drawPlayRate": 0.43
+      }
+    }
+  },
+  {
+    "no": "E094",
+    "cnName": "",
+    "enName": "Prophet",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.96,
+        "adp": 3.79,
+        "apr": 11.91,
+        "drawPlayRate": 0.5452127659574468
+      },
+      "nb": {
+        "pwr": 2.38,
+        "adp": 4.36,
+        "apr": 12.11,
+        "drawPlayRate": 0.5795454545454546
+      }
+    }
+  },
+  {
+    "no": "E095",
+    "cnName": "",
+    "enName": "Miller",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.1,
+        "adp": 4.84,
+        "apr": 7.47,
+        "drawPlayRate": 0.3437037037037037
+      },
+      "nb": {
+        "pwr": 1.31,
+        "adp": 5.1,
+        "apr": 7.32,
+        "drawPlayRate": 0.4666666666666667
+      }
+    }
+  },
+  {
+    "no": "E096",
+    "cnName": "",
+    "enName": "Elder",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.56,
+        "adp": 5.25,
+        "apr": 1.0,
+        "drawPlayRate": 0.8910614525139665
+      },
+      "nb": {
+        "pwr": 1.2,
+        "adp": 4.73,
+        "apr": 1.0,
+        "drawPlayRate": 0.9841269841269841
+      }
+    }
+  },
+  {
+    "no": "E097",
+    "cnName": "",
+    "enName": "Beneficiary",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.47,
+        "adp": 4.12,
+        "apr": 7.0,
+        "drawPlayRate": 0.7287157287157288
+      },
+      "nb": {
+        "pwr": 2.78,
+        "adp": 4.56,
+        "apr": 6.15,
+        "drawPlayRate": 0.8092105263157895
+      }
+    }
+  },
+  {
+    "no": "E098",
+    "cnName": "",
+    "enName": "Prodigy",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.72,
+        "adp": 4.29,
+        "apr": 11.44,
+        "drawPlayRate": 0.44280442804428044
+      },
+      "nb": {
+        "pwr": 1.07,
+        "adp": 3.78,
+        "apr": 11.28,
+        "drawPlayRate": 0.6097560975609756
+      }
+    }
+  },
+  {
+    "no": "E099",
+    "cnName": "",
+    "enName": "Uncaring Parents",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.0,
+        "adp": 5.4,
+        "apr": 10.72,
+        "drawPlayRate": 0.32821497120921306
+      },
+      "nb": {
+        "pwr": 1.47,
+        "adp": 5.32,
+        "apr": 10.05,
+        "drawPlayRate": 0.6060606060606061
+      }
+    }
+  },
+  {
+    "no": "E100",
+    "cnName": "",
+    "enName": "Museum Caretaker",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.97,
+        "adp": 4.08,
+        "apr": 7.45,
+        "drawPlayRate": 0.4365994236311239
+      },
+      "nb": {
+        "pwr": 2.16,
+        "adp": 4.12,
+        "apr": 8.43,
+        "drawPlayRate": 0.5031847133757962
+      }
+    }
+  },
+  {
+    "no": "E101",
+    "cnName": "",
+    "enName": "Blighter",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.96,
+        "adp": 5.22,
+        "apr": 8.81,
+        "drawPlayRate": 0.31749049429657794
+      },
+      "nb": {
+        "pwr": 0.76,
+        "adp": 5.38,
+        "apr": 8.12,
+        "drawPlayRate": 0.4177215189873418
+      }
+    }
+  },
+  {
+    "no": "E102",
+    "cnName": "收购商",
+    "enName": "Acquirer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "C",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "真卡是一个比较典型的，就是它可能在某些环境下能超神，但是多抓一张数不上，我一般认为是不明智的，他居然看强与否，就是很简单的评价标准，就是你的你能不能用出去，如果你能够保证，你的牛可以有效的转化出去的话，收购就是一张不错的卡，但是他裸抓的强度不够，所以把它放在C",
+    "stats": {
+      "default": {
+        "pwr": 2.57,
+        "adp": 3.13,
+        "apr": 2.84,
+        "drawPlayRate": 0.619533527696793
+      },
+      "nb": {
+        "pwr": 2.13,
+        "adp": 4.34,
+        "apr": 4.11,
+        "drawPlayRate": 0.6218487394957983
+      }
+    }
+  },
+  {
+    "no": "E103",
+    "cnName": "狼",
+    "enName": "Wolf",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.36,
+        "adp": 2.38,
+        "apr": 8.14,
+        "drawPlayRate": 0.8600543478260869
+      },
+      "nb": {
+        "pwr": 3.98,
+        "adp": 3.11,
+        "apr": 8.36,
+        "drawPlayRate": 0.8839779005524862
+      }
+    }
+  },
+  {
+    "no": "E104",
+    "cnName": "香料商",
+    "enName": "Spice Trader",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "D",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "销售商算是一张我最近发的卡吧，以前这张卡肯定是要被我扔在E里面的，后来我觉得这张卡是可以拯救在一个地吧",
+    "stats": {
+      "default": {
+        "pwr": 1.7,
+        "adp": 4.19,
+        "apr": 3.14,
+        "drawPlayRate": 0.61875
+      },
+      "nb": {
+        "pwr": 0.91,
+        "adp": 4.55,
+        "apr": 3.15,
+        "drawPlayRate": 0.6578947368421053
+      }
+    }
+  },
+  {
+    "no": "E105",
+    "cnName": "先锋者",
+    "enName": "Pioneer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 4.81,
+        "adp": 2.19,
+        "apr": 2.17,
+        "drawPlayRate": 0.8870967741935484
+      },
+      "nb": {
+        "pwr": 3.4,
+        "adp": 2.59,
+        "apr": 2.79,
+        "drawPlayRate": 0.9269662921348315
+      }
+    }
+  },
+  {
+    "no": "E106",
+    "cnName": "",
+    "enName": "Emergency Seller",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.13,
+        "adp": 5.13,
+        "apr": 11.33,
+        "drawPlayRate": 0.401854714064915
+      },
+      "nb": {
+        "pwr": 1.53,
+        "adp": 5.49,
+        "apr": 11.27,
+        "drawPlayRate": 0.48760330578512395
+      }
+    }
+  },
+  {
+    "no": "E107",
+    "cnName": "",
+    "enName": "Land Surveyor",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.86,
+        "adp": 5.45,
+        "apr": 8.63,
+        "drawPlayRate": 0.34545454545454546
+      },
+      "nb": {
+        "pwr": 1.16,
+        "adp": 5.62,
+        "apr": 8.57,
+        "drawPlayRate": 0.4230769230769231
+      }
+    }
+  },
+  {
+    "no": "E108",
+    "cnName": "",
+    "enName": "Blackberry Farmer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.21,
+        "adp": 5.61,
+        "apr": 5.83,
+        "drawPlayRate": 0.2636363636363636
+      },
+      "nb": {
+        "pwr": 0.0,
+        "adp": 5.12,
+        "apr": 10.0,
+        "drawPlayRate": 0.125
+      }
+    }
+  },
+  {
+    "no": "E109",
+    "cnName": "",
+    "enName": "Braid Maker",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.23,
+        "adp": 4.64,
+        "apr": 6.47,
+        "drawPlayRate": 0.4196969696969697
+      },
+      "nb": {
+        "pwr": 1.04,
+        "adp": 4.74,
+        "apr": 6.6,
+        "drawPlayRate": 0.5652173913043478
+      }
+    }
+  },
+  {
+    "no": "E110",
+    "cnName": "",
+    "enName": "Dentist",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.07,
+        "adp": 3.59,
+        "apr": 3.67,
+        "drawPlayRate": 0.6772727272727272
+      },
+      "nb": {
+        "pwr": 1.53,
+        "adp": 3.74,
+        "apr": 4.02,
+        "drawPlayRate": 0.7310344827586207
+      }
+    }
+  },
+  {
+    "no": "E111",
+    "cnName": "",
+    "enName": "Recluse",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.74,
+        "adp": 5.0,
+        "apr": 1.5,
+        "drawPlayRate": 0.5720338983050848
+      },
+      "nb": {
+        "pwr": 0.14,
+        "adp": 5.1,
+        "apr": 1.44,
+        "drawPlayRate": 0.42857142857142855
+      }
+    }
+  },
+  {
+    "no": "E112",
+    "cnName": "",
+    "enName": "Grain Thief",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.77,
+        "adp": 5.27,
+        "apr": 10.31,
+        "drawPlayRate": 0.3582887700534759
+      },
+      "nb": {
+        "pwr": 0.81,
+        "adp": 5.13,
+        "apr": 9.47,
+        "drawPlayRate": 0.5280898876404494
+      }
+    }
+  },
+  {
+    "no": "E113",
+    "cnName": "",
+    "enName": "Godmother",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.65,
+        "adp": 4.34,
+        "apr": 6.39,
+        "drawPlayRate": 0.5529061102831595
+      },
+      "nb": {
+        "pwr": 1.19,
+        "adp": 4.81,
+        "apr": 7.09,
+        "drawPlayRate": 0.6097560975609756
+      }
+    }
+  },
+  {
+    "no": "E114",
+    "cnName": "马厩建筑工",
+    "enName": "Shed Builder",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.63,
+        "adp": 2.61,
+        "apr": 7.19,
+        "drawPlayRate": 0.8074866310160428
+      },
+      "nb": {
+        "pwr": 3.89,
+        "adp": 3.58,
+        "apr": 7.89,
+        "drawPlayRate": 0.8159509202453987
+      }
+    }
+  },
+  {
+    "no": "E115",
+    "cnName": "",
+    "enName": "Seed Servant",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.59,
+        "adp": 4.23,
+        "apr": 9.18,
+        "drawPlayRate": 0.552833078101072
+      },
+      "nb": {
+        "pwr": 1.78,
+        "adp": 4.53,
+        "apr": 9.09,
+        "drawPlayRate": 0.6466666666666666
+      }
+    }
+  },
+  {
+    "no": "E116",
+    "cnName": "冷杉砍伐工",
+    "enName": "Fir Cutter",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.54,
+        "adp": 3.24,
+        "apr": 8.06,
+        "drawPlayRate": 0.6798469387755102
+      },
+      "nb": {
+        "pwr": 2.86,
+        "adp": 3.46,
+        "apr": 8.63,
+        "drawPlayRate": 0.7953216374269005
+      }
+    }
+  },
+  {
+    "no": "E117",
+    "cnName": "",
+    "enName": "Pipe Smoker",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.47,
+        "adp": 3.66,
+        "apr": 7.01,
+        "drawPlayRate": 0.604381443298969
+      },
+      "nb": {
+        "pwr": 2.29,
+        "adp": 4.49,
+        "apr": 7.19,
+        "drawPlayRate": 0.5838150289017341
+      }
+    }
+  },
+  {
+    "no": "E118",
+    "cnName": "柴火收集者",
+    "enName": "Kindling Gatherer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.54,
+        "adp": 2.05,
+        "apr": 2.33,
+        "drawPlayRate": 0.8563685636856369
+      },
+      "nb": {
+        "pwr": 2.09,
+        "adp": 2.69,
+        "apr": 2.76,
+        "drawPlayRate": 0.8518518518518519
+      }
+    }
+  },
+  {
+    "no": "E119",
+    "cnName": "土地继承人",
+    "enName": "Land Heir",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.76,
+        "adp": 3.28,
+        "apr": 3.03,
+        "drawPlayRate": 0.7423398328690808
+      },
+      "nb": {
+        "pwr": 2.12,
+        "adp": 4.16,
+        "apr": 3.3,
+        "drawPlayRate": 0.7407407407407407
+      }
+    }
+  },
+  {
+    "no": "E120",
+    "cnName": "废料收集者",
+    "enName": "Scrap Collector",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.16,
+        "adp": 3.0,
+        "apr": 3.37,
+        "drawPlayRate": 0.7819444444444444
+      },
+      "nb": {
+        "pwr": 2.86,
+        "adp": 3.94,
+        "apr": 4.25,
+        "drawPlayRate": 0.7853107344632768
+      }
+    }
+  },
+  {
+    "no": "E121",
+    "cnName": "",
+    "enName": "Hill Cultivator",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.37,
+        "adp": 4.56,
+        "apr": 5.17,
+        "drawPlayRate": 0.532399299474606
+      },
+      "nb": {
+        "pwr": 0.76,
+        "adp": 4.34,
+        "apr": 5.92,
+        "drawPlayRate": 0.5966386554621849
+      }
+    }
+  },
+  {
+    "no": "E122",
+    "cnName": "苏格兰农民",
+    "enName": "Cottar",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "C",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "其实超神的局挺多的，但是总体来讲，仍然不太认为，苏格兰农民存在比较高的武装强度，因为苏格兰农民首先你不围绕着他打，他是毫无价值的，你不围绕着苏格兰农民打的话，苏格兰农民只能以一个非常非常缓慢的速度来，返还给你，就是六个资源左右啊，这是呃只能连废料收集者都达不到的强度，给的实在是太慢了，甚至你后期拉线的时候，有可能已经不需要资源了，所以说他是一定要围绕着他做行动，他才能发挥效果的一张卡，但是围绕着他做行动很赚吗，那倒那倒也不算赚了，你如果以他为核心去打出来自发的话，那他的收益比不过德笼窝，你木头总归是比不过一分的，如果你是以他为核心去打主画的话，那你木头无论是比较一株或者离一快艇，比木头都是要差太多了，所以这张卡是，并不能以及这单一的一张卡作为核心的，他一定是要等到其他的配合才可以发光发热的，所以我不太认可他有手抓的价值，放在一个C里面算是一个勉强一用，然后在部分局里有很高上限的卡",
+    "stats": {
+      "default": {
+        "pwr": 3.52,
+        "adp": 2.68,
+        "apr": 2.74,
+        "drawPlayRate": 0.8448753462603878
+      },
+      "nb": {
+        "pwr": 3.53,
+        "adp": 3.49,
+        "apr": 3.06,
+        "drawPlayRate": 0.7853107344632768
+      }
+    }
+  },
+  {
+    "no": "E124",
+    "cnName": "",
+    "enName": "Mayor Candidate",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.14,
+        "adp": 4.1,
+        "apr": 5.59,
+        "drawPlayRate": 0.6820208023774146
+      },
+      "nb": {
+        "pwr": 1.86,
+        "adp": 4.49,
+        "apr": 6.09,
+        "drawPlayRate": 0.6870748299319728
+      }
+    }
+  },
+  {
     "no": "E126",
     "cnName": "",
     "enName": "Tax Collector",
@@ -17692,6 +19223,981 @@
         "adp": 5.01,
         "apr": 8.16,
         "drawPlayRate": 0.550561797752809
+      }
+    }
+  },
+  {
+    "no": "E127",
+    "cnName": "",
+    "enName": "Diligent Farmer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.27,
+        "adp": 4.14,
+        "apr": 13.37,
+        "drawPlayRate": 0.36872309899569583
+      },
+      "nb": {
+        "pwr": 1.74,
+        "adp": 4.65,
+        "apr": 13.35,
+        "drawPlayRate": 0.4900662251655629
+      }
+    }
+  },
+  {
+    "no": "E128",
+    "cnName": "马具工匠",
+    "enName": "Saddler",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.6,
+        "adp": 3.15,
+        "apr": 5.59,
+        "drawPlayRate": 0.7487046632124352
+      },
+      "nb": {
+        "pwr": 2.78,
+        "adp": 3.49,
+        "apr": 6.39,
+        "drawPlayRate": 0.7810650887573964
+      }
+    }
+  },
+  {
+    "no": "E130",
+    "cnName": "",
+    "enName": "Overachiever",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.14,
+        "adp": 3.18,
+        "apr": 6.13,
+        "drawPlayRate": 0.6366237482117311
+      },
+      "nb": {
+        "pwr": 2.26,
+        "adp": 4.04,
+        "apr": 6.55,
+        "drawPlayRate": 0.6491228070175439
+      }
+    }
+  },
+  {
+    "no": "E131",
+    "cnName": "",
+    "enName": "Market Master",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.4,
+        "adp": 2.66,
+        "apr": 1.86,
+        "drawPlayRate": 0.8351206434316354
+      },
+      "nb": {
+        "pwr": 2.02,
+        "adp": 2.95,
+        "apr": 1.78,
+        "drawPlayRate": 0.8805031446540881
+      }
+    }
+  },
+  {
+    "no": "E132",
+    "cnName": "",
+    "enName": "Veggie Lover",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.51,
+        "adp": 3.83,
+        "apr": 11.63,
+        "drawPlayRate": 0.5697674418604651
+      },
+      "nb": {
+        "pwr": 3.07,
+        "adp": 3.96,
+        "apr": 11.62,
+        "drawPlayRate": 0.6402439024390244
+      }
+    }
+  },
+  {
+    "no": "E133",
+    "cnName": "冠军饲养员",
+    "enName": "Champion Breeder",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.58,
+        "adp": 2.57,
+        "apr": 11.3,
+        "drawPlayRate": 0.650730411686587
+      },
+      "nb": {
+        "pwr": 4.65,
+        "adp": 3.38,
+        "apr": 11.08,
+        "drawPlayRate": 0.6982248520710059
+      }
+    }
+  },
+  {
+    "no": "E134",
+    "cnName": "全能农夫",
+    "enName": "Omnifarmer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.12,
+        "adp": 3.05,
+        "apr": 9.36,
+        "drawPlayRate": 0.6528704939919893
+      },
+      "nb": {
+        "pwr": 2.79,
+        "adp": 3.41,
+        "apr": 9.33,
+        "drawPlayRate": 0.7073170731707317
+      }
+    }
+  },
+  {
+    "no": "E135",
+    "cnName": "",
+    "enName": "Pickler",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.91,
+        "adp": 3.53,
+        "apr": 5.36,
+        "drawPlayRate": 0.6915492957746479
+      },
+      "nb": {
+        "pwr": 2.92,
+        "adp": 4.17,
+        "apr": 5.33,
+        "drawPlayRate": 0.7944444444444444
+      }
+    }
+  },
+  {
+    "no": "E136",
+    "cnName": "畜牧工人",
+    "enName": "Animal Husbandry Worker",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 4.02,
+        "adp": 2.62,
+        "apr": 5.77,
+        "drawPlayRate": 0.8569444444444444
+      },
+      "nb": {
+        "pwr": 2.93,
+        "adp": 3.76,
+        "apr": 6.55,
+        "drawPlayRate": 0.8461538461538461
+      }
+    }
+  },
+  {
+    "no": "E137",
+    "cnName": "",
+    "enName": "Flax Farmer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.92,
+        "adp": 4.11,
+        "apr": 3.93,
+        "drawPlayRate": 0.5520231213872833
+      },
+      "nb": {
+        "pwr": 0.61,
+        "adp": 4.17,
+        "apr": 4.7,
+        "drawPlayRate": 0.5939849624060151
+      }
+    }
+  },
+  {
+    "no": "E138",
+    "cnName": "",
+    "enName": "Livestock Expert",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.73,
+        "adp": 5.39,
+        "apr": 10.49,
+        "drawPlayRate": 0.3048780487804878
+      },
+      "nb": {
+        "pwr": 0.87,
+        "adp": 5.8,
+        "apr": 10.64,
+        "drawPlayRate": 0.35443037974683544
+      }
+    }
+  },
+  {
+    "no": "E140",
+    "cnName": "",
+    "enName": "Carter",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.9,
+        "adp": 4.74,
+        "apr": 8.26,
+        "drawPlayRate": 0.4312796208530806
+      },
+      "nb": {
+        "pwr": 1.57,
+        "adp": 5.06,
+        "apr": 8.73,
+        "drawPlayRate": 0.44545454545454544
+      }
+    }
+  },
+  {
+    "no": "E141",
+    "cnName": "蔬菜推销员",
+    "enName": "Vegetable Vendor",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.86,
+        "adp": 3.16,
+        "apr": 5.25,
+        "drawPlayRate": 0.7073529411764706
+      },
+      "nb": {
+        "pwr": 2.49,
+        "adp": 3.31,
+        "apr": 5.66,
+        "drawPlayRate": 0.7469879518072289
+      }
+    }
+  },
+  {
+    "no": "E142",
+    "cnName": "",
+    "enName": "Smuggler",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.36,
+        "adp": 4.92,
+        "apr": 8.01,
+        "drawPlayRate": 0.47058823529411764
+      },
+      "nb": {
+        "pwr": 1.18,
+        "adp": 5.03,
+        "apr": 7.19,
+        "drawPlayRate": 0.48717948717948717
+      }
+    }
+  },
+  {
+    "no": "E143",
+    "cnName": "采煤工",
+    "enName": "Hewer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.97,
+        "adp": 2.61,
+        "apr": 3.93,
+        "drawPlayRate": 0.8049095607235142
+      },
+      "nb": {
+        "pwr": 3.47,
+        "adp": 3.37,
+        "apr": 4.31,
+        "drawPlayRate": 0.7619047619047619
+      }
+    }
+  },
+  {
+    "no": "E144",
+    "cnName": "仓库推销员",
+    "enName": "Wares Salesman",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.14,
+        "adp": 3.17,
+        "apr": 4.15,
+        "drawPlayRate": 0.7303523035230353
+      },
+      "nb": {
+        "pwr": 3.02,
+        "adp": 3.31,
+        "apr": 4.47,
+        "drawPlayRate": 0.7679558011049724
+      }
+    }
+  },
+  {
+    "no": "E145",
+    "cnName": "偷懒的人",
+    "enName": "Parvenu",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.09,
+        "adp": 5.01,
+        "apr": 6.0,
+        "drawPlayRate": 0.3776978417266187
+      },
+      "nb": {
+        "pwr": 0.77,
+        "adp": 5.06,
+        "apr": 6.48,
+        "drawPlayRate": 0.45614035087719296
+      }
+    }
+  },
+  {
+    "no": "E146",
+    "cnName": "",
+    "enName": "Reseller",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.84,
+        "adp": 4.68,
+        "apr": 8.11,
+        "drawPlayRate": 0.4413489736070381
+      },
+      "nb": {
+        "pwr": 2.38,
+        "adp": 4.86,
+        "apr": 8.39,
+        "drawPlayRate": 0.6948051948051948
+      }
+    }
+  },
+  {
+    "no": "E147",
+    "cnName": "",
+    "enName": "Animal Driver",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.36,
+        "adp": 5.41,
+        "apr": 11.15,
+        "drawPlayRate": 0.40484429065743943
+      },
+      "nb": {
+        "pwr": 1.21,
+        "adp": 5.8,
+        "apr": 11.24,
+        "drawPlayRate": 0.42
+      }
+    }
+  },
+  {
+    "no": "E148",
+    "cnName": "",
+    "enName": "Lazybones",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.77,
+        "adp": 2.31,
+        "apr": 4.26,
+        "drawPlayRate": 0.854614412136536
+      },
+      "nb": {
+        "pwr": 2.92,
+        "adp": 3.04,
+        "apr": 5.38,
+        "drawPlayRate": 0.8214285714285714
+      }
+    }
+  },
+  {
+    "no": "E150",
+    "cnName": "",
+    "enName": "Rock Beater",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.95,
+        "adp": 3.7,
+        "apr": 2.35,
+        "drawPlayRate": 0.6128500823723229
+      },
+      "nb": {
+        "pwr": 1.36,
+        "adp": 3.79,
+        "apr": 3.46,
+        "drawPlayRate": 0.6308724832214765
+      }
+    }
+  },
+  {
+    "no": "E151",
+    "cnName": "护士",
+    "enName": "Delivery Nurse",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.89,
+        "adp": 3.77,
+        "apr": 10.69,
+        "drawPlayRate": 0.4796195652173913
+      },
+      "nb": {
+        "pwr": 2.55,
+        "adp": 4.11,
+        "apr": 10.31,
+        "drawPlayRate": 0.5789473684210527
+      }
+    }
+  },
+  {
+    "no": "E152",
+    "cnName": "",
+    "enName": "Bargain Hunter",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.58,
+        "adp": 5.35,
+        "apr": 5.14,
+        "drawPlayRate": 0.3360655737704918
+      },
+      "nb": {
+        "pwr": 1.63,
+        "adp": 4.99,
+        "apr": 5.24,
+        "drawPlayRate": 0.6020408163265306
+      }
+    }
+  },
+  {
+    "no": "E153",
+    "cnName": "",
+    "enName": "Stone Sculptor",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.62,
+        "adp": 4.22,
+        "apr": 6.95,
+        "drawPlayRate": 0.594311377245509
+      },
+      "nb": {
+        "pwr": 2.0,
+        "adp": 4.82,
+        "apr": 6.98,
+        "drawPlayRate": 0.6564885496183206
+      }
+    }
+  },
+  {
+    "no": "E154",
+    "cnName": "",
+    "enName": "Margrave",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.13,
+        "adp": 5.64,
+        "apr": 12.59,
+        "drawPlayRate": 0.30335097001763667
+      },
+      "nb": {
+        "pwr": 1.28,
+        "adp": 5.96,
+        "apr": 11.79,
+        "drawPlayRate": 0.5185185185185185
+      }
+    }
+  },
+  {
+    "no": "E155",
+    "cnName": "",
+    "enName": "Visionary",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.3,
+        "adp": 5.46,
+        "apr": 3.79,
+        "drawPlayRate": 0.35507246376811596
+      },
+      "nb": {
+        "pwr": 0.39,
+        "adp": 5.06,
+        "apr": 4.29,
+        "drawPlayRate": 0.65625
+      }
+    }
+  },
+  {
+    "no": "E156",
+    "cnName": "土矿主人",
+    "enName": "Claypit Owner",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 3.78,
+        "adp": 2.3,
+        "apr": 2.34,
+        "drawPlayRate": 0.8563899868247694
+      },
+      "nb": {
+        "pwr": 3.3,
+        "adp": 3.14,
+        "apr": 3.39,
+        "drawPlayRate": 0.7924528301886793
+      }
+    }
+  },
+  {
+    "no": "E157",
+    "cnName": "",
+    "enName": "Usufructuary",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.7,
+        "adp": 4.87,
+        "apr": 5.39,
+        "drawPlayRate": 0.5341614906832298
+      },
+      "nb": {
+        "pwr": 0.46,
+        "adp": 5.05,
+        "apr": 4.04,
+        "drawPlayRate": 0.5714285714285714
+      }
+    }
+  },
+  {
+    "no": "E158",
+    "cnName": "",
+    "enName": "Stone Custodian",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.95,
+        "adp": 5.25,
+        "apr": 7.94,
+        "drawPlayRate": 0.38778877887788776
+      },
+      "nb": {
+        "pwr": 0.7,
+        "adp": 5.66,
+        "apr": 7.49,
+        "drawPlayRate": 0.5051546391752577
+      }
+    }
+  },
+  {
+    "no": "E159",
+    "cnName": "",
+    "enName": "Old Miser",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.06,
+        "adp": 4.86,
+        "apr": 4.06,
+        "drawPlayRate": 0.477326968973747
+      },
+      "nb": {
+        "pwr": 1.13,
+        "adp": 4.25,
+        "apr": 4.41,
+        "drawPlayRate": 0.7176470588235294
+      }
+    }
+  },
+  {
+    "no": "E160",
+    "cnName": "",
+    "enName": "Kelp Gatherer",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.44,
+        "adp": 3.67,
+        "apr": 4.07,
+        "drawPlayRate": 0.5383542538354253
+      },
+      "nb": {
+        "pwr": 1.89,
+        "adp": 4.24,
+        "apr": 5.08,
+        "drawPlayRate": 0.6439393939393939
+      }
+    }
+  },
+  {
+    "no": "E161",
+    "cnName": "",
+    "enName": "Elder Baker",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.47,
+        "adp": 3.34,
+        "apr": 6.1,
+        "drawPlayRate": 0.6794871794871795
+      },
+      "nb": {
+        "pwr": 2.08,
+        "adp": 3.84,
+        "apr": 5.75,
+        "drawPlayRate": 0.6785714285714286
+      }
+    }
+  },
+  {
+    "no": "E162",
+    "cnName": "",
+    "enName": "Entrepreneur",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.38,
+        "adp": 4.65,
+        "apr": 3.63,
+        "drawPlayRate": 0.4731182795698925
+      },
+      "nb": {
+        "pwr": 1.76,
+        "adp": 4.39,
+        "apr": 3.86,
+        "drawPlayRate": 0.6178861788617886
+      }
+    }
+  },
+  {
+    "no": "E163",
+    "cnName": "",
+    "enName": "Patroness",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.04,
+        "adp": 4.06,
+        "apr": 2.17,
+        "drawPlayRate": 0.7457098283931357
+      },
+      "nb": {
+        "pwr": 3.33,
+        "adp": 4.05,
+        "apr": 2.42,
+        "drawPlayRate": 0.8888888888888888
+      }
+    }
+  },
+  {
+    "no": "E164",
+    "cnName": "",
+    "enName": "Mountain Plowman",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.64,
+        "adp": 4.44,
+        "apr": 8.11,
+        "drawPlayRate": 0.5264586160108549
+      },
+      "nb": {
+        "pwr": 1.16,
+        "adp": 5.0,
+        "apr": 8.11,
+        "drawPlayRate": 0.6356589147286822
+      }
+    }
+  },
+  {
+    "no": "E165",
+    "cnName": "狩猎大师",
+    "enName": "Master Huntsman",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.86,
+        "adp": 3.64,
+        "apr": 5.49,
+        "drawPlayRate": 0.6855172413793104
+      },
+      "nb": {
+        "pwr": 3.21,
+        "adp": 4.14,
+        "apr": 6.01,
+        "drawPlayRate": 0.696969696969697
+      }
+    }
+  },
+  {
+    "no": "E166",
+    "cnName": "",
+    "enName": "Roastmaster",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 1.3,
+        "adp": 4.21,
+        "apr": 7.74,
+        "drawPlayRate": 0.48811410459587956
+      },
+      "nb": {
+        "pwr": 1.12,
+        "adp": 4.2,
+        "apr": 7.39,
+        "drawPlayRate": 0.6424242424242425
+      }
+    }
+  },
+  {
+    "no": "E167",
+    "cnName": "",
+    "enName": "Dairy Crier",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 2.61,
+        "adp": 4.11,
+        "apr": 11.87,
+        "drawPlayRate": 0.7070422535211267
+      },
+      "nb": {
+        "pwr": 2.39,
+        "adp": 4.92,
+        "apr": 11.25,
+        "drawPlayRate": 0.738562091503268
+      }
+    }
+  },
+  {
+    "no": "E168",
+    "cnName": "",
+    "enName": "Animal Tamer's Apprentice",
+    "baituTier": "",
+    "enTier": "",
+    "chenTier": "",
+    "baituDesc": "",
+    "enDesc": "",
+    "chenDesc": "",
+    "stats": {
+      "default": {
+        "pwr": 0.74,
+        "adp": 5.45,
+        "apr": 7.58,
+        "drawPlayRate": 0.28604118993135014
+      },
+      "nb": {
+        "pwr": 0.94,
+        "adp": 5.17,
+        "apr": 7.97,
+        "drawPlayRate": 0.559322033898305
       }
     }
   }
