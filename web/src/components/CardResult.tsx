@@ -1,0 +1,129 @@
+import { Card, CardContent } from '@/components/ui/card';
+import { ICard, IAuthors } from '@/types/card';
+import { TierBadge } from '@/components/TierBadge';
+import { StatsBadge } from '@/components/StatsBadge';
+import { StatsDetails } from '@/components/StatsDetails';
+import { getStatsData } from '@/lib/cardUtils';
+
+interface CardResultProps {
+  card: ICard;
+  authors?: IAuthors;
+  index?: number;
+}
+
+export function CardResult({ card, authors, index = 0 }: CardResultProps) {
+  const statsData = getStatsData(card);
+
+  return (
+    <Card 
+      className="w-full animate-fade-in" 
+      style={{ animationDelay: `${index * 100}ms` }}
+    >
+      <CardContent className="pt-6">
+        {/* Header: No, cnName, enName */}
+        <div className="flex flex-wrap items-baseline gap-3 mb-1 pb-4 border-b border-border/50">
+          <span className="font-mono text-sm font-semibold px-2 py-0.5 rounded bg-primary/10 text-primary">
+            {card.no || 'N/A'}
+          </span>
+          {card.cnName && (
+            <span className="font-serif text-xl font-semibold text-foreground">
+              {card.cnName}
+            </span>
+          )}
+          {card.enName && (
+            <span className="text-base text-muted-foreground italic">
+              {card.enName}
+            </span>
+          )}
+        </div>
+
+        {/* Tier badges row */}
+        <div className="flex flex-wrap items-center gap-2 py-4 border-b border-border/30">
+          {card.baituTier && card.baituTier.trim() !== '' && (
+            <TierBadge tier={card.baituTier} tierType="baitu" hasDesc={!!card.baituDesc} />
+          )}
+          {card.enTier && card.enTier.trim() !== '' && (
+            <TierBadge tier={card.enTier} tierType="en" hasDesc={!!card.enDesc} />
+          )}
+          {card.chenTier && card.chenTier.trim() !== '' && (
+            <TierBadge tier={card.chenTier} tierType="chen" hasDesc={!!card.chenDesc} />
+          )}
+          {statsData && <StatsBadge stats={statsData} />}
+        </div>
+
+        {/* Descriptions */}
+        <div className="space-y-4 pt-4">
+          {/* Baitu Desc */}
+          {card.baituDesc && card.baituDesc.trim() !== '' && (
+            <div className="group">
+              <div className="flex items-center gap-2 mb-2">
+                {authors?.baitu?.avatar && (
+                  <img
+                    src={authors.baitu.avatar}
+                    alt={authors.baitu.name}
+                    className="w-6 h-6 rounded-full ring-2 ring-white shadow-sm"
+                  />
+                )}
+                <span className="text-sm font-semibold text-primary">
+                  {authors?.baitu?.name || 'Baitu'}
+                </span>
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed pl-8 whitespace-pre-wrap">
+                {card.baituDesc}
+              </p>
+            </div>
+          )}
+
+          {/* EN Desc */}
+          {card.enDesc && card.enDesc.trim() !== '' && (
+            <div className="group">
+              <div className="flex items-center gap-2 mb-2">
+                {authors?.en?.avatar && (
+                  <img
+                    src={authors.en.avatar}
+                    alt={authors.en.name}
+                    className="w-6 h-6 rounded-full ring-2 ring-white shadow-sm"
+                  />
+                )}
+                <span className="text-sm font-semibold text-primary">
+                  {authors?.en?.name || 'EN'}
+                </span>
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed pl-8 whitespace-pre-wrap">
+                {card.enDesc}
+              </p>
+            </div>
+          )}
+
+          {/* Chen Desc */}
+          {card.chenDesc && card.chenDesc.trim() !== '' && (
+            <div className="group">
+              <div className="flex items-center gap-2 mb-2">
+                {authors?.chen?.avatar && (
+                  <img
+                    src={authors.chen.avatar}
+                    alt={authors.chen.name}
+                    className="w-6 h-6 rounded-full ring-2 ring-white shadow-sm"
+                  />
+                )}
+                <span className="text-sm font-semibold text-primary">
+                  {authors?.chen?.name || 'Chen'}
+                </span>
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed pl-8 whitespace-pre-wrap">
+                {card.chenDesc}
+              </p>
+            </div>
+          )}
+
+          {/* Stats Details */}
+          {statsData && (
+            <div className="pt-2">
+              <StatsDetails stats={statsData} />
+            </div>
+          )}
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
