@@ -1,8 +1,10 @@
 import { useState, useCallback, useMemo, useEffect } from 'react';
 import { SearchBox } from '@/components/SearchBox';
 import { SearchResults } from '@/components/SearchResults';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { ICard, IAuthors } from '@/types/card';
 import { searchCards, getRandomRecommendedCards } from '@/lib/cardUtils';
+import { I18nContext, TLocale, getTranslations, detectBrowserLocale } from '@/lib/i18n';
 
 // Wheat/grain icon component
 function WheatIcon({ className }: { className?: string }) {
@@ -25,12 +27,28 @@ function WheatIcon({ className }: { className?: string }) {
   );
 }
 
-function App() {
+function AppContent() {
   const [cardsData, setCardsData] = useState<ICard[]>([]);
   const [authorsData, setAuthorsData] = useState<IAuthors | undefined>(undefined);
   const [searchQuery, setSearchQuery] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [recommendedCards, setRecommendedCards] = useState<ICard[]>([]);
+  const [locale, setLocale] = useState<TLocale>(detectBrowserLocale);
+
+  const t = getTranslations(locale);
+
+  // Save locale preference
+  useEffect(() => {
+    localStorage.setItem('agricola-locale', locale);
+  }, [locale]);
+
+  // Load saved locale on mount
+  useEffect(() => {
+    const savedLocale = localStorage.getItem('agricola-locale') as TLocale | null;
+    if (savedLocale && (savedLocale === 'en' || savedLocale === 'zh')) {
+      setLocale(savedLocale);
+    }
+  }, []);
 
   // Load cards and authors data
   useEffect(() => {
@@ -85,104 +103,115 @@ function App() {
   }, [cardsData]);
 
   return (
-    <div className="min-h-screen wheat-pattern">
-      {/* Header */}
-      <header className="border-b border-border/50 bg-gradient-to-b from-card/80 to-transparent backdrop-blur-sm">
-        <div className="container mx-auto px-4 py-8">
-          <div className="flex items-center justify-center gap-3 mb-3">
-            <WheatIcon className="w-8 h-8 text-harvest" />
-            <h1 className="text-4xl font-serif font-bold text-primary header-accent">
-              Agricola Card Search
-            </h1>
-            <WheatIcon className="w-8 h-8 text-harvest scale-x-[-1]" />
-          </div>
-          <p className="text-center text-muted-foreground mt-6">
-            Search and explore Agricola cards with ratings and statistics
-          </p>
-        </div>
-      </header>
-
-      {/* Main Content */}
-      <main className="container mx-auto px-4 py-10">
-        {isLoading ? (
-          <div className="text-center py-16">
-            <WheatIcon className="w-12 h-12 text-harvest mx-auto mb-4 loading-icon" />
-            <p className="text-muted-foreground font-medium">Loading cards data...</p>
-          </div>
-        ) : (
-          <>
-            {/* Search Box */}
-            <div className="mb-10 animate-fade-in">
-              <SearchBox onSearch={handleSearch} />
+    <I18nContext.Provider value={{ locale, t, setLocale }}>
+      <div className="min-h-screen wheat-pattern">
+        {/* Header */}
+        <header className="border-b border-border/50 bg-gradient-to-b from-card/80 to-transparent backdrop-blur-sm">
+          <div className="container mx-auto px-4 py-8">
+            {/* Language Switcher */}
+            <div className="flex justify-end mb-4">
+              <LanguageSwitcher />
             </div>
 
-            {/* Card count indicator */}
-            {!isSearching && (
-              <div className="text-center mb-8 animate-fade-in-delay-1">
-                <p className="text-sm text-muted-foreground">
-                  <span className="font-semibold text-primary">{cardsData.length}</span> cards available
-                </p>
-              </div>
-            )}
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <WheatIcon className="w-8 h-8 text-harvest" />
+              <h1 className="text-4xl font-serif font-bold text-primary header-accent">
+                {t.appTitle}
+              </h1>
+              <WheatIcon className="w-8 h-8 text-harvest scale-x-[-1]" />
+            </div>
+            <p className="text-center text-muted-foreground mt-6">
+              {t.appSubtitle}
+            </p>
+          </div>
+        </header>
 
-            {/* Search Results or Recommended Cards */}
-            <div className="animate-fade-in-delay-2">
-              {isSearching ? (
-                <SearchResults
-                  results={searchResults}
-                  authors={authorsData}
-                  isSearching={isSearching}
-                />
-              ) : (
-                <div className="w-full max-w-2xl mx-auto">
-                  <div className="flex items-center justify-between mb-4">
-                    <h2 className="text-lg font-serif font-semibold text-primary flex items-center gap-2">
-                      <span className="text-harvest">✦</span>
-                      Recommended Cards
-                    </h2>
-                    <button
-                      onClick={refreshRecommended}
-                      className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-secondary/50"
-                    >
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                      </svg>
-                      Refresh
-                    </button>
-                  </div>
-                  <SearchResults
-                    results={recommendedCards}
-                    authors={authorsData}
-                    isSearching={true}
-                    hideCount={true}
-                  />
+        {/* Main Content */}
+        <main className="container mx-auto px-4 py-10">
+          {isLoading ? (
+            <div className="text-center py-16">
+              <WheatIcon className="w-12 h-12 text-harvest mx-auto mb-4 loading-icon" />
+              <p className="text-muted-foreground font-medium">{t.loading}</p>
+            </div>
+          ) : (
+            <>
+              {/* Search Box */}
+              <div className="mb-10 animate-fade-in">
+                <SearchBox onSearch={handleSearch} />
+              </div>
+
+              {/* Card count indicator */}
+              {!isSearching && (
+                <div className="text-center mb-8 animate-fade-in-delay-1">
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-semibold text-primary">{cardsData.length}</span> {t.cardsAvailable}
+                  </p>
                 </div>
               )}
-            </div>
-          </>
-        )}
-      </main>
 
-      {/* Footer */}
-      <footer className="border-t border-border/50 mt-auto bg-gradient-to-t from-card/50 to-transparent">
-        <div className="container mx-auto px-4 py-8">
-          <div className="flex justify-center mb-4">
-            <div className="flex items-center gap-1 text-harvest/60">
-              <WheatIcon className="w-4 h-4" />
-              <WheatIcon className="w-5 h-5" />
-              <WheatIcon className="w-4 h-4" />
+              {/* Search Results or Recommended Cards */}
+              <div className="animate-fade-in-delay-2">
+                {isSearching ? (
+                  <SearchResults
+                    results={searchResults}
+                    authors={authorsData}
+                    isSearching={isSearching}
+                  />
+                ) : (
+                  <div className="w-full max-w-2xl mx-auto">
+                    <div className="flex items-center justify-between mb-4">
+                      <h2 className="text-lg font-serif font-semibold text-primary flex items-center gap-2">
+                        <span className="text-harvest">✦</span>
+                        {t.recommendedCards}
+                      </h2>
+                      <button
+                        onClick={refreshRecommended}
+                        className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-secondary/50"
+                      >
+                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                        </svg>
+                        {t.refresh}
+                      </button>
+                    </div>
+                    <SearchResults
+                      results={recommendedCards}
+                      authors={authorsData}
+                      isSearching={true}
+                      hideCount={true}
+                    />
+                  </div>
+                )}
+              </div>
+            </>
+          )}
+        </main>
+
+        {/* Footer */}
+        <footer className="border-t border-border/50 mt-auto bg-gradient-to-t from-card/50 to-transparent">
+          <div className="container mx-auto px-4 py-8">
+            <div className="flex justify-center mb-4">
+              <div className="flex items-center gap-1 text-harvest/60">
+                <WheatIcon className="w-4 h-4" />
+                <WheatIcon className="w-5 h-5" />
+                <WheatIcon className="w-4 h-4" />
+              </div>
+            </div>
+            <div className="text-center text-sm text-muted-foreground space-y-1">
+              <p><span className="font-medium">{t.pluginCreator}:</span> Ender</p>
+              <p><span className="font-medium">{t.statistics}:</span> Lumin</p>
+              <p><span className="font-medium">{t.tierProviders}:</span> Yuxiao_Huang, Chen233, Mark Hartnady</p>
+              <p className="pt-2 text-xs opacity-75">{t.specialThanks} Henry</p>
             </div>
           </div>
-          <div className="text-center text-sm text-muted-foreground space-y-1">
-            <p><span className="font-medium">Plugin creator:</span> Ender</p>
-            <p><span className="font-medium">Statistics:</span> Lumin</p>
-            <p><span className="font-medium">Tier providers:</span> Yuxiao_Huang, Chen233, Mark Hartnady</p>
-            <p className="pt-2 text-xs opacity-75">Special thanks to Henry</p>
-          </div>
-        </div>
-      </footer>
-    </div>
+        </footer>
+      </div>
+    </I18nContext.Provider>
   );
+}
+
+function App() {
+  return <AppContent />;
 }
 
 export default App;

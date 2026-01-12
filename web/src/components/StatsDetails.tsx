@@ -1,30 +1,11 @@
 import { IStats } from '@/types/card';
 import { getAdpColor, getDrawPlayRateColor } from '@/lib/cardUtils';
 import { useState } from 'react';
+import { useI18n } from '@/lib/i18n';
 
 interface StatsDetailsProps {
   stats: IStats;
 }
-
-// Stats labels and tooltips
-const STATS_CONFIG = {
-  pwr: {
-    label: 'PWR',
-    tooltip: 'Play Win Rate: 打出率 × 胜率 / 7'
-  },
-  adp: {
-    label: 'ADP',
-    tooltip: 'Average Draft Position: 平均轮抽抓位'
-  },
-  apr: {
-    label: 'APR',
-    tooltip: 'Average Play Round: 平均打出回合'
-  },
-  drawPlayRate: {
-    label: 'Play Rate',
-    tooltip: 'Draw Play Rate: 抽到后的打出率'
-  }
-};
 
 // Tooltip component
 function Tooltip({ text, children }: { text: string; children: React.ReactNode }) {
@@ -67,6 +48,8 @@ function InfoIcon({ className }: { className?: string }) {
 }
 
 export function StatsDetails({ stats }: StatsDetailsProps) {
+  const { t } = useI18n();
+
   const adpColor = stats.adp !== undefined ? getAdpColor(stats.adp) : undefined;
   const drawPlayRateColor = stats.drawPlayRate !== undefined ? getDrawPlayRateColor(stats.drawPlayRate) : undefined;
   const drawPlayRatePercent = stats.drawPlayRate !== undefined ? Math.round(stats.drawPlayRate * 100) : undefined;
@@ -77,15 +60,15 @@ export function StatsDetails({ stats }: StatsDetailsProps) {
         <svg className="w-4 h-4 text-primary/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
         </svg>
-        <span className="text-xs font-semibold text-primary/80 uppercase tracking-wide">Stats from Lumin</span>
+        <span className="text-xs font-semibold text-primary/80 uppercase tracking-wide">{t.statsFromLumin}</span>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {stats.pwr !== undefined && (
           <div className="text-center">
             <div className="flex items-center justify-center gap-1 mb-1">
-              <span className="text-xs text-muted-foreground">{STATS_CONFIG.pwr.label}</span>
-              <Tooltip text={STATS_CONFIG.pwr.tooltip}>
+              <span className="text-xs text-muted-foreground">{t.pwrLabel}</span>
+              <Tooltip text={t.pwrTooltip}>
                 <InfoIcon className="w-3.5 h-3.5 text-muted-foreground/50 hover:text-primary cursor-help transition-colors" />
               </Tooltip>
             </div>
@@ -96,8 +79,8 @@ export function StatsDetails({ stats }: StatsDetailsProps) {
         {stats.adp !== undefined && (
           <div className="text-center">
             <div className="flex items-center justify-center gap-1 mb-1">
-              <span className="text-xs text-muted-foreground">{STATS_CONFIG.adp.label}</span>
-              <Tooltip text={STATS_CONFIG.adp.tooltip}>
+              <span className="text-xs text-muted-foreground">{t.adpLabel}</span>
+              <Tooltip text={t.adpTooltip}>
                 <InfoIcon className="w-3.5 h-3.5 text-muted-foreground/50 hover:text-primary cursor-help transition-colors" />
               </Tooltip>
             </div>
@@ -108,8 +91,8 @@ export function StatsDetails({ stats }: StatsDetailsProps) {
         {stats.apr !== undefined && (
           <div className="text-center">
             <div className="flex items-center justify-center gap-1 mb-1">
-              <span className="text-xs text-muted-foreground">{STATS_CONFIG.apr.label}</span>
-              <Tooltip text={STATS_CONFIG.apr.tooltip}>
+              <span className="text-xs text-muted-foreground">{t.aprLabel}</span>
+              <Tooltip text={t.aprTooltip}>
                 <InfoIcon className="w-3.5 h-3.5 text-muted-foreground/50 hover:text-primary cursor-help transition-colors" />
               </Tooltip>
             </div>
@@ -120,8 +103,8 @@ export function StatsDetails({ stats }: StatsDetailsProps) {
         {stats.drawPlayRate !== undefined && (
           <div className="text-center">
             <div className="flex items-center justify-center gap-1 mb-1">
-              <span className="text-xs text-muted-foreground">{STATS_CONFIG.drawPlayRate.label}</span>
-              <Tooltip text={STATS_CONFIG.drawPlayRate.tooltip}>
+              <span className="text-xs text-muted-foreground">{t.playRateLabel}</span>
+              <Tooltip text={t.playRateTooltip}>
                 <InfoIcon className="w-3.5 h-3.5 text-muted-foreground/50 hover:text-primary cursor-help transition-colors" />
               </Tooltip>
             </div>

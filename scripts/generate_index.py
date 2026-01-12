@@ -507,6 +507,7 @@ def step9_generate_card_all_json(stats_data):
                 'no': row.get('no', ''),
                 'cnName': row.get('cnName', ''),
                 'enName': row.get('enName', ''),
+                'desc': row.get('effect', ''),
                 'baituTier': row.get('baituTier', ''),
                 'enTier': row.get('enTier', ''),
                 'chenTier': row.get('chenTier', ''),

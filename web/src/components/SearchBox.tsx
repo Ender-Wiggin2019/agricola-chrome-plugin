@@ -1,14 +1,15 @@
 import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { useState, useCallback } from 'react';
+import { useI18n } from '@/lib/i18n';
 
 interface SearchBoxProps {
   onSearch: (query: string) => void;
-  placeholder?: string;
 }
 
-export function SearchBox({ onSearch, placeholder = 'Search by No, CN Name, or EN Name...' }: SearchBoxProps) {
+export function SearchBox({ onSearch }: SearchBoxProps) {
   const [query, setQuery] = useState('');
+  const { t } = useI18n();
 
   const handleSearch = useCallback((value: string) => {
     setQuery(value);
@@ -23,12 +24,12 @@ export function SearchBox({ onSearch, placeholder = 'Search by No, CN Name, or E
           type="text"
           value={query}
           onChange={(e) => handleSearch(e.target.value)}
-          placeholder={placeholder}
+          placeholder={t.searchPlaceholder}
           className="pl-12 h-14 text-base rounded-xl border-2 border-border/60 bg-card/80 backdrop-blur-sm search-input focus:border-primary/40 placeholder:text-muted-foreground/60"
         />
       </div>
       <p className="text-center text-xs text-muted-foreground/70 mt-3">
-        Try searching: <span className="font-medium text-primary/70">E011</span>, <span className="font-medium text-primary/70">Field</span>, or <span className="font-medium text-primary/70">Clay</span>
+        {t.searchHint} <span className="font-medium text-primary/70">E011</span>, <span className="font-medium text-primary/70">Field</span>, <span className="font-medium text-primary/70">Clay</span>
       </p>
     </div>
   );

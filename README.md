@@ -1,37 +1,122 @@
-# Agricola Card Tier Tooltip Chrome Extension
+# Agricola Card Search
 
-这个 Chrome 扩展会在 Agricola 游戏页面上自动为卡片添加等级（tier）信息和详情工具提示。
+Agricola 卡牌搜索与评级工具，提供 Chrome 扩展和独立 Web 应用两种使用方式。
 
-## 功能
+## 📁 项目结构
 
-- 自动识别页面上的卡片标题（`.card-title`）
-- 在卡片标题后显示等级徽章（如 T0, T1 等）
-- 点击等级徽章或信息图标可以查看卡片的详细描述
-- 支持动态加载的卡片（使用 MutationObserver）
+```
+agricola-chrome-plugin/
+├── plugin/                 # Chrome 扩展
+│   ├── manifest.json      # 扩展配置
+│   ├── content.js         # 主逻辑脚本
+│   ├── styles.css         # 样式文件
+│   ├── cards.json         # 卡牌数据
+│   └── authors.json       # 评级作者信息
+│
+├── web/                    # Web 独立应用
+│   ├── src/               # 源代码
+│   │   ├── components/    # React 组件
+│   │   ├── lib/          # 工具函数
+│   │   └── types/        # TypeScript 类型
+│   ├── public/           # 静态资源
+│   ├── vercel.json       # Vercel 部署配置
+│   └── package.json      # 依赖配置
+│
+└── scripts/               # 数据处理脚本
+    ├── generate_index.py  # 索引生成
+    └── *.json, *.csv     # 源数据文件
+```
 
-## 安装步骤
+## 🎯 功能特性
+
+- 🔍 **卡牌搜索**: 按编号、中文名、英文名搜索
+- 📊 **多维评级**: Baitu (白兔)、EN、Chen 三个评级系统
+- 📈 **统计数据**: PWR、ADP、APR、打出率等数据
+- 🌐 **中英文支持**: 界面支持中英文切换
+- 🎨 **农场主题**: 温暖的小麦色调设计
+
+---
+
+## 🔌 Chrome 扩展 (`/plugin`)
+
+在 Agricola 游戏页面上自动为卡片添加评级信息和详情工具提示。
+
+### 功能
+
+- 自动识别页面上的卡片（`.player-card-inner`）
+- 显示多个评级徽章（Baitu、EN、Chen）
+- 悬停显示详细评论和统计数据
+- 支持动态加载的卡片
+
+### 安装步骤
 
 1. 打开 Chrome 浏览器
 2. 访问 `chrome://extensions/`
-3. 开启右上角的"开发者模式"
-4. 点击"加载已解压的扩展程序"
-5. 选择包含以下文件的文件夹：
-   - `manifest.json`
-   - `content.js`
-   - `styles.css`
-   - `cards.json`
+3. 开启右上角的「开发者模式」
+4. 点击「加载已解压的扩展程序」
+5. 选择 `plugin` 文件夹
 
-## 使用方法
+### 使用方法
 
-安装后，扩展会自动在包含 `.card-title` 元素的页面上运行。当找到匹配的卡片时，会在卡片标题后显示：
-- 梯度（如 T0, T1）
-- 信息图标
+安装后，扩展会自动在 Agricola 游戏页面上运行，为卡片添加评级徽章和统计信息。
 
-点击等级徽章或信息图标即可查看卡片的详细描述。
+---
 
-## 文件说明
+## 🌐 Web 应用 (`/web`)
 
-- `manifest.json`: Chrome 扩展配置文件
-- `content.js`: 主要逻辑，负责查找卡片并添加功能
-- `styles.css`: 样式文件，定义徽章和工具提示的外观
-- `cards.json`: 卡片数据文件
+独立的卡牌搜索 Web 应用，基于 Vite + React + TypeScript + shadcn/ui。
+
+### 技术栈
+
+- **Vite** - 构建工具
+- **React 18** - UI 框架
+- **TypeScript** - 类型安全
+- **Tailwind CSS** - 样式框架
+- **shadcn/ui** - 组件库
+
+### 本地运行
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+访问 http://localhost:5173
+
+### 部署到 Vercel
+
+```bash
+cd web
+vercel
+```
+
+或通过 GitHub 导入到 Vercel，设置：
+- **Root Directory**: `web`
+- **Framework**: Vite
+
+### 在线访问
+
+部署后可通过 Vercel 提供的 URL 访问。
+
+---
+
+## 📊 数据来源
+
+- **卡牌数据**: `plugin/cards.json`
+- **评级提供者**:
+  - Yuxiao_Huang (白兔)
+  - Mark Hartnady (EN)
+  - Chen233 (Chen)
+- **统计数据**: Lumin
+
+## 👥 致谢
+
+- **插件作者**: Ender
+- **统计数据**: Lumin
+- **评级提供**: Yuxiao_Huang, Chen233, Mark Hartnady
+- **特别感谢**: Henry
+
+## 📝 许可
+
+本项目仅供 Agricola 玩家社区使用。
