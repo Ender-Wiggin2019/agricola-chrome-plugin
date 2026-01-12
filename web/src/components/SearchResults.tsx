@@ -4,12 +4,23 @@ import { useTranslation } from 'react-i18next';
 
 interface SearchResultsProps {
   results: ICard[];
+  totalCount: number;
   authors?: IAuthors;
   isSearching: boolean;
   hideCount?: boolean;
+  hasMore?: boolean;
+  onLoadMore?: () => void;
 }
 
-export function SearchResults({ results, authors, isSearching, hideCount = false }: SearchResultsProps) {
+export function SearchResults({
+  results,
+  totalCount,
+  authors,
+  isSearching,
+  hideCount = false,
+  hasMore = false,
+  onLoadMore
+}: SearchResultsProps) {
   const { t } = useTranslation();
 
   if (!isSearching) {
@@ -35,13 +46,33 @@ export function SearchResults({ results, authors, isSearching, hideCount = false
       {!hideCount && (
         <div className="flex items-center justify-between mb-2">
           <p className="text-sm text-muted-foreground">
-            {t('results.found', { count: results.length })}
+            {hasMore ? (
+              t('results.showing', { current: results.length, total: totalCount })
+            ) : (
+              t('results.found', { count: totalCount })
+            )}
           </p>
         </div>
       )}
+
       {results.map((card, index) => (
         <CardResult key={card.no} card={card} authors={authors} index={index} />
       ))}
+
+      {/* Load More Button */}
+      {hasMore && onLoadMore && (
+        <div className="flex justify-center pt-4">
+          <button
+            onClick={onLoadMore}
+            className="px-6 py-2.5 text-sm font-medium text-primary bg-secondary/50 hover:bg-secondary rounded-lg transition-colors flex items-center gap-2"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+            {t('results.loadMore')}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

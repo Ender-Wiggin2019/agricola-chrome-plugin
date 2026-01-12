@@ -13,8 +13,10 @@
     "refresh": "换一批",
     "found_one": "{{count}} 张卡牌",
     "found_other": "{{count}} 张卡牌",
+    "showing": "显示 {{current}} / {{total}}",
     "noCards": "未找到卡牌",
-    "tryDifferent": "试试其他搜索词"
+    "tryDifferent": "试试其他搜索词",
+    "loadMore": "加载更多"
   },
   "card": {
     "description": "描述"

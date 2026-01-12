@@ -6,6 +6,8 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { ICard, IAuthors } from '@/types/card';
 import { searchCards, getRandomRecommendedCards } from '@/lib/cardUtils';
 
+const PAGE_SIZE = 5;
+
 // Wheat/grain icon component
 function WheatIcon({ className }: { className?: string }) {
   return (
@@ -34,6 +36,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [recommendedCards, setRecommendedCards] = useState<ICard[]>([]);
+  const [displayCount, setDisplayCount] = useState(PAGE_SIZE);
 
   // Load cards and authors data
   useEffect(() => {
@@ -68,18 +71,30 @@ function App() {
     loadData();
   }, []);
 
-  // Handle search
+  // Handle search - reset display count when query changes
   const handleSearch = useCallback((query: string) => {
     setSearchQuery(query);
+    setDisplayCount(PAGE_SIZE);
   }, []);
 
-  // Memoized search results
-  const searchResults = useMemo(() => {
+  // Memoized search results (all matching results)
+  const allSearchResults = useMemo(() => {
     if (!searchQuery.trim()) return [];
-    return searchCards(cardsData, searchQuery, 3);
+    return searchCards(cardsData, searchQuery);
   }, [cardsData, searchQuery]);
 
+  // Displayed results (limited by displayCount)
+  const displayedResults = useMemo(() => {
+    return allSearchResults.slice(0, displayCount);
+  }, [allSearchResults, displayCount]);
+
   const isSearching = searchQuery.trim().length > 0;
+  const hasMore = displayCount < allSearchResults.length;
+
+  // Load more results
+  const handleLoadMore = useCallback(() => {
+    setDisplayCount(prev => prev + PAGE_SIZE);
+  }, []);
 
   // Refresh recommended cards
   const refreshRecommended = useCallback(() => {
@@ -137,9 +152,12 @@ function App() {
             <div className="animate-fade-in-delay-2">
               {isSearching ? (
                 <SearchResults
-                  results={searchResults}
+                  results={displayedResults}
+                  totalCount={allSearchResults.length}
                   authors={authorsData}
                   isSearching={isSearching}
+                  hasMore={hasMore}
+                  onLoadMore={handleLoadMore}
                 />
               ) : (
                 <div className="w-full max-w-2xl mx-auto">
@@ -160,9 +178,11 @@ function App() {
                   </div>
                   <SearchResults
                     results={recommendedCards}
+                    totalCount={recommendedCards.length}
                     authors={authorsData}
                     isSearching={true}
                     hideCount={true}
+                    hasMore={false}
                   />
                 </div>
               )}

@@ -76,16 +76,14 @@ export function getDrawPlayRateColor(rate: number): string {
   }
 }
 
-// Search cards by query
-export function searchCards(cardsData: ICard[], query: string, limit: number = 3): ICard[] {
-  if (!cardsData) return [];
+// Search cards by query (returns all matching results)
+export function searchCards(cardsData: ICard[], query: string): ICard[] {
+  if (!cardsData || !query.trim()) return [];
 
   const results: ICard[] = [];
   const queryLower = query.toLowerCase().trim();
 
   for (const card of cardsData) {
-    if (results.length >= limit) break;
-
     // Search by no
     if (card.no && card.no.toLowerCase().includes(queryLower)) {
       results.push(card);
