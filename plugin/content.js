@@ -2,6 +2,13 @@
 let cardsData = null;
 let authorsData = null;
 
+// Global tooltip management to prevent conflicts
+let currentTooltip = null;
+let tooltipShowTimeout = null;
+let tooltipHideTimeout = null;
+const TOOLTIP_SHOW_DELAY = 300; // Delay before showing tooltip (ms)
+const TOOLTIP_HIDE_DELAY = 150; // Delay before hiding tooltip (ms)
+
 // Load cards.json and authors.json
 async function loadCardsData() {
   try {
@@ -220,25 +227,29 @@ function createTierBadge(tier, desc, tierType, tierLabel) {
     const tooltip = createTooltip(desc, displayTier, tierType);
     tooltip.className = 'ag-card-tooltip ag-tooltip-hover';
     tooltip.style.display = 'none';
+    tooltip.dataset.tierType = tierType;
 
-    let tooltipTimeout = null;
-
-    // Show tooltip on tier badge hover
-    tierWrapper.addEventListener('mouseenter', (e) => {
-      e.stopPropagation();
-
-      if (tooltipTimeout) {
-        clearTimeout(tooltipTimeout);
-        tooltipTimeout = null;
+    // Function to hide current tooltip
+    const hideCurrentTooltip = () => {
+      if (currentTooltip && currentTooltip.parentElement) {
+        currentTooltip.style.display = 'none';
+        currentTooltip.remove();
       }
+      currentTooltip = null;
+      if (tooltipShowTimeout) {
+        clearTimeout(tooltipShowTimeout);
+        tooltipShowTimeout = null;
+      }
+      if (tooltipHideTimeout) {
+        clearTimeout(tooltipHideTimeout);
+        tooltipHideTimeout = null;
+      }
+    };
 
-      // Remove other tooltips
-      document.querySelectorAll('.ag-card-tooltip').forEach(t => {
-        if (t !== tooltip) {
-          t.style.display = 'none';
-          t.remove();
-        }
-      });
+    // Function to show tooltip
+    const showTooltip = () => {
+      hideCurrentTooltip();
+      currentTooltip = tooltip;
 
       if (!document.body.contains(tooltip)) {
         document.body.appendChild(tooltip);
@@ -253,7 +264,7 @@ function createTierBadge(tier, desc, tierType, tierLabel) {
       tooltip.style.transform = 'translate(-50%, 0)';
 
       // Adjust if tooltip goes off screen
-      setTimeout(() => {
+      requestAnimationFrame(() => {
         const tooltipRect = tooltip.getBoundingClientRect();
         // Adjust horizontal position if goes off screen
         if (tooltipRect.left < 10) {
@@ -279,32 +290,65 @@ function createTierBadge(tier, desc, tierType, tierLabel) {
             tooltip.style.transform = 'translate(-100%, -100%)';
           }
         }
-      }, 0);
+      });
+    };
+
+    // Show tooltip on tier badge hover (with delay)
+    tierWrapper.addEventListener('mouseenter', (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+
+      // Clear any pending hide timeout
+      if (tooltipHideTimeout) {
+        clearTimeout(tooltipHideTimeout);
+        tooltipHideTimeout = null;
+      }
+
+      // Clear any pending show timeout
+      if (tooltipShowTimeout) {
+        clearTimeout(tooltipShowTimeout);
+      }
+
+      // Show tooltip after delay
+      tooltipShowTimeout = setTimeout(() => {
+        if (currentTooltip !== tooltip) {
+          showTooltip();
+        }
+      }, TOOLTIP_SHOW_DELAY);
     });
 
     // Hide tooltip when leaving tier badge
-    tierWrapper.addEventListener('mouseleave', () => {
-      tooltipTimeout = setTimeout(() => {
-        if (tooltip && tooltip.parentElement) {
-          tooltip.style.display = 'none';
-          tooltip.remove();
+    tierWrapper.addEventListener('mouseleave', (e) => {
+      e.stopPropagation();
+
+      // Clear show timeout
+      if (tooltipShowTimeout) {
+        clearTimeout(tooltipShowTimeout);
+        tooltipShowTimeout = null;
+      }
+
+      // Hide after delay
+      tooltipHideTimeout = setTimeout(() => {
+        if (currentTooltip === tooltip) {
+          hideCurrentTooltip();
         }
-      }, 200);
+      }, TOOLTIP_HIDE_DELAY);
     });
 
     // Keep tooltip visible when hovering over it
-    tooltip.addEventListener('mouseenter', () => {
-      if (tooltipTimeout) {
-        clearTimeout(tooltipTimeout);
-        tooltipTimeout = null;
+    tooltip.addEventListener('mouseenter', (e) => {
+      e.stopPropagation();
+      if (tooltipHideTimeout) {
+        clearTimeout(tooltipHideTimeout);
+        tooltipHideTimeout = null;
       }
     });
 
     // Hide tooltip when leaving it
-    tooltip.addEventListener('mouseleave', () => {
-      if (tooltip && tooltip.parentElement) {
-        tooltip.style.display = 'none';
-        tooltip.remove();
+    tooltip.addEventListener('mouseleave', (e) => {
+      e.stopPropagation();
+      if (currentTooltip === tooltip) {
+        hideCurrentTooltip();
       }
     });
   }
@@ -414,25 +458,29 @@ function createStatsBadge(card) {
   // Create tooltip
   const tooltip = createStatsTooltip(statsData);
   tooltip.style.display = 'none';
+  tooltip.dataset.tierType = 'stats';
 
-  let tooltipTimeout = null;
-
-  // Show tooltip on stats badge hover
-  statsWrapper.addEventListener('mouseenter', (e) => {
-    e.stopPropagation();
-
-    if (tooltipTimeout) {
-      clearTimeout(tooltipTimeout);
-      tooltipTimeout = null;
+  // Function to hide current tooltip
+  const hideCurrentTooltip = () => {
+    if (currentTooltip && currentTooltip.parentElement) {
+      currentTooltip.style.display = 'none';
+      currentTooltip.remove();
     }
+    currentTooltip = null;
+    if (tooltipShowTimeout) {
+      clearTimeout(tooltipShowTimeout);
+      tooltipShowTimeout = null;
+    }
+    if (tooltipHideTimeout) {
+      clearTimeout(tooltipHideTimeout);
+      tooltipHideTimeout = null;
+    }
+  };
 
-    // Remove other tooltips
-    document.querySelectorAll('.ag-card-tooltip').forEach(t => {
-      if (t !== tooltip) {
-        t.style.display = 'none';
-        t.remove();
-      }
-    });
+  // Function to show tooltip
+  const showTooltip = () => {
+    hideCurrentTooltip();
+    currentTooltip = tooltip;
 
     if (!document.body.contains(tooltip)) {
       document.body.appendChild(tooltip);
@@ -447,7 +495,7 @@ function createStatsBadge(card) {
     tooltip.style.transform = 'translate(-50%, 0)';
 
     // Adjust if tooltip goes off screen
-    setTimeout(() => {
+    requestAnimationFrame(() => {
       const tooltipRect = tooltip.getBoundingClientRect();
       // Adjust horizontal position if goes off screen
       if (tooltipRect.left < 10) {
@@ -473,32 +521,65 @@ function createStatsBadge(card) {
           tooltip.style.transform = 'translate(-100%, -100%)';
         }
       }
-    }, 0);
+    });
+  };
+
+  // Show tooltip on stats badge hover (with delay)
+  statsWrapper.addEventListener('mouseenter', (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+
+    // Clear any pending hide timeout
+    if (tooltipHideTimeout) {
+      clearTimeout(tooltipHideTimeout);
+      tooltipHideTimeout = null;
+    }
+
+    // Clear any pending show timeout
+    if (tooltipShowTimeout) {
+      clearTimeout(tooltipShowTimeout);
+    }
+
+    // Show tooltip after delay
+    tooltipShowTimeout = setTimeout(() => {
+      if (currentTooltip !== tooltip) {
+        showTooltip();
+      }
+    }, TOOLTIP_SHOW_DELAY);
   });
 
   // Hide tooltip when leaving stats badge
-  statsWrapper.addEventListener('mouseleave', () => {
-    tooltipTimeout = setTimeout(() => {
-      if (tooltip && tooltip.parentElement) {
-        tooltip.style.display = 'none';
-        tooltip.remove();
+  statsWrapper.addEventListener('mouseleave', (e) => {
+    e.stopPropagation();
+
+    // Clear show timeout
+    if (tooltipShowTimeout) {
+      clearTimeout(tooltipShowTimeout);
+      tooltipShowTimeout = null;
+    }
+
+    // Hide after delay
+    tooltipHideTimeout = setTimeout(() => {
+      if (currentTooltip === tooltip) {
+        hideCurrentTooltip();
       }
-    }, 200);
+    }, TOOLTIP_HIDE_DELAY);
   });
 
   // Keep tooltip visible when hovering over it
-  tooltip.addEventListener('mouseenter', () => {
-    if (tooltipTimeout) {
-      clearTimeout(tooltipTimeout);
-      tooltipTimeout = null;
+  tooltip.addEventListener('mouseenter', (e) => {
+    e.stopPropagation();
+    if (tooltipHideTimeout) {
+      clearTimeout(tooltipHideTimeout);
+      tooltipHideTimeout = null;
     }
   });
 
   // Hide tooltip when leaving it
-  tooltip.addEventListener('mouseleave', () => {
-    if (tooltip && tooltip.parentElement) {
-      tooltip.style.display = 'none';
-      tooltip.remove();
+  tooltip.addEventListener('mouseleave', (e) => {
+    e.stopPropagation();
+    if (currentTooltip === tooltip) {
+      hideCurrentTooltip();
     }
   });
 
@@ -708,7 +789,7 @@ function createSearchModal() {
           Plugin creator: Ender<br>
           Statistics: Lumin<br>
           Tier and comments providers: Yuxiao_Huang, Chen233, Mark Hartnady<br>
-          Special thanks: Henry
+          Special thanks: Henry, smile3000
         </div>
       </div>
     </div>

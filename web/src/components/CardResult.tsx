@@ -1,7 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { ICard, IAuthors } from '@/types/card';
 import { TierBadge } from '@/components/TierBadge';
-import { StatsBadge } from '@/components/StatsBadge';
 import { StatsDetails } from '@/components/StatsDetails';
 import { getStatsData } from '@/lib/cardUtils';
 import { useTranslation } from 'react-i18next';
