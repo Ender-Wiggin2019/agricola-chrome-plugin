@@ -4,6 +4,7 @@ import { TierBadge } from '@/components/TierBadge';
 import { StatsBadge } from '@/components/StatsBadge';
 import { StatsDetails } from '@/components/StatsDetails';
 import { getStatsData } from '@/lib/cardUtils';
+import { useTranslation } from 'react-i18next';
 
 interface CardResultProps {
   card: ICard;
@@ -13,10 +14,11 @@ interface CardResultProps {
 
 export function CardResult({ card, authors, index = 0 }: CardResultProps) {
   const statsData = getStatsData(card);
+  const { t } = useTranslation();
 
   return (
-    <Card 
-      className="w-full animate-fade-in" 
+    <Card
+      className="w-full animate-fade-in"
       style={{ animationDelay: `${index * 100}ms` }}
     >
       <CardContent className="pt-6">
@@ -36,6 +38,18 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
             </span>
           )}
         </div>
+
+        {/* Description (card effect) */}
+        {card.desc && card.desc.trim() !== '' && (
+          <div className="py-3 border-b border-border/30">
+            <div className="text-xs font-medium text-muted-foreground/70 uppercase tracking-wide mb-1.5">
+              {t('card.description')}
+            </div>
+            <p className="text-sm text-foreground/80 leading-relaxed">
+              {card.desc}
+            </p>
+          </div>
+        )}
 
         {/* Tier badges row */}
         <div className="flex flex-wrap items-center gap-2 py-4 border-b border-border/30">

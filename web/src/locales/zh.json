@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "农场主卡牌梯度",
+    "subtitle": "探索 Agricola 卡牌的评级和统计数据"
+  },
+  "search": {
+    "placeholder": "输入编号、中文名或英文名搜索...",
+    "hint": "尝试搜索：",
+    "cardsAvailable": "张卡牌"
+  },
+  "results": {
+    "recommended": "推荐卡牌",
+    "refresh": "换一批",
+    "found_one": "{{count}} 张卡牌",
+    "found_other": "{{count}} 张卡牌",
+    "noCards": "未找到卡牌",
+    "tryDifferent": "试试其他搜索词"
+  },
+  "card": {
+    "description": "描述"
+  },
+  "tier": {
+    "baitu": "白兔",
+    "en": "Mark",
+    "chen": "闰土"
+  },
+  "stats": {
+    "title": "Lumin 统计数据",
+    "pwr": "PWR",
+    "pwrTooltip": "Play Win Rate: 打出率 × 胜率 / 7",
+    "adp": "ADP",
+    "adpTooltip": "Average Draft Position: 平均轮抽抓位",
+    "apr": "APR",
+    "aprTooltip": "Average Play Round: 平均打出回合",
+    "playRate": "打出率",
+    "playRateTooltip": "Draw Play Rate: 抽到后的打出率"
+  },
+  "footer": {
+    "pluginCreator": "插件作者",
+    "statistics": "数据统计",
+    "tierProviders": "评级提供",
+    "specialThanks": "特别感谢"
+  },
+  "loading": "正在加载卡牌数据..."
+}

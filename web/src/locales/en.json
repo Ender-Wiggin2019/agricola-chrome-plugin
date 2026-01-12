@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Agricola Card Search",
+    "subtitle": "Search and explore Agricola cards with ratings and statistics"
+  },
+  "search": {
+    "placeholder": "Search by No, CN Name, or EN Name...",
+    "hint": "Try searching:",
+    "cardsAvailable": "cards available"
+  },
+  "results": {
+    "recommended": "Recommended Cards",
+    "refresh": "Refresh",
+    "found_one": "{{count}} card",
+    "found_other": "{{count}} cards",
+    "noCards": "No cards found",
+    "tryDifferent": "Try a different search term"
+  },
+  "card": {
+    "description": "Description"
+  },
+  "tier": {
+    "baitu": "白兔",
+    "en": "EN",
+    "chen": "Chen"
+  },
+  "stats": {
+    "title": "Stats from Lumin",
+    "pwr": "PWR",
+    "pwrTooltip": "Play Win Rate: Play Rate × Win Rate / 7",
+    "adp": "ADP",
+    "adpTooltip": "Average Draft Position",
+    "apr": "APR",
+    "aprTooltip": "Average Play Round",
+    "playRate": "Play Rate",
+    "playRateTooltip": "Draw Play Rate: Rate of playing after drawing"
+  },
+  "footer": {
+    "pluginCreator": "Plugin creator",
+    "statistics": "Statistics",
+    "tierProviders": "Tier providers",
+    "specialThanks": "Special thanks to"
+  },
+  "loading": "Loading cards data..."
+}

@@ -2,6 +2,7 @@ export interface ICard {
   no: string;
   cnName: string;
   enName: string;
+  desc?: string;
   baituTier: string;
   enTier: string;
   chenTier: string;
