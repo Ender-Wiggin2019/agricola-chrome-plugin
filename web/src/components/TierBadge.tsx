@@ -1,3 +1,10 @@
+/*
+ * @Author: Ender Wiggin
+ * @Date: 2026-01-12 22:33:45
+ * @LastEditors: Ender Wiggin
+ * @LastEditTime: 2026-01-13 00:17:00
+ * @Description:
+ */
 import { Badge } from '@/components/ui/badge';
 import { TTierType } from '@/types/card';
 import { getTierColor } from '@/lib/cardUtils';
@@ -32,7 +39,7 @@ export function TierBadge({ tier, tierType, hasDesc = false }: TierBadgeProps) {
     >
       <span className="opacity-70 mr-1 text-[10px] uppercase tracking-wide">{label}</span>
       {tier}
-      {hasDesc && <span className="ml-1 text-[10px] opacity-80">+</span>}
+      {/* {hasDesc && <span className="ml-1 text-[10px] opacity-80">+</span>} */}
     </Badge>
   );
 }

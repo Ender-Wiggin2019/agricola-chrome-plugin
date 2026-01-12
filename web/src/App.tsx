@@ -1,10 +1,17 @@
 import { useState, useCallback, useMemo, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Github } from 'lucide-react';
 import { SearchBox } from '@/components/SearchBox';
 import { SearchResults } from '@/components/SearchResults';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { ICard, IAuthors } from '@/types/card';
 import { searchCards, getRandomRecommendedCards } from '@/lib/cardUtils';
+
+interface SocialLink {
+  name: string;
+  url: string;
+  icon: string;
+}
 
 const PAGE_SIZE = 5;
 
@@ -29,10 +36,16 @@ function WheatIcon({ className }: { className?: string }) {
   );
 }
 
+// Icon mapping for social links
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  github: Github,
+};
+
 function App() {
   const { t } = useTranslation();
   const [cardsData, setCardsData] = useState<ICard[]>([]);
   const [authorsData, setAuthorsData] = useState<IAuthors | undefined>(undefined);
+  const [socialLinks, setSocialLinks] = useState<SocialLink[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [recommendedCards, setRecommendedCards] = useState<ICard[]>([]);
@@ -60,6 +73,15 @@ function App() {
           setAuthorsData(authors);
         } catch (error) {
           console.warn('Authors data not found, continuing without it:', error);
+        }
+
+        // Load socialLinks.json
+        try {
+          const socialLinksResponse = await fetch('/socialLinks.json');
+          const socialLinks = await socialLinksResponse.json();
+          setSocialLinks(socialLinks);
+        } catch (error) {
+          console.warn('Social links data not found, continuing without it:', error);
         }
       } catch (error) {
         console.error('Error loading cards data:', error);
@@ -135,8 +157,8 @@ function App() {
         ) : (
           <>
             {/* Search Box */}
-            <div className="mb-10 animate-fade-in">
-              <SearchBox onSearch={handleSearch} />
+            <div className="mb-2 animate-fade-in">
+              <SearchBox onSearch={handleSearch} cardsData={cardsData} />
             </div>
 
             {/* Card count indicator */}
@@ -205,8 +227,31 @@ function App() {
             <p><span className="font-medium">{t('footer.pluginCreator')}:</span> Ender</p>
             <p><span className="font-medium">{t('footer.statistics')}:</span> Lumin</p>
             <p><span className="font-medium">{t('footer.tierProviders')}:</span> Yuxiao_Huang, Chen233, Mark Hartnady</p>
-            <p className="pt-2 text-xs opacity-75">{t('footer.specialThanks')} Henry</p>
+            <p className="pt-2 text-xs opacity-75">{t('footer.specialThanks')} Henry, smile3000</p>
           </div>
+
+          {/* Social Links */}
+          {socialLinks.length > 0 && (
+            <div className="flex justify-center items-center gap-4 mt-6">
+              {socialLinks.map((link) => {
+                const IconComponent = iconMap[link.icon.toLowerCase()];
+                if (!IconComponent) return null;
+
+                return (
+                  <a
+                    key={link.name}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                    aria-label={link.name}
+                  >
+                    <IconComponent className="w-5 h-5" />
+                  </a>
+                );
+              })}
+            </div>
+          )}
         </div>
       </footer>
     </div>

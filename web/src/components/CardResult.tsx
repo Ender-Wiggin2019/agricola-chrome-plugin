@@ -62,7 +62,7 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
           {card.chenTier && card.chenTier.trim() !== '' && (
             <TierBadge tier={card.chenTier} tierType="chen" hasDesc={!!card.chenDesc} />
           )}
-          {statsData && <StatsBadge stats={statsData} />}
+          {/* {statsData && <StatsBadge stats={statsData} />} */}
         </div>
 
         {/* Descriptions */}
