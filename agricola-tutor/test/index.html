@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agricola Tutor - Test Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #f5f5dc 0%, #e6e6c8 100%);
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2d5a27;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      text-align: center;
+      color: #666;
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+
+    .description code {
+      background: #f0f0f0;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* BGA-like card styles */
+    .player-card-inner {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .player-card-inner:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .card-numbering {
+      font-family: monospace;
+      font-size: 12px;
+      font-weight: bold;
+      color: #666;
+      background: #f5f5f5;
+      padding: 2px 6px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 8px;
+    }
+
+    .card-subtitle {
+      font-size: 12px;
+      color: #888;
+      font-style: italic;
+      margin-bottom: 12px;
+    }
+
+    .card-effect {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.5;
+      padding: 10px;
+      background: #fafafa;
+      border-radius: 4px;
+      border-left: 3px solid #d4a942;
+    }
+
+    .section-title {
+      color: #2d5a27;
+      font-size: 18px;
+      margin: 30px 0 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #d4a942;
+    }
+
+    .note {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 20px auto;
+      max-width: 700px;
+    }
+
+    .note strong {
+      color: #856404;
+    }
+
+    .note ul {
+      margin: 10px 0 0 0;
+      padding-left: 20px;
+    }
+
+    .note li {
+      margin: 5px 0;
+      color: #856404;
+    }
+
+    .tier-preview {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 11px;
+      color: white;
+      margin-left: 5px;
+    }
+
+    .tier-t1 { background: #4caf50; }
+    .tier-t2 { background: #d4af37; }
+    .tier-t3 { background: #ff9800; }
+    .tier-a { background: #4caf50; }
+    .tier-b { background: #8bc34a; }
+    .tier-c { background: #cddc39; color: #333; }
+    .tier-e { background: #ff9800; }
+  </style>
+</head>
+<body>
+  <h1>🌾 Agricola Tutor Test Page</h1>
+  <p class="description">
+    This page simulates BGA card elements with <strong>real card data</strong> from your cards.json.<br>
+    Press <code>Ctrl/Cmd + Shift + F</code> to open search, or click the floating search button (bottom-right).
+  </p>
+
+  <div class="note">
+    <strong>📋 Testing Instructions:</strong>
+    <ul>
+      <li>Load the extension: <code>chrome://extensions</code> → Load unpacked → select <code>build/chrome-mv3-prod/</code></li>
+      <li>Refresh this page after loading the extension</li>
+      <li>You should see <strong>tier badges</strong> appear above each card</li>
+      <li>Hover over badges with <strong>+</strong> to see expert commentary</li>
+      <li>Click the green search button or press <code>Ctrl+Shift+F</code> to search</li>
+    </ul>
+  </div>
+
+  <h2 class="section-title">次要发展卡 (Minor Improvements) - Real Data</h2>
+  <div class="cards-container">
+    <!-- A001: 遮蔽所 - baitu:T3 chen:E -->
+    <div class="player-card-inner">
+      <div class="card-numbering">A001</div>
+      <div class="card-title">遮蔽所</div>
+      <div class="card-subtitle">Shelter</div>
+      <div class="card-effect">
+        Expected: <span class="tier-preview tier-t3">T3</span> <span class="tier-preview tier-e">E</span>
+      </div>
+    </div>
+
+    <!-- A003: 拆信刀 - baitu:T2 chen:C -->
+    <div class="player-card-inner">
+      <div class="card-numbering">A003</div>
+      <div class="card-title">拆信刀</div>
+      <div class="card-subtitle">Paper Knife</div>
+      <div class="card-effect">
+        Expected: <span class="tier-preview tier-t2">T2</span> <span class="tier-preview tier-c">C</span>
+      </div>
+    </div>
+
+    <!-- A004: 护壁板 - baitu:T2 -->
+    <div class="player-card-inner">
+      <div class="card-numbering">A104</div>
+      <div class="card-title">护壁板</div>
+      <div class="card-subtitle">Baseboards</div>
+      <div class="card-effect">
+        Expected: <span class="tier-preview tier-t2">T2</span>
+      </div>
+    </div>
+
+    <!-- A011: 泥巴地 - baitu:T2 chen:C -->
+    <div class="player-card-inner">
+      <div class="card-numbering">A011</div>
+      <div class="card-title">泥巴地</div>
+      <div class="card-subtitle">Mud Patch</div>
+      <div class="card-effect">
+        Expected: <span class="tier-preview tier-t2">T2</span> <span class="tier-preview tier-c">C</span>
+      </div>
+    </div>
+
+    <!-- A014: 工匠的铁锤 - baitu:T1 chen:B -->
+    <div class="player-card-inner">
+      <div class="card-numbering">A014</div>
+      <div class="card-title">工匠的铁锤</div>
+      <div class="card-subtitle">Carpenter's Hammer</div>
+      <div class="card-effect">
+        Expected: <span class="tier-preview tier-t1">T1</span> <span class="tier-preview tier-b">B</span>
+      </div>
+    </div>
+
+    <!-- A006: 储藏室 - baitu:T3 -->
+    <div class="player-card-inner">
+      <div class="card-numbering">A006</div>
+      <div class="card-title">储藏室</div>
+      <div class="card-subtitle">Storage Barn</div>
+      <div class="card-effect">
+        Expected: <span class="tier-preview tier-t3">T3</span>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title">按中文名匹配测试</h2>
+  <div class="cards-container">
+    <!-- Test without card-numbering, only card-title -->
+    <div class="player-card-inner">
+      <div class="card-title">遮蔽所</div>
+      <div class="card-subtitle">Shelter (no numbering)</div>
+      <div class="card-effect">
+        Testing match by Chinese name only.<br>
+        Expected: <span class="tier-preview tier-t3">T3</span> <span class="tier-preview tier-e">E</span>
+      </div>
+    </div>
+
+    <!-- Test with English name -->
+    <div class="player-card-inner">
+      <div class="card-title">Paper Knife</div>
+      <div class="card-effect">
+        Testing match by English name.<br>
+        Expected: <span class="tier-preview tier-t2">T2</span> <span class="tier-preview tier-c">C</span>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title">动态加载测试 (3秒后自动添加)</h2>
+  <div id="dynamic-container" class="cards-container">
+    <div class="player-card-inner" style="background: #f0f0f0; border: 2px dashed #ccc;">
+      <div class="card-effect" style="text-align: center; color: #888;">
+        ⏳ A new card will be added here in 3 seconds...<br>
+        This tests the MutationObserver functionality.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Simulate dynamic card loading (like BGA does)
+    setTimeout(() => {
+      const container = document.getElementById('dynamic-container');
+      const placeholder = container.querySelector('.player-card-inner');
+
+      // Remove placeholder
+      placeholder.remove();
+
+      // Add new card
+      const newCard = document.createElement('div');
+      newCard.className = 'player-card-inner';
+      newCard.innerHTML = `
+        <div class="card-numbering">A014</div>
+        <div class="card-title">工匠的铁锤</div>
+        <div class="card-subtitle">Carpenter's Hammer (Dynamic)</div>
+        <div class="card-effect">
+          This card was added dynamically!<br>
+          Expected: <span class="tier-preview tier-t1">T1</span> <span class="tier-preview tier-b">B</span>
+        </div>
+      `;
+      container.appendChild(newCard);
+      console.log('✅ Dynamic card added! The extension should process it automatically.');
+    }, 3000);
+  </script>
+</body>
+</html>

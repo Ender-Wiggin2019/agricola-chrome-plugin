@@ -1,0 +1,134 @@
+{
+  "extensionName": {
+    "message": "Agricola Tutor",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Adds tier information, statistics, and search functionality to Agricola cards on Board Game Arena.",
+    "description": "Description of the extension"
+  },
+  "header_title": {
+    "message": "Agricola Card Search",
+    "description": "Search modal title"
+  },
+  "header_subtitle": {
+    "message": "Search and explore Agricola cards with ratings and statistics",
+    "description": "Search modal subtitle"
+  },
+  "search_placeholder": {
+    "message": "Search by No, CN Name, or EN Name...",
+    "description": "Search input placeholder"
+  },
+  "search_hint": {
+    "message": "Try searching:",
+    "description": "Search hint"
+  },
+  "results_noCards": {
+    "message": "No cards found",
+    "description": "No results message"
+  },
+  "results_tryDifferent": {
+    "message": "Try a different search term",
+    "description": "Suggestion when no results"
+  },
+  "results_enterTerm": {
+    "message": "Enter a search term to find cards",
+    "description": "Initial search prompt"
+  },
+  "card_description": {
+    "message": "Description",
+    "description": "Card description label"
+  },
+  "card_effect": {
+    "message": "Card Effect",
+    "description": "Card effect label"
+  },
+  "tier_baitu": {
+    "message": "白兔",
+    "description": "Baitu tier label"
+  },
+  "tier_en": {
+    "message": "EN",
+    "description": "EN tier label"
+  },
+  "tier_chen": {
+    "message": "Chen",
+    "description": "Chen tier label"
+  },
+  "stats_title": {
+    "message": "Stats from Lumin",
+    "description": "Statistics section title"
+  },
+  "stats_pwr": {
+    "message": "PWR",
+    "description": "Power rating label"
+  },
+  "stats_pwr_tooltip": {
+    "message": "Play Win Rate: Play Rate × Win Rate / 7",
+    "description": "PWR tooltip explanation"
+  },
+  "stats_adp": {
+    "message": "ADP",
+    "description": "Average Draft Position label"
+  },
+  "stats_adp_tooltip": {
+    "message": "Average Draft Position",
+    "description": "ADP tooltip explanation"
+  },
+  "stats_apr": {
+    "message": "APR",
+    "description": "Average Play Round label"
+  },
+  "stats_apr_tooltip": {
+    "message": "Average Play Round",
+    "description": "APR tooltip explanation"
+  },
+  "stats_playRate": {
+    "message": "Play Rate",
+    "description": "Draw Play Rate label"
+  },
+  "stats_playRate_tooltip": {
+    "message": "Draw Play Rate: Rate of playing after drawing",
+    "description": "Play Rate tooltip explanation"
+  },
+  "popup_features": {
+    "message": "Features",
+    "description": "Popup features section title"
+  },
+  "popup_feature_tier": {
+    "message": "Tier badges from multiple experts",
+    "description": "Feature description"
+  },
+  "popup_feature_stats": {
+    "message": "Statistics from Lumin's data",
+    "description": "Feature description"
+  },
+  "popup_feature_search": {
+    "message": "Card search (Ctrl/Cmd + Shift + F)",
+    "description": "Feature description"
+  },
+  "popup_feature_tooltip": {
+    "message": "Expert commentary on hover",
+    "description": "Feature description"
+  },
+  "popup_visit_bga": {
+    "message": "Visit Board Game Arena and play Agricola to see the tier badges!",
+    "description": "Usage hint"
+  },
+  "footer_pluginCreator": {
+    "message": "Plugin creator",
+    "description": "Credits label"
+  },
+  "footer_statistics": {
+    "message": "Statistics",
+    "description": "Credits label"
+  },
+  "footer_tierProviders": {
+    "message": "Tier providers",
+    "description": "Credits label"
+  },
+  "footer_specialThanks": {
+    "message": "Special thanks to",
+    "description": "Credits label"
+  }
+}

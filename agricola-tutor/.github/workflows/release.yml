@@ -1,0 +1,222 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (e.g., 0.2.0)'
+        required: true
+        type: string
+      release_type:
+        description: 'Release type'
+        required: true
+        type: choice
+        options:
+          - stable
+          - beta
+          - alpha
+        default: 'stable'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Determine version and release type
+        id: release_info
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION="${{ inputs.version }}"
+            RELEASE_TYPE="${{ inputs.release_type }}"
+          else
+            # Extract version from tag (v0.1.0, v0.1.0-beta.1, v0.1.0-alpha.1)
+            TAG="${GITHUB_REF#refs/tags/v}"
+            if [[ "$TAG" == *"-alpha"* ]]; then
+              RELEASE_TYPE="alpha"
+              VERSION="$TAG"
+            elif [[ "$TAG" == *"-beta"* ]]; then
+              RELEASE_TYPE="beta"
+              VERSION="$TAG"
+            else
+              RELEASE_TYPE="stable"
+              VERSION="$TAG"
+            fi
+          fi
+          
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+          echo "RELEASE_TYPE=$RELEASE_TYPE" >> $GITHUB_OUTPUT
+          echo "📦 Version: $VERSION"
+          echo "🏷️ Release Type: $RELEASE_TYPE"
+
+      - name: Update version in package.json
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          npm version ${{ steps.release_info.outputs.VERSION }} --no-git-tag-version --allow-same-version
+
+      - name: Build extension
+        run: pnpm build
+
+      - name: Create ZIP package
+        id: package
+        run: |
+          VERSION="${{ steps.release_info.outputs.VERSION }}"
+          RELEASE_TYPE="${{ steps.release_info.outputs.RELEASE_TYPE }}"
+          
+          # Determine package name
+          if [ "$RELEASE_TYPE" = "stable" ]; then
+            FILENAME="agricola-tutor-v${VERSION}.zip"
+          else
+            FILENAME="agricola-tutor-v${VERSION}-${RELEASE_TYPE}.zip"
+          fi
+          
+          cd build/chrome-mv3-prod
+          zip -r "../../$FILENAME" .
+          cd ../..
+          
+          echo "FILENAME=$FILENAME" >> $GITHUB_OUTPUT
+          echo "📦 Package created: $FILENAME"
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          RELEASE_TYPE="${{ steps.release_info.outputs.RELEASE_TYPE }}"
+          VERSION="${{ steps.release_info.outputs.VERSION }}"
+          
+          # Get the previous tag
+          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
+          
+          # Determine release label
+          case $RELEASE_TYPE in
+            alpha)
+              LABEL="🧪 Alpha Release"
+              PRERELEASE_NOTE="⚠️ This is an **alpha** release for testing purposes. Use at your own risk."
+              ;;
+            beta)
+              LABEL="🔬 Beta Release"
+              PRERELEASE_NOTE="⚠️ This is a **beta** release. Some features may not be fully stable."
+              ;;
+            *)
+              LABEL="🚀 Stable Release"
+              PRERELEASE_NOTE=""
+              ;;
+          esac
+          
+          # Build changelog content
+          {
+            echo "CHANGELOG<<EOF"
+            echo "## $LABEL v$VERSION"
+            echo ""
+            if [ -n "$PRERELEASE_NOTE" ]; then
+              echo "$PRERELEASE_NOTE"
+              echo ""
+            fi
+            echo "### Changes"
+            echo ""
+            if [ -z "$PREV_TAG" ]; then
+              echo "- Initial release"
+              echo ""
+              echo "### Features"
+              echo "- Card tier badges display on BGA cards"
+              echo "- Statistics from Lumin's data (PWR, ADP, APR, Play Rate)"
+              echo "- Side panel search functionality"
+              echo "- Expert commentary tooltips"
+              echo "- Multi-language support (English/Chinese)"
+            else
+              git log $PREV_TAG..HEAD --pretty=format:"- %s" | head -20
+              echo ""
+            fi
+            echo ""
+            echo "### Credits"
+            echo "- **Plugin creator:** Ender"
+            echo "- **Statistics:** Lumin"
+            echo "- **Tier providers:** Yuxiao_Huang, Chen233, Mark Hartnady"
+            echo "- **Special thanks:** Henry, smile3000"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - name: Determine release settings
+        id: release_settings
+        run: |
+          RELEASE_TYPE="${{ steps.release_info.outputs.RELEASE_TYPE }}"
+          VERSION="${{ steps.release_info.outputs.VERSION }}"
+          
+          case $RELEASE_TYPE in
+            alpha)
+              echo "PRERELEASE=true" >> $GITHUB_OUTPUT
+              echo "RELEASE_NAME=Agricola Tutor v${VERSION} (Alpha)" >> $GITHUB_OUTPUT
+              ;;
+            beta)
+              echo "PRERELEASE=true" >> $GITHUB_OUTPUT
+              echo "RELEASE_NAME=Agricola Tutor v${VERSION} (Beta)" >> $GITHUB_OUTPUT
+              ;;
+            *)
+              echo "PRERELEASE=false" >> $GITHUB_OUTPUT
+              echo "RELEASE_NAME=Agricola Tutor v${VERSION}" >> $GITHUB_OUTPUT
+              ;;
+          esac
+
+      - name: Create git tag (for workflow_dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          VERSION="${{ steps.release_info.outputs.VERSION }}"
+          RELEASE_TYPE="${{ steps.release_info.outputs.RELEASE_TYPE }}"
+          
+          if [ "$RELEASE_TYPE" = "stable" ]; then
+            TAG="v${VERSION}"
+          else
+            TAG="v${VERSION}-${RELEASE_TYPE}"
+          fi
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag -a "$TAG" -m "Release $TAG"
+          git push origin "$TAG"
+          
+          echo "🏷️ Created tag: $TAG"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: ${{ steps.release_settings.outputs.RELEASE_NAME }}
+          tag_name: ${{ github.event_name == 'workflow_dispatch' && format('v{0}', steps.release_info.outputs.VERSION) || github.ref_name }}
+          body: ${{ steps.changelog.outputs.CHANGELOG }}
+          files: ${{ steps.package.outputs.FILENAME }}
+          draft: false
+          prerelease: ${{ steps.release_settings.outputs.PRERELEASE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Summary
+        run: |
+          VERSION="${{ steps.release_info.outputs.VERSION }}"
+          RELEASE_TYPE="${{ steps.release_info.outputs.RELEASE_TYPE }}"
+          FILENAME="${{ steps.package.outputs.FILENAME }}"
+          
+          echo "## 🎉 Release Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Property | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Version | \`$VERSION\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Type | \`$RELEASE_TYPE\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Package | \`$FILENAME\` |" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,134 @@
+{
+  "extensionName": {
+    "message": "农场主卡牌助手",
+    "description": "插件名称"
+  },
+  "extensionDescription": {
+    "message": "为 Board Game Arena 上的 Agricola 卡牌添加等级评定、统计数据和搜索功能。",
+    "description": "插件描述"
+  },
+  "header_title": {
+    "message": "农场主卡牌梯度",
+    "description": "搜索弹窗标题"
+  },
+  "header_subtitle": {
+    "message": "探索 Agricola 卡牌的评级和统计数据",
+    "description": "搜索弹窗副标题"
+  },
+  "search_placeholder": {
+    "message": "输入编号、中文名或英文名搜索...",
+    "description": "搜索输入框占位符"
+  },
+  "search_hint": {
+    "message": "尝试搜索：",
+    "description": "搜索提示"
+  },
+  "results_noCards": {
+    "message": "未找到卡牌",
+    "description": "无结果提示"
+  },
+  "results_tryDifferent": {
+    "message": "试试其他搜索词",
+    "description": "无结果时的建议"
+  },
+  "results_enterTerm": {
+    "message": "输入搜索词查找卡牌",
+    "description": "初始搜索提示"
+  },
+  "card_description": {
+    "message": "描述",
+    "description": "卡牌描述标签"
+  },
+  "card_effect": {
+    "message": "卡牌效果",
+    "description": "卡牌效果标签"
+  },
+  "tier_baitu": {
+    "message": "白兔",
+    "description": "白兔评级标签"
+  },
+  "tier_en": {
+    "message": "Mark",
+    "description": "EN评级标签"
+  },
+  "tier_chen": {
+    "message": "闰土",
+    "description": "Chen评级标签"
+  },
+  "stats_title": {
+    "message": "统计数据 by Lumin",
+    "description": "统计部分标题"
+  },
+  "stats_pwr": {
+    "message": "PWR",
+    "description": "强度评分标签"
+  },
+  "stats_pwr_tooltip": {
+    "message": "Play Win Rate: 打出率 × 胜率 / 7",
+    "description": "PWR提示说明"
+  },
+  "stats_adp": {
+    "message": "ADP",
+    "description": "平均轮抽位标签"
+  },
+  "stats_adp_tooltip": {
+    "message": "Average Draft Position: 平均轮抽抓位",
+    "description": "ADP提示说明"
+  },
+  "stats_apr": {
+    "message": "APR",
+    "description": "平均打出回合标签"
+  },
+  "stats_apr_tooltip": {
+    "message": "Average Play Round: 平均打出回合",
+    "description": "APR提示说明"
+  },
+  "stats_playRate": {
+    "message": "打出率",
+    "description": "打出率标签"
+  },
+  "stats_playRate_tooltip": {
+    "message": "Draw Play Rate: 抽到后的打出率",
+    "description": "打出率提示说明"
+  },
+  "popup_features": {
+    "message": "功能特性",
+    "description": "弹窗功能部分标题"
+  },
+  "popup_feature_tier": {
+    "message": "多位专家的等级评定",
+    "description": "功能描述"
+  },
+  "popup_feature_stats": {
+    "message": "Lumin 的统计数据",
+    "description": "功能描述"
+  },
+  "popup_feature_search": {
+    "message": "卡牌搜索（Ctrl/Cmd + Shift + F）",
+    "description": "功能描述"
+  },
+  "popup_feature_tooltip": {
+    "message": "悬浮查看专家评价",
+    "description": "功能描述"
+  },
+  "popup_visit_bga": {
+    "message": "访问 Board Game Arena 并玩 Agricola 即可看到等级徽章！",
+    "description": "使用提示"
+  },
+  "footer_pluginCreator": {
+    "message": "插件作者",
+    "description": "鸣谢标签"
+  },
+  "footer_statistics": {
+    "message": "数据统计",
+    "description": "鸣谢标签"
+  },
+  "footer_tierProviders": {
+    "message": "评级提供",
+    "description": "鸣谢标签"
+  },
+  "footer_specialThanks": {
+    "message": "特别感谢",
+    "description": "鸣谢标签"
+  }
+}

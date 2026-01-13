@@ -1,0 +1,193 @@
+---
+title: "Content Scripts – Plasmo"
+source: "https://docs.plasmo.com/framework/content-scripts"
+author:
+  - "[[Plasmo Docs]]"
+published:
+created: 2026-01-13
+description: "How to use Plasmo content scripts to inject custom behavior into web pages"
+tags:
+  - "clippings"
+---
+## Content Scripts
+
+Content scripts run in the context of web pages in an *isolated world*. This allows multiple content scripts from various extensions to coexist without conflicting with each other's execution and to stay isolated from the page's JavaScript.
+
+A script that ends with `.ts` will not have front-end runtime (react/vue/svelte) bundled with it and won't be treated as a ui script, while a script that ends in `.tsx`, `.vue` or `.svelte`, will be.
+
+### Use cases:
+
+- Scraping data from the current web page
+- Selecting, finding, and styling elements from the current web page
+- [Injecting UI elements into the current web page](https://docs.plasmo.com/framework/content-scripts-ui)
+- [Injecting code into the "main world" context](https://docs.plasmo.com/framework/content-scripts#injecting-into-the-main-world)
+
+## Adding a single content script
+
+🚨
+
+Since Plasmo's default Typescript configuration treats all source files as modules, if you don't have any imports or exports in your code, you'll have to add an `export {}` line at the start of your file. (You will see this warning when creating your first content script!)
+
+Create a `content.ts` file, export an empty object and hack away!
+
+content.ts
+
+```ts
+export {}
+
+console.log(
+
+  "You may find that having is not so pleasing a thing as wanting. This is not logical, but it is often true."
+
+)
+```
+
+Reload your extension, open a web page, then open its inspector:
+
+See [with-content-script](https://github.com/PlasmoHQ/examples/tree/main/with-content-script) for a full example.
+
+## Adding multiple content scripts
+
+Create a `contents` directory for multiple content scripts, and add your content scripts there. Make sure their names describe what they do!
+
+See [with-many-content-scripts](https://github.com/PlasmoHQ/examples/tree/main/with-many-content-scripts) for an example.
+
+## Config
+
+Sometimes, you'll want to run a content script on certain pages. You can provide a custom content script configuration by exporting a config object from your content script:
+
+content.ts
+
+```ts
+import type { PlasmoCSConfig } from "plasmo"
+
+ 
+
+export const config: PlasmoCSConfig = {
+
+  matches: ["<all_urls>"],
+
+  all_frames: true
+
+}
+```
+
+Working with this configuration object is a breeze thanks to the exported `PlasmoCSConfig` type 🥳.
+
+To learn more about the config and each property, [check out Chrome's official documentation](https://developer.chrome.com/docs/extensions/mv3/content_scripts/#static-declarative).
+
+## Injecting into the main world
+
+To modify the `window` object from your content script, you must inject code into the "main world."
+
+Starting from Plasmo `v0.65.0`, Plasmo content script may specify a `world` property within the config:
+
+content.ts
+
+```ts
+import type { PlasmoCSConfig } from "plasmo"
+
+ 
+
+export const config: PlasmoCSConfig = {
+
+  matches: ["<all_urls>"],
+
+  world: "MAIN"
+
+}
+```
+
+The above script will be injected into the main world.
+
+To manually inject a main world script, use the `chrome.scripting.executeScript` API. First, manually add the scripting permission in your [package.json's 'manifest.permissions' array](https://docs.plasmo.com/framework/customization/manifest):
+
+package.json
+
+```json
+{
+
+  ...
+
+  "manifest" : {
+
+    "permissions": ["scripting"]
+
+  }
+
+}
+```
+
+Then, inject your content script into the main world by calling `chrome.scripting.executeScript` from your background service worker:
+
+background.ts
+
+```ts
+chrome.scripting.executeScript(
+
+  {
+
+    target: {
+
+      tabId // the tab you want to inject into
+
+    },
+
+    world: "MAIN", // MAIN to access the window object
+
+    func: windowChanger // function to inject
+
+  },
+
+  () => {
+
+    console.log("Background script got callback after injection")
+
+  }
+
+)
+```
+
+For the `func` key, you can pass in a TS function from your project. It will be transpiled into JS when your extension bundles. You may also use the `files` key to inject a file from the root of the built bundle.
+
+🚨
+
+The scope of the `func` is tightly encapsulated. You will not be able to use variables declared outside its scope or any imported variables directly within the function. You can, however, use variables passed down to the `args` property. Ensure only JSON-serializable values are used.
+
+See [with-main-world](https://github.com/PlasmoHQ/examples/tree/main/with-main-world) for an example.
+
+## Fetching external API and CORS
+
+Because content scripts run within the context of a web page, they are subject to the same-origin policy. To mitigate CORS restrictions, you can use the [Plasmo Messaging API](https://docs.plasmo.com/framework/messaging#message-flow) to proxy the request via your background service worker.
+
+## Importing resources
+
+To import external assets into your content script, you can use the [`url:` scheme](https://docs.plasmo.com/framework/import#url):
+
+```ts
+import myFile from "url:./path/to/my/file/something.js"
+```
+
+The `url:` scheme will automatically resolve the `something.js` asset and add it to the `web_accessible_resources` declaration in the built bundle. The above `myFile` variable will be a string containing the URL to the asset:
+
+```sh
+> console.log(myFile)
+
+ 
+
+chrome-extension://<your chrome ext id>/something.eb20bc99.js?1656000646313
+
+ 
+
+> console.log(myFile.split("/").pop().split("?")[0])
+
+ 
+
+something.eb20bc99.js
+```
+
+Alternatively, you can use the [`data-base64`](https://docs.plasmo.com/framework/import#data-base64) or the [`data-text`](https://docs.plasmo.com/framework/import#data-text) scheme to import and embed the asset directly into your code. For small assets, these schemes should work well.
+
+🚨
+
+[Sandbox Pages](https://docs.plasmo.com/framework/sandbox-pages "Sandbox Pages") [Content Scripts UI](https://docs.plasmo.com/framework/content-scripts-ui "Content Scripts UI")
