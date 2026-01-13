@@ -10,12 +10,10 @@
     "postbuild": "cp assets/cards.json build/chrome-mv3-prod/ && cp assets/authors.json build/chrome-mv3-prod/",
     "package": "plasmo package",
     "zip": "pnpm build && cd build/chrome-mv3-prod && zip -r ../../agricola-tutor.zip .",
-    "release": "./scripts/release.sh",
-    "release:patch": "./scripts/release.sh patch stable",
-    "release:minor": "./scripts/release.sh minor stable",
-    "release:major": "./scripts/release.sh major stable",
-    "release:alpha": "./scripts/release.sh patch alpha",
-    "release:beta": "./scripts/release.sh patch beta"
+    "release": "bash scripts/local-release.sh",
+    "release:stable": "bash scripts/local-release.sh -t stable",
+    "release:alpha": "bash scripts/local-release.sh -t alpha",
+    "release:beta": "bash scripts/local-release.sh -t beta"
   },
   "dependencies": {
     "clsx": "^2.1.0",
