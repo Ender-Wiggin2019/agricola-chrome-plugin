@@ -60,7 +60,7 @@
     "description": "统计部分标题"
   },
   "stats_pwr": {
-    "message": "PWR",
+    "message": "PWR (打出胜率)",
     "description": "强度评分标签"
   },
   "stats_pwr_tooltip": {
@@ -68,7 +68,7 @@
     "description": "PWR提示说明"
   },
   "stats_adp": {
-    "message": "ADP",
+    "message": "ADP (平均轮抽抓位)",
     "description": "平均轮抽位标签"
   },
   "stats_adp_tooltip": {
@@ -76,7 +76,7 @@
     "description": "ADP提示说明"
   },
   "stats_apr": {
-    "message": "APR",
+    "message": "APR (平均打出回合)",
     "description": "平均打出回合标签"
   },
   "stats_apr_tooltip": {

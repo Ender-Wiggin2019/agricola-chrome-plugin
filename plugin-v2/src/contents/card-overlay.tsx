@@ -11,6 +11,7 @@ import { StatsBadge } from "~components/StatsBadge"
 export const config: PlasmoCSConfig = {
   matches: [
     "https://boardgamearena.com/*",
+    "https://*.boardgamearena.com/*",
     "http://localhost:*/*",
     "http://127.0.0.1:*/*",
     "file:///*"
@@ -67,9 +68,9 @@ function injectStyles() {
 
     .ag-tier-container {
       position: absolute;
-      top: 50%;
+      top: 0;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, calc(-50% + 4px));
       z-index: 10;
       display: flex;
       align-items: center;
@@ -85,10 +86,20 @@ function injectStyles() {
       transition: all 0.2s ease;
     }
 
+    .ag-tier-container::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      height: 10px;
+      background: transparent;
+    }
+
     .ag-tier-container:hover {
       background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 245, 220, 0.9) 100%);
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.6) inset;
-      transform: translate(-50%, -50%) translateY(-2px);
+      transform: translate(-50%, calc(-50% + 4px)) translateY(-2px);
     }
 
     .ag-tier-badges {
@@ -102,11 +113,11 @@ function injectStyles() {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      min-width: 22px;
-      height: 22px;
-      padding: 0 6px;
-      border-radius: 11px;
-      font-size: 11px;
+      min-width: 26px;
+      height: 26px;
+      padding: 0 8px;
+      border-radius: 13px;
+      font-size: 13px;
       font-weight: bold;
       color: white;
       text-shadow: 0 1px 1px rgba(0,0,0,0.15);
@@ -122,10 +133,10 @@ function injectStyles() {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 24px;
-      height: 24px;
+      width: 28px;
+      height: 28px;
       border-radius: 50%;
-      font-size: 10px;
+      font-size: 12px;
       font-weight: bold;
       color: white;
       cursor: pointer;
@@ -179,6 +190,16 @@ function injectStyles() {
 
     .ag-stats-tooltip {
       min-width: 180px;
+      z-index: 1000000;
+      overflow: visible;
+    }
+
+    .ag-stats-grid {
+      overflow: visible;
+    }
+
+    .ag-stats-item {
+      overflow: visible;
     }
 
     .ag-stats-header {
@@ -218,6 +239,63 @@ function injectStyles() {
       color: #888;
       text-transform: uppercase;
       margin-bottom: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+
+    .ag-stats-info-icon {
+      width: 12px;
+      height: 12px;
+      color: #888;
+      opacity: 0.5;
+      cursor: help;
+      transition: opacity 0.2s ease, color 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .ag-stats-info-icon:hover {
+      opacity: 1;
+      color: #2d5a27;
+    }
+
+    .ag-stats-label-tooltip {
+      position: fixed;
+      padding: 6px 10px;
+      background: #333;
+      color: white;
+      font-size: 11px;
+      white-space: nowrap;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      z-index: 1000001;
+      pointer-events: none;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s ease, visibility 0.2s ease;
+    }
+
+    .ag-stats-label-tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 4px solid transparent;
+      border-top-color: #333;
+    }
+
+    .ag-stats-label-wrapper {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ag-stats-label-wrapper:hover .ag-stats-label-tooltip {
+      opacity: 1;
+      visibility: visible;
     }
 
     .ag-stats-value {
@@ -406,6 +484,34 @@ function showStatsTooltip(stats: { pwr?: number; adp?: number; apr?: number; dra
   const aprLabel = getStatsLabel("apr", "APR")
   const playRateLabel = getStatsLabel("playRate", "Play Rate")
 
+  // Get tooltip texts
+  const pwrTooltip = getStatsLabel("pwr_tooltip", "Play Win Rate: Play Rate × Win Rate / 7")
+  const adpTooltip = getStatsLabel("adp_tooltip", "Average Draft Position")
+  const aprTooltip = getStatsLabel("apr_tooltip", "Average Play Round")
+  const playRateTooltip = getStatsLabel("playRate_tooltip", "Draw Play Rate: Rate of playing after drawing")
+
+  // Helper function to escape HTML
+  const escapeHtml = (text: string): string => {
+    const div = document.createElement("div")
+    div.textContent = text
+    return div.innerHTML
+  }
+
+  // Helper function to create label with info icon
+  const createLabelWithIcon = (label: string, tooltipText: string): string => {
+    return `
+      <div class="ag-stats-label-wrapper">
+        <div class="ag-stats-label">
+          <span>${escapeHtml(label)}</span>
+          <svg class="ag-stats-info-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <div class="ag-stats-label-tooltip">${escapeHtml(tooltipText)}</div>
+      </div>
+    `
+  }
+
   let html = `
     <div class="ag-stats-header">
       <svg class="ag-stats-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -419,7 +525,7 @@ function showStatsTooltip(stats: { pwr?: number; adp?: number; apr?: number; dra
   if (stats.pwr !== undefined) {
     html += `
       <div class="ag-stats-item">
-        <div class="ag-stats-label">${pwrLabel}</div>
+        ${createLabelWithIcon(pwrLabel, pwrTooltip)}
         <div class="ag-stats-value">${stats.pwr.toFixed(2)}</div>
       </div>
     `
@@ -428,7 +534,7 @@ function showStatsTooltip(stats: { pwr?: number; adp?: number; apr?: number; dra
   if (stats.adp !== undefined) {
     html += `
       <div class="ag-stats-item">
-        <div class="ag-stats-label">${adpLabel}</div>
+        ${createLabelWithIcon(adpLabel, adpTooltip)}
         <div class="ag-stats-value" style="color: ${adpColor}">${stats.adp.toFixed(2)}</div>
       </div>
     `
@@ -437,7 +543,7 @@ function showStatsTooltip(stats: { pwr?: number; adp?: number; apr?: number; dra
   if (stats.apr !== undefined) {
     html += `
       <div class="ag-stats-item">
-        <div class="ag-stats-label">${aprLabel}</div>
+        ${createLabelWithIcon(aprLabel, aprTooltip)}
         <div class="ag-stats-value">${stats.apr.toFixed(2)}</div>
       </div>
     `
@@ -446,7 +552,7 @@ function showStatsTooltip(stats: { pwr?: number; adp?: number; apr?: number; dra
   if (drawPlayRatePercent !== null) {
     html += `
       <div class="ag-stats-item">
-        <div class="ag-stats-label">${playRateLabel}</div>
+        ${createLabelWithIcon(playRateLabel, playRateTooltip)}
         <div class="ag-stats-value" style="color: ${drawPlayRateColor}">${drawPlayRatePercent}%</div>
       </div>
     `
@@ -474,6 +580,48 @@ function showStatsTooltip(stats: { pwr?: number; adp?: number; apr?: number; dra
 
   tooltip.style.top = `${top}px`
   tooltip.style.left = `${left}px`
+
+  // Setup label tooltips for info icons
+  const labelWrappers = tooltip.querySelectorAll(".ag-stats-label-wrapper")
+  labelWrappers.forEach((wrapper) => {
+    const infoIcon = wrapper.querySelector(".ag-stats-info-icon")
+    const labelTooltip = wrapper.querySelector(".ag-stats-label-tooltip") as HTMLElement
+
+    if (infoIcon && labelTooltip) {
+      const updateTooltipPosition = () => {
+        const iconRect = infoIcon.getBoundingClientRect()
+        const tooltipRect = labelTooltip.getBoundingClientRect()
+        const left = iconRect.left + iconRect.width / 2
+        const top = iconRect.top - tooltipRect.height - 8
+
+        labelTooltip.style.left = `${left}px`
+        labelTooltip.style.top = `${top}px`
+        labelTooltip.style.transform = "translateX(-50%)"
+      }
+
+      infoIcon.addEventListener("mouseenter", () => {
+        updateTooltipPosition()
+        labelTooltip.style.opacity = "1"
+        labelTooltip.style.visibility = "visible"
+      })
+
+      infoIcon.addEventListener("mouseleave", () => {
+        labelTooltip.style.opacity = "0"
+        labelTooltip.style.visibility = "hidden"
+      })
+
+      wrapper.addEventListener("mouseenter", () => {
+        updateTooltipPosition()
+        labelTooltip.style.opacity = "1"
+        labelTooltip.style.visibility = "visible"
+      })
+
+      wrapper.addEventListener("mouseleave", () => {
+        labelTooltip.style.opacity = "0"
+        labelTooltip.style.visibility = "hidden"
+      })
+    }
+  })
 
   // Keep tooltip visible when hovering it
   tooltip.addEventListener("mouseenter", () => {
@@ -602,9 +750,34 @@ function processAllCards() {
   cardElements.forEach(processCard)
 }
 
+// Check if URL matches the required pattern for non-local URLs
+function shouldRunOnCurrentPage(): boolean {
+  const url = window.location.href
+  const hostname = window.location.hostname
+
+  // Always allow localhost, 127.0.0.1, and file:// URLs
+  if (hostname === "localhost" || hostname === "127.0.0.1" || url.startsWith("file://")) {
+    return true
+  }
+
+  // For boardgamearena.com, check if URL matches pattern: boardgamearena.com/{any}/agricola{any}
+  if (hostname === "boardgamearena.com" || hostname.endsWith(".boardgamearena.com")) {
+    const pathMatch = window.location.pathname.match(/\/[^\/]+\/agricola/i)
+    return pathMatch !== null
+  }
+
+  return false
+}
+
 // Initialize
 async function init() {
   console.log("[Agricola Tutor] Initializing card overlay...")
+
+  // Check if we should run on this page
+  if (!shouldRunOnCurrentPage()) {
+    console.log("[Agricola Tutor] Skipping initialization - URL does not match required pattern")
+    return
+  }
 
   injectStyles()
   await loadData()

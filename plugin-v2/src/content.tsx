@@ -1,6 +1,6 @@
 import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig, PlasmoGetStyle } from "plasmo"
-import { useCallback, useEffect, useState } from "react"
+import { useCallback, useEffect, useState, useMemo } from "react"
 
 import { SearchButton } from "~components/SearchButton"
 import { SearchModal } from "~components/SearchModal"
@@ -9,6 +9,7 @@ import { useCardsData } from "~hooks/useCardsData"
 export const config: PlasmoCSConfig = {
   matches: [
     "https://boardgamearena.com/*",
+    "https://*.boardgamearena.com/*",
     "http://localhost:*/*",
     "http://127.0.0.1:*/*",
     "file:///*"
@@ -35,11 +36,45 @@ export const getStyle: PlasmoGetStyle = () => {
   return styleElement
 }
 
+// Check if URL matches the required pattern for non-local URLs
+function shouldRunOnCurrentPage(): boolean {
+  try {
+    const url = window.location.href
+    const hostname = window.location.hostname
+    const pathname = window.location.pathname
+
+    // Always allow localhost, 127.0.0.1, and file:// URLs
+    if (hostname === "localhost" || hostname === "127.0.0.1" || url.startsWith("file://")) {
+      return true
+    }
+
+    // For boardgamearena.com, check if URL matches pattern: boardgamearena.com/{any}/agricola{any}
+    if (hostname === "boardgamearena.com" || hostname.endsWith(".boardgamearena.com")) {
+      const pathMatch = pathname.match(/\/[^\/]+\/agricola/i)
+      return pathMatch !== null
+    }
+
+    return false
+  } catch (error) {
+    // If there's any error accessing window.location, default to false
+    console.warn("[Agricola Tutor] Error checking URL:", error)
+    return false
+  }
+}
+
 // Main floating UI component
 const PlasmoOverlay = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [initialQuery, setInitialQuery] = useState("")
   const { cardsData, authorsData, isLoading } = useCardsData()
+
+  // Cache the URL check result to avoid re-checking on every render
+  const shouldRun = useMemo(() => shouldRunOnCurrentPage(), [])
+
+  // Check if we should run on this page
+  if (!shouldRun) {
+    return null
+  }
 
   const openSearchModal = useCallback((query: string = "") => {
     console.log("[Agricola Tutor Content] Opening search modal with query:", query)

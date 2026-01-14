@@ -6,7 +6,7 @@ export function SearchButton({ onClick }: SearchButtonProps) {
   return (
     <button
       onClick={onClick}
-      className="plasmo-flex plasmo-items-center plasmo-justify-center plasmo-w-10 plasmo-h-10 plasmo-rounded-full plasmo-bg-gradient-to-br plasmo-from-green-500 plasmo-to-green-600 plasmo-text-white plasmo-shadow-lg hover:plasmo-shadow-xl plasmo-transition-all hover:plasmo-scale-105 active:plasmo-scale-95"
+      className="plasmo-search-button plasmo-flex plasmo-items-center plasmo-justify-center plasmo-w-10 plasmo-h-10 plasmo-rounded-full plasmo-text-white hover:plasmo-scale-105"
       title="Search Agricola Cards"
     >
       <svg
