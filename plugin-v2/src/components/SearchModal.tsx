@@ -9,11 +9,19 @@ interface SearchModalProps {
   onClose: () => void
   cardsData: ICard[]
   authorsData?: IAuthors
+  initialQuery?: string
 }
 
-export function SearchModal({ isOpen, onClose, cardsData, authorsData }: SearchModalProps) {
-  const [searchQuery, setSearchQuery] = useState("")
+export function SearchModal({ isOpen, onClose, cardsData, authorsData, initialQuery = "" }: SearchModalProps) {
+  const [searchQuery, setSearchQuery] = useState(initialQuery)
   const inputRef = useRef<HTMLInputElement>(null)
+
+  // Update search query when initialQuery changes (for card overlay clicks)
+  useEffect(() => {
+    if (isOpen && initialQuery) {
+      setSearchQuery(initialQuery)
+    }
+  }, [isOpen, initialQuery])
 
   // Focus input when modal opens
   useEffect(() => {
@@ -33,10 +41,13 @@ export function SearchModal({ isOpen, onClose, cardsData, authorsData }: SearchM
     return () => window.removeEventListener("keydown", handleKeyDown)
   }, [isOpen, onClose])
 
-  // Reset search when modal closes
+  // Reset search when modal closes (only if no initialQuery next time)
   useEffect(() => {
     if (!isOpen) {
-      setSearchQuery("")
+      // Delay reset to avoid flash when reopening with initialQuery
+      setTimeout(() => {
+        if (!isOpen) setSearchQuery("")
+      }, 200)
     }
   }, [isOpen])
 
@@ -54,11 +65,11 @@ export function SearchModal({ isOpen, onClose, cardsData, authorsData }: SearchM
 
   return (
     <div
-      className="plasmo-fixed plasmo-inset-0 plasmo-z-[999999] plasmo-flex plasmo-items-start plasmo-justify-center plasmo-pt-16 plasmo-px-4"
+      className="plasmo-fixed plasmo-inset-0 plasmo-z-[999999] plasmo-flex plasmo-items-start plasmo-justify-center plasmo-pt-16 plasmo-px-4 plasmo-animate-modal-enter"
       onClick={onClose}
     >
       {/* Backdrop */}
-      <div className="plasmo-absolute plasmo-inset-0 plasmo-bg-black/40 plasmo-backdrop-blur-sm" />
+      <div className="plasmo-absolute plasmo-inset-0 plasmo-bg-black/40 plasmo-backdrop-blur-sm plasmo-animate-backdrop" />
 
       {/* Modal */}
       <div

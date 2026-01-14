@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-01-14
+
+### Added
+- In-page search modal as fallback for side panel
+  - Click the floating search button to open modal directly
+  - Works on all browsers without side panel API limitations
+- Click card overlay to search
+  - Clicking tier badges now opens search modal with card pre-filled
+  - Reuses existing search functionality
+- Configurable tooltip toggle
+  - Added `ENABLE_TOOLTIPS` constant in code (default: off)
+  - Set to `true` to re-enable hover tooltips on badges
+
+### Changed
+- Card overlay now floats at 50% height of card (centered)
+- Card overlay uses transparent gradient background
+- Card overlay displays as single row with stats badge on right
+- Tier badges now show only tier value (no label)
+- Improved modal animation with smoother transitions
+  - Backdrop fades in first
+  - Modal slides down with cubic-bezier easing
+  - No more flash/flicker on open
+
+### Fixed
+- Development mode now properly copies JSON data files
+- Added `predev` script to copy `cards.json` and `authors.json` to dev build
+
 ## [0.1.0] - 2026-01-13
 
 ### Added

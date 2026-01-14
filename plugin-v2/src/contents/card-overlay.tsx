@@ -21,6 +21,9 @@ export const config: PlasmoCSConfig = {
 // This makes this a non-UI content script that runs code directly
 export {}
 
+// Configuration constants
+const ENABLE_TOOLTIPS = false // Set to true to enable hover tooltips on badges
+
 // Global data storage
 let cardsData: ICard[] = []
 let authorsData: IAuthors | undefined = undefined
@@ -58,25 +61,51 @@ function injectStyles() {
   const style = document.createElement("style")
   style.id = "ag-tutor-styles"
   style.textContent = `
+    .ag-card-wrapper {
+      position: relative !important;
+    }
+
     .ag-tier-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 6px;
-      flex-wrap: wrap;
-      padding: 6px 8px;
-      margin-bottom: 4px;
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(4px);
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      gap: 4px;
+      flex-wrap: nowrap;
+      padding: 4px 8px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.85) 0%, rgba(245, 245, 220, 0.8) 100%);
+      backdrop-filter: blur(6px);
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(255, 255, 255, 0.5) inset;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .ag-tier-container:hover {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 245, 220, 0.9) 100%);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.6) inset;
+      transform: translate(-50%, -50%) translateY(-2px);
+    }
+
+    .ag-tier-badges {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex: 1;
     }
 
     .ag-tier-badge {
       display: inline-flex;
       align-items: center;
-      padding: 3px 8px;
-      border-radius: 12px;
+      justify-content: center;
+      min-width: 22px;
+      height: 22px;
+      padding: 0 6px;
+      border-radius: 11px;
       font-size: 11px;
       font-weight: bold;
       color: white;
@@ -89,32 +118,20 @@ function injectStyles() {
       transform: scale(1.05);
     }
 
-    .ag-tier-badge .ag-tier-label {
-      opacity: 0.75;
-      font-size: 9px;
-      margin-right: 4px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .ag-tier-badge .ag-desc-indicator {
-      margin-left: 3px;
-      font-size: 10px;
-      opacity: 0.8;
-    }
-
     .ag-stats-badge {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 28px;
-      height: 28px;
+      width: 24px;
+      height: 24px;
       border-radius: 50%;
       font-size: 10px;
       font-weight: bold;
       color: white;
       cursor: pointer;
       transition: transform 0.15s ease;
+      margin-left: auto;
+      flex-shrink: 0;
     }
 
     .ag-stats-badge:hover {
@@ -334,24 +351,11 @@ function createTierBadge(tier: string, desc: string | undefined, tierType: strin
   badge.style.backgroundColor = color
   badge.style.boxShadow = `0 2px 4px ${color}40`
 
-  // Get localized tier labels
-  const getTierLabel = (type: string): string => {
-    try {
-      const msg = chrome.i18n.getMessage(`tier_${type}`)
-      return msg || type
-    } catch {
-      return type
-    }
-  }
-  const label = getTierLabel(tierType)
+  // Only show tier value, no label
+  badge.textContent = tier
 
-  badge.innerHTML = `
-    <span class="ag-tier-label">${label}</span>
-    ${tier}
-    ${hasDesc ? '<span class="ag-desc-indicator">+</span>' : ""}
-  `
-
-  if (hasDesc) {
+  // Only add tooltip if enabled
+  if (ENABLE_TOOLTIPS && hasDesc) {
     badge.addEventListener("mouseenter", (e) => {
       const rect = badge.getBoundingClientRect()
       tooltipTimeout = setTimeout(() => {
@@ -494,17 +498,19 @@ function createStatsBadge(stats: { pwr?: number; adp?: number; apr?: number; dra
   badge.style.boxShadow = `0 2px 6px ${color}50`
   badge.textContent = stats.adp.toFixed(1)
 
-  // Add hover tooltip
-  badge.addEventListener("mouseenter", () => {
-    const rect = badge.getBoundingClientRect()
-    tooltipTimeout = setTimeout(() => {
-      showStatsTooltip(stats, rect)
-    }, 200)
-  })
+  // Only add tooltip if enabled
+  if (ENABLE_TOOLTIPS) {
+    badge.addEventListener("mouseenter", () => {
+      const rect = badge.getBoundingClientRect()
+      tooltipTimeout = setTimeout(() => {
+        showStatsTooltip(stats, rect)
+      }, 200)
+    })
 
-  badge.addEventListener("mouseleave", () => {
-    tooltipTimeout = setTimeout(hideTooltip, 150)
-  })
+    badge.addEventListener("mouseleave", () => {
+      tooltipTimeout = setTimeout(hideTooltip, 150)
+    })
+  }
 
   return badge
 }
@@ -532,36 +538,58 @@ function processCard(cardElement: HTMLElement) {
   // Create tier container
   const tierContainer = document.createElement("div")
   tierContainer.className = "ag-tier-container"
+  tierContainer.dataset.cardId = card.no || ""
 
-  // Add tier badges
+  // Add click handler to open search modal with this card
+  tierContainer.addEventListener("click", (e) => {
+    e.stopPropagation()
+    const cardId = card.no || card.enName || card.cnName || ""
+    console.log(`[Agricola Tutor] Card overlay clicked: ${cardId}`)
+    // Dispatch custom event for content.tsx to handle
+    window.dispatchEvent(new CustomEvent("ag-open-card-search", {
+      detail: { cardId, card }
+    }))
+  })
+
+  // Create badges container for tier badges
+  const badgesContainer = document.createElement("div")
+  badgesContainer.className = "ag-tier-badges"
+
+  // Add tier badges to badges container
   const baituBadge = createTierBadge(card.baituTier, card.baituDesc, "baitu", authorsData?.baitu)
   const enBadge = createTierBadge(card.enTier, card.enDesc, "en", authorsData?.en)
   const chenBadge = createTierBadge(card.chenTier, card.chenDesc, "chen", authorsData?.chen)
 
-  if (baituBadge) tierContainer.appendChild(baituBadge)
-  if (enBadge) tierContainer.appendChild(enBadge)
-  if (chenBadge) tierContainer.appendChild(chenBadge)
+  if (baituBadge) badgesContainer.appendChild(baituBadge)
+  if (enBadge) badgesContainer.appendChild(enBadge)
+  if (chenBadge) badgesContainer.appendChild(chenBadge)
 
-  // Add stats badge
+  // Add badges container to tier container
+  if (badgesContainer.children.length > 0) {
+    tierContainer.appendChild(badgesContainer)
+  }
+
+  // Add stats badge directly to tier container (will be on the right due to CSS)
   const statsData = getStatsData(card)
   if (statsData) {
     const statsBadge = createStatsBadge(statsData)
     if (statsBadge) tierContainer.appendChild(statsBadge)
   }
 
-  // Only insert if has badges
-  if (tierContainer.children.length > 0) {
-    // Insert before the card element
+  // Only insert if has any badges
+  const hasBadges = badgesContainer.children.length > 0 || tierContainer.children.length > 1
+  if (hasBadges) {
+    // Create wrapper for positioning
     const parent = cardElement.parentElement
     if (parent && !parent.classList.contains("ag-card-wrapper")) {
       const wrapper = document.createElement("div")
       wrapper.className = "ag-card-wrapper"
-      wrapper.style.position = "relative"
       parent.insertBefore(wrapper, cardElement)
-      wrapper.appendChild(tierContainer)
       wrapper.appendChild(cardElement)
+      wrapper.appendChild(tierContainer)
     } else if (parent?.classList.contains("ag-card-wrapper")) {
-      parent.insertBefore(tierContainer, parent.firstChild)
+      // Wrapper already exists, just add tier container
+      parent.appendChild(tierContainer)
     }
   }
 

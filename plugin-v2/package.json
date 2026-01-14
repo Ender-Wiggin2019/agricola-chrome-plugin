@@ -1,10 +1,11 @@
 {
   "name": "agricola-tutor",
   "displayName": "__MSG_extensionName__",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "__MSG_extensionDescription__",
   "author": "Ender",
   "scripts": {
+    "predev": "mkdir -p build/chrome-mv3-dev && cp assets/cards.json build/chrome-mv3-dev/ && cp assets/authors.json build/chrome-mv3-dev/",
     "dev": "plasmo dev",
     "build": "plasmo build && npm run postbuild",
     "postbuild": "cp assets/cards.json build/chrome-mv3-prod/ && cp assets/authors.json build/chrome-mv3-prod/",
@@ -36,6 +37,7 @@
   "manifest": {
     "default_locale": "en",
     "permissions": [
+      "tabs",
       "sidePanel"
     ],
     "host_permissions": [

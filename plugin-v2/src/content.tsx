@@ -1,8 +1,10 @@
 import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig, PlasmoGetStyle } from "plasmo"
-import { useCallback, useEffect } from "react"
+import { useCallback, useEffect, useState } from "react"
 
 import { SearchButton } from "~components/SearchButton"
+import { SearchModal } from "~components/SearchModal"
+import { useCardsData } from "~hooks/useCardsData"
 
 export const config: PlasmoCSConfig = {
   matches: [
@@ -35,27 +37,62 @@ export const getStyle: PlasmoGetStyle = () => {
 
 // Main floating UI component
 const PlasmoOverlay = () => {
-  const openSidePanel = useCallback(() => {
-    // Send message to background script to open side panel
-    chrome.runtime.sendMessage({ action: "openSidePanel" })
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [initialQuery, setInitialQuery] = useState("")
+  const { cardsData, authorsData, isLoading } = useCardsData()
+
+  const openSearchModal = useCallback((query: string = "") => {
+    console.log("[Agricola Tutor Content] Opening search modal with query:", query)
+    setInitialQuery(query)
+    setIsModalOpen(true)
   }, [])
 
-  // Keyboard shortcut (Ctrl/Cmd + Shift + F) to open side panel
+  const closeSearchModal = useCallback(() => {
+    console.log("[Agricola Tutor Content] Closing search modal")
+    setIsModalOpen(false)
+    // Reset initial query after closing
+    setTimeout(() => setInitialQuery(""), 200)
+  }, [])
+
+  // Listen for card overlay click events
+  useEffect(() => {
+    const handleCardSearch = (e: CustomEvent<{ cardId: string }>) => {
+      console.log("[Agricola Tutor Content] Received card search event:", e.detail)
+      openSearchModal(e.detail.cardId)
+    }
+    window.addEventListener("ag-open-card-search", handleCardSearch as EventListener)
+    return () => window.removeEventListener("ag-open-card-search", handleCardSearch as EventListener)
+  }, [openSearchModal])
+
+  // Keyboard shortcut (Ctrl/Cmd + Shift + F) to open search modal
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === "F") {
         e.preventDefault()
-        openSidePanel()
+        if (isModalOpen) {
+          closeSearchModal()
+        } else {
+          openSearchModal()
+        }
       }
     }
     window.addEventListener("keydown", handleKeyDown)
     return () => window.removeEventListener("keydown", handleKeyDown)
-  }, [openSidePanel])
+  }, [isModalOpen, openSearchModal, closeSearchModal])
 
   return (
-    <div className="plasmo-fixed plasmo-bottom-6 plasmo-right-6 plasmo-z-[999998]">
-      <SearchButton onClick={openSidePanel} />
-    </div>
+    <>
+      <div className="plasmo-fixed plasmo-bottom-6 plasmo-right-6 plasmo-z-[999998]">
+        <SearchButton onClick={() => openSearchModal()} />
+      </div>
+      <SearchModal
+        isOpen={isModalOpen}
+        onClose={closeSearchModal}
+        cardsData={cardsData}
+        authorsData={authorsData}
+        initialQuery={initialQuery}
+      />
+    </>
   )
 }
 
