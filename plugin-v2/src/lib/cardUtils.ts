@@ -108,11 +108,11 @@ export function searchCards(cardsData: ICard[], query: string, maxResults = 10):
   return results
 }
 
-// Find card by numbering (no field) first, then by cnName, then by enName
+// Find card by id (no field) only
 export function findCard(cardsData: ICard[], cardContainer: HTMLElement): ICard | null {
   if (!cardsData) return null
 
-  // First try to match by card-numbering (no field)
+  // Match by card-numbering (no field) only
   const numberingElement = cardContainer.querySelector(".card-numbering")
   if (numberingElement) {
     const numbering = numberingElement.textContent?.trim()
@@ -121,29 +121,6 @@ export function findCard(cardsData: ICard[], cardContainer: HTMLElement): ICard 
       if (card) return card
     }
   }
-
-  // If no match by numbering, try to match by cnName
-  const titleElement = cardContainer.querySelector(".card-title")
-  if (!titleElement) return null
-
-  const cardName = titleElement.textContent?.trim() || ""
-
-  // Exact match first with cnName
-  let card = cardsData.find((c) => c.cnName === cardName)
-  if (card) return card
-
-  // Try removing common whitespace/formatting differences for cnName
-  const normalizedName = cardName.replace(/\s+/g, "")
-  card = cardsData.find((c) => c.cnName && c.cnName.replace(/\s+/g, "") === normalizedName)
-  if (card) return card
-
-  // Fallback to enName
-  card = cardsData.find((c) => c.enName === cardName)
-  if (card) return card
-
-  // Try removing whitespace for enName
-  card = cardsData.find((c) => c.enName && c.enName.replace(/\s+/g, "") === normalizedName)
-  if (card) return card
 
   return null
 }

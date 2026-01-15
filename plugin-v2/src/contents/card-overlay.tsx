@@ -309,8 +309,8 @@ function processCard(cardElement: HTMLElement) {
     if (statsBadge) tierContainer.appendChild(statsBadge)
   }
 
-  // Only insert if has any badges
-  const hasBadges = badgesContainer.children.length > 0 || tierContainer.children.length > 1
+  // Only insert if has any badges (tier badges or stats badge)
+  const hasBadges = tierContainer.children.length > 0
   if (hasBadges) {
     // Create wrapper for positioning
     const parent = cardElement.parentElement
@@ -382,7 +382,7 @@ async function init() {
 
     for (const mutation of mutations) {
       if (mutation.addedNodes.length > 0) {
-        for (const node of mutation.addedNodes) {
+        for (const node of Array.from(mutation.addedNodes)) {
           if (node.nodeType === 1) {
             const el = node as HTMLElement
             if (el.classList?.contains("player-card-inner")) {
