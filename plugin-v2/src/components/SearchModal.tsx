@@ -10,9 +10,10 @@ interface SearchModalProps {
   cardsData: ICard[]
   authorsData?: IAuthors
   initialQuery?: string
+  autoFocus?: boolean
 }
 
-export function SearchModal({ isOpen, onClose, cardsData, authorsData, initialQuery = "" }: SearchModalProps) {
+export function SearchModal({ isOpen, onClose, cardsData, authorsData, initialQuery = "", autoFocus = true }: SearchModalProps) {
   const [searchQuery, setSearchQuery] = useState(initialQuery)
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -23,12 +24,12 @@ export function SearchModal({ isOpen, onClose, cardsData, authorsData, initialQu
     }
   }, [isOpen, initialQuery])
 
-  // Focus input when modal opens
+  // Focus input when modal opens (only if autoFocus is true)
   useEffect(() => {
-    if (isOpen && inputRef.current) {
+    if (isOpen && autoFocus && inputRef.current) {
       setTimeout(() => inputRef.current?.focus(), 100)
     }
-  }, [isOpen])
+  }, [isOpen, autoFocus])
 
   // Handle ESC key to close modal
   useEffect(() => {

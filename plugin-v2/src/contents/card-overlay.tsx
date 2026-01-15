@@ -1,12 +1,8 @@
 import cssText from "data-text:~style.css"
-import type { PlasmoCSConfig, PlasmoGetStyle } from "plasmo"
-import { createRoot } from "react-dom/client"
-import { useEffect, useState } from "react"
+import type { PlasmoCSConfig } from "plasmo"
 
 import type { ICard, IAuthors } from "~types/card"
 import { findCard, getStatsData, getPrimaryTierColor } from "~lib/cardUtils"
-import { TierBadge } from "~components/TierBadge"
-import { StatsBadge } from "~components/StatsBadge"
 
 export const config: PlasmoCSConfig = {
   matches: [
@@ -21,9 +17,6 @@ export const config: PlasmoCSConfig = {
 
 // This makes this a non-UI content script that runs code directly
 export {}
-
-// Configuration constants
-const ENABLE_TOOLTIPS = false // Set to true to enable hover tooltips on badges
 
 // Global data storage
 let cardsData: ICard[] = []
@@ -149,174 +142,34 @@ function injectStyles() {
       transform: scale(1.1);
     }
 
-    .ag-tooltip {
-      position: fixed;
-      z-index: 999999;
-      max-width: 320px;
-      padding: 12px 16px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
-      font-size: 13px;
-      line-height: 1.5;
-      animation: ag-fade-in 0.2s ease;
-    }
-
-    .ag-tooltip-author {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 8px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #eee;
-    }
-
-    .ag-tooltip-avatar {
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-
-    .ag-tooltip-name {
-      font-weight: 600;
-      color: #2d5a27;
-    }
-
-    .ag-tooltip-content {
-      color: #555;
-      white-space: pre-wrap;
-    }
-
-    .ag-stats-tooltip {
-      min-width: 180px;
-      z-index: 1000000;
-      overflow: visible;
-    }
-
-    .ag-stats-grid {
-      overflow: visible;
-    }
-
-    .ag-stats-item {
-      overflow: visible;
-    }
-
-    .ag-stats-header {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 12px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #eee;
-    }
-
-    .ag-stats-icon {
-      color: #2d5a27;
-      opacity: 0.7;
-    }
-
-    .ag-stats-title {
-      font-size: 11px;
-      font-weight: 600;
-      color: #2d5a27;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .ag-stats-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
-
-    .ag-stats-item {
-      text-align: center;
-    }
-
-    .ag-stats-label {
-      font-size: 10px;
-      color: #888;
-      text-transform: uppercase;
-      margin-bottom: 2px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 4px;
-    }
-
-    .ag-stats-info-icon {
-      width: 12px;
-      height: 12px;
-      color: #888;
-      opacity: 0.5;
-      cursor: help;
-      transition: opacity 0.2s ease, color 0.2s ease;
-      flex-shrink: 0;
-    }
-
-    .ag-stats-info-icon:hover {
-      opacity: 1;
-      color: #2d5a27;
-    }
-
-    .ag-stats-label-tooltip {
-      position: fixed;
-      padding: 6px 10px;
-      background: #333;
-      color: white;
-      font-size: 11px;
-      white-space: nowrap;
-      border-radius: 4px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-      z-index: 1000001;
-      pointer-events: none;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.2s ease, visibility 0.2s ease;
-    }
-
-    .ag-stats-label-tooltip::after {
-      content: '';
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      border: 4px solid transparent;
-      border-top-color: #333;
-    }
-
-    .ag-stats-label-wrapper {
-      position: relative;
+    .ag-tier-badge-plus {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-    }
-
-    .ag-stats-label-wrapper:hover .ag-stats-label-tooltip {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    .ag-stats-value {
-      font-size: 14px;
+      margin-left: 4px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      font-size: 10px;
       font-weight: bold;
-      color: #333;
+      line-height: 1;
+      opacity: 0.9;
+      transition: all 0.15s ease;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .ag-tier-badge:hover .ag-tier-badge-plus {
+      background: rgba(255, 255, 255, 0.35);
+      border-color: rgba(255, 255, 255, 0.6);
+      opacity: 1;
+      transform: scale(1.1);
     }
 
     .ag-card-enhanced {
       transition: border-color 0.3s ease;
-    }
-
-    @keyframes ag-fade-in {
-      from {
-        opacity: 0;
-        transform: translateY(4px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
     }
   `
   document.head.appendChild(style)
@@ -352,73 +205,8 @@ function getAdpColor(adp: number): string {
   return "#f44336"
 }
 
-// Tooltip management
-let currentTooltip: HTMLElement | null = null
-let tooltipTimeout: ReturnType<typeof setTimeout> | null = null
-
-function showTooltip(content: string, author: { name: string; avatar?: string } | undefined, anchorRect: DOMRect, tierColor: string) {
-  hideTooltip()
-
-  const tooltip = document.createElement("div")
-  tooltip.className = "ag-tooltip"
-  tooltip.style.borderTop = `3px solid ${tierColor}`
-
-  let html = ""
-  if (author) {
-    html += `<div class="ag-tooltip-author">`
-    if (author.avatar) {
-      html += `<img class="ag-tooltip-avatar" src="${author.avatar}" alt="${author.name}">`
-    }
-    html += `<span class="ag-tooltip-name">${author.name}</span>`
-    html += `</div>`
-  }
-  html += `<div class="ag-tooltip-content">${content.replace(/\n/g, "<br>")}</div>`
-  tooltip.innerHTML = html
-
-  document.body.appendChild(tooltip)
-  currentTooltip = tooltip
-
-  // Position tooltip
-  const tooltipRect = tooltip.getBoundingClientRect()
-  let top = anchorRect.bottom + 8
-  let left = anchorRect.left + anchorRect.width / 2 - tooltipRect.width / 2
-
-  // Adjust if off-screen
-  if (left < 8) left = 8
-  if (left + tooltipRect.width > window.innerWidth - 8) {
-    left = window.innerWidth - tooltipRect.width - 8
-  }
-  if (top + tooltipRect.height > window.innerHeight - 8) {
-    top = anchorRect.top - tooltipRect.height - 8
-  }
-
-  tooltip.style.top = `${top}px`
-  tooltip.style.left = `${left}px`
-
-  // Keep tooltip visible when hovering it
-  tooltip.addEventListener("mouseenter", () => {
-    if (tooltipTimeout) {
-      clearTimeout(tooltipTimeout)
-      tooltipTimeout = null
-    }
-  })
-
-  tooltip.addEventListener("mouseleave", hideTooltip)
-}
-
-function hideTooltip() {
-  if (tooltipTimeout) {
-    clearTimeout(tooltipTimeout)
-    tooltipTimeout = null
-  }
-  if (currentTooltip) {
-    currentTooltip.remove()
-    currentTooltip = null
-  }
-}
-
 // Create tier badge element
-function createTierBadge(tier: string, desc: string | undefined, tierType: string, author?: { name: string; avatar?: string }): HTMLElement | null {
+function createTierBadge(tier: string, desc: string | undefined, tierType: string): HTMLElement | null {
   if (!tier || tier.trim() === "") return null
 
   const color = getTierColor(tier, tierType)
@@ -429,209 +217,20 @@ function createTierBadge(tier: string, desc: string | undefined, tierType: strin
   badge.style.backgroundColor = color
   badge.style.boxShadow = `0 2px 4px ${color}40`
 
-  // Only show tier value, no label
-  badge.textContent = tier
+  // Show tier value
+  const tierText = document.createTextNode(tier)
+  badge.appendChild(tierText)
 
-  // Only add tooltip if enabled
-  if (ENABLE_TOOLTIPS && hasDesc) {
-    badge.addEventListener("mouseenter", (e) => {
-      const rect = badge.getBoundingClientRect()
-      tooltipTimeout = setTimeout(() => {
-        showTooltip(desc!, author, rect, color)
-      }, 200)
-    })
-
-    badge.addEventListener("mouseleave", () => {
-      tooltipTimeout = setTimeout(hideTooltip, 150)
-    })
+  // Add expand button if has description
+  if (hasDesc) {
+    const expandButton = document.createElement("span")
+    expandButton.className = "ag-tier-badge-plus"
+    expandButton.textContent = "+"
+    expandButton.setAttribute("aria-label", "Expand description")
+    badge.appendChild(expandButton)
   }
 
   return badge
-}
-
-// Get draw play rate color
-function getDrawPlayRateColor(rate: number): string {
-  if (rate > 0.9) return "#4caf50"
-  if (rate > 0.7) return "#f9a825"
-  return "#f44336"
-}
-
-// Show stats tooltip
-function showStatsTooltip(stats: { pwr?: number; adp?: number; apr?: number; drawPlayRate?: number }, anchorRect: DOMRect) {
-  hideTooltip()
-
-  const tooltip = document.createElement("div")
-  tooltip.className = "ag-tooltip ag-stats-tooltip"
-  tooltip.style.borderTop = "3px solid #2d5a27"
-
-  const adpColor = stats.adp !== undefined ? getAdpColor(stats.adp) : "#666"
-  const drawPlayRateColor = stats.drawPlayRate !== undefined ? getDrawPlayRateColor(stats.drawPlayRate) : "#666"
-  const drawPlayRatePercent = stats.drawPlayRate !== undefined ? Math.round(stats.drawPlayRate * 100) : null
-
-  // Get localized stats labels
-  const getStatsLabel = (key: string, fallback: string): string => {
-    try {
-      const msg = chrome.i18n.getMessage(`stats_${key}`)
-      return msg || fallback
-    } catch {
-      return fallback
-    }
-  }
-
-  const statsTitle = getStatsLabel("title", "Stats from Lumin")
-  const pwrLabel = getStatsLabel("pwr", "PWR")
-  const adpLabel = getStatsLabel("adp", "ADP")
-  const aprLabel = getStatsLabel("apr", "APR")
-  const playRateLabel = getStatsLabel("playRate", "Play Rate")
-
-  // Get tooltip texts
-  const pwrTooltip = getStatsLabel("pwr_tooltip", "Play Win Rate: Play Rate × Win Rate / 7")
-  const adpTooltip = getStatsLabel("adp_tooltip", "Average Draft Position")
-  const aprTooltip = getStatsLabel("apr_tooltip", "Average Play Round")
-  const playRateTooltip = getStatsLabel("playRate_tooltip", "Draw Play Rate: Rate of playing after drawing")
-
-  // Helper function to escape HTML
-  const escapeHtml = (text: string): string => {
-    const div = document.createElement("div")
-    div.textContent = text
-    return div.innerHTML
-  }
-
-  // Helper function to create label with info icon
-  const createLabelWithIcon = (label: string, tooltipText: string): string => {
-    return `
-      <div class="ag-stats-label-wrapper">
-        <div class="ag-stats-label">
-          <span>${escapeHtml(label)}</span>
-          <svg class="ag-stats-info-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-        </div>
-        <div class="ag-stats-label-tooltip">${escapeHtml(tooltipText)}</div>
-      </div>
-    `
-  }
-
-  let html = `
-    <div class="ag-stats-header">
-      <svg class="ag-stats-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-      </svg>
-      <span class="ag-stats-title">${statsTitle}</span>
-    </div>
-    <div class="ag-stats-grid">
-  `
-
-  if (stats.pwr !== undefined) {
-    html += `
-      <div class="ag-stats-item">
-        ${createLabelWithIcon(pwrLabel, pwrTooltip)}
-        <div class="ag-stats-value">${stats.pwr.toFixed(2)}</div>
-      </div>
-    `
-  }
-
-  if (stats.adp !== undefined) {
-    html += `
-      <div class="ag-stats-item">
-        ${createLabelWithIcon(adpLabel, adpTooltip)}
-        <div class="ag-stats-value" style="color: ${adpColor}">${stats.adp.toFixed(2)}</div>
-      </div>
-    `
-  }
-
-  if (stats.apr !== undefined) {
-    html += `
-      <div class="ag-stats-item">
-        ${createLabelWithIcon(aprLabel, aprTooltip)}
-        <div class="ag-stats-value">${stats.apr.toFixed(2)}</div>
-      </div>
-    `
-  }
-
-  if (drawPlayRatePercent !== null) {
-    html += `
-      <div class="ag-stats-item">
-        ${createLabelWithIcon(playRateLabel, playRateTooltip)}
-        <div class="ag-stats-value" style="color: ${drawPlayRateColor}">${drawPlayRatePercent}%</div>
-      </div>
-    `
-  }
-
-  html += `</div>`
-  tooltip.innerHTML = html
-
-  document.body.appendChild(tooltip)
-  currentTooltip = tooltip
-
-  // Position tooltip
-  const tooltipRect = tooltip.getBoundingClientRect()
-  let top = anchorRect.bottom + 8
-  let left = anchorRect.left + anchorRect.width / 2 - tooltipRect.width / 2
-
-  // Adjust if off-screen
-  if (left < 8) left = 8
-  if (left + tooltipRect.width > window.innerWidth - 8) {
-    left = window.innerWidth - tooltipRect.width - 8
-  }
-  if (top + tooltipRect.height > window.innerHeight - 8) {
-    top = anchorRect.top - tooltipRect.height - 8
-  }
-
-  tooltip.style.top = `${top}px`
-  tooltip.style.left = `${left}px`
-
-  // Setup label tooltips for info icons
-  const labelWrappers = tooltip.querySelectorAll(".ag-stats-label-wrapper")
-  labelWrappers.forEach((wrapper) => {
-    const infoIcon = wrapper.querySelector(".ag-stats-info-icon")
-    const labelTooltip = wrapper.querySelector(".ag-stats-label-tooltip") as HTMLElement
-
-    if (infoIcon && labelTooltip) {
-      const updateTooltipPosition = () => {
-        const iconRect = infoIcon.getBoundingClientRect()
-        const tooltipRect = labelTooltip.getBoundingClientRect()
-        const left = iconRect.left + iconRect.width / 2
-        const top = iconRect.top - tooltipRect.height - 8
-
-        labelTooltip.style.left = `${left}px`
-        labelTooltip.style.top = `${top}px`
-        labelTooltip.style.transform = "translateX(-50%)"
-      }
-
-      infoIcon.addEventListener("mouseenter", () => {
-        updateTooltipPosition()
-        labelTooltip.style.opacity = "1"
-        labelTooltip.style.visibility = "visible"
-      })
-
-      infoIcon.addEventListener("mouseleave", () => {
-        labelTooltip.style.opacity = "0"
-        labelTooltip.style.visibility = "hidden"
-      })
-
-      wrapper.addEventListener("mouseenter", () => {
-        updateTooltipPosition()
-        labelTooltip.style.opacity = "1"
-        labelTooltip.style.visibility = "visible"
-      })
-
-      wrapper.addEventListener("mouseleave", () => {
-        labelTooltip.style.opacity = "0"
-        labelTooltip.style.visibility = "hidden"
-      })
-    }
-  })
-
-  // Keep tooltip visible when hovering it
-  tooltip.addEventListener("mouseenter", () => {
-    if (tooltipTimeout) {
-      clearTimeout(tooltipTimeout)
-      tooltipTimeout = null
-    }
-  })
-
-  tooltip.addEventListener("mouseleave", hideTooltip)
 }
 
 // Create stats badge element
@@ -645,20 +244,6 @@ function createStatsBadge(stats: { pwr?: number; adp?: number; apr?: number; dra
   badge.style.backgroundColor = color
   badge.style.boxShadow = `0 2px 6px ${color}50`
   badge.textContent = stats.adp.toFixed(1)
-
-  // Only add tooltip if enabled
-  if (ENABLE_TOOLTIPS) {
-    badge.addEventListener("mouseenter", () => {
-      const rect = badge.getBoundingClientRect()
-      tooltipTimeout = setTimeout(() => {
-        showStatsTooltip(stats, rect)
-      }, 200)
-    })
-
-    badge.addEventListener("mouseleave", () => {
-      tooltipTimeout = setTimeout(hideTooltip, 150)
-    })
-  }
 
   return badge
 }
@@ -704,9 +289,9 @@ function processCard(cardElement: HTMLElement) {
   badgesContainer.className = "ag-tier-badges"
 
   // Add tier badges to badges container
-  const baituBadge = createTierBadge(card.baituTier, card.baituDesc, "baitu", authorsData?.baitu)
-  const enBadge = createTierBadge(card.enTier, card.enDesc, "en", authorsData?.en)
-  const chenBadge = createTierBadge(card.chenTier, card.chenDesc, "chen", authorsData?.chen)
+  const baituBadge = createTierBadge(card.baituTier, card.baituDesc, "baitu")
+  const enBadge = createTierBadge(card.enTier, card.enDesc, "en")
+  const chenBadge = createTierBadge(card.chenTier, card.chenDesc, "chen")
 
   if (baituBadge) badgesContainer.appendChild(baituBadge)
   if (enBadge) badgesContainer.appendChild(enBadge)

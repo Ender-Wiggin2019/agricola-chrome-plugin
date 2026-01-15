@@ -66,6 +66,7 @@ function shouldRunOnCurrentPage(): boolean {
 const PlasmoOverlay = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [initialQuery, setInitialQuery] = useState("")
+  const [shouldAutoFocus, setShouldAutoFocus] = useState(true)
   const { cardsData, authorsData, isLoading } = useCardsData()
 
   // Cache the URL check result to avoid re-checking on every render
@@ -79,6 +80,8 @@ const PlasmoOverlay = () => {
   const openSearchModal = useCallback((query: string = "") => {
     console.log("[Agricola Tutor Content] Opening search modal with query:", query)
     setInitialQuery(query)
+    // Don't auto focus if opening with a query (from tier badge click)
+    setShouldAutoFocus(query === "")
     setIsModalOpen(true)
   }, [])
 
@@ -126,6 +129,7 @@ const PlasmoOverlay = () => {
         cardsData={cardsData}
         authorsData={authorsData}
         initialQuery={initialQuery}
+        autoFocus={shouldAutoFocus}
       />
     </>
   )

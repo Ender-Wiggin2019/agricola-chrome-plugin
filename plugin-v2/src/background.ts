@@ -16,11 +16,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
   if (message.action === "openSidePanel") {
     console.log("[Agricola Tutor] Processing openSidePanel action from content script")
-    
+
     // Open the side panel for the current tab (from content script)
     const windowId = sender.tab?.windowId
     console.log("[Agricola Tutor] Content script windowId:", windowId, "type:", typeof windowId)
-    
+
     if (windowId !== undefined) {
       console.log("[Agricola Tutor] Attempting to open side panel for windowId:", windowId)
       chrome.sidePanel.open({ windowId })
@@ -39,20 +39,20 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       sendResponse({ success: false, error: "No windowId" })
     }
     return true // Keep message channel open for async response
-    
+
   } else if (message.action === "openSidePanelFromPopup") {
     console.log("[Agricola Tutor] Processing openSidePanelFromPopup action")
-    
+
     // Open the side panel (from popup)
     chrome.tabs.query({ active: true, currentWindow: true }, async (tabs) => {
       console.log("[Agricola Tutor] Active tabs query result:", tabs)
-      
+
       const tab = tabs[0]
       console.log("[Agricola Tutor] Selected tab:", tab)
       console.log("[Agricola Tutor] Tab windowId:", tab?.windowId, "type:", typeof tab?.windowId)
       console.log("[Agricola Tutor] Tab id:", tab?.id)
       console.log("[Agricola Tutor] Tab url:", tab?.url)
-      
+
       const windowId = tab?.windowId
       if (windowId !== undefined) {
         console.log("[Agricola Tutor] Attempting to open side panel for windowId:", windowId)
