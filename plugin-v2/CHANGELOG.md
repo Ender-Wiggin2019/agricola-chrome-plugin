@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-01-15
+
+### Fixed
+- Fixed issue where cards with only statistics data (no tier information) were not displaying stats badges
+
 ## [0.2.0] - 2026-01-14
 
 ### Added
