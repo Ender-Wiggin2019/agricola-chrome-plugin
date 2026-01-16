@@ -9,6 +9,8 @@ export interface ICard {
   baituDesc: string;
   enDesc: string;
   chenDesc: string;
+  enDesc_trans2zh?: string;
+  jpwiki_score?: string;
   stats?: {
     default?: IStats;
     nb?: IStats;

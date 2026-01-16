@@ -160,7 +160,7 @@ export function SearchModal({ isOpen, onClose, cardsData, authorsData, initialQu
           <div className="plasmo-text-[10px] plasmo-text-gray-400 plasmo-text-center plasmo-space-y-0.5">
             <p><span className="plasmo-font-medium">{t("footer_pluginCreator")}:</span> Ender • <span className="plasmo-font-medium">{t("footer_statistics")}:</span> Lumin</p>
             <p><span className="plasmo-font-medium">{t("footer_tierProviders")}:</span> Yuxiao_Huang, Chen233, Mark Hartnady</p>
-            <p className="plasmo-opacity-75">{t("footer_specialThanks")} Henry, smile3000</p>
+            <p className="plasmo-opacity-75">{t("footer_specialThanks")} Henry, smile3000, 暧晖</p>
           </div>
         </div>
       </div>

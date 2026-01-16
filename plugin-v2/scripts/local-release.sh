@@ -192,7 +192,7 @@ CHANGELOG+="
 - **Plugin creator:** Ender
 - **Statistics:** Lumin
 - **Tier providers:** Yuxiao_Huang, Chen233, Mark Hartnady
-- **Special thanks:** Henry, smile3000
+- **Special thanks:** Henry, smile3000, 暧晖
 "
 
 # Show changelog preview

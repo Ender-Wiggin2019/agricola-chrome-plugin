@@ -6,20 +6,28 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "lucide-react": "^0.344.0",
+    "@radix-ui/react-switch": "^1.2.6",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "tailwind-merge": "^2.2.1",
     "i18next": "^23.10.0",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-i18next": "^14.0.5",
-    "i18next-browser-languagedetector": "^7.2.0"
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.3.11",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.2.1",

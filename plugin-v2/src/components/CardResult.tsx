@@ -1,7 +1,8 @@
 import type { ICard, IAuthors } from "~types/card"
 import { getStatsData } from "~lib/cardUtils"
-import { t } from "~lib/i18n"
+import { t, getUILanguage } from "~lib/i18n"
 import { TierBadgeWithTooltip } from "./TierBadgeWithTooltip"
+import { JpWikiScoreBadge } from "./JpWikiScoreBadge"
 import { StatsDetails } from "./StatsDetails"
 
 interface CardResultProps {
@@ -12,6 +13,8 @@ interface CardResultProps {
 
 export function CardResult({ card, authors, index = 0 }: CardResultProps) {
   const statsData = getStatsData(card)
+  const currentLang = getUILanguage()
+  const isZh = currentLang === "zh" || currentLang.startsWith("zh-")
 
   return (
     <div
@@ -62,7 +65,7 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
             <TierBadgeWithTooltip
               tier={card.enTier}
               tierType="en"
-              desc={card.enDesc}
+              desc={isZh && card.enDesc_trans2zh ? card.enDesc_trans2zh : card.enDesc}
               author={authors?.en}
             />
           )}
@@ -73,6 +76,9 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
               desc={card.chenDesc}
               author={authors?.chen}
             />
+          )}
+          {card.jpwiki_score && card.jpwiki_score.trim() !== "" && (
+            <JpWikiScoreBadge score={card.jpwiki_score} />
           )}
         </div>
 
@@ -100,7 +106,7 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
           )}
 
           {/* EN Desc */}
-          {card.enDesc && card.enDesc.trim() !== "" && (
+          {((isZh && (card.enDesc_trans2zh || card.enDesc)) || (!isZh && card.enDesc)) && (
             <div className="plasmo-group">
               <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-1.5">
                 {authors?.en?.avatar && (
@@ -115,7 +121,7 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
                 </span>
               </div>
               <p className="plasmo-text-sm plasmo-text-gray-600 plasmo-leading-relaxed plasmo-pl-7 plasmo-whitespace-pre-wrap">
-                {card.enDesc}
+                {isZh && card.enDesc_trans2zh ? card.enDesc_trans2zh : card.enDesc}
               </p>
             </div>
           )}

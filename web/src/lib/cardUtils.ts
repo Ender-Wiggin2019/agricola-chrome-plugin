@@ -1,4 +1,4 @@
-import { ICard, IStats, TTierType } from '@/types/card';
+import type { ICard, IStats, TTierType } from '@/types/card';
 
 // Get tier color based on tier level and type
 export function getTierColor(tier: string, tierType: TTierType): string {
@@ -56,7 +56,7 @@ export function getStatsData(card: ICard): IStats | null {
 
 // Get ADP color based on value
 export function getAdpColor(adp: number): string {
-  if (adp < 2) {
+  if (adp < 2.3) {
     return '#4caf50'; // Green
   } else if (adp <= 4.5) {
     return '#f9a825'; // Darker yellow
@@ -76,6 +76,17 @@ export function getDrawPlayRateColor(rate: number): string {
   }
 }
 
+// Get JP Wiki Score color based on value (0-10 scale)
+export function getJpWikiScoreColor(score: number): string {
+  if (score >= 8) {
+    return '#4caf50'; // Green
+  } else if (score >= 5) {
+    return '#f9a825'; // Darker yellow
+  } else {
+    return '#f44336'; // Red
+  }
+}
+
 // Search cards by query (returns all matching results)
 export function searchCards(cardsData: ICard[], query: string): ICard[] {
   if (!cardsData || !query.trim()) return [];
@@ -85,21 +96,20 @@ export function searchCards(cardsData: ICard[], query: string): ICard[] {
 
   for (const card of cardsData) {
     // Search by no
-    if (card.no && card.no.toLowerCase().includes(queryLower)) {
+    if (card.no?.toLowerCase().includes(queryLower)) {
       results.push(card);
       continue;
     }
 
     // Search by cnName
-    if (card.cnName && card.cnName.toLowerCase().includes(queryLower)) {
+    if (card.cnName?.toLowerCase().includes(queryLower)) {
       results.push(card);
       continue;
     }
 
     // Search by enName
-    if (card.enName && card.enName.toLowerCase().includes(queryLower)) {
+    if (card.enName?.toLowerCase().includes(queryLower)) {
       results.push(card);
-      continue;
     }
   }
 
@@ -112,12 +122,13 @@ export function getRandomRecommendedCards(cardsData: ICard[], count: number = 3)
 
   // Filter cards with chenTier and chenDesc (high priority)
   const cardsWithChenDesc = cardsData.filter(
-    card => card.chenTier && card.chenTier.trim() !== '' && card.chenDesc && card.chenDesc.trim() !== ''
+    (card) =>
+      card.chenTier && card.chenTier.trim() !== '' && card.chenDesc && card.chenDesc.trim() !== ''
   );
 
   // Filter cards with at least chenTier (medium priority)
   const cardsWithChenTier = cardsData.filter(
-    card => card.chenTier && card.chenTier.trim() !== '' && !cardsWithChenDesc.includes(card)
+    (card) => card.chenTier && card.chenTier.trim() !== '' && !cardsWithChenDesc.includes(card)
   );
 
   // Shuffle function
@@ -151,9 +162,7 @@ export function getRandomRecommendedCards(cardsData: ICard[], count: number = 3)
 
   // If still not enough, add other cards
   if (result.length < count) {
-    const otherCards = cardsData.filter(
-      card => !result.includes(card)
-    );
+    const otherCards = cardsData.filter((card) => !result.includes(card));
     const shuffledOthers = shuffle(otherCards);
     for (const card of shuffledOthers) {
       if (result.length >= count) break;

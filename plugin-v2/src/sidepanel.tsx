@@ -3,7 +3,8 @@ import { useState, useCallback, useMemo, useEffect, useRef } from "react"
 
 import type { ICard, IAuthors } from "~types/card"
 import { searchCards, getStatsData, getTierColor, getAdpColor, getDrawPlayRateColor } from "~lib/cardUtils"
-import { t } from "~lib/i18n"
+import { t, getUILanguage } from "~lib/i18n"
+import { JpWikiScoreBadge } from "~components/JpWikiScoreBadge"
 
 function WheatIcon({ className }: { className?: string }) {
   return (
@@ -60,9 +61,13 @@ function StatsBadge({ adp }: { adp: number }) {
 
 // Card Result Component
 function CardResult({ card, authors }: { card: ICard; authors?: IAuthors }) {
+  console.log('🎸 [test] - CardResult - card:', card);
   const [isExpanded, setIsExpanded] = useState(false)
   const statsData = getStatsData(card)
-  const hasComments = !!(card.baituDesc?.trim() || card.enDesc?.trim() || card.chenDesc?.trim())
+  const currentLang = getUILanguage()
+  const isZh = currentLang === "zh" || currentLang.startsWith("zh-")
+  const enDescToShow = isZh && card.enDesc_trans2zh ? card.enDesc_trans2zh : card.enDesc
+  const hasComments = !!(card.baituDesc?.trim() || enDescToShow?.trim() || card.chenDesc?.trim())
 
   return (
     <div className="plasmo-bg-white plasmo-rounded-lg plasmo-border plasmo-border-gray-200 plasmo-shadow-sm plasmo-overflow-hidden">
@@ -94,6 +99,9 @@ function CardResult({ card, authors }: { card: ICard; authors?: IAuthors }) {
           )}
           {card.chenTier && card.chenTier.trim() && (
             <TierBadge tier={card.chenTier} tierType="chen" author={authors?.chen} />
+          )}
+          {card.jpwiki_score && card.jpwiki_score.trim() !== "" && (
+            <JpWikiScoreBadge score={card.jpwiki_score} size="sm" />
           )}
           {statsData?.adp !== undefined && <StatsBadge adp={statsData.adp} />}
           {hasComments && (
@@ -133,7 +141,7 @@ function CardResult({ card, authors }: { card: ICard; authors?: IAuthors }) {
           )}
 
           {/* EN Comment */}
-          {card.enDesc && card.enDesc.trim() && (
+          {enDescToShow && enDescToShow.trim() && (
             <div className="plasmo-bg-gray-50 plasmo-rounded plasmo-p-2">
               <div className="plasmo-flex plasmo-items-center plasmo-gap-1.5 plasmo-mb-1">
                 {authors?.en?.avatar && (
@@ -144,7 +152,7 @@ function CardResult({ card, authors }: { card: ICard; authors?: IAuthors }) {
                 </span>
               </div>
               <p className="plasmo-text-xs plasmo-text-gray-600 plasmo-leading-relaxed plasmo-whitespace-pre-wrap">
-                {card.enDesc}
+                {enDescToShow}
               </p>
             </div>
           )}
@@ -306,7 +314,7 @@ function SidePanel() {
           <div className="plasmo-text-[9px] plasmo-text-gray-500 plasmo-text-center plasmo-space-y-0.5">
             <p><span className="plasmo-font-medium">{t("footer_pluginCreator")}:</span> Ender • <span className="plasmo-font-medium">{t("footer_statistics")}:</span> Lumin</p>
             <p><span className="plasmo-font-medium">{t("footer_tierProviders")}:</span> Yuxiao_Huang, Chen233, Mark Hartnady</p>
-            <p className="plasmo-opacity-75">{t("footer_specialThanks")} Henry, smile3000</p>
+            <p className="plasmo-opacity-75">{t("footer_specialThanks")} Henry, smile3000, 暧晖</p>
           </div>
         </div>
       </div>

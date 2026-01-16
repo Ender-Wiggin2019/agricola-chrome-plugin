@@ -80,7 +80,6 @@ Rank Card Name	PWR	ADP	APR	Deals	Drafted	Plays	W-Hand	W-Play	WtdPWR	Elo/Play
 
 实现一个数据处理脚本，可以把这些数据整理合并，
 
-
 9.最终基于`index.csv`生成一个`card_all.json`，把csv转成json。
 注意，对于统计数据，我希望你能生成的是这样一个字段：
 
@@ -101,4 +100,4 @@ Rank Card Name	PWR	ADP	APR	Deals	Drafted	Plays	W-Hand	W-Play	WtdPWR	Elo/Play
 
 ```
 
-9. 基于 index.csv，生成一个 index_missing.csv，包含所有cnName为空的行。
+10.  再合并一下 cards_export.json，按照no关联，这里面包含了enDesc_trans2zh和"jpwiki_score": "7.5"。依然生成为card_all.json。

@@ -118,7 +118,7 @@ function IndexPopup() {
           Hartnady
         </p>
         <p className="plasmo-pt-1 plasmo-opacity-75">
-          {t("footer_specialThanks")} Henry, smile3000
+          {t("footer_specialThanks")} Henry, smile3000, 暧晖
         </p>
       </div>
     </div>

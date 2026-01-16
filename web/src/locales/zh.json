@@ -19,7 +19,9 @@
     "loadMore": "加载更多"
   },
   "card": {
-    "description": "描述"
+    "description": "描述",
+    "showOriginal": "显示原文",
+    "showTranslation": "显示翻译"
   },
   "tier": {
     "baitu": "白兔",

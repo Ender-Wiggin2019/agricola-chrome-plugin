@@ -19,7 +19,9 @@
     "loadMore": "Load More"
   },
   "card": {
-    "description": "Description"
+    "description": "Description",
+    "showOriginal": "Show Original",
+    "showTranslation": "Show Translation"
   },
   "tier": {
     "baitu": "白兔",

@@ -35,7 +35,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "Countryman In bigger games the sow and bake bread space tends to be overcrowded, making\nthis guy's utility extremely unreliable. It's not like you should really be\ngiving your opponents an excuse to deny you a sow action. If for some reason\nyour opponents all inexplicably avoid growing crops, he can help save you an\naction or two.",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "乡下人 在人数较多的游戏里，“播种并烤面包”的格子往往会很拥挤，使得这家伙的实用性变得极其不可靠。你也不该真的给对手一个借口来拒绝你进行播种行动。要是出于某种原因，你的对手都莫名其妙地避开种庄稼，他就能帮你省下一两个行动。",
+    "jpwiki_score": "-"
   },
   {
     "no": "A001",
@@ -61,7 +63,9 @@
         "apr": 11.61,
         "drawPlayRate": 0.5822784810126582
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A003",
@@ -87,7 +91,9 @@
         "apr": 6.11,
         "drawPlayRate": 0.8013245033112583
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A004",
@@ -113,7 +119,9 @@
         "apr": 10.46,
         "drawPlayRate": 0.7888198757763976
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "A006",
@@ -139,7 +147,9 @@
         "apr": 10.54,
         "drawPlayRate": 0.5777777777777777
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "A007",
@@ -165,7 +175,9 @@
         "apr": 12.53,
         "drawPlayRate": 0.5205479452054794
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "A008",
@@ -191,7 +203,9 @@
         "apr": 10.56,
         "drawPlayRate": 0.8266666666666667
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "A010",
@@ -217,7 +231,9 @@
         "apr": 5.59,
         "drawPlayRate": 0.7053571428571429
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A011",
@@ -243,7 +259,9 @@
         "apr": 8.3,
         "drawPlayRate": 0.9012345679012346
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A013",
@@ -269,7 +287,9 @@
         "apr": 4.84,
         "drawPlayRate": 0.5887850467289719
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A014",
@@ -289,7 +309,9 @@
         "apr": 5.18,
         "drawPlayRate": 0.976878612716763
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "A015",
@@ -315,7 +337,9 @@
         "apr": 6.59,
         "drawPlayRate": 0.8353658536585366
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "A017",
@@ -341,7 +365,9 @@
         "apr": 9.26,
         "drawPlayRate": 0.865546218487395
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A018",
@@ -367,7 +393,9 @@
         "apr": 8.53,
         "drawPlayRate": 0.9294117647058824
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "A020",
@@ -393,7 +421,9 @@
         "apr": 3.31,
         "drawPlayRate": 0.7435897435897436
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A021",
@@ -405,7 +435,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A022",
@@ -431,7 +463,9 @@
         "apr": 11.0,
         "drawPlayRate": 0.1282051282051282
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "A023",
@@ -457,7 +491,9 @@
         "apr": 8.15,
         "drawPlayRate": 0.631578947368421
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A025",
@@ -469,7 +505,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "A027",
@@ -495,7 +533,9 @@
         "apr": 11.8,
         "drawPlayRate": 0.3125
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "A028",
@@ -521,7 +561,9 @@
         "apr": 8.02,
         "drawPlayRate": 0.6372549019607843
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "A029",
@@ -547,7 +589,9 @@
         "apr": 9.71,
         "drawPlayRate": 0.6697247706422018
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "A030",
@@ -573,7 +617,9 @@
         "apr": 6.69,
         "drawPlayRate": 0.7176470588235294
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "A031",
@@ -599,7 +645,9 @@
         "apr": 11.57,
         "drawPlayRate": 0.6862745098039216
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "A034",
@@ -625,7 +673,9 @@
         "apr": 9.0,
         "drawPlayRate": 0.5945945945945946
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "A035",
@@ -651,7 +701,9 @@
         "apr": 8.05,
         "drawPlayRate": 0.7090909090909091
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "A036",
@@ -677,7 +729,9 @@
         "apr": 11.67,
         "drawPlayRate": 0.4
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "A037",
@@ -703,7 +757,9 @@
         "apr": 7.87,
         "drawPlayRate": 0.8541666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "A039",
@@ -723,7 +779,9 @@
         "apr": 10.42,
         "drawPlayRate": 0.7135416666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "A040",
@@ -749,7 +807,9 @@
         "apr": 11.17,
         "drawPlayRate": 0.5838926174496645
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A041",
@@ -775,7 +835,9 @@
         "apr": 7.55,
         "drawPlayRate": 0.6395348837209303
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A042",
@@ -801,7 +863,9 @@
         "apr": 7.01,
         "drawPlayRate": 0.8232044198895028
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "A043",
@@ -827,7 +891,9 @@
         "apr": 8.17,
         "drawPlayRate": 0.611764705882353
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.17"
   },
   {
     "no": "A045",
@@ -853,7 +919,9 @@
         "apr": 5.42,
         "drawPlayRate": 0.5970149253731343
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "A046",
@@ -879,7 +947,9 @@
         "apr": 9.39,
         "drawPlayRate": 0.3333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.67"
   },
   {
     "no": "A047",
@@ -905,7 +975,9 @@
         "apr": 7.58,
         "drawPlayRate": 0.3870967741935484
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.33"
   },
   {
     "no": "A048",
@@ -925,7 +997,9 @@
         "apr": 3.42,
         "drawPlayRate": 0.9550561797752809
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "A049",
@@ -951,7 +1025,9 @@
         "apr": 4.51,
         "drawPlayRate": 0.7333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "A051",
@@ -977,7 +1053,9 @@
         "apr": 7.99,
         "drawPlayRate": 0.6776859504132231
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A052",
@@ -1003,7 +1081,9 @@
         "apr": 8.74,
         "drawPlayRate": 0.7236842105263158
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "A054",
@@ -1029,7 +1109,9 @@
         "apr": 7.86,
         "drawPlayRate": 0.8028169014084507
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "A057",
@@ -1055,7 +1137,9 @@
         "apr": 10.71,
         "drawPlayRate": 0.504950495049505
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "A058",
@@ -1081,7 +1165,9 @@
         "apr": 8.63,
         "drawPlayRate": 0.5609756097560976
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A059",
@@ -1107,7 +1193,9 @@
         "apr": 9.14,
         "drawPlayRate": 0.5892857142857143
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "A060",
@@ -1133,7 +1221,9 @@
         "apr": 7.5,
         "drawPlayRate": 0.874251497005988
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "A061",
@@ -1145,7 +1235,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "A062",
@@ -1171,7 +1263,9 @@
         "apr": 8.37,
         "drawPlayRate": 0.726027397260274
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "A064",
@@ -1197,7 +1291,9 @@
         "apr": 9.79,
         "drawPlayRate": 0.53125
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "1"
   },
   {
     "no": "A065",
@@ -1223,7 +1319,9 @@
         "apr": 10.5,
         "drawPlayRate": 0.6959459459459459
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A066",
@@ -1249,7 +1347,9 @@
         "apr": 8.65,
         "drawPlayRate": 0.6323529411764706
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A068",
@@ -1275,7 +1375,9 @@
         "apr": 8.79,
         "drawPlayRate": 0.515625
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "A070",
@@ -1301,7 +1403,9 @@
         "apr": 11.5,
         "drawPlayRate": 0.2857142857142857
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "A072",
@@ -1327,7 +1431,9 @@
         "apr": 5.86,
         "drawPlayRate": 0.7786885245901639
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A073",
@@ -1353,7 +1459,9 @@
         "apr": 10.84,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "A074",
@@ -1379,7 +1487,9 @@
         "apr": 5.22,
         "drawPlayRate": 0.7197452229299363
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A076",
@@ -1405,7 +1515,9 @@
         "apr": 7.33,
         "drawPlayRate": 0.4909090909090909
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.33"
   },
   {
     "no": "A077",
@@ -1431,7 +1543,9 @@
         "apr": 7.8,
         "drawPlayRate": 0.8157894736842105
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "A079",
@@ -1457,7 +1571,9 @@
         "apr": 9.12,
         "drawPlayRate": 0.6404494382022472
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "A081",
@@ -1483,7 +1599,9 @@
         "apr": 4.76,
         "drawPlayRate": 0.5125
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "A082",
@@ -1503,7 +1621,9 @@
         "apr": 6.7,
         "drawPlayRate": 0.8561643835616438
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A084",
@@ -1529,7 +1649,9 @@
         "apr": 11.44,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "A085",
@@ -1555,7 +1677,9 @@
         "apr": 8.63,
         "drawPlayRate": 0.6047904191616766
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A089",
@@ -1581,7 +1705,9 @@
         "apr": 3.7,
         "drawPlayRate": 0.7865853658536586
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A091",
@@ -1607,7 +1733,9 @@
         "apr": 9.37,
         "drawPlayRate": 0.6134453781512605
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "A093",
@@ -1633,7 +1761,9 @@
         "apr": 5.3,
         "drawPlayRate": 0.6535947712418301
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A094",
@@ -1659,7 +1789,9 @@
         "apr": 10.27,
         "drawPlayRate": 0.5223880597014925
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A095",
@@ -1685,7 +1817,9 @@
         "apr": 4.24,
         "drawPlayRate": 0.6761904761904762
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A096",
@@ -1711,7 +1845,9 @@
         "apr": 3.28,
         "drawPlayRate": 0.9037433155080213
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "A097",
@@ -1731,7 +1867,9 @@
         "apr": 2.36,
         "drawPlayRate": 0.9005524861878453
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "A099",
@@ -1757,7 +1895,9 @@
         "apr": 12.93,
         "drawPlayRate": 0.6351351351351351
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "A100",
@@ -1783,7 +1923,9 @@
         "apr": 10.83,
         "drawPlayRate": 0.5454545454545454
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A101",
@@ -1809,7 +1951,9 @@
         "apr": 12.28,
         "drawPlayRate": 0.4098360655737705
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.33"
   },
   {
     "no": "A103",
@@ -1835,7 +1979,9 @@
         "apr": 3.54,
         "drawPlayRate": 0.7272727272727273
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "A104",
@@ -1861,7 +2007,9 @@
         "apr": 7.03,
         "drawPlayRate": 0.5357142857142857
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.17"
   },
   {
     "no": "A105",
@@ -1887,7 +2035,9 @@
         "apr": 5.1,
         "drawPlayRate": 0.8242424242424242
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A106",
@@ -1913,7 +2063,9 @@
         "apr": 10.05,
         "drawPlayRate": 0.31666666666666665
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2"
   },
   {
     "no": "A107",
@@ -1939,7 +2091,9 @@
         "apr": 3.0,
         "drawPlayRate": 0.3333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "1"
   },
   {
     "no": "A109",
@@ -1965,7 +2119,9 @@
         "apr": 5.0,
         "drawPlayRate": 0.35
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.33"
   },
   {
     "no": "A113",
@@ -1977,7 +2133,9 @@
     "chenTier": "",
     "baituDesc": "效果：每当你使用职业训练行动格时，向每个生长了不少于3 份小麦且没有蔬菜的田上各放一份蔬菜，压放在所有小麦底部\n强度：我们一般不认为异教导师打出后可以自我触发，因此，想要触发异教导师的效果，最好的时机是在第六季前打出，然后第六季打一张职业，获得2-3 菜，有3-4 下限分的水平，如果没有别的菜手段可以拿，但是也就比手拿菜要强1-2分。\n难度：4/5\n用法：上述说的，在首次播种前打出，然后播种后打一个后期职业搭配：一张合格的五六季职业，前中期麦子卡不搭：菜卡",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "A115",
@@ -2003,7 +2161,9 @@
         "apr": 8.08,
         "drawPlayRate": 0.549618320610687
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "A117",
@@ -2029,7 +2189,9 @@
         "apr": 11.93,
         "drawPlayRate": 0.8655913978494624
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "A118",
@@ -2055,7 +2217,9 @@
         "apr": 5.72,
         "drawPlayRate": 0.8290155440414507
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "A121",
@@ -2081,7 +2245,9 @@
         "apr": 3.07,
         "drawPlayRate": 0.7946428571428571
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A122",
@@ -2107,7 +2273,9 @@
         "apr": 7.17,
         "drawPlayRate": 0.3815789473684211
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "A124",
@@ -2133,7 +2301,9 @@
         "apr": 7.36,
         "drawPlayRate": 0.45161290322580644
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "A126",
@@ -2159,7 +2329,9 @@
         "apr": 5.43,
         "drawPlayRate": 0.5523809523809524
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.33"
   },
   {
     "no": "A127",
@@ -2185,7 +2357,9 @@
         "apr": 4.8,
         "drawPlayRate": 0.6742857142857143
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A128",
@@ -2211,7 +2385,9 @@
         "apr": 6.95,
         "drawPlayRate": 0.296875
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "A129",
@@ -2237,7 +2413,9 @@
         "apr": 5.29,
         "drawPlayRate": 0.6214689265536724
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A130",
@@ -2263,7 +2441,9 @@
         "apr": 10.08,
         "drawPlayRate": 0.26666666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A131",
@@ -2283,7 +2463,9 @@
         "apr": 3.27,
         "drawPlayRate": 0.9365853658536586
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "A132",
@@ -2295,7 +2477,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4"
   },
   {
     "no": "A134",
@@ -2321,7 +2505,9 @@
         "apr": 10.31,
         "drawPlayRate": 0.8055555555555556
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "A135",
@@ -2347,7 +2533,9 @@
         "apr": 5.68,
         "drawPlayRate": 0.7898089171974523
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "A136",
@@ -2373,7 +2561,9 @@
         "apr": 5.21,
         "drawPlayRate": 0.6580645161290323
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A137",
@@ -2399,7 +2589,9 @@
         "apr": 7.52,
         "drawPlayRate": 0.359375
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.67"
   },
   {
     "no": "A139",
@@ -2425,7 +2617,9 @@
         "apr": 5.1,
         "drawPlayRate": 0.4957983193277311
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.33"
   },
   {
     "no": "A140",
@@ -2451,7 +2645,9 @@
         "apr": 3.85,
         "drawPlayRate": 0.704225352112676
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "A141",
@@ -2477,7 +2673,9 @@
         "apr": 8.4,
         "drawPlayRate": 0.32894736842105265
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "A142",
@@ -2503,7 +2701,9 @@
         "apr": 2.7,
         "drawPlayRate": 0.8538011695906432
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "A144",
@@ -2529,7 +2729,9 @@
         "apr": 11.0,
         "drawPlayRate": 0.6
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2"
   },
   {
     "no": "A145",
@@ -2555,7 +2757,9 @@
         "apr": 5.57,
         "drawPlayRate": 0.56
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A146",
@@ -2581,7 +2785,9 @@
         "apr": 5.2,
         "drawPlayRate": 0.6086956521739131
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "A148",
@@ -2607,7 +2813,9 @@
         "apr": 10.07,
         "drawPlayRate": 0.41836734693877553
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "A149",
@@ -2633,7 +2841,9 @@
         "apr": 3.58,
         "drawPlayRate": 0.8967391304347826
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "A150",
@@ -2659,7 +2869,9 @@
         "apr": 7.34,
         "drawPlayRate": 0.3950617283950617
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "A151",
@@ -2685,7 +2897,9 @@
         "apr": 10.6,
         "drawPlayRate": 0.38461538461538464
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.33"
   },
   {
     "no": "A152",
@@ -2711,7 +2925,9 @@
         "apr": 4.2,
         "drawPlayRate": 0.5681818181818182
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.33"
   },
   {
     "no": "A153",
@@ -2737,7 +2953,9 @@
         "apr": 12.6,
         "drawPlayRate": 0.569620253164557
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "A154",
@@ -2763,7 +2981,9 @@
         "apr": 10.0,
         "drawPlayRate": 0.16666666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2.83"
   },
   {
     "no": "A156",
@@ -2789,7 +3009,9 @@
         "apr": 6.45,
         "drawPlayRate": 0.7337278106508875
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "A157",
@@ -2815,7 +3037,9 @@
         "apr": 5.35,
         "drawPlayRate": 0.5254237288135594
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "A158",
@@ -2841,7 +3065,9 @@
         "apr": 6.21,
         "drawPlayRate": 0.3333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.75"
   },
   {
     "no": "A159",
@@ -2867,7 +3093,9 @@
         "apr": 3.17,
         "drawPlayRate": 0.4603174603174603
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A161",
@@ -2893,7 +3121,9 @@
         "apr": 7.97,
         "drawPlayRate": 0.3902439024390244
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "A162",
@@ -2919,7 +3149,9 @@
         "apr": 7.16,
         "drawPlayRate": 0.3220338983050847
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A163",
@@ -2945,7 +3177,9 @@
         "apr": 3.62,
         "drawPlayRate": 0.47560975609756095
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.33"
   },
   {
     "no": "A164",
@@ -2971,7 +3205,9 @@
         "apr": 9.22,
         "drawPlayRate": 0.2839506172839506
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.17"
   },
   {
     "no": "A166",
@@ -2997,7 +3233,9 @@
         "apr": 11.05,
         "drawPlayRate": 0.7272727272727273
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "A167",
@@ -3023,7 +3261,9 @@
         "apr": 0.0,
         "drawPlayRate": 0.0
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3"
   },
   {
     "no": "A168",
@@ -3049,7 +3289,9 @@
         "apr": 5.34,
         "drawPlayRate": 0.8208955223880597
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "A002",
@@ -3075,7 +3317,9 @@
         "apr": 9.92,
         "drawPlayRate": 0.808641975308642
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "A005",
@@ -3101,7 +3345,9 @@
         "apr": 9.39,
         "drawPlayRate": 0.5394736842105263
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "A009",
@@ -3127,7 +3373,9 @@
         "apr": 11.48,
         "drawPlayRate": 0.4426229508196721
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "A012",
@@ -3153,7 +3401,9 @@
         "apr": 9.71,
         "drawPlayRate": 0.5903614457831325
       }
-    }
+    },
+    "enDesc_trans2zh": "饮水槽 饮水槽 需要注意的是，在你至少拥有 2 块牧场之前，畜棚要优于饮水槽。这是一个很大的弱点，因为前期牧场通常不划算。原因在于，如果你把一块牧场和 2 个畜棚进行比较，你能容纳的动物数量是一样的，但畜棚可以在你建造房间时作为“免费”动作建造。另一方面，牧场则需要单独占用一个完整动作。话虽如此，一旦你已经有了几块小牧场，饮水槽在提升你的动物容量方面仍然非常高效。虽然这张改良物在前期常常是个错误选择，但如果你还没建畜棚，在中后期打出它会是个不错的选择。",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "A016",
@@ -3179,7 +3429,9 @@
         "apr": 6.6,
         "drawPlayRate": 0.9885714285714285
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "A019",
@@ -3205,7 +3457,9 @@
         "apr": 6.11,
         "drawPlayRate": 0.815028901734104
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "A024",
@@ -3231,7 +3485,9 @@
         "apr": 9.59,
         "drawPlayRate": 0.6756756756756757
       }
-    }
+    },
+    "enDesc_trans2zh": "脱粒板 脱粒板 说真的，和连枷相当接近，但稍微差一点，因为在前期你更不太可能想花 2W，即使还附带 VP。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A026",
@@ -3257,7 +3513,9 @@
         "apr": 10.18,
         "drawPlayRate": 0.7114427860696517
       }
-    }
+    },
+    "enDesc_trans2zh": "睡觉角 睡觉角 两块谷物田的要求通常意味着，在没有 Room 的 FG 出来之前，这张牌都不会有什么相关性。到那个阶段，取决于玩家人数，它的效果可能从巨大到还行不等。在 2-p 中，你通常更应该做的是不让对手拿到那个格子，而不是被动地防止自己被不让拿。为了这个效果，若你在走 ranching 路线，值得把两块谷物田都播种出来吗？可能不值得，因为光是把那两块田播上种子，花的行动大概率就比没有 Room 的 FG 能给你的还多，而且谷物在残局里是个很差的得分方式。不过，如果你本来就已经在播谷物了，在拥挤的对局里这张牌就会很给力。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A032",
@@ -3283,7 +3541,9 @@
         "apr": 11.78,
         "drawPlayRate": 0.59
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "A033",
@@ -3303,7 +3563,9 @@
         "apr": 8.29,
         "drawPlayRate": 0.8
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "A038",
@@ -3329,7 +3591,9 @@
         "apr": 12.62,
         "drawPlayRate": 0.4897959183673469
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "A044",
@@ -3355,7 +3619,9 @@
         "apr": 6.24,
         "drawPlayRate": 0.7037037037037037
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "A050",
@@ -3381,7 +3647,9 @@
         "apr": 9.84,
         "drawPlayRate": 0.8235294117647058
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A053",
@@ -3407,7 +3675,9 @@
         "apr": 7.77,
         "drawPlayRate": 0.7350993377483444
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "A055",
@@ -3433,7 +3703,9 @@
         "apr": 5.1,
         "drawPlayRate": 0.8243243243243243
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "A056",
@@ -3459,7 +3731,9 @@
         "apr": 6.18,
         "drawPlayRate": 0.5714285714285714
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "A063",
@@ -3485,7 +3759,9 @@
         "apr": 11.36,
         "drawPlayRate": 0.3384615384615385
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.67"
   },
   {
     "no": "A067",
@@ -3511,7 +3787,9 @@
         "apr": 6.26,
         "drawPlayRate": 0.8062015503875969
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "A069",
@@ -3537,7 +3815,9 @@
         "apr": 5.73,
         "drawPlayRate": 0.6637931034482759
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A071",
@@ -3563,7 +3843,9 @@
         "apr": 8.69,
         "drawPlayRate": 0.5596330275229358
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "A075",
@@ -3589,7 +3871,9 @@
         "apr": 6.65,
         "drawPlayRate": 0.5855855855855856
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "A078",
@@ -3615,7 +3899,9 @@
         "apr": 5.0,
         "drawPlayRate": 0.7300613496932515
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "A080",
@@ -3641,7 +3927,9 @@
         "apr": 8.07,
         "drawPlayRate": 0.5625
       }
-    }
+    },
+    "enDesc_trans2zh": "石钳 石钳 这张牌非常棒，并且与像石车和石材交换这样的牌相比毫不逊色。它不仅鼓励你拒绝给对手石头，而且还会预先给你石头，这样你就可以立刻使用。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "A083",
@@ -3667,7 +3955,9 @@
         "apr": 8.66,
         "drawPlayRate": 0.7606837606837606
       }
-    }
+    },
+    "enDesc_trans2zh": "牧羊人杖 牧羊人杖 2 羊换 1 木是个惊人的交易，简单明了。不幸的是，对木头的巨大需求（9！）使它在前期无法发挥作用。如果你打算用羊来解决前期食物，你可能有更好的选择。不过，对于那些已经找到不靠羊也能在前期吃饭办法的人来说，把它作为中后期围栏打法的一部分，这种效率无可匹敌。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A086",
@@ -3693,7 +3983,9 @@
         "apr": 7.87,
         "drawPlayRate": 0.8269230769230769
       }
-    }
+    },
+    "enDesc_trans2zh": "驯兽师 立即打出他会给你一个额外的畜栏，并且在那之后很快就会变成一个额外的牧场（不含VPs）。通常在你计划做到4间房或更多时很值得，因为它能让你避免在早期围栏/畜栏上花费宝贵的木头和行动。相反，你可以去做你本来就想做的事——建更多房间！",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "A087",
@@ -3719,7 +4011,9 @@
         "apr": 11.07,
         "drawPlayRate": 0.7388888888888889
       }
-    }
+    },
+    "enDesc_trans2zh": "护林员显然离谱到爆。这给你省了什么？1芦苇、3-5黏土，以及1个翻修action？荒唐。occ 的一个所谓弱点是你不能免费打出一个 Major/Minor Improvement。不过，这根本不算问题。我们来比较一下一个正常翻修的人，和一个使用护林员然后再花一个 action 去 Major/Minor Improvement 格子的人。‘正常’玩家：花2个 actions 翻修 花大约1个 action 收集3-5黏土 花大约1/2个 action 收集1芦苇 护林员：花1个 action 打出护林员 花1个 action 翻修 花1个 action 打出 major/minor improvement 即便在这种情况下护林员也更强（他大约省了半个 action）。不过，护林员在此之上还有2个额外收益：1）如果有更高效的得分方式，你不必去买 Major improvement。比如，与其花1A拿3石头再花1A去 Major/Minor 拿一口井，你可以直接犁2块地。2）你可以把翻修拖到更晚。因为翻修格子数量有限，‘正常’玩家如果想升到石屋，就得比较早翻修到黏土屋。这意味着他也得比较早去收集黏土和芦苇。护林员可以一直等到最后可能的时刻。我拿到这张牌几乎每次都会打出，而且我很确定我从没因此犯过错。在资源紧张的对局里，他曾单枪匹马帮我赢下比赛：确保我能完成一次石屋翻修，而这在其他情况下本来是不可能的。这就是五星卡的标志。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "A088",
@@ -3745,7 +4039,9 @@
         "apr": 8.89,
         "drawPlayRate": 0.6858638743455497
       }
-    }
+    },
+    "enDesc_trans2zh": "树篱看守者 如果你建两次篱笆，这就价值6木。如果你想要很多篱笆，这不是个坏交易。",
+    "jpwiki_score": "8"
   },
   {
     "no": "A090",
@@ -3771,7 +4067,9 @@
         "apr": 9.31,
         "drawPlayRate": 0.76
       }
-    }
+    },
+    "enDesc_trans2zh": "犁司机 这是另一张卡，要求你不合理地过早拿到一次石头翻新。他和犁匠相比明显处于劣势，而犁匠甚至都不是一张好卡。",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "A092",
@@ -3797,7 +4095,9 @@
         "apr": 7.33,
         "drawPlayRate": 0.7885714285714286
       }
-    }
+    },
+    "enDesc_trans2zh": "养父母用户 Hammerite 认为这张牌可用，说它让你用 4 food 的代价获得 2 次 action。他解释道：if !supportLineBreakNewLine endif",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "A098",
@@ -3823,7 +4123,9 @@
         "apr": 13.06,
         "drawPlayRate": 0.5764705882352941
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A102",
@@ -3849,7 +4151,9 @@
         "apr": 8.05,
         "drawPlayRate": 0.9463414634146341
       }
-    }
+    },
+    "enDesc_trans2zh": "杂货商 一旦你拿到了谷物和蔬菜，他在行动数上就已经回本了，因为通常你得用一个完整行动才能拿其中之一。你一路顺带拿到的资源都是额外赚到的。话虽如此，你需要一个不错的食物引擎来养得起他。我至少见过好几次，有人打出他之后为了赶着喂饱家人，被迫让他闲置不用。不过，只要你能养得起他，他就极其强力。",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "A108",
@@ -3875,7 +4179,9 @@
         "apr": 3.13,
         "drawPlayRate": 0.5555555555555556
       }
-    }
+    },
+    "enDesc_trans2zh": "蘑菇采集者 惊人地强。他基本上就是一个木匠（Cabinetmaker），但只要你拿木头，每次都能用他的能力。如果你打出他，你几乎就是在任何能拿木头的时候都去拿。在这段时间里，他会产出荒谬数量的食物——通常足够应付前两次收获。当然，他也会给你大量木头。因为你有这么强的动力去拿木头，你拿木头的频率会比平时高得多，这就抵消了你不得不留下的那些木头。蘑菇采集者在2-p里可能有风险。因为他会留下1木头，你的对手通常会想去拿4W（在2-p里非常强的位置），并且断掉你的食物。",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "A110",
@@ -3901,7 +4207,9 @@
         "apr": 6.38,
         "drawPlayRate": 0.34782608695652173
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2"
   },
   {
     "no": "A111",
@@ -3953,7 +4261,9 @@
         "apr": 7.77,
         "drawPlayRate": 0.7350993377483444
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A114",
@@ -3979,7 +4289,9 @@
         "apr": 4.35,
         "drawPlayRate": 0.6894409937888198
       }
-    }
+    },
+    "enDesc_trans2zh": "季节工人 这家伙就算没有蔬菜条款也值得上场。照现在这样，他简直惊人。在你把谷物引擎搭起来的前期，他能产出一大堆食物，然后在第2阶段给你早期蔬菜（外加更多食物！）。这是BGG上很多人的心头好，而且理由充分。",
+    "jpwiki_score": "8"
   },
   {
     "no": "A116",
@@ -4005,7 +4317,9 @@
         "apr": 3.26,
         "drawPlayRate": 0.8588235294117647
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "A119",
@@ -4031,7 +4345,9 @@
         "apr": 5.17,
         "drawPlayRate": 0.6442953020134228
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "A120",
@@ -4057,7 +4373,9 @@
         "apr": 7.26,
         "drawPlayRate": 0.710691823899371
       }
-    }
+    },
+    "enDesc_trans2zh": "黏土小屋建造者很尴尬，因为它会鼓励你过早翻修。由于翻修除了VP之外一文不值，你更倾向于在游戏后期再翻修。尽管如此，很难否认这张牌的强度。它给你的10黏土足够你单靠它就建两间黏土房，使得这个职业常常值得出。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A123",
@@ -4083,7 +4401,9 @@
         "apr": 7.89,
         "drawPlayRate": 0.4666666666666667
       }
-    }
+    },
+    "enDesc_trans2zh": "框架建造师 很明显，你需要建造黏土和/或石头房间才能让这个职业值得。建造任何非木头房间通常都是个坏主意，而这并没有带来足够的改善来让我改变想法。这实际上只是另一个披着外衣的糟糕转换类职业。这一次，用1木换1黏土或1石头确实是个好交易，但你得为了用上它去跳一个极其不切实际的圈。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A125",
@@ -4109,7 +4429,9 @@
         "apr": 6.68,
         "drawPlayRate": 0.8175182481751825
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "A133",
@@ -4129,7 +4451,9 @@
         "apr": 13.39,
         "drawPlayRate": 0.9303482587064676
       }
-    }
+    },
+    "enDesc_trans2zh": "吹牛大王 9 分？九分！这张牌光靠自己就能轻松帮你赢下比赛，也是我见过玩家得分超过 60 分最常见的方式。驾驭 Occ 的力量绝非易事，但当你用正确的出牌方式配合合适的牌组组合时，这基本上是无法阻挡的。我承认我的评分体系在这里有点失效——如果你只看他可用的时间占比，他大概是一张三星牌。不过，我之所以额外给他加一星，纯粹是因为他原始的强度——他制造过的彻底碾压和离谱翻盘，比我能想到的任何其他牌都多。这张牌在 draft 里也很容易是 5 星牌，因为你可以调整你的手牌来纳入许多便宜的改良。",
+    "jpwiki_score": "10"
   },
   {
     "no": "A138",
@@ -4155,7 +4479,9 @@
         "apr": 4.38,
         "drawPlayRate": 0.867579908675799
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "A143",
@@ -4181,7 +4507,9 @@
         "apr": 5.75,
         "drawPlayRate": 0.664804469273743
       }
-    }
+    },
+    "enDesc_trans2zh": "Stone Cutter：如果你打算买一个clay oven，那么就很值得，因为在这种情况下这家伙能帮你省下整整一个action。如果你手里还有一些零散的1 stone小改良牌，他也会是个不错的选择。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "A147",
@@ -4207,7 +4535,9 @@
         "apr": 9.62,
         "drawPlayRate": 0.6632124352331606
       }
-    }
+    },
+    "enDesc_trans2zh": "动物商人 如果你选择立刻把额外的动物直接吃掉，如果你每种动物只拿一次，这会是一个 6 食物的打法——几乎值，但还差点，毕竟食物是随着时间给的。不过，这家伙比这强得多。他让你成为第一个获得某种动物 2 只的人，这一点尤其重要，尤其是在收获前一回合翻出一张动物牌的时候。他还允许你为了食物狂刷动物位，阻止其他玩家拿到他们需要的动物。太棒了。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "A155",
@@ -4233,7 +4563,9 @@
         "apr": 4.32,
         "drawPlayRate": 0.6259541984732825
       }
-    }
+    },
+    "enDesc_trans2zh": "咒术师 这显然比季节工更差，但也没有差多少。第1回合打出它，然后在第2和第4轮拿TP，是一个不错的方式来启动谷物引擎。",
+    "jpwiki_score": "7"
   },
   {
     "no": "A160",
@@ -4259,7 +4591,9 @@
         "apr": 5.19,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "A165",
@@ -4285,7 +4619,9 @@
         "apr": 11.47,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "“养猪员”1头公猪？你打算拿一头公猪做什么？这基本上和“养牛员”是同一张牌，只不过前期的公猪远不如前期的牛那么给力。",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "B002",
@@ -4311,7 +4647,9 @@
         "apr": 8.26,
         "drawPlayRate": 0.8888888888888888
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "B008",
@@ -4337,7 +4675,9 @@
         "apr": 9.88,
         "drawPlayRate": 0.4939759036144578
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "B010",
@@ -4357,7 +4697,9 @@
         "apr": 5.62,
         "drawPlayRate": 0.9385474860335196
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.83"
   },
   {
     "no": "B013",
@@ -4383,7 +4725,9 @@
         "apr": 4.39,
         "drawPlayRate": 0.9504950495049505
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.83"
   },
   {
     "no": "B016",
@@ -4409,7 +4753,9 @@
         "apr": 7.05,
         "drawPlayRate": 0.8388888888888889
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "B019",
@@ -4435,7 +4781,9 @@
         "apr": 7.57,
         "drawPlayRate": 0.8870056497175142
       }
-    }
+    },
+    "enDesc_trans2zh": "翻土犁 翻土犁 在我的版本里，这张卡显然是误印了，让玩家只能额外翻一次地，而不是两次。根据你用的是哪个版本，这要么是必下的改良，强过弯犁，要么就是效果平平但有时还能凑合用的牌。按我这个版本的印法，很多人低估了这把犁，可能也跟它名字里有个“mold”（霉菌）有关（呕！）。不过可以这么想：如果你把翻一块地的价值算作1个行动，而把2W的价值算作略少于1个行动（通常默认是3W换1个行动），那么当你用SP/FG没更好的事可做时，这就是一笔不错的交易。它没有任何前置条件，而且效果还算有点用，有时光凭这一点就值得打出。如果你能多翻两块地，这张卡就会变得非常棒，而且比弯犁更强。反正你在一局里大概率都会翻地两次，所以最起码你是用2W换到了4 VP。",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "B024",
@@ -4461,7 +4809,9 @@
         "apr": 10.03,
         "drawPlayRate": 0.6850393700787402
       }
-    }
+    },
+    "enDesc_trans2zh": "套索 套索 这张牌在2人局和3人局里几乎无法使用。在2人局中，动物非常容易获得，所以动物格子很少是一个“抢手”的位置。在3人局中，芦苇极其稀缺，常常你连一根都舍不得用，否则就得花一个完整的额外行动去获取它。然而，在4人局和5人局里，当每位玩家能分到的动物要稀缺得多时，动物格子往往是一个很棒的格子。此外，芦苇也更容易获得。在这些对局中，套索强得惊人，可以说是你最希望抽到的最佳改良之一。",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "B025",
@@ -4487,7 +4837,9 @@
         "apr": 7.53,
         "drawPlayRate": 0.6102941176470589
       }
-    }
+    },
+    "enDesc_trans2zh": "面包桨 面包桨 烤面包行动永远都很有价值，而且有时很难把“播种/烤面包”行动的效率最大化。有时候，你就是想烤面包。不幸的是，通过职业来触发无疑很别扭；等到你真的需要那个烤面包行动时，你至少应该已经进入第三阶段了。到那时，你大多数真正好的职业应该早就已经打到桌面上了。尽管如此，虽然这是个笨拙的解决办法，但终归也是个办法。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B033",
@@ -4513,7 +4865,9 @@
         "apr": 6.65,
         "drawPlayRate": 0.5339805825242718
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "B036",
@@ -4539,7 +4893,9 @@
         "apr": 10.49,
         "drawPlayRate": 0.5657894736842105
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "B039",
@@ -4565,7 +4921,9 @@
         "apr": 9.88,
         "drawPlayRate": 0.8478260869565217
       }
-    }
+    },
+    "enDesc_trans2zh": "织布机 织布机在你赶羊时可以提供相当不错的额外食物，结算时能多出2-3点奖励。和挤奶凳一样，如果你打算获取大量相关动物，那么花这些木头非常值得。不过，这张卡不如挤奶凳强，原因很简单：它要花2W而不是1。由于早期为养羊围栏本来就需要很多前期木头，再加上你进行早期家庭增长所需的5W，这个成本叠加起来会让木头变得意外地紧张。",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B045",
@@ -4591,7 +4949,9 @@
         "apr": 12.84,
         "drawPlayRate": 0.5625
       }
-    }
+    },
+    "enDesc_trans2zh": "草莓地 草莓地 前置条件很烦，但带收益的免费2VP小改良不容忽视。而且，你通常也需要2块菜地才能把蔬菜打满。这几乎是第11轮拿来和SP一起拿的完美卡牌，对吧——就在强力的第5阶段行动出来之前。",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B047",
@@ -4617,7 +4977,9 @@
         "apr": 5.77,
         "drawPlayRate": 0.7027027027027027
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "B050",
@@ -4643,7 +5005,9 @@
         "apr": 7.05,
         "drawPlayRate": 0.7305389221556886
       }
-    }
+    },
+    "enDesc_trans2zh": "黄油搅拌机 黄油搅拌机 2W 对这个效果来说有点太贵了。要走运到同时有一堆牛 AND 羊的情况相当少见，所以大多数时候它玩起来就像一张费用过高的纺锤。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B056",
@@ -4669,7 +5033,9 @@
         "apr": 5.86,
         "drawPlayRate": 0.53125
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "B057",
@@ -4695,7 +5061,9 @@
         "apr": 4.53,
         "drawPlayRate": 0.6538461538461539
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "B061",
@@ -4721,7 +5089,9 @@
         "apr": 10.58,
         "drawPlayRate": 0.6694214876033058
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B062",
@@ -4747,7 +5117,9 @@
         "apr": 6.93,
         "drawPlayRate": 0.7419354838709677
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B066",
@@ -4773,7 +5145,9 @@
         "apr": 6.8,
         "drawPlayRate": 0.7111111111111111
       }
-    }
+    },
+    "enDesc_trans2zh": "麻袋车 麻袋车 到你打出2张职业的时候，通常也已经过了第5轮，不过即便如此，用2W换最终的3G也算是一笔不错的交易。这张牌在支持一种不早期播种谷物的烘焙策略方面可以有很高的价值。烘焙的传统弱点是不得不播种一两块谷物田，因为这会延迟FG。麻袋车可以帮助抵消这一点。",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "B068",
@@ -4799,7 +5173,9 @@
         "apr": 10.37,
         "drawPlayRate": 0.8397790055248618
       }
-    }
+    },
+    "enDesc_trans2zh": "豆田 豆田 在你想要种植蔬菜的时候，这个前置条件基本上总是已经满足了。无需成本的一分VP小型改良通常每局都很值得，而豆田确实有个真正有用的能力这一点，使得一旦你已经打出了2张occs，它就成了必下之选。",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "B074",
@@ -4825,7 +5201,9 @@
         "apr": 7.48,
         "drawPlayRate": 0.6526315789473685
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "B077",
@@ -4851,7 +5229,9 @@
         "apr": 8.99,
         "drawPlayRate": 0.8054054054054054
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "B080",
@@ -4877,7 +5257,9 @@
         "apr": 8.32,
         "drawPlayRate": 0.5987261146496815
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "B084",
@@ -4903,7 +5285,9 @@
         "apr": 11.06,
         "drawPlayRate": 0.5071428571428571
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B087",
@@ -4929,7 +5313,9 @@
         "apr": 4.66,
         "drawPlayRate": 0.6436781609195402
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "B089",
@@ -4955,7 +5341,9 @@
         "apr": 9.98,
         "drawPlayRate": 0.5411764705882353
       }
-    }
+    },
+    "enDesc_trans2zh": "Groom Stone 房屋极其难以到达，通常你只能在最后一回合或倒数第二回合才到那里。所以你得拼了命才能让你的翻新足够早，这样这家伙才真的能做点什么。一旦你到了那里，每回合一个免费的马厩也算不上有多破坏平衡。",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "B091",
@@ -4981,7 +5369,9 @@
         "apr": 5.33,
         "drawPlayRate": 0.93717277486911
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "B095",
@@ -5007,7 +5397,9 @@
         "apr": 8.28,
         "drawPlayRate": 0.5294117647058824
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "B097",
@@ -5033,7 +5425,9 @@
         "apr": 7.42,
         "drawPlayRate": 0.6766917293233082
       }
-    }
+    },
+    "enDesc_trans2zh": "学者 “当你有一栋石屋时”这一条款总是一个巨大的门槛。在这种情况下，等你拿到石屋时，你其实应该已经把大多数你真正想打出的职业都打出去了。不过，尤其是在玩家人数较多的对局中（早期翻修成石屋既有可能也偶尔值得），如果你有一些想在后期才打出的改良/职业，这可以帮你省下2到3个行动。在极少数你能把他正确用起来的情况下，他看起来会强得离谱。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "B098",
@@ -5059,7 +5453,9 @@
         "apr": 13.22,
         "drawPlayRate": 0.5205479452054794
       }
-    }
+    },
+    "enDesc_trans2zh": "有机农夫 这张丑陋的牌是不是在用微妙的方式评论有机农业的徒劳？它要求你花费大量资源建造动物的基础设施，却又不实际使用这些基础设施。与其打出他，通常更好的做法是用该行动去获得更多动物来填满你空着的牧场。不过，有时你想要（而且能得到的！）也就只有2分。在拥挤的对局中，动物很稀缺，如果你满足要求，这可能是个还行的打法。",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B099",
@@ -5085,7 +5481,9 @@
         "apr": 3.14,
         "drawPlayRate": 0.8235294117647058
       }
-    }
+    },
+    "enDesc_trans2zh": "导师 这张卡要求你在行动最重要的时候尽早打出他，然后一直到游戏最后才发挥作用。这样可不是一张好卡的配方。话虽如此，他和“永远的学生”是个惊人的组合。通常，你能把手里所有的职业都打出去，让他变成一个 6 分的打法。不错！",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B102",
@@ -5111,7 +5509,9 @@
         "apr": 12.01,
         "drawPlayRate": 0.5373134328358209
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "B104",
@@ -5123,7 +5523,9 @@
     "chenTier": "",
     "baituDesc": "效果：随时把农场中一羊换成1猪/菜/石\n强度：体系卡，如果有充足的羊，收益是无限大的。2羊换2菜，1分换4分；2羊换2猪，1分换3分；2羊换2石头，1分换2分。这样看收益上限就有6分左右了。\n难度：4/5\n用法：第一次扩或者第二次扩时打至少2马厩，养羊。或者用牧羊杖、召羊人养羊。等四五季及时再获得一个饲养空间养猪。\n变体：配合新卡挖掘铲，可以第二季末拿到3猪，然后每次踩木头都获得3饭以上，全局不饿。",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B107",
@@ -5149,7 +5551,9 @@
         "apr": 8.17,
         "drawPlayRate": 0.616822429906542
       }
-    }
+    },
+    "enDesc_trans2zh": "男仆 由于在2-p和3-p中缺乏相关资源，通常很难足够早地进行翻修，从而让男仆变得值得。在5-p以及较小程度上的4-p中，然而，黏土足够充裕，以至于先翻修为黏土房、再建造房间成为一个真正可行的选择。从那里开始，为第二次翻修获取石头并不会绕太多路。在那种环境下，男仆可以很强，甚至会破坏平衡，这取决于你能有多早把他打出来。",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "B108",
@@ -5175,7 +5579,9 @@
         "apr": 7.89,
         "drawPlayRate": 0.4827586206896552
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B109",
@@ -5201,7 +5607,9 @@
         "apr": 5.42,
         "drawPlayRate": 0.6617647058823529
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "B114",
@@ -5227,7 +5635,9 @@
         "apr": 3.32,
         "drawPlayRate": 0.8563218390804598
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B118",
@@ -5279,7 +5689,9 @@
         "apr": 3.75,
         "drawPlayRate": 0.525
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "B123",
@@ -5305,7 +5717,9 @@
         "apr": 11.73,
         "drawPlayRate": 0.532258064516129
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "B126",
@@ -5331,7 +5745,9 @@
         "apr": 4.6,
         "drawPlayRate": 0.7554347826086957
       }
-    }
+    },
+    "enDesc_trans2zh": "Carpenter 如果你在翻修之前先建了3个房间，他就相当于6点有条件的木头——还行，但算不上特别划算，因为木头是随着时间慢慢给的，而且你被迫把它用在特定的事情上。考虑到大家实际上很少会一开始就建3个房间（通常是芦苇太稀缺），这情况不会太常见。如果你只建两个房间，4木换1F1A我觉得也还行吧。不过，4/3/2/1木头的职业在你打出它们的那一刻就直接给4木，而不是等你建第4个房间时才给（而第4个房间，取决于局势，可能要等很久）。此外，那些职业给的木头没有任何附加条件——你不需要非得用来建房间。按我的经验，所有这些4/3/2/1职业都能用，但绝不是必打。由于如果你只建2个房间的话Carpenter几乎是严格更差，所以那种情况下他大概不值得打。确实，他也可以用来降低泥屋和石屋的成本，不仅仅是木屋。然而，我认为泥屋和石屋大多是边缘情况——大多数房间是木头，少数是泥，几乎没有石头（Well通常是拿分更高效的方式）。另外，在你真的想建泥屋的情况下，泥土可能已经足够常见，以至于2 clay和2 wood并不比4 wood好多少。",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B136",
@@ -5357,7 +5773,9 @@
         "apr": 4.85,
         "drawPlayRate": 0.7944444444444444
       }
-    }
+    },
+    "enDesc_trans2zh": "管家 1/2/3/4 木材循环中最好的。木材能帮你建造房间！",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B142",
@@ -5383,7 +5801,9 @@
         "apr": 7.32,
         "drawPlayRate": 0.7712418300653595
       }
-    }
+    },
+    "enDesc_trans2zh": "蔬果商 非常不错。犁两块田，拿一份谷物和一份蔬菜，然后播种走起。他确实会因为把你分成两条路而吃点亏——你的一部分想用早期蔬菜配合烹饪壁炉来当食物，而他强制你拿的谷物又把你引向烘焙。这使得他没法成为一张 5 星卡，但他依然很强。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B145",
@@ -5409,7 +5829,9 @@
         "apr": 4.11,
         "drawPlayRate": 0.7724867724867724
       }
-    }
+    },
+    "enDesc_trans2zh": "灌木收集者 这家伙在3人局里强得离谱，因为芦苇会极其紧缺。随着玩家人数增加，芦苇会变得越来越容易获得，他就会变弱，但如果你能想办法弄到一些额外的木头，他仍然会有一席之地。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "B156",
@@ -5435,7 +5857,9 @@
         "apr": 3.78,
         "drawPlayRate": 0.6901408450704225
       }
-    }
+    },
+    "enDesc_trans2zh": "粮仓管理员 如果你本来就打算无论如何都拿 2 grain，他就能回本。而且，RSF 格子通常一开始就相当强。给自己一个理由去狂刷它从来都不是坏事。大概相当于用 1F1A 换 3 grain——这是个极好的交易。",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "B163",
@@ -5461,7 +5885,9 @@
         "apr": 7.44,
         "drawPlayRate": 0.5413533834586466
       }
-    }
+    },
+    "enDesc_trans2zh": "牧师 和女仆一样，如果你认为自己是小组里更好的玩家之一，你根本不该打这张牌。不过，如果我坐在一桌很硬的局里，我倒能想象自己在前几轮先把食物引擎做起来，然后用这家伙来追赶。随便一提：这和情人是个爆笑的 combo。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B164",
@@ -5487,7 +5913,9 @@
         "apr": 3.93,
         "drawPlayRate": 0.32558139534883723
       }
-    }
+    },
+    "enDesc_trans2zh": "羊语者 这张牌最棒的部分是插画：画着一个哥们用扩音器对他的羊“低语”。无价。可惜，跟野猪语者一样，他是一张明显不给力的牌。等到大多数羊真的都过来了，你甚至都不在乎了。他需要在第二次收获之前给你一对可繁殖的羊，才算能玩。你还不如把行动花在建设你的农场上，这样你就能成为第一个拿到一对可繁殖的羊的人。",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "B166",
@@ -5513,7 +5941,9 @@
         "apr": 8.78,
         "drawPlayRate": 0.6390977443609023
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "C016",
@@ -5539,7 +5969,9 @@
         "apr": 12.11,
         "drawPlayRate": 0.9206349206349206
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "C026",
@@ -5565,7 +5997,9 @@
         "apr": 6.86,
         "drawPlayRate": 0.7716049382716049
       }
-    }
+    },
+    "enDesc_trans2zh": "连枷 连枷 当你走烘焙路线时，后期有时候你只想做的就是烤面包。在这种情况下，这张卡可以提高你的效率，因为犁地几乎总是一个好行动，而播种则需要空地。不幸的是，这张卡也有和 Builder's Trowel 同样的问题——由于你必须花一个半行动和一根木头来打出它，它并不能真正帮你节省一个行动。此外，即使你在走烘焙路线，额外的烤面包行动往往也并非必要。不过，随着游戏玩家人数的增加，这张卡的价值肯定会上升。在 4-p 和 5-p 中，被别人卡在播种/烤面包点位的情况并不少见，而这可以很好地绕过这个问题。",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "C041",
@@ -5591,7 +6025,9 @@
         "apr": 7.07,
         "drawPlayRate": 0.7642857142857142
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "C065",
@@ -5617,7 +6053,9 @@
         "apr": 7.96,
         "drawPlayRate": 0.7090909090909091
       }
-    }
+    },
+    "enDesc_trans2zh": "谷仓 谷仓 以它的效果来说，这个东西贵得离谱。  \n由于其 VP 效率很低，谷物最好是在前期就入手，否则就干脆别碰。除非你在玩某种奇葩的烘焙策略、而且谷田很少，否则在前期你用那 3 木头/黏土大概率总会有更好的事情可做。",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "C076",
@@ -5643,7 +6081,9 @@
         "apr": 7.48,
         "drawPlayRate": 0.861878453038674
       }
-    }
+    },
+    "enDesc_trans2zh": "木车 木车 这张牌在你拿两次木头之后几乎才刚刚回本。由于需要三个居民，你通常没有时间再多拿太多木头。尽管如此，如果你能比较早把它打出来，它仍然可以算是一项不错的长期投资。它还能防止你在木头上被卡住（即便是区区的 1W 也能变成 3W），这算是个很好的额外加成。",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "C079",
@@ -5669,7 +6109,9 @@
         "apr": 5.7,
         "drawPlayRate": 0.6474820143884892
       }
-    }
+    },
+    "enDesc_trans2zh": "石车 石车 你通常不可能太早就拿到两个occ和2点多余木头，所以这张牌经常会一直留在你手里。不过，在那些你能早早打出的对局里，它会送来大量的石头——有时相当于两次行动的量。石头大概是最适合随着时间慢慢送来的资源。因为它主要是后期资源，你也不介意等它。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C090",
@@ -5695,7 +6137,9 @@
         "apr": 4.31,
         "drawPlayRate": 0.9826589595375722
       }
-    }
+    },
+    "enDesc_trans2zh": "田地看守人 即使是相对较新的玩家也会立刻明白这张牌有多强。我弟弟喜欢开玩笑说田地看守人是一张牌的 combo，因为翻耕并拿取一份粮食之间的协同实在太明显了。每次我把这家伙拿出来（田地看守人，不是我弟弟）都让人觉得有点脏。",
+    "jpwiki_score": "9.67"
   },
   {
     "no": "C096",
@@ -5721,7 +6165,9 @@
         "apr": 7.59,
         "drawPlayRate": 0.4625
       }
-    }
+    },
+    "enDesc_trans2zh": "商人 不同于商人（Businessman）和旅行推销员（Traveling Salesman），这张牌在确保你前期拿到一个壁炉方面没有用处。相反，它给予你同样几乎无关紧要的能力：打出两张小型改良，这实际上减少了你能够拿 SP 的次数。然而这一次，你还得付出食物才能这么做！商人唯一额外的用处是能够一次购买两张大型改良。这同样也是一种几乎没用的能力。如果你手头有那么多资源闲着，你就应该去翻修！",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "C098",
@@ -5747,7 +6193,9 @@
         "apr": 8.77,
         "drawPlayRate": 0.3939393939393939
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "C108",
@@ -5773,7 +6221,9 @@
         "apr": 9.26,
         "drawPlayRate": 0.6439393939393939
       }
-    }
+    },
+    "enDesc_trans2zh": "游手好闲者 显然，这是一张你通常会想在第13轮打出的牌。在那一轮，如果你没有任何相关的动物繁殖，这张牌可以让你在没有任何惩罚的情况下省下9食物。我不需要告诉你这有多划算。另一个很扎实的用法是在第1次或第2次收获之前使用这张牌。如果你一直在积极追求FG（而你应该这样做！），你往往实际上没什么相关的东西可收获，使得这个Occ 只有好处没有坏处。从这个意义上说，这张牌有点像一个你必须早打的Mendicant——这并不总是很棒，但有时会非常强，尤其是当你的对手在努力断你食物的时候。这张牌永远是有条件的，但在某些情况下可能极其强力——甚至强到破局。当你的对手很强并且在关注你的农场时，它的价值会更高；很多时候，你可以骗他们浪费行动来断你食物。",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "D009",
@@ -5799,7 +6249,9 @@
         "apr": 12.03,
         "drawPlayRate": 0.4461538461538462
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "D015",
@@ -5825,7 +6277,9 @@
         "apr": 6.23,
         "drawPlayRate": 0.9058823529411765
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "D049",
@@ -5851,7 +6305,9 @@
         "apr": 7.81,
         "drawPlayRate": 0.903954802259887
       }
-    }
+    },
+    "enDesc_trans2zh": "书架 书架 1W 换 1VP 本身就是一笔还不错的交易，所以这张卡不需要提供巨大的收益也值得。你不一定总会处在已经打出了三个职业并且还打算再打一个的局面，但如果是这样的话通常就值得。和教育家或永远的学生这类卡牌连动时会变得非常离谱。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "D115",
@@ -5877,7 +6333,9 @@
         "apr": 12.02,
         "drawPlayRate": 0.4918032786885246
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "D118",
@@ -5903,7 +6361,9 @@
         "apr": 3.32,
         "drawPlayRate": 0.9247311827956989
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "D122",
@@ -5915,7 +6375,9 @@
     "chenTier": "",
     "baituDesc": "效果：打出时立即获得2c，之后每回合限一次，用2f买2c。\n强度：打出时的2c价值2分，前两次买2c的价值较高，每c一分，之后的c不值钱。因此正常情况下，4分卡。食物溢出的缺砖局更强。\n难度：3/5\n用法：有强力耗砖卡和强力食物引擎再打，如泥潭。早期可以抢个炉子，烤炉之类的。搭配：铸钟售土，前期可以每回合1f，后期食物溢出甚至是每回合用2f换1分。\n变体：铸钟售土陶瓷+一张面包卡如炉火，每回合烤1c，钟1c",
     "enDesc": "Clay Seller Another bad conversion Occ. Rather than take the 4 clay and convert it into 2\nsheep, why don't you just take 2 sheep? This doesn't even have utility for\nearly cattle, as 4 clay is usually a highly contested spot in the early game.",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "卖陶工 又一个糟糕的转换 Occ。与其拿 4 clay 再把它转换成 2 sheep，为什么不直接拿 2 sheep？这对前期 cattle 也没什么用处，因为 4 clay 通常是前期游戏里竞争非常激烈的一个位置。",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "D138",
@@ -5941,7 +6403,9 @@
         "apr": 4.04,
         "drawPlayRate": 0.9086021505376344
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.67"
   },
   {
     "no": "D144",
@@ -5967,7 +6431,9 @@
         "apr": 3.24,
         "drawPlayRate": 0.7440476190476191
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "D158",
@@ -5993,7 +6459,9 @@
         "apr": 6.5,
         "drawPlayRate": 0.4827586206896552
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.67"
   },
   {
     "no": "D168",
@@ -6019,7 +6487,9 @@
         "apr": 9.4,
         "drawPlayRate": 0.6838709677419355
       }
-    }
+    },
+    "enDesc_trans2zh": "Stockman 作为一名烘焙师，我最喜欢的玩法之一就是在超级后期才打出 Stockman，而且手上没有任何动物，然后利用“build room(s)”格子来建 3 个马厩。砰！9 分。另一个用法是用他来早早拿到一对可繁殖的牛。你只需要 2 个马厩，再配上像 Cattle Whisperer 之类的牌；篱笆可以之后再建。不过大多数时候，缺少繁殖单只动物的方法会让他太别扭，不太值得费劲。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "C002",
@@ -6045,7 +6515,9 @@
         "apr": 9.7,
         "drawPlayRate": 0.8303571428571429
       }
-    }
+    },
+    "enDesc_trans2zh": "马厩 马厩 以半价买一个马厩算是个相当小的效果，因为当你建造房间时，你之后总是可以选择以原价购买马厩。和往常一样，这张通行卡的即时效用会因为你的左手边对手很可能自己也会打出它而降低。尽管如此，你能拿到什么就拿什么，而且很多时候你也不会有更好的牌可打。",
+    "jpwiki_score": "7"
   },
   {
     "no": "C044",
@@ -6071,7 +6543,9 @@
         "apr": 6.21,
         "drawPlayRate": 0.7264957264957265
       }
-    }
+    },
+    "enDesc_trans2zh": "鸡舍 鸡舍 没有前置条件且费用灵活，通常很容易用满额8食物把它打出来。考虑到还有1 VP，这简直是笔超值买卖。唯一不是绝对必打的时候是在3人局，有时你可能舍不得那根芦苇。除此之外的所有模式里，这是游戏中最强的改良之一。",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "C070",
@@ -6097,7 +6571,9 @@
         "apr": 9.93,
         "drawPlayRate": 0.9011627906976745
       }
-    }
+    },
+    "enDesc_trans2zh": "生菜地 生菜地 与豆田相比，这个小升级并不能完全弥补更高的职业需求。如果你一直在玩职业偏重的对局，它仍然是必出牌，但如果你手里只有 1 或 2 张好职业（这种情况很常见），那大概不值得费这个劲。",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "C087",
@@ -6123,7 +6599,9 @@
         "apr": 12.34,
         "drawPlayRate": 0.7514792899408284
       }
-    }
+    },
+    "enDesc_trans2zh": "泥瓦匠 你通常会在游戏末期打出这家伙来额外获得3分。\n光是这一点就很划算，即使你不利用额外的房间来再做一次\n家庭成长。有时候，想把房子扩到4间石屋会很难。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C107",
@@ -6149,7 +6627,9 @@
         "apr": 8.89,
         "drawPlayRate": 0.6287878787878788
       }
-    }
+    },
+    "enDesc_trans2zh": "烘焙师名副其实，这是游戏中最适合进行烘焙的职业之一。假设你给他配上一座烤炉和两块谷物田，你就不该会挨饿。这个Occ的强度取决于游戏中的玩家人数。\n\n在2-p游戏里，烘焙策略糟透了。一方面，前期没有获取石头的途径。另一方面，2er里的动物太多了，你不仅想把它们都据为己有，还想阻止对手把它们全拿走！在3-p里，由于前期缺少石头，烘焙依然很差，但烘焙师往往强到足以让你仍然值得去玩他。在4-p和5-p中，烘焙的可行性足够高，使得烘焙师成为促使你去烘焙的强力诱因。",
+    "jpwiki_score": "8"
   },
   {
     "no": "C116",
@@ -6175,7 +6655,9 @@
         "apr": 2.65,
         "drawPlayRate": 0.8607594936708861
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "C122",
@@ -6201,7 +6683,9 @@
         "apr": 4.52,
         "drawPlayRate": 0.7515923566878981
       }
-    }
+    },
+    "enDesc_trans2zh": "砌砖工 这张牌的价值会随着玩家人数的变化而剧烈且不稳定地波动。\n在 2-p 中，如果你手牌的类型合适，它应该能给你大约 4 或 5 黏土。由于在 2-p 里黏土确实是一种稀缺资源（见这个帖子 这个帖子），因此它相当有价值。在 3-p 和 4-p 中，砌砖工非常差——黏土充足到几乎能满足你想要的所有黏土相关改良。在 5-p 中，价值又会回升——游戏里黏土多到黏土房间成为真正的可能。在这种情况下，这张职业牌随着时间推移可能价值高达 8-9 黏土。这很划算。",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "C142",
@@ -6227,7 +6711,9 @@
         "apr": 6.92,
         "drawPlayRate": 0.7328767123287672
       }
-    }
+    },
+    "enDesc_trans2zh": "市场叫卖者 一个强力效果，但你几乎每次使用他都会为每个对手省下一个行动。不要试图用“每个人都能多拿一粒谷物”来为他辩解，因为你会给许多（如果不是全部）对手他们的",
+    "jpwiki_score": "8"
   },
   {
     "no": "C144",
@@ -6253,7 +6739,9 @@
         "apr": 8.58,
         "drawPlayRate": 0.37254901960784315
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.17"
   },
   {
     "no": "C153",
@@ -6279,7 +6767,9 @@
         "apr": 10.33,
         "drawPlayRate": 0.574468085106383
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "D020",
@@ -6305,7 +6795,9 @@
         "apr": 9.22,
         "drawPlayRate": 0.9254658385093167
       }
-    }
+    },
+    "enDesc_trans2zh": "Turnwrest犁 Turnwrest犁 与Crooked犁相比，能用你的犁和/或播种来使用这张牌的能力，并不足以弥补更高的职业需求。尽管如此，这仍然是一张出色的牌，我几乎总是会设法把它打出来。",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "D037",
@@ -6331,7 +6823,9 @@
         "apr": 11.75,
         "drawPlayRate": 0.23529411764705882
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "D073",
@@ -6357,7 +6851,9 @@
         "apr": 7.85,
         "drawPlayRate": 0.8411764705882353
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "D077",
@@ -6409,7 +6905,9 @@
         "apr": 7.21,
         "drawPlayRate": 0.8135593220338984
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "D084",
@@ -6435,7 +6933,9 @@
         "apr": 8.52,
         "drawPlayRate": 0.9185185185185185
       }
-    }
+    },
+    "enDesc_trans2zh": "饲料颗粒 饲料颗粒 我不太喜欢对完全免费的改良挑刺，但这确实是个偏小众的能力。蔬菜每个值 1 VP，而动物在你拥有第一个之后就总是少于 1 VP。这意味着很多时候这根本不划算。还有一个尴尬点：你得同时有大量蔬菜 AND 还有装着动物的栅栏（但动物又不能太多！）——除非有不寻常的情况，否则很少会遇到这种局面。这张改良最好的用法，是当像 Undergardener 这样的职业给了你一大堆蔬菜的时候。既然你大概率很容易把蔬菜拿满，把多余作物转成一些额外的胜利点会挺不错。这张牌也可以用一种有点笨拙的方式来搞到一对繁殖用的牛——先在第 1 格拿牛，然后再用你的蔬菜去换。通常来说，这充其量也就是个边际收益。不过，考虑到它的价格标签，也确实很难反驳。",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D097",
@@ -6455,7 +6955,9 @@
         "apr": 3.03,
         "drawPlayRate": 0.9611111111111111
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "D098",
@@ -6481,7 +6983,9 @@
         "apr": 12.6,
         "drawPlayRate": 0.3225806451612903
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.83"
   },
   {
     "no": "D111",
@@ -6507,7 +7011,9 @@
         "apr": 7.0,
         "drawPlayRate": 0.45454545454545453
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4"
   },
   {
     "no": "D148",
@@ -6533,7 +7039,9 @@
         "apr": 8.44,
         "drawPlayRate": 0.5419847328244275
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "C006",
@@ -6559,7 +7067,9 @@
         "apr": 10.45,
         "drawPlayRate": 0.4731182795698925
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "C027",
@@ -6585,7 +7095,9 @@
         "apr": 4.97,
         "drawPlayRate": 0.8531073446327684
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C035",
@@ -6611,7 +7123,9 @@
         "apr": 1.91,
         "drawPlayRate": 0.8156028368794326
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "C051",
@@ -6637,7 +7151,9 @@
         "apr": 8.13,
         "drawPlayRate": 0.6551724137931034
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "C056",
@@ -6663,7 +7179,9 @@
         "apr": 6.51,
         "drawPlayRate": 0.8231292517006803
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "C068",
@@ -6689,7 +7207,9 @@
         "apr": 4.1,
         "drawPlayRate": 0.9943181818181818
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "C086",
@@ -6715,7 +7235,9 @@
         "apr": 9.28,
         "drawPlayRate": 0.6060606060606061
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "C109",
@@ -6741,7 +7263,9 @@
         "apr": 8.33,
         "drawPlayRate": 0.5511811023622047
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "C112",
@@ -6767,7 +7291,9 @@
         "apr": 5.93,
         "drawPlayRate": 0.7518796992481203
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "C135",
@@ -6793,7 +7319,9 @@
         "apr": 4.94,
         "drawPlayRate": 0.7023809523809523
       }
-    }
+    },
+    "enDesc_trans2zh": "警官 如果除了你之外的某个人因为没有负分而拿到那 5 VP，你大概本来就会输给他们了。这样一来，这个 VP 能力基本上就是一个 EV 中性的操作，尽管如果你的对手有 Yeoman Farmer 或 Hide Farmer 的话，可能会有风险。",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "C147",
@@ -6819,7 +7347,9 @@
         "apr": 10.48,
         "drawPlayRate": 0.42857142857142855
       }
-    }
+    },
+    "enDesc_trans2zh": "牛倌 如果你打出这张牌，就应该抱着每回合都去拿“1头牛”格子的意图。这样做会产生大量食物，并剥夺对手的牛，至少在他们意识到你在做什么并开始积极抢“1头牛”格子之前。这个策略可以非常强力，但很大程度上依赖于对手不会为了那2VP顺便阻止你而直接去拿1头牛。",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "C149",
@@ -6845,7 +7375,9 @@
         "apr": 11.38,
         "drawPlayRate": 0.5617977528089888
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "D042",
@@ -6871,7 +7403,9 @@
         "apr": 6.87,
         "drawPlayRate": 0.8461538461538461
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "D075",
@@ -6897,7 +7431,9 @@
         "apr": 8.47,
         "drawPlayRate": 0.8113207547169812
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "D078",
@@ -6923,7 +7459,9 @@
         "apr": 8.22,
         "drawPlayRate": 0.7916666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "芦苇池 芦苇池 在3人局中，这张牌可以制造碾压局面。当其他玩家都在为芦苇争得焦头烂额时，你只需打出职业，然后再打出这张牌，完全避开争夺。在其他模式中，后期打出它有时能帮你省下整整一个行动，因为你无需为了翻修而去抢芦苇。虽然三个职业的门槛很高，但它的效果足够强，通常值得优先考虑。",
+    "jpwiki_score": "8"
   },
   {
     "no": "D087",
@@ -6949,7 +7487,9 @@
         "apr": 13.05,
         "drawPlayRate": 0.6666666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "建造大师 如果你能设法达到 5 个石头房间，他作为一个 3 分的打法就值得了。  \n然而，这通常是个相当难完成的任务，而 3 分也不足以成为积极把这家伙打出来的动力。",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D104",
@@ -6975,7 +7515,9 @@
         "apr": 5.45,
         "drawPlayRate": 0.9333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "D119",
@@ -7001,7 +7543,9 @@
         "apr": 4.18,
         "drawPlayRate": 0.9130434782608695
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "D120",
@@ -7027,7 +7571,9 @@
         "apr": 6.03,
         "drawPlayRate": 0.6078431372549019
       }
-    }
+    },
+    "enDesc_trans2zh": "黏土送货员 这家伙在2人局里最有用，因为黏土可能非常稀缺。玩家越多，这张牌就越偏向条件性出牌，因为在第6轮之后黏土应该已经很充足了。如果你要打出他，就应该抱着要大量使用黏土的意图（黏土房间、陶器等）。这样希望能防止你的对手太容易拿到黏土。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "D152",
@@ -7053,7 +7599,9 @@
         "apr": 1.94,
         "drawPlayRate": 0.8994413407821229
       }
-    }
+    },
+    "enDesc_trans2zh": "赞助人 你需要在决定打出这个家伙之前先看看你的手牌，\n因为只有在你在他之后打出3张职业牌时，他才开始变得划算。\n如果是这样，那就尽管把他派上场。否则，他就留在手里。\n和永远的学生一起，这大概是快速冲动物栏/采石场的最佳方式。",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "C011",
@@ -7079,7 +7627,9 @@
         "apr": 10.03,
         "drawPlayRate": 0.6689655172413793
       }
-    }
+    },
+    "enDesc_trans2zh": "野生动物保护区 野生动物保护区 我喜欢这张卡。它是对未围栏畜棚的严格升级，而且费用相同。它也正好支持你最终想做的事情：每种动物各获得一只。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C014",
@@ -7105,7 +7655,9 @@
         "apr": 9.12,
         "drawPlayRate": 0.6434108527131783
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "C037",
@@ -7131,7 +7683,9 @@
         "apr": 2.21,
         "drawPlayRate": 0.7
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "C104",
@@ -7157,7 +7711,9 @@
         "apr": 7.3,
         "drawPlayRate": 0.8279569892473119
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "C106",
@@ -7209,7 +7765,9 @@
         "apr": 8.62,
         "drawPlayRate": 0.44036697247706424
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "C121",
@@ -7235,7 +7793,9 @@
         "apr": 4.96,
         "drawPlayRate": 0.7099236641221374
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "C137",
@@ -7261,7 +7821,9 @@
         "apr": 2.88,
         "drawPlayRate": 0.8690476190476191
       }
-    }
+    },
+    "enDesc_trans2zh": "制炭工：在 4-p 里，这张太强了：几乎每个人都会买某种烹饪器具，而且有人在把壁炉升级成烹饪灶台时，或为了再拿一次免费的烘焙行动而拿石炉时，会买两次。它至少值 4 food 和 4 wood，比像 Reeve 这种完全可用的牌划算多了。在 3-p 里就没那么可用了。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C165",
@@ -7287,7 +7849,9 @@
         "apr": 13.34,
         "drawPlayRate": 0.68
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D007",
@@ -7313,7 +7877,9 @@
         "apr": 9.51,
         "drawPlayRate": 0.7394366197183099
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "D028",
@@ -7339,7 +7905,9 @@
         "apr": 7.91,
         "drawPlayRate": 0.8355263157894737
       }
-    }
+    },
+    "enDesc_trans2zh": "写字台 写字台 由于这张牌有两个 Occup 要求，很可能你永远不会用到这个能力。你的第四个 occ 大概率不值得花 2 food，除非有疯狂的 Patron 式组合。非常少见的情况下，我会因为没有更好的选择而打出它，而用 1W 换 1VP 也算是个不错的交易。",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "D039",
@@ -7365,7 +7933,9 @@
         "apr": 9.76,
         "drawPlayRate": 0.6222222222222222
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "D050",
@@ -7391,7 +7961,9 @@
         "apr": 4.28,
         "drawPlayRate": 0.7698412698412699
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "D066",
@@ -7417,7 +7989,9 @@
         "apr": 5.99,
         "drawPlayRate": 0.8726114649681529
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "D082",
@@ -7469,7 +8043,9 @@
         "apr": 3.47,
         "drawPlayRate": 0.810126582278481
       }
-    }
+    },
+    "enDesc_trans2zh": "耕作者 这无疑是最好的“Plow”职业牌。他基本上用 2 次行动的代价换来 3 次行动（1 次用来打出他，1 次用来收取 3 个食物），这显然很划算。他的实用性稍微受限于这样一个事实：有时你等不起田地出来。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "D114",
@@ -7521,7 +8097,9 @@
         "apr": 4.69,
         "drawPlayRate": 0.782608695652174
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "D128",
@@ -7573,7 +8151,9 @@
         "apr": 8.33,
         "drawPlayRate": 0.6282051282051282
       }
-    }
+    },
+    "enDesc_trans2zh": "黏土烧制工 那种把一种资源转换成另一种的卡通常都不太好，因为它们给的交易只是略微有利。如果你要花 1F1A，你希望拿到的是好交易，而不是还行的交易。不过，这张算是比较好的转换 Occ，因为在大家正确评估石头价值的对局里，3 黏土换 2 石头可能是个相当不错的交易。然而，你得浪费一个行动来打出这张卡，然后再用另一个行动去收集黏土；而你本可以直接拿 2 或 3 石头，这一点仍然让它成为一个偏边缘的选择。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "C025",
@@ -7599,7 +8179,9 @@
         "apr": 8.43,
         "drawPlayRate": 0.6040268456375839
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C030",
@@ -7625,7 +8207,9 @@
         "apr": 13.26,
         "drawPlayRate": 0.5944055944055944
       }
-    }
+    },
+    "enDesc_trans2zh": "半木结构房屋 半木结构房屋 为了真正使用这张牌，你需要提前规划好，这样在游戏结束时你才能拥有每种资源的正确数量，同时还要确保你的石屋翻修。做到这一点通常太过棘手，不值得付出努力，而且为了打出这张牌而被迫额外抓一两次资源，会严重降低这张牌的 VP 效率。利用第 14 轮的石屋翻修来打出它总是很赶，但如果你在终局阶段有足够的行动来收集所需资源并打出这张牌，你大概率本来就会赢。",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "C059",
@@ -7651,7 +8235,9 @@
         "apr": 11.41,
         "drawPlayRate": 0.582089552238806
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "C077",
@@ -7729,7 +8315,9 @@
         "apr": 8.19,
         "drawPlayRate": 0.6020408163265306
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "C113",
@@ -7755,7 +8343,9 @@
         "apr": 8.96,
         "drawPlayRate": 0.9005524861878453
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "C118",
@@ -7781,7 +8371,9 @@
         "apr": 4.29,
         "drawPlayRate": 0.7853107344632768
       }
-    }
+    },
+    "enDesc_trans2zh": "木材收集者 我不需要告诉你木材有多重要，而这个occ能在相当短的时间内给你5个木材。你在前期用任何其他打法都不可能拿到更多木材。不过，如果你有一个更好的前期occ可以打，他的实用性就会下降，因为在争夺建造第一个房间的竞赛结束后，你往往不会想在游戏后期再打这个家伙。",
+    "jpwiki_score": "8"
   },
   {
     "no": "C126",
@@ -7833,7 +8425,9 @@
         "apr": 5.27,
         "drawPlayRate": 0.8787878787878788
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "C152",
@@ -7859,7 +8453,9 @@
         "apr": 3.32,
         "drawPlayRate": 0.5462962962962963
       }
-    }
+    },
+    "enDesc_trans2zh": "木偶师 这是一张潜在很强但极其别扭的牌。首先，打出他就等于你承诺自己不去拿TP格子，而是希望别人会去拿。更进一步，你永远无法确定到底什么时候有人会拿TP，这让你很难把自己的行动效率最大化。由于TP最后一次被拿通常发生得很晚，你至少需要一张你不在乎它何时出来的后期VP职业（酋长的女儿、乞士等）。不过，因为TP在一局里通常会被拿3-4次，这张牌可以直接帮你省下2-3个行动。如果有人打出了TP职业，他的价值还会进一步提升，因为那通常意味着这个位置会更频繁地被拿。",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "C166",
@@ -7885,7 +8481,9 @@
         "apr": 5.33,
         "drawPlayRate": 0.46153846153846156
       }
-    }
+    },
+    "enDesc_trans2zh": "牛语者：我们有个家庭规则：每当有人打出这张牌，他们就必须把手指放在嘴边并说：“嘘——！”他的价值比牛育种者稍微差一点，因为你必须更早打出他。",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "D004",
@@ -7905,7 +8503,9 @@
         "apr": 11.38,
         "drawPlayRate": 0.7317073170731707
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "D038",
@@ -7931,7 +8531,9 @@
         "apr": 10.39,
         "drawPlayRate": 0.8449197860962567
       }
-    }
+    },
+    "enDesc_trans2zh": "挤奶凳 挤奶凳 挤奶工是一个完全可以玩的职业，而这个几乎是严格更好！如果你能在第5阶段结束前搞到一对牛，它就值3食物和2 VP。对于1W来说这是个惊人的交易，而且如果你有一个能让你早早拿到牛的职业，事情就会变得很离谱。",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "D041",
@@ -7957,7 +8559,9 @@
         "apr": 7.41,
         "drawPlayRate": 0.6466666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D043",
@@ -7983,7 +8587,9 @@
         "apr": 7.58,
         "drawPlayRate": 0.6691176470588235
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D090",
@@ -8009,7 +8615,9 @@
         "apr": 8.46,
         "drawPlayRate": 0.8736842105263158
       }
-    }
+    },
+    "enDesc_trans2zh": "犁匠 这是另一张陷阱卡——他看起来比实际强得多。假设你打出这家伙的目的就是把田地拉满。要获得5块田地，你需要4个action（1个用来打出Occ，3个用来犁地）以及3个food（1个用来打出Occ，2个用来犁地）。这并不比直接犁地5次好多少，因为他花费的3个food很可能还要再花一个action才能搞到。",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "D107",
@@ -8061,7 +8669,9 @@
         "apr": 7.82,
         "drawPlayRate": 0.6412213740458015
       }
-    }
+    },
+    "enDesc_trans2zh": "粘土抹灰工 在 2-p 中，这张牌有时仅凭降低的翻修费用就值得拿，因为它可以帮你省下 3 或 4 粘土。在其他玩家模式下，你需要建造粘土房间才能让它发挥作用。这通常是个很别扭的选择，因为它会迫使你在前期花一个行动来进行翻修——参见 粘土小屋建造者。",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "D132",
@@ -8087,7 +8697,9 @@
         "apr": 12.68,
         "drawPlayRate": 0.5254237288135594
       }
-    }
+    },
+    "enDesc_trans2zh": "躲藏农夫在原始潜在实力上仅次于吹牛者，但也有几个弱点。除了高昂的食物成本之外，这张牌在水平差的玩家的农场上总是看起来比在你的农场上更好。较弱的玩家往往会忽视前期家庭增长，导致他们在农场发展上落后、在食物上领先。如果你一直玩得很好，你可能只会有2到3个未使用的空地，而且也不会有太多多余的食物。尽管如此，如果你至少有3个未使用的空地并且食物充足，他总是值得花这个行动。若你能专注于通过改良来拿分，然后在游戏末期用他拿到5+ VP，他可能会非常惊人。如果我在多人局里能突破70分，那一定是靠这家伙和吹牛者。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C003",
@@ -8107,7 +8719,9 @@
         "apr": 10.62,
         "drawPlayRate": 0.7372262773722628
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "C019",
@@ -8133,7 +8747,9 @@
         "apr": 9.11,
         "drawPlayRate": 0.9508196721311475
       }
-    }
+    },
+    "enDesc_trans2zh": "Swing Plow Swing Plow 木材折扣让它比 Riding Plow 更容易上场，但它也有同样的总体问题：为了最大化它的效用，你得先打出一堆职业，然后才能犁任何田地。",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "C042",
@@ -8159,7 +8775,9 @@
         "apr": 10.14,
         "drawPlayRate": 0.3492063492063492
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "C074",
@@ -8185,7 +8803,9 @@
         "apr": 2.95,
         "drawPlayRate": 0.7432432432432432
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "C119",
@@ -8211,7 +8831,9 @@
         "apr": 8.13,
         "drawPlayRate": 0.8402366863905325
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "C123",
@@ -8237,7 +8859,9 @@
         "apr": 5.31,
         "drawPlayRate": 0.6901408450704225
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "C167",
@@ -8263,7 +8887,9 @@
         "apr": 10.88,
         "drawPlayRate": 0.4166666666666667
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "D010",
@@ -8289,7 +8915,9 @@
         "apr": 8.49,
         "drawPlayRate": 0.5838509316770186
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "D012",
@@ -8315,7 +8943,9 @@
         "apr": 8.29,
         "drawPlayRate": 0.5932203389830508
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "D029",
@@ -8341,7 +8971,9 @@
         "apr": 11.07,
         "drawPlayRate": 0.6746987951807228
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D045",
@@ -8367,7 +8999,9 @@
         "apr": 12.0,
         "drawPlayRate": 0.5757575757575758
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "D069",
@@ -8393,7 +9027,9 @@
         "apr": 6.61,
         "drawPlayRate": 0.6992481203007519
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D088",
@@ -8419,7 +9055,9 @@
         "apr": 8.91,
         "drawPlayRate": 0.5225225225225225
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "D089",
@@ -8445,7 +9083,9 @@
         "apr": 8.8,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "马夫 另一张因为你实际上想要建栅栏的次数太少而无法使用的牌。由于你每次建房间时都可以建畜棚，这张牌触发时甚至不算节省一个行动——只是省了几块木头而已。垃圾。",
+    "jpwiki_score": "5.33"
   },
   {
     "no": "D096",
@@ -8471,7 +9111,9 @@
         "apr": 3.67,
         "drawPlayRate": 0.9532163742690059
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "D101",
@@ -8497,7 +9139,9 @@
         "apr": 8.5,
         "drawPlayRate": 0.16666666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "D108",
@@ -8523,7 +9167,9 @@
         "apr": 6.81,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "石匠我其实很喜欢他在2-p里用，因为在中后期石头很容易拿到。不过在其他模式中，石头通常太稀缺了，没法一直想从这家伙那里换食物。",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "D141",
@@ -8549,7 +9195,9 @@
         "apr": 6.67,
         "drawPlayRate": 0.7043478260869566
       }
-    }
+    },
+    "enDesc_trans2zh": "种子商人 如果你想要 2 粮食来播种到 2 块田里，他总是值得的。  \n他开局给的粮食抵消了他的食物花费，从那以后你只需要花 1 个行动就能拿到你需要的 2 粮食。不管怎样，你都花了 2 个行动来拿到 2 粮食。不过，这家伙真正发光发热的地方是“懒人”烘焙：你甚至要到第 3 阶段，乃至第 4 阶段才去犁田。在大多数对局里，你不会有时间早早犁田，而且需要把大部分行动花在家庭增长上。这家伙让你可以把播种田地的事一拖再拖——每次粮食用完就再拿更多粮食。虽然我不是每次拿到他都会玩，但他是个很好的激励去走烘焙路线，尤其是在人数较多的对局里。",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "D146",
@@ -8601,7 +9249,9 @@
         "apr": 11.8,
         "drawPlayRate": 0.8219895287958116
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "B001",
@@ -8627,7 +9277,9 @@
         "apr": 8.56,
         "drawPlayRate": 0.6756756756756757
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B003",
@@ -8653,7 +9305,9 @@
         "apr": 8.31,
         "drawPlayRate": 0.7123287671232876
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "B004",
@@ -8679,7 +9333,9 @@
         "apr": 11.45,
         "drawPlayRate": 0.573170731707317
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "B005",
@@ -8705,7 +9361,9 @@
         "apr": 7.44,
         "drawPlayRate": 0.7307692307692307
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "B006",
@@ -8731,7 +9389,9 @@
         "apr": 10.47,
         "drawPlayRate": 0.68125
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "B007",
@@ -8757,7 +9417,9 @@
         "apr": 8.19,
         "drawPlayRate": 0.7657657657657657
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B009",
@@ -8783,7 +9445,9 @@
         "apr": 8.89,
         "drawPlayRate": 0.8104575163398693
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B011",
@@ -8809,7 +9473,9 @@
         "apr": 11.77,
         "drawPlayRate": 0.4875
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "B012",
@@ -8835,7 +9501,9 @@
         "apr": 8.08,
         "drawPlayRate": 0.8164556962025317
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "B014",
@@ -8861,7 +9529,9 @@
         "apr": 6.34,
         "drawPlayRate": 0.6305732484076433
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B015",
@@ -8881,7 +9551,9 @@
         "apr": 6.69,
         "drawPlayRate": 0.9384615384615385
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "B017",
@@ -8907,7 +9579,9 @@
         "apr": 7.66,
         "drawPlayRate": 0.8701298701298701
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "B018",
@@ -8933,7 +9607,9 @@
         "apr": 7.74,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.5"
   },
   {
     "no": "B020",
@@ -8959,7 +9635,9 @@
         "apr": 3.51,
         "drawPlayRate": 0.7978723404255319
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B021",
@@ -8979,7 +9657,9 @@
         "apr": 4.48,
         "drawPlayRate": 0.9635416666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "B022",
@@ -8999,7 +9679,9 @@
         "apr": 7.53,
         "drawPlayRate": 0.8229166666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "B023",
@@ -9025,7 +9707,9 @@
         "apr": 7.84,
         "drawPlayRate": 0.7692307692307693
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B026",
@@ -9051,7 +9735,9 @@
         "apr": 8.83,
         "drawPlayRate": 0.8529411764705882
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "B027",
@@ -9077,7 +9763,9 @@
         "apr": 7.51,
         "drawPlayRate": 0.5268817204301075
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B028",
@@ -9103,7 +9791,9 @@
         "apr": 3.29,
         "drawPlayRate": 0.7692307692307693
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "B029",
@@ -9129,7 +9819,9 @@
         "apr": 8.03,
         "drawPlayRate": 0.5892857142857143
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B030",
@@ -9141,7 +9833,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "B031",
@@ -9167,7 +9861,9 @@
         "apr": 11.5,
         "drawPlayRate": 0.6181818181818182
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "B032",
@@ -9193,7 +9889,9 @@
         "apr": 9.92,
         "drawPlayRate": 0.6927710843373494
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "B034",
@@ -9219,7 +9917,9 @@
         "apr": 6.44,
         "drawPlayRate": 0.7548387096774194
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "B035",
@@ -9245,7 +9945,9 @@
         "apr": 11.83,
         "drawPlayRate": 0.4827586206896552
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "B037",
@@ -9297,7 +9999,9 @@
         "apr": 3.08,
         "drawPlayRate": 0.4444444444444444
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3"
   },
   {
     "no": "B040",
@@ -9323,7 +10027,9 @@
         "apr": 4.25,
         "drawPlayRate": 0.9453551912568307
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "B041",
@@ -9349,7 +10055,9 @@
         "apr": 9.54,
         "drawPlayRate": 0.7771428571428571
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "B042",
@@ -9375,7 +10083,9 @@
         "apr": 4.87,
         "drawPlayRate": 0.5338983050847458
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "B043",
@@ -9401,7 +10111,9 @@
         "apr": 6.82,
         "drawPlayRate": 0.775
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B044",
@@ -9427,7 +10139,9 @@
         "apr": 6.15,
         "drawPlayRate": 0.8273381294964028
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "B046",
@@ -9479,7 +10193,9 @@
         "apr": 7.91,
         "drawPlayRate": 0.8245614035087719
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B049",
@@ -9505,7 +10221,9 @@
         "apr": 1.61,
         "drawPlayRate": 0.8698224852071006
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "B051",
@@ -9531,7 +10249,9 @@
         "apr": 8.97,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "B052",
@@ -9557,7 +10277,9 @@
         "apr": 8.62,
         "drawPlayRate": 0.32
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "B053",
@@ -9583,7 +10305,9 @@
         "apr": 4.32,
         "drawPlayRate": 0.6845637583892618
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B054",
@@ -9609,7 +10333,9 @@
         "apr": 7.32,
         "drawPlayRate": 0.8417721518987342
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B055",
@@ -9635,7 +10361,9 @@
         "apr": 7.46,
         "drawPlayRate": 0.7551020408163265
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "B058",
@@ -9661,7 +10389,9 @@
         "apr": 8.7,
         "drawPlayRate": 0.6785714285714286
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "B059",
@@ -9687,7 +10417,9 @@
         "apr": 7.59,
         "drawPlayRate": 0.6929824561403509
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "B060",
@@ -9713,7 +10445,9 @@
         "apr": 6.52,
         "drawPlayRate": 0.7536231884057971
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "B063",
@@ -9739,7 +10473,9 @@
         "apr": 8.44,
         "drawPlayRate": 0.6881720430107527
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "B064",
@@ -9765,7 +10501,9 @@
         "apr": 10.93,
         "drawPlayRate": 0.3488372093023256
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.67"
   },
   {
     "no": "B065",
@@ -9791,7 +10529,9 @@
         "apr": 7.19,
         "drawPlayRate": 0.864516129032258
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "B067",
@@ -9817,7 +10557,9 @@
         "apr": 6.49,
         "drawPlayRate": 0.8729281767955801
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "B069",
@@ -9843,7 +10585,9 @@
         "apr": 9.41,
         "drawPlayRate": 0.5833333333333334
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "B070",
@@ -9869,7 +10613,9 @@
         "apr": 7.05,
         "drawPlayRate": 0.8515625
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "B071",
@@ -9895,7 +10641,9 @@
         "apr": 9.22,
         "drawPlayRate": 0.8774509803921569
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "B072",
@@ -9907,7 +10655,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "B073",
@@ -9933,7 +10683,9 @@
         "apr": 11.21,
         "drawPlayRate": 0.6262626262626263
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "B075",
@@ -9959,7 +10711,9 @@
         "apr": 5.39,
         "drawPlayRate": 0.8705882352941177
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "B076",
@@ -9985,7 +10739,9 @@
         "apr": 6.11,
         "drawPlayRate": 0.8490566037735849
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "B078",
@@ -10011,7 +10767,9 @@
         "apr": 4.07,
         "drawPlayRate": 0.6410256410256411
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B079",
@@ -10037,7 +10795,9 @@
         "apr": 9.39,
         "drawPlayRate": 0.5507246376811594
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.17"
   },
   {
     "no": "B081",
@@ -10063,7 +10823,9 @@
         "apr": 5.76,
         "drawPlayRate": 0.6896551724137931
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B082",
@@ -10089,7 +10851,9 @@
         "apr": 6.69,
         "drawPlayRate": 0.8662420382165605
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "B083",
@@ -10115,7 +10879,9 @@
         "apr": 10.02,
         "drawPlayRate": 0.7471910112359551
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B085",
@@ -10127,7 +10893,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "B086",
@@ -10153,7 +10921,9 @@
         "apr": 10.26,
         "drawPlayRate": 0.43434343434343436
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.67"
   },
   {
     "no": "B088",
@@ -10179,7 +10949,9 @@
         "apr": 5.72,
         "drawPlayRate": 0.7130434782608696
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "B090",
@@ -10205,7 +10977,9 @@
         "apr": 5.1,
         "drawPlayRate": 0.3125
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4"
   },
   {
     "no": "B092",
@@ -10231,7 +11005,9 @@
         "apr": 5.72,
         "drawPlayRate": 0.7
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "B093",
@@ -10257,7 +11033,9 @@
         "apr": 9.95,
         "drawPlayRate": 0.7544910179640718
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "B094",
@@ -10283,7 +11061,9 @@
         "apr": 9.65,
         "drawPlayRate": 0.6602564102564102
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B096",
@@ -10309,7 +11089,9 @@
         "apr": 4.2,
         "drawPlayRate": 0.825
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B100",
@@ -10335,7 +11117,9 @@
         "apr": 3.32,
         "drawPlayRate": 0.7857142857142857
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B101",
@@ -10361,7 +11145,9 @@
         "apr": 0.0,
         "drawPlayRate": 0.0
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "B103",
@@ -10387,7 +11173,9 @@
         "apr": 6.07,
         "drawPlayRate": 0.6617647058823529
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "B105",
@@ -10413,7 +11201,9 @@
         "apr": 11.3,
         "drawPlayRate": 0.40404040404040403
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "B106",
@@ -10439,7 +11229,9 @@
         "apr": 3.57,
         "drawPlayRate": 0.6438356164383562
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B110",
@@ -10465,7 +11257,9 @@
         "apr": 3.04,
         "drawPlayRate": 0.9319727891156463
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "B111",
@@ -10491,7 +11285,9 @@
         "apr": 7.3,
         "drawPlayRate": 0.618421052631579
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "B112",
@@ -10517,7 +11313,9 @@
         "apr": 9.39,
         "drawPlayRate": 0.4
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3"
   },
   {
     "no": "B113",
@@ -10543,7 +11341,9 @@
         "apr": 8.27,
         "drawPlayRate": 0.7289719626168224
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "B115",
@@ -10569,7 +11369,9 @@
         "apr": 10.0,
         "drawPlayRate": 0.4628099173553719
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "B116",
@@ -10595,7 +11397,9 @@
         "apr": 2.9,
         "drawPlayRate": 0.7394366197183099
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "B117",
@@ -10615,7 +11419,9 @@
         "apr": 2.5,
         "drawPlayRate": 0.9294117647058824
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "B119",
@@ -10641,7 +11447,9 @@
         "apr": 8.48,
         "drawPlayRate": 0.5432098765432098
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "B120",
@@ -10653,7 +11461,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "B122",
@@ -10679,7 +11489,9 @@
         "apr": 5.19,
         "drawPlayRate": 0.5130434782608696
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "B124",
@@ -10705,7 +11517,9 @@
         "apr": 7.91,
         "drawPlayRate": 0.4852941176470588
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B125",
@@ -10731,7 +11545,9 @@
         "apr": 4.85,
         "drawPlayRate": 0.7034482758620689
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B127",
@@ -10757,7 +11573,9 @@
         "apr": 8.76,
         "drawPlayRate": 0.5405405405405406
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "B128",
@@ -10783,7 +11601,9 @@
         "apr": 8.05,
         "drawPlayRate": 0.69375
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B129",
@@ -10809,7 +11629,9 @@
         "apr": 12.03,
         "drawPlayRate": 0.4044943820224719
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.5"
   },
   {
     "no": "B130",
@@ -10835,7 +11657,9 @@
         "apr": 11.12,
         "drawPlayRate": 0.3090909090909091
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "B131",
@@ -10861,7 +11685,9 @@
         "apr": 3.66,
         "drawPlayRate": 0.7834394904458599
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B132",
@@ -10881,7 +11707,9 @@
         "apr": 11.54,
         "drawPlayRate": 0.8053691275167785
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "B133",
@@ -10907,7 +11735,9 @@
         "apr": 12.87,
         "drawPlayRate": 0.6527777777777778
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B134",
@@ -10933,7 +11763,9 @@
         "apr": 9.67,
         "drawPlayRate": 0.5039370078740157
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "B135",
@@ -10959,7 +11791,9 @@
         "apr": 10.0,
         "drawPlayRate": 0.38
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B137",
@@ -10985,7 +11819,9 @@
         "apr": 9.84,
         "drawPlayRate": 0.7966101694915254
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "B138",
@@ -11011,7 +11847,9 @@
         "apr": 6.48,
         "drawPlayRate": 0.5675675675675675
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.33"
   },
   {
     "no": "B139",
@@ -11037,7 +11875,9 @@
         "apr": 6.4,
         "drawPlayRate": 0.35714285714285715
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.17"
   },
   {
     "no": "B140",
@@ -11049,7 +11889,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "B141",
@@ -11075,7 +11917,9 @@
         "apr": 8.07,
         "drawPlayRate": 0.8514285714285714
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B143",
@@ -11101,7 +11945,9 @@
         "apr": 2.47,
         "drawPlayRate": 0.7077922077922078
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.33"
   },
   {
     "no": "B144",
@@ -11127,7 +11973,9 @@
         "apr": 2.96,
         "drawPlayRate": 0.8343558282208589
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "B146",
@@ -11153,7 +12001,9 @@
         "apr": 7.57,
         "drawPlayRate": 0.3333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "B147",
@@ -11179,7 +12029,9 @@
         "apr": 0.0,
         "drawPlayRate": 0.0
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "1.5"
   },
   {
     "no": "B148",
@@ -11205,7 +12057,9 @@
         "apr": 8.48,
         "drawPlayRate": 0.7581699346405228
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "B149",
@@ -11231,7 +12085,9 @@
         "apr": 8.2,
         "drawPlayRate": 0.7350427350427351
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "B150",
@@ -11257,7 +12113,9 @@
         "apr": 7.5,
         "drawPlayRate": 0.4067796610169492
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3"
   },
   {
     "no": "B151",
@@ -11277,7 +12135,9 @@
         "apr": 1.91,
         "drawPlayRate": 0.888268156424581
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "B152",
@@ -11303,7 +12163,9 @@
         "apr": 2.3,
         "drawPlayRate": 0.8106508875739645
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B153",
@@ -11329,7 +12191,9 @@
         "apr": 12.91,
         "drawPlayRate": 0.4713375796178344
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "B154",
@@ -11355,7 +12219,9 @@
         "apr": 12.42,
         "drawPlayRate": 0.4369747899159664
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "B155",
@@ -11381,7 +12247,9 @@
         "apr": 2.09,
         "drawPlayRate": 0.9505494505494505
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "B157",
@@ -11407,7 +12275,9 @@
         "apr": 4.6,
         "drawPlayRate": 0.5164835164835165
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "B158",
@@ -11433,7 +12303,9 @@
         "apr": 4.84,
         "drawPlayRate": 0.5119047619047619
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "B159",
@@ -11459,7 +12331,9 @@
         "apr": 8.55,
         "drawPlayRate": 0.5616438356164384
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "B160",
@@ -11485,7 +12359,9 @@
         "apr": 7.62,
         "drawPlayRate": 0.5108695652173914
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "B161",
@@ -11505,7 +12381,9 @@
         "apr": 5.65,
         "drawPlayRate": 0.9162011173184358
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "B162",
@@ -11531,7 +12409,9 @@
         "apr": 2.05,
         "drawPlayRate": 0.9547738693467337
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "B165",
@@ -11557,7 +12437,9 @@
         "apr": 13.2,
         "drawPlayRate": 0.3191489361702128
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "B167",
@@ -11583,7 +12465,9 @@
         "apr": 12.78,
         "drawPlayRate": 0.8524590163934426
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "B168",
@@ -11609,7 +12493,9 @@
         "apr": 11.02,
         "drawPlayRate": 0.48863636363636365
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "C001",
@@ -11635,7 +12521,9 @@
         "apr": 12.07,
         "drawPlayRate": 0.7315436241610739
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "C004",
@@ -11661,7 +12549,9 @@
         "apr": 11.75,
         "drawPlayRate": 0.8109756097560976
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "C005",
@@ -11687,7 +12577,9 @@
         "apr": 10.81,
         "drawPlayRate": 0.7264150943396226
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C007",
@@ -11713,7 +12605,9 @@
         "apr": 11.42,
         "drawPlayRate": 0.37254901960784315
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.67"
   },
   {
     "no": "C008",
@@ -11739,7 +12633,9 @@
         "apr": 12.55,
         "drawPlayRate": 0.38596491228070173
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "C009",
@@ -11765,7 +12661,9 @@
         "apr": 10.5,
         "drawPlayRate": 0.4666666666666667
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "C010",
@@ -11791,7 +12689,9 @@
         "apr": 10.67,
         "drawPlayRate": 0.7134831460674157
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C012",
@@ -11817,7 +12717,9 @@
         "apr": 12.0,
         "drawPlayRate": 0.3
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4"
   },
   {
     "no": "C013",
@@ -11843,7 +12745,9 @@
         "apr": 10.52,
         "drawPlayRate": 0.782608695652174
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.67"
   },
   {
     "no": "C015",
@@ -11869,7 +12773,9 @@
         "apr": 8.91,
         "drawPlayRate": 0.9184782608695652
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C017",
@@ -11895,7 +12801,9 @@
         "apr": 11.62,
         "drawPlayRate": 0.7134146341463414
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "C018",
@@ -11907,7 +12815,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "C020",
@@ -11933,7 +12843,9 @@
         "apr": 10.27,
         "drawPlayRate": 0.8292682926829268
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "C021",
@@ -11959,7 +12871,9 @@
         "apr": 7.08,
         "drawPlayRate": 0.41935483870967744
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2.83"
   },
   {
     "no": "C022",
@@ -11971,7 +12885,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "C023",
@@ -11997,7 +12913,9 @@
         "apr": 1.33,
         "drawPlayRate": 0.8963414634146342
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C024",
@@ -12023,7 +12941,9 @@
         "apr": 9.23,
         "drawPlayRate": 0.5844155844155844
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "C028",
@@ -12043,7 +12963,9 @@
         "apr": 3.4,
         "drawPlayRate": 0.9540229885057471
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "C029",
@@ -12069,7 +12991,9 @@
         "apr": 5.81,
         "drawPlayRate": 0.8274111675126904
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.83"
   },
   {
     "no": "C031",
@@ -12089,7 +13013,9 @@
         "apr": 12.15,
         "drawPlayRate": 0.847953216374269
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "C032",
@@ -12115,7 +13041,9 @@
         "apr": 3.39,
         "drawPlayRate": 0.4745762711864407
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "C033",
@@ -12141,7 +13069,9 @@
         "apr": 12.65,
         "drawPlayRate": 0.6689655172413793
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "C034",
@@ -12167,7 +13097,9 @@
         "apr": 9.67,
         "drawPlayRate": 0.4
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "C036",
@@ -12193,7 +13125,9 @@
         "apr": 7.65,
         "drawPlayRate": 0.5405405405405406
       }
-    }
+    },
+    "enDesc_trans2zh": "黏土矿床 黏土矿床 1F 往往非常值得换 5 黏土，所以你必须小心你何时（如果真的要）打出这张牌。你可不想给对手提供选择！而且，它给你的收益也同样可疑——就算你确实想要黏土，如果你花一个动作来打出它、再花一个动作来使用它，那就是用 2 个动作换 5 黏土——相当一般。选择拿 2 VP 也还行还行，但通常你总会有别的方式做到这一点，不管是通过犁地，还是拿单个动物来待在自家里。总体来说，高职业需求、0 VP 以及收益存疑，使它成为你能抽到的最差牌之一。我能想到它唯一真正的用途，是在 2-p 里作为绝望手段：在对手把你黏土卡死之后用。",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "C038",
@@ -12219,7 +13153,9 @@
         "apr": 10.93,
         "drawPlayRate": 0.7622377622377622
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "C039",
@@ -12245,7 +13181,9 @@
         "apr": 6.22,
         "drawPlayRate": 0.5897435897435898
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "C040",
@@ -12271,7 +13209,9 @@
         "apr": 1.75,
         "drawPlayRate": 0.7333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "C043",
@@ -12297,7 +13237,9 @@
         "apr": 8.72,
         "drawPlayRate": 0.5180722891566265
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.33"
   },
   {
     "no": "C045",
@@ -12323,7 +13265,9 @@
         "apr": 5.21,
         "drawPlayRate": 0.7959183673469388
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "C046",
@@ -12349,7 +13293,9 @@
         "apr": 8.75,
         "drawPlayRate": 0.6309523809523809
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "C047",
@@ -12375,7 +13321,9 @@
         "apr": 8.64,
         "drawPlayRate": 0.4
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "C048",
@@ -12387,7 +13335,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "C049",
@@ -12413,7 +13363,9 @@
         "apr": 6.62,
         "drawPlayRate": 0.757396449704142
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C050",
@@ -12439,7 +13391,9 @@
         "apr": 13.5,
         "drawPlayRate": 0.2222222222222222
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.83"
   },
   {
     "no": "C052",
@@ -12465,7 +13419,9 @@
         "apr": 11.33,
         "drawPlayRate": 0.4177215189873418
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4"
   },
   {
     "no": "C053",
@@ -12491,7 +13447,9 @@
         "apr": 9.93,
         "drawPlayRate": 0.5512820512820513
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "C054",
@@ -12517,7 +13475,9 @@
         "apr": 9.88,
         "drawPlayRate": 0.4939759036144578
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "C055",
@@ -12543,7 +13503,9 @@
         "apr": 8.82,
         "drawPlayRate": 0.6343283582089553
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C057",
@@ -12569,7 +13531,9 @@
         "apr": 8.52,
         "drawPlayRate": 0.918918918918919
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C058",
@@ -12595,7 +13559,9 @@
         "apr": 5.86,
         "drawPlayRate": 0.7280701754385965
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "C060",
@@ -12607,7 +13573,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "C061",
@@ -12633,7 +13601,9 @@
         "apr": 9.31,
         "drawPlayRate": 0.5294117647058824
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "C062",
@@ -12645,7 +13615,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "C063",
@@ -12665,7 +13637,9 @@
         "apr": 5.52,
         "drawPlayRate": 0.9585492227979274
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "C064",
@@ -12691,7 +13665,9 @@
         "apr": 8.23,
         "drawPlayRate": 0.43333333333333335
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "C066",
@@ -12717,7 +13693,9 @@
         "apr": 10.87,
         "drawPlayRate": 0.6176470588235294
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "C067",
@@ -12743,7 +13721,9 @@
         "apr": 10.16,
         "drawPlayRate": 0.5816326530612245
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "C069",
@@ -12755,7 +13735,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "C071",
@@ -12781,7 +13763,9 @@
         "apr": 10.05,
         "drawPlayRate": 0.31666666666666665
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C072",
@@ -12793,7 +13777,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "C073",
@@ -12819,7 +13805,9 @@
         "apr": 9.28,
         "drawPlayRate": 0.7350993377483444
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C075",
@@ -12845,7 +13833,9 @@
         "apr": 2.9,
         "drawPlayRate": 0.7105263157894737
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "C080",
@@ -12871,7 +13861,9 @@
         "apr": 7.71,
         "drawPlayRate": 0.5979381443298969
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "C081",
@@ -12883,7 +13875,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "C082",
@@ -12909,7 +13903,9 @@
         "apr": 4.29,
         "drawPlayRate": 0.8924050632911392
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "C083",
@@ -12935,7 +13931,9 @@
         "apr": 8.96,
         "drawPlayRate": 0.5192307692307693
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "C084",
@@ -12961,7 +13959,9 @@
         "apr": 12.5,
         "drawPlayRate": 0.2
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.67"
   },
   {
     "no": "C085",
@@ -12987,7 +13987,9 @@
         "apr": 8.61,
         "drawPlayRate": 0.6566265060240963
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "C088",
@@ -12999,7 +14001,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "C091",
@@ -13025,7 +14029,9 @@
         "apr": 8.24,
         "drawPlayRate": 0.7662337662337663
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "C092",
@@ -13051,7 +14057,9 @@
         "apr": 6.45,
         "drawPlayRate": 0.49612403100775193
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4"
   },
   {
     "no": "C093",
@@ -13077,7 +14085,9 @@
         "apr": 6.65,
         "drawPlayRate": 0.49107142857142855
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "C094",
@@ -13103,7 +14113,9 @@
         "apr": 9.57,
         "drawPlayRate": 0.6982248520710059
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "C095",
@@ -13129,7 +14141,9 @@
         "apr": 7.13,
         "drawPlayRate": 0.6770186335403726
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "C097",
@@ -13155,7 +14169,9 @@
         "apr": 9.56,
         "drawPlayRate": 0.6407766990291263
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C099",
@@ -13175,7 +14191,9 @@
         "apr": 13.16,
         "drawPlayRate": 0.8690476190476191
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "10"
   },
   {
     "no": "C100",
@@ -13201,7 +14219,9 @@
         "apr": 10.5,
         "drawPlayRate": 0.6268656716417911
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "C101",
@@ -13227,7 +14247,9 @@
         "apr": 9.32,
         "drawPlayRate": 0.3275862068965517
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "C102",
@@ -13247,7 +14269,9 @@
         "apr": 3.19,
         "drawPlayRate": 0.9
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C103",
@@ -13273,7 +14297,9 @@
         "apr": 8.75,
         "drawPlayRate": 0.3893805309734513
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "C105",
@@ -13299,7 +14325,9 @@
         "apr": 4.08,
         "drawPlayRate": 0.9186602870813397
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "C111",
@@ -13325,7 +14353,9 @@
         "apr": 2.78,
         "drawPlayRate": 0.6923076923076923
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2.17"
   },
   {
     "no": "C114",
@@ -13351,7 +14381,9 @@
         "apr": 8.08,
         "drawPlayRate": 0.5126050420168067
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "C115",
@@ -13377,7 +14409,9 @@
         "apr": 7.04,
         "drawPlayRate": 0.46078431372549017
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "C117",
@@ -13389,7 +14423,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "C120",
@@ -13415,7 +14451,9 @@
         "apr": 8.08,
         "drawPlayRate": 0.5714285714285714
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "C124",
@@ -13441,7 +14479,9 @@
         "apr": 8.62,
         "drawPlayRate": 0.4067796610169492
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "C125",
@@ -13461,7 +14501,9 @@
         "apr": 3.72,
         "drawPlayRate": 0.7205882352941176
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "C127",
@@ -13487,7 +14529,9 @@
         "apr": 8.77,
         "drawPlayRate": 0.9193548387096774
       }
-    }
+    },
+    "enDesc_trans2zh": "情人 额外费用：4 food 啊，臭名昭著的情人。当然，在这种报告里，比如这个 tournament thread tournament thread ，他看起来确实不公平。在游戏中，有玩家在第2轮打出情人，就能看似一路躺到胜利。毫无疑问，情人是游戏里最强的职业之一。但他坏掉了吗？在第1轮打出情人几乎不可能，所以人们说的“早期情人行动”一般指第2、3或4轮，其中最臭名昭著的开局发生在第2轮。如果你在第2轮打出它，你就得先拿一次 day-laborer 才能把它打出来。之后，你会剩下1或0 food，并且需要在收获前搞定6 food。这至少还需要再花2个行动。那么这意味着什么？你花了4个行动，才在第一次收获前多获得2个行动！早期情人的另一个弱点是：他的房子仍然只有2间！按传统方式扩大家庭的玩家，可以选择把房子盖到第4间，然后再增长一次。另一方面，早期情人被卡在2间房——他得攒到10 wood 和4 reed 之后才能再次增长家庭。如果他决定避开进一步的“公平”家庭增长，转而等待“Family Growth without Room”，他又会受制于这样一个事实：他的2间房基本不适合翻修——这么做根本拿不到多少分。最后一个弱点是：早打情人会在你头上画个巨大的靶子。如果你的对手很强，他们会在一切可能的地方盯着断你 food。话虽如此，早期情人之所以强，是因为当他在为 food 手忙脚乱时，他也在用额外行动把资源从版图上拿走。结果就是：即便他的农场看起来并不怎么亮眼，别人也同样如此！几乎所有人都会被情人低效的抢食拖累，而到最后情人本人通常会领先。第2轮打出情人属于全押（all-in）的打法——你要么靠这一步赢，要么也会因为这一步输。一个有趣的替代方案是一直不打他，等到大约第3阶段再打。通常到这时，你已经增长过一次家庭，并且有某种 food 引擎了。理想情况下，你可以抓到3 sheep 或一个堆高的 fishing spot，并用它来打出这张牌。这样使用时，情人更安全，仍然很强，但没有早打时那种大起大落的潜力。",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "C129",
@@ -13513,7 +14557,9 @@
         "apr": 11.18,
         "drawPlayRate": 0.4330708661417323
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "C130",
@@ -13539,7 +14585,9 @@
         "apr": 4.93,
         "drawPlayRate": 0.6147540983606558
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.17"
   },
   {
     "no": "C131",
@@ -13565,7 +14613,9 @@
         "apr": 1.68,
         "drawPlayRate": 0.96045197740113
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "C132",
@@ -13591,7 +14641,9 @@
         "apr": 12.25,
         "drawPlayRate": 0.39285714285714285
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C133",
@@ -13617,7 +14669,9 @@
         "apr": 13.36,
         "drawPlayRate": 0.371900826446281
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C134",
@@ -13643,7 +14697,9 @@
         "apr": 13.16,
         "drawPlayRate": 0.770949720670391
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "C136",
@@ -13669,7 +14725,9 @@
         "apr": 5.45,
         "drawPlayRate": 0.75
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "C138",
@@ -13695,7 +14753,9 @@
         "apr": 5.54,
         "drawPlayRate": 0.7177914110429447
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "C139",
@@ -13721,7 +14781,9 @@
         "apr": 6.35,
         "drawPlayRate": 0.7583892617449665
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "C140",
@@ -13747,7 +14809,9 @@
         "apr": 7.7,
         "drawPlayRate": 0.5047619047619047
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "C141",
@@ -13773,7 +14837,9 @@
         "apr": 6.11,
         "drawPlayRate": 0.7732558139534884
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "C143",
@@ -13799,7 +14865,9 @@
         "apr": 8.26,
         "drawPlayRate": 0.4915254237288136
       }
-    }
+    },
+    "enDesc_trans2zh": "石头买家 这是最诱人的资源买家来打出的卡，仅仅因为石头是游戏中最有价值的资源。尽管如此，要让他值得，你需要一个不错的早期食物来源，才能利用那些使用 RSF 点位的人。你还需要一种在前期就能用掉那些石头的方式。通常来说，他看起来并不值得。",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "C145",
@@ -13825,7 +14893,9 @@
         "apr": 1.91,
         "drawPlayRate": 0.9230769230769231
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.33"
   },
   {
     "no": "C146",
@@ -13837,7 +14907,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "C148",
@@ -13863,7 +14935,9 @@
         "apr": 4.41,
         "drawPlayRate": 0.7291666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "C150",
@@ -13889,7 +14963,9 @@
         "apr": 11.38,
         "drawPlayRate": 0.2857142857142857
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2.5"
   },
   {
     "no": "C151",
@@ -13915,7 +14991,9 @@
         "apr": 10.0,
         "drawPlayRate": 0.43902439024390244
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "C154",
@@ -13941,7 +15019,9 @@
         "apr": 4.0,
         "drawPlayRate": 0.16666666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "C155",
@@ -13967,7 +15047,9 @@
         "apr": 11.49,
         "drawPlayRate": 0.8013245033112583
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "C156",
@@ -13993,7 +15075,9 @@
         "apr": 11.77,
         "drawPlayRate": 0.5531914893617021
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "C157",
@@ -14019,7 +15103,9 @@
         "apr": 11.0,
         "drawPlayRate": 0.3333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2.5"
   },
   {
     "no": "C158",
@@ -14045,7 +15131,9 @@
         "apr": 2.0,
         "drawPlayRate": 0.3333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "C159",
@@ -14071,7 +15159,9 @@
         "apr": 5.39,
         "drawPlayRate": 0.5818181818181818
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "C160",
@@ -14097,7 +15187,9 @@
         "apr": 6.67,
         "drawPlayRate": 0.46551724137931033
       }
-    }
+    },
+    "enDesc_trans2zh": "赶车人 在我看来，这是牌组里最酷的职业之一，即使他远不是最强的。如果你打算烘焙，你可以用他来让你在谷物上获得不错的加成，而这些谷物你原本还得花一个行动去拿。到了后期，当你（希望）在“家庭增长”、“无房间的家庭增长”以及“犁地”和/或“播种”这些牌出现时就顺势拿下，你还能获得额外加成。游戏结束时，如果你从他那里拿到了3个谷物，那这次行动大概率就值回票价了。",
+    "jpwiki_score": "2.83"
   },
   {
     "no": "C161",
@@ -14123,7 +15215,9 @@
         "apr": 11.62,
         "drawPlayRate": 0.654320987654321
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "C162",
@@ -14149,7 +15243,9 @@
         "apr": 5.34,
         "drawPlayRate": 0.7549668874172185
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "C163",
@@ -14175,7 +15271,9 @@
         "apr": 5.17,
         "drawPlayRate": 0.45
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "C164",
@@ -14201,7 +15299,9 @@
         "apr": 9.36,
         "drawPlayRate": 0.5664335664335665
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "C168",
@@ -14227,7 +15327,9 @@
         "apr": 10.31,
         "drawPlayRate": 0.7777777777777778
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "D001",
@@ -14253,7 +15355,9 @@
         "apr": 11.84,
         "drawPlayRate": 0.5961538461538461
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "D002",
@@ -14279,7 +15383,9 @@
         "apr": 11.04,
         "drawPlayRate": 0.5419354838709678
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "D003",
@@ -14305,7 +15411,9 @@
         "apr": 10.23,
         "drawPlayRate": 0.6363636363636364
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "D005",
@@ -14331,7 +15439,9 @@
         "apr": 12.37,
         "drawPlayRate": 0.3877551020408163
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "D006",
@@ -14357,7 +15467,9 @@
         "apr": 9.02,
         "drawPlayRate": 0.5168539325842697
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "D008",
@@ -14383,7 +15495,9 @@
         "apr": 12.24,
         "drawPlayRate": 0.5954198473282443
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D011",
@@ -14395,7 +15509,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "D013",
@@ -14421,7 +15537,9 @@
         "apr": 9.21,
         "drawPlayRate": 0.7371794871794872
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "D014",
@@ -14447,7 +15565,9 @@
         "apr": 8.57,
         "drawPlayRate": 0.7368421052631579
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "D016",
@@ -14473,7 +15593,9 @@
         "apr": 8.02,
         "drawPlayRate": 0.8258064516129032
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "D017",
@@ -14499,7 +15621,9 @@
         "apr": 8.79,
         "drawPlayRate": 0.8646616541353384
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "D018",
@@ -14525,7 +15649,9 @@
         "apr": 9.14,
         "drawPlayRate": 0.832258064516129
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "D019",
@@ -14545,7 +15671,9 @@
         "apr": 6.59,
         "drawPlayRate": 0.9210526315789473
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "D021",
@@ -14565,7 +15693,9 @@
         "apr": 3.55,
         "drawPlayRate": 0.8117647058823529
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "D022",
@@ -14591,7 +15721,9 @@
         "apr": 3.72,
         "drawPlayRate": 0.6643356643356644
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "D023",
@@ -14617,7 +15749,9 @@
         "apr": 6.57,
         "drawPlayRate": 0.5675675675675675
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2.83"
   },
   {
     "no": "D024",
@@ -14643,7 +15777,9 @@
         "apr": 9.56,
         "drawPlayRate": 0.5208333333333334
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "D026",
@@ -14669,7 +15805,9 @@
         "apr": 8.74,
         "drawPlayRate": 0.421875
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "D027",
@@ -14695,7 +15833,9 @@
         "apr": 10.79,
         "drawPlayRate": 0.6759259259259259
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "D030",
@@ -14721,7 +15861,9 @@
         "apr": 12.55,
         "drawPlayRate": 0.5617283950617284
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D031",
@@ -14747,7 +15889,9 @@
         "apr": 12.99,
         "drawPlayRate": 0.559748427672956
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.67"
   },
   {
     "no": "D032",
@@ -14773,7 +15917,9 @@
         "apr": 11.25,
         "drawPlayRate": 0.6733333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "D033",
@@ -14793,7 +15939,9 @@
         "apr": 9.6,
         "drawPlayRate": 0.828125
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "D034",
@@ -14819,7 +15967,9 @@
         "apr": 12.11,
         "drawPlayRate": 0.5476190476190477
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D035",
@@ -14845,7 +15995,9 @@
         "apr": 13.89,
         "drawPlayRate": 0.38848920863309355
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "D036",
@@ -14871,7 +16023,9 @@
         "apr": 7.91,
         "drawPlayRate": 0.7777777777777778
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "D040",
@@ -14897,7 +16051,9 @@
         "apr": 3.84,
         "drawPlayRate": 0.9273743016759777
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.83"
   },
   {
     "no": "D044",
@@ -14923,7 +16079,9 @@
         "apr": 9.02,
         "drawPlayRate": 0.6721311475409836
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "D046",
@@ -14949,7 +16107,9 @@
         "apr": 6.86,
         "drawPlayRate": 0.41509433962264153
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "D047",
@@ -14975,7 +16135,9 @@
         "apr": 11.15,
         "drawPlayRate": 0.5084745762711864
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "D048",
@@ -15001,7 +16163,9 @@
         "apr": 7.76,
         "drawPlayRate": 0.5384615384615384
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "D051",
@@ -15027,7 +16191,9 @@
         "apr": 2.64,
         "drawPlayRate": 0.6883116883116883
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "D052",
@@ -15053,7 +16219,9 @@
         "apr": 7.24,
         "drawPlayRate": 0.49019607843137253
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.67"
   },
   {
     "no": "D053",
@@ -15079,7 +16247,9 @@
         "apr": 9.42,
         "drawPlayRate": 0.7469879518072289
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "D054",
@@ -15105,7 +16275,9 @@
         "apr": 8.64,
         "drawPlayRate": 0.5824175824175825
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "D055",
@@ -15131,7 +16303,9 @@
         "apr": 10.02,
         "drawPlayRate": 0.5979381443298969
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "D056",
@@ -15157,7 +16331,9 @@
         "apr": 6.64,
         "drawPlayRate": 0.7569444444444444
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "D057",
@@ -15183,7 +16359,9 @@
         "apr": 10.19,
         "drawPlayRate": 0.4090909090909091
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "D058",
@@ -15209,7 +16387,9 @@
         "apr": 8.84,
         "drawPlayRate": 0.45454545454545453
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4"
   },
   {
     "no": "D059",
@@ -15235,7 +16415,9 @@
         "apr": 9.64,
         "drawPlayRate": 0.8027210884353742
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D060",
@@ -15261,7 +16443,9 @@
         "apr": 9.71,
         "drawPlayRate": 0.5761589403973509
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "D061",
@@ -15287,7 +16471,9 @@
         "apr": 8.11,
         "drawPlayRate": 0.7604166666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.67"
   },
   {
     "no": "D062",
@@ -15313,7 +16499,9 @@
         "apr": 7.3,
         "drawPlayRate": 0.7127659574468085
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "D063",
@@ -15339,7 +16527,9 @@
         "apr": 7.46,
         "drawPlayRate": 0.8134328358208955
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "D064",
@@ -15365,7 +16555,9 @@
         "apr": 6.99,
         "drawPlayRate": 0.8495575221238938
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "D065",
@@ -15391,7 +16583,9 @@
         "apr": 9.29,
         "drawPlayRate": 0.6
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D067",
@@ -15417,7 +16611,9 @@
         "apr": 6.55,
         "drawPlayRate": 0.9195402298850575
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9"
   },
   {
     "no": "D068",
@@ -15443,7 +16639,9 @@
         "apr": 8.3,
         "drawPlayRate": 0.7063492063492064
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D070",
@@ -15469,7 +16667,9 @@
         "apr": 11.19,
         "drawPlayRate": 0.5967741935483871
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "D071",
@@ -15495,7 +16695,9 @@
         "apr": 9.01,
         "drawPlayRate": 0.7525773195876289
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "D072",
@@ -15521,7 +16723,9 @@
         "apr": 2.0,
         "drawPlayRate": 0.5384615384615384
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "D074",
@@ -15541,7 +16745,9 @@
         "apr": 3.66,
         "drawPlayRate": 0.9139784946236559
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "D076",
@@ -15567,7 +16773,9 @@
         "apr": 2.91,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "D080",
@@ -15593,7 +16801,9 @@
         "apr": 5.46,
         "drawPlayRate": 0.6989247311827957
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "D081",
@@ -15619,7 +16829,9 @@
         "apr": 8.19,
         "drawPlayRate": 0.7978723404255319
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.17"
   },
   {
     "no": "D083",
@@ -15645,7 +16857,9 @@
         "apr": 9.53,
         "drawPlayRate": 0.6808510638297872
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "D085",
@@ -15671,7 +16885,9 @@
         "apr": 9.9,
         "drawPlayRate": 0.5405405405405406
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D086",
@@ -15697,7 +16913,9 @@
         "apr": 7.67,
         "drawPlayRate": 0.5321100917431193
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "D092",
@@ -15717,7 +16935,9 @@
         "apr": 5.51,
         "drawPlayRate": 0.8083832335329342
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D093",
@@ -15729,7 +16949,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "D094",
@@ -15755,7 +16977,9 @@
         "apr": 5.47,
         "drawPlayRate": 0.4383561643835616
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "D095",
@@ -15781,7 +17005,9 @@
         "apr": 8.49,
         "drawPlayRate": 0.6666666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "D099",
@@ -15807,7 +17033,9 @@
         "apr": 3.36,
         "drawPlayRate": 0.5921052631578947
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "D100",
@@ -15833,7 +17061,9 @@
         "apr": 12.86,
         "drawPlayRate": 0.5730994152046783
       }
-    }
+    },
+    "enDesc_trans2zh": "庄园领主 记住，Agricola 往往会奖励那些不专注于把某些特定领域刷到满的人，反而会奖励最后一刻的多样化。因此，你通常不会有太大动力为了在这家伙身上拿分而刻意把某些领域拉满，因为你大概也能通过把负分项补齐来拿到同样多的分数。话虽如此，你其实只需要把 3 个领域刷满，他就值得你花这个行动。最容易做到的是 Fields、Grain 和 Veggies，原因显而易见。如果你能做到这些，那就尽管打出他。",
+    "jpwiki_score": "9"
   },
   {
     "no": "D102",
@@ -15859,7 +17089,9 @@
         "apr": 5.71,
         "drawPlayRate": 0.8205128205128205
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "D103",
@@ -15885,7 +17117,9 @@
         "apr": 8.23,
         "drawPlayRate": 0.4406779661016949
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4"
   },
   {
     "no": "D105",
@@ -15911,7 +17145,9 @@
         "apr": 7.39,
         "drawPlayRate": 0.5
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.83"
   },
   {
     "no": "D106",
@@ -15923,7 +17159,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "D109",
@@ -15949,7 +17187,9 @@
         "apr": 7.55,
         "drawPlayRate": 0.49382716049382713
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.75"
   },
   {
     "no": "D110",
@@ -15975,7 +17215,9 @@
         "apr": 2.76,
         "drawPlayRate": 0.6101694915254238
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "D112",
@@ -16001,7 +17243,9 @@
         "apr": 4.43,
         "drawPlayRate": 0.9066666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8.33"
   },
   {
     "no": "D113",
@@ -16027,7 +17271,9 @@
         "apr": 11.82,
         "drawPlayRate": 0.45901639344262296
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.5"
   },
   {
     "no": "D116",
@@ -16053,7 +17299,9 @@
         "apr": 2.0,
         "drawPlayRate": 0.3333333333333333
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.17"
   },
   {
     "no": "D123",
@@ -16079,7 +17327,9 @@
         "apr": 6.21,
         "drawPlayRate": 0.4117647058823529
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.17"
   },
   {
     "no": "D124",
@@ -16105,7 +17355,9 @@
         "apr": 8.98,
         "drawPlayRate": 0.43333333333333335
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.5"
   },
   {
     "no": "D125",
@@ -16131,7 +17383,9 @@
         "apr": 4.66,
         "drawPlayRate": 0.7125748502994012
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.83"
   },
   {
     "no": "D126",
@@ -16157,7 +17411,9 @@
         "apr": 9.75,
         "drawPlayRate": 0.5757575757575758
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "D127",
@@ -16183,7 +17439,9 @@
         "apr": 8.12,
         "drawPlayRate": 0.2711864406779661
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "D129",
@@ -16209,7 +17467,9 @@
         "apr": 6.77,
         "drawPlayRate": 0.4225352112676056
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.67"
   },
   {
     "no": "D130",
@@ -16235,7 +17495,9 @@
         "apr": 4.72,
         "drawPlayRate": 0.896551724137931
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.17"
   },
   {
     "no": "D131",
@@ -16261,7 +17523,9 @@
         "apr": 7.38,
         "drawPlayRate": 0.4807692307692308
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5"
   },
   {
     "no": "D133",
@@ -16287,7 +17551,9 @@
         "apr": 9.46,
         "drawPlayRate": 0.6067415730337079
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "D134",
@@ -16313,7 +17579,9 @@
         "apr": 5.25,
         "drawPlayRate": 0.6310679611650486
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "D135",
@@ -16339,7 +17607,9 @@
         "apr": 4.79,
         "drawPlayRate": 0.6626506024096386
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D136",
@@ -16365,7 +17635,9 @@
         "apr": 4.6,
         "drawPlayRate": 0.7371794871794872
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D137",
@@ -16385,7 +17657,9 @@
         "apr": 3.56,
         "drawPlayRate": 0.9725274725274725
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "9.5"
   },
   {
     "no": "D139",
@@ -16411,7 +17685,9 @@
         "apr": 2.18,
         "drawPlayRate": 0.7218045112781954
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "D140",
@@ -16437,7 +17713,9 @@
         "apr": 5.0,
         "drawPlayRate": 0.375
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "1.33"
   },
   {
     "no": "D142",
@@ -16463,7 +17741,9 @@
         "apr": 5.15,
         "drawPlayRate": 0.4954128440366973
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.83"
   },
   {
     "no": "D143",
@@ -16489,7 +17769,9 @@
         "apr": 5.69,
         "drawPlayRate": 0.6376811594202898
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6"
   },
   {
     "no": "D145",
@@ -16515,7 +17797,9 @@
         "apr": 10.62,
         "drawPlayRate": 0.4807692307692308
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "D147",
@@ -16541,7 +17825,9 @@
         "apr": 3.14,
         "drawPlayRate": 0.6814814814814815
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "D149",
@@ -16567,7 +17853,9 @@
         "apr": 8.74,
         "drawPlayRate": 0.5986394557823129
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.33"
   },
   {
     "no": "D150",
@@ -16593,7 +17881,9 @@
         "apr": 7.23,
         "drawPlayRate": 0.4838709677419355
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D151",
@@ -16619,7 +17909,9 @@
         "apr": 7.99,
         "drawPlayRate": 0.6496350364963503
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "8"
   },
   {
     "no": "D153",
@@ -16645,7 +17937,9 @@
         "apr": 7.12,
         "drawPlayRate": 0.25806451612903225
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "2.83"
   },
   {
     "no": "D155",
@@ -16697,7 +17991,9 @@
         "apr": 4.26,
         "drawPlayRate": 0.8541666666666666
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7.67"
   },
   {
     "no": "D157",
@@ -16723,7 +18019,9 @@
         "apr": 11.35,
         "drawPlayRate": 0.5271317829457365
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "7"
   },
   {
     "no": "D159",
@@ -16735,7 +18033,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "D160",
@@ -16761,7 +18061,9 @@
         "apr": 6.33,
         "drawPlayRate": 0.6222222222222222
       }
-    }
+    },
+    "enDesc_trans2zh": "助产士 如果你处在一个将从助产士那里获得大量食物的位置上，你就赢不了。",
+    "jpwiki_score": "4.67"
   },
   {
     "no": "D161",
@@ -16773,7 +18075,9 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": ""
+    "chenDesc": "",
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "-"
   },
   {
     "no": "D163",
@@ -16799,7 +18103,9 @@
         "apr": 9.23,
         "drawPlayRate": 0.5166666666666667
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "5.83"
   },
   {
     "no": "D164",
@@ -16825,7 +18131,9 @@
         "apr": 9.42,
         "drawPlayRate": 0.4342105263157895
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "D165",
@@ -16851,7 +18159,9 @@
         "apr": 0.0,
         "drawPlayRate": 0.0
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "3.5"
   },
   {
     "no": "D166",
@@ -16877,7 +18187,9 @@
         "apr": 8.24,
         "drawPlayRate": 0.40384615384615385
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "4.5"
   },
   {
     "no": "D167",
@@ -16903,7 +18215,9 @@
         "apr": 7.7,
         "drawPlayRate": 0.35714285714285715
       }
-    }
+    },
+    "enDesc_trans2zh": "",
+    "jpwiki_score": "6.33"
   },
   {
     "no": "E001",
@@ -17189,7 +18503,9 @@
         "apr": 9.43,
         "drawPlayRate": 0.5697674418604651
       }
-    }
+    },
+    "enDesc_trans2zh": "这是个交易好到经常反而变成坏交易的例子。如果你在前期就远程打出这张牌，你基本可以指望你左手边的对手之后会用它来拿 SP。就像 Corn Sheaf 一样，你需要某种方式来打破这张牌固有的对称性，这样打出来才值得。如果你打算真的用这块田来种作物，那么前期打出这张牌通常是笔好交易。否则，尽量等到后期回合再打，这样希望能把你之后能用它的玩家人数降到最低。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E012",
@@ -17215,7 +18531,9 @@
         "apr": 12.09,
         "drawPlayRate": 0.6379310344827587
       }
-    }
+    },
+    "enDesc_trans2zh": "明显比鱼篓更差，因为你更愿意把芦苇（反正通常你也想要的东西）顺便当作奖励来获得食物，而不是靠捕鱼；捕鱼既不可靠，又除了食物之外没有任何收益。不过，从长期来看，它大概仍然能提供相当数量的食物。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E013",
@@ -17241,7 +18559,9 @@
         "apr": 10.68,
         "drawPlayRate": 0.7272727272727273
       }
-    }
+    },
+    "enDesc_trans2zh": "斧头的强度会随着玩家人数而剧烈波动。在 2-p 里，它可能非常别扭，因为通常你得等到第 2 阶段石头格子出现后才能打出它。在 3-p 里，打出它稍微容易一些（你可以直接 rawdog 那个烂到不行的百搭资源格），但它带来的收益会被芦苇数量少得可怜这一点大幅削弱。在 4-p 里，由于 RSF 格子，这张牌会变得非常强；而在 5-p 里，因为 1S1W + R 格子，它会变成一张毫无疑问的 5 星牌。无论如何，斧头一旦落地就非常离谱；你通常都能靠它做到 4+ 个房间。如果你建了 3 个木房间，你等于省下了 8W。那也太夸张了。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E014",
@@ -17267,7 +18587,9 @@
         "apr": 7.84,
         "drawPlayRate": 0.38144329896907214
       }
-    }
+    },
+    "enDesc_trans2zh": "显然是三张 Bakers 改进里最好的。你知道比用 2 stone 换 2VP 更好吗？不花 stone 换 1VP！不像另外两张牌，这才是真正促使你去烘焙的动力，因为你总能很轻松地打出这张，确保你关键的 bake 动作以神级效率完成。",
+    "jpwiki_score": "8"
   },
   {
     "no": "E015",
@@ -17293,7 +18615,9 @@
         "apr": 10.38,
         "drawPlayRate": 0.7847222222222222
       }
-    }
+    },
+    "enDesc_trans2zh": "烘焙盘 烘焙盘 在 2-p 和 3-p 中这张牌非常强，有时甚至足以单独成为我去烘焙的动力。帮你省下早期为了拿到黏土烤炉所需的石头非常关键，而且还能用 SP 购买烤炉也很棒。由于在 2-p 和 3-p 中几乎不会有人和你争烤炉，你可以据此来规划。在 4-p 和 5-p 中其价值会下降一些，因为早期石头没那么关键了。此外，你更可能在黏土烤炉上遇到竞争，这让烘焙盘变成更冒险的打法（因为它会暴露你的意图）。不过无论如何，如果你打算烘焙，它都是一个扎实的改进，通常值得花 1W。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E016",
@@ -17319,7 +18643,9 @@
         "apr": 11.95,
         "drawPlayRate": 0.7935483870967742
       }
-    }
+    },
+    "enDesc_trans2zh": "尽管这张看起来极其弱，但其实是一张不错的牌。有时候你真的很需要SP，却没有别的可打。还能灵活选择拿黏土还是木头也很不错。另外，它看起来这么烂，也意味着你传给的那个人在近期不太可能会用它把SP拿走。不过，和所有“pass to the left”的牌一样，在2-p里它可能有点没意义。有时你的对手会直接用它把SP再拿回去，获得几乎一模一样的收益，让你基本回到原点。",
+    "jpwiki_score": "8"
   },
   {
     "no": "E017",
@@ -17345,7 +18671,9 @@
         "apr": 9.1,
         "drawPlayRate": 0.81
       }
-    }
+    },
+    "enDesc_trans2zh": "前期，能把 1G 转换成 2F 的效率太低，不值得付出这么高的成本。后期，有更高效的方式把资源转换成分数。你几乎总能找到比用这三块木头更好的事来做。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "E018",
@@ -17423,7 +18751,9 @@
         "apr": 9.12,
         "drawPlayRate": 0.676056338028169
       }
-    }
+    },
+    "enDesc_trans2zh": "简易壁炉 简易壁炉 这又是一张能够破坏前期壁炉的牌。如果你在最后一轮行动时用它拿到SP，你就能吃掉羊（尽管效率不高），并且能坑到那个一直让它们积累、准备买壁炉的人。之后，免费升级成烹饪灶台应该能让你获得一个不错的长期供食策略。尤其是在进阶对局中，当你的对手明白第一个壁炉的重要性时，这可以是一张极佳的进攻性战术牌。它也可以算是一种相对便宜的获得烹饪灶台的方法。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E021",
@@ -17469,7 +18799,9 @@
         "apr": 6.04,
         "drawPlayRate": 0.875
       }
-    }
+    },
+    "enDesc_trans2zh": "如果芦苇很紧张，这可以是个不错的出路。如果你打算钓鱼两次，VP 让它差不多值回票价。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E023",
@@ -17521,7 +18853,9 @@
         "apr": 7.85,
         "drawPlayRate": 0.7669172932330827
       }
-    }
+    },
+    "enDesc_trans2zh": "畜栏 畜栏 我见过这张牌把很多想不管手牌如何、尽早把这玩意儿打出来的新手坑惨了。别当那种人。如果你不得不打出2张你其实并不想出的职业牌，那多半不值得，因为这会忽视家庭增长。另一方面，如果你运气够好，手里有3 - 4张你本来就想在前期打出的职业牌，那么这个打法可能会让对手直接崩盘。在进行某种选秀时这张牌会强得多，因为它和赞助人、学者以及永久学生的联动强到近乎不公平。选秀也更可能让你手里真的有四张你想打出的前期职业牌。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "E026",
@@ -17547,7 +18881,9 @@
         "apr": 6.39,
         "drawPlayRate": 0.6614173228346457
       }
-    }
+    },
+    "enDesc_trans2zh": "首先，几乎没人会买“Joinery”，因此一张强化它的牌其价值天然就很可疑。其次，即便你不知怎么已经有了“Joinery”，这张牌还要花 1W！由于每个木头价值 2 food，你实际上要到把“Joinery”用 3 次之后才会从这张牌上获利。如果你确实打算把“Joinery”用 3 次，那么问题就变成了：你从哪里弄来这么多额外的木头？以及你为什么不把它用来扩建房间/围篱笆？",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "E027",
@@ -17573,7 +18909,9 @@
         "apr": 2.98,
         "drawPlayRate": 0.78125
       }
-    }
+    },
+    "enDesc_trans2zh": "柴火烤炉 柴火烤炉 比风车稍微好一点，但由于同样的原因也很差。它的效率不足以单独作为食物引擎，而且得分也不足以证明其资源成本是合理的。尽管如此，它仍有一些用途，比如在中后期作为获得额外一次烘焙行动的方式。它也可以被退回以换取三种超级烤炉之一。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E028",
@@ -17599,7 +18937,9 @@
         "apr": 5.43,
         "drawPlayRate": 0.8486486486486486
       }
-    }
+    },
+    "enDesc_trans2zh": "支付1W换取1VP已经很不错了，而支付1W换取2VP就更好了。你本来就打算翻修的，不是吗？",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "E029",
@@ -17625,7 +18965,9 @@
         "apr": 10.16,
         "drawPlayRate": 0.5352112676056338
       }
-    }
+    },
+    "enDesc_trans2zh": "这里有点先有鸡还是先有蛋的问题。在你能腾出养羊的空间之前，你得先有羊！这张牌的最优用法是建一个畜栏，正好弄到两只羊，并用它在下一次收获时为你的小羊腾出空间。然而，把这个狭窄的计划付诸实施很难，因为你并不总是有时间在获得两只羊和进入收获之间那段很短的窗口里打出一张小型改良。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E030",
@@ -17677,7 +19019,9 @@
         "apr": 7.57,
         "drawPlayRate": 0.8796992481203008
       }
-    }
+    },
+    "enDesc_trans2zh": "这些先决条件在中期应该是轻而易举就能满足的，而那些免费的 1VP 小牌只要还能提供一点小收益就总是值得打出。你大概得习惯我这么说，因为这不会是你最后一次听到它。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E032",
@@ -17703,7 +19047,9 @@
         "apr": 12.76,
         "drawPlayRate": 0.6761363636363636
       }
-    }
+    },
+    "enDesc_trans2zh": "如果你只播种一次蔬菜，这张牌就值 1VP——对 1W 来说这已经是个不错的交易了。如果你打算播种蔬菜不止一次，它就能值 2 分或更多，简直超值。由于几乎每种优秀的终局策略都至少会播种一次蔬菜，所以这张牌通常都值得打出。要是你有一张能在前期提供蔬菜的职业牌，这张牌会变得有多离谱我都不想展开说了。把这张牌拿来和 Planter's Box 对比也很有意思。一方面，Planter's Box 显然更强而且更便宜。不过，Potato Dibber 可以在前期打出，而且能通过打出 Dibber 来铺垫前期拿到 2R 的机会，有时至关重要。在我看来这两张改良大致势均力敌，这足以说明时机对小改良价值的影响有多大。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "E033",
@@ -17729,7 +19075,9 @@
         "apr": 12.13,
         "drawPlayRate": 0.2777777777777778
       }
-    }
+    },
+    "enDesc_trans2zh": "这是宠物的心头好。用 1 clay 换 2 food 本身也不算太亏（参见：Potter），而且之后你还能重新拿下 SP，并免费带一个 2VP 的改良一起拿。它不仅在你有 oven 的时候是必打牌，实际上还应该成为你去烘焙的一个小小动力。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E034",
@@ -17807,7 +19155,9 @@
         "apr": 12.86,
         "drawPlayRate": 0.4943820224719101
       }
-    }
+    },
+    "enDesc_trans2zh": "我不确定在开发过程中这张卡怎么会被认为是公平的。带有无关紧要前置条件的免费 1VP 职业几乎总是值得打出，但在这种情况下，额外能力相当强力。唯一的注意点是你应该小心不要让对手轻松获得 reed。比如，如果你在一局 3-p 游戏中，面临 3C 和 2R 的选择，你应该考虑拿 2R 来卡住对手。只要你打得聪明，这张卡就处于近乎超模的边缘，而且只要摸到就必打。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E037",
@@ -17859,7 +19209,9 @@
         "apr": 10.83,
         "drawPlayRate": 0.6884057971014492
       }
-    }
+    },
+    "enDesc_trans2zh": "牌库里最好的牌是那些在没有成本的情况下给VP的牌。讽刺的是，这意味着圣母像其实挺差的，尽管它是一张在没有成本的情况下给VP的牌！大多数时候，你根本不会有两项“不值VP”的改良闲着。相反，你通常不得不把一个1VP的改良和一个不值VP的改良一起扔掉，而没有任何额外收益的话，这通常不是一笔好交易。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E039",
@@ -17937,7 +19289,9 @@
         "apr": 8.85,
         "drawPlayRate": 0.9308176100628931
       }
-    }
+    },
+    "enDesc_trans2zh": "我很喜欢这张带黏土烤炉的卡。1G换7 food效率高得离谱，即使只是一个一般的 grain engine，你也完全不用担心喂饱你的家庭。到游戏结束时，它大概率已经给了你6或8 food。花1S做到这样真的很爽。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E042",
@@ -17963,7 +19317,9 @@
         "apr": 10.33,
         "drawPlayRate": 0.48091603053435117
       }
-    }
+    },
+    "enDesc_trans2zh": "乐于助人的邻居 乐于助人的邻居 建筑材料让你不付出任何代价就能得到东西，而这张卡则迫使你支付一种不同的资源。灵活性的降低使其总体上更差，因为它要求你手头还得额外有一种你没有其他用途的资源闲置着。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "E043",
@@ -17989,7 +19345,9 @@
         "apr": 9.83,
         "drawPlayRate": 0.7647058823529411
       }
-    }
+    },
+    "enDesc_trans2zh": "在第8轮之前打出三个occ很难，所以很多时候你拿不到完整的食物加成。不过，即便你只从这张牌里拿到3-4食物，也总是值得打出。这里的潜在回报足够高，甚至在中期也值得抢出来。多数需要3个occ的improvement是有条件的，得你有很好的occupations才行；但这张牌之所以能拿到额外星星，仅仅是因为它的效果通常足够诱人，让你即使其中一个occupation是比较差的action也会想把它打出来。零成本潜在拿到7食物非常强。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E044",
@@ -18015,7 +19373,9 @@
         "apr": 11.67,
         "drawPlayRate": 0.6940298507462687
       }
-    }
+    },
+    "enDesc_trans2zh": "我讨厌这张牌。拿它和马比一下就知道了，马是免费的，而且前置条件简单得多。通常等到你愿意用木头和黏土直接换 VP 的时候，你对手的两张职业牌反正都已经打出来了。这张牌如果定价为 1C，可能还算比较合理。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E045",
@@ -18067,7 +19427,9 @@
         "apr": 6.01,
         "drawPlayRate": 0.7515527950310559
       }
-    }
+    },
+    "enDesc_trans2zh": "麻袋车 麻袋车 到你打出2张职业的时候，通常已经过了第5轮了，不过即便如此，用2W换来最终的3G也是一笔不错的交易。这张卡在支持一种不早期播种谷物的烘焙策略方面可以有很大价值。必须播种一到两块谷物田是烘焙的传统弱点，因为这会拖延FG。麻袋车可以帮助抵消这一点。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E047",
@@ -18093,7 +19455,9 @@
         "apr": 8.17,
         "drawPlayRate": 0.7423312883435583
       }
-    }
+    },
+    "enDesc_trans2zh": "生菜地 生菜地 与豆田相比，这个小幅升级并不能完全弥补更高的职业需求。如果你一直在玩职业偏重的游戏，它仍然是必下的牌，但如果你手里只有1或2张不错的职业牌（这种情况很常见），那可能就不值得费这个劲了。",
+    "jpwiki_score": "6"
   },
   {
     "no": "E048",
@@ -18119,7 +19483,9 @@
         "apr": 10.34,
         "drawPlayRate": 0.5396825396825397
       }
-    }
+    },
+    "enDesc_trans2zh": "芦苇池 芦苇池 在3人局中，这张卡可以策划一波碾压式优势。当其他玩家在抢芦苇时，你可以只管把职业打出来，然后再打出这张卡，彻底避开争夺。在其他人数模式中，后期打出它有时能帮你省下整整一个行动，因为你不必为了翻修而去抢芦苇。虽然三张职业的要求很高，但它的效果足够强，通常值得优先考虑。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "E049",
@@ -18145,7 +19511,9 @@
         "apr": 5.06,
         "drawPlayRate": 0.813953488372093
       }
-    }
+    },
+    "enDesc_trans2zh": "写字桌 写字桌 由于它有两个占用（Occ）需求，你很可能永远都用不到这个能力。你的第四个占用大概率不值 2 食物，除非有疯狂的类似 Patron 的连招。极少数情况下，我会因为没有更好的选择而打出它，而用 1W 换 1VP 也算是个还行的交易。",
+    "jpwiki_score": "8"
   },
   {
     "no": "E050",
@@ -18171,7 +19539,9 @@
         "apr": 7.28,
         "drawPlayRate": 0.8481012658227848
       }
-    }
+    },
+    "enDesc_trans2zh": "建造者的抹子 建造者的抹子 我发现自己很多时候都会跳过这张牌。我不喜欢为了本来可以免费做的事去付1W，而且途中你还不能打出一个大型改良，这进一步降低了这张牌的效率。有时你在FG之后看看手牌，发现没什么更好的可打，但把它留在手里其实也不会损失多少价值。不过，如果你计划打出一张需要你快速把房子翻修成黏土的职业，这张牌的价值就会提高一些。在人数更大的对局里它也稍微更好，因为翻修被卡位的情况会更常见。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E051",
@@ -18197,7 +19567,9 @@
         "apr": 4.23,
         "drawPlayRate": 0.6947368421052632
       }
-    }
+    },
+    "enDesc_trans2zh": "纺锤 纺锤 如果你打算放牧羊群，这张牌每次都值得拿出来。一旦你有了3只羊，你基本上每次收获都会得到3 food，因为你可以在田地阶段拿到1 food，然后宰一只羊给羊羔腾出空间。总的来说，纺锤应该可以轻松提供3-5 food，取决于你多早开始养羊。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E052",
@@ -18223,7 +19595,9 @@
         "apr": 5.47,
         "drawPlayRate": 0.7777777777777778
       }
-    }
+    },
+    "enDesc_trans2zh": "马厩 马厩 以半价购买一座马厩算是个相当小的效果，因为当你建造房间时，你以后总是还有选择以原价买马厩。和往常一样，这张通行卡的即时效用会因为你左手边的对手很可能也会自己打出它而打折扣。尽管如此，有什么就拿什么，而且很多时候你也不会有更好的牌可打。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E053",
@@ -18249,7 +19623,9 @@
         "apr": 7.36,
         "drawPlayRate": 0.7338709677419355
       }
-    }
+    },
+    "enDesc_trans2zh": "黄油搅拌机 黄油搅拌机 2W 对于它能做的事来说有点太贵了。你很少能幸运到同时拥有一堆 cattle AND sheep，所以大多数时候它用起来就像一个定价过高的 spindle。",
+    "jpwiki_score": "8"
   },
   {
     "no": "E054",
@@ -18275,7 +19651,9 @@
         "apr": 4.18,
         "drawPlayRate": 0.8455882352941176
       }
-    }
+    },
+    "enDesc_trans2zh": "采石场 采石场 比畜栏更好，因为你有更多时间把所需的4个职业打出来。即使你等到第12轮才打出这张牌，你能拿到的6或9石头也很容易就足够用于你原本计划做的任何事。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E055",
@@ -18301,7 +19679,9 @@
         "apr": 8.69,
         "drawPlayRate": 0.7631578947368421
       }
-    }
+    },
+    "enDesc_trans2zh": "石屋扩建 石屋扩建 由于存在“家庭增长但不加房间”这个格子，这张牌的价值被削弱了。你越有可能抢到这个格子，这张偏后期的牌就越不可能帮助你扩大家庭。若严格把它当作一个 3 分的操作来看，这张牌相当平淡；在成本相近的情况下，井和石炉都更好。它是一张小进展这一点并不太重要，因为翻修成石屋意味着你至少有一次机会拿到一个大进展。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "E056",
@@ -18327,7 +19707,9 @@
         "apr": 9.04,
         "drawPlayRate": 0.6923076923076923
       }
-    }
+    },
+    "enDesc_trans2zh": "石钳 石钳 这太棒了，并且与石车和石交换这类卡牌相比也毫不逊色。它不仅鼓励你剥夺对手的石头，还会预先给你石头，让你可以立刻使用。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E057",
@@ -18353,7 +19735,9 @@
         "apr": 10.97,
         "drawPlayRate": 0.5980392156862745
       }
-    }
+    },
+    "enDesc_trans2zh": "鸽舍 鸽舍 两块石头换两个VP基本上算是标准价位，而你获得的食物也能带来不错的提升。尽管如此，当你打出这张牌时，你需要确保你没有把一次石头翻修的机会给浪费掉。把这张牌当作一种奢侈品——如果你石头很充足那就不妨一用，但把它留在手里也不会损失太多价值。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E059",
@@ -18379,7 +19763,9 @@
         "apr": 5.13,
         "drawPlayRate": 0.7593984962406015
       }
-    }
+    },
+    "enDesc_trans2zh": "饮水槽 饮水槽 需要特别注意的是，在你至少拥有2块牧场之前，畜棚都优于饮水槽。这是一个显著的弱点，因为前期的牧场通常是不划算的。原因在于，如果你把单个牧场与2个畜棚进行比较，你能容纳的动物数量相同，但畜棚可以在你建造房间时作为“免费”动作建造。相反，牧场则需要单独花费一个完整动作。话虽如此，一旦你已经铺出几块小牧场，饮水槽在提高你的动物容量方面仍然非常高效。虽然这项改良通常在前期打出是个错误，但如果你还没建畜棚，它在中后期会是个不错的选择。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "E061",
@@ -18405,7 +19791,9 @@
         "apr": 9.93,
         "drawPlayRate": 0.6233766233766234
       }
-    }
+    },
+    "enDesc_trans2zh": "骑乘犁 骑乘犁 虽然它的威力毋庸置疑，但这是我最不喜欢的犁。首先，4W、3 Occ 的标价极其昂贵。其次，由于第 5 块之后的每块田地通常都没有必要，要想最大化这张犁的价值，就要求你在打出这张牌之前一块田都别犁。即便如此，你仍然会得到一块几乎没用的第 6 块田。我很多次见到玩家兴奋地把这张牌打出来，结果却对最终得分感到失望。很多时候，这张牌夸张的成本（再加上几乎整局都不能犁地这一隐性成本）让它的麻烦远大于它的价值。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E062",
@@ -18431,7 +19819,9 @@
         "apr": 11.15,
         "drawPlayRate": 0.7466666666666667
       }
-    }
+    },
+    "enDesc_trans2zh": "特恩雷斯特犁 特恩雷斯特犁 与 Crooked Plow 相比，能够用你的犁和/或播种来使用这一点的能力，并不足以弥补增加的 occupation 要求。尽管如此，这仍然是一张极好的卡牌，我几乎总是会尽量把它打出来。",
+    "jpwiki_score": "8"
   },
   {
     "no": "E063",
@@ -20017,7 +21407,9 @@
         "apr": 8.16,
         "drawPlayRate": 0.550561797752809
       }
-    }
+    },
+    "enDesc_trans2zh": "在大局中，Tax collector 可能带来 5 或 6 个免费资源，再加上你购买的资源。稍显尴尬的是，它会在别人建造 improvements 时给你资源，但这些资源往往最有用的用途是让你自己去购买 Majors。尽管如此，上限仍然很高。应该在 FotM 中被禁用。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E127",
@@ -20511,7 +21903,9 @@
         "apr": 11.24,
         "drawPlayRate": 0.42
       }
-    }
+    },
+    "enDesc_trans2zh": "土地代理 这是最差的早期蔬菜牌。当你拿到早期蔬菜时，你会想要播种它。然而，只播种 1 个蔬菜通常很亏，所以你大概会先拿个谷物并犁 2 块田再去播种。然后，当“拿 1 个蔬菜”的格子出现时，你会看着你的 4 个蔬菜和你已播下的谷物，纳闷自己为什么还会想要再多拿 1 个不管是哪种。也不是完全没用，因为有时你就是需要拿到你的第 4 个 occ，而为了一个早期蔬菜付 1F1A 也只是有点亏而已。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E148",
@@ -20537,7 +21931,9 @@
         "apr": 5.38,
         "drawPlayRate": 0.8214285714285714
       }
-    }
+    },
+    "enDesc_trans2zh": "学院派 这张牌唯一的用途是作为通往那些需要 3 或 4 张职业的小幅提升的垫脚石，在这个狭窄的角色里还算可以（但并不出彩）。充其量，他也只是帮你省下 1F1A 来再打出另一张 Occ。通常，由于打出 2 张不同的 occ 至少会带来某种有益效果，这个收益还会比那更少。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "E150",
@@ -20563,7 +21959,9 @@
         "apr": 3.46,
         "drawPlayRate": 0.6308724832214765
       }
-    }
+    },
+    "enDesc_trans2zh": "烘焙师 名副其实，这是游戏里最适合烘焙的职业之一。  \n假设你给他配上一个烤炉和两块谷物田，你就应该永远不会挨饿。这个Occ的强度会随着游戏人数而变化。  \n在2-p游戏中，烘焙策略糟透了。首先，前期没有办法获得石头。其次，2人局里的动物太多了，你不仅想把它们都留给自己，还想防止对手把它们全拿走！在3-p中，由于前期缺乏石头，烘焙仍然很差，但通常烘焙师依然强到值得你照样去玩他。在4-p和5-p中，烘焙的可行性足以让烘焙师成为强烈的烘焙动机。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E151",
@@ -20589,7 +21987,9 @@
         "apr": 10.31,
         "drawPlayRate": 0.5789473684210527
       }
-    }
+    },
+    "enDesc_trans2zh": "建造大师 如果你能以某种方式做到 5 间石头房间，他就值得作为一个 3 分的打法。\n不过，这通常是个相当困难的任务，而 3\n分也不足以成为积极去把这家伙打出来的动力。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E152",
@@ -20615,7 +22015,9 @@
         "apr": 5.24,
         "drawPlayRate": 0.6020408163265306
       }
-    }
+    },
+    "enDesc_trans2zh": "浆果采集者 一张极其烦人的牌——在有人打出这张牌或“蘑菇采集者”，并且每回合都去拿木头的对局里，我已经开始称自己为“被采浆果”了。不过，这张牌并没有看起来那么强。最终，到游戏结束时它大概值 5 或 6 食物（假设他们拿木头 6 或 7 次），考虑到食物是分期交付的，这也只是勉强合格。让这张牌显得比实际更强的原因在于，它会让新手玩家正确地重视木头格点。在 5 人局里，浆果采集者可以用来狂刷 WSR 格点，从而获得额外的效用。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E153",
@@ -20641,7 +22043,9 @@
         "apr": 6.98,
         "drawPlayRate": 0.6564885496183206
       }
-    }
+    },
+    "enDesc_trans2zh": "苦行僧（Mendicant）我仍然认为，苦行僧唯一会带来某种实质性收益的情况，是当你选择的替代行动能让你拿到一个累积资源、更早一回合获得家庭成长，或提供某种通常不可得的收益。现在对苦行僧的构想（它正在被提出）是：它不仅会给你其中之一，而且很可能把这些全都给你——仅仅因为它让你把游戏推进整整一个行动、因此也推进整整一轮。这个被提出的概念与你对其的解读之间的脱节，似乎是在抽象与可证明之间的断裂。\n\n通常在谈这游戏里的选择时，引用“因为这个选择你得到了什么”是务实的，至少是可行的。比如，早建畜栏可以让你繁殖羊来换食物；第一次收获前双犁双播可以更早启动小麦引擎；诸如此类。然而在这个情境里，当我们谈苦行僧以及它在你是否动用其“食物借贷”时可能带来或不带来什么收益（直接或间接）时，反而具体化会显得反直觉。苦行僧的贷款并不会“直接”给你羊或家庭成长。相反，从抽象意义上说，它提供的是节奏（pace）。节奏是 Agricola 里最珍贵的资源。它是无形的、未被明确定义的。但它无可否认地存在，并且从开局到终局，对每一轮、每一个行动都施加影响。节奏在很大程度上（虽然不完全如此！）决定了谁更早把食物引擎跑起来，谁更早扩建房子，谁更早家庭成长。它决定了谁有余裕去收集某些特定资源、谁没有。它决定了谁因为节奏富余而有时间去折腾起始玩家（Start Player）；或者，谁因为节奏不足而被迫去折腾起始玩家以作调整。在一款被动互动、经济竞争的游戏里，节奏为王。\n\n苦行僧的独特之处在于它提供了其他任何卡都不提供的机会。它给玩家一个选择，一个元游戏层面的选择：决定以（大概）牺牲后期节奏为代价，去获取前期节奏。它之所以能提供这种力量，仅仅因为它躺在持有者手牌里；你先行行使这个选项，成本（也就是把卡打出来）后付。\n\n在你的观察里，你批评玩家选择不吃他的小麦和蔬菜，基于你假设他下一轮就能把它们补回来。反驳点是：通过行使苦行僧选项，他根本不必花时间去补小麦和蔬菜。相反，他立刻进入计划的下一步——用这些资源启动他的食物引擎。他沿着既定战略路径前进，而不是重复，或者更糟，倒退。他获得了节奏。\n\n也许事实上他只获得了一个行动。但这一个行动可能至关重要。你肯定玩得足够多，经历过壁炉被人从指尖抢走、动物在别人的厨房里而不是你的厨房里被宰、你准备扩建或家庭成长却因为只差一个额外行动而被对手抢先导致无法实现。现在反过来想想那些对局：你的局面铺得够好，你的节奏只比其他人快那么一点点，于是是你而不是他们拿到第一次家庭成长，迫使他们再等一轮才能成长，而你享受劳动成果。你手里的苦行僧能帮你让后者发生得比前者更频繁。而且这种效果可以说是累积的。\n\n苦行僧本质上帮我们省下一个行动——收集2食物的行动。取而代之，这个行动可以花在对短期策略更有利的事情上，比如拿芦苇或木头来建扩建房间。这样又可能让我们比原本更早一轮家庭成长。我们提前一轮家庭成长，就又获得了*另一个*行动。那个行动同样会让我们的节奏更快地向前推进，最终又让我们更早扩建、更早家庭成长，再净赚一个行动。节奏会自我增殖；它的回报是指数型的。而种子越早，收获越丰。\n\n而这一切节奏加速，会对其他玩家产生强烈的、我甚至可以说是毁灭性的影响。你额外获得的行动可以用来收集与节奏相关的资源。你拿到更多资源就意味着他们更少；哪怕只是抢走一堆3木头，就足以毁掉另一个玩家的家庭成长计划，天知道要拖多久。反之，那些不得不去“打零工”（Day Laborer）格子上四处抠资源的玩家，本质上是在把资源留给别人拿。这在前期是巨大的摆幅。\n\n确实：正是这种摆幅引发了这个帖子来源的讨论。有人用苦行僧给的“额外”行动把羊从另一个玩家那里抢走了。那位玩家的局势被摧毁了。那位玩家（a）不得不浪费他最后一个行动；（b）仍然吃了大量乞讨（begging）的负分；并且（c）现在*仍然*得四处找羊，才能在下一次收获前把他的食物引擎跑起来。他的节奏被撕碎了。苦行僧持有者的节奏几乎没受影响。这是极其惊人的红利。\n\n话虽如此，苦行僧也绝不是什么核弹。你不会每次都想用它——只在出现非常肥美的机会时才会用。而且，一个聪明的玩家看到你拿了那2张乞讨卡，就会立刻知道你打算用苦行僧把自己脱出来。尤其在2人局里，她可能会在最后一轮尝试封锁职业（occupation）格子来把你直接打爆。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E154",
@@ -20667,7 +22071,9 @@
         "apr": 11.79,
         "drawPlayRate": 0.5185185185185185
       }
-    }
+    },
+    "enDesc_trans2zh": "资深酿酒师 每次收获都能在不采取烘焙行动的情况下把 1 grain 转化为 3 food，这是非常划算的交易。虽然这不能成为你的主要食物来源，但一块播种过的 grain 田可以作为不错的次要食物来源，在你为家庭增长和更强健的食物引擎做准备时帮你渡过难关。然而，他的实用性受到限制，因为你需要在前期就开始播种 grain 才能用到他。这并不总是最佳路线，因为资深酿酒师单独来看并不足以成为你优先播种 grain 而不是 FG 和早期 fireplace 的充分理由（在没有卡牌影响的情况下，这些才是更优的玩法路线）。",
+    "jpwiki_score": "6"
   },
   {
     "no": "E155",
@@ -20693,7 +22099,9 @@
         "apr": 4.29,
         "drawPlayRate": 0.65625
       }
-    }
+    },
+    "enDesc_trans2zh": "面包商：如果只有一个人在烤面包，那他基本毫无价值，而考虑到获取石炉的难度，几乎总是这种情况。我听过一个支持他的理由是：他能把你的 Cooking Hearth 变成一个无限的 Stone Oven。这种思路的主要问题在于：你得烤非常非常多，才能让这家伙提供的食物加成值回 1F1A。你到底有多常会发现自己在烤 6+ 粮食？",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E156",
@@ -20719,7 +22127,9 @@
         "apr": 3.39,
         "drawPlayRate": 0.7924528301886793
       }
-    }
+    },
+    "enDesc_trans2zh": "刷子制造者：如果你从这家伙身上只拿到2个奖励分，那就是白白浪费一个行动。你还不如去犁一块田！所以如果你打出这家伙，你的目标就是拿到最大VP。屠宰4头野猪很多——如果你屠宰了其中4头，你就永远不可能把野猪那项拿满分。这意味着，把野猪献给刷子制造者，你实际上并没有在“赚”分——因为野猪更少，你会丢分。因此，这张卡真正的用途，是让你可以为了食物去屠宰野猪，而不用担心因为没留住野猪而失分。但如果食物才是你的优先事项，你为什么还要浪费一份食物和一个行动？此外，那些你需要早早打出、但要到最后才给VP的卡，在Agricola里从根本上就偏弱。它们需要在你最缺行动的时候打出，然后在游戏结束前都不给你任何回报——这可不是个好主意，因为你的行动本应产生滚雪球效应。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E157",
@@ -20745,7 +22155,9 @@
         "apr": 4.04,
         "drawPlayRate": 0.5714285714285714
       }
-    }
+    },
+    "enDesc_trans2zh": "茅草匠  茅草匠通常比芦苇收集者更差，因为你仍然得再花一个行动去收集芦苇，才能建造你的第一间房。注意，他所减价的次要改良不包括捞网或芦苇小屋（和他配合会很强），却包括度假屋、玉米粮仓和水磨坊（几乎不可用）。不过，在芦苇紧缺的对局里，他仍然能带来不错的提升。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "E158",
@@ -20771,7 +22183,9 @@
         "apr": 7.49,
         "drawPlayRate": 0.5051546391752577
       }
-    }
+    },
+    "enDesc_trans2zh": "Turner 又一次糟糕的转化发生。事实上，这是最糟糕的之一。",
+    "jpwiki_score": "-"
   },
   {
     "no": "E159",
@@ -20797,7 +22211,9 @@
         "apr": 4.41,
         "drawPlayRate": 0.7176470588235294
       }
-    }
+    },
+    "enDesc_trans2zh": "一家之主 在4人局中，一家之主非常强。4名玩家竞争建造房间(Build Room)行动和FG位置时，常常会有人被挤掉。很多时候，有人会拿SP，只是为了确保下一回合能早拿到FG。再结合他在游戏末期还能有一两次把“无房也能拿FG”作为最后一个行动的能力，他几乎是不管你手里其他牌是什么都必带的。 在5人局中，他的实用性会下降——因为有2个FG位置和2个建造房间位置，你又不太可能被卡位。虽然他确实能帮你抢到“好”的建造房间和FG位置，但多买一个畜棚或某个随机小改良通常没那么关键。 这个职业(occ)的一个主要弱点是：虽然你不会在相关位置上被卡，但你也往往会避免去卡别人。结果通常是所有人的分数都更高，而不只是你自己。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "E160",
@@ -20823,7 +22239,9 @@
         "apr": 5.08,
         "drawPlayRate": 0.6439393939393939
       }
-    }
+    },
+    "enDesc_trans2zh": "农夫 我觉得我从没见过有人把这家伙用得好。人们很少把围栏建超过一两次。它在开局给你一头野猪这一点，意味着你得把围栏建三三次，才能凑出一对可繁殖的牛。这麻烦得离谱，根本不值得。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E161",
@@ -20849,7 +22267,9 @@
         "apr": 5.75,
         "drawPlayRate": 0.6785714285714286
       }
-    }
+    },
+    "enDesc_trans2zh": "渔夫 假设你在使用所有牌组进行游戏，各种渔夫类改良应该会相当少见。即使有人打出了一张，也不算太糟，因为那个玩家就不太可能为了断你食物而从你手里抢走“捕鱼”格子。总体而言，这张牌在半熟练玩家局里效果最好。高手往往会避开“捕鱼”格子，除非那里累积到 4 甚至更多，但如果你让格子堆得太高，他们也会调整策略来断你的食物。新手玩家在喂养家人方面比较吃力，会在那里的食物是 3 甚至 2 的时候就去拿。因此，只要有哪怕一个新手，就可能让这张职业牌大打折扣。最佳情况是一组介于两者之间的玩家：他们不用靠捕鱼也能比较顺利地喂家人，但也不太在意你在做什么。话虽如此，用一次行动拿到 6 甚至 8 食物的能力非常惊人，尤其是发生在前期的时候。只是一定别太贪；如果你让那个格子堆得太高，玩家最终会断你食物。",
+    "jpwiki_score": "8.5"
   },
   {
     "no": "E162",
@@ -20875,7 +22295,9 @@
         "apr": 3.86,
         "drawPlayRate": 0.6178861788617886
       }
-    }
+    },
+    "enDesc_trans2zh": "肉商 A 1食物烹饪炉灶算是一笔不错的交易。这让你可以直接参与吃掉积累的动物，而不用费劲去收集黏土。这个家伙的价值高度取决于条件，但当条件满足时，他是个很好的选择。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E163",
@@ -20901,7 +22323,9 @@
         "apr": 2.42,
         "drawPlayRate": 0.8888888888888888
       }
-    }
+    },
+    "enDesc_trans2zh": "田野看守保证你能“拿 1 蔬菜”几乎无关紧要，因为那个格子通常不怎么受欢迎，你真想拿的话一般都能拿到。这张牌真正的吸引力在于“犁地并播种”那部分。你可以获得 2 或 3 次有保障的“犁地并播种”行动，这无疑是个非常强的点。不过，他甚至比这还强。游戏最后一轮里，他能确保你在“犁地并播种”之前先犁地。这始终是进行这两个行动的最优顺序，而田野看守是少数能促成这种操作的方式之一。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "E164",
@@ -20927,7 +22351,9 @@
         "apr": 8.11,
         "drawPlayRate": 0.6356589147286822
       }
-    }
+    },
+    "enDesc_trans2zh": "森林大师 获取木材的门槛更低，意味着你不能再侥幸让它涨到8W——到那个阶段，很可能有人就会把它拿走，而给对手喂这么多木材从来都不是个好主意。另一方面，能够基本不受干扰地反复拿到6W可能是一个巨大的优势。不过，你必须考虑到：你用来拿它的这个行动，本来可以用来把木材从对手那里拿走。",
+    "jpwiki_score": "6.5"
   },
   {
     "no": "E165",
@@ -20953,7 +22379,9 @@
         "apr": 6.01,
         "drawPlayRate": 0.696969696969697
       }
-    }
+    },
+    "enDesc_trans2zh": "自耕农 如果你玩得还算不错，他不应该值超过 2 分。这是一笔糟糕的交易。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E166",
@@ -20979,7 +22407,9 @@
         "apr": 7.39,
         "drawPlayRate": 0.6424242424242425
       }
-    }
+    },
+    "enDesc_trans2zh": "地下园丁 地下园丁不如季节工那么强，但他仍然非常\n惊人。早期蔬菜的威力不容否认，而每个蔬菜自带的2食物\n给了你足够的时间把它们种到地里。\n之后，就只是设法弄到一个烹饪炉灶的问题，然后\n你在这局剩下的时间里食物就稳了。基本上每次有人抽到这家伙，他都会登场。",
+    "jpwiki_score": "7"
   },
   {
     "no": "E167",
@@ -21005,7 +22435,9 @@
         "apr": 11.25,
         "drawPlayRate": 0.738562091503268
       }
-    }
+    },
+    "enDesc_trans2zh": "召唤师 这显然比季节工更差，但也没差太多。第1回合打出它，然后在第2和第4轮拿TP，是一种还不错的方式来启动一个谷物引擎。",
+    "jpwiki_score": "7.5"
   },
   {
     "no": "E168",
@@ -21031,6 +22463,8 @@
         "apr": 7.97,
         "drawPlayRate": 0.559322033898305
       }
-    }
+    },
+    "enDesc_trans2zh": "菜贩子 非常不错。犁两块地，拿一份谷物和一份蔬菜，然后播种吧。他确实会因为把你分成两条路而有点难受——你的一部分想用早期蔬菜配合烹饪炉灶当食物，而他强迫你拿的谷物又让你倾向于烘焙。这使他无法成为一张5星卡，但他仍然很棒。",
+    "jpwiki_score": "8"
   }
 ]
