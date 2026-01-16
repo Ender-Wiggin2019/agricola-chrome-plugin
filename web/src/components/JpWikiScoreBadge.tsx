@@ -10,7 +10,7 @@ export function JpWikiScoreBadge({ score }: JpWikiScoreBadgeProps) {
 
   // Parse score to number for color calculation
   const scoreNum = parseFloat(score);
-  if (isNaN(scoreNum)) return null;
+  if (Number.isNaN(scoreNum)) return null;
 
   const color = getJpWikiScoreColor(scoreNum);
 
@@ -20,7 +20,7 @@ export function JpWikiScoreBadge({ score }: JpWikiScoreBadgeProps) {
       style={{
         backgroundColor: color,
         borderColor: color,
-        boxShadow: `0 2px 4px ${color}40`
+        boxShadow: `0 2px 4px ${color}40`,
       }}
       title={`JP Wiki Score: ${score}`}
     >

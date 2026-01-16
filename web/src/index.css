@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,36 +7,36 @@
 @layer base {
   :root {
     /* Golden Harvest Theme - Farming Aesthetic */
-    --background: 45 40% 96%;          /* Warm wheat background */
-    --foreground: 30 25% 15%;          /* Rich earth brown text */
-    
-    --card: 45 35% 98%;                /* Soft cream card */
+    --background: 45 40% 96%; /* Warm wheat background */
+    --foreground: 30 25% 15%; /* Rich earth brown text */
+
+    --card: 45 35% 98%; /* Soft cream card */
     --card-foreground: 30 25% 15%;
-    
+
     --popover: 45 35% 98%;
     --popover-foreground: 30 25% 15%;
-    
-    --primary: 120 35% 25%;            /* Deep forest green */
+
+    --primary: 120 35% 25%; /* Deep forest green */
     --primary-foreground: 45 40% 96%;
-    
-    --secondary: 80 25% 90%;           /* Soft sage green */
+
+    --secondary: 80 25% 90%; /* Soft sage green */
     --secondary-foreground: 120 35% 20%;
-    
-    --muted: 40 15% 85%;               /* Warm muted tone */
+
+    --muted: 40 15% 85%; /* Warm muted tone */
     --muted-foreground: 30 15% 45%;
-    
-    --accent: 42 75% 55%;              /* Golden harvest accent */
+
+    --accent: 42 75% 55%; /* Golden harvest accent */
     --accent-foreground: 30 25% 15%;
-    
+
     --destructive: 0 60% 50%;
     --destructive-foreground: 45 40% 96%;
-    
-    --border: 40 25% 85%;              /* Warm border */
+
+    --border: 40 25% 85%; /* Warm border */
     --input: 40 25% 88%;
     --ring: 120 35% 25%;
-    
+
     --radius: 0.75rem;
-    
+
     /* Custom farming colors */
     --wheat: 45 55% 88%;
     --soil: 25 35% 30%;
@@ -50,20 +50,25 @@
   * {
     @apply border-border;
   }
-  
+
   body {
     @apply bg-background text-foreground;
-    font-family: 'Source Sans 3', system-ui, sans-serif;
-    background-image: 
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    background-image:
       radial-gradient(ellipse at 20% 0%, hsl(80, 30%, 92%) 0%, transparent 50%),
       radial-gradient(ellipse at 80% 100%, hsl(42, 40%, 92%) 0%, transparent 50%),
       linear-gradient(180deg, hsl(45, 40%, 97%) 0%, hsl(45, 35%, 94%) 100%);
     background-attachment: fixed;
     min-height: 100vh;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Crimson Pro', Georgia, serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Crimson Pro", Georgia, serif;
     font-weight: 600;
     letter-spacing: -0.01em;
   }
@@ -74,30 +79,30 @@
   .wheat-pattern {
     background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4a942' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
-  
+
   /* Soft shadow for cards */
   .farming-card {
     @apply bg-card rounded-xl border border-border/60;
-    box-shadow: 
+    box-shadow:
       0 1px 3px rgba(45, 90, 39, 0.04),
       0 4px 12px rgba(45, 90, 39, 0.06),
       0 0 0 1px rgba(212, 169, 66, 0.05);
   }
-  
+
   .farming-card:hover {
-    box-shadow: 
+    box-shadow:
       0 2px 6px rgba(45, 90, 39, 0.06),
       0 8px 24px rgba(45, 90, 39, 0.08),
       0 0 0 1px rgba(212, 169, 66, 0.1);
   }
-  
+
   /* Header decoration */
   .header-accent {
     position: relative;
   }
-  
+
   .header-accent::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -107,36 +112,41 @@
     background: linear-gradient(90deg, transparent, hsl(42, 75%, 55%), transparent);
     border-radius: 2px;
   }
-  
+
   /* Badge styles */
   .tier-badge {
     @apply font-semibold shadow-sm;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
-  
+
   /* Search input enhancement */
   .search-input {
     @apply transition-all duration-200;
     background: hsl(45, 35%, 99%);
   }
-  
+
   .search-input:focus {
     background: white;
-    box-shadow: 
+    box-shadow:
       0 0 0 3px rgba(45, 90, 39, 0.1),
       0 4px 12px rgba(45, 90, 39, 0.08);
   }
-  
+
   /* Loading animation */
   @keyframes sway {
-    0%, 100% { transform: rotate(-2deg); }
-    50% { transform: rotate(2deg); }
+    0%,
+    100% {
+      transform: rotate(-2deg);
+    }
+    50% {
+      transform: rotate(2deg);
+    }
   }
-  
+
   .loading-icon {
     animation: sway 2s ease-in-out infinite;
   }
-  
+
   /* Fade in animation */
   @keyframes fadeInUp {
     from {
@@ -148,16 +158,16 @@
       transform: translateY(0);
     }
   }
-  
+
   .animate-fade-in {
     animation: fadeInUp 0.4s ease-out forwards;
   }
-  
+
   .animate-fade-in-delay-1 {
     animation: fadeInUp 0.4s ease-out 0.1s forwards;
     opacity: 0;
   }
-  
+
   .animate-fade-in-delay-2 {
     animation: fadeInUp 0.4s ease-out 0.2s forwards;
     opacity: 0;

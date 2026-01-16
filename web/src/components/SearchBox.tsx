@@ -3,7 +3,7 @@ import { Input } from '@/components/ui/input';
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
-import { ICard } from '@/types/card';
+import type { ICard } from '@/types/card';
 import { searchCards } from '@/lib/cardUtils';
 
 interface SearchBoxProps {
@@ -32,7 +32,7 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
         setDropdownPosition({
           top: rect.bottom + 8, // fixed 定位相对于视口，不需要 scrollY
           left: containerRect.left, // fixed 定位相对于视口，不需要 scrollX
-          width: containerRect.width
+          width: containerRect.width,
         });
       }
     };
@@ -47,7 +47,7 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
       window.removeEventListener('scroll', updatePosition, true);
       window.removeEventListener('resize', updatePosition);
     };
-  }, [showSuggestions, suggestions]);
+  }, [showSuggestions]);
 
   // 防抖搜索建议和搜索结果列表（同步）
   useEffect(() => {
@@ -90,34 +90,38 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
   }, []);
 
   // 选择建议项
-  const handleSelectSuggestion = useCallback((card: ICard) => {
-    const displayName = card.cnName || card.enName || card.no;
-    setQuery(displayName);
-    setShowSuggestions(false);
-    onSearch(displayName);
-    inputRef.current?.focus();
-  }, [onSearch]);
+  const handleSelectSuggestion = useCallback(
+    (card: ICard) => {
+      const displayName = card.cnName || card.enName || card.no;
+      setQuery(displayName);
+      setShowSuggestions(false);
+      onSearch(displayName);
+      inputRef.current?.focus();
+    },
+    [onSearch]
+  );
 
   // 处理键盘事件
-  const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (!showSuggestions || suggestions.length === 0) return;
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLInputElement>) => {
+      if (!showSuggestions || suggestions.length === 0) return;
 
-    if (e.key === 'ArrowDown') {
-      e.preventDefault();
-      setSelectedIndex(prev =>
-        prev < suggestions.length - 1 ? prev + 1 : prev
-      );
-    } else if (e.key === 'ArrowUp') {
-      e.preventDefault();
-      setSelectedIndex(prev => prev > 0 ? prev - 1 : -1);
-    } else if (e.key === 'Enter' && selectedIndex >= 0) {
-      e.preventDefault();
-      handleSelectSuggestion(suggestions[selectedIndex]);
-    } else if (e.key === 'Escape') {
-      setShowSuggestions(false);
-      setSelectedIndex(-1);
-    }
-  }, [showSuggestions, suggestions, selectedIndex, handleSelectSuggestion]);
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setSelectedIndex((prev) => (prev < suggestions.length - 1 ? prev + 1 : prev));
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setSelectedIndex((prev) => (prev > 0 ? prev - 1 : -1));
+      } else if (e.key === 'Enter' && selectedIndex >= 0) {
+        e.preventDefault();
+        handleSelectSuggestion(suggestions[selectedIndex]);
+      } else if (e.key === 'Escape') {
+        setShowSuggestions(false);
+        setSelectedIndex(-1);
+      }
+    },
+    [showSuggestions, suggestions, selectedIndex, handleSelectSuggestion]
+  );
 
   // 点击外部关闭下拉框
   useEffect(() => {
@@ -145,7 +149,10 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
 
   return (
     <>
-      <div ref={containerRef} className="sticky top-0 z-[9999] w-full max-w-2xl mx-auto bg-gradient-to-b from-background via-background/95 to-transparent pb-4 pt-2 isolate">
+      <div
+        ref={containerRef}
+        className="sticky top-0 z-[9999] w-full max-w-2xl mx-auto bg-gradient-to-b from-background via-background/95 to-transparent pb-4 pt-2 isolate"
+      >
         <div className="relative group isolate">
           <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-muted-foreground h-5 w-5 transition-colors group-focus-within:text-primary z-[10000]" />
           <Input
@@ -166,17 +173,20 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
       </div>
 
       {/* 联想下拉框 - 使用 Portal 渲染到 body，完全脱离 DOM 层级限制 */}
-      {showSuggestions && suggestions.length > 0 && typeof document !== 'undefined' && createPortal(
-        <div
-          ref={suggestionsRef}
-          className="fixed bg-card border-2 border-border/60 rounded-xl shadow-lg backdrop-blur-sm max-h-80 overflow-y-auto"
-          style={{
-            top: `${dropdownPosition.top}px`,
-            left: `${dropdownPosition.left}px`,
-            width: `${dropdownPosition.width}px`,
-            zIndex: 99999
-          }}
-        >
+      {showSuggestions &&
+        suggestions.length > 0 &&
+        typeof document !== 'undefined' &&
+        createPortal(
+          <div
+            ref={suggestionsRef}
+            className="fixed bg-card border-2 border-border/60 rounded-xl shadow-lg backdrop-blur-sm max-h-80 overflow-y-auto"
+            style={{
+              top: `${dropdownPosition.top}px`,
+              left: `${dropdownPosition.left}px`,
+              width: `${dropdownPosition.width}px`,
+              zIndex: 99999,
+            }}
+          >
             {suggestions.map((card, index) => {
               const displayName = getCardDisplayName(card);
               const isSelected = index === selectedIndex;
@@ -187,9 +197,10 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
                   onClick={() => handleSelectSuggestion(card)}
                   className={`
                     px-4 py-3 cursor-pointer transition-colors
-                    ${isSelected
-                      ? 'bg-primary/20 text-primary'
-                      : 'hover:bg-secondary/50 text-foreground'
+                    ${
+                      isSelected
+                        ? 'bg-primary/20 text-primary'
+                        : 'hover:bg-secondary/50 text-foreground'
                     }
                     ${index === 0 ? 'rounded-t-xl' : ''}
                     ${index === suggestions.length - 1 ? 'rounded-b-xl' : ''}
@@ -197,24 +208,18 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
                   onMouseEnter={() => setSelectedIndex(index)}
                 >
                   <div className="flex items-center gap-3">
-                    <span className="font-medium text-primary/70 text-sm">
-                      {card.no}
-                    </span>
-                    <span className="flex-1 font-medium">
-                      {displayName}
-                    </span>
+                    <span className="font-medium text-primary/70 text-sm">{card.no}</span>
+                    <span className="flex-1 font-medium">{displayName}</span>
                     {card.enName && card.enName !== displayName && (
-                      <span className="text-sm text-muted-foreground">
-                        {card.enName}
-                      </span>
+                      <span className="text-sm text-muted-foreground">{card.enName}</span>
                     )}
                   </div>
                 </div>
               );
             })}
-        </div>,
-        document.body
-      )}
+          </div>,
+          document.body
+        )}
     </>
   );
 }

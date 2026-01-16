@@ -4,7 +4,7 @@ import { Github } from 'lucide-react';
 import { SearchBox } from '@/components/SearchBox';
 import { SearchResults } from '@/components/SearchResults';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
-import { ICard, IAuthors } from '@/types/card';
+import type { ICard, IAuthors } from '@/types/card';
 import { searchCards, getRandomRecommendedCards } from '@/lib/cardUtils';
 
 interface SocialLink {
@@ -19,6 +19,7 @@ const PAGE_SIZE = 5;
 function WheatIcon({ className }: { className?: string }) {
   return (
     <svg
+      aria-label="Wheat Icon"
       className={className}
       viewBox="0 0 24 24"
       fill="none"
@@ -115,7 +116,7 @@ function App() {
 
   // Load more results
   const handleLoadMore = useCallback(() => {
-    setDisplayCount(prev => prev + PAGE_SIZE);
+    setDisplayCount((prev) => prev + PAGE_SIZE);
   }, []);
 
   // Refresh recommended cards
@@ -141,9 +142,7 @@ function App() {
             </h1>
             <WheatIcon className="w-8 h-8 text-harvest scale-x-[-1]" />
           </div>
-          <p className="text-center text-muted-foreground mt-6">
-            {t('header.subtitle')}
-          </p>
+          <p className="text-center text-muted-foreground mt-6">{t('header.subtitle')}</p>
         </div>
       </header>
 
@@ -165,7 +164,8 @@ function App() {
             {!isSearching && (
               <div className="text-center mb-8 animate-fade-in-delay-1">
                 <p className="text-sm text-muted-foreground">
-                  <span className="font-semibold text-primary">{cardsData.length}</span> {t('search.cardsAvailable')}
+                  <span className="font-semibold text-primary">{cardsData.length}</span>{' '}
+                  {t('search.cardsAvailable')}
                 </p>
               </div>
             )}
@@ -192,8 +192,18 @@ function App() {
                       onClick={refreshRecommended}
                       className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5 px-3 py-1.5 rounded-lg hover:bg-secondary/50"
                     >
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                        />
                       </svg>
                       {t('results.refresh')}
                     </button>
@@ -224,9 +234,16 @@ function App() {
             </div>
           </div>
           <div className="text-center text-sm text-muted-foreground space-y-1">
-            <p><span className="font-medium">{t('footer.pluginCreator')}:</span> Ender</p>
-            <p><span className="font-medium">{t('footer.statistics')}:</span> Lumin</p>
-            <p><span className="font-medium">{t('footer.tierProviders')}:</span> Yuxiao_Huang, Chen233, Mark Hartnady</p>
+            <p>
+              <span className="font-medium">{t('footer.pluginCreator')}:</span> Ender
+            </p>
+            <p>
+              <span className="font-medium">{t('footer.statistics')}:</span> Lumin
+            </p>
+            <p>
+              <span className="font-medium">{t('footer.tierProviders')}:</span> Yuxiao_Huang,
+              Chen233, Mark Hartnady
+            </p>
             <p className="pt-2 text-xs opacity-75">{t('footer.specialThanks')} Henry, smile3000</p>
           </div>
 

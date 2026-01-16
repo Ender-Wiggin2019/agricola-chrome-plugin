@@ -18,16 +18,16 @@ i18n
   .init({
     resources: {
       en: { translation: en },
-      zh: { translation: zh }
+      zh: { translation: zh },
     },
     fallbackLng: 'en',
     interpolation: {
-      escapeValue: false
+      escapeValue: false,
     },
     detection: {
       order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
-    }
+      caches: ['localStorage'],
+    },
   });
 
 export default i18n;

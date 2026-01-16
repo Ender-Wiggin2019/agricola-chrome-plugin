@@ -1,4 +1,4 @@
-import { ICard, IStats, TTierType } from '@/types/card';
+import type { ICard, IStats, TTierType } from '@/types/card';
 
 // Get tier color based on tier level and type
 export function getTierColor(tier: string, tierType: TTierType): string {
@@ -96,21 +96,20 @@ export function searchCards(cardsData: ICard[], query: string): ICard[] {
 
   for (const card of cardsData) {
     // Search by no
-    if (card.no && card.no.toLowerCase().includes(queryLower)) {
+    if (card.no?.toLowerCase().includes(queryLower)) {
       results.push(card);
       continue;
     }
 
     // Search by cnName
-    if (card.cnName && card.cnName.toLowerCase().includes(queryLower)) {
+    if (card.cnName?.toLowerCase().includes(queryLower)) {
       results.push(card);
       continue;
     }
 
     // Search by enName
-    if (card.enName && card.enName.toLowerCase().includes(queryLower)) {
+    if (card.enName?.toLowerCase().includes(queryLower)) {
       results.push(card);
-      continue;
     }
   }
 
@@ -123,12 +122,13 @@ export function getRandomRecommendedCards(cardsData: ICard[], count: number = 3)
 
   // Filter cards with chenTier and chenDesc (high priority)
   const cardsWithChenDesc = cardsData.filter(
-    card => card.chenTier && card.chenTier.trim() !== '' && card.chenDesc && card.chenDesc.trim() !== ''
+    (card) =>
+      card.chenTier && card.chenTier.trim() !== '' && card.chenDesc && card.chenDesc.trim() !== ''
   );
 
   // Filter cards with at least chenTier (medium priority)
   const cardsWithChenTier = cardsData.filter(
-    card => card.chenTier && card.chenTier.trim() !== '' && !cardsWithChenDesc.includes(card)
+    (card) => card.chenTier && card.chenTier.trim() !== '' && !cardsWithChenDesc.includes(card)
   );
 
   // Shuffle function
@@ -162,9 +162,7 @@ export function getRandomRecommendedCards(cardsData: ICard[], count: number = 3)
 
   // If still not enough, add other cards
   if (result.length < count) {
-    const otherCards = cardsData.filter(
-      card => !result.includes(card)
-    );
+    const otherCards = cardsData.filter((card) => !result.includes(card));
     const shuffledOthers = shuffle(otherCards);
     for (const card of shuffledOthers) {
       if (result.length >= count) break;

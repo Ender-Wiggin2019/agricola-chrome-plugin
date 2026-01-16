@@ -6,7 +6,7 @@
  * @Description:
  */
 import { Badge } from '@/components/ui/badge';
-import { TTierType } from '@/types/card';
+import type { TTierType } from '@/types/card';
 import { getTierColor } from '@/lib/cardUtils';
 import { cn } from '@/lib/utils';
 import { useTranslation } from 'react-i18next';
@@ -27,14 +27,11 @@ export function TierBadge({ tier, tierType, hasDesc = false }: TierBadgeProps) {
 
   return (
     <Badge
-      className={cn(
-        'text-white font-bold text-xs px-2.5 py-1',
-        hasDesc && 'cursor-help'
-      )}
+      className={cn('text-white font-bold text-xs px-2.5 py-1', hasDesc && 'cursor-help')}
       style={{
         backgroundColor: color,
         borderColor: color,
-        boxShadow: `0 2px 4px ${color}40`
+        boxShadow: `0 2px 4px ${color}40`,
       }}
     >
       <span className="opacity-70 mr-1 text-[10px] uppercase tracking-wide">{label}</span>
