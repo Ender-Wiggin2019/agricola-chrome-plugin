@@ -61,4 +61,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Plugin creator:** Ender
 - **Statistics:** Lumin
 - **Tier providers:** Yuxiao_Huang, Chen233, Mark Hartnady
-- **Special thanks:** Henry, smile3000
+- **Special thanks:** Henry, smile3000, 暧晖

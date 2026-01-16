@@ -151,7 +151,7 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
     <>
       <div
         ref={containerRef}
-        className="sticky top-0 z-[9999] w-full max-w-2xl mx-auto bg-gradient-to-b from-background via-background/95 to-transparent pb-4 pt-2 isolate"
+        className="sticky top-0 z-[9999] w-full max-w-2xl mx-auto pb-4 pt-2 isolate"
       >
         <div className="relative group isolate">
           <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-muted-foreground h-5 w-5 transition-colors group-focus-within:text-primary z-[10000]" />

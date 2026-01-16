@@ -244,7 +244,7 @@ function App() {
               <span className="font-medium">{t('footer.tierProviders')}:</span> Yuxiao_Huang,
               Chen233, Mark Hartnady
             </p>
-            <p className="pt-2 text-xs opacity-75">{t('footer.specialThanks')} Henry, smile3000</p>
+            <p className="pt-2 text-xs opacity-75">{t('footer.specialThanks')} Henry, smile3000, 暧晖</p>
           </div>
 
           {/* Social Links */}

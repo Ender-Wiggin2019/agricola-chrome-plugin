@@ -153,11 +153,6 @@ jobs:
               echo ""
             fi
             echo ""
-            echo "### Credits"
-            echo "- **Plugin creator:** Ender"
-            echo "- **Statistics:** Lumin"
-            echo "- **Tier providers:** Yuxiao_Huang, Chen233, Mark Hartnady"
-            echo "- **Special thanks:** Henry, smile3000"
             echo "EOF"
           } >> $GITHUB_OUTPUT
 

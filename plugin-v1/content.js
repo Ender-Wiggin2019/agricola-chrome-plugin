@@ -789,7 +789,7 @@ function createSearchModal() {
           Plugin creator: Ender<br>
           Statistics: Lumin<br>
           Tier and comments providers: Yuxiao_Huang, Chen233, Mark Hartnady<br>
-          Special thanks: Henry, smile3000
+          Special thanks: Henry, smile3000, 暧晖
         </div>
       </div>
     </div>
