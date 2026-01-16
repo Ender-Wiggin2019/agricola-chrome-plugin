@@ -1,8 +1,8 @@
 import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig } from "plasmo"
 
-import type { ICard, IAuthors } from "~types/card"
-import { findCard, getStatsData, getPrimaryTierColor } from "~lib/cardUtils"
+import type { ICard, IAuthors, TTierType } from "~types/card"
+import { findCard, getStatsData, getPrimaryTierColor, getAdpColor, getTierColor } from "~lib/cardUtils"
 
 export const config: PlasmoCSConfig = {
   matches: [
@@ -175,38 +175,8 @@ function injectStyles() {
   document.head.appendChild(style)
 }
 
-// Tier color helpers (same as cardUtils)
-function getTierColor(tier: string, tierType: string): string {
-  if (!tier || tier === "N/A" || tier.trim() === "") return "#9e9e9e"
-
-  if (tierType === "baitu") {
-    if (tier === "T0" || tier === "T1") return "#4caf50"
-    if (tier === "T2") return "#d4af37"
-    if (tier === "T3") return "#ff9800"
-    if (tier === "T4") return "#f44336"
-  }
-
-  if (tierType === "en" || tierType === "chen") {
-    const t = tier.toUpperCase().trim()
-    if (t === "A") return "#4caf50"
-    if (t === "B") return "#8bc34a"
-    if (t === "C") return "#cddc39"
-    if (t === "D") return "#f9a825"
-    if (t === "E") return "#ff9800"
-    if (t === "F") return "#f44336"
-  }
-
-  return "#9e9e9e"
-}
-
-function getAdpColor(adp: number): string {
-  if (adp < 2) return "#4caf50"
-  if (adp <= 4.5) return "#f9a825"
-  return "#f44336"
-}
-
 // Create tier badge element
-function createTierBadge(tier: string, desc: string | undefined, tierType: string): HTMLElement | null {
+function createTierBadge(tier: string, desc: string | undefined, tierType: TTierType): HTMLElement | null {
   if (!tier || tier.trim() === "") return null
 
   const color = getTierColor(tier, tierType)

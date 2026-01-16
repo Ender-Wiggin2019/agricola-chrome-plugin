@@ -129,7 +129,7 @@ function getStatsData(card) {
 
 // Get ADP color based on value
 function getAdpColor(adp) {
-  if (adp < 2) {
+  if (adp < 2.3) {
     return '#4caf50'; // Green
   } else if (adp <= 4.5) {
     return '#f9a825'; // Darker yellow

@@ -493,12 +493,30 @@ def step8_load_statistics():
     }
 
 def step9_generate_card_all_json(stats_data):
-    """Step 9: Generate card_all.json from index.csv with statistics"""
+    """Step 9: Generate card_all.json from index.csv with statistics and cards_export.json"""
     print("Step 9: Generating card_all.json from index.csv...")
+
+    # Load cards_export.json for merging enDesc_trans2zh and jpwiki_score
+    cards_export_map = {}
+    try:
+        cards_export_data = read_json_file('cards_export.json')
+        for item in cards_export_data:
+            card_id = item.get('id', '').strip()
+            if card_id:
+                cards_export_map[card_id] = {
+                    'enDesc_trans2zh': item.get('enDesc_trans2zh', ''),
+                    'jpwiki_score': item.get('jpwiki_score', '')
+                }
+        print(f"Loaded {len(cards_export_map)} entries from cards_export.json")
+    except FileNotFoundError:
+        print("Warning: cards_export.json not found, skipping merge")
+    except Exception as e:
+        print(f"Warning: Error loading cards_export.json: {e}, skipping merge")
 
     cards = []
     matched_default = 0
     matched_nb = 0
+    matched_cards_export = 0
 
     with open('index.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -535,6 +553,13 @@ def step9_generate_card_all_json(stats_data):
             if stats:
                 card['stats'] = stats
 
+            # Match cards_export.json by no (id)
+            no = row.get('no', '').strip()
+            if no and no in cards_export_map:
+                card['enDesc_trans2zh'] = cards_export_map[no]['enDesc_trans2zh']
+                card['jpwiki_score'] = cards_export_map[no]['jpwiki_score']
+                matched_cards_export += 1
+
             cards.append(card)
 
     with open('card_all.json', 'w', encoding='utf-8') as f:
@@ -543,6 +568,7 @@ def step9_generate_card_all_json(stats_data):
     print(f"Generated card_all.json with {len(cards)} entries")
     print(f"Matched {matched_default} entries with default stats (4p_de)")
     print(f"Matched {matched_nb} entries with nb stats (4p_nb)")
+    print(f"Matched {matched_cards_export} entries with cards_export.json")
 
 def step10_generate_index_missing():
     """Step 10: Generate index_missing.csv with rows where cnName is empty"""

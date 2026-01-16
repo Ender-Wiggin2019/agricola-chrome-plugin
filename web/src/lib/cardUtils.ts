@@ -56,7 +56,7 @@ export function getStatsData(card: ICard): IStats | null {
 
 // Get ADP color based on value
 export function getAdpColor(adp: number): string {
-  if (adp < 2) {
+  if (adp < 2.3) {
     return '#4caf50'; // Green
   } else if (adp <= 4.5) {
     return '#f9a825'; // Darker yellow
@@ -70,6 +70,17 @@ export function getDrawPlayRateColor(rate: number): string {
   if (rate > 0.9) {
     return '#4caf50'; // Green
   } else if (rate > 0.7) {
+    return '#f9a825'; // Darker yellow
+  } else {
+    return '#f44336'; // Red
+  }
+}
+
+// Get JP Wiki Score color based on value (0-10 scale)
+export function getJpWikiScoreColor(score: number): string {
+  if (score >= 8) {
+    return '#4caf50'; // Green
+  } else if (score >= 5) {
     return '#f9a825'; // Darker yellow
   } else {
     return '#f44336'; // Red
