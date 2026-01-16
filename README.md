@@ -2,7 +2,7 @@
 
 Agricola 卡牌搜索与评级工具，提供 Chrome 扩展和独立 Web 应用两种使用方式。
 
-## 📁 项目结构
+## 项目结构
 
 ```
 agricola-chrome-plugin/
@@ -27,17 +27,17 @@ agricola-chrome-plugin/
     └── *.json, *.csv     # 源数据文件
 ```
 
-## 🎯 功能特性
+## 功能特性
 
-- 🔍 **卡牌搜索**: 按编号、中文名、英文名搜索
-- 📊 **多维评级**: Baitu (白兔)、EN、Chen 三个评级系统
-- 📈 **统计数据**: PWR、ADP、APR、打出率等数据
-- 🌐 **中英文支持**: 界面支持中英文切换
-- 🎨 **农场主题**: 温暖的小麦色调设计
+- **卡牌搜索**: 按编号、中文名、英文名搜索
+- **多维评级**: Baitu (白兔)、EN、Chen 三个评级系统
+- **统计数据**: PWR、ADP、APR、打出率等数据
+- **中英文支持**: 界面支持中英文切换
+- **农场主题**: 温暖的小麦色调设计
 
 ---
 
-## 🔌 Chrome 扩展 (`/plugin`)
+## Chrome 扩展 (`/plugin`)
 
 在 Agricola 游戏页面上自动为卡片添加评级信息和详情工具提示。
 
@@ -62,7 +62,7 @@ agricola-chrome-plugin/
 
 ---
 
-## 🌐 Web 应用 (`/web`)
+## Web 应用 (`/web`)
 
 独立的卡牌搜索 Web 应用，基于 Vite + React + TypeScript + shadcn/ui。
 
@@ -101,13 +101,14 @@ vercel
 
 ---
 
-## 📊 数据来源
+## 数据来源
 
 - **卡牌数据**: `plugin/cards.json`
 - **评级提供者**:
   - Yuxiao_Huang (白兔)
   - Mark Hartnady (EN)
   - Chen233 (Chen)
+  - https://bgagricola.gamewiki.jp
 - **统计数据**: Lumin
 
 ## 👥 致谢
@@ -115,7 +116,7 @@ vercel
 - **插件作者**: Ender
 - **统计数据**: Lumin
 - **评级提供**: Yuxiao_Huang, Chen233, Mark Hartnady
-- **特别感谢**: Henry
+- **特别感谢**: Henry, smile3000, 暧晖
 
 ## 📝 许可
 

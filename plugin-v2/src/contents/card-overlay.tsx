@@ -315,10 +315,11 @@ function shouldRunOnCurrentPage(): boolean {
     return true
   }
 
-  // For boardgamearena.com, check if URL matches pattern: boardgamearena.com/{any}/agricola{any}
+  // For boardgamearena.com, check if URL matches pattern: boardgamearena.com/{any}/agricola{any} or contains replay
   if (hostname === "boardgamearena.com" || hostname.endsWith(".boardgamearena.com")) {
     const pathMatch = window.location.pathname.match(/\/[^\/]+\/agricola/i)
-    return pathMatch !== null
+    const hasReplay = /replay/i.test(window.location.pathname)
+    return pathMatch !== null || hasReplay
   }
 
   return false

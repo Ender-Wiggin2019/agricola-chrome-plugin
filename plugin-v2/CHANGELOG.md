@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-01-16
+
+### Feature
+增加来自 https://bgagricola.gamewiki.jp/ 的评价指标
+
 ## [0.2.1] - 2026-01-15
 
 ### Fixed
