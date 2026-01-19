@@ -5645,7 +5645,7 @@
   },
   {
     "no": "B118",
-    "cnName": "",
+    "cnName": "小户农家",
     "enName": "Small-scale Farmer",
     "desc": "As long as you live in a house with exactly 2 rooms, at the start of each round, you get 1 wood.",
     "baituTier": "",
@@ -5701,7 +5701,7 @@
   },
   {
     "no": "B123",
-    "cnName": "屋顶压载员",
+    "cnName": "屋顶压载工",
     "enName": "Roof Ballaster",
     "desc": "When you play this card, you can immediately pay 1 food to get 1 stone for each room you have.",
     "baituTier": "T2",
@@ -6121,7 +6121,7 @@
   },
   {
     "no": "C090",
-    "cnName": "农场巡视员",
+    "cnName": "农田巡视者",
     "enName": "Field Watchman",
     "desc": "Each time you use the \"Grain Seeds\" action space, you can also plow 1 field.",
     "baituTier": "T1",
@@ -6149,7 +6149,7 @@
   },
   {
     "no": "C096",
-    "cnName": "贸易人",
+    "cnName": "商人",
     "enName": "Merchant",
     "desc": "Immediately after each time you take a \"Major or Minor Improvement\" or \"Minor Improvement\" action, you can pay 1 food to take the action a second time.",
     "baituTier": "T4",
@@ -6177,7 +6177,7 @@
   },
   {
     "no": "C098",
-    "cnName": "木块雕工",
+    "cnName": "骰子雕刻工",
     "enName": "Cube Cutter",
     "desc": "When you play this card, you immediately get 1 wood. In the field phase of each harvest, you can use this card to exchange exactly 1 wood and 1 food for 1 bonus point.",
     "baituTier": "T4",
@@ -6527,7 +6527,7 @@
   },
   {
     "no": "C044",
-    "cnName": "",
+    "cnName": "鸡舍",
     "enName": "Chicken Coop",
     "desc": "Place 1 food on each of the next 8 round spaces. At the start of these rounds, you get the food.",
     "baituTier": "",
@@ -7249,7 +7249,7 @@
   },
   {
     "no": "C109",
-    "cnName": "烈酒蒸馏师",
+    "cnName": "烈酒酿造师",
     "enName": "Schnapps Distiller",
     "desc": "In the feeding phase of each harvest, you can use this card to turn exactly 1 vegetable into 5 food.",
     "baituTier": "T3",
@@ -7725,7 +7725,7 @@
   },
   {
     "no": "C106",
-    "cnName": "",
+    "cnName": "土豆收割工",
     "enName": "Potato Harvester",
     "desc": "When you play this card, you immediately get 3 food. For each vegetable you get from your fields during the field phase of the harvest, you get 1 additional food.",
     "baituTier": "",
@@ -8257,7 +8257,7 @@
   },
   {
     "no": "C077",
-    "cnName": "",
+    "cnName": "粘土补给",
     "enName": "Clay Supply",
     "desc": "Place 1 clay on each of the next 3 round spaces. At the start of these rounds, you get the clay.",
     "baituTier": "",
@@ -8397,7 +8397,7 @@
   },
   {
     "no": "C126",
-    "cnName": "",
+    "cnName": "挖掘工",
     "enName": "Excavator",
     "desc": "Each time after you use the \"Day Laborer\" action space, you get 1 additional wood and clay, and you can buy 1 stone for 1 food.",
     "baituTier": "",
@@ -8861,7 +8861,7 @@
   },
   {
     "no": "C123",
-    "cnName": "共济",
+    "cnName": "共济会成员",
     "enName": "Freemason",
     "desc": "As long as you live in a clay/stone house with exactly 2 rooms, at the start of each work phase, you get 2 clay/stone.",
     "baituTier": "T4",
@@ -9977,7 +9977,7 @@
   },
   {
     "no": "B037",
-    "cnName": "",
+    "cnName": "农庄",
     "enName": "Grange",
     "desc": "When you play this card, you immediately get 1 food.",
     "baituTier": "",
@@ -10173,7 +10173,7 @@
   },
   {
     "no": "B046",
-    "cnName": "",
+    "cnName": "俱乐部会所",
     "enName": "Club House",
     "desc": "Place 1 food on each of the next 4 round spaces and 1 stone on the round space after that. At the start of these rounds, you get the respective good.",
     "baituTier": "",
@@ -11153,7 +11153,7 @@
   },
   {
     "no": "B101",
-    "cnName": "家具木匠",
+    "cnName": "Furniture Carpenter",
     "enName": "Furniture Carpenter",
     "desc": "Each harvest, if any player (including you) owns the Joinery or an upgrade thereof, you can buy exactly 1 bonus point for 2 food.",
     "baituTier": "T4",
@@ -11237,7 +11237,7 @@
   },
   {
     "no": "B106",
-    "cnName": "道德宣传员",
+    "cnName": "道德宣传者",
     "enName": "Moral Crusader",
     "desc": "Immediately before the start of each round, if there are goods on the remaining round space that are promised to you, you get 1 food.",
     "baituTier": "T3",
@@ -11483,7 +11483,7 @@
   },
   {
     "no": "B120",
-    "cnName": "扫地工",
+    "cnName": "打扫",
     "enName": "Sweep",
     "desc": "Each time before you use the action space card left of the card that has been most recently placed on a round space, you get 2 clay.",
     "baituTier": "T3",
@@ -11799,7 +11799,7 @@
   },
   {
     "no": "B135",
-    "cnName": "营养学家",
+    "cnName": "营养专家",
     "enName": "Nutrition Expert",
     "desc": "At the start of each round, you can exchange a set comprised of 1 animal of any type, 1 grain, and 1 vegetable for 5 food and 2 bonus points.",
     "baituTier": "T3",
@@ -14149,7 +14149,7 @@
   },
   {
     "no": "C095",
-    "cnName": "箩筐编制工",
+    "cnName": "箩筐编织工",
     "enName": "Basket Weaver",
     "desc": "When you play this card, immediately build the \"Basketmaker's Workshop\" major improvement for 1 stone and 1 reed.",
     "baituTier": "T3",
@@ -18253,7 +18253,7 @@
   },
   {
     "no": "E001",
-    "cnName": "",
+    "cnName": "竹杆棚",
     "enName": "Pole Barns",
     "desc": "You can immediately build up to 3 stables at no cost.",
     "baituTier": "",
@@ -18281,7 +18281,7 @@
   },
   {
     "no": "E002",
-    "cnName": "",
+    "cnName": "翻修建材",
     "enName": "Renovation Materials",
     "desc": "Immediately renovate to clay at no cost. (You must pay the cost of this card though.)",
     "baituTier": "",
@@ -18309,7 +18309,7 @@
   },
   {
     "no": "E003",
-    "cnName": "",
+    "cnName": "茶点时间",
     "enName": "Tea Time",
     "desc": "Immediately return your person on the \"Grain Utilization\" action space home; you can place it again later this round.",
     "baituTier": "",
@@ -18337,7 +18337,7 @@
   },
   {
     "no": "E004",
-    "cnName": "",
+    "cnName": "突发事件",
     "enName": "Thunderbolt",
     "desc": "Immediately remove all grain from one of your fields to the general supply. Gain 2 wood for each grain you just removed.",
     "baituTier": "",
@@ -18365,7 +18365,7 @@
   },
   {
     "no": "E005",
-    "cnName": "",
+    "cnName": "夜间劫掠",
     "enName": "Night Loot",
     "desc": "Immediately remove exactly 2 different building resources from accumulation spaces and place them in your supply.",
     "baituTier": "",
@@ -18393,7 +18393,7 @@
   },
   {
     "no": "E006",
-    "cnName": "",
+    "cnName": "清点资源",
     "enName": "Recount",
     "desc": "You immediately get 1 building resource of each type of which you have 4 or more resources in your supply already.",
     "baituTier": "",
@@ -18421,7 +18421,7 @@
   },
   {
     "no": "E007",
-    "cnName": "",
+    "cnName": "粗麦面包",
     "enName": "Pumpernickel",
     "desc": "You immediately get 4 food. (Effectively, you are turning 1 grain into 4 food.)",
     "baituTier": "",
@@ -18449,7 +18449,7 @@
   },
   {
     "no": "E008",
-    "cnName": "",
+    "cnName": "农夫市场",
     "enName": "Farmers Market",
     "desc": "You immediately get 1 vegetable. (Effectively, you are buying 1 vegetable for 2 food.)",
     "baituTier": "",
@@ -18477,7 +18477,7 @@
   },
   {
     "no": "E009",
-    "cnName": "",
+    "cnName": "交易小屋",
     "enName": "Bartering Hut",
     "desc": "Up to two times: Immediately spend any 2/3/4 building resources for 1 sheep/wild boar/cattle from the general supply.",
     "baituTier": "",
@@ -18561,7 +18561,7 @@
   },
   {
     "no": "E012",
-    "cnName": "",
+    "cnName": "动物草垫",
     "enName": "Animal Bedding",
     "desc": "You can keep 1 additional animal (of the same type) in each of your unfenced stables, and 2 additional animals (of the same type) in each pasture with stable.",
     "baituTier": "",
@@ -18589,7 +18589,7 @@
   },
   {
     "no": "E013",
-    "cnName": "",
+    "cnName": "重建石屋",
     "enName": "Stone House Reconstruction",
     "desc": "At any time, you can renovate your clay house to a stone house without placing a person. (You must pay the normal renovation cost.)",
     "baituTier": "",
@@ -18617,7 +18617,7 @@
   },
   {
     "no": "E014",
-    "cnName": "",
+    "cnName": "木工锯",
     "enName": "Wood Saw",
     "desc": "Each time all other players have more people than you, you can take a \"Build Rooms\" action without placing a person.",
     "baituTier": "",
@@ -18645,7 +18645,7 @@
   },
   {
     "no": "E015",
-    "cnName": "",
+    "cnName": "铁钉篮子",
     "enName": "Nail Basket",
     "desc": "Each time after you use a wood accumulation space, you can place 1 stone from your supply on that space (for the next visitor) to take a “Build Fences” action.",
     "baituTier": "",
@@ -18673,15 +18673,15 @@
   },
   {
     "no": "E016",
-    "cnName": "荆棘围栏",
+    "cnName": "荆棘篱笆",
     "enName": "Briar Hedge",
     "desc": "You do not need to pay wood for fences that you build on the edge of your farmyard board.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "A",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：木头系天花板\n强度：这张卡给的木头实在是太多了。这张卡可以给就是整整八根木头。如果你为八的话，可以给八根木头，如果为六的话，可以给七个木。就是只要你不是五房加大理的情况下，经济一半都是老赖全的一张核心卡。它的使用率比手机版还要高，而且还不传递。你只要抓了几张卡的话，你后期就几乎不需要为木头而担心，你只需要考虑怎么样能够把这张卡做出来。做出来的情况下通常会亏一动，但是你在亏一动的情况下，你可以获得一个接近于股东的收益，至少是四动的收益。但这也是非常令人满意的一件事情。而且本身你对一个圈地卡组来讲，就是如果说你是晚回卡组，那你肯定不能指望你围完再去拿木头。所以说他在一个网页卡组里，他对那个副作用是非常小，它甚至可以认为是近战系统的一张卡。",
     "stats": {
       "default": {
         "pwr": 3.56,
@@ -18701,7 +18701,7 @@
   },
   {
     "no": "E017",
-    "cnName": "",
+    "cnName": "撇犁",
     "enName": "Skimmer Plow",
     "desc": "Each time you use the \"Farmland\" or \"Cultivation\" action space, you can plow 2 fields instead of 1. Each time you sow, you must place 1 fewer good on each field you sow.",
     "baituTier": "",
@@ -18757,7 +18757,7 @@
   },
   {
     "no": "E019",
-    "cnName": "牛角尖",
+    "cnName": "赶牛棒",
     "enName": "Ox Goad",
     "desc": "Each time after you use the \"Cattle Market\" accumulation space, you can pay 2 food to plow 1 field.",
     "baituTier": "",
@@ -18785,7 +18785,7 @@
   },
   {
     "no": "E020",
-    "cnName": "",
+    "cnName": "铁锄头",
     "enName": "Iron Hoe",
     "desc": "At the end of each work phase, if you occupy both the \"Grain Seeds\" and \"Vegetable Seeds\" action spaces, you can plow 1 field.",
     "baituTier": "",
@@ -18813,7 +18813,7 @@
   },
   {
     "no": "E021",
-    "cnName": "羊地毯",
+    "cnName": "羊毛地毯",
     "enName": "Sheep Rug",
     "desc": "You can use any \"Wish for Children\" action space, even if it is occupied by another player's person.",
     "baituTier": "",
@@ -18891,7 +18891,7 @@
   },
   {
     "no": "E024",
-    "cnName": "",
+    "cnName": "雄心壮志",
     "enName": "Ambition",
     "desc": "Each time you get a \"Minor Improvement\" action on an action space, you can build a major improvement instead of playing a minor one.",
     "baituTier": "",
@@ -19003,7 +19003,7 @@
   },
   {
     "no": "E029",
-    "cnName": "",
+    "cnName": "传家宝",
     "enName": "Heirloom",
     "desc": "(This card has no additional effect.)",
     "baituTier": "",
@@ -19031,7 +19031,7 @@
   },
   {
     "no": "E030",
-    "cnName": "",
+    "cnName": "儿童玩具",
     "enName": "Child's Toy",
     "desc": "During the feeding phase of each harvest, your newborns require 2 food (instead of 1).",
     "baituTier": "",
@@ -19039,7 +19039,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：两个卡\n强度：其实所以一般都是在两个卡里比较差的。因为它的就是一次，那当然他给的是这个高贵的上下文。他几个优势，而且他一定要求打的时间比较早。另外一个是他底下的副作用是客观存在的。从平均来讲的话，他们也是要付出1.5万的代价，那排队收益不是很高了。如果你觉得这张卡，你其实可以参考一张丘陵宅院，觉得他和丘陵宅院的性质差不太多，就是成本差不太多，收益也差不太多。但是比丘尼怎样的适应性要好一点。毕竟就是也是一张你在收打的时候，你不想打卡的时候去打他的一张卡。",
     "stats": {
       "default": {
         "pwr": 2.11,
@@ -19059,7 +19059,7 @@
   },
   {
     "no": "E031",
-    "cnName": "",
+    "cnName": "室内装潢",
     "enName": "Upholstery",
     "desc": "Each time you build or play an improvement after this one, you can place 1 reed on this card, irretrievably, to get 1 bonus point, up to the number of rooms in your house.",
     "baituTier": "",
@@ -19087,15 +19087,15 @@
   },
   {
     "no": "E032",
-    "cnName": "教堂中殿",
+    "cnName": "正厅",
     "enName": "Nave",
     "desc": "During scoring, you get 1 bonus point for each of the 5 columns of your farmyard board containing at least one room.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：后期上限卡\n强度：它和这个半路其实算是完全一样的性价比。就是它的净赚多少，你拿他打他，如果拿四出的话，那他其实净赚也就两分。两个十多个亿，芦苇本身值一分，同时你本身那样一个造型，造型上也要扣0.5分，就是俩石头一芦苇在里边就是值1.5分，一个造型上亏了1.5分。正厅这张卡通常认为就是净赚两分的一张卡，没有很强。但是它的好处是在于，就是如果你房子扩的比较高的话，你在后期实际上是有非常多的行动想要去拿一些上限。它是一张高贵的后期一张显卡。在这个情况下的话，他是要比这家室内装潢要强的。但是他同样还是那还是那件事，就是它是一张就是虽然他很值得抓，也就是说抓位还是比较高的。但是他的问题在于他的抓位虽然高，但他并不强。他你可以理解为他和客房一样，只是一个稳定性的手段，而不是强度。",
     "stats": {
       "default": {
         "pwr": 2.71,
@@ -19115,7 +19115,7 @@
   },
   {
     "no": "E033",
-    "cnName": "",
+    "cnName": "海狸群",
     "enName": "Beaver Colony",
     "desc": "From now on, one of your pastures with stable cannot hold animals. Each time you get reed from an action space, you get 1 bonus point.",
     "baituTier": "",
@@ -19143,7 +19143,7 @@
   },
   {
     "no": "E034",
-    "cnName": "",
+    "cnName": "土地登记册",
     "enName": "Land Register",
     "desc": "During scoring, if your farm has no unused spaces, you get 2 bonus points.",
     "baituTier": "",
@@ -19171,7 +19171,7 @@
   },
   {
     "no": "E035",
-    "cnName": "",
+    "cnName": "厌世主义",
     "enName": "Misanthropy",
     "desc": "During scoring, if you have exactly 4/3/2 people, you get 2/3/5 bonus points.",
     "baituTier": "",
@@ -19199,7 +19199,7 @@
   },
   {
     "no": "E036",
-    "cnName": "",
+    "cnName": "草药园",
     "enName": "Herbal Garden",
     "desc": "From now on, at least one of your pastures must contain no animals.",
     "baituTier": "",
@@ -19227,7 +19227,7 @@
   },
   {
     "no": "E037",
-    "cnName": "",
+    "cnName": "牛头骨",
     "enName": "Ox Skull",
     "desc": "When you play this card, you immediately get 1 food. During scoring, if you have no cattle, you get 3 bonus points.",
     "baituTier": "",
@@ -19235,7 +19235,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：一分白板\n强度：卡比一分白板多头牛，所以比一分白板强。摆在摆在这个位置吧，比比一分白板多头牛，只要不养牛的卡组都可以抓。",
     "stats": {
       "default": {
         "pwr": 0.64,
@@ -19255,7 +19255,7 @@
   },
   {
     "no": "E038",
-    "cnName": "",
+    "cnName": "鱼竿收藏",
     "enName": "Rod Collection",
     "desc": "Each time you use \"Fishing\", you can place up to 2 wood on this card, irretrievably. During scoring, each such wood is worth 1 bonus point, except the 1st, 4th, 7th, and 10th.",
     "baituTier": "",
@@ -19283,7 +19283,7 @@
   },
   {
     "no": "E039",
-    "cnName": "",
+    "cnName": "画笔",
     "enName": "Paintbrush",
     "desc": "Each harvest, you can exchange exactly 1 clay for your choice of 2 food or 1 bonus point.",
     "baituTier": "",
@@ -19291,7 +19291,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：上限卡\n强度：这张卡的上限感觉还是蛮高的。这张卡的前提就是你要有猪，这个猪从哪里来比较关键。但是你哪怕第四期弄一头猪的话，他都可以用四个资源去换三份。你在就是四个资源换三分，关键是砖这个资源比较便宜。就是他和正厅这两张卡，可能级别是收益是相差不多的，就是都是资源成本和收益都差不多。正经很多时候也就四环完事了，因为他俩就是都是和和这个摆烂的三分画笔，都是一个水平。暂时画笔要比正经打的时间要早一点，就算是画笔一个缺陷。所以画笔的差不多是排在这个位置，算是一张不错的这个上限卡。",
     "stats": {
       "default": {
         "pwr": 2.07,
@@ -19311,7 +19311,7 @@
   },
   {
     "no": "E040",
-    "cnName": "",
+    "cnName": "蜜蜂雕像",
     "enName": "Bee Statue",
     "desc": "Pile (from bottom to top) 1 vegetable, 1 stone, 1 grain, 1 stone, 1 grain on this card. Each time you use the \"Day Laborer\" action space, you get the top good.",
     "baituTier": "",
@@ -19339,7 +19339,7 @@
   },
   {
     "no": "E041",
-    "cnName": "muddy waters",
+    "cnName": "泥浆",
     "enName": "Muddy Waters",
     "desc": "Alternate placing 1 food and 1 clay on each remaining even-numbered round space, starting with food. At the start of these rounds, you get the respective good.",
     "baituTier": "",
@@ -19367,7 +19367,7 @@
   },
   {
     "no": "E042",
-    "cnName": "井",
+    "cnName": "水沟",
     "enName": "Water Gully",
     "desc": "Place 1 cattle, 1 grain, and 1 cattle on the next 3 round spaces (in that order). At the start of these rounds, you get the respective good.",
     "baituTier": "",
@@ -19375,7 +19375,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：拿田\n强度：拿到田这件事情其实是有点高之。你能看到水沟就可能会去抽你的技能，仅仅说这样的话，这张卡如果能打出来的话，收益是挺高的。但是因为风险太高，这张卡不出来，所以这张卡总体就是只能排在这个位置。因为这张卡太容易被穿了，然后打的话扣三个时机也比较固定。你前期早期打不开局，那这张卡的时期基本上已经锁死在11回合了。因为如果11回合去一共抢一个骑士，你就会很难受。",
     "stats": {
       "default": {
         "pwr": 2.59,
@@ -19395,7 +19395,7 @@
   },
   {
     "no": "E043",
-    "cnName": "谷仓里的猫",
+    "cnName": "棚舍小猫",
     "enName": "Barn Cats",
     "desc": "If you have 1/2/3/4 stables, place 1 food on each of the next 2/3/4/5 round spaces. At the start of these rounds, you get the food.",
     "baituTier": "",
@@ -19423,7 +19423,7 @@
   },
   {
     "no": "E044",
-    "cnName": "",
+    "cnName": "甜菜饲料",
     "enName": "Fodder Beets",
     "desc": "Place 1 food on each remaining odd-numbered round space. At the start of these rounds, you get the food.",
     "baituTier": "",
@@ -19451,7 +19451,7 @@
   },
   {
     "no": "E045",
-    "cnName": "",
+    "cnName": "果园梯子",
     "enName": "Fruit Ladder",
     "desc": "Place 1 food on each remaining even-numbered round space. At the start of these rounds, you get the food.",
     "baituTier": "",
@@ -19479,7 +19479,7 @@
   },
   {
     "no": "E046",
-    "cnName": "睡莲池",
+    "cnName": "睡莲池塘",
     "enName": "Waterlily Pond",
     "desc": "Place 1 food on each of the next 2 round spaces. At the start of these rounds, you get the food.",
     "baituTier": "",
@@ -19507,7 +19507,7 @@
   },
   {
     "no": "E047",
-    "cnName": "",
+    "cnName": "糖浆水龙头",
     "enName": "Syrup Tap",
     "desc": "Each time you get at least 1 wood from an action space, place 1 food on the next round space. At the start of that round, you get the food.",
     "baituTier": "",
@@ -19535,7 +19535,7 @@
   },
   {
     "no": "E048",
-    "cnName": "",
+    "cnName": "市政厅",
     "enName": "Town Hall",
     "desc": "In the feeding phase of each harvest, if you live in a clay or stone house, you get 1 or 2 food, respectively.",
     "baituTier": "",
@@ -19591,7 +19591,7 @@
   },
   {
     "no": "E050",
-    "cnName": "",
+    "cnName": "野菜",
     "enName": "Wild Greens",
     "desc": "Each time you sow, you get 1 food for every different type of good that you sow.",
     "baituTier": "",
@@ -19599,7 +19599,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：提供蔬菜\n强度：就是这就是一张没没卡打的时候可以打一下卡，一卡打对，就这个水平没啥没啥卡可抓，你抓一张也算绝对不亏。给刘胜一五就一点点赞，没啥能拿野菜。想要当核心的话，那他唯一的配合基本上就是养蜂巢了。除了他之外，这个野菜基本上就是不痛不痒的三四口饭，乐岛非要用野菜来吃的情况下，也就不好打。",
     "stats": {
       "default": {
         "pwr": 2.39,
@@ -19619,7 +19619,7 @@
   },
   {
     "no": "E051",
-    "cnName": "",
+    "cnName": "鲸油",
     "enName": "Whale Oil",
     "desc": "Each time you use \"Fishing\", place 1 food from the general supply on this card. Each time before you play an occupation, you get food equal to the amount on this card.",
     "baituTier": "",
@@ -19647,15 +19647,15 @@
   },
   {
     "no": "E052",
-    "cnName": "小储藏间",
+    "cnName": "小房间",
     "enName": "Cubbyhole",
     "desc": "For each room that you add to your house, place 1 food from the general supply on this card. At the start of each feeding phase, you get food equal to the amount on this card.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "B",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：后期食物核心卡\n强度：它也是一张就是批判用的核心卡。它和去哪这三张卡我觉得比较像的，福小房间和东方火炉的。一个是要卖田来吃来给饭，一个是要你只要拿一个火炉来给饭。这个稍微贵一点，这就是这三张卡应该都是同一级别的，算是一张后期的食物核心卡。我觉得他的小房间的话一般就是要冲着装裤子，就是如果用小房间打折扣的房子，他可以说是无损给饭的，还是非常强大的。而且给的还挺多的，能给到十几口的话就很厉害。",
     "stats": {
       "default": {
         "pwr": 2.66,
@@ -19675,7 +19675,7 @@
   },
   {
     "no": "E053",
-    "cnName": "",
+    "cnName": "捕猪矛",
     "enName": "Boar Spear",
     "desc": "Each time you get at least 1 wild boar outside of the breeding phase of a harvest, you can immediately turn them into 4 food each.",
     "baituTier": "",
@@ -19731,7 +19731,7 @@
   },
   {
     "no": "E055",
-    "cnName": "",
+    "cnName": "石坝",
     "enName": "Stone Weir",
     "desc": "Each time you use the \"Fishing\" accumulation space, if there are 0/1/2/3 food on the space, you get an additional 4/3/2/1 food from the general supply.",
     "baituTier": "",
@@ -19759,7 +19759,7 @@
   },
   {
     "no": "E056",
-    "cnName": "",
+    "cnName": "罗马罐",
     "enName": "Roman Pot",
     "desc": "Place 4 food from the general supply on this card. At the start of each work phase, if you are the last player in turn order, move 1 food from this card to your supply.",
     "baituTier": "",
@@ -19787,7 +19787,7 @@
   },
   {
     "no": "E057",
-    "cnName": "芝士火锅",
+    "cnName": "奶酪火锅",
     "enName": "Cheese Fondue",
     "desc": "Each time you bake at least 1 grain into bread, you get 1 additional food if you have at least 1 sheep and (another) 1 additional food if you have at least 1 cattle.",
     "baituTier": "",
@@ -19815,7 +19815,7 @@
   },
   {
     "no": "E059",
-    "cnName": "垄作苗床",
+    "cnName": "羊毛梳剪",
     "enName": "Comb and Cutter",
     "desc": "Each time you use the \"Day Laborer\" action space, you get 1 additional food for each sheep on the \"Sheep Market\" accumulation space, up to a maximum of 4 additional food.",
     "baituTier": "",
@@ -19843,7 +19843,7 @@
   },
   {
     "no": "E061",
-    "cnName": "",
+    "cnName": "垄作",
     "enName": "Raised Bed",
     "desc": "At the start of each harvest, you get 4 food.",
     "baituTier": "",
@@ -19871,7 +19871,7 @@
   },
   {
     "no": "E062",
-    "cnName": "",
+    "cnName": "生面团",
     "enName": "Sour Dough",
     "desc": "Once per round, if all players have at least 1 person left to place, you can skip placing a person and take a \"Bake Bread\" action instead.",
     "baituTier": "",
@@ -19899,7 +19899,7 @@
   },
   {
     "no": "E063",
-    "cnName": "铁制烤炉",
+    "cnName": "铁造烤炉",
     "enName": "Iron Oven",
     "desc": "\"Bake Bread\" action: At most 1 time Grain → 6 Food When you play this card, you can immediately take a \"Bake Bread\" action.",
     "baituTier": "",
@@ -19927,7 +19927,7 @@
   },
   {
     "no": "E064",
-    "cnName": "",
+    "cnName": "简易烤炉",
     "enName": "Simple Oven",
     "desc": "\"Bake Bread\" action: At most 1 time Grain → 3 Food When you play this card, you can immediately take a \"Bake Bread\" action.",
     "baituTier": "",
@@ -19955,7 +19955,7 @@
   },
   {
     "no": "E065",
-    "cnName": "",
+    "cnName": "救济包",
     "enName": "Almsbag",
     "desc": "When you play this card, you immediately get 1 grain for every 2 completed rounds.",
     "baituTier": "",
@@ -20011,7 +20011,7 @@
   },
   {
     "no": "E067",
-    "cnName": "",
+    "cnName": "粮食袋",
     "enName": "Grain Bag",
     "desc": "Each time you use the \"Grain Seeds\" action space, you get 1 additional grain for each baking improvement you have.",
     "baituTier": "",
@@ -20039,7 +20039,7 @@
   },
   {
     "no": "E068",
-    "cnName": "",
+    "cnName": "樱桃园",
     "enName": "Cherry Orchard",
     "desc": "This card is a field on which you can only sow and harvest wood as you would grain. Each time you harvest the last wood from this card, you also get 1 vegetable.",
     "baituTier": "",
@@ -20095,7 +20095,7 @@
   },
   {
     "no": "E070",
-    "cnName": "",
+    "cnName": "轮作田",
     "enName": "Crop Rotation Field",
     "desc": "This card is a field. Each time you remove the last grain or vegetable from this card, you can immediately sow vegetable or grain on this card, respectively.",
     "baituTier": "",
@@ -20123,7 +20123,7 @@
   },
   {
     "no": "E071",
-    "cnName": "",
+    "cnName": "牛肉馅饼",
     "enName": "Cow Patty",
     "desc": "Each time you sow in a field that is orthogonally adjacent to a pasture, you can place 1 additional good of the planted type in it.",
     "baituTier": "",
@@ -20151,7 +20151,7 @@
   },
   {
     "no": "E072",
-    "cnName": "朝鲜蓟田",
+    "cnName": "洋蓟田",
     "enName": "Artichoke Field",
     "desc": "This card is a field. During the field phase of each harvest, if you harvest at least 1 good from this card, you also get 1 food.",
     "baituTier": "",
@@ -20179,7 +20179,7 @@
   },
   {
     "no": "E073",
-    "cnName": "",
+    "cnName": "大镰刀",
     "enName": "Scythe",
     "desc": "During the field phase of each harvest, you can select exactly one of your fields and harvest all the crops planted in it.",
     "baituTier": "",
@@ -20187,7 +20187,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：播种收获\n强度：这卡太开想象力了吧，就是能打打出来的配合还是太少。很少有他在这个六六之间。",
     "stats": {
       "default": {
         "pwr": 2.17,
@@ -20263,7 +20263,7 @@
   },
   {
     "no": "E076",
-    "cnName": "",
+    "cnName": "木堆",
     "enName": "Lumber Pile",
     "desc": "When you play this card, you can immediately return up to 3 stables from your farmyard board to your supply and get 3 wood for each.",
     "baituTier": "",
@@ -20319,7 +20319,7 @@
   },
   {
     "no": "E078",
-    "cnName": "",
+    "cnName": "小花招",
     "enName": "Sleight of Hand",
     "desc": "When you play this card, you can immediately exchange up to 4 building resources for an equal number of other building resources.",
     "baituTier": "",
@@ -20327,7 +20327,7 @@
     "chenTier": "",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "效果：四换四\n强度：收益不算高，作用就是作用。其实小花招是没有别的作用小，但唯一作用就是换芦苇。如果小花招不是用来换芦苇的话，那小花招肯定是用亏了。然后你在换芦苇的情况下，他是不赚，但是能够稳定一下你的节奏的卡。有生的情况下想发招的效果非常苦。或许能有一张其他的声卡把声卡打CB，总体差不多是这个水平。",
     "stats": {
       "default": {
         "pwr": 2.6,
@@ -20347,7 +20347,7 @@
   },
   {
     "no": "E079",
-    "cnName": "",
+    "cnName": "田地铲",
     "enName": "Field Spade",
     "desc": "Each time after you sow in at least 1 field, you get 1 stone.",
     "baituTier": "",
@@ -20375,7 +20375,7 @@
   },
   {
     "no": "E081",
-    "cnName": "",
+    "cnName": "炼金室",
     "enName": "Alchemists Lab",
     "desc": "This card is an action space for all. A player who uses it gets 1 building resource of each type they already have. If another player uses it, they must first pay you 1 food.",
     "baituTier": "",
@@ -20403,7 +20403,7 @@
   },
   {
     "no": "E082",
-    "cnName": "",
+    "cnName": "投机",
     "enName": "Profiteering",
     "desc": "When you play this card, you immediately get 1 food. Each time after you use the \"Day Laborer\" action space, you can exchange 1 building resource for another building resource.",
     "baituTier": "",
@@ -20431,7 +20431,7 @@
   },
   {
     "no": "E083",
-    "cnName": "牧羊人口哨",
+    "cnName": "牧羊哨",
     "enName": "Shepherd's Whistle",
     "desc": "At the start of the breeding phase of each harvest, if you have at least 1 unfenced stable without an animal, you get 1 sheep.",
     "baituTier": "",
@@ -20459,7 +20459,7 @@
   },
   {
     "no": "E084",
-    "cnName": "多莉羊",
+    "cnName": "多莉的母亲",
     "enName": "Dolly's Mother",
     "desc": "You only require 1 sheep to breed sheep during the breeding phase of a harvest. This card can hold 1 sheep.",
     "baituTier": "",
@@ -20487,7 +20487,7 @@
   },
   {
     "no": "E085",
-    "cnName": "",
+    "cnName": "制革大师",
     "enName": "Master Tanner",
     "desc": "For each wild boar or cattle that you turn into food, you can place 1 of that food on this card. While its food equals your number of rooms, this card provides room for 1 person.",
     "baituTier": "",
@@ -20515,7 +20515,7 @@
   },
   {
     "no": "E086",
-    "cnName": "",
+    "cnName": "栅栏制造商",
     "enName": "Pen Builder",
     "desc": "At any time, you can place wood from your supply on this card, irretrievably. You can keep twice as many animals of any type on this card as there is wood on it.",
     "baituTier": "",
@@ -20543,7 +20543,7 @@
   },
   {
     "no": "E087",
-    "cnName": "",
+    "cnName": "翻修大师",
     "enName": "Master Renovator",
     "desc": "At the end of the work phases of rounds 7 and 9, you can take a \"Renovation\" action without placing a person and pay 1 building resource of your choice less.",
     "baituTier": "",
@@ -20571,7 +20571,7 @@
   },
   {
     "no": "E088",
-    "cnName": "",
+    "cnName": "栅栏大师",
     "enName": "Master Fencer",
     "desc": "Once you live in a stone house, at the start of each round, you can pay 2 or 3 wood to build up to 3 or 4 fences, respectively.",
     "baituTier": "",
@@ -20599,7 +20599,7 @@
   },
   {
     "no": "E089",
-    "cnName": "货摊工人",
+    "cnName": "马厩工人",
     "enName": "Stallwright",
     "desc": "After you play your 2nd, 3rd, 5th, and 7th occupation (including this one), you can build 1 stable at no cost.",
     "baituTier": "",
@@ -20655,7 +20655,7 @@
   },
   {
     "no": "E091",
-    "cnName": "架犁工",
+    "cnName": "造犁师",
     "enName": "Plow Builder",
     "desc": "You can build the Joinery when taking a \"Minor Improvement\" action. If you use the Joinery (or an upgrade thereof) during the harvest, you can pay 1 food to plow 1 field.",
     "baituTier": "",
@@ -20711,7 +20711,7 @@
   },
   {
     "no": "E093",
-    "cnName": "",
+    "cnName": "榜样",
     "enName": "Motivator",
     "desc": "On your first turn each round, if you have no unused farmyard spaces, you can place a person from your supply.",
     "baituTier": "",
@@ -20739,7 +20739,7 @@
   },
   {
     "no": "E094",
-    "cnName": "",
+    "cnName": "先知",
     "enName": "Prophet",
     "desc": "When you play this card, immediately take a \"Renovation\" action. Afterward, you can take a \"Build Fences\" action. (Both actions require their usual cost.)",
     "baituTier": "",
@@ -20767,7 +20767,7 @@
   },
   {
     "no": "E095",
-    "cnName": "",
+    "cnName": "磨坊主人",
     "enName": "Miller",
     "desc": "You can immediately build a baking improvement by paying its cost. Each time another player uses the \"Grain Seeds\" action space, you can take a “Bake Bread” action.",
     "baituTier": "",
@@ -20795,7 +20795,7 @@
   },
   {
     "no": "E096",
-    "cnName": "",
+    "cnName": "长者",
     "enName": "Elder",
     "desc": "You can play this card at the start of the work phase of round 1 without placing a person. (This card has no effect other than counting as a played occupation.)",
     "baituTier": "",
@@ -20823,7 +20823,7 @@
   },
   {
     "no": "E097",
-    "cnName": "",
+    "cnName": "继承人",
     "enName": "Beneficiary",
     "desc": "If this is your 3rd occupation, you can immediately play another occupation for an occupation cost of 1 food and/or play 1 minor improvement by paying its cost.",
     "baituTier": "",
@@ -20851,7 +20851,7 @@
   },
   {
     "no": "E098",
-    "cnName": "",
+    "cnName": "神童",
     "enName": "Prodigy",
     "desc": "If this is your 1st occupation, you immediately get 1 bonus point for each improvement you have. (This will not apply to improvements played after this card.)",
     "baituTier": "",
@@ -20879,7 +20879,7 @@
   },
   {
     "no": "E099",
-    "cnName": "",
+    "cnName": "冷漠的父母",
     "enName": "Uncaring Parents",
     "desc": "At the end of each harvest, if you live in a stone house, you get 1 bonus point.",
     "baituTier": "",
@@ -20907,15 +20907,15 @@
   },
   {
     "no": "E100",
-    "cnName": "",
+    "cnName": "博物馆看守",
     "enName": "Museum Caretaker",
     "desc": "At the start of each work phase, if you have at least 1 wood, 1 clay, 1 reed, 1 stone, 1 grain, and 1 vegetable in your supply, you get 1 bonus point.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "C",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这是一个C卡，它是一个比较不错的分卡，这张这张卡呢就是它是有上限的，就是它是能提供上限分的，要求的话，比较苛刻的地方就在于菜，所以一般来讲就是如果你能拿到早菜，就抓博物馆看守，如果拿不到早菜，就不抓，其他几个条件都是挤挤，总是有的，不会被其他的几个条件卡脖子，只不过他的极限收益也并不是很高，也就六分五分上下分就是有一定收益吧，但是嗯他毕竟本身还有条件呢，所以说就是这张卡就放在一个C就是有梦想，然后有些有稳定的收益，你毕竟你哪怕后期打出来，你能拿到三分的，他也是一张可以用的卡",
     "stats": {
       "default": {
         "pwr": 1.97,
@@ -20935,15 +20935,15 @@
   },
   {
     "no": "E101",
-    "cnName": "",
+    "cnName": "讨厌鬼",
     "enName": "Blighter",
     "desc": "When you play this card, you get 1 bonus point for each complete stage left to play. You may not play any more occupations.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这张卡就放E吧，就是如果你没有后期职业就抓",
     "stats": {
       "default": {
         "pwr": 0.96,
@@ -21047,7 +21047,7 @@
   },
   {
     "no": "E105",
-    "cnName": "先锋者",
+    "cnName": "拓荒者",
     "enName": "Pioneer",
     "desc": "When you play this card and each time before you use the most recent action space card, you get 1 building resource of your choice and 1 food.",
     "baituTier": "",
@@ -21075,15 +21075,15 @@
   },
   {
     "no": "E106",
-    "cnName": "",
+    "cnName": "砸锅卖铁者",
     "enName": "Emergency Seller",
     "desc": "When you play this card, you can immediately turn as many building resources into food as you have people: 1 Wood / 1 Clay → 2 Food 1 Reed / 1 Stone → 3 Food",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "如果你打出了这张卡，你就需要考虑一下自己规划的是不是不够好，面板可以说没有收益，收益就是你规划的不好的时候，你可以打出来补救一下",
     "stats": {
       "default": {
         "pwr": 1.13,
@@ -21103,15 +21103,15 @@
   },
   {
     "no": "E107",
-    "cnName": "",
+    "cnName": "土地测量员",
     "enName": "Land Surveyor",
     "desc": "In the field phase of each harvest, if you have at least 2/4/6/7 fields, you get 1/2/3/4 food.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "里面算是一张E卡里面的强卡了，他也是配合条件比较苛刻，你在前期如果获得大量土地，典型配合田间医生，在这种情况下，他可以给一个就是中上的收益，可以给出来一个B卡级别的收益，有配合的情况下达到一个B卡收益，没配合的情况下没有收益，所以整体是一个E的收益",
     "stats": {
       "default": {
         "pwr": 0.86,
@@ -21131,15 +21131,15 @@
   },
   {
     "no": "E108",
-    "cnName": "",
+    "cnName": "黑莓农夫",
     "enName": "Blackberry Farmer",
     "desc": "Each time you build fences, place 1 food on each remaining round space, up to the number of fences just built. At the start of these rounds, you get the food.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "很少或者说几乎没有人打出了黑莓农夫的配合，基本没用，饭越到后期价值越低，他还往回推算出的量也不是很多，所以没啥用",
     "stats": {
       "default": {
         "pwr": 0.21,
@@ -21159,15 +21159,15 @@
   },
   {
     "no": "E109",
-    "cnName": "",
+    "cnName": "发辫编织者",
     "enName": "Braid Maker",
     "desc": "Each harvest, you can use this card to exchange 1 reed for 2 food. You can build the Basketmaker's Workshop for 1 reed and 1 stone even when taking a \"Minor Impr.\" action.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "F",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "这张卡也是一张你没有职业套的话，不会去打的卡，就把它扔在F里面了，如果职业套的情况下，很难想象有人会去打这一张罗筐的下位",
     "stats": {
       "default": {
         "pwr": 1.23,
@@ -21187,15 +21187,15 @@
   },
   {
     "no": "E110",
-    "cnName": "",
+    "cnName": "牙医",
     "enName": "Dentist",
     "desc": "At the start of each harvest, you can place 1 wood from your supply on this card, irretrievably. In each feeding phase, you get 1 food for each wood on this card.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "算是E级别吧，牙医肯定是既没有上限，也没有稳定的收益的，他给的食物太后期了，而且还花费了前期的木头，然后花费了前期的木头，打出了一个非常讽刺的职业，获得的是比较大后期的饭，其实收益是比较差的，在你不想垫职业的时候，一般不打他或者木头太溢出的情况下，勉为其难的打一下吧，正常卡组里打出来偏亏模的。",
     "stats": {
       "default": {
         "pwr": 2.07,
@@ -21215,15 +21215,15 @@
   },
   {
     "no": "E111",
-    "cnName": "",
+    "cnName": "隐居者",
     "enName": "Recluse",
     "desc": "As long as you have no minor improvements in front of you, you get 1 food at the start of each round and 1 wood at the start of each harvest.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "D",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "隐居者实际上是一个还可以接受的卡吧，他算是和这个那个这个农场商人，算是一个级别的，就是你不需要对他有太多的期待，他因为他并不需要获得太多的东西才算回本，你他只要给你五口饭加一个木头的话，他作为第一季职业实际上已经合格了，就是给你非常早的五口饭，再给你一根木头，那他就已经合出来了，所以说还是在1/3的情况下，都能有一定的用武之地的，就是所以放在一个比较弱的D里面的位置吧",
     "stats": {
       "default": {
         "pwr": 0.74,
@@ -21243,15 +21243,15 @@
   },
   {
     "no": "E112",
-    "cnName": "",
+    "cnName": "谷物小偷",
     "enName": "Grain Thief",
     "desc": "Each time you would harvest a grain field, you can leave the grain on the field and take 1 grain from the general supply instead.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "E",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "就是非常特化的卡了，就是有一堆麦田，然后还有一堆花麦子的卡，你就打一下他",
     "stats": {
       "default": {
         "pwr": 0.77,
@@ -21271,15 +21271,15 @@
   },
   {
     "no": "E113",
-    "cnName": "",
+    "cnName": "教母",
     "enName": "Godmother",
     "desc": "Each time you take a \"Family Growth\" action, you also get 1 vegetable.",
     "baituTier": "",
     "enTier": "",
-    "chenTier": "",
+    "chenTier": "D",
     "baituDesc": "",
     "enDesc": "",
-    "chenDesc": "",
+    "chenDesc": "酵母和香料商对比，酵母显然是比香料商要强的，因为香料商要四回合打，酵母你完全可以就是五六回合打，或者第一个娃的时候不打，第二个娃89回合再打，他仍然有收益，对于一张弱卡来讲，灵活度的提升往往比强度的提升更重要，就是强度进行微弱的提升，实际上仍然没办法让他成为一张需要围绕他构筑的卡，所以对于弱卡来讲，最重要的是灵活度，在你没事干想要打一张卡的时候，有一张卡可以站出来，那这张卡就是一个不错的弱卡，所以我认为他在D里面算是一张，还算可以接受的种子卡",
     "stats": {
       "default": {
         "pwr": 1.65,
@@ -21299,7 +21299,7 @@
   },
   {
     "no": "E114",
-    "cnName": "马厩建筑工",
+    "cnName": "棚舍建造师",
     "enName": "Shed Builder",
     "desc": "When you build your 1st and 2nd stable, you get 1 grain. When you build your 3rd and 4th stable, you get 1 vegetable. (This does not apply to stables you have already built.)",
     "baituTier": "",
@@ -21327,7 +21327,7 @@
   },
   {
     "no": "E115",
-    "cnName": "",
+    "cnName": "种子仆人",
     "enName": "Seed Servant",
     "desc": "Each time after you use the \"Grain Seeds\" or \"Vegetable Seeds\" action space, you can take a \"Bake bread\" or \"Sow\" action, respectively.",
     "baituTier": "",
@@ -21355,7 +21355,7 @@
   },
   {
     "no": "E116",
-    "cnName": "冷杉砍伐工",
+    "cnName": "杉树砍伐者",
     "enName": "Fir Cutter",
     "desc": "When you play this card, you immediately get 1 food. Each time after you use an animal accumulation space with your 1st/2nd/3rd/4th/5th person, you get 1/1/2/2/3 wood.",
     "baituTier": "",
@@ -21383,7 +21383,7 @@
   },
   {
     "no": "E117",
-    "cnName": "",
+    "cnName": "烟斗客",
     "enName": "Pipe Smoker",
     "desc": "At the start of each harvest, if you have at least 1 grain field, you get 2 wood.",
     "baituTier": "",
@@ -21411,7 +21411,7 @@
   },
   {
     "no": "E118",
-    "cnName": "柴火收集者",
+    "cnName": "燃料收集者",
     "enName": "Kindling Gatherer",
     "desc": "Each time you get food from an action space, you get 1 additional wood.",
     "baituTier": "",
@@ -21495,7 +21495,7 @@
   },
   {
     "no": "E121",
-    "cnName": "",
+    "cnName": "山地栽培师",
     "enName": "Hill Cultivator",
     "desc": "Each time you use the \"Grain Seeds\" or \"Vegetable Seeds\" action space, you also get 2 or 3 clay, respectively.",
     "baituTier": "",
@@ -21551,7 +21551,7 @@
   },
   {
     "no": "E124",
-    "cnName": "",
+    "cnName": "市长候选人",
     "enName": "Mayor Candidate",
     "desc": "You immediately get 2 wood and 2 stone. During scoring, you get 1 negative point for each wood and each stone in your supply. You can no longer discard wood or stone.",
     "baituTier": "",
@@ -21579,7 +21579,7 @@
   },
   {
     "no": "E126",
-    "cnName": "",
+    "cnName": "收税人",
     "enName": "Tax Collector",
     "desc": "Once you live in a stone house, at the start of each round, you get your choice of 2 wood, 2 clay, 1 reed, or 1 stone.",
     "baituTier": "",

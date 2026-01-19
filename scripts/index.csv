@@ -838,13 +838,13 @@ B114,无子嗣者,Childless,T1,,,"At the start of each round, if you have at lea
 难度：2/5
 用法：R1一动三木 二动1芦苇（如果上家抢先可以拿2木贪一手）R2一动rsf/2r/3w/职业，二动1r/2w/职业。R3职业/补资源+建房。搭配：百搭，犁田卡，卧室不搭：前期卡，如小户农家，家教B099
 变体：很多 讲一个斧头无子。R1rsf1r，R23w 次发，R3 建房 职业。失败了就算R4出也不亏。搭配忘写很重要的，由于早期获得稀缺的菜，拿到胡萝卜博物馆D079或者新卡庄园主就是乱杀，甩别人十几分。不影响r3扩屋的牌可以打 例子1:rsf1r3w 木斧（1w1s次发 效果是扩木屋只用2w2r）职业 扩例子2:3w 天平（1w次发 效果是给饭）2r3w 职业扩",,
-B118,,Small-scale Farmer,,,,"As long as you live in a house with exactly 2 rooms, at the start of each round, you get 1 wood.",,,
+B118,小户农家,Small-scale Farmer,,,,"As long as you live in a house with exactly 2 rooms, at the start of each round, you get 1 wood.",,,
 B121,地质学家,Geologist,T3,,,"Each time you use the ""Forest"" or ""Reed Bank"" accumulation space, you also get 1 clay. In games with 3 or more players, this also applies to the ""Clay Pit"".","效果：每当你踩森林（3w），芦苇滩（1r）积累行动格（3+人游戏时包含土坑（1c）积累行动格）时，可以获得1c。
 强度：全局要拿6r左右，一般是踩2次芦苇滩，两次rsf。然后一般踩4-5次森林，踩1次土坑左右。基本上是长反馈8砖，大概长反馈5-6分的价值，如果有用砖手段或者没别的前期卡可以打这个。
 难度：1/5
 用法：一二回合打，全局不愁砖。注意拿了这张卡后，2r价值大于rsf。搭配：铸钟工
 变体：地质铸钟要注意先打地质",,
-B123,屋顶压载员,Roof Ballaster,T2,,,"When you play this card, you can immediately pay 1 food to get 1 stone for each room you have.","效果：打出时花1f换ns，n等同于房间数量
+B123,屋顶压载工,Roof Ballaster,T2,,,"When you play this card, you can immediately pay 1 food to get 1 stone for each room you have.","效果：打出时花1f换ns，n等同于房间数量
 强度：稳定翻石屋，后期补工坊甚至井的卡。四房时3.5分收益，五房时4.5分收益，总是不亏的。
 难度：1/5
 用法：两点吧 第一 尽量不要浪费石头，第二 扩好了就打，方便翻砖屋时打井搭配：烟囱清洁工 保障翻修 而且可以吃石屋泛滥的红利 石匠C087不搭：瓦匠B095等省石头卡 石头会贬值",,
@@ -970,7 +970,7 @@ you can play it early, it will deliver a hefty amount of stone - sometimes two
 actions worth. Stone is probably the best resource to have
 delivered over time. Since it's primarily a late-game resource, you don't mind
 waiting for it.",
-C090,农场巡视员,Field Watchman,T1,A,,"Each time you use the ""Grain Seeds"" action space, you can also plow 1 field.","效果：踩小麦种子行动格时可以犁一块田
+C090,农田巡视者,Field Watchman,T1,A,,"Each time you use the ""Grain Seeds"" action space, you can also plow 1 field.","效果：踩小麦种子行动格时可以犁一块田
 强度：就算不考虑配合，也不考虑踩麦子比踩田容易，只考虑额外收益。拿5田是近乎必然的，相当于白得5麦，播种时分配3田种麦子，相当于白得11麦。麦子拿满分5分收益+3麦用于吃，可见至少有7分的水平。
 难度：3/5
 用法：毕竟是体系卡，难度不会低的。两种打法，第一季打或者第四季打。有麦子换分手段比如茅草卧室家酿啤酒烘焙之类的可以第一季打，播3麦田。第四季打就每回合最后一动踩麦子。搭配：茅草屋顶、卧室、家庭酿酒师、新卡一堆啤酒套装、烘焙师、栽培师不搭：任何犁田卡
@@ -978,7 +978,7 @@ C090,农场巡视员,Field Watchman,T1,A,,"Each time you use the ""Grain Seeds""
 brother likes to joke that Field Watchman is a one-card combo, since plowing
 and taking a grain are so obviously synergistic. This guy feels dirty every time I bring him out (the Field Watchman, not my
 brother).",
-C096,贸易人,Merchant,T4,E,,"Immediately after each time you take a ""Major or Minor Improvement"" or ""Minor Improvement"" action, you can pay 1 food to take the action a second time.","效果：每次打出次发或主发行动时，你可以支付1f再使用一次。
+C096,商人,Merchant,T4,E,,"Immediately after each time you take a ""Major or Minor Improvement"" or ""Minor Improvement"" action, you can pay 1 food to take the action a second time.","效果：每次打出次发或主发行动时，你可以支付1f再使用一次。
 强度：次发溢出或者需要抢主发的局可以使用，如瓦匠、吹牛这种主发卡，休闲木这种不抢先的卡，鸟巢针线这种不踩生次格子的卡。考虑到标准的次发有2-3饭的水平，每次多打次发的边际净得分在0.5，多打主发的净得分可以到1.5，但你要有足够的食物和建筑材料，考验规划水平，全局无配合可以到1.5-3得分。
 难度：4/5
 用法：算好这张牌可不可以让你前期速出次发拿到2动的收益，或者是可以省下你踩2-3次抢先的格子，那就是赚的。总体上没有新卡的任务型工匠、装备者等打次发的卡牌厉害。搭配：鼓励次发的主发的卡，如运木、杂物房不搭：其他帮忙次发的卡
@@ -989,7 +989,7 @@ the number of times you can take SP. This time, however, you have to pay food
 just to do it! The only added utility that the Merchant has is being able to buy two Major
 improvements at once. This is also an almost useless ability. If you have that
 many resources lying around, you should be renovating!",
-C098,木块雕工,Cube Cutter,T4,,,"When you play this card, you immediately get 1 wood. In the field phase of each harvest, you can use this card to exchange exactly 1 wood and 1 food for 1 bonus point.","效果：打出时获得1w，每个丰收阶段的收割阶段，可以用1w+1f换1分。
+C098,骰子雕刻工,Cube Cutter,T4,,,"When you play this card, you immediately get 1 wood. In the field phase of each harvest, you can use this card to exchange exactly 1 wood and 1 food for 1 bonus point.","效果：打出时获得1w，每个丰收阶段的收割阶段，可以用1w+1f换1分。
 强度：这张卡净得分不超过2，在1-2之间，基本上不会使用到，只有职业流木头溢出的局可以拿1-2分。
 难度：2/5
 用法：前四季不要用这张卡，用效果就不如不用，食物木头都比较少，后期如果五六季送的木头用不上，也不缺食物，可以再打这张卡。",,
@@ -1076,7 +1076,7 @@ you build rooms. As always, the immediate utility of this pass-card is
 diminished by the fact that your left-hand opponent will probably be playing it
 himself. Still, you take what you can get, and often you
 won't have anything better to play.",
-C044,,Chicken Coop,,A,,"Place 1 food on each of the next 8 round spaces. At the start of these rounds, you get the food.",,"Chicken Coop Chicken Coop With no prerequisite and a flexible cost, it's
+C044,鸡舍,Chicken Coop,,A,,"Place 1 food on each of the next 8 round spaces. At the start of these rounds, you get the food.",,"Chicken Coop Chicken Coop With no prerequisite and a flexible cost, it's
 usually pretty easy to get this out for the full 8 food. That's an amazing deal
 when you factor in the 1 VP. The only time this isn't an absolute must-play is
 in 3-p, where sometimes you won't be able to spare the reed. For every other
@@ -1238,7 +1238,7 @@ C086,家禽饲养员,Livestock Feeder,T4,,,"When you play this card, you immedia
 强度：上限卡，前期早养动物 后期多养动物用的，先农后牧流卡牌，本身是2+分强度的麦子效果卡
 难度：3/5
 用法：先农后牧，尽量在三四季前起麦田才考虑用这张卡，你要在四五季用收割的麦子抢2动物繁殖的，不然别人都有栅栏了就没2动物给你拿了",,
-C109,烈酒蒸馏师,Schnapps Distiller,T3,,,"In the feeding phase of each harvest, you can use this card to turn exactly 1 vegetable into 5 food.","效果：每个收获阶段的喂养前，可以把最多1菜转化为5f。
+C109,烈酒酿造师,Schnapps Distiller,T3,,,"In the feeding phase of each harvest, you can use this card to turn exactly 1 vegetable into 5 food.","效果：每个收获阶段的喂养前，可以把最多1菜转化为5f。
 强度：比家酿适用性广，只要前两季拿到早菜并且稳定，就是全局不饿，而且每季至少一收益，上限长反馈6收益。这个1收益是和壁炉比的，但其实不止1收益，因为出壁炉也是成本，有这张卡可以低成本吃菜。
 难度：2/5
 用法：有早菜手段的话，越早打出越好。搭配：早菜卡，如无子嗣，书柜，新卡虚弱之人。
@@ -1343,7 +1343,7 @@ C104,收集者,Collector,T3,,,"This card is an action space for you only. When y
 强度：下限卡的巅峰，亏损了6分上限去争取下限。这张卡一般是用来踩两次的，然后动物生2-5次娃，种子播种下去。这样看来，农业可以得到9分的分差，畜牧可以得到10+分的分差，额外的建材和食物可以帮助翻修等。净收益9+分。但是损失了6分的上限。
 难度：5/5
 用法：早围，三房会舒服一点，最好三四季围出来，然后尽早踩两次让动物开始生。之后补耕地，有资源的话可以补一间房子顺带打马厩，没资源就早点翻修，最后播种或者耕作一次就行。",,
-C106,,Potato Harvester,,,,"When you play this card, you immediately get 3 food. For each vegetable you get from your fields during the field phase of the harvest, you get 1 additional food.",,,
+C106,土豆收割工,Potato Harvester,,,,"When you play this card, you immediately get 3 food. For each vegetable you get from your fields during the field phase of the harvest, you get 1 additional food.",,,
 C110,家庭酿酒师,Home Brewer,T3,,,"After the field phase of each harvest, you can use this card to turn exactly 1 grain into your choice of 3 food or 1 bonus point.","效果：每个收获阶段喂养前，可以把1麦换成3f或者1分。
 强度：其实是比较弱的卡，当时评梯度有点问题，应该放到T4更合适。大部分情况下入不敷出，就算是第一季打出吃6季也顶多6收益，要求还严苛需要6麦子，除了农巡基本都出不起，三麦田茅草开局的话可以打一打。
 难度：3/5
@@ -1447,7 +1447,7 @@ C059,烈酒蒸馏器,Schnapps Distillery,T3,,,"In each feeding phase, you can us
 强度：本身可以看作是负收益的卡，收益来自 于大量的额外菜源，本身亏1 菜，相当于3f， 这说明至少再蒸2 菜才能回本，然后要留一两 菜播种，也就是至少能产3-5 才用得起这张卡 回本，多了的每个菜在这张卡下有1 分收益。
 难度：3/5
 用法：只有早菜流才用得起这张卡，前期扣两 次rsf，然后打烈酒吃菜，但是注意两点：1.菜 不要吃断了，没菜播种了。2.石头有井优先打 井，这张卡不着急。 搭配：书柜等多菜早菜卡",,
-C077,,Clay Supply,,,,"Place 1 clay on each of the next 3 round spaces. At the start of these rounds, you get the clay.",,,
+C077,粘土补给,Clay Supply,,,,"Place 1 clay on each of the next 3 round spaces. At the start of these rounds, you get the clay.",,,
 C078,苇帽蟾蜍,Reed-Hatted Toad,T2,,,"Add 5, 7, 9, 11, and 13 to the current round and place 1 reed on each corresponding round space. At the start of these rounds, you get the reed.","费用：1f
 效果：在往后数5/7/9/11/13 回合各摆1r，回合 开始获得
 强度：这张卡的常用场合是R1 的2 动打，此时 你放弃了2w，换去了1f 左右的抢先收益，而这 个收益和卡的成本抵消了，因此相当于用第一 季的2w换取5r，其中最后一个r基本上用不 到。剩下的4 个r有着5+分的总价值，而你花 费的2w大概价值3 分，因此收益是2+分。
@@ -1470,7 +1470,7 @@ in a reasonably short amount of time. You're not going to be able to get more
 wood early with any other play. His usefulness goes down, however, if you have a better early game occ to play,
 since you're not going to tend to want to play this guy later in the game,
 after the race to build the first room is over.",
-C126,,Excavator,,,,"Each time after you use the ""Day Laborer"" action space, you get 1 additional wood and clay, and you can buy 1 stone for 1 food.",,,
+C126,挖掘工,Excavator,,,,"Each time after you use the ""Day Laborer"" action space, you get 1 additional wood and clay, and you can buy 1 stone for 1 food.",,,
 C128,木屋扩建工,Wooden Hut Extender,T1,,,"Wood rooms now cost you 1 reed, and additionally 5 wood through round 5, 4 wood in rounds 6 and 7, and 3 wood in round 8 and later.","效果：你扩建木屋费用改成5w1r，第六回合及以后改为4w1r，第八回合及以后改成3w1r
 强度：考虑到要拿首生，一般第一间推荐5w1r，第二三间推荐3w1r。总共省4w3r，前期r值钱，接近7分的短反馈收益。
 难度：2/5
@@ -1578,7 +1578,7 @@ C119,娴熟翻修工,Skillful Renovator,T1,,,"When you play this card, you immed
 难度：4/5
 用法：打了这张卡要时刻关注翻修的需求以及供给情况，以及都有哪些人能翻修，千万不要贪小便宜吃大亏。尽量不要打五房，能早翻就早翻，早翻早拿木头早围，养起来，很适合三房打。三动翻修两次7w1c，很稳健。搭配：套索，佃农B087，泥水修补工，烟囱清理工不搭：管理员
 变体：就算有管理员，你翻修一次也有5w1c所有的收益，也是一线强卡了，所以不要因为有管理员就不抓娴熟翻修，或者有娴熟翻修就不抓管理员，太便宜下家了。",,
-C123,共济,Freemason,T4,,,"As long as you live in a clay/stone house with exactly 2 rooms, at the start of each work phase, you get 2 clay/stone.","效果：如果你住在2砖/石屋 每回合开始获得2砖/石
+C123,共济会成员,Freemason,T4,,,"As long as you live in a clay/stone house with exactly 2 rooms, at the start of each work phase, you get 2 clay/stone.","效果：如果你住在2砖/石屋 每回合开始获得2砖/石
 强度：2屋流卡牌，本身无配合收益是负的
 难度：5/5
 用法：最好要配合新卡中的早翻卡，旧卡的局没学者不要用，有学者就尽早翻石屋配合：石屋流 2房流 超生卡 扩石卡如木匠",,
@@ -1682,14 +1682,14 @@ B031,陶器园,Pottery Yard,T2,,C,"During the scoring, if there are at least 2 o
 B032,釜,Kettle,T3,,B,"At any time, you can exchange 1/3/5 grain for 3/4/5 food and 0/1/2 bonus points.",,,也算是一张麦子的核心卡。他给的饭非常多，你就有了釜加上麦子你就可以做，就是可以跟很多消耗食物的卡配合。从这个角度来讲还是比较强的。他和这个东方火炉都差不多，算是一档。它们都是能够用一张卡去解决掉很多食物问题。然后你强在他除了解决食物问题之外，它还可以送给你一些分数。但是釜的弱点在于打出条件太苛刻了。就是你首先要有一个砖头，其次你必须先播种完麦田才可以打福。这是一个非常难以达成的事情。你在最需要饭的时间里很难享受到釜给的饭，这是一件非常尴尬的事情。
 B034,特色食物,Special Food,T2,,B,"The next time you take animals from an accumulation space and accommodate all of them on your farm, you get 1 bonus point for each of these animals.",,,是极其优质的分数，两分是它的基本收益，大多数情况下这张卡是一个无条件两分，而且他可以有四分的梦想，有上限有下限，愿不愿意为绕着他做就看后面的发牌，后面你发一张饲养空间卡，直接用它做到四分五分都是可能的，所以说这张卡总体收益还是比较高的。但是嗯这个也是一张环境卡，就是看环境里大家吃动物的意愿，如果环境里吃动物的选手比较多，或者做饲养空间的选手比较多的话，可能要降到一个C档，但是在环境里面比较正常的环境下的话，它也是有一个B挡的强度的。
 B035,钩刀,Hook Knife,T3,,,"Once this game, when you have 9/8/7/6/5/5 sheep on your farm in a 1-/2-3-/4-/5-/6- player game, you immediately get 2 bonus points.",,,
-B037,,Grange,,,,"When you play this card, you immediately get 1 food.",,,
+B037,农庄,Grange,,,,"When you play this card, you immediately get 1 food.",,,
 B038,未来建筑用地,Future Building Site,T3,,E,"Up until all other farmyard spaces are used, you cannot use the unused spaces that are orthogonally adjacent to your house.",,,这张卡就非常简单，特殊配合的强度下值一动，就是说本身三分，起始花一动打出来它然后获得三分，，这就是一个就是也没有啥赚头的事情，，这个限制条件相当于对你无所谓的情况下它是不赚不亏的，不是太强
 B040,啤酒厂池塘,Brewery Pond,T1,,,"Each time you use the ""Fishing"" or ""Reed Bank"" accumulation space, you also get 1 grain and 1 wood.",,,
 B041,栎树林,Hauberg,T1,,,"Alternate placing 2 wood and 1 wild boar on the next 4 round spaces. You decide what to start with. At the start of these rounds, you get the goods.",,,
 B042,林间客栈,Forest Inn,T3,,,"This is an action space for all. A player who uses it can exchange 5/7/9 wood for 8 wood and 2/4/7 food. When another player uses it, they must first pay you 1 food.",,,
 B043,小餐馆,Chophouse,T3,,,"Each time you use the ""Grain/Vegetable Seed"" action space, place 1 food on each of the next 3/2 round spaces. At the start of these rounds, you get the food.",,,
 B044,雏鸡窝,Chick Stable,T2,,,"Add 3 and 4 to the current round and place 2 food on each corresponding round space. At the start of these rounds, you get the food.",,,
-B046,,Club House,,,,"Place 1 food on each of the next 4 round spaces and 1 stone on the round space after that. At the start of these rounds, you get the respective good.",,,
+B046,俱乐部会所,Club House,,,,"Place 1 food on each of the next 4 round spaces and 1 stone on the round space after that. At the start of these rounds, you get the respective good.",,,
 B048,森林巨石,Forest Stone,T2,,,"Place 2 food on this card. Each time you use a wood accumulation space, move 1 of these food to your supply. Each time you use a stone accumulation space, add 2 food to this card.",,,
 B049,天平,Scales,T1,,,"Each time after you place an improvement or occupation in front of you, if you then have the same number of improvements and occupations in play, you get 2 food.",,,
 B051,挖掘铲,Digging Spade,T3,,,"Each time you use a clay accumulation space, you also get a number of food equal to the number of wild boar in your farmyard.",,,
@@ -1726,10 +1726,10 @@ B093,密友,Confidant,T1,,,"Place 1 food from your supply on each of the next 2,
 B094,家畜守护者,Stock Protector,T2,,,"Each time before you use the ""Fencing"" action space, you get 2 wood. Immediately after that ""Fencing"" action, you can place another person.",,,
 B096,树农木匠,Tree Farm Joiner,T1,,,"Place 1 wood on each of the next 2 odd-numbered round spaces. At the start of these rounds, you get the wood and, immediately afterward, a ""Minor Improvement"" action.",,,
 B100,邋遢之人,Clutterer,T3,,E,"During scoring, you get 1 bonus point for each card played after this on that has ""accumulation space(s)"" in its text.",,,就是钓鱼套的一个配件，其他套很少能组出来，很少能够组出来得分特别高的卡组，而且因为他有累计行动格，所以说他必须累计行动格的卡一般都是要早打的，所以邋遢也要非常早的打出来，但是通常提供不了能够符合一张早打卡的得分，所以他甚至不能叫做一个聊胜于无的卡，就是非常特化的卡组里有用的一张卡
-B101,家具木匠,Furniture Carpenter,T4,,F,"Each harvest, if any player (including you) owns the Joinery or an upgrade thereof, you can buy exactly 1 bonus point for 2 food.",,,垃圾
+B101,Furniture Carpenter,Furniture Carpenter,T4,,F,"Each harvest, if any player (including you) owns the Joinery or an upgrade thereof, you can buy exactly 1 bonus point for 2 food.",,,垃圾
 B103,农场商人,Field Merchant,T3,,D,"When you play this card, you immediately get 1 wood and 1 reed. Each time you decline a ""Minor/Major Improvement"" action, you get 1 food/vegetable instead.",,,比4木弱一点，但是他也是即时收益还可以，后续的两个效果里打次发，放弃次发给一饭基本没用，但是放弃主发给菜有时候是有用的，翻打的时候少打一个主发获得一个菜，还是不错的选择的，所以说可以和4木卡放在一个级别
 B105,制箱工,Case Builder,T3,,,"When you play this card, you immediately get 1 good of each of the following types, If you have at least 2 of that good in your supply already, food, grain, vegetable, reed, wood.",,,
-B106,道德宣传员,Moral Crusader,T3,,,"Immediately before the start of each round, if there are goods on the remaining round space that are promised to you, you get 1 food.",,,
+B106,道德宣传者,Moral Crusader,T3,,,"Immediately before the start of each round, if there are goods on the remaining round space that are promised to you, you get 1 food.",,,
 B110,铺路工,Pavior,T1,,,"At the end of each preparation phase, if you have at least 1 stone in your supply, you get 1 food. In round 14, you get 1 vegetable instead.",,,
 B111,乡土之人,Rustic,T3,,,"For each clay room you build, you get 2 food and 1 bonus point. (this does not apply to stone rooms and renovated wood rooms.)",,,
 B112,谷仓守卫,Silokeeper,T3,,,"Each time you use the action space card that has been revealed right before the most recent harvest, you also get 1 grain.",,,
@@ -1738,7 +1738,7 @@ B115,锡匠大师,Tinsmith Master,T3,,F,"You can hold 1 additional animal in eac
 B116,河岸林务官,Shoreforester,T3,,,"When you play this card and each time 1 reed is placed on an empty ""Reed Bank"" accumulation space in the preparation phase, you get 1 wood.",,,
 B117,线人,Informant,T1,,,"When you play this card, you immediately get 1 wood. After each work phase, if you have more stone than clay in your supply, you get 1 wood.",,,
 B119,伐木达人,Lumberjack,T3,,,"You immediately get 1 wood. Additionally, place 1 wood on each of the next round spaces, up to the number of fences you built. At the start of these rounds, you get the wood.",,,
-B120,扫地工,Sweep,T3,,,"Each time before you use the action space card left of the card that has been most recently placed on a round space, you get 2 clay.",,,
+B120,打扫,Sweep,T3,,,"Each time before you use the action space card left of the card that has been most recently placed on a round space, you get 2 clay.",,,
 B122,矿物学者,Mineralogist,T3,,,"Each time you use a clay/stone accumulation space, you also get 1 of the other good, stone/clay.",,,
 B124,牧场修边工,Trimmer,T3,,E,"In each work phase, after you enclose at least one farmyard space, you get 2 stone. (Subdividing an existing pasture does not count.)",,,被栅栏给两个石头，可以赌配合的一张卡，但是实际上就算拿六个石头，它也无非是中上水平吧，就是总归没有一个特别超额的收益，尤其他石头给的太晚了，石头给的特别晚的话，其实不好花出去
 B125,庄园工人,Estate Worker,T2,,,"Place 1 wood, 1 clay, 1 reed, and 1 stone in this order on the next 4 round spaces. At the start of these rounds, you get the respective building resource.",,,
@@ -1750,7 +1750,7 @@ B131,武装者,Equipper,T2,,,"Immediately after each time you use a wood accumul
 B132,庄园主人,Estate Master,T0,,A,"Once you have no unused farmyard spaces left, you get 1 bonus point for each vegetable that you harvest.",,,比较有争议的卡，有人喜欢把它排在S里，但我觉得他是不到S的，他在非常少的情况下才可以超神，平常的情况，它的平均表现是在一个就是强B到中A的一个表现，他在20%的局里可以达到强S的表现，综合一下，把他排在强A
 B133,乡村壮丁,Village Peasant,T3,,,"At the start of scoring, you get a number of vegetables equal to the smallest of the numbers of major improvements, minor improvements, and occupations you have.",,,
 B134,铜版画大师,Housebook Master,T3,,,"After playing this card, if you renovate to stone in round 13/12/11 or before, you immediately get 1/2/3 food and 1/2/3 bonus points.",,,
-B135,营养学家,Nutrition Expert,T3,,,"At the start of each round, you can exchange a set comprised of 1 animal of any type, 1 grain, and 1 vegetable for 5 food and 2 bonus points.",,,
+B135,营养专家,Nutrition Expert,T3,,,"At the start of each round, you can exchange a set comprised of 1 animal of any type, 1 grain, and 1 vegetable for 5 food and 2 bonus points.",,,
 B137,批发商,Wholesaler,T2,,,"Place 1 vegetable, 1 wild boar, 1 stone, and 1 cattle on this card. Each time you use an action space card on round spaces 8 to 11, you get the corresponding good from this card.",,,
 B138,森林守护者,Forest Guardian,T3,,,"When you play this card, you immediately get 2 wood. Each time before another player takes at least 5 wood from an accumulation space, they must first pay you 1 food.",,,
 B139,森林科学家,Forest Scientist,T4,,,"In the returning home phase of each round, if there is no wood left on the game board, you get 1 food—from round 5 on, even 2 food.",,,
@@ -1853,7 +1853,7 @@ C091,开荒英雄,Plow Hero,T2,,,"Each time you use the ""Farmland"" or ""Cultiv
 C092,中年母亲,Autumn Mother,T2,,B,"Immediately before each harvest, if you have room in your house, you can take a ""Family Growth"" action for 3 food.",,,还是不错的一张卡，收益是很稳定的，就是大部分情况下你要收秋母打出来生一个娃，他比你要排队生娃是要赚一些的，所以说秋母一般有一点用，但是秋母一张卡打出特别大的效果嘛，那倒也很少，所以一般都是抓了就有用，所以就是看到我一般是会去抓的，后面有配合就打一打，没有配合就把它当做一个备用的手段了
 C093,城区总监,Inner Districts Director,T3,,,"Each time you use the ""Forest"" or ""Clay Pit"" accumulation space, you can place 1 stone from the general supply on the other space. If you do, you can immediately place another person.",,,
 C094,马厩清洁工,Stable Cleaner,T3,,,"At any time, you can take the ""Build Stables"" action without placing a person. If you do, each stable costs you 1 wood and 1 food.",,,
-C095,箩筐编制工,Basket Weaver,T3,,,"When you play this card, immediately build the ""Basketmaker's Workshop"" major improvement for 1 stone and 1 reed.",,,
+C095,箩筐编织工,Basket Weaver,T3,,,"When you play this card, immediately build the ""Basketmaker's Workshop"" major improvement for 1 stone and 1 reed.",,,
 C097,种子研究员,Seed Researcher,T3,,C,"Each time any people return from both the ""Grain Seeds"" and ""Vegetable Seeds"" action spaces, you get 2 food and you can play 1 occupation, without paying an occupation cost.",,,算是一张比较优秀的种子卡了，我觉得他这个收益是可以放在C里面的，在种子卡里面算是比较强的了，拿种子研究员跟菜贩对比的话，就是种子研究员发动一次相当于白赚三口饭，送两口饭，还送一个打职业还要花一口饭，等于发动一次白赚三口饭，而且麦子和菜的职业格，哪怕没有别人帮助的情况下，他也是没有，就是1饭职业的职业格，那个格子要抢手的，所以这个还是一张比较稳定，而且收益还可以的卡，同时有时候还是有梦想的，就是他是能打出来配合的，尤其是和别人的一些农巡之类的卡配合
 C099,园林设计师,Garden Designer,T2,,A,"At the start of scoring, you can place food in empty fields. You get 1/2/3 bonus points for each field in which you place 1/4/7 food.",,,这张卡感觉扔C争议太大了，所以我就扔A了，它的下限是一个绿化工程，然后上线的话就是比较少见的情况，你的饭特别多，可以把它拿来大量的换分，他就能够超神，但是超神的局可能比庄园主还要少一半吧，大部分局里是一个中规中矩的效果
 C100,男管家,Butler,T3,,,"If you play this card in round 11 or before, during scoring, you get 4 bonus points if you then have more rooms than people.",,,
@@ -2052,129 +2052,139 @@ D164,宠物饲养员,Pet Grower,T3,,F,"Each time you use an animal accumulation 
 D165,野猪追猎者,Pig Stalker,T3,,F,"Each time you use an animal accumulation space, if you occupy either the action space immediately above or below that accumulation space, you also get 1 wild boar.",,,垃圾
 D166,牛棚挤奶工,Stable Milker,T3,,E,"Each time you build at least 2 stables on the same turn, you also get 1 cattle.",,,又是马厩套配合了，然后可以和一些走畜牧的配合，但是总体这个配合还是比较少的
 D167,纯种哺育师,Pure Breeder,T3,,,"You immediately get 1 wood. After each round that does not end with a harvest, you can breed exactly one type of animal. (This is not considered a breeding phase.)",,,
-E001,,Pole Barns,,,,You can immediately build up to 3 stables at no cost.,,,
-E002,,Renovation Materials,,,,Immediately renovate to clay at no cost. (You must pay the cost of this card though.),,,
-E003,,Tea Time,,,,"Immediately return your person on the ""Grain Utilization"" action space home; you can place it again later this round.",,,
-E004,,Thunderbolt,,,,Immediately remove all grain from one of your fields to the general supply. Gain 2 wood for each grain you just removed.,,,
-E005,,Night Loot,,,,Immediately remove exactly 2 different building resources from accumulation spaces and place them in your supply.,,,
-E006,,Recount,,,,You immediately get 1 building resource of each type of which you have 4 or more resources in your supply already.,,,
-E007,,Pumpernickel,,,,"You immediately get 4 food. (Effectively, you are turning 1 grain into 4 food.)",,,
-E008,,Farmers Market,,,,"You immediately get 1 vegetable. (Effectively, you are buying 1 vegetable for 2 food.)",,,
-E009,,Bartering Hut,,,,Up to two times: Immediately spend any 2/3/4 building resources for 1 sheep/wild boar/cattle from the general supply.,,,
+E001,竹杆棚,Pole Barns,,,,You can immediately build up to 3 stables at no cost.,,,
+E002,翻修建材,Renovation Materials,,,,Immediately renovate to clay at no cost. (You must pay the cost of this card though.),,,
+E003,茶点时间,Tea Time,,,,"Immediately return your person on the ""Grain Utilization"" action space home; you can place it again later this round.",,,
+E004,突发事件,Thunderbolt,,,,Immediately remove all grain from one of your fields to the general supply. Gain 2 wood for each grain you just removed.,,,
+E005,夜间劫掠,Night Loot,,,,Immediately remove exactly 2 different building resources from accumulation spaces and place them in your supply.,,,
+E006,清点资源,Recount,,,,You immediately get 1 building resource of each type of which you have 4 or more resources in your supply already.,,,
+E007,粗麦面包,Pumpernickel,,,,"You immediately get 4 food. (Effectively, you are turning 1 grain into 4 food.)",,,
+E008,农夫市场,Farmers Market,,,,"You immediately get 1 vegetable. (Effectively, you are buying 1 vegetable for 2 food.)",,,
+E009,交易小屋,Bartering Hut,,,,Up to two times: Immediately spend any 2/3/4 building resources for 1 sheep/wild boar/cattle from the general supply.,,,
 E010,草帽,Straw Hat,,,,"At the end of the work phases of rounds 3 and 6, you can move your person from the ""Farmland"" action space to an unoccupied action space and take that action, or get 1 food.",,,
 E011,宠物动物园,Petting Zoo,,,F,"As long as you have a pasture orthogonally adjacent to your house, you can keep animals of any type on this card, up to the number of rooms in your house.",,,纯垃圾
-E012,,Animal Bedding,,,,"You can keep 1 additional animal (of the same type) in each of your unfenced stables, and 2 additional animals (of the same type) in each pasture with stable.",,,
-E013,,Stone House Reconstruction,,,,"At any time, you can renovate your clay house to a stone house without placing a person. (You must pay the normal renovation cost.)",,,
-E014,,Wood Saw,,,,"Each time all other players have more people than you, you can take a ""Build Rooms"" action without placing a person.",,,
-E015,,Nail Basket,,,,"Each time after you use a wood accumulation space, you can place 1 stone from your supply on that space (for the next visitor) to take a “Build Fences” action.",,,
-E016,荆棘围栏,Briar Hedge,,,,You do not need to pay wood for fences that you build on the edge of your farmyard board.,,,
-E017,,Skimmer Plow,,,,"Each time you use the ""Farmland"" or ""Cultivation"" action space, you can plow 2 fields instead of 1. Each time you sow, you must place 1 fewer good on each field you sow.",,,
+E012,动物草垫,Animal Bedding,,,,"You can keep 1 additional animal (of the same type) in each of your unfenced stables, and 2 additional animals (of the same type) in each pasture with stable.",,,
+E013,重建石屋,Stone House Reconstruction,,,,"At any time, you can renovate your clay house to a stone house without placing a person. (You must pay the normal renovation cost.)",,,
+E014,木工锯,Wood Saw,,,,"Each time all other players have more people than you, you can take a ""Build Rooms"" action without placing a person.",,,
+E015,铁钉篮子,Nail Basket,,,,"Each time after you use a wood accumulation space, you can place 1 stone from your supply on that space (for the next visitor) to take a “Build Fences” action.",,,
+E016,荆棘篱笆,Briar Hedge,,,A,You do not need to pay wood for fences that you build on the edge of your farmyard board.,,,"效果：木头系天花板
+强度：这张卡给的木头实在是太多了。这张卡可以给就是整整八根木头。如果你为八的话，可以给八根木头，如果为六的话，可以给七个木。就是只要你不是五房加大理的情况下，经济一半都是老赖全的一张核心卡。它的使用率比手机版还要高，而且还不传递。你只要抓了几张卡的话，你后期就几乎不需要为木头而担心，你只需要考虑怎么样能够把这张卡做出来。做出来的情况下通常会亏一动，但是你在亏一动的情况下，你可以获得一个接近于股东的收益，至少是四动的收益。但这也是非常令人满意的一件事情。而且本身你对一个圈地卡组来讲，就是如果说你是晚回卡组，那你肯定不能指望你围完再去拿木头。所以说他在一个网页卡组里，他对那个副作用是非常小，它甚至可以认为是近战系统的一张卡。"
+E017,撇犁,Skimmer Plow,,,,"Each time you use the ""Farmland"" or ""Cultivation"" action space, you can plow 2 fields instead of 1. Each time you sow, you must place 1 fewer good on each field you sow.",,,
 E018,种子年鉴,Seed Almanac,,,A,"Each time after you play a minor improvement after this one, you can pay 1 food to plow 1 field.",,,"效果：五动核心卡
 强度：这是一个五动核心卡，超级大核心只值五动的超级大核心。他和他的理论收益升级，当然一芦苇的这个成本的话，也是算是一张四分卡。这个经济提高是一样的收益，但是比经济比钢要难做一点。因为他必须作为第一个发展，他就是至少是第二个方向，他打字也就意味着你要在生娃前打够四个职业。这个还是比较难凑的，通常普通话这个是要亏生娃的顺位的。但是你打出他的话，你后面可以直接转五动，也就是说你生完亏一圈都是值得的，只是一个赚多赚少的问题。肯定是一个A级别的卡。但是收益的真实收益的话，那平均就是说真实收益应该是在2~4度。"
-E019,牛角尖,Ox Goad,,,,"Each time after you use the ""Cattle Market"" accumulation space, you can pay 2 food to plow 1 field.",,,
-E020,,Iron Hoe,,,,"At the end of each work phase, if you occupy both the ""Grain Seeds"" and ""Vegetable Seeds"" action spaces, you can plow 1 field.",,,
-E021,羊地毯,Sheep Rug,,,,"You can use any ""Wish for Children"" action space, even if it is occupied by another player's person.",,,
+E019,赶牛棒,Ox Goad,,,,"Each time after you use the ""Cattle Market"" accumulation space, you can pay 2 food to plow 1 field.",,,
+E020,铁锄头,Iron Hoe,,,,"At the end of each work phase, if you occupy both the ""Grain Seeds"" and ""Vegetable Seeds"" action spaces, you can plow 1 field.",,,
+E021,羊毛地毯,Sheep Rug,,,,"You can use any ""Wish for Children"" action space, even if it is occupied by another player's person.",,,
 E022,客房,Guest Room,,,B,"Immediately place any amount of food from your supply on this card. Once per round, you can discard 1 food from this card to place a person from your supply in that round.",,,你抓他之后，就是你打客房就跟你家庭版拿一个首生这两件事收益是差不多的。但是家庭版的首生你不一定能拿到客房打出来一个是稳定性要好，你也不怕牺牲也不怕什么，稳定性要好。然后稳定拿到首生的话，基本上他的总体算是一个两动收益。所以他在B级里算是一张比较强的卡。你用它去获得一个娃，是要比你用一些不卡生的生卡去获得一个娃要来得更加方便的。
 E023,养蜂场,Apiary,,,C,"At the end of each work phase, you can sow exactly 1 crop on 1 field.",,,一般来讲是赚两动，就是没有特殊配合的情况下。但是但是他这个四直接打出条件，前期想要完成，就是在第一个收完前想要完成同样还是有难度。但是完成的情况下给两动。总体来讲就是因为他要求比较高，所以就放在C级。那如果这个这个要求低一点的话呢，它是可以有B级的。正常情况下他打出来的时间是在第九回合左右，你可以挡住他，挡下了他之后，他就可以给你一个两边的收益。但是问题在于第九回合不一定想要去打一张发展卡。除非你有什么速度增加之类的东西，这张卡的梯度可以适当上移。
-E024,,Ambition,,,,"Each time you get a ""Minor Improvement"" action on an action space, you can build a major improvement instead of playing a minor one.",,,
+E024,雄心壮志,Ambition,,,,"Each time you get a ""Minor Improvement"" action on an action space, you can build a major improvement instead of playing a minor one.",,,
 E026,日晷,Sundial,,,,"At the end of the work phases in rounds 7 and 9, you can take a ""Sow"" action without placing a person.",,,
 E027,小猪存钱罐,Piggy Bank,,,B,"At the end of each work phase, you can place 1 food on this card, irretrievably. At any time, you can discard 6 food from this card to build a major improvement at no cost.",,,这个东西就是六口饭换田。算是一张很好的核心卡了。他就是你只要前期饭多，你前期饭多你就可以相当于是一张四星卡。四星卡条件前期不缺饭，然后在大部分情况下都是可以拿的。甚至你围绕他去多拿点饭卡都可以。同时它在这个后期他还可以，就是你如果前期缺田的情况下，那你中期总不吃饭了吧。那你就用它去拿一些别人没人要的主发，从而你用这个东西去做出来一些奇怪的东西。比如比如最简单，它是可以配合那张柴火的，就是你在后期去打一些别人不要的烤炉。他主要是起到这个作品，就是有配合，而且单卡只要有饭他就能抓你。前期如果有一张爱宠或者什么之类的卡位，就直接毫不犹豫的可以把他抓下来。
 E028,书签,Bookmark,,,E028,"Add 3 to the current round and mark the corresponding round space. At the start of that round, you can play 1 occupation without paying an occupation cost.",,,标准一动卡。在一动卡里算是稍强一点的位置，但是没有强太多。延迟三回合的限制并不小。
-E029,,Heirloom,,,,(This card has no additional effect.),,,
-E030,,Child's Toy,,,,"During the feeding phase of each harvest, your newborns require 2 food (instead of 1).",,,
-E031,,Upholstery,,,,"Each time you build or play an improvement after this one, you can place 1 reed on this card, irretrievably, to get 1 bonus point, up to the number of rooms in your house.",,,
-E032,教堂中殿,Nave,,,,"During scoring, you get 1 bonus point for each of the 5 columns of your farmyard board containing at least one room.",,,
-E033,,Beaver Colony,,,,"From now on, one of your pastures with stable cannot hold animals. Each time you get reed from an action space, you get 1 bonus point.",,,
-E034,,Land Register,,,,"During scoring, if your farm has no unused spaces, you get 2 bonus points.",,,
-E035,,Misanthropy,,,,"During scoring, if you have exactly 4/3/2 people, you get 2/3/5 bonus points.",,,
-E036,,Herbal Garden,,,,"From now on, at least one of your pastures must contain no animals.",,,
-E037,,Ox Skull,,,,"When you play this card, you immediately get 1 food. During scoring, if you have no cattle, you get 3 bonus points.",,,
-E038,,Rod Collection,,,,"Each time you use ""Fishing"", you can place up to 2 wood on this card, irretrievably. During scoring, each such wood is worth 1 bonus point, except the 1st, 4th, 7th, and 10th.",,,
-E039,,Paintbrush,,,,"Each harvest, you can exchange exactly 1 clay for your choice of 2 food or 1 bonus point.",,,
-E040,,Bee Statue,,,,"Pile (from bottom to top) 1 vegetable, 1 stone, 1 grain, 1 stone, 1 grain on this card. Each time you use the ""Day Laborer"" action space, you get the top good.",,,
-E041,muddy waters,Muddy Waters,,,,"Alternate placing 1 food and 1 clay on each remaining even-numbered round space, starting with food. At the start of these rounds, you get the respective good.",,,
-E042,井,Water Gully,,,,"Place 1 cattle, 1 grain, and 1 cattle on the next 3 round spaces (in that order). At the start of these rounds, you get the respective good.",,,
-E043,谷仓里的猫,Barn Cats,,,,"If you have 1/2/3/4 stables, place 1 food on each of the next 2/3/4/5 round spaces. At the start of these rounds, you get the food.",,,
-E044,,Fodder Beets,,,,"Place 1 food on each remaining odd-numbered round space. At the start of these rounds, you get the food.",,,
-E045,,Fruit Ladder,,,,"Place 1 food on each remaining even-numbered round space. At the start of these rounds, you get the food.",,,
-E046,睡莲池,Waterlily Pond,,,,"Place 1 food on each of the next 2 round spaces. At the start of these rounds, you get the food.",,,
-E047,,Syrup Tap,,,,"Each time you get at least 1 wood from an action space, place 1 food on the next round space. At the start of that round, you get the food.",,,
-E048,,Town Hall,,,,"In the feeding phase of each harvest, if you live in a clay or stone house, you get 1 or 2 food, respectively.",,,
+E029,传家宝,Heirloom,,,,(This card has no additional effect.),,,
+E030,儿童玩具,Child's Toy,,,,"During the feeding phase of each harvest, your newborns require 2 food (instead of 1).",,,"效果：两个卡
+强度：其实所以一般都是在两个卡里比较差的。因为它的就是一次，那当然他给的是这个高贵的上下文。他几个优势，而且他一定要求打的时间比较早。另外一个是他底下的副作用是客观存在的。从平均来讲的话，他们也是要付出1.5万的代价，那排队收益不是很高了。如果你觉得这张卡，你其实可以参考一张丘陵宅院，觉得他和丘陵宅院的性质差不太多，就是成本差不太多，收益也差不太多。但是比丘尼怎样的适应性要好一点。毕竟就是也是一张你在收打的时候，你不想打卡的时候去打他的一张卡。"
+E031,室内装潢,Upholstery,,,,"Each time you build or play an improvement after this one, you can place 1 reed on this card, irretrievably, to get 1 bonus point, up to the number of rooms in your house.",,,
+E032,正厅,Nave,,,B,"During scoring, you get 1 bonus point for each of the 5 columns of your farmyard board containing at least one room.",,,"效果：后期上限卡
+强度：它和这个半路其实算是完全一样的性价比。就是它的净赚多少，你拿他打他，如果拿四出的话，那他其实净赚也就两分。两个十多个亿，芦苇本身值一分，同时你本身那样一个造型，造型上也要扣0.5分，就是俩石头一芦苇在里边就是值1.5分，一个造型上亏了1.5分。正厅这张卡通常认为就是净赚两分的一张卡，没有很强。但是它的好处是在于，就是如果你房子扩的比较高的话，你在后期实际上是有非常多的行动想要去拿一些上限。它是一张高贵的后期一张显卡。在这个情况下的话，他是要比这家室内装潢要强的。但是他同样还是那还是那件事，就是它是一张就是虽然他很值得抓，也就是说抓位还是比较高的。但是他的问题在于他的抓位虽然高，但他并不强。他你可以理解为他和客房一样，只是一个稳定性的手段，而不是强度。"
+E033,海狸群,Beaver Colony,,,,"From now on, one of your pastures with stable cannot hold animals. Each time you get reed from an action space, you get 1 bonus point.",,,
+E034,土地登记册,Land Register,,,,"During scoring, if your farm has no unused spaces, you get 2 bonus points.",,,
+E035,厌世主义,Misanthropy,,,,"During scoring, if you have exactly 4/3/2 people, you get 2/3/5 bonus points.",,,
+E036,草药园,Herbal Garden,,,,"From now on, at least one of your pastures must contain no animals.",,,
+E037,牛头骨,Ox Skull,,,,"When you play this card, you immediately get 1 food. During scoring, if you have no cattle, you get 3 bonus points.",,,"效果：一分白板
+强度：卡比一分白板多头牛，所以比一分白板强。摆在摆在这个位置吧，比比一分白板多头牛，只要不养牛的卡组都可以抓。"
+E038,鱼竿收藏,Rod Collection,,,,"Each time you use ""Fishing"", you can place up to 2 wood on this card, irretrievably. During scoring, each such wood is worth 1 bonus point, except the 1st, 4th, 7th, and 10th.",,,
+E039,画笔,Paintbrush,,,,"Each harvest, you can exchange exactly 1 clay for your choice of 2 food or 1 bonus point.",,,"效果：上限卡
+强度：这张卡的上限感觉还是蛮高的。这张卡的前提就是你要有猪，这个猪从哪里来比较关键。但是你哪怕第四期弄一头猪的话，他都可以用四个资源去换三份。你在就是四个资源换三分，关键是砖这个资源比较便宜。就是他和正厅这两张卡，可能级别是收益是相差不多的，就是都是资源成本和收益都差不多。正经很多时候也就四环完事了，因为他俩就是都是和和这个摆烂的三分画笔，都是一个水平。暂时画笔要比正经打的时间要早一点，就算是画笔一个缺陷。所以画笔的差不多是排在这个位置，算是一张不错的这个上限卡。"
+E040,蜜蜂雕像,Bee Statue,,,,"Pile (from bottom to top) 1 vegetable, 1 stone, 1 grain, 1 stone, 1 grain on this card. Each time you use the ""Day Laborer"" action space, you get the top good.",,,
+E041,泥浆,Muddy Waters,,,,"Alternate placing 1 food and 1 clay on each remaining even-numbered round space, starting with food. At the start of these rounds, you get the respective good.",,,
+E042,水沟,Water Gully,,,,"Place 1 cattle, 1 grain, and 1 cattle on the next 3 round spaces (in that order). At the start of these rounds, you get the respective good.",,,"效果：拿田
+强度：拿到田这件事情其实是有点高之。你能看到水沟就可能会去抽你的技能，仅仅说这样的话，这张卡如果能打出来的话，收益是挺高的。但是因为风险太高，这张卡不出来，所以这张卡总体就是只能排在这个位置。因为这张卡太容易被穿了，然后打的话扣三个时机也比较固定。你前期早期打不开局，那这张卡的时期基本上已经锁死在11回合了。因为如果11回合去一共抢一个骑士，你就会很难受。"
+E043,棚舍小猫,Barn Cats,,,,"If you have 1/2/3/4 stables, place 1 food on each of the next 2/3/4/5 round spaces. At the start of these rounds, you get the food.",,,
+E044,甜菜饲料,Fodder Beets,,,,"Place 1 food on each remaining odd-numbered round space. At the start of these rounds, you get the food.",,,
+E045,果园梯子,Fruit Ladder,,,,"Place 1 food on each remaining even-numbered round space. At the start of these rounds, you get the food.",,,
+E046,睡莲池塘,Waterlily Pond,,,,"Place 1 food on each of the next 2 round spaces. At the start of these rounds, you get the food.",,,
+E047,糖浆水龙头,Syrup Tap,,,,"Each time you get at least 1 wood from an action space, place 1 food on the next round space. At the start of that round, you get the food.",,,
+E048,市政厅,Town Hall,,,,"In the feeding phase of each harvest, if you live in a clay or stone house, you get 1 or 2 food, respectively.",,,
 E049,鹤嘴斧,Twibil,,,,"Each time after any player (including you) builds at least 1 wood room, you get 1 food.",,,
-E050,,Wild Greens,,,,"Each time you sow, you get 1 food for every different type of good that you sow.",,,
-E051,,Whale Oil,,,,"Each time you use ""Fishing"", place 1 food from the general supply on this card. Each time before you play an occupation, you get food equal to the amount on this card.",,,
-E052,小储藏间,Cubbyhole,,,,"For each room that you add to your house, place 1 food from the general supply on this card. At the start of each feeding phase, you get food equal to the amount on this card.",,,
-E053,,Boar Spear,,,,"Each time you get at least 1 wild boar outside of the breeding phase of a harvest, you can immediately turn them into 4 food each.",,,
+E050,野菜,Wild Greens,,,,"Each time you sow, you get 1 food for every different type of good that you sow.",,,"效果：提供蔬菜
+强度：就是这就是一张没没卡打的时候可以打一下卡，一卡打对，就这个水平没啥没啥卡可抓，你抓一张也算绝对不亏。给刘胜一五就一点点赞，没啥能拿野菜。想要当核心的话，那他唯一的配合基本上就是养蜂巢了。除了他之外，这个野菜基本上就是不痛不痒的三四口饭，乐岛非要用野菜来吃的情况下，也就不好打。"
+E051,鲸油,Whale Oil,,,,"Each time you use ""Fishing"", place 1 food from the general supply on this card. Each time before you play an occupation, you get food equal to the amount on this card.",,,
+E052,小房间,Cubbyhole,,,B,"For each room that you add to your house, place 1 food from the general supply on this card. At the start of each feeding phase, you get food equal to the amount on this card.",,,"效果：后期食物核心卡
+强度：它也是一张就是批判用的核心卡。它和去哪这三张卡我觉得比较像的，福小房间和东方火炉的。一个是要卖田来吃来给饭，一个是要你只要拿一个火炉来给饭。这个稍微贵一点，这就是这三张卡应该都是同一级别的，算是一张后期的食物核心卡。我觉得他的小房间的话一般就是要冲着装裤子，就是如果用小房间打折扣的房子，他可以说是无损给饭的，还是非常强大的。而且给的还挺多的，能给到十几口的话就很厉害。"
+E053,捕猪矛,Boar Spear,,,,"Each time you get at least 1 wild boar outside of the breeding phase of a harvest, you can immediately turn them into 4 food each.",,,
 E054,走私货,Contraband,,,,"Each time you play or build an improvement after this, you can pay 1 additional building resource of a type in the printed cost to get 3 food.",,,"效果：发展卡相关
 强度：就是走私货这张卡发动几次战的。就是你早期外发动第一次差不多是不赚不亏，你发打出来，发动第二次之后才开始赚。那他就是按强度就取决于你能够多快的能够打出发展卡。如果你打这个走私货之后连着这个连打一堆发展的走势都挺强大的。但是在大部分无法做到这一点的卡组里，这个走私货效果是，就他不太是一张能够连发的卡。就是正常情况下，你很难连续打这么多张发量卡。走私货总体没有裸照强度，大概是放在这个位置。"
-E055,,Stone Weir,,,,"Each time you use the ""Fishing"" accumulation space, if there are 0/1/2/3 food on the space, you get an additional 4/3/2/1 food from the general supply.",,,
-E056,,Roman Pot,,,,"Place 4 food from the general supply on this card. At the start of each work phase, if you are the last player in turn order, move 1 food from this card to your supply.",,,
-E057,芝士火锅,Cheese Fondue,,,,"Each time you bake at least 1 grain into bread, you get 1 additional food if you have at least 1 sheep and (another) 1 additional food if you have at least 1 cattle.",,,
-E059,垄作苗床,Comb and Cutter,,,,"Each time you use the ""Day Laborer"" action space, you get 1 additional food for each sheep on the ""Sheep Market"" accumulation space, up to a maximum of 4 additional food.",,,
-E061,,Raised Bed,,,,"At the start of each harvest, you get 4 food.",,,
-E062,,Sour Dough,,,,"Once per round, if all players have at least 1 person left to place, you can skip placing a person and take a ""Bake Bread"" action instead.",,,
-E063,铁制烤炉,Iron Oven,,,,"""Bake Bread"" action: At most 1 time Grain → 6 Food When you play this card, you can immediately take a ""Bake Bread"" action.",,,
-E064,,Simple Oven,,,,"""Bake Bread"" action: At most 1 time Grain → 3 Food When you play this card, you can immediately take a ""Bake Bread"" action.",,,
-E065,,Almsbag,,,,"When you play this card, you immediately get 1 grain for every 2 completed rounds.",,,
+E055,石坝,Stone Weir,,,,"Each time you use the ""Fishing"" accumulation space, if there are 0/1/2/3 food on the space, you get an additional 4/3/2/1 food from the general supply.",,,
+E056,罗马罐,Roman Pot,,,,"Place 4 food from the general supply on this card. At the start of each work phase, if you are the last player in turn order, move 1 food from this card to your supply.",,,
+E057,奶酪火锅,Cheese Fondue,,,,"Each time you bake at least 1 grain into bread, you get 1 additional food if you have at least 1 sheep and (another) 1 additional food if you have at least 1 cattle.",,,
+E059,羊毛梳剪,Comb and Cutter,,,,"Each time you use the ""Day Laborer"" action space, you get 1 additional food for each sheep on the ""Sheep Market"" accumulation space, up to a maximum of 4 additional food.",,,
+E061,垄作,Raised Bed,,,,"At the start of each harvest, you get 4 food.",,,
+E062,生面团,Sour Dough,,,,"Once per round, if all players have at least 1 person left to place, you can skip placing a person and take a ""Bake Bread"" action instead.",,,
+E063,铁造烤炉,Iron Oven,,,,"""Bake Bread"" action: At most 1 time Grain → 6 Food When you play this card, you can immediately take a ""Bake Bread"" action.",,,
+E064,简易烤炉,Simple Oven,,,,"""Bake Bread"" action: At most 1 time Grain → 3 Food When you play this card, you can immediately take a ""Bake Bread"" action.",,,
+E065,救济包,Almsbag,,,,"When you play this card, you immediately get 1 grain for every 2 completed rounds.",,,
 E066,谷仓棚,Barn Shed,,,,"Each time another player (or, in a solo game, you) uses the ""Forest"" accumulation space, you get 1 grain.",,,
-E067,,Grain Bag,,,,"Each time you use the ""Grain Seeds"" action space, you get 1 additional grain for each baking improvement you have.",,,
-E068,,Cherry Orchard,,,,"This card is a field on which you can only sow and harvest wood as you would grain. Each time you harvest the last wood from this card, you also get 1 vegetable.",,,
+E067,粮食袋,Grain Bag,,,,"Each time you use the ""Grain Seeds"" action space, you get 1 additional grain for each baking improvement you have.",,,
+E068,樱桃园,Cherry Orchard,,,,"This card is a field on which you can only sow and harvest wood as you would grain. Each time you harvest the last wood from this card, you also get 1 vegetable.",,,
 E069,瓜田,Melon Patch,,,,"This card is a field that can only grow vegetables. Each time you harvest the last vegetable from this card, you can plow 1 field.",,,
-E070,,Crop Rotation Field,,,,"This card is a field. Each time you remove the last grain or vegetable from this card, you can immediately sow vegetable or grain on this card, respectively.",,,
-E071,,Cow Patty,,,,"Each time you sow in a field that is orthogonally adjacent to a pasture, you can place 1 additional good of the planted type in it.",,,
-E072,朝鲜蓟田,Artichoke Field,,,,"This card is a field. During the field phase of each harvest, if you harvest at least 1 good from this card, you also get 1 food.",,,
-E073,,Scythe,,,,"During the field phase of each harvest, you can select exactly one of your fields and harvest all the crops planted in it.",,,
+E070,轮作田,Crop Rotation Field,,,,"This card is a field. Each time you remove the last grain or vegetable from this card, you can immediately sow vegetable or grain on this card, respectively.",,,
+E071,牛肉馅饼,Cow Patty,,,,"Each time you sow in a field that is orthogonally adjacent to a pasture, you can place 1 additional good of the planted type in it.",,,
+E072,洋蓟田,Artichoke Field,,,,"This card is a field. During the field phase of each harvest, if you harvest at least 1 good from this card, you also get 1 food.",,,
+E073,大镰刀,Scythe,,,,"During the field phase of each harvest, you can select exactly one of your fields and harvest all the crops planted in it.",,,"效果：播种收获
+强度：这卡太开想象力了吧，就是能打打出来的配合还是太少。很少有他在这个六六之间。"
 E074,白蜡树,Ash Trees,,,,"When you play this card, immediately place (up to) 5 fences from your supply on it. When you build fences, fences taken from this card cost you nothing.",,,
 E075,石斧,Stone Axe,,,A,"Each time you use a wood accumulation space, you can return 1 stone to the general supply to get an additional 3 wood.",,,"效果：石头资源
 强度：这张卡经常的对比对象是路推，但是这张卡应该他的上限和下限都是要远强于路推的。从上线而言的话，石斧你是可以解锁很多石头卡的装备的，你是比如企业家之类的卡，如果你配合上石斧，他会非常强大。你可以抓非常非常多的石头卡，然后来用来配合石斧，他是增大你的灵活性，而不是减少你的灵活性。第二点是，它的收益是在于前期，RSF是一个非常非常非常强大的行动格，这个行动格的价值是不是2R和三木能比的，这个行动格的竞价值太高了。他唯一的问题就是在于石头不见得能用出去。在这个前提下，石斧提供了一个本sf的石头运出去的解密方案，所以石斧是一张非常非常强大的卡。你从下线的角度的话，他打出的条件要远比例最简单。上线的角度他有更多的配合，而且灵活性也是更高的。总体来讲，石斧是一个非常强大的A级卡。然后他哪怕在后期打出来，他有时候都足够强大了。就是在后期打出来的话，石斧的净收益都可以达到6米这个水平。"
-E076,,Lumber Pile,,,,"When you play this card, you can immediately return up to 3 stables from your farmyard board to your supply and get 3 wood for each.",,,
+E076,木堆,Lumber Pile,,,,"When you play this card, you can immediately return up to 3 stables from your farmyard board to your supply and get 3 wood for each.",,,
 E077,鹤嘴锄,Mattock,,,,"Each time you get reed and/or stone from an action space, you get 1 additional clay.",,,
-E078,,Sleight of Hand,,,,"When you play this card, you can immediately exchange up to 4 building resources for an equal number of other building resources.",,,
-E079,,Field Spade,,,,"Each time after you sow in at least 1 field, you get 1 stone.",,,
-E081,,Alchemists Lab,,,,"This card is an action space for all. A player who uses it gets 1 building resource of each type they already have. If another player uses it, they must first pay you 1 food.",,,
-E082,,Profiteering,,,,"When you play this card, you immediately get 1 food. Each time after you use the ""Day Laborer"" action space, you can exchange 1 building resource for another building resource.",,,
-E083,牧羊人口哨,Shepherd's Whistle,,,,"At the start of the breeding phase of each harvest, if you have at least 1 unfenced stable without an animal, you get 1 sheep.",,,
-E084,多莉羊,Dolly's Mother,,,,You only require 1 sheep to breed sheep during the breeding phase of a harvest. This card can hold 1 sheep.,,,
-E085,,Master Tanner,,,,"For each wild boar or cattle that you turn into food, you can place 1 of that food on this card. While its food equals your number of rooms, this card provides room for 1 person.",,,
-E086,,Pen Builder,,,,"At any time, you can place wood from your supply on this card, irretrievably. You can keep twice as many animals of any type on this card as there is wood on it.",,,
-E087,,Master Renovator,,,,"At the end of the work phases of rounds 7 and 9, you can take a ""Renovation"" action without placing a person and pay 1 building resource of your choice less.",,,
-E088,,Master Fencer,,,,"Once you live in a stone house, at the start of each round, you can pay 2 or 3 wood to build up to 3 or 4 fences, respectively.",,,
-E089,货摊工人,Stallwright,,,,"After you play your 2nd, 3rd, 5th, and 7th occupation (including this one), you can build 1 stable at no cost.",,,
+E078,小花招,Sleight of Hand,,,,"When you play this card, you can immediately exchange up to 4 building resources for an equal number of other building resources.",,,"效果：四换四
+强度：收益不算高，作用就是作用。其实小花招是没有别的作用小，但唯一作用就是换芦苇。如果小花招不是用来换芦苇的话，那小花招肯定是用亏了。然后你在换芦苇的情况下，他是不赚，但是能够稳定一下你的节奏的卡。有生的情况下想发招的效果非常苦。或许能有一张其他的声卡把声卡打CB，总体差不多是这个水平。"
+E079,田地铲,Field Spade,,,,"Each time after you sow in at least 1 field, you get 1 stone.",,,
+E081,炼金室,Alchemists Lab,,,,"This card is an action space for all. A player who uses it gets 1 building resource of each type they already have. If another player uses it, they must first pay you 1 food.",,,
+E082,投机,Profiteering,,,,"When you play this card, you immediately get 1 food. Each time after you use the ""Day Laborer"" action space, you can exchange 1 building resource for another building resource.",,,
+E083,牧羊哨,Shepherd's Whistle,,,,"At the start of the breeding phase of each harvest, if you have at least 1 unfenced stable without an animal, you get 1 sheep.",,,
+E084,多莉的母亲,Dolly's Mother,,,,You only require 1 sheep to breed sheep during the breeding phase of a harvest. This card can hold 1 sheep.,,,
+E085,制革大师,Master Tanner,,,,"For each wild boar or cattle that you turn into food, you can place 1 of that food on this card. While its food equals your number of rooms, this card provides room for 1 person.",,,
+E086,栅栏制造商,Pen Builder,,,,"At any time, you can place wood from your supply on this card, irretrievably. You can keep twice as many animals of any type on this card as there is wood on it.",,,
+E087,翻修大师,Master Renovator,,,,"At the end of the work phases of rounds 7 and 9, you can take a ""Renovation"" action without placing a person and pay 1 building resource of your choice less.",,,
+E088,栅栏大师,Master Fencer,,,,"Once you live in a stone house, at the start of each round, you can pay 2 or 3 wood to build up to 3 or 4 fences, respectively.",,,
+E089,马厩工人,Stallwright,,,,"After you play your 2nd, 3rd, 5th, and 7th occupation (including this one), you can build 1 stable at no cost.",,,
 E090,收粪人,Dung Collector,,,,"Each time you get 2 or more newborn animals, you can pay 1 food to plow 1 field.",,,
-E091,架犁工,Plow Builder,,,,"You can build the Joinery when taking a ""Minor Improvement"" action. If you use the Joinery (or an upgrade thereof) during the harvest, you can pay 1 food to plow 1 field.",,,
+E091,造犁师,Plow Builder,,,,"You can build the Joinery when taking a ""Minor Improvement"" action. If you use the Joinery (or an upgrade thereof) during the harvest, you can pay 1 food to plow 1 field.",,,
 E092,田间医生,Field Doctor,,,A,"Once this game, if you live in a house with exactly 2 rooms surrounded by 4 field tiles, you can use any ""Family Growth"" action space even without room.",,,它的收益是非常恐怖的，它就相当于平台提供了一个饲养空间，平台提供了一个居住空间，完全没有让你付出任何东西，因为李四块钱并不算是一个惩罚，只是只是几，他只是说就是让你前期不能和一些，你前期要打出很多行动去配合着看一起做了，但是如果说你没有其他事可做的话，你四块钱在前期并不亏，然后如果说你能用这四块钱去做出来，做出来一些东西获得分数的话，那这张卡就非常的强大，因为它相当于就是白送的，对于一个早田卡组非常珍贵的一间房子，正常早田发卡组要花整整四栋去获得这间房子，但是你打出了一个田间医生，就相当于你节省了整整三动，对于一个早田卡组的三洞可能就是十分的差距，这个并不夸张，尤其是一些嗯就是种子卡并不强势，他必须颤颤巍巍的在那个手动极限，他才可以在第二季或者第三季播种出来的，卡组的话，你有一个天降医生，东北2pl卡组焕发新的活力
-E093,,Motivator,,,,"On your first turn each round, if you have no unused farmyard spaces, you can place a person from your supply.",,,
-E094,,Prophet,,,,"When you play this card, immediately take a ""Renovation"" action. Afterward, you can take a ""Build Fences"" action. (Both actions require their usual cost.)",,,
-E095,,Miller,,,,"You can immediately build a baking improvement by paying its cost. Each time another player uses the ""Grain Seeds"" action space, you can take a “Bake Bread” action.",,,
-E096,,Elder,,,,You can play this card at the start of the work phase of round 1 without placing a person. (This card has no effect other than counting as a played occupation.),,,
-E097,,Beneficiary,,,,"If this is your 3rd occupation, you can immediately play another occupation for an occupation cost of 1 food and/or play 1 minor improvement by paying its cost.",,,
-E098,,Prodigy,,,,"If this is your 1st occupation, you immediately get 1 bonus point for each improvement you have. (This will not apply to improvements played after this card.)",,,
-E099,,Uncaring Parents,,,,"At the end of each harvest, if you live in a stone house, you get 1 bonus point.",,,
-E100,,Museum Caretaker,,,,"At the start of each work phase, if you have at least 1 wood, 1 clay, 1 reed, 1 stone, 1 grain, and 1 vegetable in your supply, you get 1 bonus point.",,,
-E101,,Blighter,,,,"When you play this card, you get 1 bonus point for each complete stage left to play. You may not play any more occupations.",,,
+E093,榜样,Motivator,,,,"On your first turn each round, if you have no unused farmyard spaces, you can place a person from your supply.",,,
+E094,先知,Prophet,,,,"When you play this card, immediately take a ""Renovation"" action. Afterward, you can take a ""Build Fences"" action. (Both actions require their usual cost.)",,,
+E095,磨坊主人,Miller,,,,"You can immediately build a baking improvement by paying its cost. Each time another player uses the ""Grain Seeds"" action space, you can take a “Bake Bread” action.",,,
+E096,长者,Elder,,,,You can play this card at the start of the work phase of round 1 without placing a person. (This card has no effect other than counting as a played occupation.),,,
+E097,继承人,Beneficiary,,,,"If this is your 3rd occupation, you can immediately play another occupation for an occupation cost of 1 food and/or play 1 minor improvement by paying its cost.",,,
+E098,神童,Prodigy,,,,"If this is your 1st occupation, you immediately get 1 bonus point for each improvement you have. (This will not apply to improvements played after this card.)",,,
+E099,冷漠的父母,Uncaring Parents,,,,"At the end of each harvest, if you live in a stone house, you get 1 bonus point.",,,
+E100,博物馆看守,Museum Caretaker,,,C,"At the start of each work phase, if you have at least 1 wood, 1 clay, 1 reed, 1 stone, 1 grain, and 1 vegetable in your supply, you get 1 bonus point.",,,这是一个C卡，它是一个比较不错的分卡，这张这张卡呢就是它是有上限的，就是它是能提供上限分的，要求的话，比较苛刻的地方就在于菜，所以一般来讲就是如果你能拿到早菜，就抓博物馆看守，如果拿不到早菜，就不抓，其他几个条件都是挤挤，总是有的，不会被其他的几个条件卡脖子，只不过他的极限收益也并不是很高，也就六分五分上下分就是有一定收益吧，但是嗯他毕竟本身还有条件呢，所以说就是这张卡就放在一个C就是有梦想，然后有些有稳定的收益，你毕竟你哪怕后期打出来，你能拿到三分的，他也是一张可以用的卡
+E101,讨厌鬼,Blighter,,,E,"When you play this card, you get 1 bonus point for each complete stage left to play. You may not play any more occupations.",,,这张卡就放E吧，就是如果你没有后期职业就抓
 E102,收购商,Acquirer,,,C,"At the start of each round, you may pay food equal to the number of people you have to buy 1 good of your choice from the general supply.",,,是一个比较典型的，就是它可能在某些环境下能超神，但是裸抓一张我一般认为是不明智的，他强与否，很简单的评价标准，就是你的牛能不能用出去，如果你能够保证，你的牛可以有效的转化出去的话，收购就是一张不错的卡，但是他裸抓的强度不够，所以把它放在C
 E103,狼,Wolf,,,A,"Pile (from bottom to top) 1 clay, 1 wood, and 1 grain on this card. Each time you get a good matching the top item, you can move that item to your supply and get 1 wild boar.",,,是一张非常稳定，而且收益非常优秀的卡，他在A级里都是一个中等以上的水平了，他作为一张饭卡来讲，他获得三猪本身已经是一张优秀的饭卡了，它还提供了三个额外的资源，这三个额外的资源完全是一个大级别，同时他好像除了作为饭卡作用外，还可以充当一个种子卡的角色，所以说他不仅非常适用，而且收益非常高，三个资源带三头猪这个收益，在这个获得资源的卡里面，是已经有点难逢敌手了，而且条件并不苛刻，这个条件非常的好做，尤其是你在抓卡里留心一下的话，这个条件可以说是没有条件
 E104,香料商,Spice Trader,,,D,"If you play this card in round 4 or before, place 3 vegetables on the space for round 11. At the start of that round, you get the vegetables.",,,如果单纯从你第一季打出来一张职业，后期获得三个菜这个角度来讲的话，它是一张非常弱的卡，他可能甚至还不如那张，你在后期对每一个房支付一砖，可以获得一上线分的，同样也是前四回合打出来的卡，毕竟你这个菜只是一个下限分，但是另一个角度他11回合获得，11回合获得它就存在了一个，就是假如你有三块空田，你可以播种一下，从而获得三个菜，把三个菜一吃的就是九饭，最后一集再继续继续进行第二次播种，这就是这个11回合获得可以提供的一个收益，同时如果你有四块田的话，还可以顺便播种一个麦子，解决你的麦种问题，所以说它是一张就是可以在，田多种子少牌组里面发挥一定作用的一张卡，田多少种子草且起锅，或者有其他能把菜转化出去手段的卡组
-E105,先锋者,Pioneer,,,A,"When you play this card and each time before you use the most recent action space card, you get 1 building resource of your choice and 1 food.",,,算实现在非禁卡里面的，Even more set扛把子了，最强的一张卡，真的能够达到，就是中T1甚至强T1，这张卡就是典型的一个兼顾的下限与上限，同时能够与太多的卡进行combo，从限而言，打出来立领一芦苇一饭再触发一次，一共获得两芦苇两饭，就已经是一个嗯不错的前期收益了，然后后期你拿菜拿牛时候获得，然后包括拿第五季，第六度，第六季行动时的获得，都可以称之为意外之喜，同时他的上限收益也是非常高的，他可以配合，就是所有你希望在立刻获得某一个，就是刚翻出来行动格，就是的一个你都可以和他之间配合，就比如说你假如有一个博物馆看守，那你可以把拓荒者看作是一个菜卡，同时它还可以补充你缺少的那种资源，假如你是有一个接生护士或者荆棘篱笆，你也可以把它看作一个牛卡，你更舒适的把刚生出来的那头牛拿走，一般而言节奏就是大致两种，如果是偏向于扩生的话，那就是第一季吃一下发展卡，然后羊那一下可吃可不吃，第二季生娃和翻修选吃一个，后面的话就是第五季也要吃满，如果说是就是偏向于农业的卡组，那就是第一期，你可以把就是发展卡和播种两个格子都吃了，然后第二集把翻修的那个格子吃了，剩下的第三集牛和菜随便吃，接着等到五六级正常吃，总体来讲，平均的收益是可以达到六个优质资源，带六口饭的，这个收益足以称之为一个强T1了
-E106,,Emergency Seller,,,,"When you play this card, you can immediately turn as many building resources into food as you have people: 1 Wood / 1 Clay → 2 Food 1 Reed / 1 Stone → 3 Food",,,
-E107,,Land Surveyor,,,,"In the field phase of each harvest, if you have at least 2/4/6/7 fields, you get 1/2/3/4 food.",,,
-E108,,Blackberry Farmer,,,,"Each time you build fences, place 1 food on each remaining round space, up to the number of fences just built. At the start of these rounds, you get the food.",,,
-E109,,Braid Maker,,,,"Each harvest, you can use this card to exchange 1 reed for 2 food. You can build the Basketmaker's Workshop for 1 reed and 1 stone even when taking a ""Minor Impr."" action.",,,
-E110,,Dentist,,,,"At the start of each harvest, you can place 1 wood from your supply on this card, irretrievably. In each feeding phase, you get 1 food for each wood on this card.",,,
-E111,,Recluse,,,,"As long as you have no minor improvements in front of you, you get 1 food at the start of each round and 1 wood at the start of each harvest.",,,
-E112,,Grain Thief,,,,"Each time you would harvest a grain field, you can leave the grain on the field and take 1 grain from the general supply instead.",,,
-E113,,Godmother,,,,"Each time you take a ""Family Growth"" action, you also get 1 vegetable.",,,
-E114,马厩建筑工,Shed Builder,,,,"When you build your 1st and 2nd stable, you get 1 grain. When you build your 3rd and 4th stable, you get 1 vegetable. (This does not apply to stables you have already built.)",,,
-E115,,Seed Servant,,,,"Each time after you use the ""Grain Seeds"" or ""Vegetable Seeds"" action space, you can take a ""Bake bread"" or ""Sow"" action, respectively.",,,
-E116,冷杉砍伐工,Fir Cutter,,,,"When you play this card, you immediately get 1 food. Each time after you use an animal accumulation space with your 1st/2nd/3rd/4th/5th person, you get 1/1/2/2/3 wood.",,,
-E117,,Pipe Smoker,,,,"At the start of each harvest, if you have at least 1 grain field, you get 2 wood.",,,
-E118,柴火收集者,Kindling Gatherer,,,,"Each time you get food from an action space, you get 1 additional wood.",,,
+E105,拓荒者,Pioneer,,,A,"When you play this card and each time before you use the most recent action space card, you get 1 building resource of your choice and 1 food.",,,算实现在非禁卡里面的，Even more set扛把子了，最强的一张卡，真的能够达到，就是中T1甚至强T1，这张卡就是典型的一个兼顾的下限与上限，同时能够与太多的卡进行combo，从限而言，打出来立领一芦苇一饭再触发一次，一共获得两芦苇两饭，就已经是一个嗯不错的前期收益了，然后后期你拿菜拿牛时候获得，然后包括拿第五季，第六度，第六季行动时的获得，都可以称之为意外之喜，同时他的上限收益也是非常高的，他可以配合，就是所有你希望在立刻获得某一个，就是刚翻出来行动格，就是的一个你都可以和他之间配合，就比如说你假如有一个博物馆看守，那你可以把拓荒者看作是一个菜卡，同时它还可以补充你缺少的那种资源，假如你是有一个接生护士或者荆棘篱笆，你也可以把它看作一个牛卡，你更舒适的把刚生出来的那头牛拿走，一般而言节奏就是大致两种，如果是偏向于扩生的话，那就是第一季吃一下发展卡，然后羊那一下可吃可不吃，第二季生娃和翻修选吃一个，后面的话就是第五季也要吃满，如果说是就是偏向于农业的卡组，那就是第一期，你可以把就是发展卡和播种两个格子都吃了，然后第二集把翻修的那个格子吃了，剩下的第三集牛和菜随便吃，接着等到五六级正常吃，总体来讲，平均的收益是可以达到六个优质资源，带六口饭的，这个收益足以称之为一个强T1了
+E106,砸锅卖铁者,Emergency Seller,,,E,"When you play this card, you can immediately turn as many building resources into food as you have people: 1 Wood / 1 Clay → 2 Food 1 Reed / 1 Stone → 3 Food",,,如果你打出了这张卡，你就需要考虑一下自己规划的是不是不够好，面板可以说没有收益，收益就是你规划的不好的时候，你可以打出来补救一下
+E107,土地测量员,Land Surveyor,,,E,"In the field phase of each harvest, if you have at least 2/4/6/7 fields, you get 1/2/3/4 food.",,,里面算是一张E卡里面的强卡了，他也是配合条件比较苛刻，你在前期如果获得大量土地，典型配合田间医生，在这种情况下，他可以给一个就是中上的收益，可以给出来一个B卡级别的收益，有配合的情况下达到一个B卡收益，没配合的情况下没有收益，所以整体是一个E的收益
+E108,黑莓农夫,Blackberry Farmer,,,F,"Each time you build fences, place 1 food on each remaining round space, up to the number of fences just built. At the start of these rounds, you get the food.",,,很少或者说几乎没有人打出了黑莓农夫的配合，基本没用，饭越到后期价值越低，他还往回推算出的量也不是很多，所以没啥用
+E109,发辫编织者,Braid Maker,,,F,"Each harvest, you can use this card to exchange 1 reed for 2 food. You can build the Basketmaker's Workshop for 1 reed and 1 stone even when taking a ""Minor Impr."" action.",,,这张卡也是一张你没有职业套的话，不会去打的卡，就把它扔在F里面了，如果职业套的情况下，很难想象有人会去打这一张罗筐的下位
+E110,牙医,Dentist,,,E,"At the start of each harvest, you can place 1 wood from your supply on this card, irretrievably. In each feeding phase, you get 1 food for each wood on this card.",,,算是E级别吧，牙医肯定是既没有上限，也没有稳定的收益的，他给的食物太后期了，而且还花费了前期的木头，然后花费了前期的木头，打出了一个非常讽刺的职业，获得的是比较大后期的饭，其实收益是比较差的，在你不想垫职业的时候，一般不打他或者木头太溢出的情况下，勉为其难的打一下吧，正常卡组里打出来偏亏模的。
+E111,隐居者,Recluse,,,D,"As long as you have no minor improvements in front of you, you get 1 food at the start of each round and 1 wood at the start of each harvest.",,,隐居者实际上是一个还可以接受的卡吧，他算是和这个那个这个农场商人，算是一个级别的，就是你不需要对他有太多的期待，他因为他并不需要获得太多的东西才算回本，你他只要给你五口饭加一个木头的话，他作为第一季职业实际上已经合格了，就是给你非常早的五口饭，再给你一根木头，那他就已经合出来了，所以说还是在1/3的情况下，都能有一定的用武之地的，就是所以放在一个比较弱的D里面的位置吧
+E112,谷物小偷,Grain Thief,,,E,"Each time you would harvest a grain field, you can leave the grain on the field and take 1 grain from the general supply instead.",,,就是非常特化的卡了，就是有一堆麦田，然后还有一堆花麦子的卡，你就打一下他
+E113,教母,Godmother,,,D,"Each time you take a ""Family Growth"" action, you also get 1 vegetable.",,,酵母和香料商对比，酵母显然是比香料商要强的，因为香料商要四回合打，酵母你完全可以就是五六回合打，或者第一个娃的时候不打，第二个娃89回合再打，他仍然有收益，对于一张弱卡来讲，灵活度的提升往往比强度的提升更重要，就是强度进行微弱的提升，实际上仍然没办法让他成为一张需要围绕他构筑的卡，所以对于弱卡来讲，最重要的是灵活度，在你没事干想要打一张卡的时候，有一张卡可以站出来，那这张卡就是一个不错的弱卡，所以我认为他在D里面算是一张，还算可以接受的种子卡
+E114,棚舍建造师,Shed Builder,,,,"When you build your 1st and 2nd stable, you get 1 grain. When you build your 3rd and 4th stable, you get 1 vegetable. (This does not apply to stables you have already built.)",,,
+E115,种子仆人,Seed Servant,,,,"Each time after you use the ""Grain Seeds"" or ""Vegetable Seeds"" action space, you can take a ""Bake bread"" or ""Sow"" action, respectively.",,,
+E116,杉树砍伐者,Fir Cutter,,,,"When you play this card, you immediately get 1 food. Each time after you use an animal accumulation space with your 1st/2nd/3rd/4th/5th person, you get 1/1/2/2/3 wood.",,,
+E117,烟斗客,Pipe Smoker,,,,"At the start of each harvest, if you have at least 1 grain field, you get 2 wood.",,,
+E118,燃料收集者,Kindling Gatherer,,,,"Each time you get food from an action space, you get 1 additional wood.",,,
 E119,土地继承人,Land Heir,,,,"If you play this card in round 4 or before, place 4 wood and 4 clay on the space for round 9. At the start of this round, you get the resources.",,,
 E120,废料收集者,Scrap Collector,,,,"Alternate placing 1 wood and 1 clay on each of the next 6 round spaces, starting with wood. At the start of these rounds, you get the respective resource.",,,
-E121,,Hill Cultivator,,,,"Each time you use the ""Grain Seeds"" or ""Vegetable Seeds"" action space, you also get 2 or 3 clay, respectively.",,,
+E121,山地栽培师,Hill Cultivator,,,,"Each time you use the ""Grain Seeds"" or ""Vegetable Seeds"" action space, you also get 2 or 3 clay, respectively.",,,
 E122,苏格兰农民,Cottar,,,C,"Each time you play or build an improvement, you get your choice of 1 wood or 1 clay immediately after paying its cost.",,,其实超神的局挺多的，但是总体来讲，仍然不太认为，苏格兰农民存在比较高的武装强度，因为苏格兰农民首先你不围绕着他打，他是毫无价值的，你不围绕着苏格兰农民打的话，苏格兰农民只能以一个非常非常缓慢的速度来，返还给你，就是六个资源左右啊，这是呃只能连废料收集者都达不到的强度，给的实在是太慢了，甚至你后期拉线的时候，有可能已经不需要资源了，所以说他是一定要围绕着他做行动，他才能发挥效果的一张卡，但是围绕着他做行动很赚吗，那倒那倒也不算赚了，你如果以他为核心去打出来自发的话，那他的收益比不过德笼窝，你木头总归是比不过一分的，如果你是以他为核心去打主画的话，那你木头无论是比较一株或者离一快艇，比木头都是要差太多了，所以这张卡是，并不能以及这单一的一张卡作为核心的，他一定是要等到其他的配合才可以发光发热的，所以我不太认可他有手抓的价值，放在一个C里面算是一个勉强一用，然后在部分局里有很高上限的卡
-E124,,Mayor Candidate,,,,"You immediately get 2 wood and 2 stone. During scoring, you get 1 negative point for each wood and each stone in your supply. You can no longer discard wood or stone.",,,
-E126,,Tax Collector,,B,,"Once you live in a stone house, at the start of each round, you get your choice of 2 wood, 2 clay, 1 reed, or 1 stone.",," In a big game, Tax collector might bring in 5 or 6 free resources, plus whatever you buy. Slightly awkward in that it gives you resources when others build improvements, but those resources are often most useful for buying the Majors yourself. Still, very high upside. Should be banned in FotM. ",
+E124,市长候选人,Mayor Candidate,,,,"You immediately get 2 wood and 2 stone. During scoring, you get 1 negative point for each wood and each stone in your supply. You can no longer discard wood or stone.",,,
+E126,收税人,Tax Collector,,B,,"Once you live in a stone house, at the start of each round, you get your choice of 2 wood, 2 clay, 1 reed, or 1 stone.",," In a big game, Tax collector might bring in 5 or 6 free resources, plus whatever you buy. Slightly awkward in that it gives you resources when others build improvements, but those resources are often most useful for buying the Majors yourself. Still, very high upside. Should be banned in FotM. ",
 E127,,Diligent Farmer,,,,"When you play this card, if you would score the maximum 4 points in 3 scoring categories (including fenced stables), you can extend your house by 1 room at no cost.",,,
 E128,马具工匠,Saddler,,,,"Each time after you build a major improvement, you can pay 1 food to plow 1 field.",,,
 E130,,Overachiever,,,,"Each time you use a ""Wish for Children"" action space, you can play 1 additional improvement by paying its cost less 1 resource of your choice.",,,

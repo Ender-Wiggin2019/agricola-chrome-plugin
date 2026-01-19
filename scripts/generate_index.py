@@ -6,6 +6,8 @@ Generate index.csv from multiple data sources
 
 import csv
 import json
+import os
+import shutil
 from collections import defaultdict
 
 def read_csv_file(filepath):
@@ -364,9 +366,9 @@ def step7_match_set_o_json():
     # Create mapping from name to tier and desc
     set_o_map = {}
     for item in set_o_data:
-        name = item.get('name', '').strip()
-        if name:
-            set_o_map[name] = {
+        no = item.get('no', '').strip()
+        if no:
+            set_o_map[no] = {
                 'chenTier': item.get('tier', '').strip(),
                 'chenDesc': item.get('desc', '').strip()
             }
@@ -379,11 +381,11 @@ def step7_match_set_o_json():
     with open('index.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            cn_name = row.get('cnName', '').strip()
-            if cn_name and cn_name in set_o_map:
+            no_1 = row.get('no', '').strip()
+            if no_1 and no_1 in set_o_map:
                 # Update chenTier and chenDesc
-                row['chenTier'] = set_o_map[cn_name]['chenTier']
-                row['chenDesc'] = set_o_map[cn_name]['chenDesc']
+                row['chenTier'] = set_o_map[no_1]['chenTier']
+                row['chenDesc'] = set_o_map[no_1]['chenDesc']
                 matched_count += 1
             updated_rows.append(row)
 
@@ -591,6 +593,46 @@ def step10_generate_index_missing():
 
     print(f"Generated index_missing.csv with {len(missing_rows)} rows (cnName is empty)")
 
+def step11_sync_card_all_json():
+    """Step 11: Sync card_all.json to plugin-v1, plugin-v2, and web directories"""
+    print("Step 11: Syncing card_all.json to target directories...")
+
+    # Get the script directory and project root
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+
+    # Source file path
+    source_file = os.path.join(script_dir, 'card_all.json')
+
+    # Target file paths
+    targets = [
+        os.path.join(project_root, 'plugin-v1', 'cards.json'),
+        os.path.join(project_root, 'plugin-v2', 'assets', 'cards.json'),
+        os.path.join(project_root, 'web', 'public', 'cards.json')
+    ]
+
+    # Check if source file exists
+    if not os.path.exists(source_file):
+        print(f"Error: Source file {source_file} does not exist!")
+        return
+
+    # Copy to each target location
+    copied_count = 0
+    for target in targets:
+        try:
+            # Create target directory if it doesn't exist
+            target_dir = os.path.dirname(target)
+            os.makedirs(target_dir, exist_ok=True)
+
+            # Copy the file
+            shutil.copy2(source_file, target)
+            copied_count += 1
+            print(f"  Copied to: {target}")
+        except Exception as e:
+            print(f"  Error copying to {target}: {e}")
+
+    print(f"Successfully synced card_all.json to {copied_count}/{len(targets)} locations")
+
 def main():
     # Step 1: Create pk.json
     pk_data = step1_create_pk()
@@ -623,7 +665,10 @@ def main():
     # Step 10: Generate index_missing.csv with rows where cnName is empty
     step10_generate_index_missing()
 
-    print("\nDone! Generated index_raw.csv, index.csv, card_all.json, and index_missing.csv")
+    # Step 11: Sync card_all.json to plugin-v1, plugin-v2, and web directories
+    step11_sync_card_all_json()
+
+    print("\nDone! Generated index_raw.csv, index.csv, card_all.json, index_missing.csv, and synced cards.json to target directories")
 
 if __name__ == '__main__':
     main()
