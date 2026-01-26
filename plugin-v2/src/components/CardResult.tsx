@@ -4,6 +4,7 @@ import { t, getUILanguage } from "~lib/i18n"
 import { TierBadgeWithTooltip } from "./TierBadgeWithTooltip"
 import { JpWikiScoreBadge } from "./JpWikiScoreBadge"
 import { StatsDetails } from "./StatsDetails"
+import { useState } from "react"
 
 interface CardResultProps {
   card: ICard
@@ -15,6 +16,7 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
   const statsData = getStatsData(card)
   const currentLang = getUILanguage()
   const isZh = currentLang === "zh" || currentLang.startsWith("zh-")
+  const [showJpWikiCn, setShowJpWikiCn] = useState(false)
 
   return (
     <div
@@ -82,6 +84,23 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
           )}
         </div>
 
+        {card.comment_jpwiki_cn && card.comment_jpwiki_cn.trim() !== "" && (
+          <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-3 plasmo-pb-3 plasmo-border-b plasmo-border-gray-100">
+            <label className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-cursor-pointer">
+              <div className="plasmo-relative">
+                <input
+                  type="checkbox"
+                  className="plasmo-sr-only plasmo-peer"
+                  checked={showJpWikiCn}
+                  onChange={() => setShowJpWikiCn(!showJpWikiCn)}
+                />
+                <div className="plasmo-w-9 plasmo-h-5 plasmo-bg-gray-200 plasmo-peer-focus:outline-none plasmo-peer-focus:ring-2 plasmo-peer-focus:ring-green-300 plasmo-rounded-full plasmo-peer plasmo-transition-all plasmo-duration-200 plasmo-peer-checked:after:translate-x-full plasmo-peer-checked:after:border-white plasmo-after:content-[''] plasmo-after:absolute plasmo-after:top-0.5 plasmo-after:left-[2px] plasmo-after:bg-white plasmo-after:border-gray-300 plasmo-after:border plasmo-after:rounded-full plasmo-after:h-4 plasmo-after:w-4 plasmo-after:transition-all plasmo-peer-checked:bg-green-600"></div>
+              </div>
+              <span className="plasmo-text-xs plasmo-font-medium plasmo-text-gray-600">JpWiki 中文评价</span>
+            </label>
+          </div>
+        )}
+
         {/* Descriptions */}
         <div className="plasmo-space-y-3">
           {/* Baitu Desc */}
@@ -143,6 +162,19 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
               </div>
               <p className="plasmo-text-sm plasmo-text-gray-600 plasmo-leading-relaxed plasmo-pl-7 plasmo-whitespace-pre-wrap">
                 {card.chenDesc}
+              </p>
+            </div>
+          )}
+
+          {showJpWikiCn && card.comment_jpwiki_cn && card.comment_jpwiki_cn.trim() !== "" && (
+            <div className="plasmo-group">
+              <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-1.5">
+                <span className="plasmo-text-xs plasmo-font-semibold plasmo-text-green-700">
+                  Jp Wiki
+                </span>
+              </div>
+              <p className="plasmo-text-sm plasmo-text-gray-600 plasmo-leading-relaxed plasmo-pl-7 plasmo-whitespace-pre-wrap">
+                {card.comment_jpwiki_cn}
               </p>
             </div>
           )}

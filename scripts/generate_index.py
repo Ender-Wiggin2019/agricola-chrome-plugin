@@ -276,6 +276,50 @@ def step4_5_match_even_more_set(pk_data):
 
     return pk_data, even_more_set_items
 
+def step5_match_jp_jsonl(pk_data):
+    print("Step 5: Matching cards_gamewiki_jp_merged.jsonl...")
+
+    jp_data = []
+    try:
+        with open('cards_gamewiki_jp_merged.jsonl', 'r', encoding='utf-8') as f:
+            for line_num, line in enumerate(f, 1):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    json_obj = json.loads(line)
+                    jp_data.append(json_obj)
+                except json.JSONDecodeError as e:
+                    print(f"Warning: Invalid JSON on line {line_num}: {e}")
+                    continue
+    except FileNotFoundError:
+        print("Warning: cards_gamewiki_jp_merged.jsonl not found, skipping JP data matching")
+        return pk_data
+    except Exception as e:
+        print(f"Warning: Error reading cards_gamewiki_jp_merged.jsonl: {e}, skipping JP data matching")
+        return pk_data
+
+    jp_map = {}
+    for item in jp_data:
+        if isinstance(item, dict):
+            card_id = item.get('card_id', '').strip()
+            if card_id:
+                jp_map[card_id] = {
+                    'jpName': item.get('name_jp', '').strip(),
+                    'comment_jpwiki_cn': item.get('comment_jpwiki_cn', '').strip()
+                }
+
+    matched_count = 0
+    for pk_item in pk_data:
+        no = pk_item.get('no', '').strip()
+        if no and no in jp_map:
+            pk_item['jpName'] = jp_map[no]['jpName']
+            pk_item['comment_jpwiki_cn'] = jp_map[no]['comment_jpwiki_cn']
+            matched_count += 1
+
+    print(f"Matched {matched_count} entries from cards_gamewiki_jp_merged.jsonl")
+    return pk_data
+
 def generate_index_csv(pk_data, even_more_set_items=None, stats_data=None):
     """Generate index_raw.csv and filtered index.csv
     Args:
@@ -286,7 +330,7 @@ def generate_index_csv(pk_data, even_more_set_items=None, stats_data=None):
     print("Step 5: Generating index_raw.csv...")
 
     # Define columns
-    columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
+    columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'jpName', 'comment_jpwiki_cn', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
 
     # First, generate index_raw.csv with all data
     all_rows = []
@@ -302,6 +346,8 @@ def generate_index_csv(pk_data, even_more_set_items=None, stats_data=None):
                 'baituTier': item.get('baituTier', ''),
                 'enTier': item.get('enTier', ''),
                 'chenTier': item.get('chenTier', ''),  # From even_more_set_minor_improvements.json or set_o.json
+                'jpName': item.get('jpName', ''),
+                'comment_jpwiki_cn': item.get('comment_jpwiki_cn', ''),
                 'effect': item.get('effect', ''),
                 'baituDesc': item.get('baituDesc', ''),
                 'enDesc': item.get('enDesc', ''),
@@ -374,7 +420,7 @@ def step7_match_set_o_json():
             }
 
     # Read index.csv and update rows
-    columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
+    columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'jpName', 'comment_jpwiki_cn', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
     updated_rows = []
     matched_count = 0
 
@@ -405,7 +451,7 @@ def parse_tsv_stats(filepath):
 
     with open(filepath, 'r', encoding='utf-8') as f:
         # TSV files use tab separator
-        reader = csv.DictReader(f, delimiter='\t')
+        reader = csv.DictReader(f, delimiter='	')
 
         # Find the actual column names (they may have leading/trailing spaces)
         fieldnames = reader.fieldnames
@@ -416,20 +462,21 @@ def parse_tsv_stats(filepath):
         plays_col = None
         drafted_col = None
 
-        for col in fieldnames:
-            col_stripped = col.strip()
-            if 'Card Name' in col_stripped or col_stripped == 'Card Name':
-                card_name_col = col
-            elif col_stripped == 'PWR':
-                pwr_col = col
-            elif col_stripped == 'ADP':
-                adp_col = col
-            elif col_stripped == 'APR':
-                apr_col = col
-            elif col_stripped == 'Plays':
-                plays_col = col
-            elif col_stripped == 'Drafted':
-                drafted_col = col
+        if fieldnames is not None:
+            for col in fieldnames:
+                col_stripped = col.strip()
+                if 'Card Name' in col_stripped or col_stripped == 'Card Name':
+                    card_name_col = col
+                elif col_stripped == 'PWR':
+                    pwr_col = col
+                elif col_stripped == 'ADP':
+                    adp_col = col
+                elif col_stripped == 'APR':
+                    apr_col = col
+                elif col_stripped == 'Plays':
+                    plays_col = col
+                elif col_stripped == 'Drafted':
+                    drafted_col = col
 
         if not card_name_col:
             print(f"Warning: Could not find 'Card Name' column in {filepath}")
@@ -531,6 +578,8 @@ def step9_generate_card_all_json(stats_data):
                 'baituTier': row.get('baituTier', ''),
                 'enTier': row.get('enTier', ''),
                 'chenTier': row.get('chenTier', ''),
+                'jpName': row.get('jpName', ''),
+                'comment_jpwiki_cn': row.get('comment_jpwiki_cn', ''),
                 'baituDesc': row.get('baituDesc', ''),
                 'enDesc': row.get('enDesc', ''),
                 'chenDesc': row.get('chenDesc', '')
@@ -577,7 +626,7 @@ def step10_generate_index_missing():
     print("Step 10: Generating index_missing.csv...")
 
     missing_rows = []
-    columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
+    columns = ['no', 'cnName', 'enName', 'baituTier', 'enTier', 'chenTier', 'jpName', 'comment_jpwiki_cn', 'effect', 'baituDesc', 'enDesc', 'chenDesc']
 
     with open('index.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -648,6 +697,8 @@ def main():
 
     # Step 4.5: Match even_more_set_minor_improvements.json
     pk_data, even_more_set_items = step4_5_match_even_more_set(pk_data)
+
+    pk_data = step5_match_jp_jsonl(pk_data)
 
     # Step 8: Load statistics from TSV files (needed before filtering)
     stats_data = step8_load_statistics()

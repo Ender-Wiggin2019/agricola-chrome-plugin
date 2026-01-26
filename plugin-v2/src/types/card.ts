@@ -11,6 +11,7 @@ export interface ICard {
   chenDesc: string;
   enDesc_trans2zh?: string;
   jpwiki_score?: string;
+  comment_jpwiki_cn?: string;
   stats?: {
     default?: IStats;
     nb?: IStats;
