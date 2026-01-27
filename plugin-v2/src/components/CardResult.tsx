@@ -1,13 +1,14 @@
-import type { ICard, IAuthors } from "~types/card"
-import { getStatsData } from "~lib/cardUtils"
+import type { ICardV2, IAuthors } from "~types/cardV2"
+import { getStatsData, getCardName, getCardDesc, getTierValue, tierHasDesc, getTierDesc as getTierDescForCard, getTierScore } from "~lib/cardUtils"
+import { getAuthorIds, getAuthorDisplayName, TAuthorId } from "~lib/config"
 import { t, getUILanguage } from "~lib/i18n"
 import { TierBadgeWithTooltip } from "./TierBadgeWithTooltip"
 import { JpWikiScoreBadge } from "./JpWikiScoreBadge"
-import { StatsDetails } from "./StatsDetails"
+import { StatsBadge } from "./StatsBadge"
 import { useState } from "react"
 
 interface CardResultProps {
-  card: ICard
+  card: ICardV2
   authors?: IAuthors
   index?: number
 }
@@ -15,7 +16,7 @@ interface CardResultProps {
 export function CardResult({ card, authors, index = 0 }: CardResultProps) {
   const statsData = getStatsData(card)
   const currentLang = getUILanguage()
-  const isZh = currentLang === "zh" || currentLang.startsWith("zh-")
+  const authorIds = getAuthorIds()
   const [showJpWikiCn, setShowJpWikiCn] = useState(false)
 
   return (
@@ -29,155 +30,92 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
           <span className="plasmo-font-mono plasmo-text-xs plasmo-font-semibold plasmo-px-2 plasmo-py-0.5 plasmo-rounded plasmo-bg-green-100 plasmo-text-green-800">
             {card.no || "N/A"}
           </span>
-          {card.cnName && (
+          {getCardName(card, "zh") && (
             <span className="plasmo-text-lg plasmo-font-semibold plasmo-text-gray-900">
-              {card.cnName}
+              {getCardName(card, "zh")}
             </span>
           )}
-          {card.enName && (
+          {getCardName(card, "en") && (
             <span className="plasmo-text-sm plasmo-text-gray-500 plasmo-italic">
-              {card.enName}
+              {getCardName(card, "en")}
             </span>
           )}
         </div>
 
         {/* Description (card effect) */}
-        {card.desc && card.desc.trim() !== "" && (
+        {getCardDesc(card, currentLang) && (
           <div className="plasmo-py-2 plasmo-mb-3 plasmo-border-b plasmo-border-gray-100">
             <div className="plasmo-text-[10px] plasmo-font-medium plasmo-text-gray-400 plasmo-uppercase plasmo-tracking-wide plasmo-mb-1">
               {t("card_effect")}
             </div>
             <p className="plasmo-text-sm plasmo-text-gray-700 plasmo-leading-relaxed">
-              {card.desc}
+              {getCardDesc(card, currentLang)}
             </p>
           </div>
         )}
 
         {/* Tier badges row */}
         <div className="plasmo-flex plasmo-flex-wrap plasmo-items-center plasmo-gap-2 plasmo-mb-4">
-          {card.baituTier && card.baituTier.trim() !== "" && (
-            <TierBadgeWithTooltip
-              tier={card.baituTier}
-              tierType="baitu"
-              desc={card.baituDesc}
-              author={authors?.baitu}
-            />
-          )}
-          {card.enTier && card.enTier.trim() !== "" && (
-            <TierBadgeWithTooltip
-              tier={card.enTier}
-              tierType="en"
-              desc={isZh && card.enDesc_trans2zh ? card.enDesc_trans2zh : card.enDesc}
-              author={authors?.en}
-            />
-          )}
-          {card.chenTier && card.chenTier.trim() !== "" && (
-            <TierBadgeWithTooltip
-              tier={card.chenTier}
-              tierType="chen"
-              desc={card.chenDesc}
-              author={authors?.chen}
-            />
-          )}
-          {card.jpwiki_score && card.jpwiki_score.trim() !== "" && (
-            <JpWikiScoreBadge score={card.jpwiki_score} />
-          )}
-        </div>
+          {authorIds.map((authorId) => {
+            const tierValue = getTierValue(card, authorId) || String(getTierScore(card, authorId));
+            console.log('🎸 [test] - CardResult - tierValue:', tierValue);
+            if (!tierValue) return null;
 
-        {card.comment_jpwiki_cn && card.comment_jpwiki_cn.trim() !== "" && (
-          <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-3 plasmo-pb-3 plasmo-border-b plasmo-border-gray-100">
-            <label className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-cursor-pointer">
-              <div className="plasmo-relative">
-                <input
-                  type="checkbox"
-                  className="plasmo-sr-only plasmo-peer"
-                  checked={showJpWikiCn}
-                  onChange={() => setShowJpWikiCn(!showJpWikiCn)}
-                />
-                <div className="plasmo-w-9 plasmo-h-5 plasmo-bg-gray-200 plasmo-peer-focus:outline-none plasmo-peer-focus:ring-2 plasmo-peer-focus:ring-green-300 plasmo-rounded-full plasmo-peer plasmo-transition-all plasmo-duration-200 plasmo-peer-checked:after:translate-x-full plasmo-peer-checked:after:border-white plasmo-after:content-[''] plasmo-after:absolute plasmo-after:top-0.5 plasmo-after:left-[2px] plasmo-after:bg-white plasmo-after:border-gray-300 plasmo-after:border plasmo-after:rounded-full plasmo-after:h-4 plasmo-after:w-4 plasmo-after:transition-all plasmo-peer-checked:bg-green-600"></div>
-              </div>
-              <span className="plasmo-text-xs plasmo-font-medium plasmo-text-gray-600">JpWiki 中文评价</span>
-            </label>
-          </div>
-        )}
+            return (
+              <TierBadgeWithTooltip
+                key={authorId}
+                tier={tierValue}
+                authorId={authorId}
+                desc={getTierDesc(card, authorId, currentLang)}
+                author={authors?.[authorId]}
+              />
+            )
+          })}
+        </div>
 
         {/* Descriptions */}
         <div className="plasmo-space-y-3">
-          {/* Baitu Desc */}
-          {card.baituDesc && card.baituDesc.trim() !== "" && (
-            <div className="plasmo-group">
-              <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-1.5">
-                {authors?.baitu?.avatar && (
-                  <img
-                    src={authors.baitu.avatar}
-                    alt={authors.baitu.name}
-                    className="plasmo-w-5 plasmo-h-5 plasmo-rounded-full plasmo-ring-1 plasmo-ring-white plasmo-shadow-sm"
-                  />
-                )}
-                <span className="plasmo-text-xs plasmo-font-semibold plasmo-text-green-700">
-                  {authors?.baitu?.name || "白兔"}
-                </span>
-              </div>
-              <p className="plasmo-text-sm plasmo-text-gray-600 plasmo-leading-relaxed plasmo-pl-7 plasmo-whitespace-pre-wrap">
-                {card.baituDesc}
-              </p>
-            </div>
-          )}
+          {authorIds.map((authorId) => {
+            const tierValue = getTierValue(card, authorId)
+            const desc = getTierDesc(card, authorId, currentLang)
 
-          {/* EN Desc */}
-          {((isZh && (card.enDesc_trans2zh || card.enDesc)) || (!isZh && card.enDesc)) && (
-            <div className="plasmo-group">
-              <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-1.5">
-                {authors?.en?.avatar && (
-                  <img
-                    src={authors.en.avatar}
-                    alt={authors.en.name}
-                    className="plasmo-w-5 plasmo-h-5 plasmo-rounded-full plasmo-ring-1 plasmo-ring-white plasmo-shadow-sm"
-                  />
-                )}
-                <span className="plasmo-text-xs plasmo-font-semibold plasmo-text-green-700">
-                  {authors?.en?.name || "EN"}
-                </span>
-              </div>
-              <p className="plasmo-text-sm plasmo-text-gray-600 plasmo-leading-relaxed plasmo-pl-7 plasmo-whitespace-pre-wrap">
-                {isZh && card.enDesc_trans2zh ? card.enDesc_trans2zh : card.enDesc}
-              </p>
-            </div>
-          )}
+            if (!tierValue || !desc) return null
 
-          {/* Chen Desc */}
-          {card.chenDesc && card.chenDesc.trim() !== "" && (
-            <div className="plasmo-group">
-              <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-1.5">
-                {authors?.chen?.avatar && (
-                  <img
-                    src={authors.chen.avatar}
-                    alt={authors.chen.name}
-                    className="plasmo-w-5 plasmo-h-5 plasmo-rounded-full plasmo-ring-1 plasmo-ring-white plasmo-shadow-sm"
-                  />
-                )}
-                <span className="plasmo-text-xs plasmo-font-semibold plasmo-text-green-700">
-                  {authors?.chen?.name || "Chen"}
-                </span>
-              </div>
-              <p className="plasmo-text-sm plasmo-text-gray-600 plasmo-leading-relaxed plasmo-pl-7 plasmo-whitespace-pre-wrap">
-                {card.chenDesc}
-              </p>
-            </div>
-          )}
+            const authorData = authors?.[authorId]
+            const authorName = authorData?.name || getAuthorDisplayName(authorId)
 
-          {showJpWikiCn && card.comment_jpwiki_cn && card.comment_jpwiki_cn.trim() !== "" && (
-            <div className="plasmo-group">
-              <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-1.5">
-                <span className="plasmo-text-xs plasmo-font-semibold plasmo-text-green-700">
-                  Jp Wiki
-                </span>
+            if (authorId === "jpwiki" && !showJpWikiCn) {
+              return (
+                <button
+                  key={authorId}
+                  onClick={() => setShowJpWikiCn(true)}
+                  className="plasmo-w-full plasmo-text-xs plasmo-text-center plasmo-text-gray-500 plasmo-font-medium plasmo-px-3 plasmo-py-2 plasmo-border plasmo-border-gray-200 plasmo-rounded-lg plasmo-hover:bg-gray-50 plasmo-hover:text-gray-700 plasmo-transition-colors"
+                >
+                  Show More
+                </button>
+              )
+            }
+
+            return (
+              <div key={authorId} className="plasmo-group">
+                <div className="plasmo-flex plasmo-items-center plasmo-gap-2 plasmo-mb-1.5">
+                  {authorData?.avatar && (
+                    <img
+                      src={authorData.avatar}
+                      alt={authorName}
+                      className="plasmo-w-5 plasmo-h-5 plasmo-rounded-full plasmo-ring-1 plasmo-ring-white plasmo-shadow-sm"
+                    />
+                  )}
+                  <span className="plasmo-text-xs plasmo-font-semibold plasmo-text-green-700">
+                    {authorName}
+                  </span>
+                </div>
+                <p className="plasmo-text-sm plasmo-text-gray-600 plasmo-leading-relaxed plasmo-pl-7 plasmo-whitespace-pre-wrap">
+                  {desc}
+                </p>
               </div>
-              <p className="plasmo-text-sm plasmo-text-gray-600 plasmo-leading-relaxed plasmo-pl-7 plasmo-whitespace-pre-wrap">
-                {card.comment_jpwiki_cn}
-              </p>
-            </div>
-          )}
+            )
+          })}
 
           {/* Stats Details */}
           {statsData && (

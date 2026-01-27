@@ -1,48 +1,83 @@
-import type { ICard, IStats, TTierType } from "~types/card"
+import type { ICardV2, IStats } from "~types/cardV2"
+import { getTierColorForAuthor, getAuthorIds, type TAuthorId } from "~lib/config"
 
-// Get tier color based on tier level and type
-export function getTierColor(tier: string, tierType: TTierType): string {
-  // Return gray for N/A or empty tier
-  if (!tier || tier === "N/A" || (typeof tier === "string" && tier.trim() === "")) {
-    return "#9e9e9e" // Gray
+interface ITier {
+  author: string
+  tier: string
+  score?: number | null
+  desc: string
+  localeDescs: {
+    en: string
+    zh: string
+    jp?: string
   }
-
-  // For baituTier (T0-T4)
-  if (tierType === "baitu") {
-    if (tier === "T0" || tier === "T1") {
-      return "#4caf50" // Green
-    } else if (tier === "T2") {
-      return "#d4af37" // Darker yellow/gold
-    } else if (tier === "T3") {
-      return "#ff9800" // Orange
-    } else if (tier === "T4") {
-      return "#f44336" // Red
-    }
-  }
-
-  // For enTier and chenTier (A-F): green to yellow to red gradient
-  if (tierType === "en" || tierType === "chen") {
-    const tierUpper = String(tier).toUpperCase().trim()
-    if (tierUpper === "A") {
-      return "#4caf50" // Green
-    } else if (tierUpper === "B") {
-      return "#8bc34a" // Light green
-    } else if (tierUpper === "C") {
-      return "#cddc39" // Lime
-    } else if (tierUpper === "D") {
-      return "#f9a825" // Darker yellow
-    } else if (tierUpper === "E") {
-      return "#ff9800" // Orange
-    } else if (tierUpper === "F") {
-      return "#f44336" // Red
-    }
-  }
-
-  return "#9e9e9e" // Default gray (for unknown values)
 }
 
-// Get stats data (prioritize default, fallback to nb)
-export function getStatsData(card: ICard): IStats | null {
+function getTierByAuthor(card: ICardV2, author: TAuthorId): ITier | undefined {
+  return card.tiers?.find((tier) => tier.author === author)
+}
+
+export function getCardName(card: ICardV2, lang: string = "en"): string {
+  const name = card.localeNames[lang as keyof typeof card.localeNames]
+  return name || card.localeNames[card.defaultLang] || ""
+}
+
+export function getCardDesc(card: ICardV2, lang: string = "en"): string {
+  const desc = card.localeDescs[lang as keyof typeof card.localeDescs]
+  return desc || card.localeDescs[card.defaultLang] || ""
+}
+
+export function getTierDesc(card: ICardV2, author: TAuthorId, lang: string = "en"): string {
+  const tier = getTierByAuthor(card, author)
+  if (!tier) return ""
+
+  if (tier.desc && tier.desc.trim() !== "") {
+    return tier.desc
+  }
+
+  const currentLangDesc = tier.localeDescs[lang as keyof typeof tier.localeDescs]
+  if (currentLangDesc && currentLangDesc.trim() !== "") {
+    return currentLangDesc
+  }
+
+  const defaultLangDesc = tier.localeDescs[card.defaultLang as keyof typeof tier.localeDescs]
+  if (defaultLangDesc && defaultLangDesc.trim() !== "") {
+    return defaultLangDesc
+  }
+
+  for (const [, desc] of Object.entries(tier.localeDescs)) {
+    if (desc && desc.trim() !== "") {
+      return desc
+    }
+  }
+
+  return ""
+}
+
+export function getTierValue(card: ICardV2, author: TAuthorId): string {
+  const tier = getTierByAuthor(card, author)
+  return tier?.tier || ""
+}
+
+export function getTierScore(card: ICardV2, author: TAuthorId): number | null | undefined {
+  const tier = getTierByAuthor(card, author)
+  return tier?.score
+}
+
+export function tierHasDesc(card: ICardV2, author: TAuthorId): boolean {
+  const tier = getTierByAuthor(card, author)
+  return !!tier && !!tier.desc && tier.desc.trim() !== ""
+}
+
+export function getAvailableTiers(card: ICardV2): TAuthorId[] {
+  return card.tiers?.map((tier) => tier.author as TAuthorId) || []
+}
+
+export function getTierColor(tier: string, authorId: TAuthorId): string {
+  return getTierColorForAuthor(tier, authorId)
+}
+
+export function getStatsData(card: ICardV2): IStats | null {
   if (!card || !card.stats) return null
 
   if (card.stats.default) {
@@ -54,76 +89,62 @@ export function getStatsData(card: ICard): IStats | null {
   return null
 }
 
-// Get ADP color based on value
 export function getAdpColor(adp: number): string {
   if (adp < 2.3) {
-    return "#4caf50" // Green
+    return "#4caf50"
   } else if (adp <= 4.5) {
-    return "#f9a825" // Darker yellow
+    return "#f9a825"
   } else {
-    return "#f44336" // Red
+    return "#f44336"
   }
 }
 
-// Get drawPlayRate color based on value
 export function getDrawPlayRateColor(rate: number): string {
   if (rate > 0.9) {
-    return "#4caf50" // Green
+    return "#4caf50"
   } else if (rate > 0.7) {
-    return "#f9a825" // Darker yellow
+    return "#f9a825"
   } else {
-    return "#f44336" // Red
+    return "#f44336"
   }
 }
 
-// Get JP Wiki Score color based on value (0-10 scale)
 export function getJpWikiScoreColor(score: number): string {
   if (score >= 8) {
-    return "#4caf50" // Green
+    return "#4caf50"
   } else if (score >= 5) {
-    return "#f9a825" // Darker yellow
+    return "#f9a825"
   } else {
-    return "#f44336" // Red
+    return "#f44336"
   }
 }
 
-// Search cards by query (returns all matching results, max 10)
-export function searchCards(cardsData: ICard[], query: string, maxResults = 10): ICard[] {
+export function searchCards(cardsData: ICardV2[], query: string, maxResults = 10): ICardV2[] {
   if (!cardsData || !query.trim()) return []
 
-  const results: ICard[] = []
+  const results: ICardV2[] = []
   const queryLower = query.toLowerCase().trim()
 
   for (const card of cardsData) {
     if (results.length >= maxResults) break
 
-    // Search by no
     if (card.no && card.no.toLowerCase().includes(queryLower)) {
       results.push(card)
       continue
     }
 
-    // Search by cnName
-    if (card.cnName && card.cnName.toLowerCase().includes(queryLower)) {
+    const allNames = Object.values(card.localeNames).filter(Boolean).join(" ").toLowerCase()
+    if (allNames.includes(queryLower)) {
       results.push(card)
-      continue
-    }
-
-    // Search by enName
-    if (card.enName && card.enName.toLowerCase().includes(queryLower)) {
-      results.push(card)
-      continue
     }
   }
 
   return results
 }
 
-// Find card by id (no field) only
-export function findCard(cardsData: ICard[], cardContainer: HTMLElement): ICard | null {
+export function findCard(cardsData: ICardV2[], cardContainer: HTMLElement): ICardV2 | null {
   if (!cardsData) return null
 
-  // Match by card-numbering (no field) only
   const numberingElement = cardContainer.querySelector(".card-numbering")
   if (numberingElement) {
     const numbering = numberingElement.textContent?.trim()
@@ -136,22 +157,13 @@ export function findCard(cardsData: ICard[], cardContainer: HTMLElement): ICard 
   return null
 }
 
-// Get primary tier color for border
-export function getPrimaryTierColor(card: ICard): string {
-  if (card.baituTier && card.baituTier.trim() !== "") {
-    return getTierColor(card.baituTier, "baitu")
-  } else if (card.enTier && card.enTier.trim() !== "") {
-    return getTierColor(card.enTier, "en")
-  } else if (card.chenTier && card.chenTier.trim() !== "") {
-    return getTierColor(card.chenTier, "chen")
+export function getPrimaryTierColor(card: ICardV2): string {
+  const authorIds = getAuthorIds()
+  for (const authorId of authorIds) {
+    const tierValue = getTierValue(card, authorId)
+    if (tierValue) {
+      return getTierColor(tierValue, authorId)
+    }
   }
   return "#9e9e9e"
-}
-
-// Stats labels mapping
-export const STATS_LABELS = {
-  pwr: "PWR",
-  adp: "ADP",
-  apr: "APR",
-  drawPlayRate: "Draw Play Rate"
 }

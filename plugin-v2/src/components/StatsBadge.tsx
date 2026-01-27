@@ -1,5 +1,5 @@
 import { getAdpColor } from "~lib/cardUtils"
-import type { IStats } from "~types/card"
+import type { IStats } from "~types/cardV2"
 
 interface StatsBadgeProps {
   stats: IStats
@@ -10,7 +10,7 @@ export function StatsBadge({ stats, size = "md" }: StatsBadgeProps) {
   if (stats.adp === undefined) return null
 
   const color = getAdpColor(stats.adp)
-  
+
   const sizeClasses = size === "sm"
     ? "plasmo-w-7 plasmo-h-7 plasmo-text-[10px]"
     : "plasmo-w-9 plasmo-h-9 plasmo-text-xs"

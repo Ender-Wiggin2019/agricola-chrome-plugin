@@ -14,7 +14,11 @@
     "release": "bash scripts/local-release.sh",
     "release:stable": "bash scripts/local-release.sh -t stable",
     "release:alpha": "bash scripts/local-release.sh -t alpha",
-    "release:beta": "bash scripts/local-release.sh -t beta"
+    "release:beta": "bash scripts/local-release.sh -t beta",
+    "release:en": "bash scripts/release-locale.sh -l en",
+    "release:zh": "bash scripts/release-locale.sh -l zh",
+    "release:jp": "bash scripts/release-locale.sh -l jp",
+    "release:all": "bash scripts/release-locale.sh -l en && bash scripts/release-locale.sh -l zh && bash scripts/release-locale.sh -l jp"
   },
   "dependencies": {
     "clsx": "^2.1.0",

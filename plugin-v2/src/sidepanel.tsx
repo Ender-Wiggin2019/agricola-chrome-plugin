@@ -1,8 +1,9 @@
 import "./style.css"
 import { useState, useCallback, useMemo, useEffect, useRef } from "react"
 
-import type { ICard, IAuthors } from "~types/card"
-import { searchCards, getStatsData, getTierColor, getAdpColor, getDrawPlayRateColor } from "~lib/cardUtils"
+import type { ICardV2, IAuthors } from "~types/cardV2"
+import { searchCards, getStatsData, getTierColor, getAdpColor, getDrawPlayRateColor, getCardName, getTierValue, getTierDesc, getTierScore, getCardDesc } from "~lib/cardUtils"
+import { getAuthorIds, type TAuthorId } from "~lib/config"
 import { t, getUILanguage } from "~lib/i18n"
 import { JpWikiScoreBadge } from "~components/JpWikiScoreBadge"
 
@@ -27,11 +28,11 @@ function WheatIcon({ className }: { className?: string }) {
 }
 
 // Tier Badge Component
-function TierBadge({ tier, tierType, author }: { tier: string; tierType: string; author?: { name: string; avatar?: string } }) {
+function TierBadge({ tier, authorId, author }: { tier: string; authorId: TAuthorId; author?: { name: string; avatar?: string } }) {
   if (!tier || tier.trim() === "") return null
 
-  const color = getTierColor(tier, tierType as "baitu" | "en" | "chen")
-  const label = t(`tier_${tierType}`)
+  const color = getTierColor(tier, authorId)
+  const label = t(`tier_${authorId}`)
 
   return (
     <div
@@ -60,14 +61,18 @@ function StatsBadge({ adp }: { adp: number }) {
 }
 
 // Card Result Component
-function CardResult({ card, authors }: { card: ICard; authors?: IAuthors }) {
+function CardResult({ card, authors }: { card: ICardV2; authors?: IAuthors }) {
   console.log('🎸 [test] - CardResult - card:', card);
   const [isExpanded, setIsExpanded] = useState(false)
   const statsData = getStatsData(card)
   const currentLang = getUILanguage()
   const isZh = currentLang === "zh" || currentLang.startsWith("zh-")
-  const enDescToShow = isZh && card.enDesc_trans2zh ? card.enDesc_trans2zh : card.enDesc
-  const hasComments = !!(card.baituDesc?.trim() || enDescToShow?.trim() || card.chenDesc?.trim())
+  const authorIds = getAuthorIds()
+
+  const hasComments = authorIds.some((id) => {
+    const desc = getTierDesc(card, id, currentLang)
+    return desc && desc.trim()
+  })
 
   return (
     <div className="plasmo-bg-white plasmo-rounded-lg plasmo-border plasmo-border-gray-200 plasmo-shadow-sm plasmo-overflow-hidden">
@@ -81,28 +86,29 @@ function CardResult({ card, authors }: { card: ICard; authors?: IAuthors }) {
           <span className="plasmo-font-mono plasmo-text-[10px] plasmo-font-semibold plasmo-px-1.5 plasmo-py-0.5 plasmo-rounded plasmo-bg-green-100 plasmo-text-green-800">
             {card.no || "N/A"}
           </span>
-          {card.cnName && (
-            <span className="plasmo-text-sm plasmo-font-semibold plasmo-text-gray-900">{card.cnName}</span>
+          {getCardName(card, "zh") && (
+            <span className="plasmo-text-sm plasmo-font-semibold plasmo-text-gray-900">{getCardName(card, "zh")}</span>
           )}
-          {card.enName && (
-            <span className="plasmo-text-xs plasmo-text-gray-500 plasmo-italic">{card.enName}</span>
+          {getCardName(card, "en") && (
+            <span className="plasmo-text-xs plasmo-text-gray-500 plasmo-italic">{getCardName(card, "en")}</span>
           )}
         </div>
 
         {/* Tier badges */}
         <div className="plasmo-flex plasmo-items-center plasmo-gap-1.5 plasmo-flex-wrap">
-          {card.baituTier && card.baituTier.trim() && (
-            <TierBadge tier={card.baituTier} tierType="baitu" author={authors?.baitu} />
-          )}
-          {card.enTier && card.enTier.trim() && (
-            <TierBadge tier={card.enTier} tierType="en" author={authors?.en} />
-          )}
-          {card.chenTier && card.chenTier.trim() && (
-            <TierBadge tier={card.chenTier} tierType="chen" author={authors?.chen} />
-          )}
-          {card.jpwiki_score && card.jpwiki_score.trim() !== "" && (
-            <JpWikiScoreBadge score={card.jpwiki_score} size="sm" />
-          )}
+          {authorIds.map((authorId) => {
+            const tierValue = getTierValue(card, authorId)
+            if (!tierValue) return null
+
+            return (
+              <TierBadge
+                key={authorId}
+                tier={tierValue}
+                authorId={authorId}
+                author={authors?.[authorId]}
+              />
+            )
+          })}
           {statsData?.adp !== undefined && <StatsBadge adp={statsData.adp} />}
           {hasComments && (
             <span className="plasmo-text-[10px] plasmo-text-gray-400 plasmo-ml-auto">
@@ -110,117 +116,91 @@ function CardResult({ card, authors }: { card: ICard; authors?: IAuthors }) {
             </span>
           )}
         </div>
+
+        {/* Expanded content */}
+        {isExpanded && (
+          <div className="plasmo-px-3 plasmo-pb-3 plasmo-border-t plasmo-border-gray-100 plasmo-pt-3 plasmo-space-y-3">
+            {/* Card effect */}
+            {getCardDesc(card, currentLang) && (
+              <div>
+                <div className="plasmo-text-[10px] plasmo-text-gray-400 plasmo-uppercase plasmo-mb-1">{t("card_effect")}</div>
+                <p className="plasmo-text-xs plasmo-text-gray-600 plasmo-leading-relaxed">{getCardDesc(card, currentLang)}</p>
+              </div>
+            )}
+
+            {/* Author comments */}
+            {authorIds.map((authorId) => {
+              const desc = getTierDesc(card, authorId, currentLang)
+              if (!desc || !desc.trim()) return null
+
+              const authorData = authors?.[authorId]
+              const authorName = authorData?.name || t(`tier_${authorId}`)
+
+              return (
+                <div key={authorId} className="plasmo-bg-gray-50 plasmo-rounded plasmo-p-2">
+                  <div className="plasmo-flex plasmo-items-center plasmo-gap-1.5 plasmo-mb-1">
+                    {authorData?.avatar && (
+                      <img src={authorData.avatar} alt="" className="plasmo-w-4 plasmo-h-4 plasmo-rounded-full" />
+                    )}
+                    <span className="plasmo-text-[10px] plasmo-font-semibold plasmo-text-green-700">
+                      {authorName}
+                    </span>
+                  </div>
+                  <p className="plasmo-text-xs plasmo-text-gray-600 plasmo-leading-relaxed plasmo-whitespace-pre-wrap">
+                    {desc}
+                  </p>
+                </div>
+              )
+            })}
+
+            {/* Stats Details */}
+            {statsData && (
+              <div className="plasmo-bg-green-50 plasmo-rounded plasmo-p-2">
+                <div className="plasmo-text-[10px] plasmo-font-semibold plasmo-text-green-700 plasmo-mb-2">
+                  {t("stats_title")}
+                </div>
+                <div className="plasmo-grid plasmo-grid-cols-2 plasmo-gap-2 plasmo-text-center">
+                  {statsData.pwr !== undefined && (
+                    <div>
+                      <div className="plasmo-text-[9px] plasmo-text-gray-500">{t("stats_pwr")}</div>
+                      <div className="plasmo-text-sm plasmo-font-bold plasmo-text-gray-900">{statsData.pwr.toFixed(2)}</div>
+                    </div>
+                  )}
+                  {statsData.adp !== undefined && (
+                    <div>
+                      <div className="plasmo-text-[9px] plasmo-text-gray-500">{t("stats_adp")}</div>
+                      <div className="plasmo-text-sm plasmo-font-bold" style={{ color: getAdpColor(statsData.adp) }}>
+                        {statsData.adp.toFixed(2)}
+                      </div>
+                    </div>
+                  )}
+                  {statsData.apr !== undefined && (
+                    <div>
+                      <div className="plasmo-text-[9px] plasmo-text-gray-500">{t("stats_apr")}</div>
+                      <div className="plasmo-text-sm plasmo-font-bold plasmo-text-gray-900">{statsData.apr.toFixed(2)}</div>
+                    </div>
+                  )}
+                  {statsData.drawPlayRate !== undefined && (
+                    <div>
+                      <div className="plasmo-text-[9px] plasmo-text-gray-500">{t("stats_playRate")}</div>
+                      <div className="plasmo-text-sm plasmo-font-bold" style={{ color: getDrawPlayRateColor(statsData.drawPlayRate) }}>
+                        {Math.round(statsData.drawPlayRate * 100)}%
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
       </div>
-
-      {/* Expanded content */}
-      {isExpanded && (
-        <div className="plasmo-px-3 plasmo-pb-3 plasmo-border-t plasmo-border-gray-100 plasmo-pt-3 plasmo-space-y-3">
-          {/* Card effect */}
-          {card.desc && card.desc.trim() && (
-            <div>
-              <div className="plasmo-text-[10px] plasmo-text-gray-400 plasmo-uppercase plasmo-mb-1">{t("card_effect")}</div>
-              <p className="plasmo-text-xs plasmo-text-gray-600 plasmo-leading-relaxed">{card.desc}</p>
-            </div>
-          )}
-
-          {/* Baitu Comment */}
-          {card.baituDesc && card.baituDesc.trim() && (
-            <div className="plasmo-bg-gray-50 plasmo-rounded plasmo-p-2">
-              <div className="plasmo-flex plasmo-items-center plasmo-gap-1.5 plasmo-mb-1">
-                {authors?.baitu?.avatar && (
-                  <img src={authors.baitu.avatar} alt="" className="plasmo-w-4 plasmo-h-4 plasmo-rounded-full" />
-                )}
-                <span className="plasmo-text-[10px] plasmo-font-semibold plasmo-text-green-700">
-                  {authors?.baitu?.name || t("tier_baitu")}
-                </span>
-              </div>
-              <p className="plasmo-text-xs plasmo-text-gray-600 plasmo-leading-relaxed plasmo-whitespace-pre-wrap">
-                {card.baituDesc}
-              </p>
-            </div>
-          )}
-
-          {/* EN Comment */}
-          {enDescToShow && enDescToShow.trim() && (
-            <div className="plasmo-bg-gray-50 plasmo-rounded plasmo-p-2">
-              <div className="plasmo-flex plasmo-items-center plasmo-gap-1.5 plasmo-mb-1">
-                {authors?.en?.avatar && (
-                  <img src={authors.en.avatar} alt="" className="plasmo-w-4 plasmo-h-4 plasmo-rounded-full" />
-                )}
-                <span className="plasmo-text-[10px] plasmo-font-semibold plasmo-text-green-700">
-                  {authors?.en?.name || t("tier_en")}
-                </span>
-              </div>
-              <p className="plasmo-text-xs plasmo-text-gray-600 plasmo-leading-relaxed plasmo-whitespace-pre-wrap">
-                {enDescToShow}
-              </p>
-            </div>
-          )}
-
-          {/* Chen Comment */}
-          {card.chenDesc && card.chenDesc.trim() && (
-            <div className="plasmo-bg-gray-50 plasmo-rounded plasmo-p-2">
-              <div className="plasmo-flex plasmo-items-center plasmo-gap-1.5 plasmo-mb-1">
-                {authors?.chen?.avatar && (
-                  <img src={authors.chen.avatar} alt="" className="plasmo-w-4 plasmo-h-4 plasmo-rounded-full" />
-                )}
-                <span className="plasmo-text-[10px] plasmo-font-semibold plasmo-text-green-700">
-                  {authors?.chen?.name || t("tier_chen")}
-                </span>
-              </div>
-              <p className="plasmo-text-xs plasmo-text-gray-600 plasmo-leading-relaxed plasmo-whitespace-pre-wrap">
-                {card.chenDesc}
-              </p>
-            </div>
-          )}
-
-          {/* Stats Details */}
-          {statsData && (
-            <div className="plasmo-bg-green-50 plasmo-rounded plasmo-p-2">
-              <div className="plasmo-text-[10px] plasmo-font-semibold plasmo-text-green-700 plasmo-mb-2">
-                {t("stats_title")}
-              </div>
-              <div className="plasmo-grid plasmo-grid-cols-2 plasmo-gap-2 plasmo-text-center">
-                {statsData.pwr !== undefined && (
-                  <div>
-                    <div className="plasmo-text-[9px] plasmo-text-gray-500">{t("stats_pwr")}</div>
-                    <div className="plasmo-text-sm plasmo-font-bold plasmo-text-gray-900">{statsData.pwr.toFixed(2)}</div>
-                  </div>
-                )}
-                {statsData.adp !== undefined && (
-                  <div>
-                    <div className="plasmo-text-[9px] plasmo-text-gray-500">{t("stats_adp")}</div>
-                    <div className="plasmo-text-sm plasmo-font-bold" style={{ color: getAdpColor(statsData.adp) }}>
-                      {statsData.adp.toFixed(2)}
-                    </div>
-                  </div>
-                )}
-                {statsData.apr !== undefined && (
-                  <div>
-                    <div className="plasmo-text-[9px] plasmo-text-gray-500">{t("stats_apr")}</div>
-                    <div className="plasmo-text-sm plasmo-font-bold plasmo-text-gray-900">{statsData.apr.toFixed(2)}</div>
-                  </div>
-                )}
-                {statsData.drawPlayRate !== undefined && (
-                  <div>
-                    <div className="plasmo-text-[9px] plasmo-text-gray-500">{t("stats_playRate")}</div>
-                    <div className="plasmo-text-sm plasmo-font-bold" style={{ color: getDrawPlayRateColor(statsData.drawPlayRate) }}>
-                      {Math.round(statsData.drawPlayRate * 100)}%
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
-        </div>
-      )}
     </div>
   )
 }
 
 // Main Side Panel Component
 function SidePanel() {
-  const [cardsData, setCardsData] = useState<ICard[]>([])
+  const [cardsData, setCardsData] = useState<ICardV2[]>([])
   const [authorsData, setAuthorsData] = useState<IAuthors | undefined>(undefined)
   const [isLoading, setIsLoading] = useState(true)
   const [searchQuery, setSearchQuery] = useState("")

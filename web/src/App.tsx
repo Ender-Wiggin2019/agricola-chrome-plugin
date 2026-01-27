@@ -4,7 +4,7 @@ import { Github } from 'lucide-react';
 import { SearchBox } from '@/components/SearchBox';
 import { SearchResults } from '@/components/SearchResults';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
-import type { ICard, IAuthors } from '@/types/card';
+import type { ICardV2, IAuthors } from '@/types/cardV2';
 import { searchCards, getRandomRecommendedCards } from '@/lib/cardUtils';
 
 interface SocialLink {
@@ -44,12 +44,12 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 
 function App() {
   const { t } = useTranslation();
-  const [cardsData, setCardsData] = useState<ICard[]>([]);
+  const [cardsData, setCardsData] = useState<ICardV2[]>([]);
   const [authorsData, setAuthorsData] = useState<IAuthors | undefined>(undefined);
   const [socialLinks, setSocialLinks] = useState<SocialLink[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [isLoading, setIsLoading] = useState(true);
-  const [recommendedCards, setRecommendedCards] = useState<ICard[]>([]);
+  const [recommendedCards, setRecommendedCards] = useState<ICardV2[]>([]);
   const [displayCount, setDisplayCount] = useState(PAGE_SIZE);
 
   // Load cards and authors data

@@ -1,39 +1,30 @@
-/*
- * @Author: Ender Wiggin
- * @Date: 2026-01-14 01:00:31
- * @LastEditors: Ender Wiggin
- * @LastEditTime: 2026-01-14 21:42:53
- * @Description:
- */
 import { getTierColor } from "~lib/cardUtils"
-import { t } from "~lib/i18n"
-import type { TTierType, IAuthor } from "~types/card"
-// import { Tooltip } from "./Tooltip"
+import { getAuthorDisplayName, type TAuthorId } from "~lib/config"
+
+interface IAuthor {
+  name: string
+  avatar: string
+}
 
 interface TierBadgeWithTooltipProps {
   tier: string
-  tierType: TTierType
+  authorId: TAuthorId
   desc?: string
   author?: IAuthor
   size?: "sm" | "md"
 }
 
-// Get tier label with i18n support
-function getTierLabel(tierType: TTierType): string {
-  return t(`tier_${tierType}`) || tierType
-}
-
 export function TierBadgeWithTooltip({
   tier,
-  tierType,
+  authorId,
   desc,
   author,
   size = "md"
 }: TierBadgeWithTooltipProps) {
   if (!tier || tier.trim() === "") return null
 
-  const color = getTierColor(tier, tierType)
-  const label = getTierLabel(tierType)
+  const color = getTierColor(tier, authorId)
+  const label = getAuthorDisplayName(authorId)
   const hasDesc = desc && desc.trim() !== ""
 
   const sizeClasses = size === "sm"
@@ -81,7 +72,5 @@ export function TierBadgeWithTooltip({
     </div>
   )
 
-  // TODO: Add tooltip functionality when needed
-  // For now, just return the badge
   return badge
 }

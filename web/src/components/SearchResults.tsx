@@ -1,9 +1,9 @@
-import type { ICard, IAuthors } from '@/types/card';
+import type { ICardV2, IAuthors } from '@/types/cardV2';
 import { CardResult } from '@/components/CardResult';
 import { useTranslation } from 'react-i18next';
 
 interface SearchResultsProps {
-  results: ICard[];
+  results: ICardV2[];
   totalCount: number;
   authors?: IAuthors;
   isSearching: boolean;

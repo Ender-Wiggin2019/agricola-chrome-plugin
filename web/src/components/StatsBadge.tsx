@@ -1,5 +1,5 @@
 import { Badge } from '@/components/ui/badge';
-import type { IStats } from '@/types/card';
+import type { IStats } from '@/types/cardV2';
 import { getAdpColor } from '@/lib/cardUtils';
 
 interface StatsBadgeProps {
