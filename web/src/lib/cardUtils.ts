@@ -1,48 +1,96 @@
-import type { ICard, IStats, TTierType } from '@/types/card';
+import type { ICardV2, IStats } from '@/types/cardV2';
+import { getTierColorForAuthor, getAuthorIds, TAuthorId } from '@/lib/config';
 
-// Get tier color based on tier level and type
-export function getTierColor(tier: string, tierType: TTierType): string {
-  // Return gray for N/A or empty tier
-  if (!tier || tier === 'N/A' || (typeof tier === 'string' && tier.trim() === '')) {
-    return '#9e9e9e'; // Gray
-  }
-
-  // For baituTier (T0-T4)
-  if (tierType === 'baitu') {
-    if (tier === 'T0' || tier === 'T1') {
-      return '#4caf50'; // Green
-    } else if (tier === 'T2') {
-      return '#d4af37'; // Darker yellow/gold
-    } else if (tier === 'T3') {
-      return '#ff9800'; // Orange
-    } else if (tier === 'T4') {
-      return '#f44336'; // Red
-    }
-  }
-
-  // For enTier and chenTier (A-F): green to yellow to red gradient
-  if (tierType === 'en' || tierType === 'chen') {
-    const tierUpper = String(tier).toUpperCase().trim();
-    if (tierUpper === 'A') {
-      return '#4caf50'; // Green
-    } else if (tierUpper === 'B') {
-      return '#8bc34a'; // Light green
-    } else if (tierUpper === 'C') {
-      return '#cddc39'; // Lime
-    } else if (tierUpper === 'D') {
-      return '#f9a825'; // Darker yellow
-    } else if (tierUpper === 'E') {
-      return '#ff9800'; // Orange
-    } else if (tierUpper === 'F') {
-      return '#f44336'; // Red
-    }
-  }
-
-  return '#9e9e9e'; // Default gray (for unknown values)
+interface ITier {
+  author: string;
+  tier: string;
+  score?: number | null;
+  desc: string;
+  localeDescs: {
+    en: string;
+    zh: string;
+    jp?: string;
+  };
 }
 
-// Get stats data (prioritize default, fallback to nb)
-export function getStatsData(card: ICard): IStats | null {
+function getTierByAuthor(card: ICardV2, author: TAuthorId): ITier | undefined {
+  return card.tiers?.find((tier) => tier.author === author);
+}
+
+export function getCardName(card: ICardV2, lang: string = 'en'): string {
+  const name = card.localeNames[lang as keyof typeof card.localeNames];
+  return name || card.localeNames[card.defaultLang] || '';
+}
+
+export function getTierDescForCard(card: ICardV2, lang: string = 'en'): string {
+  const desc = card.localeDescs[lang as keyof typeof card.localeDescs];
+  return desc || card.localeDescs[card.defaultLang as keyof typeof card.localeDescs] || '';
+}
+
+export function getTierDesc(card: ICardV2, author: TAuthorId, lang: string = 'en'): string {
+  return getTierDescForCard(card, lang);
+}
+
+export function getCardDesc(card: ICardV2, lang: string = 'en'): string {
+  const desc = card.localeDescs[lang as keyof typeof card.localeDescs];
+  return desc || card.localeDescs[card.defaultLang] || '';
+}
+
+export function getTierDescForCard(card: ICardV2, author: TAuthorId, lang: string = 'en'): string {
+  const tier = getTierByAuthor(card, author);
+  if (!tier) return '';
+
+  if (tier.desc && tier.desc.trim() !== '') {
+    return tier.desc;
+  }
+
+  const currentLangDesc = tier.localeDescs[lang as keyof typeof tier.localeDescs];
+  if (currentLangDesc && currentLangDesc.trim() !== '') {
+    return currentLangDesc;
+  }
+
+  const defaultLangDesc = tier.localeDescs[card.defaultLang as keyof typeof tier.localeDescs];
+  if (defaultLangDesc && defaultLangDesc.trim() !== '') {
+    return defaultLangDesc;
+  }
+
+  for (const [, desc] of Object.entries(tier.localeDescs)) {
+    if (desc && desc.trim() !== '') {
+      return desc;
+    }
+  }
+
+  return '';
+}
+
+export function getTierDesc(card: ICardV2, author: TAuthorId, lang: string = 'en'): string {
+  return getTierDescForCard(card, author, lang);
+}
+
+export function getTierValue(card: ICardV2, author: TAuthorId): string {
+  const tier = getTierByAuthor(card, author);
+  return tier?.tier || '';
+}
+
+export function getTierScore(card: ICardV2, author: TAuthorId): number | null | undefined {
+  const tier = getTierByAuthor(card, author);
+  return tier?.score;
+}
+
+export function tierHasDesc(card: ICardV2, author: TAuthorId): boolean {
+  const tier = getTierByAuthor(card, author);
+  return !!tier && !!tier.desc && tier.desc.trim() !== '';
+}
+
+export function getAvailableTiers(card: ICardV2): TAuthorId[] {
+  return card.tiers?.map((tier) => tier.author as TAuthorId) || [];
+}
+
+export function getTierColor(tier: string, authorId: TAuthorId): string {
+  return getTierColorForAuthor(tier, authorId);
+}
+
+export function getStatsData(card: ICardV2): IStats | null {
   if (!card || !card.stats) return null;
 
   if (card.stats.default) {
@@ -54,61 +102,50 @@ export function getStatsData(card: ICard): IStats | null {
   return null;
 }
 
-// Get ADP color based on value
 export function getAdpColor(adp: number): string {
   if (adp < 2.3) {
-    return '#4caf50'; // Green
+    return '#4caf50';
   } else if (adp <= 4.5) {
-    return '#f9a825'; // Darker yellow
+    return '#f9a825';
   } else {
-    return '#f44336'; // Red
+    return '#f44336';
   }
 }
 
-// Get drawPlayRate color based on value
 export function getDrawPlayRateColor(rate: number): string {
   if (rate > 0.9) {
-    return '#4caf50'; // Green
+    return '#4caf50';
   } else if (rate > 0.7) {
-    return '#f9a825'; // Darker yellow
+    return '#f9a825';
   } else {
-    return '#f44336'; // Red
+    return '#f44336';
   }
 }
 
-// Get JP Wiki Score color based on value (0-10 scale)
 export function getJpWikiScoreColor(score: number): string {
   if (score >= 8) {
-    return '#4caf50'; // Green
+    return '#4caf50';
   } else if (score >= 5) {
-    return '#f9a825'; // Darker yellow
+    return '#f9a825';
   } else {
-    return '#f44336'; // Red
+    return '#f44336';
   }
 }
 
-// Search cards by query (returns all matching results)
-export function searchCards(cardsData: ICard[], query: string): ICard[] {
+export function searchCards(cardsData: ICardV2[], query: string): ICardV2[] {
   if (!cardsData || !query.trim()) return [];
 
-  const results: ICard[] = [];
+  const results: ICardV2[] = [];
   const queryLower = query.toLowerCase().trim();
 
   for (const card of cardsData) {
-    // Search by no
     if (card.no?.toLowerCase().includes(queryLower)) {
       results.push(card);
       continue;
     }
 
-    // Search by cnName
-    if (card.cnName?.toLowerCase().includes(queryLower)) {
-      results.push(card);
-      continue;
-    }
-
-    // Search by enName
-    if (card.enName?.toLowerCase().includes(queryLower)) {
+    const allNames = Object.values(card.localeNames).filter(Boolean).join(' ').toLowerCase();
+    if (allNames.includes(queryLower)) {
       results.push(card);
     }
   }
@@ -116,51 +153,43 @@ export function searchCards(cardsData: ICard[], query: string): ICard[] {
   return results;
 }
 
-// Get random recommended cards, prioritizing cards with chenTier and chenDesc
-export function getRandomRecommendedCards(cardsData: ICard[], count: number = 3): ICard[] {
+function shuffle<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+export function getRandomRecommendedCards(cardsData: ICardV2[], count: number = 3): ICardV2[] {
   if (!cardsData || cardsData.length === 0) return [];
 
-  // Filter cards with chenTier and chenDesc (high priority)
-  const cardsWithChenDesc = cardsData.filter(
-    (card) =>
-      card.chenTier && card.chenTier.trim() !== '' && card.chenDesc && card.chenDesc.trim() !== ''
-  );
+  const result: ICardV2[] = [];
+  const authorIds = getAuthorIds();
 
-  // Filter cards with at least chenTier (medium priority)
-  const cardsWithChenTier = cardsData.filter(
-    (card) => card.chenTier && card.chenTier.trim() !== '' && !cardsWithChenDesc.includes(card)
-  );
+  for (const authorId of authorIds) {
+    const authorTiers = cardsData.filter(
+      (card) => getTierValue(card, authorId) && tierHasDesc(card, authorId)
+    );
 
-  // Shuffle function
-  const shuffle = <T>(array: T[]): T[] => {
-    const shuffled = [...array];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    if (authorTiers.length >= count) {
+      const shuffled = shuffle(authorTiers);
+      for (const card of shuffled) {
+        if (result.length >= count) break;
+        result.push(card);
+      }
+      return result;
     }
-    return shuffled;
-  };
+  }
 
-  // Build result: prioritize cards with chenDesc, then chenTier, then others
-  const result: ICard[] = [];
-
-  // First, try to get cards with chenDesc
-  const shuffledWithDesc = shuffle(cardsWithChenDesc);
-  for (const card of shuffledWithDesc) {
+  const anyTier = cardsData.filter((card) => card.tiers && card.tiers.length > 0);
+  const shuffled = shuffle(anyTier);
+  for (const card of shuffled) {
     if (result.length >= count) break;
     result.push(card);
   }
 
-  // If not enough, add cards with chenTier
-  if (result.length < count) {
-    const shuffledWithTier = shuffle(cardsWithChenTier);
-    for (const card of shuffledWithTier) {
-      if (result.length >= count) break;
-      result.push(card);
-    }
-  }
-
-  // If still not enough, add other cards
   if (result.length < count) {
     const otherCards = cardsData.filter((card) => !result.includes(card));
     const shuffledOthers = shuffle(otherCards);

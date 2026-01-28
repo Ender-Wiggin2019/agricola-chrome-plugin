@@ -3,17 +3,17 @@ import { Input } from '@/components/ui/input';
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
-import type { ICard } from '@/types/card';
-import { searchCards } from '@/lib/cardUtils';
+import type { ICardV2 } from '@/types/cardV2';
+import { searchCards, getCardName } from '@/lib/cardUtils';
 
 interface SearchBoxProps {
   onSearch: (query: string) => void;
-  cardsData: ICard[];
+  cardsData: ICardV2[];
 }
 
 export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
   const [query, setQuery] = useState('');
-  const [suggestions, setSuggestions] = useState<ICard[]>([]);
+  const [suggestions, setSuggestions] = useState<ICardV2[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
@@ -89,10 +89,9 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
     // 不再立即调用 onSearch，由防抖 useEffect 统一处理
   }, []);
 
-  // 选择建议项
   const handleSelectSuggestion = useCallback(
-    (card: ICard) => {
-      const displayName = card.cnName || card.enName || card.no;
+    (card: ICardV2) => {
+      const displayName = getCardName(card, 'zh') || getCardName(card, 'en') || card.no;
       setQuery(displayName);
       setShowSuggestions(false);
       onSearch(displayName);
@@ -142,9 +141,8 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
     };
   }, []);
 
-  // 获取卡片显示名称
-  const getCardDisplayName = (card: ICard): string => {
-    return card.cnName || card.enName || card.no || '';
+  const getCardDisplayName = (card: ICardV2): string => {
+    return getCardName(card, 'zh') || getCardName(card, 'en') || card.no || '';
   };
 
   return (
@@ -189,6 +187,7 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
           >
             {suggestions.map((card, index) => {
               const displayName = getCardDisplayName(card);
+              const enName = getCardName(card, 'en');
               const isSelected = index === selectedIndex;
 
               return (
@@ -210,8 +209,8 @@ export function SearchBox({ onSearch, cardsData }: SearchBoxProps) {
                   <div className="flex items-center gap-3">
                     <span className="font-medium text-primary/70 text-sm">{card.no}</span>
                     <span className="flex-1 font-medium">{displayName}</span>
-                    {card.enName && card.enName !== displayName && (
-                      <span className="text-sm text-muted-foreground">{card.enName}</span>
+                    {enName && enName !== displayName && (
+                      <span className="text-sm text-muted-foreground">{enName}</span>
                     )}
                   </div>
                 </div>

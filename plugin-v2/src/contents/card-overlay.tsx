@@ -1,8 +1,9 @@
 import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig } from "plasmo"
 
-import type { ICard, IAuthors, TTierType } from "~types/card"
-import { findCard, getStatsData, getPrimaryTierColor, getAdpColor, getTierColor } from "~lib/cardUtils"
+import type { ICardV2, IAuthors } from "~types/cardV2"
+import { findCard, getStatsData, getPrimaryTierColor, getAdpColor, getTierColor, getTierValue, getTierDesc, getTierScore } from "~lib/cardUtils"
+import { getAuthorIds, type TAuthorId } from "~lib/config"
 
 export const config: PlasmoCSConfig = {
   matches: [
@@ -19,7 +20,7 @@ export const config: PlasmoCSConfig = {
 export {}
 
 // Global data storage
-let cardsData: ICard[] = []
+let cardsData: ICardV2[] = []
 let authorsData: IAuthors | undefined = undefined
 let isDataLoaded = false
 
@@ -175,11 +176,10 @@ function injectStyles() {
   document.head.appendChild(style)
 }
 
-// Create tier badge element
-function createTierBadge(tier: string, desc: string | undefined, tierType: TTierType): HTMLElement | null {
+function createTierBadge(tier: string, desc: string | undefined, authorId: TAuthorId): HTMLElement | null {
   if (!tier || tier.trim() === "") return null
 
-  const color = getTierColor(tier, tierType)
+  const color = getTierColor(tier, authorId)
   const hasDesc = desc && desc.trim() !== ""
 
   const badge = document.createElement("div")
@@ -187,11 +187,9 @@ function createTierBadge(tier: string, desc: string | undefined, tierType: TTier
   badge.style.backgroundColor = color
   badge.style.boxShadow = `0 2px 4px ${color}40`
 
-  // Show tier value
   const tierText = document.createTextNode(tier)
   badge.appendChild(tierText)
 
-  // Add expand button if has description
   if (hasDesc) {
     const expandButton = document.createElement("span")
     expandButton.className = "ag-tier-badge-plus"
@@ -243,46 +241,40 @@ function processCard(cardElement: HTMLElement) {
   tierContainer.className = "ag-tier-container"
   tierContainer.dataset.cardId = card.no || ""
 
-  // Add click handler to open search modal with this card
   tierContainer.addEventListener("click", (e) => {
     e.stopPropagation()
-    const cardId = card.no || card.enName || card.cnName || ""
+    const cardId = card.no || ""
     console.log(`[Agricola Tutor] Card overlay clicked: ${cardId}`)
-    // Dispatch custom event for content.tsx to handle
     window.dispatchEvent(new CustomEvent("ag-open-card-search", {
       detail: { cardId, card }
     }))
   })
 
-  // Create badges container for tier badges
   const badgesContainer = document.createElement("div")
   badgesContainer.className = "ag-tier-badges"
 
-  // Add tier badges to badges container
-  const baituBadge = createTierBadge(card.baituTier, card.baituDesc, "baitu")
-  const enBadge = createTierBadge(card.enTier, card.enDesc, "en")
-  const chenBadge = createTierBadge(card.chenTier, card.chenDesc, "chen")
+  const authorIds = getAuthorIds()
+  authorIds.forEach((authorId) => {
+    const tierValue = getTierValue(card, authorId)
+    const desc = getTierDesc(card, authorId, "en")
+    if (tierValue) {
+      const badge = createTierBadge(tierValue, desc, authorId)
+      if (badge) badgesContainer.appendChild(badge)
+    }
+  })
 
-  if (baituBadge) badgesContainer.appendChild(baituBadge)
-  if (enBadge) badgesContainer.appendChild(enBadge)
-  if (chenBadge) badgesContainer.appendChild(chenBadge)
-
-  // Add badges container to tier container
   if (badgesContainer.children.length > 0) {
     tierContainer.appendChild(badgesContainer)
   }
 
-  // Add stats badge directly to tier container (will be on the right due to CSS)
   const statsData = getStatsData(card)
   if (statsData) {
     const statsBadge = createStatsBadge(statsData)
     if (statsBadge) tierContainer.appendChild(statsBadge)
   }
 
-  // Only insert if has any badges (tier badges or stats badge)
   const hasBadges = tierContainer.children.length > 0
   if (hasBadges) {
-    // Create wrapper for positioning
     const parent = cardElement.parentElement
     if (parent && !parent.classList.contains("ag-card-wrapper")) {
       const wrapper = document.createElement("div")
@@ -291,12 +283,11 @@ function processCard(cardElement: HTMLElement) {
       wrapper.appendChild(cardElement)
       wrapper.appendChild(tierContainer)
     } else if (parent?.classList.contains("ag-card-wrapper")) {
-      // Wrapper already exists, just add tier container
       parent.appendChild(tierContainer)
     }
   }
 
-  console.log(`[Agricola Tutor] Processed card: ${card.no} - ${card.cnName || card.enName}`)
+  console.log(`[Agricola Tutor] Processed card: ${card.no}`)
 }
 
 // Process all cards on page

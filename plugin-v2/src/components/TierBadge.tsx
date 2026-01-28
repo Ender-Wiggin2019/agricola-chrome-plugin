@@ -1,27 +1,23 @@
 import { getTierColor } from "~lib/cardUtils"
-import type { TTierType } from "~types/card"
+import { getAuthorDisplayName, type TAuthorId } from "~lib/config"
+import type { ICardV2 } from "~types/cardV2"
 
 interface TierBadgeProps {
-  tier: string
-  tierType: TTierType
+  card: ICardV2
+  authorId: TAuthorId
   hasDesc?: boolean
   size?: "sm" | "md"
 }
 
-const TIER_LABELS: Record<TTierType, string> = {
-  baitu: "白兔",
-  en: "EN",
-  chen: "Chen"
-}
-
-export function TierBadge({ tier, tierType, hasDesc = false, size = "md" }: TierBadgeProps) {
+export function TierBadge({ card, authorId, hasDesc = false, size = "md" }: TierBadgeProps) {
+  const tier = card.tiers?.find((t) => t.author === authorId)?.tier
   if (!tier || tier.trim() === "") return null
 
-  const color = getTierColor(tier, tierType)
-  const label = TIER_LABELS[tierType]
+  const color = getTierColor(tier, authorId)
+  const label = getAuthorDisplayName(authorId)
 
-  const sizeClasses = size === "sm" 
-    ? "plasmo-px-2 plasmo-py-0.5 plasmo-text-[10px]" 
+  const sizeClasses = size === "sm"
+    ? "plasmo-px-2 plasmo-py-0.5 plasmo-text-[10px]"
     : "plasmo-px-2.5 plasmo-py-1 plasmo-text-xs"
 
   return (

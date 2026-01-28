@@ -1,5 +1,5 @@
 import { useState, useCallback, useMemo, useEffect, useRef } from "react"
-import type { ICard, IAuthors } from "~types/card"
+import type { ICardV2, IAuthors } from "~types/cardV2"
 import { searchCards } from "~lib/cardUtils"
 import { t } from "~lib/i18n"
 import { CardResult } from "./CardResult"
@@ -7,7 +7,7 @@ import { CardResult } from "./CardResult"
 interface SearchModalProps {
   isOpen: boolean
   onClose: () => void
-  cardsData: ICard[]
+  cardsData: ICardV2[]
   authorsData?: IAuthors
   initialQuery?: string
   autoFocus?: boolean

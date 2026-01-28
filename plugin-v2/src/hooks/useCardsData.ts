@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react"
-import type { ICard, IAuthors } from "~types/card"
+import type { ICardV2, IAuthors } from "~types/cardV2"
 
 export function useCardsData() {
-  const [cardsData, setCardsData] = useState<ICard[]>([])
+  const [cardsData, setCardsData] = useState<ICardV2[]>([])
   const [authorsData, setAuthorsData] = useState<IAuthors | undefined>(undefined)
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
