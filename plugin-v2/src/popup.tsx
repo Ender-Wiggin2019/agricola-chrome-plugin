@@ -1,4 +1,5 @@
 import "./style.css"
+
 import { t } from "~lib/i18n"
 
 function WheatIcon({ className }: { className?: string }) {
@@ -10,8 +11,7 @@ function WheatIcon({ className }: { className?: string }) {
       stroke="currentColor"
       strokeWidth="1.5"
       strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+      strokeLinejoin="round">
       <path d="M12 21v-9" />
       <path d="M15.5 12.5c1.5-1.5 2-4 2-6-2 0-4.5.5-6 2 1.5 1.5 2 4 2 6" />
       <path d="M8.5 12.5c-1.5-1.5-2-4-2-6 2 0 4.5.5 6 2-1.5 1.5-2 4-2 6" />
@@ -24,19 +24,31 @@ function WheatIcon({ className }: { className?: string }) {
 async function openSidePanel() {
   console.log("[Agricola Tutor Popup] openSidePanel called")
   try {
-    console.log("[Agricola Tutor Popup] Sending openSidePanelFromPopup message...")
-    const response = await chrome.runtime.sendMessage({ action: "openSidePanelFromPopup" })
+    console.log(
+      "[Agricola Tutor Popup] Sending openSidePanelFromPopup message..."
+    )
+    const response = await chrome.runtime.sendMessage({
+      action: "openSidePanelFromPopup"
+    })
     console.log("[Agricola Tutor Popup] Received response:", response)
     if (response?.success) {
-      console.log("[Agricola Tutor Popup] Side panel opened successfully, closing popup in 100ms")
+      console.log(
+        "[Agricola Tutor Popup] Side panel opened successfully, closing popup in 100ms"
+      )
       setTimeout(() => window.close(), 100)
     } else {
-      console.error("[Agricola Tutor Popup] Side panel failed to open:", response?.error)
+      console.error(
+        "[Agricola Tutor Popup] Side panel failed to open:",
+        response?.error
+      )
       // Still close popup
       setTimeout(() => window.close(), 500)
     }
   } catch (error) {
-    console.error("[Agricola Tutor Popup] Exception while sending message:", error)
+    console.error(
+      "[Agricola Tutor Popup] Exception while sending message:",
+      error
+    )
     // Still close popup even on error
     setTimeout(() => window.close(), 500)
   }
@@ -57,10 +69,18 @@ function IndexPopup() {
       {/* Open Side Panel Button */}
       <button
         onClick={openSidePanel}
-        className="plasmo-w-full plasmo-py-3 plasmo-px-4 plasmo-bg-gradient-to-r plasmo-from-green-500 plasmo-to-green-600 plasmo-text-white plasmo-font-semibold plasmo-rounded-lg plasmo-shadow-md hover:plasmo-shadow-lg plasmo-transition-all hover:plasmo-from-green-600 hover:plasmo-to-green-700 plasmo-flex plasmo-items-center plasmo-justify-center plasmo-gap-2 plasmo-mb-4"
-      >
-        <svg className="plasmo-w-5 plasmo-h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        className="plasmo-w-full plasmo-py-3 plasmo-px-4 plasmo-bg-gradient-to-r plasmo-from-green-500 plasmo-to-green-600 plasmo-text-white plasmo-font-semibold plasmo-rounded-lg plasmo-shadow-md hover:plasmo-shadow-lg plasmo-transition-all hover:plasmo-from-green-600 hover:plasmo-to-green-700 plasmo-flex plasmo-items-center plasmo-justify-center plasmo-gap-2 plasmo-mb-4">
+        <svg
+          className="plasmo-w-5 plasmo-h-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          />
         </svg>
         {t("header_title")}
       </button>
@@ -97,8 +117,7 @@ function IndexPopup() {
             href="https://boardgamearena.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="plasmo-font-semibold plasmo-underline"
-          >
+            className="plasmo-font-semibold plasmo-underline">
             Board Game Arena
           </a>{" "}
           - {t("popup_visit_bga")}
@@ -108,14 +127,20 @@ function IndexPopup() {
       {/* Credits */}
       <div className="plasmo-text-center plasmo-text-[10px] plasmo-text-gray-400 plasmo-space-y-0.5">
         <p>
-          <span className="plasmo-font-medium">{t("footer_pluginCreator")}:</span> Ender
+          <span className="plasmo-font-medium">
+            {t("footer_pluginCreator")}:
+          </span>{" "}
+          Ender
         </p>
         <p>
-          <span className="plasmo-font-medium">{t("footer_statistics")}:</span> Lumin
+          <span className="plasmo-font-medium">{t("footer_statistics")}:</span>{" "}
+          Lumin
         </p>
         <p>
-          <span className="plasmo-font-medium">{t("footer_tierProviders")}:</span> Yuxiao_Huang, Chen233, Mark
-          Hartnady
+          <span className="plasmo-font-medium">
+            {t("footer_tierProviders")}:
+          </span>{" "}
+          Yuxiao_Huang, Chen233, Mark Hartnady
         </p>
         <p className="plasmo-pt-1 plasmo-opacity-75">
           {t("footer_specialThanks")} Henry, smile3000, 暧晖

@@ -7,14 +7,12 @@ export function SearchButton({ onClick }: SearchButtonProps) {
     <button
       onClick={onClick}
       className="plasmo-search-button plasmo-flex plasmo-items-center plasmo-justify-center plasmo-w-10 plasmo-h-10 plasmo-rounded-full plasmo-text-white"
-      title="Search Agricola Cards"
-    >
+      title="Search Agricola Cards">
       <svg
         className="plasmo-w-5 plasmo-h-5"
         fill="none"
         viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
+        stroke="currentColor">
         <path
           strokeLinecap="round"
           strokeLinejoin="round"

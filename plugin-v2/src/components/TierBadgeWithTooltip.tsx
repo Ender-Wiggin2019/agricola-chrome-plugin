@@ -27,9 +27,10 @@ export function TierBadgeWithTooltip({
   const label = getAuthorDisplayName(authorId)
   const hasDesc = desc && desc.trim() !== ""
 
-  const sizeClasses = size === "sm"
-    ? "plasmo-px-2 plasmo-py-0.5 plasmo-text-[10px]"
-    : "plasmo-px-2.5 plasmo-py-1 plasmo-text-xs"
+  const sizeClasses =
+    size === "sm"
+      ? "plasmo-px-2 plasmo-py-0.5 plasmo-text-[10px]"
+      : "plasmo-px-2.5 plasmo-py-1 plasmo-text-xs"
 
   const badge = (
     <div
@@ -38,13 +39,16 @@ export function TierBadgeWithTooltip({
         backgroundColor: color,
         boxShadow: `0 2px 4px ${color}40`,
         textShadow: "0 1px 1px rgba(0,0,0,0.1)"
-      }}
-    >
+      }}>
       <span className="plasmo-opacity-70 plasmo-mr-1 plasmo-text-[9px] plasmo-uppercase plasmo-tracking-wide">
         {label}
       </span>
       {tier}
-      {hasDesc && <span className="plasmo-ml-1 plasmo-text-[10px] plasmo-opacity-80">+</span>}
+      {hasDesc && (
+        <span className="plasmo-ml-1 plasmo-text-[10px] plasmo-opacity-80">
+          +
+        </span>
+      )}
     </div>
   )
 

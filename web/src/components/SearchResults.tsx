@@ -1,6 +1,6 @@
-import type { ICardV2, IAuthors } from '@/types/cardV2';
-import { CardResult } from '@/components/CardResult';
 import { useTranslation } from 'react-i18next';
+import { CardResult } from '@/components/CardResult';
+import type { IAuthors, ICardV2 } from '@/types/cardV2';
 
 interface SearchResultsProps {
   results: ICardV2[];

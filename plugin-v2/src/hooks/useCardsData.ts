@@ -1,9 +1,12 @@
-import { useState, useEffect } from "react"
-import type { ICardV2, IAuthors } from "~types/cardV2"
+import { useEffect, useState } from "react"
+
+import type { IAuthors, ICardV2 } from "~types/cardV2"
 
 export function useCardsData() {
   const [cardsData, setCardsData] = useState<ICardV2[]>([])
-  const [authorsData, setAuthorsData] = useState<IAuthors | undefined>(undefined)
+  const [authorsData, setAuthorsData] = useState<IAuthors | undefined>(
+    undefined
+  )
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -28,7 +31,10 @@ export function useCardsData() {
           setAuthorsData(authors)
           console.log("Authors data loaded:", authors)
         } catch (authorsError) {
-          console.warn("Authors data not found, continuing without it:", authorsError)
+          console.warn(
+            "Authors data not found, continuing without it:",
+            authorsError
+          )
         }
       } catch (loadError) {
         console.error("Error loading data:", loadError)

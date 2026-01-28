@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react"
+import { useEffect, useRef, useState } from "react"
 import type { ReactNode } from "react"
 
 interface TooltipProps {
@@ -7,7 +7,11 @@ interface TooltipProps {
   position?: "top" | "bottom"
 }
 
-export function Tooltip({ content, children, position = "bottom" }: TooltipProps) {
+export function Tooltip({
+  content,
+  children,
+  position = "bottom"
+}: TooltipProps) {
   const [isVisible, setIsVisible] = useState(false)
   const [coords, setCoords] = useState({ top: 0, left: 0 })
   const triggerRef = useRef<HTMLDivElement>(null)
@@ -19,7 +23,8 @@ export function Tooltip({ content, children, position = "bottom" }: TooltipProps
       const tooltipRect = tooltipRef.current.getBoundingClientRect()
 
       let top: number
-      let left = triggerRect.left + triggerRect.width / 2 - tooltipRect.width / 2
+      let left =
+        triggerRect.left + triggerRect.width / 2 - tooltipRect.width / 2
 
       if (position === "top") {
         top = triggerRect.top - tooltipRect.height - 8
@@ -35,7 +40,10 @@ export function Tooltip({ content, children, position = "bottom" }: TooltipProps
       if (top < 8 && position === "top") {
         top = triggerRect.bottom + 8
       }
-      if (top + tooltipRect.height > window.innerHeight - 8 && position === "bottom") {
+      if (
+        top + tooltipRect.height > window.innerHeight - 8 &&
+        position === "bottom"
+      ) {
         top = triggerRect.top - tooltipRect.height - 8
       }
 
@@ -49,8 +57,7 @@ export function Tooltip({ content, children, position = "bottom" }: TooltipProps
         ref={triggerRef}
         onMouseEnter={() => setIsVisible(true)}
         onMouseLeave={() => setIsVisible(false)}
-        className="plasmo-inline-flex"
-      >
+        className="plasmo-inline-flex">
         {children}
       </div>
       {isVisible && (
@@ -62,8 +69,7 @@ export function Tooltip({ content, children, position = "bottom" }: TooltipProps
             left: coords.left
           }}
           onMouseEnter={() => setIsVisible(true)}
-          onMouseLeave={() => setIsVisible(false)}
-        >
+          onMouseLeave={() => setIsVisible(false)}>
           {content}
         </div>
       )}

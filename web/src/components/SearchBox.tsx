@@ -1,10 +1,10 @@
 import { Search } from 'lucide-react';
-import { Input } from '@/components/ui/input';
-import { useState, useCallback, useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
+import { Input } from '@/components/ui/input';
+import { getCardName, searchCards } from '@/lib/cardUtils';
 import type { ICardV2 } from '@/types/cardV2';
-import { searchCards, getCardName } from '@/lib/cardUtils';
 
 interface SearchBoxProps {
   onSearch: (query: string) => void;

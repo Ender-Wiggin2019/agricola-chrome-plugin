@@ -11,9 +11,10 @@ export function StatsBadge({ stats, size = "md" }: StatsBadgeProps) {
 
   const color = getAdpColor(stats.adp)
 
-  const sizeClasses = size === "sm"
-    ? "plasmo-w-7 plasmo-h-7 plasmo-text-[10px]"
-    : "plasmo-w-9 plasmo-h-9 plasmo-text-xs"
+  const sizeClasses =
+    size === "sm"
+      ? "plasmo-w-7 plasmo-h-7 plasmo-text-[10px]"
+      : "plasmo-w-9 plasmo-h-9 plasmo-text-xs"
 
   return (
     <div
@@ -22,8 +23,7 @@ export function StatsBadge({ stats, size = "md" }: StatsBadgeProps) {
         backgroundColor: color,
         boxShadow: `0 2px 6px ${color}50`
       }}
-      title={`ADP: ${stats.adp.toFixed(2)}`}
-    >
+      title={`ADP: ${stats.adp.toFixed(2)}`}>
       {stats.adp.toFixed(1)}
     </div>
   )

@@ -104,7 +104,7 @@
 
   /* Search Button Styles */
   .plasmo-search-button {
-    background: #6AA32D;
+    background: #6aa32d;
     border: 2px solid rgba(255, 255, 255, 0.8);
     box-shadow:
       0 6px 20px rgba(139, 204, 72, 0.5),
@@ -115,7 +115,7 @@
   }
 
   .plasmo-search-button:hover {
-    background: #9DD658;
+    background: #9dd658;
     border-color: rgba(255, 255, 255, 1);
   }
 

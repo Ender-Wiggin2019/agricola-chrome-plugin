@@ -1,9 +1,18 @@
 import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig } from "plasmo"
 
-import type { ICardV2, IAuthors } from "~types/cardV2"
-import { findCard, getStatsData, getPrimaryTierColor, getAdpColor, getTierColor, getTierValue, getTierDesc, getTierScore } from "~lib/cardUtils"
+import {
+  findCard,
+  getAdpColor,
+  getPrimaryTierColor,
+  getStatsData,
+  getTierColor,
+  getTierDesc,
+  getTierScore,
+  getTierValue
+} from "~lib/cardUtils"
 import { getAuthorIds, type TAuthorId } from "~lib/config"
+import type { IAuthors, ICardV2 } from "~types/cardV2"
 
 export const config: PlasmoCSConfig = {
   matches: [
@@ -32,7 +41,11 @@ async function loadData() {
     const cardsUrl = chrome.runtime.getURL("cards.json")
     const cardsResponse = await fetch(cardsUrl)
     cardsData = await cardsResponse.json()
-    console.log("[Agricola Tutor] Cards data loaded:", cardsData.length, "cards")
+    console.log(
+      "[Agricola Tutor] Cards data loaded:",
+      cardsData.length,
+      "cards"
+    )
 
     try {
       const authorsUrl = chrome.runtime.getURL("authors.json")
@@ -176,7 +189,11 @@ function injectStyles() {
   document.head.appendChild(style)
 }
 
-function createTierBadge(tier: string, desc: string | undefined, authorId: TAuthorId): HTMLElement | null {
+function createTierBadge(
+  tier: string,
+  desc: string | undefined,
+  authorId: TAuthorId
+): HTMLElement | null {
   if (!tier || tier.trim() === "") return null
 
   const color = getTierColor(tier, authorId)
@@ -202,7 +219,12 @@ function createTierBadge(tier: string, desc: string | undefined, authorId: TAuth
 }
 
 // Create stats badge element
-function createStatsBadge(stats: { pwr?: number; adp?: number; apr?: number; drawPlayRate?: number }): HTMLElement | null {
+function createStatsBadge(stats: {
+  pwr?: number
+  adp?: number
+  apr?: number
+  drawPlayRate?: number
+}): HTMLElement | null {
   if (stats.adp === undefined) return null
 
   const color = getAdpColor(stats.adp)
@@ -245,9 +267,11 @@ function processCard(cardElement: HTMLElement) {
     e.stopPropagation()
     const cardId = card.no || ""
     console.log(`[Agricola Tutor] Card overlay clicked: ${cardId}`)
-    window.dispatchEvent(new CustomEvent("ag-open-card-search", {
-      detail: { cardId, card }
-    }))
+    window.dispatchEvent(
+      new CustomEvent("ag-open-card-search", {
+        detail: { cardId, card }
+      })
+    )
   })
 
   const badgesContainer = document.createElement("div")
@@ -292,7 +316,9 @@ function processCard(cardElement: HTMLElement) {
 
 // Process all cards on page
 function processAllCards() {
-  const cardElements = document.querySelectorAll<HTMLElement>(".player-card-inner:not([data-ag-processed='true'])")
+  const cardElements = document.querySelectorAll<HTMLElement>(
+    ".player-card-inner:not([data-ag-processed='true'])"
+  )
   cardElements.forEach(processCard)
 }
 
@@ -302,12 +328,19 @@ function shouldRunOnCurrentPage(): boolean {
   const hostname = window.location.hostname
 
   // Always allow localhost, 127.0.0.1, and file:// URLs
-  if (hostname === "localhost" || hostname === "127.0.0.1" || url.startsWith("file://")) {
+  if (
+    hostname === "localhost" ||
+    hostname === "127.0.0.1" ||
+    url.startsWith("file://")
+  ) {
     return true
   }
 
   // For boardgamearena.com, check if URL matches pattern: boardgamearena.com/{any}/agricola{any} or contains replay
-  if (hostname === "boardgamearena.com" || hostname.endsWith(".boardgamearena.com")) {
+  if (
+    hostname === "boardgamearena.com" ||
+    hostname.endsWith(".boardgamearena.com")
+  ) {
     const pathMatch = window.location.pathname.match(/\/[^\/]+\/agricola/i)
     const hasReplay = /replay/i.test(window.location.pathname)
     return pathMatch !== null || hasReplay
@@ -322,7 +355,9 @@ async function init() {
 
   // Check if we should run on this page
   if (!shouldRunOnCurrentPage()) {
-    console.log("[Agricola Tutor] Skipping initialization - URL does not match required pattern")
+    console.log(
+      "[Agricola Tutor] Skipping initialization - URL does not match required pattern"
+    )
     return
   }
 
@@ -330,7 +365,9 @@ async function init() {
   await loadData()
 
   if (!isDataLoaded) {
-    console.error("[Agricola Tutor] Failed to load data, retrying in 2 seconds...")
+    console.error(
+      "[Agricola Tutor] Failed to load data, retrying in 2 seconds..."
+    )
     setTimeout(init, 2000)
     return
   }

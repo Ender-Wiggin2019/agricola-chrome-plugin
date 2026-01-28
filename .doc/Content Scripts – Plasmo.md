@@ -9,9 +9,10 @@ description: "How to use Plasmo content scripts to inject custom behavior into w
 tags:
   - "clippings"
 ---
+
 ## Content Scripts
 
-Content scripts run in the context of web pages in an *isolated world*. This allows multiple content scripts from various extensions to coexist without conflicting with each other's execution and to stay isolated from the page's JavaScript.
+Content scripts run in the context of web pages in an _isolated world_. This allows multiple content scripts from various extensions to coexist without conflicting with each other's execution and to stay isolated from the page's JavaScript.
 
 A script that ends with `.ts` will not have front-end runtime (react/vue/svelte) bundled with it and won't be treated as a ui script, while a script that ends in `.tsx`, `.vue` or `.svelte`, will be.
 
@@ -33,13 +34,11 @@ Create a `content.ts` file, export an empty object and hack away!
 content.ts
 
 ```ts
-export {}
+export {};
 
 console.log(
-
-  "You may find that having is not so pleasing a thing as wanting. This is not logical, but it is often true."
-
-)
+  "You may find that having is not so pleasing a thing as wanting. This is not logical, but it is often true.",
+);
 ```
 
 Reload your extension, open a web page, then open its inspector:
@@ -59,17 +58,13 @@ Sometimes, you'll want to run a content script on certain pages. You can provide
 content.ts
 
 ```ts
-import type { PlasmoCSConfig } from "plasmo"
-
- 
+import type { PlasmoCSConfig } from "plasmo";
 
 export const config: PlasmoCSConfig = {
-
   matches: ["<all_urls>"],
 
-  all_frames: true
-
-}
+  all_frames: true,
+};
 ```
 
 Working with this configuration object is a breeze thanks to the exported `PlasmoCSConfig` type 🥳.
@@ -85,17 +80,13 @@ Starting from Plasmo `v0.65.0`, Plasmo content script may specify a `world` prop
 content.ts
 
 ```ts
-import type { PlasmoCSConfig } from "plasmo"
-
- 
+import type { PlasmoCSConfig } from "plasmo";
 
 export const config: PlasmoCSConfig = {
-
   matches: ["<all_urls>"],
 
-  world: "MAIN"
-
-}
+  world: "MAIN",
+};
 ```
 
 The above script will be injected into the main world.
@@ -124,28 +115,20 @@ background.ts
 
 ```ts
 chrome.scripting.executeScript(
-
   {
-
     target: {
-
-      tabId // the tab you want to inject into
-
+      tabId, // the tab you want to inject into
     },
 
     world: "MAIN", // MAIN to access the window object
 
-    func: windowChanger // function to inject
-
+    func: windowChanger, // function to inject
   },
 
   () => {
-
-    console.log("Background script got callback after injection")
-
-  }
-
-)
+    console.log("Background script got callback after injection");
+  },
+);
 ```
 
 For the `func` key, you can pass in a TS function from your project. It will be transpiled into JS when your extension bundles. You may also use the `files` key to inject a file from the root of the built bundle.
@@ -165,7 +148,7 @@ Because content scripts run within the context of a web page, they are subject t
 To import external assets into your content script, you can use the [`url:` scheme](https://docs.plasmo.com/framework/import#url):
 
 ```ts
-import myFile from "url:./path/to/my/file/something.js"
+import myFile from "url:./path/to/my/file/something.js";
 ```
 
 The `url:` scheme will automatically resolve the `something.js` asset and add it to the `web_accessible_resources` declaration in the built bundle. The above `myFile` variable will be a string containing the URL to the asset:
@@ -173,15 +156,15 @@ The `url:` scheme will automatically resolve the `something.js` asset and add it
 ```sh
 > console.log(myFile)
 
- 
+
 
 chrome-extension://<your chrome ext id>/something.eb20bc99.js?1656000646313
 
- 
+
 
 > console.log(myFile.split("/").pop().split("?")[0])
 
- 
+
 
 something.eb20bc99.js
 ```

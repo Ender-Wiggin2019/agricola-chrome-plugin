@@ -1,5 +1,5 @@
+import { getAuthorIds, getTierColorForAuthor, type TAuthorId } from '@/lib/config';
 import type { ICardV2, IStats } from '@/types/cardV2';
-import { getTierColorForAuthor, getAuthorIds, TAuthorId } from '@/lib/config';
 
 interface ITier {
   author: string;
@@ -27,16 +27,16 @@ export function getTierDescForCard(card: ICardV2, lang: string = 'en'): string {
   return desc || card.localeDescs[card.defaultLang as keyof typeof card.localeDescs] || '';
 }
 
-export function getTierDesc(card: ICardV2, author: TAuthorId, lang: string = 'en'): string {
-  return getTierDescForCard(card, lang);
-}
-
 export function getCardDesc(card: ICardV2, lang: string = 'en'): string {
   const desc = card.localeDescs[lang as keyof typeof card.localeDescs];
   return desc || card.localeDescs[card.defaultLang] || '';
 }
 
-export function getTierDescForCard(card: ICardV2, author: TAuthorId, lang: string = 'en'): string {
+export function getTierDescForAuthor(
+  card: ICardV2,
+  author: TAuthorId,
+  lang: string = 'en'
+): string {
   const tier = getTierByAuthor(card, author);
   if (!tier) return '';
 
@@ -64,7 +64,7 @@ export function getTierDescForCard(card: ICardV2, author: TAuthorId, lang: strin
 }
 
 export function getTierDesc(card: ICardV2, author: TAuthorId, lang: string = 'en'): string {
-  return getTierDescForCard(card, author, lang);
+  return getTierDescForAuthor(card, author, lang);
 }
 
 export function getTierValue(card: ICardV2, author: TAuthorId): string {

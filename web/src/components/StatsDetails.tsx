@@ -1,7 +1,7 @@
-import type { IStats } from '@/types/cardV2';
-import { getAdpColor, getDrawPlayRateColor } from '@/lib/cardUtils';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { getAdpColor, getDrawPlayRateColor } from '@/lib/cardUtils';
+import type { IStats } from '@/types/cardV2';
 
 interface StatsDetailsProps {
   stats: IStats;

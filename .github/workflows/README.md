@@ -7,11 +7,13 @@
 ### 1. 推送 Tag 时自动发布（推荐）
 
 当你推送一个以 `v` 开头的 tag 时，工作流会自动：
+
 - 将 `ag-tier/plugin/` 目录打包成 zip 文件
 - 创建 GitHub Release
 - 将 zip 文件上传到 Release 的下载区域
 
 **使用方法：**
+
 ```bash
 # 创建并推送 tag
 git tag v1.0.5
@@ -39,6 +41,7 @@ git push origin v1.0.5
 ## 生成的 Release
 
 Release 会包含：
+
 - 版本标签（tag）
 - Release 说明（包含安装说明）
 - 可下载的 zip 文件
@@ -48,4 +51,3 @@ Release 会包含：
 - 确保 `GITHUB_TOKEN` 有创建 Release 的权限（默认已配置）
 - zip 文件名格式：`ag-tier-plugin-{version}.zip`
 - 版本号建议遵循语义化版本（如 v1.0.5）
-

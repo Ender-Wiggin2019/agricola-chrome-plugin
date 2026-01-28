@@ -31,9 +31,7 @@ export function getLanguageConfig(lang: string): ILanguageConfig {
   if (isLanguageSupported(lang)) {
     return SUPPORTED_LANGUAGES[lang];
   }
-  const matchedLang = Object.keys(SUPPORTED_LANGUAGES).find((key) =>
-    lang.startsWith(key)
-  );
+  const matchedLang = Object.keys(SUPPORTED_LANGUAGES).find((key) => lang.startsWith(key));
   if (matchedLang) {
     return SUPPORTED_LANGUAGES[matchedLang as TSupportedLang];
   }
@@ -99,9 +97,6 @@ export function formatStatValue(key: TStatType, value: number): string {
   switch (config.format) {
     case 'percent':
       return `${Math.round(value * 100)}%`;
-    case 'decimal':
-      return value.toFixed(decimals);
-    case 'number':
     default:
       return value.toFixed(decimals);
   }
@@ -124,6 +119,7 @@ export interface ITierAuthorConfig {
   i18nKey?: string;
   hasScore?: boolean;
   avatar?: string;
+  showByDefault?: boolean;
 }
 
 export const AUTHOR_CONFIGS: Record<TAuthorId, ITierAuthorConfig> = {
@@ -173,6 +169,7 @@ export const AUTHOR_CONFIGS: Record<TAuthorId, ITierAuthorConfig> = {
     tierFormat: 'score',
     hasScore: true,
     i18nKey: 'tier.jpwiki',
+    showByDefault: false,
     colorRules: [
       { match: (v) => Number(v) >= 8, color: '#4caf50' },
       { match: (v) => Number(v) >= 5, color: '#f9a825' },
@@ -219,7 +216,10 @@ export function getTierColorForAuthor(tier: string, authorId: TAuthorId): string
   return '#9e9e9e';
 }
 
-export function registerAuthorConfig(authorId: TAuthorId, config: Omit<ITierAuthorConfig, 'id'>): void {
+export function registerAuthorConfig(
+  authorId: TAuthorId,
+  config: Omit<ITierAuthorConfig, 'id'>
+): void {
   AUTHOR_CONFIGS[authorId] = { ...config, id: authorId };
 }
 
@@ -233,6 +233,11 @@ export function getAuthorDisplayName(authorId: TAuthorId): string {
 export function getAuthorI18nKey(authorId: TAuthorId): string {
   const config = getAuthorConfig(authorId);
   return config?.i18nKey || `tier.${authorId}`;
+}
+
+export function isAuthorShownByDefault(authorId: TAuthorId): boolean {
+  const config = getAuthorConfig(authorId);
+  return config?.showByDefault !== false;
 }
 
 export interface IAppConfig {

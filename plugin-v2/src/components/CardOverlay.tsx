@@ -1,8 +1,16 @@
-import type { ICardV2, IAuthors } from "~types/cardV2"
-import { getStatsData, getPrimaryTierColor, getTierValue, tierHasDesc, getTierDesc, getTierScore } from "~lib/cardUtils"
+import {
+  getPrimaryTierColor,
+  getStatsData,
+  getTierDesc,
+  getTierScore,
+  getTierValue,
+  tierHasDesc
+} from "~lib/cardUtils"
 import { getAuthorIds, type TAuthorId } from "~lib/config"
-import { TierBadgeWithTooltip } from "./TierBadgeWithTooltip"
+import type { IAuthors, ICardV2 } from "~types/cardV2"
+
 import { StatsBadge } from "./StatsBadge"
+import { TierBadgeWithTooltip } from "./TierBadgeWithTooltip"
 
 interface CardOverlayProps {
   card: ICardV2
@@ -21,8 +29,7 @@ export function CardOverlay({ card, authors }: CardOverlayProps) {
   return (
     <div
       className="plasmo-flex plasmo-items-center plasmo-justify-center plasmo-gap-1.5 plasmo-flex-wrap plasmo-p-1.5 plasmo-bg-white/90 plasmo-backdrop-blur-sm plasmo-rounded-lg plasmo-shadow-md"
-      style={{ borderTop: `3px solid ${primaryColor}` }}
-    >
+      style={{ borderTop: `3px solid ${primaryColor}` }}>
       {authorIds.map((authorId) => {
         const tierValue = getTierValue(card, authorId)
         if (!tierValue) return null

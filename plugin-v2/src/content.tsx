@@ -1,6 +1,6 @@
 import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig, PlasmoGetStyle } from "plasmo"
-import { useCallback, useEffect, useState, useMemo } from "react"
+import { useCallback, useEffect, useMemo, useState } from "react"
 
 import { SearchButton } from "~components/SearchButton"
 import { SearchModal } from "~components/SearchModal"
@@ -44,12 +44,19 @@ function shouldRunOnCurrentPage(): boolean {
     const pathname = window.location.pathname
 
     // Always allow localhost, 127.0.0.1, and file:// URLs
-    if (hostname === "localhost" || hostname === "127.0.0.1" || url.startsWith("file://")) {
+    if (
+      hostname === "localhost" ||
+      hostname === "127.0.0.1" ||
+      url.startsWith("file://")
+    ) {
       return true
     }
 
     // For boardgamearena.com, check if URL matches pattern: boardgamearena.com/{any}/agricola{any} or contains replay
-    if (hostname === "boardgamearena.com" || hostname.endsWith(".boardgamearena.com")) {
+    if (
+      hostname === "boardgamearena.com" ||
+      hostname.endsWith(".boardgamearena.com")
+    ) {
       const pathMatch = pathname.match(/\/[^\/]+\/agricola/i)
       const hasReplay = /replay/i.test(pathname)
       return pathMatch !== null || hasReplay
@@ -79,7 +86,10 @@ const PlasmoOverlay = () => {
   }
 
   const openSearchModal = useCallback((query: string = "") => {
-    console.log("[Agricola Tutor Content] Opening search modal with query:", query)
+    console.log(
+      "[Agricola Tutor Content] Opening search modal with query:",
+      query
+    )
     setInitialQuery(query)
     // Don't auto focus if opening with a query (from tier badge click)
     setShouldAutoFocus(query === "")
@@ -96,11 +106,21 @@ const PlasmoOverlay = () => {
   // Listen for card overlay click events
   useEffect(() => {
     const handleCardSearch = (e: CustomEvent<{ cardId: string }>) => {
-      console.log("[Agricola Tutor Content] Received card search event:", e.detail)
+      console.log(
+        "[Agricola Tutor Content] Received card search event:",
+        e.detail
+      )
       openSearchModal(e.detail.cardId)
     }
-    window.addEventListener("ag-open-card-search", handleCardSearch as EventListener)
-    return () => window.removeEventListener("ag-open-card-search", handleCardSearch as EventListener)
+    window.addEventListener(
+      "ag-open-card-search",
+      handleCardSearch as EventListener
+    )
+    return () =>
+      window.removeEventListener(
+        "ag-open-card-search",
+        handleCardSearch as EventListener
+      )
   }, [openSearchModal])
 
   // Keyboard shortcut (Ctrl/Cmd + Shift + F) to open search modal

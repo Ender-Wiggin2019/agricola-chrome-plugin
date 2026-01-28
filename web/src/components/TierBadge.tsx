@@ -5,11 +5,12 @@
  * @LastEditTime: 2026-01-27 17:44:07
  * @Description:
  */
-import { Badge } from '@/components/ui/badge';
-import { getAuthorDisplayName, getAuthorI18nKey, TAuthorId } from '@/lib/config';
-import { getTierColor } from '@/lib/cardUtils';
-import { cn } from '@/lib/utils';
+
 import { useTranslation } from 'react-i18next';
+import { Badge } from '@/components/ui/badge';
+import { getTierColor, getJpWikiScoreColor } from '@/lib/cardUtils';
+import { getAuthorDisplayName, getAuthorI18nKey, type TAuthorId } from '@/lib/config';
+import { cn } from '@/lib/utils';
 
 interface TierBadgeProps {
   tier: string;
@@ -46,7 +47,15 @@ export function TierBadge({ tier, score, authorId, hasDesc = false }: TierBadgeP
   );
 }
 
-function ScoreBadge({ score, authorId, hasDesc = false }: { score: number; authorId: TAuthorId; hasDesc?: boolean }) {
+function ScoreBadge({
+  score,
+  authorId,
+  hasDesc = false,
+}: {
+  score: number;
+  authorId: TAuthorId;
+  hasDesc?: boolean;
+}) {
   const { t } = useTranslation();
   const color = getJpWikiScoreColor(score);
   const label = t(getAuthorI18nKey(authorId), getAuthorDisplayName(authorId));

@@ -1,5 +1,9 @@
+import {
+  getAuthorIds,
+  getTierColorForAuthor,
+  type TAuthorId
+} from "~lib/config"
 import type { ICardV2, IStats } from "~types/cardV2"
-import { getTierColorForAuthor, getAuthorIds, type TAuthorId } from "~lib/config"
 
 interface ITier {
   author: string
@@ -27,7 +31,11 @@ export function getCardDesc(card: ICardV2, lang: string = "en"): string {
   return desc || card.localeDescs[card.defaultLang] || ""
 }
 
-export function getTierDesc(card: ICardV2, author: TAuthorId, lang: string = "en"): string {
+export function getTierDesc(
+  card: ICardV2,
+  author: TAuthorId,
+  lang: string = "en"
+): string {
   const tier = getTierByAuthor(card, author)
   if (!tier) return ""
 
@@ -35,12 +43,14 @@ export function getTierDesc(card: ICardV2, author: TAuthorId, lang: string = "en
     return tier.desc
   }
 
-  const currentLangDesc = tier.localeDescs[lang as keyof typeof tier.localeDescs]
+  const currentLangDesc =
+    tier.localeDescs[lang as keyof typeof tier.localeDescs]
   if (currentLangDesc && currentLangDesc.trim() !== "") {
     return currentLangDesc
   }
 
-  const defaultLangDesc = tier.localeDescs[card.defaultLang as keyof typeof tier.localeDescs]
+  const defaultLangDesc =
+    tier.localeDescs[card.defaultLang as keyof typeof tier.localeDescs]
   if (defaultLangDesc && defaultLangDesc.trim() !== "") {
     return defaultLangDesc
   }
@@ -59,7 +69,10 @@ export function getTierValue(card: ICardV2, author: TAuthorId): string {
   return tier?.tier || ""
 }
 
-export function getTierScore(card: ICardV2, author: TAuthorId): number | null | undefined {
+export function getTierScore(
+  card: ICardV2,
+  author: TAuthorId
+): number | null | undefined {
   const tier = getTierByAuthor(card, author)
   return tier?.score
 }
@@ -119,7 +132,11 @@ export function getJpWikiScoreColor(score: number): string {
   }
 }
 
-export function searchCards(cardsData: ICardV2[], query: string, maxResults = 10): ICardV2[] {
+export function searchCards(
+  cardsData: ICardV2[],
+  query: string,
+  maxResults = 10
+): ICardV2[] {
   if (!cardsData || !query.trim()) return []
 
   const results: ICardV2[] = []
@@ -133,7 +150,10 @@ export function searchCards(cardsData: ICardV2[], query: string, maxResults = 10
       continue
     }
 
-    const allNames = Object.values(card.localeNames).filter(Boolean).join(" ").toLowerCase()
+    const allNames = Object.values(card.localeNames)
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase()
     if (allNames.includes(queryLower)) {
       results.push(card)
     }
@@ -142,7 +162,10 @@ export function searchCards(cardsData: ICardV2[], query: string, maxResults = 10
   return results
 }
 
-export function findCard(cardsData: ICardV2[], cardContainer: HTMLElement): ICardV2 | null {
+export function findCard(
+  cardsData: ICardV2[],
+  cardContainer: HTMLElement
+): ICardV2 | null {
   if (!cardsData) return null
 
   const numberingElement = cardContainer.querySelector(".card-numbering")
