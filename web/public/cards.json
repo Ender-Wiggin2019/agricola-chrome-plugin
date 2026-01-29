@@ -2982,7 +2982,7 @@
     "no": "A094",
     "localeNames": {
       "en": "Lazy Sowman",
-      "zh": "偷懒播种工",
+      "zh": "偷懒的播种工",
       "jp": "怠惰な種まき"
     },
     "localeDescs": {
@@ -3453,7 +3453,7 @@
     "no": "A106",
     "localeNames": {
       "en": "Slurry Spreader",
-      "zh": "撒泥工",
+      "zh": "喷洒泥浆",
       "jp": "液肥散布人"
     },
     "localeDescs": {
@@ -4345,7 +4345,7 @@
     "no": "A137",
     "localeNames": {
       "en": "Riverine Shepherd",
-      "zh": "河边牧羊",
+      "zh": "河岸牧羊人",
       "jp": "川辺の羊飼い"
     },
     "localeDescs": {
@@ -4433,7 +4433,7 @@
     "no": "A140",
     "localeNames": {
       "en": "Shovel Bearer",
-      "zh": "铲土官",
+      "zh": "铲土工",
       "jp": "ショベル運搬人"
     },
     "localeDescs": {
@@ -4568,7 +4568,7 @@
     "no": "A144",
     "localeNames": {
       "en": "Sequestrator",
-      "zh": "资产扣押者",
+      "zh": "财产扣押者",
       "jp": "係争物取り扱い人"
     },
     "localeDescs": {
@@ -4611,7 +4611,7 @@
     "no": "A145",
     "localeNames": {
       "en": "Ropemaker",
-      "zh": "绳索编制工",
+      "zh": "绳索编织工",
       "jp": "綱作り"
     },
     "localeDescs": {
@@ -4656,7 +4656,7 @@
     "no": "A146",
     "localeNames": {
       "en": "Storehouse Steward",
-      "zh": "库存管理员",
+      "zh": "仓库管家",
       "jp": "倉庫管理係"
     },
     "localeDescs": {
@@ -5061,7 +5061,7 @@
     "no": "A157",
     "localeNames": {
       "en": "Bohemian",
-      "zh": "波西尼亚人",
+      "zh": "波西米亚人",
       "jp": "ボヘミアン"
     },
     "localeDescs": {
@@ -5201,7 +5201,7 @@
     "no": "A161",
     "localeNames": {
       "en": "Patch Caretaker",
-      "zh": "土地看护者",
+      "zh": "土地看护人",
       "jp": "菜園の世話人"
     },
     "localeDescs": {
@@ -6808,7 +6808,7 @@
     "no": "A090",
     "localeNames": {
       "en": "Plow Driver",
-      "zh": "御犁者",
+      "zh": "驭犁者",
       "jp": "鋤職人"
     },
     "localeDescs": {
@@ -6918,7 +6918,7 @@
     "no": "A098",
     "localeNames": {
       "en": "Stable Architect",
-      "zh": "马厩艺术家",
+      "zh": "马厩建筑师",
       "jp": "厩建築士"
     },
     "localeDescs": {
@@ -7073,7 +7073,7 @@
     "no": "A110",
     "localeNames": {
       "en": "Roughcaster",
-      "zh": "粗轧机",
+      "zh": "装潢师",
       "jp": "仕立屋"
     },
     "localeDescs": {
@@ -7118,7 +7118,7 @@
     "no": "A111",
     "localeNames": {
       "en": "Wall Builder",
-      "zh": "",
+      "zh": "砌墙工",
       "jp": "壁装飾人"
     },
     "localeDescs": {
@@ -7299,7 +7299,7 @@
     "no": "A119",
     "localeNames": {
       "en": "Firewood Collector",
-      "zh": "捡木人",
+      "zh": "拾木者",
       "jp": "薪集め"
     },
     "localeDescs": {
@@ -7344,7 +7344,7 @@
     "no": "A120",
     "localeNames": {
       "en": "Clay Hut Builder",
-      "zh": "粘土小屋建造者",
+      "zh": "粘土小屋建筑工",
       "jp": "レンガ大工"
     },
     "localeDescs": {
@@ -7399,7 +7399,7 @@
     "no": "A123",
     "localeNames": {
       "en": "Frame Builder",
-      "zh": "架梁工",
+      "zh": "架樑工",
       "jp": "梁打ち"
     },
     "localeDescs": {
@@ -7648,7 +7648,7 @@
     "no": "A147",
     "localeNames": {
       "en": "Animal Dealer",
-      "zh": "牲畜交易官",
+      "zh": "牲畜交易商",
       "jp": "家畜追い"
     },
     "localeDescs": {
@@ -10854,7 +10854,7 @@
     "no": "D115",
     "localeNames": {
       "en": "Fodder Planter",
-      "zh": "草料种植工",
+      "zh": "饲料种植人",
       "jp": "飼い葉の栽培人"
     },
     "localeDescs": {
@@ -11596,7 +11596,7 @@
     "no": "C144",
     "localeNames": {
       "en": "Reed Roof Renovator",
-      "zh": "芦苇房顶翻修工",
+      "zh": "芦苇屋顶翻修工",
       "jp": "葦屋根の葺き替え屋"
     },
     "localeDescs": {
@@ -12105,7 +12105,7 @@
     "no": "D148",
     "localeNames": {
       "en": "Domestician Expert",
-      "zh": "家政专员",
+      "zh": "驯养专家",
       "jp": "屋内飼育の専門家"
     },
     "localeDescs": {
@@ -12665,7 +12665,7 @@
     "no": "C149",
     "localeNames": {
       "en": "Resource Recycler",
-      "zh": "资源循环利用者",
+      "zh": "资源循环再用者",
       "jp": "資材再生業者"
     },
     "localeDescs": {
@@ -13055,7 +13055,7 @@
     "no": "D152",
     "localeNames": {
       "en": "Patron",
-      "zh": "供应商",
+      "zh": "赞助商",
       "jp": "パトロン"
     },
     "localeDescs": {
@@ -13426,7 +13426,7 @@
     "no": "C137",
     "localeNames": {
       "en": "Charcoal Burner",
-      "zh": "煤炭工",
+      "zh": "烧炭工",
       "jp": "炭焼き"
     },
     "localeDescs": {
@@ -13861,7 +13861,7 @@
     "no": "D114",
     "localeNames": {
       "en": "Seed Trader",
-      "zh": "",
+      "zh": "种子商贩",
       "jp": "種商人"
     },
     "localeDescs": {
@@ -13942,7 +13942,7 @@
     "no": "D128",
     "localeNames": {
       "en": "Building Tycoon",
-      "zh": "",
+      "zh": "建筑大亨",
       "jp": "建設の獅子"
     },
     "localeDescs": {
@@ -14834,7 +14834,7 @@
     "no": "D107",
     "localeNames": {
       "en": "Bellfounder",
-      "zh": "",
+      "zh": "铸钟工",
       "jp": "釣鐘鋳造師"
     },
     "localeDescs": {
@@ -14925,7 +14925,7 @@
     "no": "D132",
     "localeNames": {
       "en": "Hide Farmer",
-      "zh": "贫农",
+      "zh": "隐藏农民",
       "jp": "隠れ農夫"
     },
     "localeDescs": {
@@ -15524,7 +15524,7 @@
     "no": "D088",
     "localeNames": {
       "en": "Millwright",
-      "zh": "石墨建造工",
+      "zh": "石磨建造工",
       "jp": "石臼職人"
     },
     "localeDescs": {
@@ -15569,7 +15569,7 @@
     "no": "D089",
     "localeNames": {
       "en": "Stablehand",
-      "zh": "马厩工",
+      "zh": "马厩帮工",
       "jp": "厩番"
     },
     "localeDescs": {
@@ -15769,7 +15769,7 @@
     "no": "D141",
     "localeNames": {
       "en": "Seed Seller",
-      "zh": "小麦商贩",
+      "zh": "种子贩售商",
       "jp": "種屋"
     },
     "localeDescs": {
@@ -15824,7 +15824,7 @@
     "no": "D146",
     "localeNames": {
       "en": "Porter",
-      "zh": "",
+      "zh": "搬运工",
       "jp": "荷物運搬人"
     },
     "localeDescs": {
@@ -15860,7 +15860,7 @@
     "no": "D154",
     "localeNames": {
       "en": "Chimney Sweep",
-      "zh": "烟囱清理员",
+      "zh": "烟囱清洁工",
       "jp": "煙突掃除人"
     },
     "localeDescs": {
@@ -18565,7 +18565,7 @@
     "no": "B085",
     "localeNames": {
       "en": "Farm Hand",
-      "zh": "农场短工",
+      "zh": "雇农",
       "jp": "作手"
     },
     "localeDescs": {
@@ -19862,7 +19862,7 @@
     "no": "B132",
     "localeNames": {
       "en": "Estate Master",
-      "zh": "庄园主人",
+      "zh": "庄园主",
       "jp": "地主"
     },
     "localeDescs": {
@@ -20730,7 +20730,7 @@
     "no": "B155",
     "localeNames": {
       "en": "Art Teacher",
-      "zh": "艺术导师",
+      "zh": "Art Teacher",
       "jp": "美術教師"
     },
     "localeDescs": {
@@ -20954,7 +20954,7 @@
     "no": "B161",
     "localeNames": {
       "en": "Weakling",
-      "zh": "虚弱之人",
+      "zh": "体弱多病者",
       "jp": "軟弱者"
     },
     "localeDescs": {
@@ -24887,7 +24887,7 @@
     "no": "C139",
     "localeNames": {
       "en": "Basketmaker's Wife",
-      "zh": "边筐工妻子",
+      "zh": "编筐工妻子",
       "jp": "籠造りの妻"
     },
     "localeDescs": {
@@ -25320,7 +25320,7 @@
     "no": "C155",
     "localeNames": {
       "en": "Food Distributor",
-      "zh": "食品分配员",
+      "zh": "食物分配员",
       "jp": "食料供給人"
     },
     "localeDescs": {
@@ -25406,7 +25406,7 @@
     "no": "C157",
     "localeNames": {
       "en": "Resource Analyzer",
-      "zh": "原料分析师",
+      "zh": "资源分析师",
       "jp": "資源分析者"
     },
     "localeDescs": {
@@ -25692,7 +25692,7 @@
     "no": "C163",
     "localeNames": {
       "en": "Material Deliveryman",
-      "zh": "物料派送工",
+      "zh": "物料派送员",
       "jp": "素材運び"
     },
     "localeDescs": {
@@ -28302,7 +28302,7 @@
     "no": "D092",
     "localeNames": {
       "en": "Child Ombudsman",
-      "zh": "儿童监护员",
+      "zh": "儿童监护人",
       "jp": "児童相談員"
     },
     "localeDescs": {
@@ -28348,7 +28348,7 @@
     "no": "D093",
     "localeNames": {
       "en": "Sheep Inspector",
-      "zh": "羊群巡查员",
+      "zh": "羊群巡视员",
       "jp": "羊調査員"
     },
     "localeDescs": {
@@ -28871,7 +28871,7 @@
     "no": "D113",
     "localeNames": {
       "en": "Food Merchant",
-      "zh": "食品商人",
+      "zh": "食物商人",
       "jp": "食料商人"
     },
     "localeDescs": {
@@ -28966,7 +28966,7 @@
     "no": "D123",
     "localeNames": {
       "en": "Renovation Preparer",
-      "zh": "翻修筹划师",
+      "zh": "翻修筹划人",
       "jp": "改築準備"
     },
     "localeDescs": {
@@ -29960,7 +29960,7 @@
     "no": "D153",
     "localeNames": {
       "en": "Wealthy Man",
-      "zh": "大富翁",
+      "zh": "大富豪",
       "jp": "裕福な男"
     },
     "localeDescs": {
@@ -30003,7 +30003,7 @@
     "no": "D155",
     "localeNames": {
       "en": "Ebonist",
-      "zh": "",
+      "zh": "乌木加工者",
       "jp": "黒檀細工職人"
     },
     "localeDescs": {
@@ -30232,7 +30232,7 @@
     "no": "D163",
     "localeNames": {
       "en": "Journeyman Bricklayer",
-      "zh": "熟练砌墙工",
+      "zh": "熟练的砌墙工",
       "jp": "旅する壁職人"
     },
     "localeDescs": {
@@ -35158,7 +35158,7 @@
     "no": "E127",
     "localeNames": {
       "en": "Diligent Farmer",
-      "zh": "",
+      "zh": "勤劳农夫",
       "jp": "勤勉な農夫"
     },
     "localeDescs": {
@@ -35194,7 +35194,7 @@
     "no": "E128",
     "localeNames": {
       "en": "Saddler",
-      "zh": "马具工匠",
+      "zh": "鞍具制造商",
       "jp": "馬具屋"
     },
     "localeDescs": {
@@ -35230,7 +35230,7 @@
     "no": "E130",
     "localeNames": {
       "en": "Overachiever",
-      "zh": "",
+      "zh": "人生赢家",
       "jp": "やり手"
     },
     "localeDescs": {
@@ -35266,7 +35266,7 @@
     "no": "E131",
     "localeNames": {
       "en": "Market Master",
-      "zh": "",
+      "zh": "营销大师",
       "jp": "市場長"
     },
     "localeDescs": {
@@ -35302,7 +35302,7 @@
     "no": "E132",
     "localeNames": {
       "en": "Veggie Lover",
-      "zh": "",
+      "zh": "素食爱好者",
       "jp": "野菜愛好家"
     },
     "localeDescs": {
@@ -35410,7 +35410,7 @@
     "no": "E135",
     "localeNames": {
       "en": "Pickler",
-      "zh": "",
+      "zh": "腌菜工",
       "jp": "ピクルス作り"
     },
     "localeDescs": {
@@ -35482,7 +35482,7 @@
     "no": "E137",
     "localeNames": {
       "en": "Flax Farmer",
-      "zh": "",
+      "zh": "亚麻农夫",
       "jp": "亜麻農家"
     },
     "localeDescs": {
@@ -35518,7 +35518,7 @@
     "no": "E138",
     "localeNames": {
       "en": "Livestock Expert",
-      "zh": "",
+      "zh": "畜牧专家",
       "jp": "家畜の専門家"
     },
     "localeDescs": {
@@ -35554,7 +35554,7 @@
     "no": "E140",
     "localeNames": {
       "en": "Carter",
-      "zh": "",
+      "zh": "马车夫",
       "jp": "荷馬車の運転手"
     },
     "localeDescs": {
@@ -35590,7 +35590,7 @@
     "no": "E141",
     "localeNames": {
       "en": "Vegetable Vendor",
-      "zh": "蔬菜推销员",
+      "zh": "蔬菜摊贩",
       "jp": "野菜販売人"
     },
     "localeDescs": {
@@ -35626,7 +35626,7 @@
     "no": "E142",
     "localeNames": {
       "en": "Smuggler",
-      "zh": "",
+      "zh": "走私犯",
       "jp": "密輸業者"
     },
     "localeDescs": {
@@ -35662,7 +35662,7 @@
     "no": "E143",
     "localeNames": {
       "en": "Hewer",
-      "zh": "采煤工",
+      "zh": "采煤工人",
       "jp": "炭鉱夫"
     },
     "localeDescs": {
@@ -35698,7 +35698,7 @@
     "no": "E144",
     "localeNames": {
       "en": "Wares Salesman",
-      "zh": "仓库推销员",
+      "zh": "货物推销员",
       "jp": "セールスマン"
     },
     "localeDescs": {
@@ -35734,7 +35734,7 @@
     "no": "E145",
     "localeNames": {
       "en": "Parvenu",
-      "zh": "偷懒的人",
+      "zh": "暴发户",
       "jp": "成金"
     },
     "localeDescs": {
@@ -35770,7 +35770,7 @@
     "no": "E146",
     "localeNames": {
       "en": "Reseller",
-      "zh": "",
+      "zh": "分销商",
       "jp": "転売人"
     },
     "localeDescs": {
@@ -35806,7 +35806,7 @@
     "no": "E147",
     "localeNames": {
       "en": "Animal Driver",
-      "zh": "",
+      "zh": "动物驱赶者",
       "jp": "家畜乗り"
     },
     "localeDescs": {
@@ -35842,7 +35842,7 @@
     "no": "E148",
     "localeNames": {
       "en": "Lazybones",
-      "zh": "",
+      "zh": "偷懒之人",
       "jp": "怠け者"
     },
     "localeDescs": {
@@ -35878,7 +35878,7 @@
     "no": "E150",
     "localeNames": {
       "en": "Rock Beater",
-      "zh": "",
+      "zh": "碎石者",
       "jp": "石打ち"
     },
     "localeDescs": {
@@ -35914,7 +35914,7 @@
     "no": "E151",
     "localeNames": {
       "en": "Delivery Nurse",
-      "zh": "护士",
+      "zh": "接生护士",
       "jp": "分娩看護師"
     },
     "localeDescs": {
@@ -35950,7 +35950,7 @@
     "no": "E152",
     "localeNames": {
       "en": "Bargain Hunter",
-      "zh": "",
+      "zh": "投机商人",
       "jp": "バーゲンハンター"
     },
     "localeDescs": {
@@ -35986,7 +35986,7 @@
     "no": "E153",
     "localeNames": {
       "en": "Stone Sculptor",
-      "zh": "",
+      "zh": "雕刻家",
       "jp": "石の彫刻家"
     },
     "localeDescs": {
@@ -36022,7 +36022,7 @@
     "no": "E154",
     "localeNames": {
       "en": "Margrave",
-      "zh": "",
+      "zh": "侯爵",
       "jp": "辺境伯"
     },
     "localeDescs": {
@@ -36058,7 +36058,7 @@
     "no": "E155",
     "localeNames": {
       "en": "Visionary",
-      "zh": "",
+      "zh": "前瞻之人",
       "jp": "空想家"
     },
     "localeDescs": {
@@ -36130,7 +36130,7 @@
     "no": "E157",
     "localeNames": {
       "en": "Usufructuary",
-      "zh": "",
+      "zh": "受益人",
       "jp": "使用権利人"
     },
     "localeDescs": {
@@ -36166,7 +36166,7 @@
     "no": "E158",
     "localeNames": {
       "en": "Stone Custodian",
-      "zh": ""
+      "zh": "石场看守员"
     },
     "localeDescs": {
       "en": "At the end of each work phase, you get 1 food for each stone accumulation space with stone on it."
@@ -36199,7 +36199,7 @@
     "no": "E159",
     "localeNames": {
       "en": "Old Miser",
-      "zh": "",
+      "zh": "守财奴",
       "jp": "老いた守銭奴"
     },
     "localeDescs": {
@@ -36235,7 +36235,7 @@
     "no": "E160",
     "localeNames": {
       "en": "Kelp Gatherer",
-      "zh": "",
+      "zh": "海藻收集者",
       "jp": "海藻集め"
     },
     "localeDescs": {
@@ -36271,7 +36271,7 @@
     "no": "E161",
     "localeNames": {
       "en": "Elder Baker",
-      "zh": "",
+      "zh": "熟练烘焙师",
       "jp": "パン職人の長老"
     },
     "localeDescs": {
@@ -36307,7 +36307,7 @@
     "no": "E162",
     "localeNames": {
       "en": "Entrepreneur",
-      "zh": "",
+      "zh": "企业家",
       "jp": "起業家"
     },
     "localeDescs": {
@@ -36343,7 +36343,7 @@
     "no": "E163",
     "localeNames": {
       "en": "Patroness",
-      "zh": "",
+      "zh": "女赞助商",
       "jp": "女パトロン"
     },
     "localeDescs": {
@@ -36379,7 +36379,7 @@
     "no": "E164",
     "localeNames": {
       "en": "Mountain Plowman",
-      "zh": "",
+      "zh": "山地农夫",
       "jp": "山の耕作者"
     },
     "localeDescs": {
@@ -36451,7 +36451,7 @@
     "no": "E166",
     "localeNames": {
       "en": "Roastmaster",
-      "zh": "",
+      "zh": "烤肉大师",
       "jp": "肉焼き名人"
     },
     "localeDescs": {
@@ -36487,7 +36487,7 @@
     "no": "E167",
     "localeNames": {
       "en": "Dairy Crier",
-      "zh": "",
+      "zh": "牛奶配送员",
       "jp": "酪農家"
     },
     "localeDescs": {
@@ -36523,7 +36523,7 @@
     "no": "E168",
     "localeNames": {
       "en": "Animal Tamer's Apprentice",
-      "zh": "",
+      "zh": "驯兽师学徒",
       "jp": "見習い調教師"
     },
     "localeDescs": {

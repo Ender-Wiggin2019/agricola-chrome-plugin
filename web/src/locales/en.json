@@ -21,6 +21,7 @@
   "card": {
     "description": "Description",
     "showOriginal": "Show Original",
+    "showMore": "Show More",
     "showTranslation": "Show Translation"
   },
   "tier": {

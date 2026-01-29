@@ -4,22 +4,21 @@ import {
   getCardDesc,
   getCardName,
   getStatsData,
-  getTierDesc as getTierDescForCard,
+  getTierDesc,
   getTierScore,
-  getTierValue,
-  tierHasDesc
+  getTierValue
 } from "~lib/cardUtils"
 import {
   getAuthorDisplayName,
   getAuthorIds,
-  isAuthorShownByDefault,
-  TAuthorId
+  isAuthorShownByDefault
 } from "~lib/config"
 import { getUILanguage, t } from "~lib/i18n"
 import type { IAuthors, ICardV2 } from "~types/cardV2"
 
 import { JpWikiScoreBadge } from "./JpWikiScoreBadge"
-import { StatsBadge } from "./StatsBadge"
+import { StatsDetails } from "./StatsDetails"
+import { TierBadge } from "./TierBadge"
 import { TierBadgeWithTooltip } from "./TierBadgeWithTooltip"
 
 interface CardResultProps {
@@ -37,7 +36,9 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
   const visibleAuthorIds = authorIds.filter(
     (id) => isAuthorShownByDefault(id) || hiddenAuthorsShown
   )
-  const hiddenAuthorIds = authorIds.filter((id) => !isAuthorShownByDefault(id))
+  const hiddenAuthorIds = authorIds.filter(
+    (id) => !isAuthorShownByDefault(id) && getTierDesc(card, id, currentLang)
+  )
   const shouldShowMore = hiddenAuthorIds.length > 0 && !hiddenAuthorsShown
 
   return (
@@ -61,18 +62,6 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
             </span>
           )}
         </div>
-
-        {/* Description (card effect) */}
-        {getCardDesc(card, currentLang) && (
-          <div className="plasmo-py-2 plasmo-mb-3 plasmo-border-b plasmo-border-gray-100">
-            <div className="plasmo-text-[10px] plasmo-font-medium plasmo-text-gray-400 plasmo-uppercase plasmo-tracking-wide plasmo-mb-1">
-              {t("card_effect")}
-            </div>
-            <p className="plasmo-text-sm plasmo-text-gray-700 plasmo-leading-relaxed">
-              {getCardDesc(card, currentLang)}
-            </p>
-          </div>
-        )}
 
         {/* Tier badges row */}
         <div className="plasmo-flex plasmo-flex-wrap plasmo-items-center plasmo-gap-2 plasmo-mb-4">
@@ -106,14 +95,33 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
           })}
         </div>
 
+        {/* Description (card effect) */}
+        {getCardDesc(card, currentLang) && (
+          <div className="plasmo-py-2 plasmo-mb-3 plasmo-border-b plasmo-border-gray-100">
+            <div className="plasmo-text-[10px] plasmo-font-medium plasmo-text-gray-400 plasmo-uppercase plasmo-tracking-wide plasmo-mb-1">
+              {t("card_effect")}
+            </div>
+            <p className="plasmo-text-sm plasmo-text-gray-700 plasmo-leading-relaxed">
+              {getCardDesc(card, currentLang)}
+            </p>
+          </div>
+        )}
+
+        {/* Stats Details */}
+        {statsData && (
+          <div className="plasmo-pt-2 plasmo-pb-2">
+            <StatsDetails stats={statsData} />
+          </div>
+        )}
+
         {/* Descriptions */}
-        <div className="plasmo-space-y-3">
+        <div className="plasmo-space-y-3 plasmo-pt-2">
           {authorIds.map((authorId) => {
             const tierValue = getTierValue(card, authorId)
             const tierScore = getTierScore(card, authorId)
             const desc = getTierDesc(card, authorId, currentLang)
 
-            if (!tierValue && !tierScore && !desc) return null
+            if (!desc) return null
 
             const isHiddenAuthor = !isAuthorShownByDefault(authorId)
 
@@ -123,19 +131,16 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
             const authorName =
               authorData?.name || getAuthorDisplayName(authorId)
 
-            const tierBadge = isHiddenAuthor && (tierValue || tierScore) ? (
-              <span className="plasmo-ml-2">
-                {authorId === "jpwiki" && tierScore ? (
-                  <JpWikiScoreBadge score={tierScore} authorId={authorId} />
-                ) : tierValue ? (
-                  <TierBadge
-                    tier={tierValue}
-                    authorId={authorId}
-                    size="sm"
-                  />
-                ) : null}
-              </span>
-            ) : null
+            const tierBadge =
+              isHiddenAuthor && (tierValue || tierScore) ? (
+                <span className="plasmo-ml-2">
+                  {authorId === "jpwiki" && tierScore ? (
+                    <JpWikiScoreBadge score={tierScore} authorId={authorId} />
+                  ) : tierValue ? (
+                    <TierBadge card={card} authorId={authorId} size="sm" />
+                  ) : null}
+                </span>
+              ) : null
 
             return (
               <div key={authorId} className="plasmo-group">
@@ -163,20 +168,21 @@ export function CardResult({ card, authors, index = 0 }: CardResultProps) {
           {shouldShowMore && (
             <button
               onClick={() => setHiddenAuthorsShown(true)}
-              className="plasmo-w-full plasmo-mt-3 plasmo-px-4 plasmo-py-2.5 plasmo-text-sm plasmo-font-medium plasmo-text-green-700 plasmo-bg-green-50 hover:plasmo-bg-green-100 plasmo-rounded plasmo-transition-colors plasmo-flex plasmo-items-center plasmo-justify-center plasmo-gap-2"
-            >
-              <svg className="plasmo-w-4 plasmo-h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.5v15m7.5-7.5h-15" />
+              className="plasmo-w-full plasmo-mt-4 plasmo-px-6 plasmo-py-2.5 plasmo-text-sm plasmo-font-medium plasmo-text-primary plasmo-bg-secondary/50 hover:plasmo-bg-secondary plasmo-rounded-lg plasmo-transition-colors plasmo-flex plasmo-items-center plasmo-gap-2">
+              <svg
+                className="plasmo-w-4 plasmo-h-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 4.5v15m7.5-7.5h-15"
+                />
               </svg>
               {t("show_more")}
             </button>
-          )}
-
-          {/* Stats Details */}
-          {statsData && (
-            <div className="plasmo-pt-2">
-              <StatsDetails stats={statsData} />
-            </div>
           )}
         </div>
       </div>

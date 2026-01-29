@@ -1901,7 +1901,7 @@
   },
   {
     "no": "A094",
-    "cnName": "偷懒播种工",
+    "cnName": "偷懒的播种工",
     "enName": "Lazy Sowman",
     "desc": "Each time you decline an unconditional \"Sow\" action on your turn, you can immediately place another person on an action space of your choice (even if it is occupied).",
     "baituTier": "T2",
@@ -2195,7 +2195,7 @@
   },
   {
     "no": "A106",
-    "cnName": "撒泥工",
+    "cnName": "喷洒泥浆",
     "enName": "Slurry Spreader",
     "desc": "In the field phase of each harvest, each time you take the last grain/vegetable from a field, you also get 2 food/1 food.",
     "baituTier": "T4",
@@ -2761,7 +2761,7 @@
   },
   {
     "no": "A137",
-    "cnName": "河边牧羊",
+    "cnName": "河岸牧羊人",
     "enName": "Riverine Shepherd",
     "desc": "Each time you use the \"Sheep Market\" or \"Reed Bank\" accumulation space, you can also take 1 good from the respective other accumulation space, if possible.",
     "baituTier": "T3",
@@ -2821,7 +2821,7 @@
   },
   {
     "no": "A140",
-    "cnName": "铲土官",
+    "cnName": "铲土工",
     "enName": "Shovel Bearer",
     "desc": "Each time you use the \"Clay Pit\" or \"Hollow\" accumulation space, you also get a number of food equal to the amount of clay on the respective other accumulation space.",
     "baituTier": "T2",
@@ -2911,7 +2911,7 @@
   },
   {
     "no": "A144",
-    "cnName": "资产扣押者",
+    "cnName": "财产扣押者",
     "enName": "Sequestrator",
     "desc": "Place 3 reed and 4 clay on this card. The next player to have 3 pastures/5 field tiles get the 3 reed/4 clay (not retroactively).",
     "baituTier": "T4",
@@ -2941,7 +2941,7 @@
   },
   {
     "no": "A145",
-    "cnName": "绳索编制工",
+    "cnName": "绳索编织工",
     "enName": "Ropemaker",
     "desc": "At the end of each harvest, you get 1 reed from the general supply.",
     "baituTier": "T3",
@@ -2971,7 +2971,7 @@
   },
   {
     "no": "A146",
-    "cnName": "库存管理员",
+    "cnName": "仓库管家",
     "enName": "Storehouse Steward",
     "desc": "Each time you take exactly 2/3/4/5 food from a food accumulation space, you also get 1 stone/reed/clay/wood. (If you take 6 or more food, you do not get a bonus good).",
     "baituTier": "T3",
@@ -3241,7 +3241,7 @@
   },
   {
     "no": "A157",
-    "cnName": "波西尼亚人",
+    "cnName": "波西米亚人",
     "enName": "Bohemian",
     "desc": "At the start of each returning home phase, if at least one \"Lessons\" action space is unoccupied, you get 1 food.",
     "baituTier": "T3",
@@ -3331,7 +3331,7 @@
   },
   {
     "no": "A161",
-    "cnName": "土地看护者",
+    "cnName": "土地看护人",
     "enName": "Patch Caretaker",
     "desc": "Each time you use an accumulation space while already having used another accumulation space for the same type of good that work phase, you also get 1 vegetable.",
     "baituTier": "T3",
@@ -4345,7 +4345,7 @@
   },
   {
     "no": "A090",
-    "cnName": "御犁者",
+    "cnName": "驭犁者",
     "enName": "Plow Driver",
     "desc": "Once you live in a stone house, at the start of each round, you can pay 1 food to plow 1 field.",
     "baituTier": "T2",
@@ -4405,7 +4405,7 @@
   },
   {
     "no": "A098",
-    "cnName": "马厩艺术家",
+    "cnName": "马厩建筑师",
     "enName": "Stable Architect",
     "desc": "During scoring, you get 1 bonus point for each unfenced stable in your farmyard.",
     "baituTier": "T3",
@@ -4495,7 +4495,7 @@
   },
   {
     "no": "A110",
-    "cnName": "粗轧机",
+    "cnName": "装潢师",
     "enName": "Roughcaster",
     "desc": "Each time you build at least 1 clay room or renovate your house from clay to stone, you also get 3 food.",
     "baituTier": "T4",
@@ -4525,7 +4525,7 @@
   },
   {
     "no": "A111",
-    "cnName": "",
+    "cnName": "砌墙工",
     "enName": "Wall Builder",
     "desc": "Each time you build at least 1 room, you can place 1 food on each of the next 4 round spaces. At the start of these rounds, you get the food.",
     "baituTier": "",
@@ -4645,7 +4645,7 @@
   },
   {
     "no": "A119",
-    "cnName": "捡木人",
+    "cnName": "拾木者",
     "enName": "Firewood Collector",
     "desc": "Each time you use the \"Farmland\", \"Grain Seeds\", Grain Utilization\", or \"Cultivation\" action space, at the end of that turn, you get 1 wood.",
     "baituTier": "T3",
@@ -4675,7 +4675,7 @@
   },
   {
     "no": "A120",
-    "cnName": "粘土小屋建造者",
+    "cnName": "粘土小屋建筑工",
     "enName": "Clay Hut Builder",
     "desc": "Once you no longer live in a wooden house, place 2 clay on each of the next 5 round spaces. At the start of these rounds, you get the clay.",
     "baituTier": "T3",
@@ -4705,7 +4705,7 @@
   },
   {
     "no": "A123",
-    "cnName": "架梁工",
+    "cnName": "架樑工",
     "enName": "Frame Builder",
     "desc": "Each time you build a room/renovate, but only once per room/action, you can replace exactly 2 clay or 2 stone with 1 wood.",
     "baituTier": "T3",
@@ -4849,7 +4849,7 @@
   },
   {
     "no": "A147",
-    "cnName": "牲畜交易官",
+    "cnName": "牲畜交易商",
     "enName": "Animal Dealer",
     "desc": "Each time you use the \"Sheep Market\", \"Pig Market\", \"or \"Cattle Market\" accumulation space, you can buy 1 additional animal of the respective type for 1 food.",
     "baituTier": "T3",
@@ -6779,7 +6779,7 @@
   },
   {
     "no": "D115",
-    "cnName": "草料种植工",
+    "cnName": "饲料种植人",
     "enName": "Fodder Planter",
     "desc": "In the breeding phase of each harvest, for each newborn animal you get, you can sow crops in exactly 1 field.",
     "baituTier": "T4",
@@ -7215,7 +7215,7 @@
   },
   {
     "no": "C144",
-    "cnName": "芦苇房顶翻修工",
+    "cnName": "芦苇屋顶翻修工",
     "enName": "Reed Roof Renovator",
     "desc": "Each time another player renovates, you immediately get 1 reed from the general supply. When you play this card in a 3-player game, you immediately get 1 reed.",
     "baituTier": "T3",
@@ -7539,7 +7539,7 @@
   },
   {
     "no": "D148",
-    "cnName": "家政专员",
+    "cnName": "驯养专家",
     "enName": "Domestician Expert",
     "desc": "You can keep 2 sheep on the border between each pair of orthogonally adjacent rooms.",
     "baituTier": "T4",
@@ -7899,7 +7899,7 @@
   },
   {
     "no": "C149",
-    "cnName": "资源循环利用者",
+    "cnName": "资源循环再用者",
     "enName": "Resource Recycler",
     "desc": "Each time another player renovates to stone, if you live in a clay house, you can pay 2 food to build a clay room at no additional cost.",
     "baituTier": "T3",
@@ -8139,7 +8139,7 @@
   },
   {
     "no": "D152",
-    "cnName": "供应商",
+    "cnName": "赞助商",
     "enName": "Patron",
     "desc": "Immediately before each time you play an occupation after this one (even before paying the occupation cost), you get 2 food.",
     "baituTier": "T2",
@@ -8379,7 +8379,7 @@
   },
   {
     "no": "C137",
-    "cnName": "煤炭工",
+    "cnName": "烧炭工",
     "enName": "Charcoal Burner",
     "desc": "Each time any player (including you) plays or builds a baking improvement, you get 1 wood and 1 food.",
     "baituTier": "T1",
@@ -8649,7 +8649,7 @@
   },
   {
     "no": "D114",
-    "cnName": "",
+    "cnName": "种子商贩",
     "enName": "Seed Trader",
     "desc": "Place 2 grain and 2 vegetables on this card. You can buy them at any time. Each grain costs 2 food; each vegetable costs 3 food.",
     "baituTier": "",
@@ -8709,7 +8709,7 @@
   },
   {
     "no": "D128",
-    "cnName": "",
+    "cnName": "建筑大亨",
     "enName": "Building Tycoon",
     "desc": "Each time after another player builds 1 or more rooms, you can give them 1 food to build exactly 1 room yourself. (You must pay the building cost of the room.)",
     "baituTier": "",
@@ -9273,7 +9273,7 @@
   },
   {
     "no": "D107",
-    "cnName": "",
+    "cnName": "铸钟工",
     "enName": "Bellfounder",
     "desc": "In the returning home phase of each round, if you have at least 1 clay, you can use this card to discard all of your clay and get your choice of 3 food or 1 bonus point.",
     "baituTier": "",
@@ -9333,7 +9333,7 @@
   },
   {
     "no": "D132",
-    "cnName": "贫农",
+    "cnName": "隐藏农民",
     "enName": "Hide Farmer",
     "desc": "During scoring, you can pay 1 food each for any number of unused farmyard spaces. If you do, you do not lose points for these spaces.",
     "baituTier": "T3",
@@ -9717,7 +9717,7 @@
   },
   {
     "no": "D088",
-    "cnName": "石墨建造工",
+    "cnName": "石磨建造工",
     "enName": "Millwright",
     "desc": "You immediately get 1 grain. Each time you build fences, stables, and rooms, or renovate your house, you can replace up to 2 building resources of any type with 1 grain each.",
     "baituTier": "T4",
@@ -9747,7 +9747,7 @@
   },
   {
     "no": "D089",
-    "cnName": "马厩工",
+    "cnName": "马厩帮工",
     "enName": "Stablehand",
     "desc": "Each time you build at least 1 fence, you can also build a stable without paying wood for the stable.",
     "baituTier": "T4",
@@ -9867,7 +9867,7 @@
   },
   {
     "no": "D141",
-    "cnName": "小麦商贩",
+    "cnName": "种子贩售商",
     "enName": "Seed Seller",
     "desc": "When you play this card, you immediately get 1 grain. Each time you use the \"Grain Seeds\" action space, you get 1 additional grain.",
     "baituTier": "T3",
@@ -9897,7 +9897,7 @@
   },
   {
     "no": "D146",
-    "cnName": "",
+    "cnName": "搬运工",
     "enName": "Porter",
     "desc": "Each time you take at least 4 of the same building resource from an accumulation space, you get 1additional building resource of the accumulating type and 1 food.",
     "baituTier": "",
@@ -9927,7 +9927,7 @@
   },
   {
     "no": "D154",
-    "cnName": "烟囱清理员",
+    "cnName": "烟囱清洁工",
     "enName": "Chimney Sweep",
     "desc": "Renovating to stone costs you 2 stone less. During scoring, you get 1 bonus point for each other player living in a stone house.",
     "baituTier": "T2",
@@ -11711,7 +11711,7 @@
   },
   {
     "no": "B085",
-    "cnName": "农场短工",
+    "cnName": "雇农",
     "enName": "Farm Hand",
     "desc": "Once you have 4 field tiles arranged in a 2x2, you can use a \"Build Stables\" action to build a stable in the center of the 2x2. This stable provides room for a person but no animal.",
     "baituTier": "T2",
@@ -12577,7 +12577,7 @@
   },
   {
     "no": "B132",
-    "cnName": "庄园主人",
+    "cnName": "庄园主",
     "enName": "Estate Master",
     "desc": "Once you have no unused farmyard spaces left, you get 1 bonus point for each vegetable that you harvest.",
     "baituTier": "T0",
@@ -13151,7 +13151,7 @@
   },
   {
     "no": "B155",
-    "cnName": "艺术导师",
+    "cnName": "Art Teacher",
     "enName": "Art Teacher",
     "desc": "When you play this card, you immediately get 1 wood and 1 reed. Each time you pay an occupation cost, you can use food from the \"traveling Players\" accumulation space.",
     "baituTier": "T2",
@@ -13301,7 +13301,7 @@
   },
   {
     "no": "B161",
-    "cnName": "虚弱之人",
+    "cnName": "体弱多病者",
     "enName": "Weakling",
     "desc": "Each time it is your turn in the work phase, if there are one or more accumulation spaces with 5+ goods on them and you do not use any of them, you get 1 vegetable.",
     "baituTier": "T0",
@@ -15879,7 +15879,7 @@
   },
   {
     "no": "C139",
-    "cnName": "边筐工妻子",
+    "cnName": "编筐工妻子",
     "enName": "Basketmaker's Wife",
     "desc": "When you play this card, you immediately get 1 reed and 1 food. At any time, you can turn 1 reed into 2 food.",
     "baituTier": "T2",
@@ -16165,7 +16165,7 @@
   },
   {
     "no": "C155",
-    "cnName": "食品分配员",
+    "cnName": "食物分配员",
     "enName": "Food Distributor",
     "desc": "When you play this card, you immediately get 1 grain and, at the start of this returning home phase, an amount of food equal to the number of occupied action space cards.",
     "baituTier": "T2",
@@ -16225,7 +16225,7 @@
   },
   {
     "no": "C157",
-    "cnName": "原料分析师",
+    "cnName": "资源分析师",
     "enName": "Resource Analyzer",
     "desc": "Before the start of each round, if you have more building resources than all other players of at least two types, you get 1 food.",
     "baituTier": "T4",
@@ -16405,7 +16405,7 @@
   },
   {
     "no": "C163",
-    "cnName": "物料派送工",
+    "cnName": "物料派送员",
     "enName": "Material Deliveryman",
     "desc": "Each time any player (including you) takes 5/6/7/8+ goods from an accumulation space, you get 1 wood/clay/reed/stone from the general supply.",
     "baituTier": "T3",
@@ -16435,7 +16435,7 @@
   },
   {
     "no": "C164",
-    "cnName": "德国牧草看守者",
+    "cnName": "买牛人",
     "enName": "German Heath Keeper",
     "desc": "Each time any player (including you) uses the \"Pig Market\" accumulation space, you get 1 sheep from the general supply.",
     "baituTier": "T2",
@@ -18197,7 +18197,7 @@
   },
   {
     "no": "D092",
-    "cnName": "儿童监护员",
+    "cnName": "儿童监护人",
     "enName": "Child Ombudsman",
     "desc": "From round 5 on, if you have room in your house, at the end of each person action, you can take a \"Family Growth\" action with that person. If you do, you get 2 negative points.",
     "baituTier": "T1",
@@ -18221,7 +18221,7 @@
   },
   {
     "no": "D093",
-    "cnName": "羊群巡查员",
+    "cnName": "羊群巡视员",
     "enName": "Sheep Inspector",
     "desc": "Once per work phase, after you complete a person action, you can pay 1 sheep and 2 food to return another person you placed home.",
     "baituTier": "T2",
@@ -18553,7 +18553,7 @@
   },
   {
     "no": "D113",
-    "cnName": "食品商人",
+    "cnName": "食物商人",
     "enName": "Food Merchant",
     "desc": "For each grain you harvest from a field, you can buy 1 vegetable for 3 food. If you harvest the last grain from a field, the vegetable costs you only 2 food.",
     "baituTier": "T3",
@@ -18613,7 +18613,7 @@
   },
   {
     "no": "D123",
-    "cnName": "翻修筹划师",
+    "cnName": "翻修筹划人",
     "enName": "Renovation Preparer",
     "desc": "For each new wood/clay room you build, you get 2 clay/2 stone.",
     "baituTier": "T3",
@@ -19267,7 +19267,7 @@
   },
   {
     "no": "D153",
-    "cnName": "大富翁",
+    "cnName": "大富豪",
     "enName": "Wealthy Man",
     "desc": "At the start of each of the 1st/2nd/3rd/4th/5th/6th harvest, if you have at least 1/2/3/4/5/6 grain fields, you get 1 bonus point.",
     "baituTier": "T4",
@@ -19297,7 +19297,7 @@
   },
   {
     "no": "D155",
-    "cnName": "",
+    "cnName": "乌木加工者",
     "enName": "Ebonist",
     "desc": "Each harvest, you can use this card to turn exactly 1 wood into 1 food and 1 grain.",
     "baituTier": "",
@@ -19449,7 +19449,7 @@
   },
   {
     "no": "D163",
-    "cnName": "熟练砌墙工",
+    "cnName": "熟练的砌墙工",
     "enName": "Journeyman Bricklayer",
     "desc": "When you play this card, you immediately get 2 stone. Each time another player renovates to stone or builds a stone room, you get 1 stone.",
     "baituTier": "T3",
@@ -23193,7 +23193,7 @@
   },
   {
     "no": "E127",
-    "cnName": "",
+    "cnName": "勤劳农夫",
     "enName": "Diligent Farmer",
     "desc": "When you play this card, if you would score the maximum 4 points in 3 scoring categories (including fenced stables), you can extend your house by 1 room at no cost.",
     "baituTier": "",
@@ -23223,7 +23223,7 @@
   },
   {
     "no": "E128",
-    "cnName": "马具工匠",
+    "cnName": "鞍具制造商",
     "enName": "Saddler",
     "desc": "Each time after you build a major improvement, you can pay 1 food to plow 1 field.",
     "baituTier": "",
@@ -23253,7 +23253,7 @@
   },
   {
     "no": "E130",
-    "cnName": "",
+    "cnName": "人生赢家",
     "enName": "Overachiever",
     "desc": "Each time you use a \"Wish for Children\" action space, you can play 1 additional improvement by paying its cost less 1 resource of your choice.",
     "baituTier": "",
@@ -23283,7 +23283,7 @@
   },
   {
     "no": "E131",
-    "cnName": "",
+    "cnName": "营销大师",
     "enName": "Market Master",
     "desc": "Immediately after each time you place your last person in a round on the \"Traveling Players\" accumulation space, you can play 1 occupation for an occupation cost of 1 food.",
     "baituTier": "",
@@ -23313,7 +23313,7 @@
   },
   {
     "no": "E132",
-    "cnName": "",
+    "cnName": "素食爱好者",
     "enName": "Veggie Lover",
     "desc": "Harvest: At most 1 time 1 Grain+1 Vegetable → 6 Food Scoring: 1 Grain+1 Vegetable/2 Grain+2 Vegetable/3 Grain+3 Vegetable → 2/4/6 bonus points",
     "baituTier": "",
@@ -23403,7 +23403,7 @@
   },
   {
     "no": "E135",
-    "cnName": "",
+    "cnName": "腌菜工",
     "enName": "Pickler",
     "desc": "If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 wood. During scoring, each player with the most total vegetables gets 3 bonus points.",
     "baituTier": "",
@@ -23463,7 +23463,7 @@
   },
   {
     "no": "E137",
-    "cnName": "",
+    "cnName": "亚麻农夫",
     "enName": "Flax Farmer",
     "desc": "Each time you use the \"Reed Bank\" accumulation space, you also get 1 grain. Each time you use the \"Grain Seeds\" action space, you also get 1 reed.",
     "baituTier": "",
@@ -23493,7 +23493,7 @@
   },
   {
     "no": "E138",
-    "cnName": "",
+    "cnName": "畜牧专家",
     "enName": "Livestock Expert",
     "desc": "If you play this card in round 11 or before, choose an animal type: you immediately get a number of animals of that type equal to the number you already have on your farm.",
     "baituTier": "",
@@ -23523,7 +23523,7 @@
   },
   {
     "no": "E140",
-    "cnName": "",
+    "cnName": "马车夫",
     "enName": "Carter",
     "desc": "Next round, each time you use a building resource accumulation space, you also get 1 food for each building resource that you take from the space.",
     "baituTier": "",
@@ -23553,7 +23553,7 @@
   },
   {
     "no": "E141",
-    "cnName": "蔬菜推销员",
+    "cnName": "蔬菜摊贩",
     "enName": "Vegetable Vendor",
     "desc": "Each time you use the \"Major Improvement\" or \"Vegetable Seeds\" action space, you also get 1 vegetable or a \"Major or Minor Improvement\" action, respectively.",
     "baituTier": "",
@@ -23583,7 +23583,7 @@
   },
   {
     "no": "E142",
-    "cnName": "",
+    "cnName": "走私犯",
     "enName": "Smuggler",
     "desc": "In the feeding phase of each harvest, you can exchange up to 2 goods as follows: 1 Wood → 1 Grain or 1 Grain → 1 Stone",
     "baituTier": "",
@@ -23613,7 +23613,7 @@
   },
   {
     "no": "E143",
-    "cnName": "采煤工",
+    "cnName": "采煤工人",
     "enName": "Hewer",
     "desc": "From round 3 on, at the end of each work phase in which all clay accumulation spaces are unoccupied, you get 1 stone and 1 food.",
     "baituTier": "",
@@ -23643,7 +23643,7 @@
   },
   {
     "no": "E144",
-    "cnName": "仓库推销员",
+    "cnName": "货物推销员",
     "enName": "Wares Salesman",
     "desc": "Each time any player (including you) plays or builds a card that lets them turn building resources into food, you get exactly 1 corresponding building resource and 1 reed.",
     "baituTier": "",
@@ -23673,7 +23673,7 @@
   },
   {
     "no": "E145",
-    "cnName": "偷懒的人",
+    "cnName": "暴发户",
     "enName": "Parvenu",
     "desc": "If you play this card in round 7 or before, choose clay or reed: you immediately get a number of that building resource equal to the number you already have in your supply.",
     "baituTier": "",
@@ -23703,7 +23703,7 @@
   },
   {
     "no": "E146",
-    "cnName": "",
+    "cnName": "分销商",
     "enName": "Reseller",
     "desc": "Once this game, immediately after playing or building an improvement, you can choose to get its printed cost from the general supply.",
     "baituTier": "",
@@ -23733,7 +23733,7 @@
   },
   {
     "no": "E147",
-    "cnName": "",
+    "cnName": "动物驱赶者",
     "enName": "Animal Driver",
     "desc": "At the start of each harvest, if you have 1/2/3+ fenced stables, you get 1 sheep/wild boar/cattle.",
     "baituTier": "",
@@ -23763,7 +23763,7 @@
   },
   {
     "no": "E148",
-    "cnName": "",
+    "cnName": "偷懒之人",
     "enName": "Lazybones",
     "desc": "Place (up to) 1 stable each on \"Grain Seeds\", \"Farmland\", \"Day Laborer\", and \"Farm Expansion\". Build the stable at no cost when another player uses that action space.",
     "baituTier": "",
@@ -23793,7 +23793,7 @@
   },
   {
     "no": "E150",
-    "cnName": "",
+    "cnName": "碎石者",
     "enName": "Rock Beater",
     "desc": "You can use an action space providing both stone and a different building resource even if it is occupied by another player. Stone rooms cost you 2 stone less each.",
     "baituTier": "",
@@ -23823,7 +23823,7 @@
   },
   {
     "no": "E151",
-    "cnName": "护士",
+    "cnName": "接生护士",
     "enName": "Delivery Nurse",
     "desc": "Once this game, if you have all types of animals, use any \"Family Growth\" action space even without room.",
     "baituTier": "",
@@ -23853,7 +23853,7 @@
   },
   {
     "no": "E152",
-    "cnName": "",
+    "cnName": "投机商人",
     "enName": "Bargain Hunter",
     "desc": "At the start of each round, you can place 1 food from your supply on the \"Traveling Players\" accumulation space to play a minor improvement by paying its cost.",
     "baituTier": "",
@@ -23883,7 +23883,7 @@
   },
   {
     "no": "E153",
-    "cnName": "",
+    "cnName": "雕刻家",
     "enName": "Stone Sculptor",
     "desc": "Each harvest, you can use this card to exchange exactly 1 stone for 1 bonus point and 1 food.",
     "baituTier": "",
@@ -23913,7 +23913,7 @@
   },
   {
     "no": "E154",
-    "cnName": "",
+    "cnName": "侯爵",
     "enName": "Margrave",
     "desc": "Once you live in a stone house, you get 2 food each time any player renovates and, during scoring, 1 bonus point for each wood house and clay house.",
     "baituTier": "",
@@ -23943,7 +23943,7 @@
   },
   {
     "no": "E155",
-    "cnName": "",
+    "cnName": "前瞻之人",
     "enName": "Visionary",
     "desc": "If you play this card in round 4 or before, you get 1 stone, 1 vegetable, and 2 wild boar. You cannot grow your family until round 11, unless all other players already have.",
     "baituTier": "",
@@ -24003,7 +24003,7 @@
   },
   {
     "no": "E157",
-    "cnName": "",
+    "cnName": "受益人",
     "enName": "Usufructuary",
     "desc": "When you play this card as your first occupation, you immediately get 1 food for every other occupation in play (by any player), up to a maximum of 7 food.",
     "baituTier": "",
@@ -24033,7 +24033,7 @@
   },
   {
     "no": "E158",
-    "cnName": "",
+    "cnName": "石场看守员",
     "enName": "Stone Custodian",
     "desc": "At the end of each work phase, you get 1 food for each stone accumulation space with stone on it.",
     "baituTier": "",
@@ -24063,7 +24063,7 @@
   },
   {
     "no": "E159",
-    "cnName": "",
+    "cnName": "守财奴",
     "enName": "Old Miser",
     "desc": "In the feeding phase of each harvest, each of your people requires 1 less food. During scoring, your people are worth 2 points each instead of 3.",
     "baituTier": "",
@@ -24093,7 +24093,7 @@
   },
   {
     "no": "E160",
-    "cnName": "",
+    "cnName": "海藻收集者",
     "enName": "Kelp Gatherer",
     "desc": "Each time another player uses the \"Fishing\" accumulation space, they get 1 additional food and you get 1 vegetable.",
     "baituTier": "",
@@ -24123,7 +24123,7 @@
   },
   {
     "no": "E161",
-    "cnName": "",
+    "cnName": "熟练烘焙师",
     "enName": "Elder Baker",
     "desc": "This card is an action space for you only. When you use it, you get 3 grain. You can build the \"Stone Oven\" major improvement even when taking a \"Minor Improvement\" action.",
     "baituTier": "",
@@ -24153,7 +24153,7 @@
   },
   {
     "no": "E162",
-    "cnName": "",
+    "cnName": "企业家",
     "enName": "Entrepreneur",
     "desc": "At the start of each round, you can move 1 food to this card or discard 1 food from it. If you do either, you get 1 building resource of a type you currently do not have.",
     "baituTier": "",
@@ -24183,7 +24183,7 @@
   },
   {
     "no": "E163",
-    "cnName": "",
+    "cnName": "女赞助商",
     "enName": "Patroness",
     "desc": "Each time after you play an occupation after this one, you get 1 building resource of your choice.",
     "baituTier": "",
@@ -24213,7 +24213,7 @@
   },
   {
     "no": "E164",
-    "cnName": "",
+    "cnName": "山地农夫",
     "enName": "Mountain Plowman",
     "desc": "Each time you plow at least 1 field tile, you get 1 sheep for each field tile that you just plowed.",
     "baituTier": "",
@@ -24273,7 +24273,7 @@
   },
   {
     "no": "E166",
-    "cnName": "",
+    "cnName": "烤肉大师",
     "enName": "Roastmaster",
     "desc": "Each time you use the \"Traveling Players\" or \"Fishing\" accumulation spaces, you can move exactly 1 food from that space to the other to get 1 cattle.",
     "baituTier": "",
@@ -24303,7 +24303,7 @@
   },
   {
     "no": "E167",
-    "cnName": "",
+    "cnName": "牛奶配送员",
     "enName": "Dairy Crier",
     "desc": "When you play this card, each player (including you) can choose to get 2 sheep or 2 food; you also get 1 cattle.",
     "baituTier": "",
@@ -24333,7 +24333,7 @@
   },
   {
     "no": "E168",
-    "cnName": "",
+    "cnName": "驯兽师学徒",
     "enName": "Animal Tamer's Apprentice",
     "desc": "At the start of each round, you get 1 sheep/wild boar/cattle for each unoccupied wood/clay/stone room in your house.",
     "baituTier": "",

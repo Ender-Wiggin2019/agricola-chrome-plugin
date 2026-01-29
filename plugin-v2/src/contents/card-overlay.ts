@@ -41,25 +41,15 @@ async function loadData() {
     const cardsUrl = chrome.runtime.getURL("cards.json")
     const cardsResponse = await fetch(cardsUrl)
     cardsData = await cardsResponse.json()
-    console.log(
-      "[Agricola Tutor] Cards data loaded:",
-      cardsData.length,
-      "cards"
-    )
 
     try {
       const authorsUrl = chrome.runtime.getURL("authors.json")
       const authorsResponse = await fetch(authorsUrl)
       authorsData = await authorsResponse.json()
-      console.log("[Agricola Tutor] Authors data loaded")
-    } catch (err) {
-      console.warn("[Agricola Tutor] Authors data not found:", err)
-    }
+    } catch {}
 
     isDataLoaded = true
-  } catch (error) {
-    console.error("[Agricola Tutor] Error loading data:", error)
-  }
+  } catch {}
 }
 
 // Inject CSS into page (since we're not using Plasmo's style system)
@@ -266,7 +256,6 @@ function processCard(cardElement: HTMLElement) {
   tierContainer.addEventListener("click", (e) => {
     e.stopPropagation()
     const cardId = card.no || ""
-    console.log(`[Agricola Tutor] Card overlay clicked: ${cardId}`)
     window.dispatchEvent(
       new CustomEvent("ag-open-card-search", {
         detail: { cardId, card }
@@ -310,8 +299,6 @@ function processCard(cardElement: HTMLElement) {
       parent.appendChild(tierContainer)
     }
   }
-
-  console.log(`[Agricola Tutor] Processed card: ${card.no}`)
 }
 
 // Process all cards on page
@@ -351,13 +338,7 @@ function shouldRunOnCurrentPage(): boolean {
 
 // Initialize
 async function init() {
-  console.log("[Agricola Tutor] Initializing card overlay...")
-
-  // Check if we should run on this page
   if (!shouldRunOnCurrentPage()) {
-    console.log(
-      "[Agricola Tutor] Skipping initialization - URL does not match required pattern"
-    )
     return
   }
 
@@ -365,9 +346,6 @@ async function init() {
   await loadData()
 
   if (!isDataLoaded) {
-    console.error(
-      "[Agricola Tutor] Failed to load data, retrying in 2 seconds..."
-    )
     setTimeout(init, 2000)
     return
   }
@@ -408,8 +386,6 @@ async function init() {
     childList: true,
     subtree: true
   })
-
-  console.log("[Agricola Tutor] Card overlay initialized successfully!")
 }
 
 // Start when DOM is ready

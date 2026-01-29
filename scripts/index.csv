@@ -79,7 +79,7 @@ A091,轮耕农,Shifting Cultivator,T3,,,焼畑農家,只要有强力的饭基盘
 难度：2/5
 用法：中期食物不紧缺又需要播种时就可以开始犁田了，尤其是四五季一定要多犁，第六季食物富裕可以补犁。搭配：炉火手推车，炉火陶瓷，蒸汽机手推车，蒸汽机陶瓷，湖心小筑，飞斧，采菇，篮子，木护，翻修费，森林巨石等踩木头的食物手段。或者是强力食物手段比如男仆。马厩清洁工等利用第六季木头的手段。",,
 A093,木床制造工,Bed Maker,T2,,E,ベッド造り,如果是前期建造小麦田的路线，效果还算不错。增建了2间以上的情况下也只能增加1个人口。,"Each time you add rooms to your house, you can also pay 1 wood and 1 grain to immediately get a ""Family Growth with Room Only"" action.",,,太贵了，去掉一个木头的话价格还是比较合理的，现在实在太贵了，除非有特别是早能拿到大量麦子的卡组，他可以勉强一用，大部分卡组应该是看不见这张卡
-A094,偷懒播种工,Lazy Sowman,T2,,C,怠惰な種まき,进入“畑种”行动后进行“播种取消”→再次执行“畑种”，这样就能在1回合内一口气把田地按家族人数全部耕好。,"Each time you decline an unconditional ""Sow"" action on your turn, you can immediately place another person on an action space of your choice (even if it is occupied).","效果：每当你在你的轮次放弃一个无限制的播种，你可以立即放置你的另一个家庭成员到任意格子（包括已被占据的非聚会场所格子）
+A094,偷懒的播种工,Lazy Sowman,T2,,C,怠惰な種まき,进入“畑种”行动后进行“播种取消”→再次执行“畑种”，这样就能在1回合内一口气把田地按家族人数全部耕好。,"Each time you decline an unconditional ""Sow"" action on your turn, you can immediately place another person on an action space of your choice (even if it is occupied).","效果：每当你在你的轮次放弃一个无限制的播种，你可以立即放置你的另一个家庭成员到任意格子（包括已被占据的非聚会场所格子）
 强度：这张卡没有配合的话，朴素上是一张不卡田的卡，并且赠送一定农业价值，算是略弱于无配合的耕帮。
 难度：3/5
 用法：最朴素的用法有前期播烤生娃，R12播烤超生，R13 犁播超生，R14 犁播*n 次。如果犁播被占了，还可以播烤跳犁播。注意第三四季要真实地播一次，第六季再播，发挥农业优势。搭配：赠送无条件的播种的卡如年幼农夫，强化或容易触发播烤的卡如新手学徒、吟游诗人，强化或容易触发犁播的卡如轮式犁、同桌。搭配种子卡一定可以第六季种下去，因此可以走农业卡。不搭：注意，不在自己轮次播种的卡如播种大师无法搭配偷懒播种工，农孩、二婚配偶这些本来就可以踩已被占据格子的卡也和偷懒播种功能重叠。田卡也功能重叠。",,有稳定的收益，但梦想不大，很少能打出特别精彩的配合，收益也并不高，收益实际上是多个犁播一动换一块田，是一个普通的收益，无功无过，但是有一点点小梦想，可以排在C的末尾
@@ -119,7 +119,7 @@ A105,手推车工,Barrow Pusher,T2,,,猫車押し,虽然取决于盘面，但如
 强度：中后期的c急速贬值，大部分情况下基本认为一个c的价值在0.2-0.7 之间。按照0.5计算的话，这张卡就算5 田也只能给你带来5收益，但是如果只有2田就只有2收益了，算上打卡花的食物得不偿失。是上限可以碰到T1边，但是下限只有不足2分收益的方差较大的卡。
 难度：2/5
 用法：轮抽时如果有田手段可以当做T1卡拿，如果没有田手段可以当做T3 卡拿，总归是三四季犁田前打出或者看情况不打出搭配：犁田卡，早农砖扩流，用砖手段如泥潭",,
-A106,撒泥工,Slurry Spreader,T4,,F,液肥散布人,发动机会并不是那么多，能配合的卡也比较少。如果有大镰使或挖掘铲子的话，效果还算不错。,"In the field phase of each harvest, each time you take the last grain/vegetable from a field, you also get 2 food/1 food.",,,虽然大部分情况下是没有用的，但它其实理论上还是有可能有用的，毕竟假如你有三个麦田，在三个麦田即将收割的一瞬间打出来，他就能很快的获得六口饭，所以说它是存在一个即时收益的
+A106,喷洒泥浆,Slurry Spreader,T4,,F,液肥散布人,发动机会并不是那么多，能配合的卡也比较少。如果有大镰使或挖掘铲子的话，效果还算不错。,"In the field phase of each harvest, each time you take the last grain/vegetable from a field, you also get 2 food/1 food.",,,虽然大部分情况下是没有用的，但它其实理论上还是有可能有用的，毕竟假如你有三个麦田，在三个麦田即将收割的一瞬间打出来，他就能很快的获得六口饭，所以说它是存在一个即时收益的
 A107,捕猎者,Catcher,T4,,,待ち構え,发动条件很难，发动了也不强。,"Each time you place your 1st/2nd/3rd person in a round on a building resource accumulation space with exactly 5/4/3 building resources, you get 1 food.",,,
 A109,小商贩,Small Trader,T4,,,小商人,搭配进步系的连携和套装。即使在改筑大进格也能启动效果。,"Each time you take a ""Major or Minor Improvement"" action to play an improvement from your hand, you also get 3 food.","效果：每当你从“主发或次发行动”中打出一张次发，你获得3f。
 强度：怎么说呢，就算是有最强配合讲台桌，你仍然需要至少抢先两次，生两次娃，那么你就已经打了4 张次发了，就算别人传递卡给你传过来一张，你手上最多也就4 张次发可以在主发格子打，有配合封顶12f的卡，相当于上限是T2，平时T4的水准。
@@ -187,12 +187,12 @@ A136,劳务士官,Drudgery Reeve,T3,,D,監督官,因为是5分奖励，所以奇
 强度：这张卡和畜牧士官不一样，很影响游戏环境，因为畜牧士官拿动物是刚需，但是拿建筑材料不是。因此很多人会考虑要不要去拿建筑资源而不是下限分，并且这张卡会降低工坊的价值，降低主要发展卡，让围更难了，是很卷的一张卡，利好没事干的玩家。保底是一张合格的4w卡，是回本的。
 难度：4/5
 用法：轮抽时思路一样，如果你在一二抓看到劳务士官，你要考虑拿到更多的高效得资源手段，高效获取下限分的手段，然后腾出空去刷劳务士的上限，这种情况你要前五回合打出来他。如果你在后抓拿到劳务士官，其他人可能有比你更强的高效得资源手段，这种情况你可以观察一下，而中后期再考虑打不打出他，R14打五分也是不错的选择。搭配：这张卡利好所有玩家的五金商店等高效得资源手段不搭：这张卡克制所有玩家的工坊流、主发流、士兵等资源换分卡",,当你场上看不到木头，因为顺位问题拿不到木头的时候，你就会想很想念这样的一张卡，但它本身并没有什么额外的价值，就是有收益，没梦想
-A137,河边牧羊,Riverine Shepherd,T3,,,川辺の羊飼い,两边都得是在空着的场面效果才发挥得出来，这点很致命。,"Each time you use the ""Sheep Market"" or ""Reed Bank"" accumulation space, you can also take 1 good from the respective other accumulation space, if possible.",,,
+A137,河岸牧羊人,Riverine Shepherd,T3,,,川辺の羊飼い,两边都得是在空着的场面效果才发挥得出来，这点很致命。,"Each time you use the ""Sheep Market"" or ""Reed Bank"" accumulation space, you can also take 1 good from the respective other accumulation space, if possible.",,,
 A139,窑洞看守,Hollow Warden,T3,,,窪地のみはり,可以用成吉思汗奇袭，手上有砖2的时候先把炉灶拿了，之后再走炉灶→厨房的路线也行,"When you play this card, you immediately get a ""Major Improvement"" action to build a Fireplace. Each time you use the ""Hollow"" accumulation space, you also get 1 food.","效果：立即获得一次“购买主发——火炉”行动（照常付费），每当你使用窑洞累积行动格时，你额外获得1食物。
 强度：这张卡在农场主群被称为飞夺火炉，如果能打出首炉，直接就回本了，然后超额收益3f 左右，特殊情况还有助于强首锅。
 难度：3/5
 用法：这卡如果你本局预计需要火炉就可以拿，然后观望。如果第1-2回合出羊，但是没有出主发，你就可以飞夺火炉。最强的变化是你R3 拿到4c，R1羊R4 主发，你R3 飞夺掉火炉，超额收益预计可以达到3-4 分左右。就算你没有达到首锅，这张卡也可以在中期用于打3c火炉，但是这种情况一般是职业套才会这么用。搭配：针线编制工等极其需要火炉的卡",,
-A140,铲土官,Shovel Bearer,T2,,,ショベル運搬人,虽然相当依赖别人，不过食料产出还算可以。粘土坑・洼地这两者相关的卡意外地不少。,"Each time you use the ""Clay Pit"" or ""Hollow"" accumulation space, you also get a number of food equal to the amount of clay on the respective other accumulation space.","效果：如果你使用其中一个砖头积累格，立即获得另一个砖头积累格上砖头数量的食物
+A140,铲土工,Shovel Bearer,T2,,,ショベル運搬人,虽然相当依赖别人，不过食料产出还算可以。粘土坑・洼地这两者相关的卡意外地不少。,"Each time you use the ""Clay Pit"" or ""Hollow"" accumulation space, you also get a number of food equal to the amount of clay on the respective other accumulation space.","效果：如果你使用其中一个砖头积累格，立即获得另一个砖头积累格上砖头数量的食物
 强度：这张卡是砖头流卡牌中的食物卡，可以第一季吃上的那种，前三季吃得很饱，但是后继无力的前期食物卡。
 难度：3/5
 用法：要算好第一季需要多少砖，第一季至少要踩两次砖再打，大部分情况可以在前两回合打出，第三回合可以踩3c拿4f的话，第四回合需要抢6c1f 或者1c6f。如果第三回合踩4c3f，第四回合可以安稳拿到4c2f或者2c4f。总之这些砖头要尽早用出去，不然贬值，一般是通过砖扩。搭配：砖扩流，用砖卡如泥潭",,
@@ -204,12 +204,12 @@ A142,编绳工,Cordmaker,T1,,,紐編み,只要在序盘打出就能产出5~6个�
 强度：多麦卡中的佼佼者，相比其他麦子卡有麦子早、给菜的优势。基本上第一季2麦，第2-4 季3 麦，第5-6 季1麦/菜。全局接近5麦1菜收益，相当于省4 动。8 收益。
 难度：3/5
 用法：你要注意这张卡一定要前两回合出，而且在中期你要自己去踩芦苇池，不要指望别人，因此要扩屋，或者是搭配菜的配合。另外要注意，这张卡踩不起rsf，很多石头卡拿不起。搭配：早麦流茅草等，早菜流魅惑 胡萝卜等不搭：早石如石屋流，三屋流，别人家的拾柴者、河岸林务、河边牧羊、森林审查破坏你触发编绳的卡go_on1217: 这张卡不限制别人踩芦苇才行吗？我脑雾了？EthanHuang: 回复 go_on1217 :自己踩也可以",,
-A144,资产扣押者,Sequestrator,T4,,,係争物取り扱い人,在有3个牧场的情况下就算拿到3个芦苇，也几乎只有做篮子这点用处。也就只能在砖很紧缺的局里拿4砖吧,Place 3 reed and 4 clay on this card. The next player to have 3 pastures/5 field tiles get the 3 reed/4 clay (not retroactively).,,,
-A145,绳索编制工,Ropemaker,T3,,,綱作り,到第9阶段为止只掉落2个的话，作为增筑补助感觉不太够。若是芦苇很紧缺的场合还算可以。有篮制的话到最后都很香。,"At the end of each harvest, you get 1 reed from the general supply.","效果：每个丰收节段结束时，你获得1r
+A144,财产扣押者,Sequestrator,T4,,,係争物取り扱い人,在有3个牧场的情况下就算拿到3个芦苇，也几乎只有做篮子这点用处。也就只能在砖很紧缺的局里拿4砖吧,Place 3 reed and 4 clay on this card. The next player to have 3 pastures/5 field tiles get the 3 reed/4 clay (not retroactively).,,,
+A145,绳索编织工,Ropemaker,T3,,,綱作り,到第9阶段为止只掉落2个的话，作为增筑补助感觉不太够。若是芦苇很紧缺的场合还算可以。有篮制的话到最后都很香。,"At the end of each harvest, you get 1 reed from the general supply.","效果：每个丰收节段结束时，你获得1r
 强度：基本没有强度，被箩筐搬运工吊打，就算是第一季打出，也只能给3 个扩房芦苇和两个翻修芦苇，大概是省2动左右，大概4.5分，略微回本。
 难度：1/5
 用法：R4 末动或二三季打出，职业套可以打打搭配：利用芦苇的手段如芦苇妻，箩筐编制工",,
-A146,库存管理员,Storehouse Steward,T3,,,倉庫管理係,单体来看火力稍显不足。如果其他玩家已经稳稳地确保了饭基盘，那么就只有自己更容易进入渔小剧场，因此能发挥作用。,"Each time you take exactly 2/3/4/5 food from a food accumulation space, you also get 1 stone/reed/clay/wood. (If you take 6 or more food, you do not get a bonus good).","效果：每当你从食物积累行动格拿走恰好2/3/4/5f 时，你获得1s/r/c/w（如果你拿走6f 或更多，你不会因为这张卡获得奖励）
+A146,仓库管家,Storehouse Steward,T3,,,倉庫管理係,单体来看火力稍显不足。如果其他玩家已经稳稳地确保了饭基盘，那么就只有自己更容易进入渔小剧场，因此能发挥作用。,"Each time you take exactly 2/3/4/5 food from a food accumulation space, you also get 1 stone/reed/clay/wood. (If you take 6 or more food, you do not get a bonus good).","效果：每当你从食物积累行动格拿走恰好2/3/4/5f 时，你获得1s/r/c/w（如果你拿走6f 或更多，你不会因为这张卡获得奖励）
 强度：这张卡如果没有强势配合，强度是不回本的。因为就算每个4f 都给你去拿，你也只能拿到6 个c。而就算是拿到6 个w都强度有些不够，6 个c还要看别人脸色，因为所有的4/5f都让你拿到是不现实的。因此这张卡单卡必然亏本，只能作为配合卡。如此严格的出场条件，这张卡应该是在评级时忽略他的价值分析而高估了，现在认为应该是T4 强度。
 难度：2/5
 用法：必须要有强如首发鱼叉的卡，才能让他强度脱离白板，首发鱼叉的情况下，这张卡可以拿到5s1r左右。最好还得有强化卖艺的卡，如少年艺术家+房屋艺术家，再加上鱼叉，才有出场机会。应当是T4 卡。搭配：钓鱼套，卖艺套",,
@@ -245,13 +245,13 @@ A156,采购员,Buyer,T2,,,買い付け人,拿下厨房后只要买羊猪饭就�
 强度：第一季和第三季打出各有千秋，我们按照第三季打出计算收益，你相当于大概可以用9f 买2s，1r，3 羊，3猪，而每个对手获得3f，因此相当于付出12f买2s，1r，3 羊，3猪，在大锅的情况下，动物繁殖后基本可以和花的食物抵消，大概认为是白得4 分+2s1r，也就是大概6 下限分，但是考虑到大锅本身拥有成本，因此大概T2强度。
 难度：4/5
 用法：两种打法，第一季或者第三季打出。第一季打出的话，要求你关键时候扣住rsf 让别人去2r，然后你第一季最好要买两次，第二季也最好要买两次，最好要有前期食物手段支持购买，第三季再起锅养活自己。这种情况下要多买芦苇扩建，期望生得多。如果是第三季打出，更适合前期职业位紧张或者前期饿的情况。补动物分早围，补翻修建材。由于买不了牛注意扣牛。搭配：第一季打出要求早期食物手段，5 屋流卡，无论什么时候打出都配合早围卡，牛卡。需求锅的卡。不搭：芦、石、猪、羊其他手段。",,
-A157,波西尼亚人,Bohemian,T3,,,ボヘミアン,第2阶段以后，两种职业都被占满的情况很少，所以能有还不错的发挥。不过一旦有走职业系combo的玩家，就会突然变得不太启动。其他玩家如果打出了家教或教师桌等在非职业格也能出职业的卡，就更容易触发。要注意，如果自己出了很多张职业，那就会相应更难触发。,"At the start of each returning home phase, if at least one ""Lessons"" action space is unoccupied, you get 1 food.",,,
+A157,波西米亚人,Bohemian,T3,,,ボヘミアン,第2阶段以后，两种职业都被占满的情况很少，所以能有还不错的发挥。不过一旦有走职业系combo的玩家，就会突然变得不太启动。其他玩家如果打出了家教或教师桌等在非职业格也能出职业的卡，就更容易触发。要注意，如果自己出了很多张职业，那就会相应更难触发。,"At the start of each returning home phase, if at least one ""Lessons"" action space is unoccupied, you get 1 food.",,,
 A158,烹饪艺术家,Culinary Artist,T4,,F,台所の芸術家,时机虽不稳定，但前期羊饭能做到6饭很优秀。如果有小剧场combo的话，也能成为还不错的饭基盘，所以想先打出来。,"Each time another player uses the ""Traveling Players"" accumulation space, you can exchange your choice of 1 grain/sheep/vegetable for 4/5/7 food.",,,垃圾
 A159,航海木匠,Joiner of the Sea,T3,,,海の指物師,食物效率还算可以，但会把木头送给对手是个缺点。建议与树木园丁或森林交易人等能把食物转化为资源的卡牌搭配使用。,"Each time another player uses the ""Fishing""/""Reed Bank"" accumulation space, you can give them 1 wood to get 2 food/3 food from the general supply.","效果：每当其他玩家使用钓鱼、芦苇池行动格时，你可以支付他一个w来从公共供应区获得2/3f
 强度：又称之为海贼王，是弱化的刨工台，全局触发六次芦苇池、三次钓鱼相当于12w换24f，采菇一般也就8w换16f，因此航海木匠可以看做1.5 倍采菇，是更高效的w换f 卡，但是与采菇相比的弱点是没有直接的搭配，而且如果R1打不出来的话，很容易看别人脸色。是条件更苛刻、更没有配合的、单卡更强的采菇
 难度：3/5
 用法：R1打出，踩木头，然后扣紧rsf搭配：自己的加强rsf的卡，别人的加强芦苇钓鱼的卡不搭：自己的啤酒池等加强自己的钓鱼芦苇的卡，别人的零售商等加强别人的rsf的卡",,
-A161,土地看护者,Patch Caretaker,T3,,,菜園の世話人,启动两次就能回本，但没那么容易就能启动。在木头/砖/食料的格子上可以瞄准启动。如果无论如何都想要蔬菜，那就出吧。,"Each time you use an accumulation space while already having used another accumulation space for the same type of good that work phase, you also get 1 vegetable.",,,
+A161,土地看护人,Patch Caretaker,T3,,,菜園の世話人,启动两次就能回本，但没那么容易就能启动。在木头/砖/食料的格子上可以瞄准启动。如果无论如何都想要蔬菜，那就出吧。,"Each time you use an accumulation space while already having used another accumulation space for the same type of good that work phase, you also get 1 vegetable.",,,
 A162,林木清点工,Forest Tallyman,T4,,,森の監督者,黏土桩因为需要占用1砖的空间，所以发动机会比较少。想要运用的话，要么自己进行砖强化，要么以搭便车的形式利用正在做的人。要是有砖的消耗去向就更好了。若是出了作为强力田地辅助的破碎犁，活跃机会会大幅增加。,"Each time both the ""Forest"" and ""Clay Pit"" accumulation spaces are occupied, you can use the gap between them as an action space to get 2 clay and 3 wood.",,,
 A163,建筑专家,Building Expert,T3,,,熟練建築家,资材市场是很受欢迎的空间，所以很难稳定发动。能获得的资材也多种多样，因此很难制定方针。,"Each time you use the ""Resource Market"" action space with the 1st/2nd/3rd/4th/5th person you place, you also get 1 wood/clay/reed/stone/stone.","效果：每当你派遣你的第1/2/3/4/5 个家庭成员（也就是你第几动去）去使用建材市场，你额外获得1w/c/r/s/s
 强度：强度有限，就算你完全不去芦苇池，你也就平均扩2屋翻2次，不超过6 建材收益，伐木工水平
@@ -450,7 +450,7 @@ A088,篱笆护理员,Hedge Keeper,T4,C,,生け垣管理人,只要哪怕去一次
 用法：这张卡应该在第四季甚至更早围第一次，然后动物放不下时及时围第二次补充。轮抽时如果有别的篱笆卡就会很舒服，如木材贸易商。
 变体：密友B093 篱笆，强势组合，省12w+1动，比T0卡密友、线人都要强势","Hedge Keeper If you build fences twice, this is worth 6 wood. Not a bad deal if you want a
 lot of fences.",
-A090,御犁者,Plow Driver,T2,E,,鋤職人,在石家系卡牌之中也是卡牌强度较高的一张。如果是田地辅助较少的对局环境，优先级会相当高。,"Once you live in a stone house, at the start of each round, you can pay 1 food to plow 1 field.","效果：如果你住在石屋，每回合开始可以花1f犁1田
+A090,驭犁者,Plow Driver,T2,E,,鋤職人,在石家系卡牌之中也是卡牌强度较高的一张。如果是田地辅助较少的对局环境，优先级会相当高。,"Once you live in a stone house, at the start of each round, you can pay 1 food to plow 1 field.","效果：如果你住在石屋，每回合开始可以花1f犁1田
 强度：每触发一次收益1.5分，满收益可以达到8以上，石屋套都不可小觑
 难度：3/5
 用法：和学者B097类似，但是不那么着急，第四季甚至第五季出都行，不一定需要配合，三石屋开始犁就好。搭配：石屋套
@@ -462,7 +462,7 @@ A092,养父母,Adoptive Parents,T3,E,,養父母,只要有饭，最多可以增�
 用法：考验技巧的卡，没有早扩且早食物的话，可能会入不敷出。推荐有扩屋卡+前期食物引擎时使用。如果要使用，请在前六回合打出，不要影响生娃节奏。搭配：扩屋卡，海外援助
 变体：养父母+新卡小农民，碰见超生一回合生3娃","Adoptive Parents User Hammerite argues that the card is playable, saying that it gives you 2
 actions for the cost of 4 food. He explains: if !supportLineBreakNewLine endif",
-A098,马厩艺术家,Stable Architect,T3,,,厩建築士,基本上木材用来做栅栏会更强。用于应对栅栏事故，以及和其他厩系卡牌搭配一起用,"During scoring, you get 1 bonus point for each unfenced stable in your farmyard.","效果：每个不在圈地的马厩计1分。
+A098,马厩建筑师,Stable Architect,T3,,,厩建築士,基本上木材用来做栅栏会更强。用于应对栅栏事故，以及和其他厩系卡牌搭配一起用,"During scoring, you get 1 bonus point for each unfenced stable in your farmyard.","效果：每个不在圈地的马厩计1分。
 强度：圈地外的马厩是有用的，因为可以早期养动物，也可以4马厩，后期围4。适合早养动物，后期2/3田的流派。而且是马厩流的提上限卡。超短反馈4分。
 难度：2/5
 用法：1到4季第一次扩屋时先造几个马厩养动物，第二次扩屋再补到3-4马厩，然后第4-5季可以拿一次1动物吃低保。第5-6季围12木4格，拿最后一种动物，打马厩艺术家。搭配：泥耙等马厩流卡牌不搭：3田以上的犁田卡",,
@@ -486,11 +486,11 @@ Since you have such a large incentive to take wood, you're taking it much more
 often than usual, which balances out the wood you have to leave behind. Mushroom Collector can be risky in 2-p. Because he leaves behind a wood, your
 opponent will usually want to take the 4W (a very strong spot for 2-p) and deny
 you the food.",
-A110,粗轧机,Roughcaster,T4,,,仕立屋,即使增建多块砖房也只能拿到3饭，这点太致命了,"Each time you build at least 1 clay room or renovate your house from clay to stone, you also get 3 food.","效果：每当你扩建至少一间砖屋或者从砖屋翻修到石屋时，获得3f。
+A110,装潢师,Roughcaster,T4,,,仕立屋,即使增建多块砖房也只能拿到3饭，这点太致命了,"Each time you build at least 1 clay room or renovate your house from clay to stone, you also get 3 food.","效果：每当你扩建至少一间砖屋或者从砖屋翻修到石屋时，获得3f。
 强度：饭职业，一局能触发2次就赚了。要至少扩1间砖屋的。基础收益1.5，每多扩一间砖屋，多1.5收益。
 难度：2/5
 用法：砖扩食物卡，早点打，一间间扩就好。搭配：砖扩卡不搭：管理员，木扩卡",,
-A111,,Wall Builder,,,,壁装飾人,即使一次增筑2栋，也只会发动1次。在忙着增筑增员的场面里，打出后再下4吃饭有点太悠长。如果有日曜大工或建筑的狮子之类的增筑手压缩，表现还算不错。,"Each time you build at least 1 room, you can place 1 food on each of the next 4 round spaces. At the start of these rounds, you get the food.",,,
+A111,砌墙工,Wall Builder,,,,壁装飾人,即使一次增筑2栋，也只会发动1次。在忙着增筑增员的场面里，打出后再下4吃饭有点太悠长。如果有日曜大工或建筑的狮子之类的增筑手压缩，表现还算不错。,"Each time you build at least 1 room, you can place 1 food on each of the next 4 round spaces. At the start of these rounds, you get the food.",,,
 A112,镰刀工,Scythe Worker,T4,,,大鎌使い,有了田地补助的话，就更容易把额外收获的小麦再播种并加以利用。,"When you play this card, you immediately get 1 grain. In the field phase of each harvest, you can harvest 1 additional grain from each of your grain fields.","效果：打出时得1麦，收获阶段每个麦田可以额外收获一麦
 强度：几乎没有实用性，不产生额外价值，可以看作是1麦的2分卡
 难度：1/5
@@ -507,12 +507,12 @@ A116,伐木工,Wood Cutter,T2,,,木こり,如果首手打出的话，大概能�
 难度：1/5
 用法：注意一点，木头贬值了，因此绝大部分情况下不要拿2w，中期也不用太抢3w。四房早围是推荐节奏。搭配：木头推车 采莓 以及新卡林业研究 护林员等不搭：旧卡娴熟翻修，冥顽之人，新卡线人等变木头卡 会让木头更加贬值，使得伐木工触发次数减少
 变体：伐木木推，要想办法舒适地打出三职业，第二季抢生时打出木推这张卡已被下调为T3",,
-A119,捡木人,Firewood Collector,T3,,,薪集め,序盘想抢小麦田时打出来的话，即使只打一阶段也能出3~4木。,"Each time you use the ""Farmland"", ""Grain Seeds"", Grain Utilization"", or ""Cultivation"" action space, at the end of that turn, you get 1 wood.","效果：每当你使用了小麦种子、犁田、播烤、犁播行动格后，行动结束后你获得1w。
+A119,拾木者,Firewood Collector,T3,,,薪集め,序盘想抢小麦田时打出来的话，即使只打一阶段也能出3~4木。,"Each time you use the ""Farmland"", ""Grain Seeds"", Grain Utilization"", or ""Cultivation"" action space, at the end of that turn, you get 1 wood.","效果：每当你使用了小麦种子、犁田、播烤、犁播行动格后，行动结束后你获得1w。
 强度：全局基本要求4田1播1麦，这样就有6木了，短反馈4-8木的收益。但是种子卡、犁田卡、播种卡都会削弱他。
 难度：2/5
 用法：开始发展农业前打出即可，基本上走先农后牧的套路，畜牧的发展会受限制。搭配：早期麦子扩生套不搭：减轻农业行动数量的卡，要求早围的卡
 变体：早期麦子扩生套，比如捡木人+干草叉+茅草+卧室，可以踩3田1麦1播，得5木，然后干草叉茅草卧室生娃。农巡、新卡麦田里的床等也可以配合。",,
-A120,粘土小屋建造者,Clay Hut Builder,T3,C,,レンガ大工,如果没有改筑补助，把掉下来的砖用于增筑往往会有点拖沓。要是也能准备好除增筑以外的用法就更好了。,"Once you no longer live in a wooden house, place 2 clay on each of the next 5 round spaces. At the start of these rounds, you get the clay.","效果：一旦你不住在木屋，往之后五个回合各摆2c，每回合开始获得
+A120,粘土小屋建筑工,Clay Hut Builder,T3,C,,レンガ大工,如果没有改筑补助，把掉下来的砖用于增筑往往会有点拖沓。要是也能准备好除增筑以外的用法就更好了。,"Once you no longer live in a wooden house, place 2 clay on each of the next 5 round spaces. At the start of these rounds, you get the clay.","效果：一旦你不住在木屋，往之后五个回合各摆2c，每回合开始获得
 强度：开局多的玩家都知道，粘土会在四五季进行一次贬值，贬值前只比木头廉价一点点，贬值后基本相当于半个木头的价值。但这个贬值的关键变化点在哪里呢？在于大多数玩家不再发愁翻砖屋和炉子。也就是说，同样多的砖，砖在早期来买炉子和翻修是更高效的，砖用来扩屋和打砖工是更低效的。因此，粘土小屋建造者给的10c中，基本都是低效的，粘土小屋建造者总收益大概5分+。
 难度：3/5
 用法：用法在于早翻石屋，这样子你可以早出砖工或者炉子，把低效砖变成高效砖。
@@ -520,7 +520,7 @@ A120,粘土小屋建造者,Clay Hut Builder,T3,C,,レンガ大工,如果没有�
 nothing but VPs, you prefer to renovate later in the game. Still, it's hard to
 deny the card's power. The 10 clay this gives you is enough to build two clay
 rooms all on its own, making the occ often worth it.",
-A123,架梁工,Frame Builder,T3,E,,梁打ち,只要用2木代替砖改筑与石改筑份的2砖2石，也能达到及格的效果。在砖很重的局里尤其亮眼。,"Each time you build a room/renovate, but only once per room/action, you can replace exactly 2 clay or 2 stone with 1 wood.","效果：翻修和造每间房子时，可以用1w代替2c或者2s。
+A123,架樑工,Frame Builder,T3,E,,梁打ち,只要用2木代替砖改筑与石改筑份的2砖2石，也能达到及格的效果。在砖很重的局里尤其亮眼。,"Each time you build a room/renovate, but only once per room/action, you can replace exactly 2 clay or 2 stone with 1 wood.","效果：翻修和造每间房子时，可以用1w代替2c或者2s。
 强度：可以当做低配砌砖工用，也可以直接扩石屋，更可以翻修时省2c2s，灵活用。如果只是翻修时用，价值差不多短反馈2分。
 难度：3/5
 用法：主要是配合支柱、木匠、泥土修补、黏土小屋建造、共济会等砖扩，石扩卡。偶尔也可以翻修时用到，在卷砖、卷石、木头富裕的局有着不亏的价值。","Frame Builder Clearly you need to be building clay and/or stone rooms to make this Occupation
@@ -557,7 +557,7 @@ A143,切石工,Stonecutter,T2,C,,石切り,普通使用的话，改建和大进�
 变体：切石蓝图C027，前三季打出，搬空工坊，要注意控制好木砖卢的数量","Stone Cutter Worth it if you plan on buying a clay oven, since this guy can save you a full
 action in that case. He can also be a good play if you have some random 1 stone
 minor improvements in your hand.",
-A147,牲畜交易官,Animal Dealer,T3,B,,家畜追い,与调理场配套运用比较稳妥，但也可以在没有调理场的情况下于后期打出，干脆当作繁殖用来启动，效果也还不错。可选择是在拿家畜之前先启动效果（不能在0食料的状态下先把家畜烤了再支付食料）,"Each time you use the ""Sheep Market"", ""Pig Market"", ""or ""Cattle Market"" accumulation space, you can buy 1 additional animal of the respective type for 1 food.","效果：每次踩动物积累格前，可以花1f买一个相应动物。
+A147,牲畜交易商,Animal Dealer,T3,B,,家畜追い,与调理场配套运用比较稳妥，但也可以在没有调理场的情况下于后期打出，干脆当作繁殖用来启动，效果也还不错。可选择是在拿家畜之前先启动效果（不能在0食料的状态下先把家畜烤了再支付食料）,"Each time you use the ""Sheep Market"", ""Pig Market"", ""or ""Cattle Market"" accumulation space, you can buy 1 additional animal of the respective type for 1 food.","效果：每次踩动物积累格前，可以花1f买一个相应动物。
 强度：除非食物极度充裕，否则这张卡拿到2个以上的动物一般是烤了吃。一般有壁炉用得起，踩一次牛赚3f，踩一次猪赚2f，一次羊赚1f的，各踩一次就有短反馈6f了，适合多踩动物的流派。
 难度：2/5
 用法：注意事项就是踩之前要有食物，不能拿了动物再烤了再买。搭配：套索，宠物爱好者
@@ -1026,7 +1026,7 @@ doesn't need to give a huge benefit to be worth it. You won't always be in a
 situation where you have played three occupations and plan on playing another,
 but if you are this is usually worth it. It can get very silly when comboed
 with cards like the Educator or Perpetual Student.",
-D115,草料种植工,Fodder Planter,T4,,,飼い葉の栽培人,即使在13R打出、仅靠两次收获就能启动也已经足够有效。收获后还能播种，所以园艺事务长更容易瞄准。,"In the breeding phase of each harvest, for each newborn animal you get, you can sow crops in exactly 1 field.","效果：繁殖阶段，你每只繁殖的动物让你在一个田上播种作物
+D115,饲料种植人,Fodder Planter,T4,,,飼い葉の栽培人,即使在13R打出、仅靠两次收获就能启动也已经足够有效。收获后还能播种，所以园艺事务长更容易瞄准。,"In the breeding phase of each harvest, for each newborn animal you get, you can sow crops in exactly 1 field.","效果：繁殖阶段，你每只繁殖的动物让你在一个田上播种作物
 强度：先牧后农的典型卡，第五季拿满动物的话，有着省2个关键动，略大于4分的价值，在特殊情况下，第四季或更早就可以开刷，那么强度可以达到5+。
 难度：4/5
 用法：先牧后农，既要你早栅栏早动物，又要你早田早种子。基本要有强力省动卡，或者强力的田，木头卡，不然都会是问题。此外，不卡翻修的卡也是适合这张的，因为这张卡要晚翻。",,
@@ -1136,7 +1136,7 @@ C142,街头叫卖佬,Market Crier,T4,E,,てき屋,场上的小麦一下子变得
 each time you use him. Don't try to justify him with 'everyone gets an extra
 grain,' because you will be giving many (if not all) of your opponents
 their",
-C144,芦苇房顶翻修工,Reed Roof Renovator,T3,,,葦屋根の葺き替え屋,最多6芦苇，但在芦苇需求高的前期发动机会偏少是个缺点。,"Each time another player renovates, you immediately get 1 reed from the general supply. When you play this card in a 3-player game, you immediately get 1 reed.","效果：其他玩家翻修时，你获得1r（三人局打出也获得1r）
+C144,芦苇屋顶翻修工,Reed Roof Renovator,T3,,,葦屋根の葺き替え屋,最多6芦苇，但在芦苇需求高的前期发动机会偏少是个缺点。,"Each time another player renovates, you immediately get 1 reed from the general supply. When you play this card in a 3-player game, you immediately get 1 reed.","效果：其他玩家翻修时，你获得1r（三人局打出也获得1r）
 强度：这张卡有后期打出和前期打出两种强度，如果是后期打出，拿到其他人2-5r，基本上是2分收益，不值得打出，除非有鼓励打职业的牌或者芦苇工坊。如果是前期打出，是要抓砖扩套，尤其是石屋套，如果抓住，就能早期获得2r，后期获得3-4r，收益可以达到4+分。
 难度：2/5
 用法：看轮抽时砖扩套和石屋套的齐全程度，以及有没有人第一轮的轮抽就拿走这些套路卡。如果有就考虑前期打出，白嫖芦苇。",,
@@ -1200,7 +1200,7 @@ D111,室内设计师,Interior Decorator,T4,,,内装業者,如果能运用得当�
 强度：典型的12f卡，但是这张的效果很苛刻，要在R8翻修到石屋才不会浪费，晚一回合浪费1f，基本只适合三房石屋流。砖扩流勉强能用。
 难度：2/5
 用法：三房石屋流当小男仆用，被完爆的卡",,
-D148,家政专员,Domestician Expert,T4,,,屋内飼育の専門家,和能活用羊的卡牌一起出吧。单独用的话效果有点不够。,You can keep 2 sheep on the border between each pair of orthogonally adjacent rooms.,"效果：你每对正交相对的房子之间可以养2羊
+D148,驯养专家,Domestician Expert,T4,,,屋内飼育の専門家,和能活用羊的卡牌一起出吧。单独用的话效果有点不够。,You can keep 2 sheep on the border between each pair of orthogonally adjacent rooms.,"效果：你每对正交相对的房子之间可以养2羊
 强度：本身无强度，提供了1种动物的饲养空间只有1分价值，但是考虑到羊是第一季就可以生的，价值比较难算，看你第几季拿到2羊吧。羊每生一只价值1分的食物分，因此第一季打出并控到羊，有着4-5分的生育分，假如说是堆积了4羊的首锅首羊，价值可能再往上提高2-3分，因为你打了家政专员别人可能就不想打锅了。
 难度：4/5
 用法：尽量不要把羊放到第二季，你抢生时会被偷，而且你要早点打，别让别人出了首锅，你们俩内卷，最好自己R1拿了2c。",,
@@ -1261,7 +1261,7 @@ every turn. Doing this will generate a huge amount of food and deny your
 opponents cattle, at least until they realize what you're up to and begin to
 aggressively take the spot at 1 cow. This can be very powerful, but relies a
 lot on your opponents not just taking 1 cattle for the 2 VPs to deny you.",
-C149,资源循环利用者,Resource Recycler,T3,,,資材再生業者,用于增建增员目的的话不太稳定，但因为2饭相当于2点，所以得分效率还算不错。有「こて」和「住居计划」等改筑辅助时，不仅更容易把自己变成石屋，改筑格也会变轻，因此很优秀。,"Each time another player renovates to stone, if you live in a clay house, you can pay 2 food to build a clay room at no additional cost.","效果：每当别人翻修到石屋时，如果你住在砖屋，可以花费2f而不用其他花销扩1间砖屋。
+C149,资源循环再用者,Resource Recycler,T3,,,資材再生業者,用于增建增员目的的话不太稳定，但因为2饭相当于2点，所以得分效率还算不错。有「こて」和「住居计划」等改筑辅助时，不仅更容易把自己变成石屋，改筑格也会变轻，因此很优秀。,"Each time another player renovates to stone, if you live in a clay house, you can pay 2 food to build a clay room at no additional cost.","效果：每当别人翻修到石屋时，如果你住在砖屋，可以花费2f而不用其他花销扩1间砖屋。
 强度：砖屋是2收益+居住空间，而大家翻石屋基本是4-6季，那个时候你多了居住空间大概能在第五季生娃。一般是可以免费扩2间，总收益大概5+左右，但是等别人翻石屋往往就自己翻修不太了了，这是降低了上限。
 难度：5/5
 用法：这张卡适合7生出，7生的话，生娃要排队，咱们没必要跟他们卷，扩到3房翻修成砖就打了资源循环，别人翻石屋时第五季就能生娃了，然后有两家翻修石屋就可以扩到5就差不多了。7生局大家理性的话都会3-4屋，甚至有可能都翻修到石屋还给你留一个翻石屋的机会，所以要注意最后两回合顺位，别被人恶意卡翻修。搭配：房管，资源循环是房管强有力的竞争者",,
@@ -1310,7 +1310,7 @@ players the card becomes more of a conditional play, since clay should already
 be plentiful after round 6. If you play him, it should be with the intention of
 using massive amounts of clay (clay rooms, pottery, etc.). This should
 hopefully prevent clay from being too easy to get for your opponents.",
-D152,供应商,Patron,T2,C,,パトロン,如果还有其他想出的职业，也可以从第2张以后再出也是个办法。想和职业系的combo配套运用。,"Immediately before each time you play an occupation after this one (even before paying the occupation cost), you get 2 food.","白嫖打职业。或者因为花1f买了职业而踩临时工，或
+D152,赞助商,Patron,T2,C,,パトロン,如果还有其他想出的职业，也可以从第2张以后再出也是个办法。想和职业系的combo配套运用。,"Immediately before each time you play an occupation after this one (even before paying the occupation cost), you get 2 food.","白嫖打职业。或者因为花1f买了职业而踩临时工，或
 效果：打出其他职业甚至支付费用前，获得2f
 强度：这让打满职业更顺畅 职业套核心卡 甚至比家教重要 因为你打职业本身食物就会变得稀缺，这张卡的食物手段一定要多。如果你明明把陶瓷、鱼叉之类
 获得稀缺资源，收益是大于6的。但是有时7抽7 的放出去，或者烈酒放出去没回来时就要警惕，谨慎
@@ -1353,7 +1353,7 @@ C121,粘土揉捏工,Clay Kneader,T4,,,陶土こね,光是打出来也算是不�
 强度：基本上是1w4c到1w6c的短反馈收益，缺c局且没有种子手段可以用，但是再次强调下，手拿种子本身就是低效的，亏本的。
 难度：2/5
 用法：这张卡适合快速打出砖发展卡，如第一回合的餐具室、垃圾房、火炉。如果你没有种子手段，可以抓，中后期踩种子攒砖头，翻修打主发。搭配：餐具室、垃圾房、胡萝卜、新卡中的砖发展卡",,
-C137,煤炭工,Charcoal Burner,T1,B,,炭焼き,如果整局游戏里没有作为饭基盘的卡，就更容易发挥。比如做“かまど→調理場”等，想自己让它多次发动。,"Each time any player (including you) plays or builds a baking improvement, you get 1 wood and 1 food.","效果：每当有人打火炉或壁炉或烤炉时，得1木1饭。
+C137,烧炭工,Charcoal Burner,T1,B,,炭焼き,如果整局游戏里没有作为饭基盘的卡，就更容易发挥。比如做“かまど→調理場”等，想自己让它多次发动。,"Each time any player (including you) plays or builds a baking improvement, you get 1 wood and 1 food.","效果：每当有人打火炉或壁炉或烤炉时，得1木1饭。
 强度：相对前面的栽培较弱，基本上是长反馈5木5饭
 难度：2/5
 用法：唯一的难度在于找时机，观察别人是否会打炉子。三四回合的一动打出，或者第二季打出，蹭到首炉或者次炉。自己可以拿火炉 翻修时换壁炉刷触发搭配：家具供应商D096 面包流卡牌 瓦匠B095不搭：其他前期卡","Charcoal Burner: In 4-p, this is awesome: pretty much everyone will buy some sort of cookery,
@@ -1408,13 +1408,13 @@ D091,犁田工,Plowman,T2,C,,鋤手,如果能在第1阶段打出，就能大幅�
 price of 2 (1 to play him, 1 to collect the 3 food), which is an obviously good
 deal. His utility is limited a bit by the fact that you sometimes can't afford
 to wait around for the fields to come out.",
-D114,,Seed Trader,,,,種商人,只要有饭就能大量买种子，不过还是很贵。如果有强力的饭基盘，那就是一个选项。,Place 2 grain and 2 vegetables on this card. You can buy them at any time. Each grain costs 2 food; each vegetable costs 3 food.,,,
+D114,种子商贩,Seed Trader,,,,種商人,只要有饭就能大量买种子，不过还是很贵。如果有强力的饭基盘，那就是一个选项。,Place 2 grain and 2 vegetables on this card. You can buy them at any time. Each grain costs 2 food; each vegetable costs 3 food.,,,
 D117,木材专家,Wood Expert,T2,,,木の専門家,如果有很多使用木材的进步，那么作为选项，在拿“家具制作”时所需的木材也能减轻。,"When you play this card, you immediately get 2 wood. Each improvement costs you up to 2 wood less, if you pay 1 food instead.","效果：打出时得2w，每次打发展卡时可以花1f减免1/2w
 强度：一般来讲，轮抽拿到2张2w以上卡，3张1w卡是不难的，假如再拿到个井，一共花6f 省8木 送2木，相当于7左右的收益。但是问题在于，这张卡必须在前几抓拿到才能够规划自己的次要发展卡，而且要用早期的饭打第二季的次发，会变饿。
 难度：3/5
 用法：第一季打出，第二季省木头
 变体：木专书柜 天胡开局",,
-D128,,Building Tycoon,,,,建設の獅子,虽然很吃饭，但能把容易拥挤的增筑格子进行手牌压缩很优秀。不过也有依赖他人的一面，切勿过信。若其他玩家打出了这张卡，行动时要注意别让人插进增员格子。也可通过日雇农夫或左官进行的增筑来启动。,"Each time after another player builds 1 or more rooms, you can give them 1 food to build exactly 1 room yourself. (You must pay the building cost of the room.)",,,
+D128,建筑大亨,Building Tycoon,,,,建設の獅子,虽然很吃饭，但能把容易拥挤的增筑格子进行手牌压缩很优秀。不过也有依赖他人的一面，切勿过信。若其他玩家打出了这张卡，行动时要注意别让人插进增员格子。也可通过日雇农夫或左官进行的增筑来启动。,"Each time after another player builds 1 or more rooms, you can give them 1 food to build exactly 1 room yourself. (You must pay the building cost of the room.)",,,
 D162,烧砖工,Clay Firer,T3,D,,レンガ焼き,像砖瓦匠那样，和能大量降下砖块的卡片成套使用吧。,"When you play this card, you immediately get 2 clay. At any time, you can turn clay into stone: you get 1 stone for 2 clay, and 2 stone for 3 clay.","效果：打出时立即获得2c，并且可以随时用3c换2s，2c换1s
 强度：没有配合的话，本身只有早期高价值砖的2收益，但是考虑到有一些大量获取砖的手段，烧砖工可以在那些场景发挥较高的价值。比如有运土工的话，9砖的收入可以转化为6s，运土的5收益就提高到了6收益。
 难度：3/5
@@ -1528,7 +1528,7 @@ D090,制犁工,Plow Maker,T2,D,,鋤鍛冶,无论是从序盘开始建小麦田�
 food (1 to play the Occ, 2 to plow). This is not appreciably better than just
 plowing a field 5 times, since the 3 food he costs will probably take another
 action anyway.",
-D107,,Bellfounder,,,,釣鐘鋳造師,单独使用时不太好运营，但有很多可以联动的卡牌，比如地质学家、黏土送货人、矿工等。,"In the returning home phase of each round, if you have at least 1 clay, you can use this card to discard all of your clay and get your choice of 3 food or 1 bonus point.",,,
+D107,铸钟工,Bellfounder,,,,釣鐘鋳造師,单独使用时不太好运营，但有很多可以联动的卡牌，比如地质学家、黏土送货人、矿工等。,"In the returning home phase of each round, if you have at least 1 clay, you can use this card to discard all of your clay and get your choice of 3 food or 1 bonus point.",,,
 D121,墙土修补工,Clay Plasterer,T3,D,,左官,从5栋木屋里仅仅拿出来用于改建，也相当于做了4砖的工作。不增建砖房也有拿出来的选项。,Renovating to clay only costs you exactly 1 clay and 1 reed. Each clay room only costs you 3 clay and 2 reed to build.,"效果：你翻修成砖屋改成1r+1c，你扩的每间砖屋改成2r+3c
 强度：没配合的情况下可以省4c，超短反馈4收益。有配合的话可以和砌砖，架梁一次使用，扩砖屋。
 难度：2/5
@@ -1537,7 +1537,7 @@ alone, since it can save you 3 or 4 clay. In other player modes, you're going
 to need to build clay rooms to make this work. This is usually an awkward
 proposition, since it forces you to spend an early action on renovation - see
 the Clay Hut Builder.",
-D132,贫农,Hide Farmer,T3,C,,隠れ農夫,由于能把栅栏围得更小，因此实质上能作为木补助来发挥作用。有强力的盘外点的话很优秀，但基本上如果一直依赖这张卡就很容易出现分数不够的情况。不会变成负分，所以能拿到村长点。,"During scoring, you can pay 1 food each for any number of unused farmyard spaces. If you do, you do not lose points for these spaces.","效果：游戏结束时，你可以为你每个空地支付1f，以让这些空地不扣分。
+D132,隐藏农民,Hide Farmer,T3,C,,隠れ農夫,由于能把栅栏围得更小，因此实质上能作为木补助来发挥作用。有强力的盘外点的话很优秀，但基本上如果一直依赖这张卡就很容易出现分数不够的情况。不会变成负分，所以能拿到村长点。,"During scoring, you can pay 1 food each for any number of unused farmyard spaces. If you do, you do not lose points for these spaces.","效果：游戏结束时，你可以为你每个空地支付1f，以让这些空地不扣分。
 强度：下限卡。考虑三房2田2围的情况，贫农可以获得8分，是4收益。贫农基本上会有1-4收益。但是，大量的空地本身就限制了农牧发展，只有在有大量食物获取手段，且不需要农牧这些生产资料时较强。
 难度：5/5
 用法：这张卡本身限制了农牧，你必须在少量的生产资料的条件下获取大量可计分资源，比如卡牌的饲养空间，或者卡牌的田地。此外，你还需要用省下的行动去换取更多分数，比如用蓝图抢大量主发，或者家教灯笼吹牛等提高上限的卡。
@@ -1612,10 +1612,10 @@ D069,小温室,Small Greenhouse,T3,,,小温室,与大温室不同，入手需要
 强度：本身是亏1-2 分，然后两个菜如果能播 种是4 分的价值，考虑到花2f，相当于前期打 出的1.5 分卡。
 难度：2/5
 用法：第一季多攒2w，第二季扩生顺出，就算 错过第二季，拿一菜也是赚0.5 分的。",,
-D088,石墨建造工,Millwright,T4,,,石臼職人,将1小麦转换为1资材。若为增筑厩或改筑柵，则在各自的行动中可转换2小麦。若小麦数量很多则效果相当显著。,"You immediately get 1 grain. Each time you build fences, stables, and rooms, or renovate your house, you can replace up to 2 building resources of any type with 1 grain each.","效果：打出时得1麦 之后建造房屋 围栅栏 翻修时可以用最多2麦代替建材
+D088,石磨建造工,Millwright,T4,,,石臼職人,将1小麦转换为1资材。若为增筑厩或改筑柵，则在各自的行动中可转换2小麦。若小麦数量很多则效果相当显著。,"You immediately get 1 grain. Each time you build fences, stables, and rooms, or renovate your house, you can replace up to 2 building resources of any type with 1 grain each.","效果：打出时得1麦 之后建造房屋 围栅栏 翻修时可以用最多2麦代替建材
 强度：近乎无强度 麦子换建材是亏的
 用法：不用搭配：麦田流",,
-D089,马厩工,Stablehand,T4,E,,厩番,如果有像树篱管理员或家畜警护那样需要多次去围栏的理由就很优秀。去2次就是2分的工作，所以效果还算不错,"Each time you build at least 1 fence, you can also build a stable without paying wood for the stable.","效果：每次建栅栏时，得1马厩
+D089,马厩帮工,Stablehand,T4,E,,厩番,如果有像树篱管理员或家畜警护那样需要多次去围栏的理由就很优秀。去2次就是2分的工作，所以效果还算不错,"Each time you build at least 1 fence, you can also build a stable without paying wood for the stable.","效果：每次建栅栏时，得1马厩
 强度：正常情况下是1-2马厩的收益，1-3分收益，如果搭配栅栏修理员这种多踩栅栏的流派，会很棒。
 难度：1/5
 用法：必须要有鼓励栅栏行动的卡才可以当添头，最好还要有马厩流","Stablehand Another card that is unplayable due to the low number of times that you
@@ -1637,7 +1637,7 @@ D108,石雕工,Stone Carver,T4,C,,石工,较宽松的饭补助。序盘只要去
 用法：只有强力产石手段的饿卡组可以用，比如贸易导师、采石钳、共济会、护林员、五金等","Stone Carver I actually like him in 2-p where stone is very easy to get in the mid and late
 game. In the other modes, however, stone is usually too rare to be able to
 consistently want to get food from this guy.",
-D141,小麦商贩,Seed Seller,T3,C,,種屋,单体而言也是还算不错的小麦补助。打出后只去一次小麦也能用2手获得3小麦，所以已经回本了。,"When you play this card, you immediately get 1 grain. Each time you use the ""Grain Seeds"" action space, you get 1 additional grain.","效果：立即获得1麦，每次踩小麦时，额外获得1麦
+D141,种子贩售商,Seed Seller,T3,C,,種屋,单体而言也是还算不错的小麦补助。打出后只去一次小麦也能用2手获得3小麦，所以已经回本了。,"When you play this card, you immediately get 1 grain. Each time you use the ""Grain Seeds"" action space, you get 1 additional grain.","效果：立即获得1麦，每次踩小麦时，额外获得1麦
 强度：基本上是踩1-2次麦子，踩一次的话，就是单纯的1麦，也就是2收益。如果是踩2次，相当于1分+6饭的收益，可以到4收益，当然前提是有烤炉。如果没有烤炉，只有壁炉，相当于1分+4饭收益，3收益也可以接受。
 难度：2/5
 用法：基本上有麦子的配合才会考虑用。配合：菜贩，农巡，养牛妇，谷物勺，街头叫卖等","Seed Seller If you are going to want 2 grain to sow into 2 fields, he is always worth it.
@@ -1649,8 +1649,8 @@ won't have the time to plow fields early, and will need to spend most of your
 actions on family growth. This guy lets you delay sowing fields at all - just
 take more grain every time you run out. While I don't play him every time I get him, he is a good incentive to go
 baking, especially in larger games.",
-D146,,Porter,,,,荷物運搬人,如果能去4次就能回本，但有点不稳定。,"Each time you take at least 4 of the same building resource from an accumulation space, you get 1additional building resource of the accumulating type and 1 food.",,,
-D154,烟囱清理员,Chimney Sweep,T2,,,煙突掃除人,大约2分+2石。为了增加全场的改筑次数、让改筑事故不容易发生，我要注意尽早去改筑的行动。,"Renovating to stone costs you 2 stone less. During scoring, you get 1 bonus point for each other player living in a stone house.","效果：翻修石屋省2石 每有一个别人结束时在石屋，你得1分
+D146,搬运工,Porter,,,,荷物運搬人,如果能去4次就能回本，但有点不稳定。,"Each time you take at least 4 of the same building resource from an accumulation space, you get 1additional building resource of the accumulating type and 1 food.",,,
+D154,烟囱清洁工,Chimney Sweep,T2,,,煙突掃除人,大约2分+2石。为了增加全场的改筑次数、让改筑事故不容易发生，我要注意尽早去改筑的行动。,"Renovating to stone costs you 2 stone less. During scoring, you get 1 bonus point for each other player living in a stone house.","效果：翻修石屋省2石 每有一个别人结束时在石屋，你得1分
 强度：简明的3-5分，一般来说除了自己会有2石屋，大概4分
 难度：1/5
 用法：注意两点 不要浪费石头，且如果剩下三家都不打算翻修时可以不打（情况很少）搭配：石屋套不搭：羊毛毯
@@ -1717,7 +1717,7 @@ B081,手拉车,Handcart,T3,,E,手引き車,虽然能发挥效果的场合不算�
 B082,价值资产,Value Assets,T3,,,資産価値,每次收获只要出木材就已经足够了。后期在确保不足的改建材料方面也很优秀。如果其他玩家在出的话，要注意能不能在收获阶段获得资源把改建格子填上。,"After each harvest, you can buy exactly one of the following goods: 1 Food → 1 Wood; 1 Food → 1 Clay; 2 Food → 1 Reed; 2 Food → 1 Stone",,,
 B083,泥潭,Muddy Puddles,T2,,,泥溜り,要全部拿完的话总共需要7块砖，所以和辅助一起套装,"Pile (from bottom to top) 1 wild boar, 1 food, 1 cattle, 1 food, and 1 sheep on this card. At any time, you can pay 1 clay to take the top good.",,,"效果：优质一三白板
 强度：和这个和这个牛头骨差不多，俩都是优质一分版本。"
-B085,农场短工,Farm Hand,T2,,,作手,,"Once you have 4 field tiles arranged in a 2x2, you can use a ""Build Stables"" action to build a stable in the center of the 2x2. This stable provides room for a person but no animal.",,,
+B085,雇农,Farm Hand,T2,,,作手,,"Once you have 4 field tiles arranged in a 2x2, you can use a ""Build Stables"" action to build a stable in the center of the 2x2. This stable provides room for a person but no animal.",,,
 B086,松露搜寻者,Truffle Searcher,T4,,,トリュフ探し,猪的关联卡较少，但也不坏，可以通过繁殖来作为饭的补助来利用。由于阶段顺序是食料供给→繁殖，所以即使在食料供给前养到最大数量，繁殖后也不需要放跑它们,This card can hold a number of wild boar equal to the number of completed feeding phases.,,,
 B088,尊贵之人,Established Person,T2,,,成功者,和砖房增筑或石房连招组合一起用。增筑时用不上的木头还能拿去做篱笆，这点很厉害。把繁殖体系整备起来吧。,"If your house has exactly 2 rooms, immediately renovate it without paying any building resources. If you do, you can immediately afterward take a ""Build Fences"" action.",,,
 B090,合作犁田工,Cooperative Plower,T4,,,組合の鋤手,序盘想要小麦田的时候打出，或者蹭别人的小麦combo。自己想两边都做去抢小麦的话，要是田地先被人占满就会非常难受,"Each time you use the ""Farmland"" action space while the ""Grain Seeds"" action space is occupied, you can plow 1 additional field.",,,
@@ -1747,7 +1747,7 @@ B128,管道工,Plumber,T3,,,配管工,前期打出可瞄准砖和石屋连携。
 B129,同桌,Seatmate,T3,,,隣り合わせた人,能在最终回合使用强力的行动并不坏，但这取决于会出现什么行动，所以无论如何都很不稳定。对面的玩家要是用了那个行动，就会非常难受。,You can use the action space on round space 13 even if it is occupied by one or more people of the players to your immediate left and right.,,,
 B130,全职农夫,Full Peasant,T3,,,汎農,建议与“家畜警护”等这种去栅栏或种パン多次也有收益的卡搭配使用。中盘以后，（有这张卡的话就更是）这两个格子也有可能在一开始就被占满，所以要注意。,"Each time after you use the ""Grain Utilization"" or ""Fencing"" action space while the other is unoccupied, you can pay 1 food to use the other space with the same person.",,,
 B131,武装者,Equipper,T2,,,装備品揃え,如果想要打出很多强力的进步，这个效果不算坏。有建築設計図时会大放异彩。可以用拿到的木材来打出进步,"Immediately after each time you use a wood accumulation space, you can play a minor improvement.",,,
-B132,庄园主人,Estate Master,T0,,A,地主,收集蔬菜补助和田地补助吧。第5步只要种2次蔬菜也有4分，所以就算补助不多也能争取发挥。,"Once you have no unused farmyard spaces left, you get 1 bonus point for each vegetable that you harvest.",,,比较有争议的卡，有人喜欢把它排在S里，但我觉得他是不到S的，他在非常少的情况下才可以超神，平常的情况，它的平均表现是在一个就是强B到中A的一个表现，他在20%的局里可以达到强S的表现，综合一下，把他排在强A
+B132,庄园主,Estate Master,T0,,A,地主,收集蔬菜补助和田地补助吧。第5步只要种2次蔬菜也有4分，所以就算补助不多也能争取发挥。,"Once you have no unused farmyard spaces left, you get 1 bonus point for each vegetable that you harvest.",,,比较有争议的卡，有人喜欢把它排在S里，但我觉得他是不到S的，他在非常少的情况下才可以超神，平常的情况，它的平均表现是在一个就是强B到中A的一个表现，他在20%的局里可以达到强S的表现，综合一下，把他排在强A
 B133,乡村壮丁,Village Peasant,T3,,,村の農婦,由于蔬菜1个相当于1点，所以很多时候能不费力地拿出大约2点。,"At the start of scoring, you get a number of vegetables equal to the smallest of the numbers of major improvements, minor improvements, and occupations you have.",,,
 B134,铜版画大师,Housebook Master,T3,,,名家録の編纂者,3分+3食物相当于小井，非常值得瞄准。如果还有其他石屋系卡牌的话，优先度会相当高。,"After playing this card, if you renovate to stone in round 13/12/11 or before, you immediately get 1/2/3 food and 1/2/3 bonus points.",,,
 B135,营养专家,Nutrition Expert,T3,,,栄養士,因为每回合都能起动，所以即使单卡也有可能成为饭基盘的卡。想把拿饭确保的大进的手转去繁殖种まき，让它能够起动。希望在小麦、蔬菜、家畜之中，建立起能稳定供给其中2种的体制。,"At the start of each round, you can exchange a set comprised of 1 animal of any type, 1 grain, and 1 vegetable for 5 food and 2 bonus points.",,,
@@ -1767,12 +1767,12 @@ B151,农家小孩,Little Peasant,T1,,,小百姓,中盘以后增建多间房屋�
 B152,少年艺术家,Junior Artist,T2,,,駆け出し画家,单独使用的话只是白赚1饭，所以基本上是和日雇いcombo成套运用。,"Each time after you use the ""Day Laborer"" action space, you can pay 1 food to use an unoccupied ""Traveling Players"" or ""Lessons"" action space with the same person.",,,
 B153,房主,Housemaster,T2,,,寮長,注意：有时拿取灶台厨房会导致奖励分减少。只拿取井户的情况下相当于2分的行动。不包含家具制作等的素材奖励分。,"During scoring, total the point values of your major improvements. The smallest value counts double. If the total is at least 5/7/9/11, you get 1/2/3/4 bonus points.",,,
 B154,羊群看守,Sheep Keeper,T3,,,羊持ち,虽然很难确保饲养空间，但3分2饭很优秀。如果有织布机等羊相关卡牌成套的话会相当强力。,"You can only play this card if you have less than 7 sheep. Once this game, when you have 7 sheep on your farm, you immediately get 3 bonus points and 2 food.",,,
-B155,艺术导师,Art Teacher,T2,,,美術教師,与赞助人相比，它只有在支付职业费用时才会发动，作为饭补助略逊一筹，但打出时的效果还算不错，因此如果是职业Combo就很优秀。由于小剧场会减少饭，导致整个场面的饭会更紧张，所以希望事先准备好某种食料基础。,"When you play this card, you immediately get 1 wood and 1 reed. Each time you pay an occupation cost, you can use food from the ""traveling Players"" accumulation space.",,,
+B155,Art Teacher,Art Teacher,T2,,,美術教師,与赞助人相比，它只有在支付职业费用时才会发动，作为饭补助略逊一筹，但打出时的效果还算不错，因此如果是职业Combo就很优秀。由于小剧场会减少饭，导致整个场面的饭会更紧张，所以希望事先准备好某种食料基础。,"When you play this card, you immediately get 1 wood and 1 reed. Each time you pay an occupation cost, you can use food from the ""traveling Players"" accumulation space.",,,
 B157,腌制工,Salter,T3,,,塩作り,虽然有时间差，但拥有惊人的饭效率。序盘在家畜市场买几次牛，想在中盘以后把食料行动省出来。注意必须先养起来，否则无法转换这一点。,"At any time, you can pay 1 sheep/wild boar/cattle from you farm. If you do, place 1 food on each of the next 3/5/7 round spaces. At the start of these rounds, you get the food.",,,
 B158,区域经理,District Manager,T3,,,森林地区管理,如果有能利用森林格进行连续回合的内地管理员，就可以瞄准并触发。并且如果有玩家进行小动作强化，就更容易活跃。有像松露切片器之类、能成为多次跑树理由的卡的话，也可以考虑打出。,"At the end of each work phase, if you used both the ""Forest"" and ""Grove"" accumulation spaces, you get 5 food.",,,
 B159,陆军中将,Lieutenant General,T2,,D,農家の大将,如果除自己以外的玩家合计耕了9块田的话，大概是4饭2小麦。能入手小麦只限定在第14轮，所以有点不好用。如果出很多犁系的话就能发光。,"For each field tile that another player places next to an existing field tile, you get 1 food from the general supply. In round 14, you get 1 grain instead.",,,收益也蛮稳定的，算是比4木卡强一点吧，能够在稳定的每回合拿一口饭，最后还能补一点麦子，比较不错的，这个有饭又有算是一分的分数卡吧
 B160,酒吧老板,Pub Owner,T3,,,飲み屋の亭主,有点依赖他人而略显不稳定，但还算不错的小麦补助。只空着1处，如果看起来没人去的话就自己去。,"Immediately, when you play this card, and at the end of each work phase, in which the ""Forest"", ""Clay Pit"", and ""Reed Bank"" accumulation spaces are all occupied, you get 1 grain.",,,
-B161,虚弱之人,Weakling,T0,,S,軟弱者,如果场上饭补助很多、导致很难进入5饭的话，就能更容易入手源源不断的蔬菜。此外，若场上有很多强化次要行动的要素，场上的资材也更容易余下，因此也更容易发挥作用。读懂场上的倾向来使用吧。,"Each time it is your turn in the work phase, if there are one or more accumulation spaces with 5+ goods on them and you do not use any of them, you get 1 vegetable.",,,Even more set 仅有的一张S卡，下限高，上限也高，一般最少能拿两三个菜，多的时候能拿两三十个菜，就是运气好就赢了
+B161,体弱多病者,Weakling,T0,,S,軟弱者,如果场上饭补助很多、导致很难进入5饭的话，就能更容易入手源源不断的蔬菜。此外，若场上有很多强化次要行动的要素，场上的资材也更容易余下，因此也更容易发挥作用。读懂场上的倾向来使用吧。,"Each time it is your turn in the work phase, if there are one or more accumulation spaces with 5+ goods on them and you do not use any of them, you get 1 vegetable.",,,Even more set 仅有的一张S卡，下限高，上限也高，一般最少能拿两三个菜，多的时候能拿两三十个菜，就是运气好就赢了
 B162,森林砍伐者,Forest Clearer,T1,,B,伐採人,令和的伐木工。有森林保护者在场会减少发动机会，注意。反过来，蘑菇搜寻和森林犁更容易增加进入木材累积的机会，因此相性很好。,"Each time you obtain exactly 2/3/4 wood from a wood accumulation space, you get 1 additional wood and 1/0/1 food.",,,并没有什么太大的收益，也没有什么强大的一抓价值，因为这张卡他想要发挥，他虽然在一些局里能发挥很好的效果，但他需要发挥很好的效果的条件太苛刻了，首先这个局必须是一个卷木局，其次你必须是一个需要频繁从场上获得木头的卡组，这两条实际上你在一抓的时候是并不能保证的，所以抓这样一张卡，哪怕就两条同时满足的话，它的极限收益也没有高到能够支持赢一把游戏，他只能支持你赢了别人一些很烂的卡组，所以说它并不能达到一个A的水平
 B165,野味供应商,Game Provider,T4,,F,獲物調達人,如果只是2头猪左右，很多场面也不会被抢走，所以很少会为了把这张卡打出来还要付小麦去拿。和调理场成套的话，小麦田会成为饭基盘。,"Immediately before each harvest, you can discard 1/3/4 grain from different fields to get 1/2/3 wild boars.",,,单卡看起来基本没用，麦子换猪，毫无收益可言，但是他不需要行动，所以说最后一季打出来换一个麦子，换一个猪，这个存在一点的收益吧，所以职业套里可以用一下
 B167,圈舍警官,Stable Sergeant,T1,,B,厩舎長,无论是最后赶着把家畜凑齐的时候，还是从中盘开始瞄准家畜繁殖的时候，哪种情况都有发挥的机会。,"When you play this card, you can pay 2 food to get 1 sheep, 1 wild boar, and 1 cattle, but only if you can accommodate all three animals on your farm.",,,收益比较稳定，它可以支撑你在不起马厩的情况下，在非常晚的时间围，然后用这张卡补足一个下限分，而且你哪怕在早期围的卡组里两饭，换三个动物也是不错的收益了，所以收益很稳定，还能支撑一些打法，算是一个不错的B卡
@@ -1906,7 +1906,7 @@ C133,士兵,Soldier,T3,,,兵士,得分效率还算可以。如果有横切的木
 C134,牧牛贵族,Cow Prince,T1,,,牛の王子,有牛的地块每格1分。拉一圈较大的栅栏，在第4阶段去“家畜市场”或“牛1”两次，建立繁殖体制吧。栅栏外的厩舍或房子里饲养的牛也算分。用调教师时也按每一栋计数。,"During scoring, you get 1 bonus point for each space in your farmyard (including rooms) holding at least 1 cattle.",,,
 C136,大牧场看守,Ranch Provost,T2,,,牧場長,参考一个牧场内可饲养数量。,"If there are still 3/6/9 complete rounds left to play, you immediately get 2/3/4 wood. During scoring, each player with a pasture of highest capacity gets 3 bonus points.",,,
 C138,动物喂养员,Animal Feeder,T3,,,家畜餌やり,单独使用的话有点火力不足。想把它加入日雇组合技里。,"On the ""Day Laborer"" action space, you also get your choice of 1 sheep or 1 grain. Instead of that good, you can buy 1 wild boar for 1 food or 1 cattle for 2 food.",,,
-C139,边筐工妻子,Basketmaker's Wife,T2,,,籠造りの妻,芦苇较轻的场地里会大显身手。别名森林评论家的妻子,"When you play this card, you immediately get 1 reed and 1 food. At any time, you can turn 1 reed into 2 food.",,,
+C139,编筐工妻子,Basketmaker's Wife,T2,,,籠造りの妻,芦苇较轻的场地里会大显身手。别名森林评论家的妻子,"When you play this card, you immediately get 1 reed and 1 food. At any time, you can turn 1 reed into 2 food.",,,
 C140,包装艺术家,Packaging Artist,T3,,,包装の達人,效果虽然有限，但打出时能获得1小麦，因此至少能发挥最低限的作用。,"When you play this card, you immediately get 1 grain. Each time you get a ""Minor Improvement"" action, you can take a ""Bake Bread"" action instead.",,,
 C141,羊只供应商,Sheep Provider,T2,,,羊の世話人,如果只有1名玩家拥有灶台厨房，发动机会就会减少。自己拿灶台厨房也是一种选择。有爱动物者或牧畜追赶者的话会更容易起动。终盘即使是2羊也经常会被拿走，所以更容易起动。,"Each time any player (including you) uses the ""Sheep Market"" accumulation space, you get 1 grain.",,,
 C143,石头采购商,Stone Buyer,T3,D,,石買い付け人,加上职业成本的话，可以用1步花4饭获得3石。稍微有点重。,"When you play this card, you can immediately buy exactly 2 stone for 1 food. From the next round on, one per round, you can buy 1 stone for 2 food.",,"Stone Buyer This is the most tempting resource buyer to play, simply because stone is the
@@ -1920,9 +1920,9 @@ C148,泥坑挖掘工,Mud Wallower,T1,,B,泥だらけの入居者,如果和厨房
 C150,鹦鹉饲养员,Parrot Breeder,T2,,,オウムブリーダー,为了打出这张卡，甚至要花1次行动和1小麦也要去做的行动似乎不多。能发挥效果的时机也不稳定，很难用。,"On your turn, if you pay 1 grain to the general supply, you can use the same action space that the player to your right has just used on their turn.",,,
 C151,播种总监,Sowing Director,T3,,,種まきの指導者,终盘输2次就有足够的效果。有耕耘机等农田辅助的话更容易发挥。,"Each time after another player uses the ""Grain Utilization"" action space, you get a ""Sow"" action.",,,
 C154,双胞胎研究员,Twin Researcher,T3,,,双子の研究者,分数的转换效率不差，但很难稳定触发。可以用木、砖、石、食物来触发。既然出了就想至少触发4次以上。用伐木工多次进入2木或3木大概是最好的用法。,"Each time you use one of the two accumulation spaces for the same type of good containing exactly the same number of goods, you can also buy 1 bonus point for 1 food.",,,
-C155,食品分配员,Food Distributor,T2,,,食料供給人,行动空间卡是指在1R～14R翻开的卡。若在中盘以后，通常经常能出到8饭左右。也能拿到小麦，所以很多情况下都是出它稳赚。,"When you play this card, you immediately get 1 grain and, at the start of this returning home phase, an amount of food equal to the number of occupied action space cards.",,,
+C155,食物分配员,Food Distributor,T2,,,食料供給人,行动空间卡是指在1R～14R翻开的卡。若在中盘以后，通常经常能出到8饭左右。也能拿到小麦，所以很多情况下都是出它稳赚。,"When you play this card, you immediately get 1 grain and, at the start of this returning home phase, an amount of food equal to the number of occupied action space cards.",,,
 C156,牛蹄护理工,Hoof Caregiver,T3,,,削蹄師,大致是2小麦2饭的效果。能和投绳连动。在牛被占走的状态下拿SP并打出这张卡的话，下回合可以去2牛。,"Immediately add 1 cattle from the general supply to the ""Cattle Market"" accumulation space. Afterward, you get 1 grain plus 1 food for each cattle on ""Cattle Market"".",,,
-C157,原料分析师,Resource Analyzer,T4,,F,資源分析者,发动条件不太稳定，得到的却只有食料。,"Before the start of each round, if you have more building resources than all other players of at least two types, you get 1 food.",,,垃圾
+C157,资源分析师,Resource Analyzer,T4,,F,資源分析者,发动条件不太稳定，得到的却只有食料。,"Before the start of each round, if you have more building resources than all other players of at least two types, you get 1 food.",,,垃圾
 C158,森林宣传员,Forest Campaigner,T3,,F,森林活動家,如果没有像「森の宿屋」或「森林所有者」这类木补助，或者像「森林保護者」这类放置木头的卡牌，发动机会就会相当少。,"Each time before you place a person, if there are at least 8 wood total on accumulation spaces, you get 1 food.",,,勉强有用的
 C159,渔夫之友,Fisherman's Friend,T2,,,漁師の友人,有“捕鱼连招”的玩家在场的话就更容易发挥。顺利的话每回合都能获得大量的饭。不过相当依赖别人，有点不稳定。注意发动时机是在回合开始时。,"At the start of each round, if there is more food on the ""Traveling Players"" than on the ""Fishing"" accumulation space, you get the difference from the general supply.",,,
 C160,先驱者,Outrider,T4,C,,先行騎手,相当不稳定。刚出来就去拿石1或猪1的走法有点微妙。因为在行动前能拿到小麦，所以能用“畑種”播下小麦很开心。,"Each time before you use the action space on the most recently revealed action space card (after it has been placed on the round space), you get 1 grain.",,"Outrider In my opinion this is one of the coolest occupations in the deck, even if he's
@@ -1934,7 +1934,7 @@ additional bonus. At the end of the game, if you've gotten 3 grain out of him, h
 worth the action.",
 C161,土豆挖掘工,Potato Digger,T3,,,じゃがいも掘り,耕运锄等强力的田地辅助配合一起使用吧。要是有施纳普斯制造者之类能活用收获蔬菜的卡牌，那就无可挑剔了。,"When you play this card, if you have at least 2/4/5 unplanted field tiles, you immediately get 1/2/3 vegetables.",,,
 C162,森林主人,Forest Owner,T3,,,森林所有者,整个游戏中可获得的木材会一下子变多。因为优秀的行动格子变多了，回合数多的人更容易占优势。如果自己行动次数少，最好别出。,"This card is an action space for all. If another player uses it, they get 3 wood and must give you 1 wood from the general supply. If you use it, you get 4 wood.",,,
-C163,物料派送工,Material Deliveryman,T3,,,素材運び,整体上在食物较轻的场合，渔业或小剧场里更容易攒饭，所以发动机会会增加。有森林保护者的话效果相当显著。,"Each time any player (including you) takes 5/6/7/8+ goods from an accumulation space, you get 1 wood/clay/reed/stone from the general supply.",,,
+C163,物料派送员,Material Deliveryman,T3,,,素材運び,整体上在食物较轻的场合，渔业或小剧场里更容易攒饭，所以发动机会会增加。有森林保护者的话效果相当显著。,"Each time any player (including you) takes 5/6/7/8+ goods from an accumulation space, you get 1 wood/clay/reed/stone from the general supply.",,,
 C164,德国牧草看守者,German Heath Keeper,T2,,,黒羊使い,终盘经常会被1猪也上，所以尤其在终盘触发机会会增加。还算不错的羊辅助,"Each time any player (including you) uses the ""Pig Market"" accumulation space, you get 1 sheep from the general supply.",,,
 C168,动物猎人,Animal Catcher,T2,,,動物捕り,即使没有日雇组合，也可以先围上栅栏，终盘再打出，通过拿家畜套装的打法就足够强。有调理场的话，可以把获得的家畜烤了用来抵支付食料的成本。如果没有调理场还想从中盘开始用，食料消耗会相当猛烈，需要注意。,"Each time you use the ""Day Laborer"" action space, instead of 2 food, you can get 3 different animals from the general supply. If you do, you must pay 1 food each harvest left to play.",,,
 D001,Z形耙,Zigzag Harrow,T2,,,ジグザグ鍬,只要有一部分是L字型，即使还有其他田地也能发动效果。比如，即使田地已经被耕成2×2格的状态，也可以用这张卡耕田。,"You can immediately plow 1 field such that it completes a ""zigzag"" pattern.",,,
@@ -1996,8 +1996,8 @@ D081,屋顶梯子,Roof Ladder,T2,,,屋根梯子,改建的芦苇将不再需要�
 D083,猪食,Pigswill,T3,,,残飯,如果可以的话想启动2次。为了在拉栅栏之前获得野猪，如果事先没有准备好能饲养的空间就无法饲养野猪，这点稍微有些缺点。,"Each time you use the ""Fencing"" action space, you also get 1 wild boar.",,,
 D085,读书人,Reader,T2,,E,読書家,Draft Variant是进行Draft的规则。职业系Combo专用卡。,"As soon as you have 6 occupations in front of you (including this one), this cards provides room for one person. In the draft variant, you need 7 occupations to play this.",,,这张卡就是纯粹的配件卡，就没有什么好说的，一个是你没有配合的话，你打出来七个职业就太晚了，第二个是你就是，本身你快速的打出来七个职业，这件事情一定是亏的，因为你前期把一些能拿到很好资源的行动去打职业，后期你就你在行动上的灵活性非常受限，所以读书人是一个纯粹的配合卡
 D086,小羊代养员,Sheep Agent,T4,,,羊仲介者,宠物经纪人的下位互换。想捡到成吉思汗并用于繁殖,"You can keep 1 sheep on each occupation card in front of you (including this one), unless it is already able to hold animals.",,,
-D092,儿童监护员,Child Ombudsman,T1,,A,児童相談員,如果增筑3间房，扣除打出这张卡所消耗的1个行动，相当于行动数增加2次，但会少6分。负分相当大，所以要确保能打出至少超过减少的6分的上限分。即使增筑多间房，每个行动都能增员也不坏。有书斋的话就能覆盖负分，非常契合。,"From round 5 on, if you have room in your house, at the end of each person action, you can take a ""Family Growth"" action with that person. If you do, you get 2 negative points.",,,是一张非常改变了大家思维结构的卡，这张卡呢它是可以放在一个A级里面的，这是毋庸置疑的所有卡里面的最强生卡，他的收益太强了，他一定是比羊生强的，别的不说，前期的一动一定是要比二分较大的，前期的一动，在绝大多数情况下都要大于两分的上限分，但是这张卡的一个问题，就是他让大家意识到了一点，就是之前可能比较崇尚于生卡的一点在于，就是实际上生吧，它并不是由生卡的强度而决定的，只是之前的生卡都比较弱，导致觉得拿到一个强的生卡，就能在生马上获得特别大的优势，但是实际上生能不能生出来，人生出来人能不能赢，这个是由很多方面决定的，就是它是一个木桶效应，在你几个模块中的一个短板，只不过在有这张卡之前，大部分短板是那个生娃，他这里卖的几个模块，包括吃饭，扩房，生娃，还有就是强化弱动这四个模块里，之前一般来讲其他三个模块都是相对容易的，但是有了这张卡之后，最困难的可能反而是吃饭这一块，因为它生的实在太快了，如果你没有做好前期的食物引擎的话，中期这张卡的食物供应会出现大问题，所以导致这张卡实战效果不佳，经常崩盘，但是从他理论收益的情况，他仍然是最强生卡，只得一个A的位置
-D093,羊群巡查员,Sheep Inspector,T2,,,羊調査員,,"Once per work phase, after you complete a person action, you can pay 1 sheep and 2 food to return another person you placed home.",,,
+D092,儿童监护人,Child Ombudsman,T1,,A,児童相談員,如果增筑3间房，扣除打出这张卡所消耗的1个行动，相当于行动数增加2次，但会少6分。负分相当大，所以要确保能打出至少超过减少的6分的上限分。即使增筑多间房，每个行动都能增员也不坏。有书斋的话就能覆盖负分，非常契合。,"From round 5 on, if you have room in your house, at the end of each person action, you can take a ""Family Growth"" action with that person. If you do, you get 2 negative points.",,,是一张非常改变了大家思维结构的卡，这张卡呢它是可以放在一个A级里面的，这是毋庸置疑的所有卡里面的最强生卡，他的收益太强了，他一定是比羊生强的，别的不说，前期的一动一定是要比二分较大的，前期的一动，在绝大多数情况下都要大于两分的上限分，但是这张卡的一个问题，就是他让大家意识到了一点，就是之前可能比较崇尚于生卡的一点在于，就是实际上生吧，它并不是由生卡的强度而决定的，只是之前的生卡都比较弱，导致觉得拿到一个强的生卡，就能在生马上获得特别大的优势，但是实际上生能不能生出来，人生出来人能不能赢，这个是由很多方面决定的，就是它是一个木桶效应，在你几个模块中的一个短板，只不过在有这张卡之前，大部分短板是那个生娃，他这里卖的几个模块，包括吃饭，扩房，生娃，还有就是强化弱动这四个模块里，之前一般来讲其他三个模块都是相对容易的，但是有了这张卡之后，最困难的可能反而是吃饭这一块，因为它生的实在太快了，如果你没有做好前期的食物引擎的话，中期这张卡的食物供应会出现大问题，所以导致这张卡实战效果不佳，经常崩盘，但是从他理论收益的情况，他仍然是最强生卡，只得一个A的位置
+D093,羊群巡视员,Sheep Inspector,T2,,,羊調査員,,"Once per work phase, after you complete a person action, you can pay 1 sheep and 2 food to return another person you placed home.",,,
 D094,怕老婆的丈夫,Henpecked Husband,T2,,E,恐妻家,如果增筑3次就能赚2手，但增员很容易拥挤，所以要巧妙触发的话操作很难。即使是日雇农夫也能启动效果。,"Each time you take a ""Build Rooms"" action with the second person you place, return the first person you placed home, unless it is on the ""Meeting Place"" action space.",,,小休闲放在D，这个就不多解释了，因为竞技场环境里可能会更差一些，因为大家玩的更车，更喜欢卡扩，不喜欢和平发育，那他可能只能到一个弱D的位置吧，但是如果大家玩的和平的话，他是可以有一个强D或者C的水平的
 D095,站点管理员,Site Manager,T2,,D,現場監督,可以拿到像调理场、砖窑等作为“饭”基础关键的进步，也可以用2石2饭拿井。配合场上的轻量资源去拿工艺也是一招。泛用性非常高。,"When you play this card, immediately build a major improvement. When paying its cost, you can replace up to 1 building resource of each type with 1 food each.",,,收益很稳定，但不高的一张卡，这张卡它其实和四木卡比较像，就是没有啥额外的收益，但是可以提供你一些，你需要的东西，它可以提供你非常缺少的东西，你非常希望得到某一个主发的时候，你可以用它争夺下来，但是本身并不赚，就是说和没有这张卡的话，你从收益上没区别，就像你四木卡和手拿一个三木收益上没区别，但是你拿不到三木的时候，就会想念四木卡，这两件事是一个道理
 D099,陶器制作工,Earthenware Potter,T3,,,土器作り,虽然是宝贵的第1阶段的一手，但得分效率很优秀。砖在终盘用处不大，所以取5个左右也不勉强。即使没有足够家族份的砖，也可以转换任意数量的砖。,"If you play this card in round 4 or before, after the final harvest, you get 1 bonus point for each person for which you then pay 1 clay.",,,
@@ -2015,9 +2015,9 @@ D106,威士忌蒸馏师,Whisky Distiller,T3,,,ウイスキー蒸留器,只要有
 D109,播种大师,Sowing Master,T4,,,種まき指導者,通过“谷物活用”和“耕作”发动。播种4次得8饭。作为前期打出的话效果稍微有点不够。,"When you play this card, you immediately get 1 wood. Each time after you use an action space with the ""Sow"" action, you get 2 food.",,,
 D110,渔农,Fish Farmer,T3,,,養魚家,如果能顺利启动就很强力，但对他人的依赖也很大，有点难。要是在森林里能多次拿到3木2饭就非常优秀。芦原・粘土杭分别必须刚好是1 / 2饭时才会发动。,"Each time there is 1/2/3+ food on the ""Fishing"" accumulation space, you get an additional 2 food on the ""Reed Bank""/ ""Clay Pit""/ ""Grove"" accumulation spaces.",,,
 D112,年幼的农夫,Young Farmer,T1,,,若い農夫,小麦和播种成套附带很优秀。和耕地补助或烤面包补助成套运用吧。因为会按“获得小麦→进步→播种”的顺序发动，所以就算拿窑，也能把得到的小麦拿去烤。,"Each time you use the ""Major Improvement"" action space, you also get 1 grain and, afterward, you can take a ""Sow"" action.",,,
-D113,食品商人,Food Merchant,T3,,F,食料商人,虽然会成为拿取蔬菜的手牌压缩，但小麦田或吃饭消耗等难点也很多，如果有利用小麦田的手段，或者有人参博物馆级别的蔬菜利用方法，就能成为选项。,"For each grain you harvest from a field, you can buy 1 vegetable for 3 food. If you harvest the last grain from a field, the vegetable costs you only 2 food.",,,这卡肯定不值得一打，但是如果免费打的话，也可以打的一张卡
+D113,食物商人,Food Merchant,T3,,F,食料商人,虽然会成为拿取蔬菜的手牌压缩，但小麦田或吃饭消耗等难点也很多，如果有利用小麦田的手段，或者有人参博物馆级别的蔬菜利用方法，就能成为选项。,"For each grain you harvest from a field, you can buy 1 vegetable for 3 food. If you harvest the last grain from a field, the vegetable costs you only 2 food.",,,这卡肯定不值得一打，但是如果免费打的话，也可以打的一张卡
 D116,树木巡查员,Tree Inspector,T4,,,樹木検査人,虽然不稳定，但只要运气好就是相当不错的木材辅助。有了森林保护者的话，每回合就只有自己能一直走下去。,"This card is a ""1 Wood"" accumulation space for you only. Each time the newly revealed action space card is a ""Quarry"" accumulation space, you must discard all wood from this card.",,,
-D123,翻修筹划师,Renovation Preparer,T3,,,改築準備,如果做到5栋的话总共能拿到6资材，所以还算不错，但时间延迟很大。像砖增筑Combo之类，在大量增筑的情况下才能发挥真正价值。,"For each new wood/clay room you build, you get 2 clay/2 stone.",,,
+D123,翻修筹划人,Renovation Preparer,T3,,,改築準備,如果做到5栋的话总共能拿到6资材，所以还算不错，但时间延迟很大。像砖增筑Combo之类，在大量增筑的情况下才能发挥真正价值。,"For each new wood/clay room you build, you get 2 clay/2 stone.",,,
 D124,密使,Emissary,T3,,,使者,成本较重，但能产出相当数量的石头。Draft里如果看见了，就要记在心里，避免被其他玩家打出来后，自己在改筑时翻车。,"At any time, you can place a good from your supply on this card to get 1 stone. You must place different goods on this card. (Food is also considered a good.)",,,
 D125,森林交易员,Forest Trader,T3,,,森林交易人,前期能买到芦苇很强，但食料往往会变得紧张，所以要注意。中盘等饭基盘稳定下来后再用也同样很强力。,"Each time you use a wood or clay accumulation space, you can also buy exactly 1 building resource. Wood, clay, and reed cost 1 food each; stone costs 2 food.",,,
 D126,耕田者,Field Cultivator,T3,,D,畑の耕作者,收获7个的话合计是木砖芦×2和石头1。从序盘开始做小麦田的话，这个效果还不错。,"Pile 1 wood, 1 clay, 1 reed, 1 stone, 1 reed, 1 clay, and 1 wood on this card. Each time you harvest a field tile, you can also take the top good from the pile.",,,七个资源给的速度不算快，但是三个资源就会给一个芦苇，这个的话其实能拿到一个芦苇，它的即时收益就还可以了，所以他是要比四木卡的效果要强一点，我觉得可以在D里面比较强的位置，就是他的上限是没有的，然后收益也不是特别高，但是胜在稳定，所以可以放在D里面有个中上的位置
@@ -2039,15 +2039,15 @@ D147,陷阱修建工,Trap Builder,T2,,,罠づくり,如果有厨房就能变成7
 D149,临时员工,Casual Worker,T2,,,臨時労働者,建造马厩的效果很优秀。由于2处采石场合计会掉落11~14石头，因此也完全可以瞄准启动4次以上。自己去也不会触发，所以想要石头的话就优先去资源市场吧。,"Each time another player uses a ""Quarry"" accumulation space, you can choose to get 1 food or build a stable without paying wood.",,,
 D150,虔诚的配偶,Godly Spouse,T3,,F,信仰深い配偶者,编辑中,"Each time you take a ""Family Growth"" action with the second person you place in a round, return the first person you placed home.",,,用第二个人去生娃，可以返还第一个人，很少能看到它发挥作用吧，他可能配合一些特殊的生卡，能发挥一些聊胜于无的作用，毕竟你有生卡了，你其实那缺的已经不是动了，就是你拿了一个生卡之后，你你你更希望直接给你提供别的东西，而不是说给你提供一两个行动，看你要是在其他卡完全没用的情况下，抓这个尚可，其他卡有用的话，还是不抓他了
 D151,公关专家,Spin Doctor,T3,,D,スピンドクター,虽然要花些工夫，但能确保耕作稳定进行2次这一点很重要。,"Immediately after each time you use the ""Traveling Players"" accumulation space, you can place another person on an action space of your choice, regardless whether or not the action space is occupied.",,,他其实本身也是一张，在要和其他卖艺卡配合的卡，但是卖艺卡和其他的钓鱼之类不同的一点在于，卖艺卡普遍的抓位都非常高，或者说就是卖艺卡的抓位一般都比中公关专家好，所以你裸装一张公关专家，等其他卖艺 卡基本不现实，但是这张卡单卡不能说没有用吧，单卡还是有一点点用的，但是不多，梦想也是有一点点的，但是不多，就把它停在D里，比较往后的位置
-D153,大富翁,Wealthy Man,T4,,,裕福な男,如果是1~3阶段的收获倒不是不能瞄准，但之后就很难自然触发了。和畑番成套的话可以发挥效果，但考虑到打出要花1手，这效果就显得有点不够看。,"At the start of each of the 1st/2nd/3rd/4th/5th/6th harvest, if you have at least 1/2/3/4/5/6 grain fields, you get 1 bonus point.",,,
-D155,,Ebonist,,,,黒檀細工職人,稳定的小麦补助。收获时要特别注意不要忘记操作。,"Each harvest, you can use this card to turn exactly 1 wood into 1 food and 1 grain.",,,
+D153,大富豪,Wealthy Man,T4,,,裕福な男,如果是1~3阶段的收获倒不是不能瞄准，但之后就很难自然触发了。和畑番成套的话可以发挥效果，但考虑到打出要花1手，这效果就显得有点不够看。,"At the start of each of the 1st/2nd/3rd/4th/5th/6th harvest, if you have at least 1/2/3/4/5/6 grain fields, you get 1 bonus point.",,,
+D155,乌木加工者,Ebonist,,,,黒檀細工職人,稳定的小麦补助。收获时要特别注意不要忘记操作。,"Each harvest, you can use this card to turn exactly 1 wood into 1 food and 1 grain.",,,
 D156,零售商,Retail Dealer,T2,,,小売業者,如果能在中盘之前打出，3次通过也不算太勉强。还能拿到1饭，在食料基础没完善之前相当有用。,"Place 3 grain and 3 food on this card. Each time you use the ""Resource Market"" action space, you also get 1 grain and 1 food from this card.",,,
 D157,派对组织者,Party Organizer,T2,,,パーティー主催者,扣除打出的成本后，每手6~7饭。,"As soon as the next player but you gains their 5th person, you immediately get 8 food (not retroactively). During scoring, if only you have 5 people, you get 3 bonus points.",,,
 D159,芦苇销售商,Reed Seller,T3,,,葦売り,,"At any time, you can turn 1 reed into 3 food. Any other player can prevent this by buying the reed for 2 food from you. If multiple players are interested, choose one.",,,
 D160,助产士,Midwife,T2,E,,助産師,自己去做也不会触发是个难点。5～7回合的增员格子出现得晚的话，增员会变得拥挤，所以效果更容易触发。,"Each time another player uses the first person they place in a round to take a ""Family Growth"" action, you get 1 grain from the general supply.",,"Midwife If you are in a position where you are going to get a lot of food from the
 Midwife, you are not going to win.",
 D161,卷心菜采购商,Cabbage Buyer,T2,,,キャベツ買い,,"Each time any player (including you) renovates and the builds no/ 1 minor/ 1 major improvement, you can buy 1 vegetable for 3/2/1 food.",,,
-D163,熟练砌墙工,Journeyman Bricklayer,T3,,,旅する壁職人,虽然需要在中盘之前打出来，但相当于4石左右。,"When you play this card, you immediately get 2 stone. Each time another player renovates to stone or builds a stone room, you get 1 stone.",,,
+D163,熟练的砌墙工,Journeyman Bricklayer,T3,,,旅する壁職人,虽然需要在中盘之前打出来，但相当于4石左右。,"When you play this card, you immediately get 2 stone. Each time another player renovates to stone or builds a stone room, you get 1 stone.",,,
 D164,宠物饲养员,Pet Grower,T3,,F,ペット育成人,发动机会也很少，就算能发动也就羊3左右,"Each time you use an animal accumulation space, if afterward you have no animal in your house, you also get 1 sheep.",,,这个是被宠物经纪人完爆的一张卡，这张卡他虽然被网暴了，你真对一个想要养羊的人，他其实发挥的作用和宠物经纪人也不算太大，不过现在牧羊人也走了的话，想要养羊这个条件其实少了不少，所以就说在F吧，如果有牧羊人的话可以放到E
 D165,野猪追猎者,Pig Stalker,T3,,F,猪追い,不清楚细节规格。需要验证。尽管如此，感觉不太好用…。,"Each time you use an animal accumulation space, if you occupy either the action space immediately above or below that accumulation space, you also get 1 wild boar.",,,垃圾
 D166,牛棚挤奶工,Stable Milker,T3,,E,厩の乳搾り,和其他厩系的卡片成套运用吧。若只是拿1牛，用家畜市场就足够了，所以想启动2次。,"Each time you build at least 2 stables on the same turn, you also get 1 cattle.",,,又是马厩套配合了，然后可以和一些走畜牧的配合，但是总体这个配合还是比较少的
@@ -2183,42 +2183,42 @@ E121,山地栽培师,Hill Cultivator,,,,丘の耕作者,与畑番或私人教师
 E122,苏格兰农民,Cottar,,,C,小作農,如果手牌里有很多强力的进步，或者能收集到很多建筑设计图等进步的话就很优秀。能根据情况选择木材和砖块，灵活性很高。,"Each time you play or build an improvement, you get your choice of 1 wood or 1 clay immediately after paying its cost.",,,其实超神的局挺多的，但是总体来讲，仍然不太认为，苏格兰农民存在比较高的武装强度，因为苏格兰农民首先你不围绕着他打，他是毫无价值的，你不围绕着苏格兰农民打的话，苏格兰农民只能以一个非常非常缓慢的速度来，返还给你，就是六个资源左右啊，这是呃只能连废料收集者都达不到的强度，给的实在是太慢了，甚至你后期拉线的时候，有可能已经不需要资源了，所以说他是一定要围绕着他做行动，他才能发挥效果的一张卡，但是围绕着他做行动很赚吗，那倒那倒也不算赚了，你如果以他为核心去打出来自发的话，那他的收益比不过德笼窝，你木头总归是比不过一分的，如果你是以他为核心去打主画的话，那你木头无论是比较一株或者离一快艇，比木头都是要差太多了，所以这张卡是，并不能以及这单一的一张卡作为核心的，他一定是要等到其他的配合才可以发光发热的，所以我不太认可他有手抓的价值，放在一个C里面算是一个勉强一用，然后在部分局里有很高上限的卡
 E124,市长候选人,Mayor Candidate,,,,市長候補者,可获得的资材不算差，但缺点也令人担心。有了家具制作所就不用担心木头会剩下，但石头的用途往往比较有限，所以要注意。,"You immediately get 2 wood and 2 stone. During scoring, you get 1 negative point for each wood and each stone in your supply. You can no longer discard wood or stone.",,,
 E126,收税人,Tax Collector,,B,,収税官,拿到木头并用来做栅栏材料的场景似乎很多。即使早点把栅栏拉完，也能用于厩舍，所以很容易一直发挥到终盘。,"Once you live in a stone house, at the start of each round, you get your choice of 2 wood, 2 clay, 1 reed, or 1 stone.",," In a big game, Tax collector might bring in 5 or 6 free resources, plus whatever you buy. Slightly awkward in that it gives you resources when others build improvements, but those resources are often most useful for buying the Majors yourself. Still, very high upside. Should be banned in FotM. ",
-E127,,Diligent Farmer,,,,勤勉な農夫,要在中盘发动的话有点难的效果。可以在14R打出并进行石家增筑，最多也能做到3分，但由于效果的关系，田地和栅栏很容易把版面占满，不提前准备好增筑空间也是不容易运用的点之一。,"When you play this card, if you would score the maximum 4 points in 3 scoring categories (including fenced stables), you can extend your house by 1 room at no cost.",,,
-E128,马具工匠,Saddler,,,,馬具屋,能耕2块田的话效果还不错。年轻农夫是最佳搭档。用灶台/料理场转换时也会触发。,"Each time after you build a major improvement, you can pay 1 food to plow 1 field.",,,
-E130,,Overachiever,,,,やり手,家具筹措人的亲戚。虽然没有爆发力，但能稳定地瞄准3次起动。还能减轻かま調和窯的成本，这点很让人高兴。,"Each time you use a ""Wish for Children"" action space, you can play 1 additional improvement by paying its cost less 1 resource of your choice.",,,
-E131,,Market Master,,,,市場長,从开局起就能在不消耗饭的情况下把职业摆出来很强力。有小剧场combo的话更不用说。因为是先获得食料再出职业，所以即使出了涂装艺术家或魔术师，出的那回合效果也不会启动。,"Immediately after each time you place your last person in a round on the ""Traveling Players"" accumulation space, you can play 1 occupation for an occupation cost of 1 food.",,,
-E132,,Veggie Lover,,,,野菜愛好家,粮食和分数的转换效率都还不错。和优秀的田地辅助或播种辅助搭配使用吧。,Harvest: At most 1 time 1 Grain+1 Vegetable → 6 Food Scoring: 1 Grain+1 Vegetable/2 Grain+2 Vegetable/3 Grain+3 Vegetable → 2/4/6 bonus points,,,
+E127,勤劳农夫,Diligent Farmer,,,,勤勉な農夫,要在中盘发动的话有点难的效果。可以在14R打出并进行石家增筑，最多也能做到3分，但由于效果的关系，田地和栅栏很容易把版面占满，不提前准备好增筑空间也是不容易运用的点之一。,"When you play this card, if you would score the maximum 4 points in 3 scoring categories (including fenced stables), you can extend your house by 1 room at no cost.",,,
+E128,鞍具制造商,Saddler,,,,馬具屋,能耕2块田的话效果还不错。年轻农夫是最佳搭档。用灶台/料理场转换时也会触发。,"Each time after you build a major improvement, you can pay 1 food to plow 1 field.",,,
+E130,人生赢家,Overachiever,,,,やり手,家具筹措人的亲戚。虽然没有爆发力，但能稳定地瞄准3次起动。还能减轻かま調和窯的成本，这点很让人高兴。,"Each time you use a ""Wish for Children"" action space, you can play 1 additional improvement by paying its cost less 1 resource of your choice.",,,
+E131,营销大师,Market Master,,,,市場長,从开局起就能在不消耗饭的情况下把职业摆出来很强力。有小剧场combo的话更不用说。因为是先获得食料再出职业，所以即使出了涂装艺术家或魔术师，出的那回合效果也不会启动。,"Immediately after each time you place your last person in a round on the ""Traveling Players"" accumulation space, you can play 1 occupation for an occupation cost of 1 food.",,,
+E132,素食爱好者,Veggie Lover,,,,野菜愛好家,粮食和分数的转换效率都还不错。和优秀的田地辅助或播种辅助搭配使用吧。,Harvest: At most 1 time 1 Grain+1 Vegetable → 6 Food Scoring: 1 Grain+1 Vegetable/2 Grain+2 Vegetable/3 Grain+3 Vegetable → 2/4/6 bonus points,,,
 E133,冠军饲养员,Champion Breeder,,,,チャンピオンブリーダー,在5格、6格只要繁殖3种就能拿4分。从中盘开始拉栅栏繁殖2种的话，大概能拿到6分。有像宠物中间人那样的繁殖用卡的话就活用吧。,"Each time you place 2 or 3+ newborn animals on your farm during the breeding phase of the harvest, you get 1 or 2 bonus points, respectively.",,,
 E134,全能农夫,Omnifarmer,,,,総合農家,面向高级玩家的卡。把每件物品按1个0.5分来换算的话，放置4种时相当于1行动+2分变成7分，放置5种时相当于1行动+2.5分变成9分，放得越多得分效率越好。从阶段2开始每回合都触发似乎很难，但从阶段3开始启动4次的话，看起来不算太勉强就能瞄准。建议和能大量产出种子或家畜的卡配套使用，比如小贩、动物爱好者、收藏家、贸易教师等。,"Each harvest, you can place 1 harvested crop or 1 newborn animal on this card, irretrievably. Once this game, exchange 2/3/4/5 different goods on this for 3/5/7/9 bonus points.",,,
-E135,,Pickler,,,,ピクルス作り,如果要活用田地和蔬菜的话，是很优秀的4木职业。,"If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 wood. During scoring, each player with the most total vegetables gets 3 bonus points.",,,
+E135,腌菜工,Pickler,,,,ピクルス作り,如果要活用田地和蔬菜的话，是很优秀的4木职业。,"If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 wood. During scoring, each player with the most total vegetables gets 3 bonus points.",,,
 E136,畜牧工人,Animal Husbandry Worker,,,,畜産労働者,在11R之前打出的话，可以一边获得木材一边建造栅栏。只要在第1阶段打出就能建立牧场，因此即便是从前期开始进行家畜繁殖的情况下也可以活用。12R以后打出的话，建造栅栏的效果也不会发动，注意。想要稳拿奖励需要15根栅栏的5格牧场。,"If there are still 3/6/9 complete rounds left to play, you immediately get 2/3/4 wood and a ""Build Fences"" action. During scoring, each player with the most pastures gets 2 bonus points.",,,
-E137,,Flax Farmer,,,,亜麻農家,如果能稳定进2芦苇的话，就是还不错的小麦辅助。用小麦格连招打出来的话，想确保芦苇的用法。,"Each time you use the ""Reed Bank"" accumulation space, you also get 1 grain. Each time you use the ""Grain Seeds"" action space, you also get 1 reed.",,,
-E138,,Livestock Expert,,,,家畜の専門家,由于要在11R以前出，所以如果大量增加的话，确保存放饲养空间似乎会很困难。把家畜翻倍后立刻烤掉的场景看起来会很多。,"If you play this card in round 11 or before, choose an animal type: you immediately get a number of animals of that type equal to the number you already have on your farm.",,,
-E140,,Carter,,,,荷馬車の運転手,在下回合有机会拿到6木或6砖的时机打出吧。因为不是累积格就无法发挥效果，所以要注意。由于强化小行动的效果很多，场上的资源越是饱和就越强力。有森林保护者在场时也更容易发挥作用。,"Next round, each time you use a building resource accumulation space, you also get 1 food for each building resource that you take from the space.",,,
-E141,蔬菜推销员,Vegetable Vendor,,,,野菜販売人,即使是经常会拥挤的大进步行动也能用蔬菜来支付。序盘拿取厨房时也顺便把蔬菜一起拿上，拿去播种或烤来用也很优秀。,"Each time you use the ""Major Improvement"" or ""Vegetable Seeds"" action space, you also get 1 vegetable or a ""Major or Minor Improvement"" action, respectively.",,,
-E142,,Smuggler,,,,密輸業者,由于也会出现小麦和石头都稍微不够的情况，所以用这种灵活好用的效果算是还不错。在木头占比重的局面下，果然就很难发挥其效果。,"In the feeding phase of each harvest, you can exchange up to 2 goods as follows: 1 Wood → 1 Grain or 1 Grain → 1 Stone",,,
-E143,采煤工,Hewer,,,,炭鉱夫,对他人的依赖很大，难以稳定触发。只要有人进了砖，另一方就自己进去，这样下个回合就更容易触发。,"From round 3 on, at the end of each work phase in which all clay accumulation spaces are unoccupied, you get 1 stone and 1 food.",,,
-E144,仓库推销员,Wares Salesman,,,,セールスマン,虽说要到中盘以后，但能大量产出芦苇。能打出联动的卡意外地多。,"Each time any player (including you) plays or builds a card that lets them turn building resources into food, you get exactly 1 corresponding building resource and 1 reed.",,,
-E145,偷懒的人,Parvenu,,,,成金,大量收集砖块，想把它衔接到砖房增筑上。如果场上芦苇很重的话，也可以多拿2芦苇，然后在下一回合进行2间增筑。,"If you play this card in round 7 or before, choose clay or reed: you immediately get a number of that building resource equal to the number you already have in your supply.",,,
-E146,,Reseller,,,,転売人,在拿取水井、石窑等时先放出来比较稳妥。拿取篮子制品等时也一样，因为可以有效利用回收回来的芦苇，所以更容易运用。,"Once this game, immediately after playing or building an improvement, you can choose to get its printed cost from the general supply.",,,
-E147,,Animal Driver,,,,家畜乗り,效果不坏，但条件有点偏苛刻。,"At the start of each harvest, if you have 1/2/3+ fenced stables, you get 1 sheep/wild boar/cattle.",,,
-E148,,Lazybones,,,,怠け者,如果有日雇组合的话就是4厩。光是3厩也已经是相当不错的效果。,"Place (up to) 1 stable each on ""Grain Seeds"", ""Farmland"", ""Day Laborer"", and ""Farm Expansion"". Build the stable at no cost when another player uses that action space.",,,
-E150,,Rock Beater,,,,石打ち,和“资材市场系”的连锁卡组合一起出会比较稳妥。如果有木匠或木匠的铁锤，也可以瞄准石制多户增筑。再加上捆柴或采石的话，就是次世代型公寓。,You can use an action space providing both stone and a different building resource even if it is occupied by another player. Stone rooms cost you 2 stone less each.,,,
-E151,护士,Delivery Nurse,,,,分娩看護師,如果能尽早拉上篱笆的话，就是非常优秀的效果。只要能在中盘之前确保到牛，就能发挥相当大的威力。,"Once this game, if you have all types of animals, use any ""Family Growth"" action space even without room.",,,
-E152,,Bargain Hunter,,,,バーゲンハンター,如果可以的话，想和小剧场相关的Combo和套装一起运用。,"At the start of each round, you can place 1 food from your supply on the ""Traveling Players"" accumulation space to play a minor improvement by paying its cost.",,,
-E153,,Stone Sculptor,,,,石の彫刻家,森林保护者、发掘者、万事屋等，只要能大量出石，就能不费力地拿到6分6饭。如果没法轻松供应石头，那就别出这个，去瞄准井户似乎更强。,"Each harvest, you can use this card to exchange exactly 1 stone for 1 bonus point and 1 food.",,,
-E154,,Margrave,,,,辺境伯,自身改建成石屋时也能拿到2饭。若以饭为目的，大多数情况下用仆人会更好操作吧。终盘多半会为了得分目的而打出。,"Once you live in a stone house, you get 2 food each time any player renovates and, during scoring, 1 bonus point for each wood house and clay house.",,,
-E155,,Visionary,,,,空想家,只要先拉出4根栅栏，就能从第1ステ开始进行野猪繁殖，连蔬菜和石头也能拿到。只要除自己以外的3个人都按部就班地扩建增员，这效果就相当优秀。自己走2軒进行的情况下当然也很强。在竞技场规则里感觉会被禁用。,"If you play this card in round 4 or before, you get 1 stone, 1 vegetable, and 2 wild boar. You cannot grow your family until round 11, unless all other players already have.",,,
+E137,亚麻农夫,Flax Farmer,,,,亜麻農家,如果能稳定进2芦苇的话，就是还不错的小麦辅助。用小麦格连招打出来的话，想确保芦苇的用法。,"Each time you use the ""Reed Bank"" accumulation space, you also get 1 grain. Each time you use the ""Grain Seeds"" action space, you also get 1 reed.",,,
+E138,畜牧专家,Livestock Expert,,,,家畜の専門家,由于要在11R以前出，所以如果大量增加的话，确保存放饲养空间似乎会很困难。把家畜翻倍后立刻烤掉的场景看起来会很多。,"If you play this card in round 11 or before, choose an animal type: you immediately get a number of animals of that type equal to the number you already have on your farm.",,,
+E140,马车夫,Carter,,,,荷馬車の運転手,在下回合有机会拿到6木或6砖的时机打出吧。因为不是累积格就无法发挥效果，所以要注意。由于强化小行动的效果很多，场上的资源越是饱和就越强力。有森林保护者在场时也更容易发挥作用。,"Next round, each time you use a building resource accumulation space, you also get 1 food for each building resource that you take from the space.",,,
+E141,蔬菜摊贩,Vegetable Vendor,,,,野菜販売人,即使是经常会拥挤的大进步行动也能用蔬菜来支付。序盘拿取厨房时也顺便把蔬菜一起拿上，拿去播种或烤来用也很优秀。,"Each time you use the ""Major Improvement"" or ""Vegetable Seeds"" action space, you also get 1 vegetable or a ""Major or Minor Improvement"" action, respectively.",,,
+E142,走私犯,Smuggler,,,,密輸業者,由于也会出现小麦和石头都稍微不够的情况，所以用这种灵活好用的效果算是还不错。在木头占比重的局面下，果然就很难发挥其效果。,"In the feeding phase of each harvest, you can exchange up to 2 goods as follows: 1 Wood → 1 Grain or 1 Grain → 1 Stone",,,
+E143,采煤工人,Hewer,,,,炭鉱夫,对他人的依赖很大，难以稳定触发。只要有人进了砖，另一方就自己进去，这样下个回合就更容易触发。,"From round 3 on, at the end of each work phase in which all clay accumulation spaces are unoccupied, you get 1 stone and 1 food.",,,
+E144,货物推销员,Wares Salesman,,,,セールスマン,虽说要到中盘以后，但能大量产出芦苇。能打出联动的卡意外地多。,"Each time any player (including you) plays or builds a card that lets them turn building resources into food, you get exactly 1 corresponding building resource and 1 reed.",,,
+E145,暴发户,Parvenu,,,,成金,大量收集砖块，想把它衔接到砖房增筑上。如果场上芦苇很重的话，也可以多拿2芦苇，然后在下一回合进行2间增筑。,"If you play this card in round 7 or before, choose clay or reed: you immediately get a number of that building resource equal to the number you already have in your supply.",,,
+E146,分销商,Reseller,,,,転売人,在拿取水井、石窑等时先放出来比较稳妥。拿取篮子制品等时也一样，因为可以有效利用回收回来的芦苇，所以更容易运用。,"Once this game, immediately after playing or building an improvement, you can choose to get its printed cost from the general supply.",,,
+E147,动物驱赶者,Animal Driver,,,,家畜乗り,效果不坏，但条件有点偏苛刻。,"At the start of each harvest, if you have 1/2/3+ fenced stables, you get 1 sheep/wild boar/cattle.",,,
+E148,偷懒之人,Lazybones,,,,怠け者,如果有日雇组合的话就是4厩。光是3厩也已经是相当不错的效果。,"Place (up to) 1 stable each on ""Grain Seeds"", ""Farmland"", ""Day Laborer"", and ""Farm Expansion"". Build the stable at no cost when another player uses that action space.",,,
+E150,碎石者,Rock Beater,,,,石打ち,和“资材市场系”的连锁卡组合一起出会比较稳妥。如果有木匠或木匠的铁锤，也可以瞄准石制多户增筑。再加上捆柴或采石的话，就是次世代型公寓。,You can use an action space providing both stone and a different building resource even if it is occupied by another player. Stone rooms cost you 2 stone less each.,,,
+E151,接生护士,Delivery Nurse,,,,分娩看護師,如果能尽早拉上篱笆的话，就是非常优秀的效果。只要能在中盘之前确保到牛，就能发挥相当大的威力。,"Once this game, if you have all types of animals, use any ""Family Growth"" action space even without room.",,,
+E152,投机商人,Bargain Hunter,,,,バーゲンハンター,如果可以的话，想和小剧场相关的Combo和套装一起运用。,"At the start of each round, you can place 1 food from your supply on the ""Traveling Players"" accumulation space to play a minor improvement by paying its cost.",,,
+E153,雕刻家,Stone Sculptor,,,,石の彫刻家,森林保护者、发掘者、万事屋等，只要能大量出石，就能不费力地拿到6分6饭。如果没法轻松供应石头，那就别出这个，去瞄准井户似乎更强。,"Each harvest, you can use this card to exchange exactly 1 stone for 1 bonus point and 1 food.",,,
+E154,侯爵,Margrave,,,,辺境伯,自身改建成石屋时也能拿到2饭。若以饭为目的，大多数情况下用仆人会更好操作吧。终盘多半会为了得分目的而打出。,"Once you live in a stone house, you get 2 food each time any player renovates and, during scoring, 1 bonus point for each wood house and clay house.",,,
+E155,前瞻之人,Visionary,,,,空想家,只要先拉出4根栅栏，就能从第1ステ开始进行野猪繁殖，连蔬菜和石头也能拿到。只要除自己以外的3个人都按部就班地扩建增员，这效果就相当优秀。自己走2軒进行的情况下当然也很强。在竞技场规则里感觉会被禁用。,"If you play this card in round 4 or before, you get 1 stone, 1 vegetable, and 2 wild boar. You cannot grow your family until round 11, unless all other players already have.",,,
 E156,土矿主人,Claypit Owner,,,,粘土坑所有者,虽然比“炭烧”的发动对象更广，但即使由自己打出也不会发动。草拟时要读懂其他玩家的动向，再考虑要不要打出。,"Each time another player plays or builds an improvement with a printed clay cost, you get 1 food and 1 clay.",,,
-E157,,Usufructuary,,,,使用権利人,在1ステ结束时打出来的话，感觉能到5饭左右。,"When you play this card as your first occupation, you immediately get 1 food for every other occupation in play (by any player), up to a maximum of 7 food.",,,
-E158,,Stone Custodian,,,,,,"At the end of each work phase, you get 1 food for each stone accumulation space with stone on it.",,,
-E159,,Old Miser,,,,老いた守銭奴,人类大猩猩化计划。如果在第1ステ放出，若是以最快冲到5人为目标的玩法风格，就会以失去5分为代价，换来大约20〜25饭左右的产出。没有井户或比较强的盘外点卡的话，果然还是赢不到最后。,"In the feeding phase of each harvest, each of your people requires 1 less food. During scoring, your people are worth 2 points each instead of 3.",,,
-E160,,Kelp Gatherer,,,,海藻集め,虽然依赖他人，但似乎能产出约3个蔬菜左右。种植蔬菜并在厨房烤制等加以利用吧。如果有渔业Combo就能大量入手，但相应地渔业Combo的玩家也会受益，因此需要格外警惕。,"Each time another player uses the ""Fishing"" accumulation space, they get 1 additional food and you get 1 vegetable.",,,
-E161,,Elder Baker,,,,パン職人の長老,第1次踩3小麦做石窑，再踩一次3小麦后用“谷物活用”进行2播2烤，应该会成为基本打法。死守石窑，只要“谷物活用”不出事故，光靠这一张就足够成为稳定的吃饭基盘。,"This card is an action space for you only. When you use it, you get 3 grain. You can build the ""Stone Oven"" major improvement even when taking a ""Minor Improvement"" action.",,,
-E162,,Entrepreneur,,,,起業家,1饭换2资材，换算效率相当优秀，但限定为自己没有的资材，稍微有点不好用。像雕刻学科或钟铸造师那样，如果能频繁把资材用完，就更容易发挥作用。,"At the start of each round, you can move 1 food to this card or discard 1 food from it. If you do either, you get 1 building resource of a type you currently do not have.",,,
-E163,,Patroness,,,,女パトロン,虽然是用于职业套牌，但和赞助人相比，缺点是它本身并不能对排列职业作出贡献。准备另外的食物基础吧。,"Each time after you play an occupation after this one, you get 1 building resource of your choice.",,,
-E164,,Mountain Plowman,,,,山の耕作者,与锄系搭配即可获得羊繁殖套装。,"Each time you plow at least 1 field tile, you get 1 sheep for each field tile that you just plowed.",,,
+E157,受益人,Usufructuary,,,,使用権利人,在1ステ结束时打出来的话，感觉能到5饭左右。,"When you play this card as your first occupation, you immediately get 1 food for every other occupation in play (by any player), up to a maximum of 7 food.",,,
+E158,石场看守员,Stone Custodian,,,,,,"At the end of each work phase, you get 1 food for each stone accumulation space with stone on it.",,,
+E159,守财奴,Old Miser,,,,老いた守銭奴,人类大猩猩化计划。如果在第1ステ放出，若是以最快冲到5人为目标的玩法风格，就会以失去5分为代价，换来大约20〜25饭左右的产出。没有井户或比较强的盘外点卡的话，果然还是赢不到最后。,"In the feeding phase of each harvest, each of your people requires 1 less food. During scoring, your people are worth 2 points each instead of 3.",,,
+E160,海藻收集者,Kelp Gatherer,,,,海藻集め,虽然依赖他人，但似乎能产出约3个蔬菜左右。种植蔬菜并在厨房烤制等加以利用吧。如果有渔业Combo就能大量入手，但相应地渔业Combo的玩家也会受益，因此需要格外警惕。,"Each time another player uses the ""Fishing"" accumulation space, they get 1 additional food and you get 1 vegetable.",,,
+E161,熟练烘焙师,Elder Baker,,,,パン職人の長老,第1次踩3小麦做石窑，再踩一次3小麦后用“谷物活用”进行2播2烤，应该会成为基本打法。死守石窑，只要“谷物活用”不出事故，光靠这一张就足够成为稳定的吃饭基盘。,"This card is an action space for you only. When you use it, you get 3 grain. You can build the ""Stone Oven"" major improvement even when taking a ""Minor Improvement"" action.",,,
+E162,企业家,Entrepreneur,,,,起業家,1饭换2资材，换算效率相当优秀，但限定为自己没有的资材，稍微有点不好用。像雕刻学科或钟铸造师那样，如果能频繁把资材用完，就更容易发挥作用。,"At the start of each round, you can move 1 food to this card or discard 1 food from it. If you do either, you get 1 building resource of a type you currently do not have.",,,
+E163,女赞助商,Patroness,,,,女パトロン,虽然是用于职业套牌，但和赞助人相比，缺点是它本身并不能对排列职业作出贡献。准备另外的食物基础吧。,"Each time after you play an occupation after this one, you get 1 building resource of your choice.",,,
+E164,山地农夫,Mountain Plowman,,,,山の耕作者,与锄系搭配即可获得羊繁殖套装。,"Each time you plow at least 1 field tile, you get 1 sheep for each field tile that you just plowed.",,,
 E165,狩猎大师,Master Huntsman,,,,熟練猟師,只要在14R出1只野猪也能起到最低限的作用。如果有繁殖空间的话，还可以在第1ステ一边拿烹饪场一边瞄准野猪繁殖。,"When you play this card and each time you build a major improvement, you get 1 wild boar.",,,
-E166,,Roastmaster,,,,肉焼き名人,如果有調理場就是能做出+2飯的工作量，但若是拿了調理場後又反覆去漁小劇，手效率就會稍微變差。請和能發揮牛作用的卡搭配使用，盡早讓牛繁殖。,"Each time you use the ""Traveling Players"" or ""Fishing"" accumulation spaces, you can move exactly 1 food from that space to the other to get 1 cattle.",,,
-E167,,Dairy Crier,,,,酪農家,把获得的羊或牛用于繁殖吧。想在别人准备好灶台/烹饪场或家畜栏位之前先打出来。就算在家畜为0的状态下打到5ステ，最终也会变成羊4牛1，所以效果也还算不错。,"When you play this card, each player (including you) can choose to get 2 sheep or 2 food; you also get 1 cattle.",,,
-E168,,Animal Tamer's Apprentice,,,,見習い調教師,即使进行多次扩建，也能获得大量的家畜。与在回合结束时扩建的周日木工非常契合。,"At the start of each round, you get 1 sheep/wild boar/cattle for each unoccupied wood/clay/stone room in your house.",,,
+E166,烤肉大师,Roastmaster,,,,肉焼き名人,如果有調理場就是能做出+2飯的工作量，但若是拿了調理場後又反覆去漁小劇，手效率就會稍微變差。請和能發揮牛作用的卡搭配使用，盡早讓牛繁殖。,"Each time you use the ""Traveling Players"" or ""Fishing"" accumulation spaces, you can move exactly 1 food from that space to the other to get 1 cattle.",,,
+E167,牛奶配送员,Dairy Crier,,,,酪農家,把获得的羊或牛用于繁殖吧。想在别人准备好灶台/烹饪场或家畜栏位之前先打出来。就算在家畜为0的状态下打到5ステ，最终也会变成羊4牛1，所以效果也还算不错。,"When you play this card, each player (including you) can choose to get 2 sheep or 2 food; you also get 1 cattle.",,,
+E168,驯兽师学徒,Animal Tamer's Apprentice,,,,見習い調教師,即使进行多次扩建，也能获得大量的家畜。与在回合结束时扩建的周日木工非常契合。,"At the start of each round, you get 1 sheep/wild boar/cattle for each unoccupied wood/clay/stone room in your house.",,,

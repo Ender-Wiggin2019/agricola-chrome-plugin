@@ -22,34 +22,16 @@ function WheatIcon({ className }: { className?: string }) {
 }
 
 async function openSidePanel() {
-  console.log("[Agricola Tutor Popup] openSidePanel called")
   try {
-    console.log(
-      "[Agricola Tutor Popup] Sending openSidePanelFromPopup message..."
-    )
     const response = await chrome.runtime.sendMessage({
       action: "openSidePanelFromPopup"
     })
-    console.log("[Agricola Tutor Popup] Received response:", response)
     if (response?.success) {
-      console.log(
-        "[Agricola Tutor Popup] Side panel opened successfully, closing popup in 100ms"
-      )
       setTimeout(() => window.close(), 100)
     } else {
-      console.error(
-        "[Agricola Tutor Popup] Side panel failed to open:",
-        response?.error
-      )
-      // Still close popup
       setTimeout(() => window.close(), 500)
     }
-  } catch (error) {
-    console.error(
-      "[Agricola Tutor Popup] Exception while sending message:",
-      error
-    )
-    // Still close popup even on error
+  } catch {
     setTimeout(() => window.close(), 500)
   }
 }

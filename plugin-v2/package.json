@@ -1,7 +1,7 @@
 {
   "name": "agricola-tutor",
   "displayName": "__MSG_extensionName__",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "__MSG_extensionDescription__",
   "author": "Ender",
   "scripts": {
@@ -18,7 +18,12 @@
     "release:en": "bash scripts/release-locale.sh -l en",
     "release:zh": "bash scripts/release-locale.sh -l zh",
     "release:jp": "bash scripts/release-locale.sh -l jp",
-    "release:all": "bash scripts/release-locale.sh -l en && bash scripts/release-locale.sh -l zh && bash scripts/release-locale.sh -l jp"
+    "release:all": "bash scripts/release-locale.sh -l en && bash scripts/release-locale.sh -l zh && bash scripts/release-locale.sh -l jp",
+    "build:local": "bash scripts/build-local.sh",
+    "build:local:en": "bash scripts/build-local.sh -l en",
+    "build:local:zh": "bash scripts/build-local.sh -l zh",
+    "build:local:jp": "bash scripts/build-local.sh -l jp",
+    "build:local:all": "bash scripts/build-local.sh && bash scripts/build-local.sh -l en && bash scripts/build-local.sh -l zh && bash scripts/build-local.sh -l jp"
   },
   "dependencies": {
     "clsx": "^2.1.0",

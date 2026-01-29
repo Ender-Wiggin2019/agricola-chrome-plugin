@@ -130,5 +130,9 @@
   "footer_specialThanks": {
     "message": "Special thanks to",
     "description": "Credits label"
+  },
+  "show_more": {
+    "message": "Show More",
+    "description": "Show more button text"
   }
 }

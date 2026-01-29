@@ -65,7 +65,6 @@ function shouldRunOnCurrentPage(): boolean {
     return false
   } catch (error) {
     // If there's any error accessing window.location, default to false
-    console.warn("[Agricola Tutor] Error checking URL:", error)
     return false
   }
 }
@@ -86,10 +85,6 @@ const PlasmoOverlay = () => {
   }
 
   const openSearchModal = useCallback((query: string = "") => {
-    console.log(
-      "[Agricola Tutor Content] Opening search modal with query:",
-      query
-    )
     setInitialQuery(query)
     // Don't auto focus if opening with a query (from tier badge click)
     setShouldAutoFocus(query === "")
@@ -97,7 +92,6 @@ const PlasmoOverlay = () => {
   }, [])
 
   const closeSearchModal = useCallback(() => {
-    console.log("[Agricola Tutor Content] Closing search modal")
     setIsModalOpen(false)
     // Reset initial query after closing
     setTimeout(() => setInitialQuery(""), 200)
@@ -106,10 +100,6 @@ const PlasmoOverlay = () => {
   // Listen for card overlay click events
   useEffect(() => {
     const handleCardSearch = (e: CustomEvent<{ cardId: string }>) => {
-      console.log(
-        "[Agricola Tutor Content] Received card search event:",
-        e.detail
-      )
       openSearchModal(e.detail.cardId)
     }
     window.addEventListener(

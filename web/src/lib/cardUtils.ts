@@ -28,8 +28,27 @@ export function getTierDescForCard(card: ICardV2, lang: string = 'en'): string {
 }
 
 export function getCardDesc(card: ICardV2, lang: string = 'en'): string {
-  const desc = card.localeDescs[lang as keyof typeof card.localeDescs];
-  return desc || card.localeDescs[card.defaultLang] || '';
+  // Priority: current lang > default lang > en > zh > jp
+  const currentLangDesc = card.localeDescs[lang as keyof typeof card.localeDescs];
+  if (currentLangDesc && currentLangDesc.trim() !== '') {
+    return currentLangDesc;
+  }
+
+  const defaultLangDesc = card.localeDescs[card.defaultLang as keyof typeof card.localeDescs];
+  if (defaultLangDesc && defaultLangDesc.trim() !== '') {
+    return defaultLangDesc;
+  }
+
+  // Fixed order fallback: en → zh → jp
+  const fallbackLangs: (keyof typeof card.localeDescs)[] = ['en', 'zh', 'jp'];
+  for (const fallbackLang of fallbackLangs) {
+    const desc = card.localeDescs[fallbackLang];
+    if (desc && desc.trim() !== '') {
+      return desc;
+    }
+  }
+
+  return '';
 }
 
 export function getTierDescForAuthor(
@@ -40,6 +59,7 @@ export function getTierDescForAuthor(
   const tier = getTierByAuthor(card, author);
   if (!tier) return '';
 
+  // Priority: desc > current lang > default lang > en > zh
   if (tier.desc && tier.desc.trim() !== '') {
     return tier.desc;
   }
@@ -49,12 +69,15 @@ export function getTierDescForAuthor(
     return currentLangDesc;
   }
 
-  const defaultLangDesc = tier.localeDescs[card.defaultLang as keyof typeof tier.localeDescs];
+  const defaultLangDesc = card.defaultLang && tier.localeDescs[card.defaultLang as keyof typeof tier.localeDescs];
   if (defaultLangDesc && defaultLangDesc.trim() !== '') {
     return defaultLangDesc;
   }
 
-  for (const [, desc] of Object.entries(tier.localeDescs)) {
+  // Fixed order fallback: en → zh → jp
+  const fallbackLangs: (keyof typeof tier.localeDescs)[] = ['en', 'zh', 'jp'];
+  for (const fallbackLang of fallbackLangs) {
+    const desc = tier.localeDescs[fallbackLang];
     if (desc && desc.trim() !== '') {
       return desc;
     }
