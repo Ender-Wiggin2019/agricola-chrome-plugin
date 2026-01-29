@@ -9,6 +9,7 @@ description: "Plasmo's CSUI orchestrates a lifecycle dedicated to mounting and u
 tags:
   - "clippings"
 ---
+
 ## Life Cycle of Plasmo CSUI
 
 Plasmo's CSUI orchestrates a lifecycle dedicated to mounting and unmounting your React, Vue, or Svelte components in a content script. Although each UI library/framework has a slightly different mounting API, the top-level lifecycle is largely the same:
@@ -19,14 +20,14 @@ Plasmo's CSUI orchestrates a lifecycle dedicated to mounting and unmounting your
 
 ## Terminologies
 
-| Term | Description |
-| --- | --- |
-| Anchor | Tell CSUI how and where to mount your component |
-| Anchor-getter | Tell CSUI how to find your anchor(s) |
-| Overlay | Mount your component on a top-level (max z-index) overlay element |
-| Inline | Mount your component into the webpage's DOM, next to a target element |
-| Root Container | A ShadowDOM element created by CSUI to isolate your component |
-| Renderer | The top-level life-cycle runner (it does everything) |
+| Term           | Description                                                           |
+| -------------- | --------------------------------------------------------------------- |
+| Anchor         | Tell CSUI how and where to mount your component                       |
+| Anchor-getter  | Tell CSUI how to find your anchor(s)                                  |
+| Overlay        | Mount your component on a top-level (max z-index) overlay element     |
+| Inline         | Mount your component into the webpage's DOM, next to a target element |
+| Root Container | A ShadowDOM element created by CSUI to isolate your component         |
+| Renderer       | The top-level life-cycle runner (it does everything)                  |
 
 ## Anchor
 
@@ -36,12 +37,10 @@ A Plasmo CSUI anchor is defined by the following type:
 
 ```ts
 export type PlasmoCSUIAnchor = {
+  type: "overlay" | "inline";
 
-  type: "overlay" | "inline"
-
-  element: Element
-
-}
+  element: Element;
+};
 ```
 
 By default, the CSUI lifecycle creates an overlay anchor using the `document.body` element:
@@ -56,24 +55,18 @@ By default, the CSUI lifecycle creates an overlay anchor using the `document.bod
 }
 ```
 
-If any anchor-getter function is defined and exported, the CSUI lifecycle will use the returned element and the relevant anchor type instead. Since the anchor-getter functions can be async, you also have the power to control *when* Plasmo mounts your component. For example, you can wait for a specific element to appear on the page before mounting your component.
+If any anchor-getter function is defined and exported, the CSUI lifecycle will use the returned element and the relevant anchor type instead. Since the anchor-getter functions can be async, you also have the power to control _when_ Plasmo mounts your component. For example, you can wait for a specific element to appear on the page before mounting your component.
 
 The anchor is passed down to the CSUI via the anchor props. You can access it as follow:
 
 ```tsx
-import type { PlasmoCSUIProps } from "plasmo"
-
- 
+import type { PlasmoCSUIProps } from "plasmo";
 
 const AnchorTypePrinter: FC<PlasmoCSUIProps> = ({ anchor }) => {
+  return <span>{anchor.type}</span>;
+};
 
-  return <span>{anchor.type}</span>
-
-}
-
- 
-
-export default AnchorTypePrinter
+export default AnchorTypePrinter;
 ```
 
 ### Overlay
@@ -85,25 +78,19 @@ Overlay anchors spawn `CSUI Overlay Containers` which are batch-mounted onto a s
 To specify a single overlay anchor, export a `getOverlayAnchor` function:
 
 ```ts
-import type { PlasmoGetOverlayAnchor } from "plasmo"
-
- 
+import type { PlasmoGetOverlayAnchor } from "plasmo";
 
 export const getOverlayAnchor: PlasmoGetOverlayAnchor = async () =>
-
-  document.querySelector("#pricing")
+  document.querySelector("#pricing");
 ```
 
 To specify a list of overlay anchors, export a `getOverlayAnchorList` function:
 
 ```ts
-import type { PlasmoGetOverlayAnchorList } from "plasmo"
-
- 
+import type { PlasmoGetOverlayAnchorList } from "plasmo";
 
 export const getOverlayAnchorList: PlasmoGetOverlayAnchorList = async () =>
-
-  document.querySelectorAll("a")
+  document.querySelectorAll("a");
 ```
 
 ⚠️
@@ -115,33 +102,21 @@ export const getOverlayAnchorList: PlasmoGetOverlayAnchorList = async () =>
 The default `Overlay Container` listens to the window scroll event to align itself with the anchor element. You can customize how the `Overlay Container` refreshes its absolute positioning by exporting a `watchOverlayAnchor` function. The example below refreshes the position every 8472ms:
 
 ```ts
-import type { PlasmoWatchOverlayAnchor } from "plasmo"
-
- 
+import type { PlasmoWatchOverlayAnchor } from "plasmo";
 
 export const watchOverlayAnchor: PlasmoWatchOverlayAnchor = (
-
-  updatePosition
-
+  updatePosition,
 ) => {
-
   const interval = setInterval(() => {
-
-    updatePosition()
-
-  }, 8472)
-
- 
+    updatePosition();
+  }, 8472);
 
   // Clear the interval when unmounted
 
   return () => {
-
-    clearInterval(interval)
-
-  }
-
-}
+    clearInterval(interval);
+  };
+};
 ```
 
 Check [with-content-scripts-ui/contents/plasmo-overlay-watch.tsx](https://github.com/PlasmoHQ/examples/blob/main/with-content-scripts-ui/contents/plasmo-overlay-watch.tsx) for an example.
@@ -155,63 +130,47 @@ Inline anchor embeds your `CSUI Component` directly into the web page. Each anch
 To specify a single inline anchor, export a `getInlineAnchor` function:
 
 ```ts
-import type { PlasmoGetInlineAnchor } from "plasmo"
-
- 
+import type { PlasmoGetInlineAnchor } from "plasmo";
 
 export const getInlineAnchor: PlasmoGetInlineAnchor = async () =>
-
-  document.querySelector("#pricing")
+  document.querySelector("#pricing");
 ```
 
 To specify single inline anchor with insert position:
 
 ```ts
-import type { PlasmoGetInlineAnchor } from "plasmo"
-
- 
+import type { PlasmoGetInlineAnchor } from "plasmo";
 
 export const getInlineAnchor: PlasmoGetInlineAnchor = async () => ({
+  element: document.querySelector("#pricing"),
 
-      element: document.querySelector("#pricing"),
-
-      insertPosition: "afterend"
-
-})
+  insertPosition: "afterend",
+});
 ```
 
 To specify a list of inline anchors, export a `getInlineAnchorList` function:
 
 ```ts
-import type { PlasmoGetInlineAnchorList } from "plasmo"
-
- 
+import type { PlasmoGetInlineAnchorList } from "plasmo";
 
 export const getInlineAnchorList: PlasmoGetInlineAnchorList = async () =>
-
-  document.querySelectorAll("a")
+  document.querySelectorAll("a");
 ```
 
 To specify a list of inline anchors with insert position:
 
 ```ts
-import type { PlasmoGetInlineAnchorList } from "plasmo"
-
- 
+import type { PlasmoGetInlineAnchorList } from "plasmo";
 
 export const getInlineAnchorList: PlasmoGetInlineAnchorList = async () => {
-
-  const anchors = document.querySelectorAll("a")
+  const anchors = document.querySelectorAll("a");
 
   return Array.from(anchors).map((element) => ({
-
     element,
 
-    insertPosition: "afterend"
-
-  }))
-
-}
+    insertPosition: "afterend",
+  }));
+};
 ```
 
 Check [with-content-scripts-ui/contents/plasmo-inline.tsx](https://github.com/PlasmoHQ/examples/blob/main/with-content-scripts-ui/contents/plasmo-inline.tsx) for an example.
@@ -227,25 +186,19 @@ The `Root Container` is where your `CSUI Component` is mounted. The built-in `Ro
 The `Root Container` creates a `shadowHost` which gets injected into the web page's DOM tree. By default, Plasmo injects the `shadowHost` after the element for an inline anchor, and before the `document.body` for an overlay anchor. To customize this behavior, export a `mountShadowHost` function:
 
 ```tsx
-import type { PlasmoMountShadowHost } from "plasmo"
-
- 
+import type { PlasmoMountShadowHost } from "plasmo";
 
 export const mountShadowHost: PlasmoMountShadowHost = ({
-
   shadowHost,
 
   anchor,
 
-  mountState
-
+  mountState,
 }) => {
+  anchor.element.appendChild(shadowHost);
 
-  anchor.element.appendChild(shadowHost)
-
-  mountState.observer.disconnect() // OPTIONAL DEMO: stop the observer as needed
-
-}
+  mountState.observer.disconnect(); // OPTIONAL DEMO: stop the observer as needed
+};
 ```
 
 ### Closed Shadow Root
@@ -253,13 +206,10 @@ export const mountShadowHost: PlasmoMountShadowHost = ({
 By default, the shadow root is "open," allowing anyone (developer and extension user) to inspect the hierarchy of the ShadowDOM. To override this behavior, export a `createShadowRoot` function:
 
 ```ts
-import type { PlasmoCreateShadowRoot } from "plasmo"
-
- 
+import type { PlasmoCreateShadowRoot } from "plasmo";
 
 export const createShadowRoot: PlasmoCreateShadowRoot = (shadowHost) =>
-
-  shadowHost.attachShadow({ mode: "closed" })
+  shadowHost.attachShadow({ mode: "closed" });
 ```
 
 ### Custom Styles
@@ -273,11 +223,9 @@ For further guidance on styling CSUI, please read [Styling Plasmo CSUI](https://
 Sometimes, you'll want to completely replace Plasmo's Shadow DOM container implementation to fit your needs. For example, you might want to piggyback on an element within the web page itself instead of creating a new DOM element. To do so, export a `getRootContainer` function:
 
 ```ts
-import type { PlasmoGetRootContainer } from "plasmo"
+import type { PlasmoGetRootContainer } from "plasmo";
 
- 
-
-export const getRootContainer = () => document.getElementById("itero")
+export const getRootContainer = () => document.getElementById("itero");
 ```
 
 Some reasons you'd want to do this:
@@ -307,7 +255,7 @@ To detect `Root Container` removal, the `CSUI Renderer` compares each mounted co
 ```ts
 import type { PlasmoGetShadowHostId } from "plasmo"
 
- 
+
 
 export const getShadowHostId: PlasmoGetShadowHostId = () => \`adonais\`
 ```
@@ -317,7 +265,7 @@ The function also allows developers to customize the id for each anchor found:
 ```ts
 import type { PlasmoGetShadowHostId } from "plasmo"
 
- 
+
 
 export const getShadowHostId: PlasmoGetShadowHostId = ({ element }) =>
 
@@ -335,189 +283,123 @@ Developers may export a `render` function to override the default renderer. You 
 For example, to use an existing element as a custom container:
 
 ```tsx
-import type { PlasmoRender } from "plasmo"
+import type { PlasmoRender } from "plasmo";
 
- 
+import { CustomContainer } from "~components/custom-container";
 
-import { CustomContainer } from "~components/custom-container"
-
- 
-
-const EngageOverlay = () => <span>ENGAGE</span>
-
- 
+const EngageOverlay = () => <span>ENGAGE</span>;
 
 // This function overrides the default \`createRootContainer\`
 
 export const getRootContainer = () =>
-
   new Promise((resolve) => {
-
     const checkInterval = setInterval(() => {
-
-      const rootContainer = document.getElementById("itero")
+      const rootContainer = document.getElementById("itero");
 
       if (rootContainer) {
+        clearInterval(checkInterval);
 
-        clearInterval(checkInterval)
-
-        resolve(rootContainer)
-
+        resolve(rootContainer);
       }
-
-    }, 137)
-
-  })
-
- 
+    }, 137);
+  });
 
 export const render: PlasmoRender = async ({
-
   anchor, // the observed anchor, OR document.body.
 
-  createRootContainer // This creates the default root container
-
+  createRootContainer, // This creates the default root container
 }) => {
+  const rootContainer = await createRootContainer();
 
-  const rootContainer = await createRootContainer()
-
- 
-
-  const root = createRoot(rootContainer) // Any root
+  const root = createRoot(rootContainer); // Any root
 
   root.render(
-
     <CustomContainer>
-
       <EngageOverlay />
-
-    </CustomContainer>
-
-  )
-
-}
+    </CustomContainer>,
+  );
+};
 ```
 
 How to dynamically create a custom container:
 
 ```tsx
-import type { PlasmoRender } from "plasmo"
+import type { PlasmoRender } from "plasmo";
 
- 
+import { CustomContainer } from "~components/custom-container";
 
-import { CustomContainer } from "~components/custom-container"
-
- 
-
-const EngageOverlay = () => <span>ENGAGE</span>
-
- 
+const EngageOverlay = () => <span>ENGAGE</span>;
 
 // This function overrides the default \`createRootContainer\`
 
 export const getRootContainer = ({ anchor, mountState }) =>
-
   new Promise((resolve) => {
-
     const checkInterval = setInterval(() => {
-
-      let { element, insertPosition } = anchor
+      let { element, insertPosition } = anchor;
 
       if (element) {
+        const rootContainer = document.createElement("div");
 
-        const rootContainer = document.createElement("div")
+        mountState.hostSet.add(rootContainer);
 
-        mountState.hostSet.add(rootContainer)
+        mountState.hostMap.set(rootContainer, anchor);
 
-        mountState.hostMap.set(rootContainer, anchor)
+        element.insertAdjacentElement(insertPosition, rootContainer);
 
-        element.insertAdjacentElement(insertPosition, rootContainer)
+        clearInterval(checkInterval);
 
-        clearInterval(checkInterval)
-
-        resolve(rootContainer)
-
+        resolve(rootContainer);
       }
-
-    }, 137)
-
-  })
-
- 
+    }, 137);
+  });
 
 export const render: PlasmoRender = async ({
-
   anchor, // the observed anchor, OR document.body.
 
-  createRootContainer // This creates the default root container
-
+  createRootContainer, // This creates the default root container
 }) => {
+  const rootContainer = await createRootContainer(anchor);
 
-  const rootContainer = await createRootContainer(anchor)
-
- 
-
-  const root = createRoot(rootContainer) // Any root
+  const root = createRoot(rootContainer); // Any root
 
   root.render(
-
     <CustomContainer>
-
       <EngageOverlay />
-
-    </CustomContainer>
-
-  )
-
-}
+    </CustomContainer>,
+  );
+};
 ```
 
 To utilize the built-in `Inline Container` or `Overlay Container`:
 
 ```tsx
-import type { PlasmoRender } from "plasmo"
+import type { PlasmoRender } from "plasmo";
 
- 
-
-const AnchorOverlay = ({ anchor }) => <span>{anchor.innerText}</span>
-
- 
+const AnchorOverlay = ({ anchor }) => <span>{anchor.innerText}</span>;
 
 export const render: PlasmoRender = async (
-
   {
-
     anchor, // the observed anchor, OR document.body.
 
-    createRootContainer // This creates the default root container
-
+    createRootContainer, // This creates the default root container
   },
 
   _,
 
-  OverlayCSUIContainer
-
+  OverlayCSUIContainer,
 ) => {
+  const rootContainer = await createRootContainer();
 
-  const rootContainer = await createRootContainer()
-
- 
-
-  const root = createRoot(rootContainer) // Any root
+  const root = createRoot(rootContainer); // Any root
 
   root.render(
-
     // You must pass down an anchor to mount the default container. Here we pass the default one
 
     <OverlayCSUIContainer anchor={anchor}>
-
       <AnchorOverlay anchor={anchor} />
-
-    </OverlayCSUIContainer>
-
-  )
-
-}
+    </OverlayCSUIContainer>,
+  );
+};
 ```
 
 If you need to customize the MutationObserver, do not export an anchor-getter function. Otherwise, the built-in MutationObserver will still be spawned.

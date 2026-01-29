@@ -3,9 +3,7 @@
   "name": "Agricola Card Tier",
   "version": "0.0.4",
   "description": "Adds tier information and statistics to Agricola cards. Original tier comes from Baitu, Chen233, Mark Hartnady, Lumin",
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -21,4 +19,3 @@
     }
   ]
 }
-

@@ -1,11 +1,11 @@
-import { useState, useCallback, useMemo, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
 import { Github } from 'lucide-react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { SearchBox } from '@/components/SearchBox';
 import { SearchResults } from '@/components/SearchResults';
-import { LanguageSwitcher } from '@/components/LanguageSwitcher';
-import type { ICard, IAuthors } from '@/types/card';
-import { searchCards, getRandomRecommendedCards } from '@/lib/cardUtils';
+import { getRandomRecommendedCards, searchCards } from '@/lib/cardUtils';
+import type { IAuthors, ICardV2 } from '@/types/cardV2';
 
 interface SocialLink {
   name: string;
@@ -44,12 +44,12 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 
 function App() {
   const { t } = useTranslation();
-  const [cardsData, setCardsData] = useState<ICard[]>([]);
+  const [cardsData, setCardsData] = useState<ICardV2[]>([]);
   const [authorsData, setAuthorsData] = useState<IAuthors | undefined>(undefined);
   const [socialLinks, setSocialLinks] = useState<SocialLink[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [isLoading, setIsLoading] = useState(true);
-  const [recommendedCards, setRecommendedCards] = useState<ICard[]>([]);
+  const [recommendedCards, setRecommendedCards] = useState<ICardV2[]>([]);
   const [displayCount, setDisplayCount] = useState(PAGE_SIZE);
 
   // Load cards and authors data
@@ -244,7 +244,9 @@ function App() {
               <span className="font-medium">{t('footer.tierProviders')}:</span> Yuxiao_Huang,
               Chen233, Mark Hartnady
             </p>
-            <p className="pt-2 text-xs opacity-75">{t('footer.specialThanks')} Henry, smile3000, 暧晖</p>
+            <p className="pt-2 text-xs opacity-75">
+              {t('footer.specialThanks')} Henry, smile3000, 暧晖
+            </p>
           </div>
 
           {/* Social Links */}

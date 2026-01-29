@@ -4,7 +4,10 @@
  * @param substitutions - Optional substitution strings
  * @returns Localized message string
  */
-export function getMessage(key: string, substitutions?: string | string[]): string {
+export function getMessage(
+  key: string,
+  substitutions?: string | string[]
+): string {
   try {
     const message = chrome.i18n.getMessage(key, substitutions)
     return message || key

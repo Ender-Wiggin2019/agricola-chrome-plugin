@@ -39,3 +39,5 @@ keys.json
 .tsbuildinfo
 
 .DS_Store
+
+*.zip

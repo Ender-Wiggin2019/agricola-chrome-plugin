@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.5] - 2026-01-29
+
+### Changed
+- **数据结构优化** - 提高兼容性，支持更多数据格式
+- **BGA 职业名称更新** - 更新 Board Game Arena 上的职业名称
+
+### Fixed
+- 修复 card-overlay 使用错误文件扩展名导致的 React 错误 (#130)
+- 移除所有开发日志，减少控制台输出
+- 修复 authors.json 加载失败时的错误处理
+
 ## [0.2.3] - 2026-01-17
 
 ### Fixed

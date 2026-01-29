@@ -3,22 +3,22 @@ name: Release
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version to release (e.g., 0.2.0)'
+        description: "Version to release (e.g., 0.2.0)"
         required: true
         type: string
       release_type:
-        description: 'Release type'
+        description: "Release type"
         required: true
         type: choice
         options:
           - stable
           - beta
           - alpha
-        default: 'stable'
+        default: "stable"
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2

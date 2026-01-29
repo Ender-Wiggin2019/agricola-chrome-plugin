@@ -9,6 +9,7 @@ description: "Plasmo CSUI's built-in Root Container allows extension developers 
 tags:
   - "clippings"
 ---
+
 ## Styling Plasmo CSUI
 
 [Plasmo CSUI's built-in `Root Container`](https://docs.plasmo.com/framework/content-scripts-ui/life-cycle#root-container) allows extension developers to safely style their components. It ensures that for the most part:
@@ -27,7 +28,7 @@ content.tsx
 ```ts
 import type { PlasmoGetStyle } from "plasmo"
 
- 
+
 
 export const getStyle: PlasmoGetStyle = () => {
 
@@ -55,21 +56,17 @@ To import CSS/LESS/SASS files, combine the `getStyle` API with the [`data-text` 
 content.tsx
 
 ```ts
-import styleText from "data-text:./style.scss"
+import styleText from "data-text:./style.scss";
 
-import type { PlasmoGetStyle } from "plasmo"
-
- 
+import type { PlasmoGetStyle } from "plasmo";
 
 export const getStyle: PlasmoGetStyle = () => {
+  const style = document.createElement("style");
 
-  const style = document.createElement("style")
+  style.textContent = styleText;
 
-  style.textContent = styleText
-
-  return style
-
-}
+  return style;
+};
 ```
 
 ## CSS-in-JS
@@ -79,31 +76,23 @@ The `getStyle` API can also be used to hydrate CSS-in-JS style cache, for exampl
 content.tsx
 
 ```ts
-import createCache from "@emotion/cache"
+import createCache from "@emotion/cache";
 
-import { CacheProvider } from "@emotion/react"
+import { CacheProvider } from "@emotion/react";
 
-import type { PlasmoGetStyle } from "plasmo"
+import type { PlasmoGetStyle } from "plasmo";
 
- 
-
-const styleElement = document.createElement("style")
-
- 
+const styleElement = document.createElement("style");
 
 const styleCache = createCache({
-
   key: "plasmo-emotion-cache",
 
   prepend: true,
 
-  container: styleElement
+  container: styleElement,
+});
 
-})
-
- 
-
-export const getStyle: PlasmoGetStyle = () => styleElement
+export const getStyle: PlasmoGetStyle = () => styleElement;
 ```
 
 ## CSS Modules
@@ -121,7 +110,6 @@ font.css
 
 ```css
 @font-face {
-
   font-family: "Fascinate";
 
   font-style: normal;
@@ -132,12 +120,10 @@ font.css
 
   src: url(data-base64:~assets/Fascinate.woff2) format("woff2");
 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-
-    U+FEFF, U+FFFD;
-
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,
+    U+FFFD;
 }
 ```
 
@@ -147,12 +133,10 @@ content.tsx
 
 ```tsx
 export const config: PlasmoCSConfig = {
-
   matches: ["https://www.plasmo.com/*"],
 
-  css: ["font.css"]
-
-}
+  css: ["font.css"],
+};
 ```
 
 1. Once the browser registers the font, you can reference it inside your CSS style:
@@ -161,13 +145,11 @@ style.css
 
 ```css
 .hw-top {
-
   background: red;
 
   color: white;
 
   font-family: "Fascinate";
-
 }
 ```
 
@@ -181,17 +163,11 @@ style.css
 
 ```css
 #plasmo-shadow-container {
-
   z-index: 99999;
-
 }
 
- 
-
 #plasmo-inline {
-
   background: blue;
-
 }
 ```
 
@@ -221,9 +197,7 @@ If the host webpage uses a global `*` specifier to style its page, it can potent
 
 ```css
 * {
-
   display: block;
-
 }
 ```
 
@@ -235,8 +209,6 @@ style.css
 
 ```css
 #plasmo-shadow-container {
-
   z-index: 2147483646 !important;
-
 }
 ```

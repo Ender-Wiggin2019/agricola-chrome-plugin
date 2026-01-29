@@ -130,5 +130,9 @@
   "footer_specialThanks": {
     "message": "特别感谢",
     "description": "鸣谢标签"
+  },
+  "show_more": {
+    "message": "展示更多",
+    "description": "展示更多按钮文本"
   }
 }

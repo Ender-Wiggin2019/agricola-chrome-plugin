@@ -1,0 +1,63 @@
+---
+alwaysApply: true
+---
+
+我的项目分为 plugin-v2 和 web。两个项目的代码逻辑是相似的，但是一个是插件，另一个是web服务。二者会使用同一份 card.json 文件。
+
+每次你需要修改逻辑的时候，需要同时关注两个项目，确保逻辑是兼容的。
+
+目前我希望可以重构一下card.json的数据结构，方便未来扩展。如下是我制定的数据结构，主要是考虑未来多语言和更多tier数据的扩展。你需要做的是：
+
+1. 首先评估一下 V2 版本数据结构的可扩展性和可维护性，是否足够满足需求，还是有更好的优化方式？如果你可以想到可以提出来让用户评判一下。
+2. 在定义好数据结构之后，尝试进行重构。首先需要修改 generate_index.py 脚本，以支持新的数据结构。为了保证兼容性，推荐新生成一个 generate_index_v2.py。
+3. 然后对 plugin-v2 和 web 项目进行重构。使用新的数据结构，修改代码中的相应逻辑，以可扩展性作为主要考虑因素。注意，你不需要考虑向后兼容，因为每次发布都是独立版本，无用的逻辑直接移除即可。
+
+```
+export interface ICardV2 {
+  no: string;
+  defaultName: string;
+  defaultDesc: string;
+  localeNames: Array<{
+    [lang: string]: string; // en, zh, jp
+  }>;
+  localeDescs: Array<{
+    [lang: string]: string;
+  }>;
+  tiers: Array<{
+    author: 'baitu' | 'mark' | 'chen';
+    tier: string;
+    score?: number;
+    desc: string;
+    localeDescs: Array<{
+      [lang: string]: string;
+    }>;
+  }>;
+  stats?: {
+    default?: IStats;
+    nb?: IStats;
+  };
+}
+```
+
+V1数据结构：
+
+```
+export interface ICard {
+  no: string;
+  cnName: string;
+  enName: string;
+  desc?: string;
+  baituTier: string;
+  enTier: string;
+  chenTier: string;
+  baituDesc: string;
+  enDesc: string;
+  chenDesc: string;
+  enDesc_trans2zh?: string;
+  jpwiki_score?: string;
+  stats?: {
+    default?: IStats;
+    nb?: IStats;
+  };
+}
+```

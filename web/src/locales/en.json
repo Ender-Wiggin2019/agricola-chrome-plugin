@@ -21,11 +21,12 @@
   "card": {
     "description": "Description",
     "showOriginal": "Show Original",
+    "showMore": "Show More",
     "showTranslation": "Show Translation"
   },
   "tier": {
     "baitu": "白兔",
-    "en": "EN",
+    "mark": "Mark",
     "chen": "Chen"
   },
   "stats": {

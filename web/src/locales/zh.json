@@ -21,11 +21,12 @@
   "card": {
     "description": "描述",
     "showOriginal": "显示原文",
+    "showMore": "展示更多",
     "showTranslation": "显示翻译"
   },
   "tier": {
     "baitu": "白兔",
-    "en": "Mark",
+    "mark": "Mark",
     "chen": "闰土"
   },
   "stats": {

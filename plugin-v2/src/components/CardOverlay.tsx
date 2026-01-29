@@ -1,57 +1,50 @@
-import type { ICard, IAuthors } from "~types/card"
-import { getStatsData, getPrimaryTierColor } from "~lib/cardUtils"
-import { TierBadgeWithTooltip } from "./TierBadgeWithTooltip"
+import {
+  getPrimaryTierColor,
+  getStatsData,
+  getTierDesc,
+  getTierScore,
+  getTierValue,
+  tierHasDesc
+} from "~lib/cardUtils"
+import { getAuthorIds, type TAuthorId } from "~lib/config"
+import type { IAuthors, ICardV2 } from "~types/cardV2"
+
 import { StatsBadge } from "./StatsBadge"
+import { TierBadgeWithTooltip } from "./TierBadgeWithTooltip"
 
 interface CardOverlayProps {
-  card: ICard
+  card: ICardV2
   authors?: IAuthors
 }
 
 export function CardOverlay({ card, authors }: CardOverlayProps) {
   const statsData = getStatsData(card)
   const primaryColor = getPrimaryTierColor(card)
+  const authorIds = getAuthorIds()
 
-  const hasBadges = 
-    (card.baituTier && card.baituTier.trim() !== "") ||
-    (card.enTier && card.enTier.trim() !== "") ||
-    (card.chenTier && card.chenTier.trim() !== "") ||
-    statsData
+  const hasBadges = authorIds.some((id) => getTierValue(card, id)) || statsData
 
   if (!hasBadges) return null
 
   return (
-    <div 
+    <div
       className="plasmo-flex plasmo-items-center plasmo-justify-center plasmo-gap-1.5 plasmo-flex-wrap plasmo-p-1.5 plasmo-bg-white/90 plasmo-backdrop-blur-sm plasmo-rounded-lg plasmo-shadow-md"
-      style={{ borderTop: `3px solid ${primaryColor}` }}
-    >
-      {card.baituTier && card.baituTier.trim() !== "" && (
-        <TierBadgeWithTooltip
-          tier={card.baituTier}
-          tierType="baitu"
-          desc={card.baituDesc}
-          author={authors?.baitu}
-          size="sm"
-        />
-      )}
-      {card.enTier && card.enTier.trim() !== "" && (
-        <TierBadgeWithTooltip
-          tier={card.enTier}
-          tierType="en"
-          desc={card.enDesc}
-          author={authors?.en}
-          size="sm"
-        />
-      )}
-      {card.chenTier && card.chenTier.trim() !== "" && (
-        <TierBadgeWithTooltip
-          tier={card.chenTier}
-          tierType="chen"
-          desc={card.chenDesc}
-          author={authors?.chen}
-          size="sm"
-        />
-      )}
+      style={{ borderTop: `3px solid ${primaryColor}` }}>
+      {authorIds.map((authorId) => {
+        const tierValue = getTierValue(card, authorId)
+        if (!tierValue) return null
+
+        return (
+          <TierBadgeWithTooltip
+            key={authorId}
+            tier={tierValue}
+            authorId={authorId}
+            desc={getTierDesc(card, authorId)}
+            author={authors?.[authorId]}
+            size="sm"
+          />
+        )
+      })}
       {statsData && <StatsBadge stats={statsData} size="sm" />}
     </div>
   )
