@@ -106,30 +106,111 @@ agricola-tutor/
 
 | Type | Tag Format | Description |
 |------|------------|-------------|
-| **Stable** | `v0.1.0` | Production-ready release |
-| **Beta** | `v0.1.0-beta` | Testing release, may have bugs |
-| **Alpha** | `v0.1.0-alpha` | Early development, experimental |
+| **Stable** | `v0.2.5` | Production-ready release |
+| **Beta** | `v0.2.5-beta` | Testing release, may have bugs |
+| **Alpha** | `v0.2.5-alpha` | Early development, experimental |
 
 ### Creating a Release
 
-#### Option 1: Using Release Script (Recommended)
+#### Option 1: Complete Release with All Locales (Recommended)
+
+Create a single release page with all locale packages:
 
 ```bash
-# Stable releases
-./scripts/release.sh patch stable  # 0.1.0 → 0.1.1
-./scripts/release.sh minor stable  # 0.1.0 → 0.2.0
-./scripts/release.sh major stable  # 0.1.0 → 1.0.0
+# Complete release (all locales: full + en + zh + jp)
+npm run release:complete
 
-# Beta releases
-./scripts/release.sh patch beta    # → 0.1.1-beta
-./scripts/release.sh 0.2.0 beta    # Specific version
+# Or specify version
+bash scripts/release-complete.sh -v 0.2.5
 
-# Alpha releases
-./scripts/release.sh patch alpha   # → 0.1.1-alpha
-
-# Push to trigger GitHub Actions
-git push && git push --tags
+# Prerelease versions
+npm run release:alpha:complete  # Alpha with all locales
+npm run release:beta:complete   # Beta with all locales
 ```
+
+**Packages included:**
+- `agricola-tutor-v0.2.5-full.zip` - All languages (en+zh+jp)
+- `agricola-tutor-v0.2.5-en.zip` - English (en+zh), default=en
+- `agricola-tutor-v0.2.5-zh.zip` - Chinese (en+zh), default=zh
+- `agricola-tutor-v0.2.5-jp.zip` - Japanese (en+jp), default=jp
+
+#### Option 2: Locale-Specific Releases
+
+Create separate releases for each locale:
+
+```bash
+# All locales (creates 3 separate releases)
+npm run release:all
+
+# Individual locale releases
+npm run release:en    # English release
+npm run release:zh    # Chinese release
+npm run release:jp    # Japanese release
+
+# Or use specific versions
+bash scripts/release-locale.sh -v 0.2.5 -l en
+bash scripts/release-locale.sh -v 0.2.5 -l zh
+bash scripts/release-locale.sh -v 0.2.5 -l jp
+```
+
+#### Option 3: Single Stable Release
+
+Create a single release without locale filtering:
+
+```bash
+npm run release:stable
+
+# Or specify version and type
+bash scripts/local-release.sh -v 0.2.5 -t stable
+```
+
+#### Option 4: Prerelease Releases
+
+```bash
+npm run release:alpha   # Alpha release
+npm run release:beta    # Beta release
+```
+
+#### Option 5: Manual Packaging
+
+```bash
+# Build and create ZIP
+pnpm build
+cd build/chrome-mv3-prod
+zip -r ../../agricola-tutor.zip .
+```
+
+Or use the shorthand:
+
+```bash
+pnpm zip
+```
+
+### Build Options
+
+#### Local Builds (without release)
+
+Build extension for local testing or manual upload:
+
+```bash
+# Full build (all languages)
+npm run build:local:all
+
+# English build
+npm run build:local:en
+
+# Chinese build
+npm run build:local:zh
+
+# Japanese build
+npm run build:local:jp
+```
+
+**Build types:**
+- `agricola-tutor-full.zip` - All languages (en+zh+jp)
+- `agricola-tutor-en.zip` - English (en+zh), default=en
+- `agricola-tutor-zh.zip` - Chinese (en+zh), default=zh
+- `agricola-tutor-jp.zip` - Japanese (en+jp), default=jp
 
 #### Option 2: Using npm Scripts
 

@@ -11,12 +11,14 @@ NC='\033[0m' # No Color
 # Default values
 LOCALE=""
 BUILD_ONLY=false
+VERSION=""
 
 usage() {
     echo "Usage: $0 [-l locale] [-h]"
     echo ""
     echo "Options:"
     echo "  -l LOCALE     Target locale: en, zh, jp (default: all languages)"
+    echo "  -v VERSION    Version number (default: from package.json)"
     echo "  -h            Show this help"
     echo ""
     echo "Locale Configuration:"
@@ -27,19 +29,35 @@ usage() {
     echo ""
     echo "Examples:"
     echo "  $0                          # Full build (all languages)"
+    echo "  $0 -v 0.2.5                # Full build with specific version"
     echo "  $0 -l en                  # English build (en+zh)"
+    echo "  $0 -l en -v 0.2.5          # English build with version"
     echo "  $0 -l zh                  # Chinese build (en+zh)"
+    echo "  $0 -l zh -v 0.2.5          # Chinese build with version"
     echo "  $0 -l jp                  # Japanese build (en+jp)"
+    echo "  $0 -l jp -v 0.2.5          # Japanese build with version"
 }
 
 # Parse arguments
-while getopts "l:h" opt; do
+while getopts "l:v:h" opt; do
     case $opt in
         l) LOCALE="$OPTARG" ;;
+        v) VERSION="$OPTARG" ;;
         h) usage; exit 0 ;;
         *) usage; exit 1 ;;
     esac
 done
+
+# Get script directory and project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+cd "$PROJECT_DIR"
+
+# Get current version from package.json
+CURRENT_VERSION=$(node -p "require('./package.json').version" 2>/dev/null || echo "unknown")
+
+# Use provided version or default from package.json
+VERSION=${VERSION:-$CURRENT_VERSION}
 
 # Validate locale if specified
 if [ -n "$LOCALE" ] && [[ ! "$LOCALE" =~ ^(en|zh|jp)$ ]]; then
@@ -47,18 +65,14 @@ if [ -n "$LOCALE" ] && [[ ! "$LOCALE" =~ ^(en|zh|jp)$ ]]; then
     exit 1
 fi
 
-# Get script directory and project root
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
-cd "$PROJECT_DIR"
-
 echo ""
 echo -e "${BLUE}📦 Local Build Package${NC}"
+echo "  Version:      $VERSION"
 
 # Determine build configuration
 if [ -z "$LOCALE" ]; then
     echo -e "${BLUE}Build Type:    Full (all languages)${NC}"
-    FILENAME="agricola-tutor-full.zip"
+    FILENAME="agricola-tutor-v${VERSION}-full.zip"
     BUILD_TYPE="full"
 else
     case $LOCALE in
@@ -72,7 +86,7 @@ else
             echo -e "${BLUE}Build Type:    Japanese (en+jp)${NC}"
             ;;
     esac
-    FILENAME="agricola-tutor-${LOCALE}.zip"
+    FILENAME="agricola-tutor-v${VERSION}-${LOCALE}.zip"
     BUILD_TYPE="locale-${LOCALE}"
 fi
 
